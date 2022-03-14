@@ -1,0 +1,169 @@
+baseURL = "http://example.org/"
+languageCode = "de-de"
+title = "Christian Knedel"
+
+theme = "github-style-master"
+
+
+googleAnalytics = "UA-74756472-1"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+defaultContentLanguage = "de"
+
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"  
+  subcategory = "subcategories"  
+
+
+[languages]
+  [languages.de]
+    baseURL = "https://www.christian-knedel.de/"
+    languageName = "Deutsch"
+    languageCode = "de-de"
+    languageCodeHTML = "de-de"
+    weight = 1
+  [languages.bg]
+    baseURL = "https://www.christian-knedel.de/bg/"
+    languageName = "Bulgarian"
+    languageCode = "bg-bg"
+    languageCodeHTML = "bg-bg"
+    weight = 2
+  [languages.cs]
+    baseURL = "https://www.christian-knedel.de/cs/"
+    languageName = "Czech"
+    languageCode = "cs-cz"
+    languageCodeHTML = "cs-cz"
+    weight = 2
+  [languages.da]
+    baseURL = "https://www.christian-knedel.de/da/"
+    languageName = "Danish"
+    languageCode = "da-dk"
+    languageCodeHTML = "da-dk"
+    weight = 2
+  [languages.el]
+    baseURL = "https://www.christian-knedel.de/el/"
+    languageName = "Greek"
+    languageCode = "el-gr"
+    languageCodeHTML = "el-gr"
+    weight = 2
+  [languages.en]
+    baseURL = "https://www.christian-knedel.de/en/"
+    languageName = "English"
+    languageCode = "en-us"
+    languageCodeHTML = "en-us"
+    weight = 2
+  [languages.es]
+    baseURL = "https://www.christian-knedel.de/es/"
+    languageName = "Spanish"
+    languageCode = "es-es"
+    languageCodeHTML = "es-es"
+    weight = 2
+  [languages.fi]
+    baseURL = "https://www.christian-knedel.de/fi/"
+    languageName = "Finnish"
+    languageCode = "fi-fi"
+    languageCodeHTML = "fi-fi"
+    weight = 2
+  [languages.fr]
+    baseURL = "https://www.christian-knedel.de/fr/"
+    languageName = "French"
+    languageCode = "fr-fr"
+    languageCodeHTML = "fr-fr"
+    weight = 2
+  [languages.hu]
+    baseURL = "https://www.christian-knedel.de/hu/"
+    languageName = "Hungarian"
+    languageCode = "hu-hu"
+    languageCodeHTML = "hu-hu"
+    weight = 2
+  [languages.it]
+    baseURL = "https://www.christian-knedel.de/it/"
+    languageName = "Italian"
+    languageCode = "it-it"
+    languageCodeHTML = "it-it"
+    weight = 2
+  [languages.ja]
+    baseURL = "https://www.christian-knedel.de/ja/"
+    languageName = "Japanese"
+    languageCode = "ja-jp"
+    languageCodeHTML = "ja-jp"
+    weight = 2
+  [languages.nl]
+    baseURL = "https://www.christian-knedel.de/nl/"
+    languageName = "Dutch"
+    languageCode = "nl-nl"
+    languageCodeHTML = "nl-nl"
+    weight = 2
+  [languages.pl]
+    baseURL = "https://www.christian-knedel.de/pl/"
+    languageName = "Polish"
+    languageCode = "pl-pl"
+    languageCodeHTML = "pl-pl"
+    weight = 2
+  [languages.pt]
+    baseURL = "https://www.christian-knedel.de/pt/"
+    languageName = "Portuguese"
+    languageCode = "pt-pt"
+    languageCodeHTML = "pt-pt"
+    weight = 2
+  [languages.ro]
+    baseURL = "https://www.christian-knedel.de/ro/"
+    languageName = "Romanian"
+    languageCode = "ro-ro"
+    languageCodeHTML = "ro-ro"
+    weight = 2
+  [languages.ru]
+    baseURL = "https://www.christian-knedel.de/ru/"
+    languageName = "Russian"
+    languageCode = "ru-ru"
+    languageCodeHTML = "ru-ru"
+    weight = 2
+  [languages.sk]
+    baseURL = "https://www.christian-knedel.de/sk/"
+    languageName = "Slovak"
+    languageCode = "sk-sk"
+    languageCodeHTML = "sk-sk"
+    weight = 2
+  [languages.sl]
+    baseURL = "https://www.christian-knedel.de/sl/"
+    languageName = "Slovenian"
+    languageCode = "sl-sl"
+    languageCodeHTML = "sl-sl"
+    weight = 2
+  [languages.sv]
+    baseURL = "https://www.christian-knedel.de/sv/"
+    languageName = "Swedish"
+    languageCode = "sv-se"
+    languageCodeHTML = "sv-se"
+    weight = 2
+  [languages.zh]
+    baseURL = "https://www.christian-knedel.de/zh/"
+    languageName = "Chinese"
+    languageCode = "zh-cn"
+    languageCodeHTML = "zh-cn"
+    weight = 2
+
+[params]
+  author = "Herr Knedel"
+  description = "365Layouts is building an online drag and drop design platform to help small business owners create advertising materials with our free design templates. "
+  github = "ChristianKnedel"
+  email = "himself@christian-knedel.de"
+  url = "https://www.365Layouts.com"
+  keywords = "blog, google analytics"
+  rss = true
+  lastmod = true
+  favicon = "https://www.christian-knedel.de/images/github.png"
+  location = "Berlin"
+  avatar='https://www.christian-knedel.de/images/avatar.jpg'
+
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5

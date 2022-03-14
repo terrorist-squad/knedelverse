@@ -1,0 +1,23 @@
+version: "3"
+
+services:
+  pihole:
+    container_name: adguardhome
+    image: adguard/adguardhome
+    ports:
+      - "192.168.178.50:53:53/tcp"
+      - "192.168.178.50:53:53/udp"
+      - "8080:80/tcp"
+      - "3000:3000/tcp"
+      - "192.168.178.50:67:67/udp"
+      - "192.168.178.50:68:68/tcp"
+      - "192.168.178.50:68:68/udp"
+      - "8443:443/tcp"
+      - "853:853/tcp"
+    environment:
+      TZ: 'Europe/Berlin'
+    volumes:
+      - './workdir:/opt/adguardhome/work'
+      - './confdir:/opt/adguardhome/conf'
+    restart: unless-stopped
+    

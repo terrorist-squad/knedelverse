@@ -1,0 +1,15 @@
+version: '3'
+services:
+  dokuwiki:
+    image:  bitnami/dokuwiki:latest
+    restart: always
+    ports:
+      - 8080:8080
+      - 8443:8443
+    environment:
+      TZ: 'Europe/Berlin'
+      DOKUWIKI_USERNAME: 'admin'
+      DOKUWIKI_FULL_NAME: 'wiki'
+      DOKUWIKI_PASSWORD: 'password'
+    volumes:
+      - ./data:/bitnami/dokuwiki

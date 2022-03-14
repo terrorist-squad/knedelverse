@@ -1,0 +1,32 @@
+version: '2'
+services:
+  confluence:
+    container_name: confluence_server
+    image: atlassian/confluence-server:latest
+    restart: always
+    environment:
+      TZ: "Europe/Berlin"
+    volumes:
+      - ./confluence:/var/atlassian/application-data/confluence/
+    ports:
+      - 8080:8080
+    networks:
+      - confluence-network
+    depends_on:
+      - db
+
+  db:
+    image: postgres:latest
+    container_name: confluence_postgres
+    restart: always
+    volumes:
+      - /postgresql:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=confluencedb
+      - POSTGRES_PASSWORD=confluence-password
+      - POSTGRES_DB=confluenceUser
+    networks:
+      - confluence-network
+
+networks:
+  confluence-network:

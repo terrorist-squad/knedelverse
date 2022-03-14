@@ -1,0 +1,58 @@
+version: "3.7"
+
+services:
+  peertube:
+    image: chocobozzz/peertube:contain-buster
+    container_name: peertube_peertube
+    ports:
+       - "9000:9000"
+    volumes:
+      - ./config:/config
+      - ./videos:/data
+    environment:
+      - TZ="Europe/Berlin"
+      - PT_INITIAL_ROOT_PASSWORD=password
+      - PEERTUBE_WEBSERVER_HOSTNAME=ip
+      - PEERTUBE_WEBSERVER_PORT=port
+      - PEERTUBE_WEBSERVER_HTTPS=false
+      - PEERTUBE_DB_USERNAME=peertube
+      - PEERTUBE_DB_PASSWORD=peertube
+      - PEERTUBE_DB_HOSTNAME=postgres
+      - POSTGRES_DB=peertube
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - PEERTUBE_REDIS_HOSTNAME=redis
+      - PEERTUBE_ADMIN_EMAIL=himself@christian-knedel.de
+    depends_on:
+      - postgres
+      - redis
+    restart: "always"
+    networks:
+      - peertube
+
+  postgres:
+    restart: always
+    image: postgres:12
+    container_name: peertube_postgres
+    volumes:
+      - ./postgresql:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=peertube
+      - POSTGRES_PASSWORD=peertube
+      - POSTGRES_DB=peertube
+    networks:
+      - peertube
+
+  redis:
+    image: redis:4-alpine
+    container_name: peertube_redis
+    volumes:
+      - ./redis:/data
+    restart: "always"
+    networks:
+      - peertube
+    expose:
+      - "6379"
+
+networks:
+  peertube:

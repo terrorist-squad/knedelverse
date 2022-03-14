@@ -1,0 +1,15 @@
+version: '2'
+services:
+  calibre-web:
+    image: linuxserver/calibre-web
+    container_name: calibre-web-server
+    environment:
+      - PUID=1026
+      - PGID=100
+      - TZ=Europe/Berlin
+    volumes:
+      - /volume1/Buecher:/books
+      - /volume1/docker/calibre:/briefkaste
+    ports:
+      - 8055:8083
+    restart: unless-stopped

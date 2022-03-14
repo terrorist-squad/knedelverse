@@ -1,0 +1,33 @@
+version: '2'
+
+services:
+  bamboo:
+    container_name: bamboo_server
+    image: atlassian/bamboo-server
+    restart: always
+    environment:
+      TZ: "Europe/Berlin"
+    volumes:
+      - ./bamboo-data:/var/atlassian/application-data/bamboo
+    ports:
+      - 8080:8080
+    networks:
+      - bamboo-network
+    depends_on:
+      - db
+
+  db:
+    image: postgres:latest
+    container_name: bamboo-postgres
+    restart: always
+    volumes:
+      - ./postgresql:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=bamboo
+      - POSTGRES_PASSWORD=bamboo
+      - POSTGRES_DB=bamboo
+    networks:
+      - bamboo-network
+
+networks:
+  bamboo-network:

@@ -1,0 +1,13 @@
+version: "2.0"
+services:
+  mealie:
+    container_name: mealie
+    image: hkotel/mealie:latest
+    restart: always
+    ports:
+      - 9000:80
+    environment:
+      db_type: sqlite
+      TZ: Europa/Berlin
+    volumes:
+      - ./mealie/data/:/app/data

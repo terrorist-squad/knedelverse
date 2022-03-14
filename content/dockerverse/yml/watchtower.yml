@@ -1,0 +1,8 @@
+version: '2.0'
+services:
+  jenkins:
+    restart: always
+    image: containrrr/watchtower
+    container_name: watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock

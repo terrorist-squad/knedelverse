@@ -1,0 +1,15 @@
+version: "2.1"
+services:
+  papermerge:
+    image: ghcr.io/linuxserver/papermerge
+    container_name: papermerge
+    environment:
+      - PUID=1024
+      - PGID=100
+      - TZ=Europe/Berlin
+    volumes:
+      - ./config>:/config
+      - ./appdata/data>:/data
+    ports:
+      - 8090:8000
+    restart: unless-stopped

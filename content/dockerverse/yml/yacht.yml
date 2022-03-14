@@ -1,0 +1,12 @@
+version: '3'
+services:
+  yacht:
+    image: selfhostedpro/yacht
+    restart: always
+    environment:
+      TZ: "Europe/Berlin"
+    ports:
+      - 8089:8000
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /docker/server-yacht/config:/config

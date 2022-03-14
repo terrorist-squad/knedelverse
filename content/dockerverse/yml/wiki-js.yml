@@ -1,0 +1,28 @@
+version: '3'
+services:
+  bookstack:
+    image: requarks/wiki:latest
+    restart: always
+    ports:
+      - 8080:3000
+    links:
+      - database
+    environment:
+      DB_TYPE: mariadb
+      DB_HOST: database
+      DB_TYPE: 3306
+      DB_NAME: my_wiki
+      DB_USER: wikiuser
+      DB_PASS: my_wiki_pass
+      TZ: 'Europe/Berlin'
+
+  database:
+    image: mariadb
+    restart: always
+    volumes:
+       - ./mysql:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: my_wiki_pass1
+      MYSQL_DATABASE: my_wiki
+      MYSQL_USER: wikiuser
+      MYSQL_PASSWORD: my_wiki_pass

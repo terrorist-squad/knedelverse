@@ -1,0 +1,26 @@
+version: '3'
+services:
+  xwiki:
+    image: xwiki:10-postgres-tomcat
+    restart: always
+    ports:
+      - 8080:8080
+    links:
+      - db
+    environment:
+      DB_HOST: db
+      DB_DATABASE: xwiki
+      DB_DATABASE: xwiki
+      DB_PASSWORD: xwiki
+      TZ: 'Europe/Berlin'
+
+  db:
+    image: postgres:latest
+    restart: always
+    volumes:
+      - ./postgresql:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=xwiki
+      - POSTGRES_PASSWORD=xwiki
+      - POSTGRES_DB=xwiki
+      - TZ='Europe/Berlin'
