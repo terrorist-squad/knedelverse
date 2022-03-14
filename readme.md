@@ -1,7 +1,7 @@
 # The christian Knedel landing page, built using Hugo.
 First of all, thanks for contributing to the christian-knedel.de website! We're happy you've decided to help up make our site & its content better, and we hope you'd like to keep doing so in the future.
 
-Content/Post: https://github.com/ChristianKnedel/knedelverse/tree/main/content/post
+Content/Post: https://github.com/terrorist-squad/knedelverse/tree/master/content/post
 
 
 ## Build image
