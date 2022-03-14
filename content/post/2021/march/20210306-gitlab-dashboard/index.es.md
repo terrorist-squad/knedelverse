@@ -3,7 +3,7 @@ date = "2021-03-06"
 title = "Panel de control de incidencias con RaspberryPiZeroW, Javascript y GitLab"
 difficulty = "level-3"
 tags = ["git", "gitlab", "issueboard", "issues", "javascript", "wallboard"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210306-gitlab-dashboard/index.es.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210306-gitlab-dashboard/index.es.md"
 +++
 La instalación con Raspberry Noobs es un juego de niños. Todo lo que necesitas es una RaspberryZeroW y una tarjeta SD en blanco.
 ## Paso 1: Instalador de Noobs

@@ -3,7 +3,7 @@ date = "2020-02-16"
 title = "Synology-Nas: Gitlab triggers instellen"
 difficulty = "level-1"
 tags = ["git", "gitlab", "gitlab-runner", "Synology", "trigger"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200216-synology-trigger/index.en.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200216-synology-trigger/index.en.md"
 +++
 Om een Gitlab pijplijn automatisch te triggeren, moet een zogenaamde trigger aangemaakt worden. U kunt zoveel triggers aanmaken als u wilt in de projectinstellingen.
 {{< gallery match="images/1/*.png" >}}

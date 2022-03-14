@@ -3,7 +3,7 @@ date = "2021-04-14"
 title = "Não é legal com a Atlassian: como lidar com a política da Atlassian"
 difficulty = "level-3"
 tags = ["atlassian", "Atlassian-Politik", "bamboo", "Docker", "confluence", "docker-compose", "jira", "lizenz", "krise", "politik"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210414-docker-Atlassian-Politik/index.pt.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-Atlassian-Politik/index.pt.md"
 +++
 A Atlassian deixou de vender as licenças dos pequenos servidores e eu tenho pensado durante muito tempo sobre como lidar com isto. Como ainda quero usar a minha instalação por muito tempo, implementei as seguintes medidas:
 ## Medida 1: Eu uso exclusivamente o Docker

@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "Grandes cosas con contenedores: gestión de la nevera con Grocy"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "kühlschrank", "erp", "mhd", "Speispläne", "cms", "Cafe", "Bistro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-grocy/index.es.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-grocy/index.es.md"
 +++
 Con Grocy puede gestionar toda una casa, un restaurante, una cafetería, un bistró o un mercado de alimentos. Puede gestionar las neveras, los menús, las tareas, las listas de la compra y la fecha de consumo preferente de los alimentos.
 {{< gallery match="images/1/*.png" >}}

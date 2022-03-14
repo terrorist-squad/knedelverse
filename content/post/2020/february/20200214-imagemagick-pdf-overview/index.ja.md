@@ -3,7 +3,7 @@ date = "2020-02-14"
 title = "PDFページ生成の概要"
 difficulty = "level-3"
 tags = ["bash", "linux", "pdf", "postscript", "imagemagick"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200214-imagemagick-pdf-overview/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200214-imagemagick-pdf-overview/index.ja.md"
 +++
 PDFファイルからページ全体のイメージを作成したい方には最適な場所です。
 {{< gallery match="images/1/*.jpg" >}}

@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "Suuria asioita säiliöillä: jääkaapin hallinta Grocyn avulla"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "kühlschrank", "erp", "mhd", "Speispläne", "cms", "Cafe", "Bistro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-grocy/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-grocy/index.fi.md"
 +++
 Grocyn avulla voit hallita kokonaista kotitaloutta, ravintolaa, kahvilaa, bistroa tai ruokakauppaa. Voit hallita jääkaappeja, ruokalistoja, tehtäviä, ostoslistoja ja elintarvikkeiden parasta ennen -päivämääriä.
 {{< gallery match="images/1/*.png" >}}

@@ -3,7 +3,7 @@ date = "2021-04-14"
 title = "Uncool with Atlassian: アトラスのポリシーにどう対処するか"
 difficulty = "level-3"
 tags = ["atlassian", "Atlassian-Politik", "bamboo", "Docker", "confluence", "docker-compose", "jira", "lizenz", "krise", "politik"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210414-docker-Atlassian-Politik/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-Atlassian-Politik/index.ja.md"
 +++
 Atlassianは小規模なサーバーライセンスの販売を中止しましたが、私はこれにどう対処すべきか長い間考えていました。まだまだ長く使っていきたいので、以下のような対策を施しました。
 ## 対策1：Dockerだけを使っている

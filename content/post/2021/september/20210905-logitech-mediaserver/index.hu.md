@@ -3,7 +3,7 @@ date = "2021-09-05"
 title = "Nagyszerű dolgok konténerekkel: Logitech médiaszerverek a Synology lemezállomáson"
 difficulty = "level-1"
 tags = ["logitech", "synology", "diskstation", "nas", "sound-system", "multiroom"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/september/20210905-logitech-mediaserver/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/september/20210905-logitech-mediaserver/index.hu.md"
 +++
 Ebben a bemutatóban megtanulhatja, hogyan telepíthet egy Logitech Media Server-t a Synology DiskStationre.
 {{< gallery match="images/1/*.jpg" >}}

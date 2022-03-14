@@ -3,7 +3,7 @@ date = "2021-03-24"
 title = "Siistejä asioita Atlassianin kanssa: Käytä kaikkia Atlassianin työkaluja LDAP:n kanssa."
 difficulty = "level-3"
 tags = ["atlassian", "bamboo", "jira", "ldap", "openldap", "linux", "test"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210321-atlassian-ldap/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-atlassian-ldap/index.fi.md"
 +++
 Olet onnekas, jos sinulla on oma Atlassian-asennus. Tänään näytän, miten yhdistin Jiran, Bamboon ja Confluence-palvelimen LDAP-palvelimeen.
 ## Vaihe 1: Asenna OpenLDAP

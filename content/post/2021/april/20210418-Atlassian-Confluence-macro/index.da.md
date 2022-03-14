@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Fede ting med Atlassian: Egne makroer i Confluence"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "confluence", "wiki", "macro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.da.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.da.md"
 +++
 Confluence er den gyldne standard inden for vidensbaseområdet. Det er også nemt at oprette dine egne Confluence-brugermakroer. I dag viser jeg, hvordan jeg har oprettet en terminalmakro.
 {{< gallery match="images/1/*.png" >}}

@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "Skvělé věci s kontejnery: Netbox na Synology - Disk"
 difficulty = "level-3"
 tags = ["Computernetzwerken", "DCIM", "Docker", "docker-compose", "IPAM", "netbox", "Synology", "netwerk"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-Netbox/index.cs.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Netbox/index.cs.md"
 +++
 NetBox je bezplatný software pro správu počítačové sítě. Dnes vám ukážu, jak nainstalovat službu Netbox do zařízení Synology DiskStation.
 ## Krok 1: Příprava společnosti Synology

@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "Grandes cosas con contenedores: ejecutar el descargador de Youtube en Synology Diskstation"
 difficulty = "level-1"
 tags = ["Docker", "docker-compose", "download", "linux", "Synology", "video", "youtube"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-docker-youtube-dl/index.es.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-docker-youtube-dl/index.es.md"
 +++
 Muchos de mis amigos saben que dirijo un portal privado de vídeos de aprendizaje en mi Homelab - Network. He guardado en mi NAS los cursos en vídeo de anteriores afiliaciones a portales de aprendizaje y buenos tutoriales de Youtube para utilizarlos sin conexión.
 {{< gallery match="images/1/*.png" >}}

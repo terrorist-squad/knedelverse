@@ -3,7 +3,7 @@ date = "2021-03-21"
 title = "Μεγάλα πράγματα με κοντέινερ: Εκτέλεση του Jenkins στο Synology DS"
 difficulty = "level-3"
 tags = ["build", "devops", "diskstation", "java", "javascript", "Jenkins", "nas", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210321-docker-jenkins/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-docker-jenkins/index.el.md"
 +++
 
 ## Βήμα 1: Προετοιμάστε τη Synology

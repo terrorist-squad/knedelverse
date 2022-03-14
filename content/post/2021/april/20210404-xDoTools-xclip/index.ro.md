@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "Scurtă poveste: Controlul desktopului cu xDoTools și xClip"
 difficulty = "level-3"
 tags = ["bash", "linux", "robot", "roboter", "linux", "Robotic-Process-Automation", "rpa", "xclip", "xdotool"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210404-xDoTools-xclip/index.ro.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-xDoTools-xclip/index.ro.md"
 +++
 În acest tutorial vă arăt cum să controlați un desktop Linux prin Bash. Următoarele pachete sunt necesare pentru robotul Bash:
 {{< terminal >}}

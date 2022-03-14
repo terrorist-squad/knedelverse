@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "コンテナの優れた点：Synology ディスクステーションに独自の dokuWiki をインストールする"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "dokuwiki", "wiki"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-docker-dokuWiki/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-dokuWiki/index.ja.md"
 +++
 DokuWikiは、標準に準拠した使いやすいオープンソースのWikiソフトウェアで、同時に非常に多機能です。今日は、SynologyのディスクステーションにDokuWikiのサービスをインストールする方法を紹介します。
 ## プロフェッショナルのためのオプション

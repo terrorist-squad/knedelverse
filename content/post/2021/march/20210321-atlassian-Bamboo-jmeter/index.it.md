@@ -3,7 +3,7 @@ date = "2021-03-21"
 title = "Cose interessanti con Atlassian: usare Bamboo e jMeter senza plugin"
 difficulty = "level-2"
 tags = ["code", "development", "devops", "docker-compose", "git", "gitlab", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210321-atlassian-Bamboo-jmeter/index.it.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-atlassian-Bamboo-jmeter/index.it.md"
 +++
 Oggi sto creando un test jMeter in Bamboo. Naturalmente, puoi anche implementare questa configurazione di test con i runner di Gitlab o gli slave di Jenkins.
 ## Passo 1: creare il test jMeter

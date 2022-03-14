@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Vzpostavitev lastne strani v Darknetu"
 difficulty = "level-3"
 tags = ["darknet", "tor", "website", "hosting", "hidden"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-darknet-tor-site/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-darknet-tor-site/index.sl.md"
 +++
 Surfiranje po Darknetu je kot obiskovalec precej preprosto. Toda kako lahko gostim stran Onion? Pokazal vam bom, kako vzpostaviti svojo stran v Darknetu.
 ## Korak 1: Kako lahko brskam po Darknetu?

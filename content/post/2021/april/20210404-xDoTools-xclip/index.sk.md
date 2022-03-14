@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "Krátky príbeh: Ovládanie pracovnej plochy pomocou nástrojov xDoTools a xClip"
 difficulty = "level-3"
 tags = ["bash", "linux", "robot", "roboter", "linux", "Robotic-Process-Automation", "rpa", "xclip", "xdotool"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210404-xDoTools-xclip/index.sk.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-xDoTools-xclip/index.sk.md"
 +++
 V tomto návode ukážem, ako ovládať Linux - pracovnú plochu pomocou Bash. Pre robota Bash sú potrebné nasledujúce balíky:
 {{< terminal >}}

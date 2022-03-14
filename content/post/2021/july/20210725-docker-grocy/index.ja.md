@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "コンテナを使った素晴らしいこと：Grocyによる冷蔵庫の管理"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "kühlschrank", "erp", "mhd", "Speispläne", "cms", "Cafe", "Bistro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-grocy/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-grocy/index.ja.md"
 +++
 Grocyでは、家庭全体、レストラン、カフェ、ビストロ、フードマーケットを管理することができます。冷蔵庫、メニュー、タスク、買い物リスト、食品の賞味期限などを管理することができます。
 {{< gallery match="images/1/*.png" >}}

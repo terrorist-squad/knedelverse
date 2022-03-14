@@ -3,7 +3,7 @@ date = "2019-07-17"
 title = "PIFM: 104,6 Mundialmente na Rádio FM"
 difficulty = "level-1"
 tags = ["104.6rtl", "fm-streaming", "pi", "radio", "raspberry-pi"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2019/july/20190717-rpi-pifm/index.pt.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2019/july/20190717-rpi-pifm/index.pt.md"
 +++
 Se você é um fã de 104,6 RTL e não quer passar um dia sem o rádio de Berlim, então você está no lugar certo. Você precisa de um computador de placa única chamado Raspberry e um cabo na porta GPIO 4 como antena.
 ## São necessários os seguintes pacotes

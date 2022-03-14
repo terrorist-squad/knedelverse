@@ -3,7 +3,7 @@ date = "2020-02-21"
 title = "Geweldige dingen met containers: Calibre draaien met Docker Compose (Synology pro setup)"
 difficulty = "level-3"
 tags = ["calibre", "calibre-web", "Docker", "docker-compose", "Synology", "linux"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200221-docker-Calibre-pro/index.nl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200221-docker-Calibre-pro/index.nl.md"
 +++
 Er is al een eenvoudiger handleiding op deze blog: [Synology-Nas: Installeer Calibre Web als een ebook bibliotheek]({{< ref "post/2020/february/20200213-synology-calibreweb" >}} "Synology-Nas: Installeer Calibre Web als een ebook bibliotheek"). Deze handleiding is voor alle Synology DS-professionals.
 ## Stap 1: Synology voorbereiden

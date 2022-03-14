@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Крутые вещи с Atlassian: собственные макросы в Confluence"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "confluence", "wiki", "macro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.ru.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.ru.md"
 +++
 Confluence - это золотой стандарт в области баз знаний. Создание собственных пользовательских макросов Confluence - это тоже детская забава. Сегодня я покажу, как я создал макрос для терминала.
 {{< gallery match="images/1/*.png" >}}

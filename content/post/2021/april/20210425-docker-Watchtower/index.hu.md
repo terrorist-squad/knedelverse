@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "Rövid történet: Konténerek automatikus frissítése Watchtowerrel"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "watchtower"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-Watchtower/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Watchtower/index.hu.md"
 +++
 Ha Docker-konténereket futtat a lemezállomásán, természetesen azt szeretné, hogy azok mindig naprakészek legyenek. A Watchtower automatikusan frissíti a képeket és a konténereket. Így élvezheti a legújabb funkciókat és a legmodernebb adatbiztonságot. Ma megmutatom, hogyan kell telepíteni egy Watchtower-t a Synology lemezállomásra.
 ## 1. lépés: A Synology előkészítése

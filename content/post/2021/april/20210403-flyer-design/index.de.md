@@ -3,7 +3,7 @@ date = "2021-04-03"
 title = "Kreativ aus der Krise: Speisekarten-Flyer für die Nachbarschaft erstellen"
 difficulty = "level-1"
 tags = ["365layouts", "Caterer", "corona", "Gastronomen", "kreativ", "krise", "speisekarten", "Nachbarschaft", "speisen", "speisekarten-vorlagen"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210403-flyer-design/index.de.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210403-flyer-design/index.de.md"
 +++
 
 Die Corona-Krise trifft Gastronomen und Caterer in Deutschland mit aller Härte. Digitale Tools und Lösungen können dabei helfen, so sicher wie möglich durch die Corona-Pandemie zu kommen.

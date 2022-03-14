@@ -3,7 +3,7 @@ date = "2021-04-05"
 title = "Μεγάλα πράγματα με δοχεία: Δική σας πύλη βίντεο με το PeerTube"
 difficulty = "level-1"
 tags = ["diskstation", "peertube", "Synology", "video", "videoportal"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210405-docker-peertube/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210405-docker-peertube/index.el.md"
 +++
 Με το Peertube μπορείτε να δημιουργήσετε τη δική σας διαδικτυακή πύλη βίντεο. Σήμερα δείχνω πώς εγκατέστησα το Peertube στο σταθμό δίσκων Synology.
 ## Βήμα 1: Προετοιμάστε τη Synology

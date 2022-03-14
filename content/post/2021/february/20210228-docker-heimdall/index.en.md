@@ -3,7 +3,7 @@ date = "2021-02-28"
 title = "Great things with containers: Heimdall as home page"
 difficulty = "level-3"
 tags = ["dienste", "Docker", "docker-compose", "docker-for-desktop", "heimdall", "homepage", "startseite"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/february/20210228-docker-heimdall/index.en.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/february/20210228-docker-heimdall/index.en.md"
 +++
 I run many services in my Homelab network, for example LDAP, Gitlab, Atlassian Bamboo, Atlassian Confluence, Atlassian Jira, Jenkins, WordPress, Grafana, Graylog ,ESXI/VMware, Calibre and much more. It's easy to lose track of everything.
 {{< gallery match="images/1/*.jpg" >}}

@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "容器的伟大之处：带有用户界面的Docker注册处"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "registry", "images", "ui", "interface"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-registry/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-registry/index.zh.md"
 +++
 了解如何通过你自己的注册表使你的Docker镜像在整个网络中可用。
 ## 安装

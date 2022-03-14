@@ -3,7 +3,7 @@ date = "2021-04-11"
 title = "Brève histoire : Connecter des volumes Synology à ESXi."
 difficulty = "level-1"
 tags = ["dos", "esxi", "khk-kaufmann-v1", "nuc", "pc-kaufmann", "Synology", "vmware"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210411-esxi-mount/index.fr.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210411-esxi-mount/index.fr.md"
 +++
 
 ## Étape 1 : Activer le service "NFS".

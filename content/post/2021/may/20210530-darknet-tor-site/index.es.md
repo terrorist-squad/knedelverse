@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Crea tu propia página de la Darknet"
 difficulty = "level-3"
 tags = ["darknet", "tor", "website", "hosting", "hidden"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-darknet-tor-site/index.es.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-darknet-tor-site/index.es.md"
 +++
 Navegar por la Darknet como visitante es bastante sencillo. Pero, ¿cómo puedo alojar una página de Onion? Te enseñaré a crear tu propia página de la Darknet.
 ## Paso 1: ¿Cómo puedo navegar por la Darknet?

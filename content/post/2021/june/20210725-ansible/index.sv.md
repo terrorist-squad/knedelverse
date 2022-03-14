@@ -3,7 +3,7 @@ date = "2021-06-25"
 title = "Fjärrstyrning av PIs med Ansible"
 difficulty = "level-2"
 tags = ["ansible", "raspberry", "pi", "cloud", "homelab", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210725-ansible/index.sv.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210725-ansible/index.sv.md"
 +++
 Efter att ha skapat ett Kubernetes-kluster i [Stora saker med containrar: Kubenetes kluster och NFS-lagring]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "Stora saker med containrar: Kubenetes kluster och NFS-lagring")-handledningen vill jag nu kunna hantera dessa datorer via Ansible.
 {{< gallery match="images/1/*.jpg" >}}

@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "建立你自己的黑暗网络页面"
 difficulty = "level-3"
 tags = ["darknet", "tor", "website", "hosting", "hidden"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-darknet-tor-site/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-darknet-tor-site/index.zh.md"
 +++
 作为访问者在黑暗网络上冲浪是非常简单的。但是，我怎么能主持一个洋葱头页面呢？我将告诉你如何建立你自己的暗网网页。
 ## 第1步：我怎样才能在暗网冲浪？

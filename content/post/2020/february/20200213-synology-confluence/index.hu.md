@@ -3,7 +3,7 @@ date = "2020-02-13"
 title = "Synology-Nas: Confluence mint wiki rendszer"
 difficulty = "level-4"
 tags = ["atlassian", "confluence", "Docker", "ds918", "Synology", "wiki", "nas"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200213-synology-confluence/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200213-synology-confluence/index.hu.md"
 +++
 Ha az Atlassian Confluence-t szeretné telepíteni egy Synology NAS-ra, akkor a legjobb helyen jár.
 ## 1. lépés

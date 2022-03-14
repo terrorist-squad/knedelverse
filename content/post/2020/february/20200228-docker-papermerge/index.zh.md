@@ -3,7 +3,7 @@ date = "2020-02-28"
 title = "容器的伟大之处：在Synology NAS上运行Papermerge DMS"
 difficulty = "level-3"
 tags = ["archiv", "automatisch", "dms", "Docker", "Document-Managment-System", "google", "ocr", "papermerge", "Synology", "tesseract", "texterkennung"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200228-docker-papermerge/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200228-docker-papermerge/index.zh.md"
 +++
 Papermerge是一个年轻的文件管理系统（DMS），可以自动分配和处理文件。在这个教程中，我展示了我是如何在Synology磁盘站上安装Papermerge以及DMS是如何工作的。
 ## 专业人士的选择

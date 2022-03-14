@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Udemy Downloader på Synology DiskStation"
 difficulty = "level-2"
 tags = ["udemy", "download", "synology", "diskstation", "udemydl"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-udemydl/index.sv.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-udemydl/index.sv.md"
 +++
 I den här handledningen lär du dig hur du laddar ner udemy-kurser för att använda dem offline.
 ## Steg 1: Förbered Udemy-mappen

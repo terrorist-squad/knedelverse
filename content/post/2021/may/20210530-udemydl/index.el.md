@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Udemy Downloader στον Synology DiskStation"
 difficulty = "level-2"
 tags = ["udemy", "download", "synology", "diskstation", "udemydl"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-udemydl/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-udemydl/index.el.md"
 +++
 Σε αυτό το σεμινάριο θα μάθετε πώς να κατεβάζετε μαθήματα "udemy" για χρήση εκτός σύνδεσης.
 ## Βήμα 1: Προετοιμάστε το φάκελο Udemy

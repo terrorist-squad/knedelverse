@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "Salir de la crisis con creatividad: reservar un servicio con easyappoint"
 difficulty = "level-3"
 tags = ["buchung", "buchungstool", "click-and-meet", "corona", "Docker", "docker-compose", "easyappointments", "krise", "einzelhandel", "geschaefte"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210414-docker-easyappointments/index.es.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-easyappointments/index.es.md"
 +++
 La crisis de Corona está afectando duramente a los proveedores de servicios en Alemania. Las herramientas y soluciones digitales pueden ayudar a superar la pandemia de Corona con la mayor seguridad posible. En esta serie de tutoriales "Creativos para salir de la crisis" muestro tecnologías o herramientas que pueden ser útiles para los pequeños negocios.Hoy muestro "Easyappointments", una herramienta de reserva "click and meet" para servicios, por ejemplo peluquerías o tiendas. Easyappoint consta de dos áreas:
 ## Área 1: Backend

@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "Krátky príbeh: Automatická aktualizácia kontajnerov pomocou Strážnej veže"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "watchtower"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-Watchtower/index.sk.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Watchtower/index.sk.md"
 +++
 Ak na svojej diskovej stanici spúšťate kontajnery Docker, prirodzene chcete, aby boli vždy aktuálne. Strážna veža automaticky aktualizuje obrazy a kontajnery. Takto môžete využívať najnovšie funkcie a najmodernejšie zabezpečenie údajov. Dnes vám ukážem, ako nainštalovať strážnu vežu na diskovú stanicu Synology.
 ## Krok 1: Príprava spoločnosti Synology

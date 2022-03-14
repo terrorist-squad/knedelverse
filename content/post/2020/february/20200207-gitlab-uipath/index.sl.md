@@ -3,7 +3,7 @@ date = "2020-02-07"
 title = "Urejanje robotov uiPath Windows z Gitlabom"
 difficulty = "level-5"
 tags = ["git", "gitlab", "robot", "roboter", "Robotic-Process-Automation", "rpa", "uipath", "windows"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200207-gitlab-uipath/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200207-gitlab-uipath/index.sl.md"
 +++
 UiPath je uveljavljen standard na področju robotske avtomatizacije procesov. Z uiPath lahko razvijete programsko podprtega robota, ki namesto vas skrbi za zapleteno obdelavo podatkov ali naloge klikanja. Toda ali lahko takega robota upravljate tudi s programom Gitlab?Kratek odgovor je "da". Kako točno, si lahko ogledate tukaj. Za naslednje korake potrebujete skrbniške pravice in nekaj izkušenj s programi uiPath, Windows in Gitlab.
 ## Korak 1: Najprej je treba namestiti izvajalca Gitlab.

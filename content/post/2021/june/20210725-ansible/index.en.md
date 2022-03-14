@@ -3,7 +3,7 @@ date = "2021-06-25"
 title = "Controlling PIs remotely with Ansible"
 difficulty = "level-2"
 tags = ["ansible", "raspberry", "pi", "cloud", "homelab", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210725-ansible/index.en.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210725-ansible/index.en.md"
 +++
 After creating a Kubernetes cluster in the [Great things with containers: Kubenetes cluster and NFS storage]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "Great things with containers: Kubenetes cluster and NFS storage") tutorial, I now want to be able to access these machines via Ansible.
 {{< gallery match="images/1/*.jpg" >}}

@@ -3,7 +3,7 @@ date = "2021-03-24"
 title = "Kort verhaal: mijn Gitlab installatie"
 difficulty = "level-3"
 tags = ["code", "development", "devops", "docker-compose", "git", "gitlab", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210324-Gitlab-setup/index.nl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210324-Gitlab-setup/index.nl.md"
 +++
 Na mijn eerste tutorial over het onderwerp "Gitlab op het Synology diskstation", is mij al verschillende keren gevraagd of ik deze oplossing nog steeds gebruik. Nope! In de tussentijd heb ik mijn Atlassian tools en de volgende GitLab installatie verplaatst naar een intel NUC. Bijgaand toon ik mijn huidige Compose bestand, dat natuurlijk ook op een Synology disk station kan worden uitgevoerd. U kunt duidelijk zien dat ik nu speciale instellingen gebruik voor OpenLDAP, container register, mail, certificaten en logging. Bovendien is de wiki en issue tracker functie gedeactiveerd omdat ik Atlassian-Jira en Atlassian-Confluence gebruik. Zoals je kunt zien, is Gitlab erg aanpasbaar. Veel plezier!
 ```

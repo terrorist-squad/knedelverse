@@ -3,7 +3,7 @@ date = "2021-02-28"
 title = "Nagyszerű dolgok konténerekkel: Heimdall mint honlap"
 difficulty = "level-3"
 tags = ["dienste", "Docker", "docker-compose", "docker-for-desktop", "heimdall", "homepage", "startseite"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/february/20210228-docker-heimdall/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/february/20210228-docker-heimdall/index.hu.md"
 +++
 Sok szolgáltatást futtatok a Homelab hálózatomban, például LDAP, Gitlab, Atlassian Bamboo, Atlassian Confluence, Atlassian Jira, Jenkins, WordPress, Grafana, Graylog ,ESXI/VMware, Calibre és még sok más. Könnyű elveszíteni a fonalat.
 {{< gallery match="images/1/*.jpg" >}}

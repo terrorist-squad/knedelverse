@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "Творческо излизане от кризата: резервиране на услуга с лесни срещи"
 difficulty = "level-3"
 tags = ["buchung", "buchungstool", "click-and-meet", "corona", "Docker", "docker-compose", "easyappointments", "krise", "einzelhandel", "geschaefte"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210414-docker-easyappointments/index.bg.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-easyappointments/index.bg.md"
 +++
 Кризата с короната се отразява тежко на доставчиците на услуги в Германия. Цифровите инструменти и решения могат да ви помогнат да преминете през пандемията Корона възможно най-безопасно. В тази поредица от уроци "Творчески изход от кризата" показвам технологии или инструменти, които могат да бъдат полезни за малкия бизнес.Днес показвам "Easyappointments", инструмент за резервации на услуги, например фризьорски салони или магазини, който се използва за "кликване и среща". Easyappointments се състои от две области:
 ## Област 1: Backend

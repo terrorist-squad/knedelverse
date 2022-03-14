@@ -3,7 +3,7 @@ date = "2020-02-13"
 title = "Synology-Nas: Come posso eseguire compiti o cron?"
 difficulty = "level-1"
 tags = ["synology", "diskstation", "task", "cronjob", "cron", "aufgabe"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200213-synology-task/index.it.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200213-synology-task/index.it.md"
 +++
 Volete impostare attività automatiche nel Synology NAS? Cliccate su "Task Scheduler" nel "Pannello di controllo".
 {{< gallery match="images/1/*.png" >}}

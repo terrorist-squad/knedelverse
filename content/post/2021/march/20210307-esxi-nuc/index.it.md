@@ -3,7 +3,7 @@ date = "2021-03-07"
 title = "Installare ESXi su un NUC. Preparare la chiavetta USB tramite MacBook."
 difficulty = "level-4"
 tags = ["esxi", "homelab", "hypervisor", "linux", "nuc", "vmware"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210307-esxi-nuc/index.it.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210307-esxi-nuc/index.it.md"
 +++
 Con ESXi, l'"intel NUC" può essere diviso in qualsiasi numero di computer. In questo tutorial, mostro come ho installato VMware ESXi sul mio NUC.Piccola prefazione: consiglio un aggiornamento del BIOS prima dell'installazione di ESXi. Avrai anche bisogno di una chiavetta USB da 32GB. Ho comprato un intero pacchetto per meno di 5 euro ciascuno da Amazon.
 {{< gallery match="images/1/*.jpg" >}}

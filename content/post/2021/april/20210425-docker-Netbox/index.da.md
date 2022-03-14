@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "Store ting med containere: Netbox på Synology - Disk"
 difficulty = "level-3"
 tags = ["Computernetzwerken", "DCIM", "Docker", "docker-compose", "IPAM", "netbox", "Synology", "netwerk"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-Netbox/index.da.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Netbox/index.da.md"
 +++
 NetBox er en gratis software, der bruges til administration af computernetværk. I dag viser jeg, hvordan man installerer en Netbox-tjeneste på Synology DiskStation.
 ## Trin 1: Forbered Synology

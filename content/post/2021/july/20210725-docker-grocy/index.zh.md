@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "用容器做大事：用Grocy管理冰箱"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "kühlschrank", "erp", "mhd", "Speispläne", "cms", "Cafe", "Bistro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-grocy/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-grocy/index.zh.md"
 +++
 通过Grocy，您可以管理整个家庭、餐厅、咖啡馆、小酒馆或食品市场。你可以管理冰箱、菜单、任务、购物清单和食物的最佳食用日期。
 {{< gallery match="images/1/*.png" >}}

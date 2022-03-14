@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Великие дела с контейнерами: Запуск Docspell DMS на Synology DiskStation"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "Document-Managment-System"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-docker-Docspell/index.ru.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-Docspell/index.ru.md"
 +++
 Docspell - это система управления документами для Synology DiskStation. С помощью Docspell документы можно индексировать, искать и находить гораздо быстрее. Сегодня я покажу, как установить службу Docspell на дисковую станцию Synology.
 ## Шаг 1: Подготовьте Synology

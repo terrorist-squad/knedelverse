@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "アトラシアンの優れた点：Confluenceでのマクロの作成"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "confluence", "wiki", "macro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.ja.md"
 +++
 Confluenceはナレッジベースの分野ではゴールドスタンダードです。Confluence ユーザーマクロの作成も簡単です。今日は、ターミナルマクロを作成した様子を紹介します。
 {{< gallery match="images/1/*.png" >}}

@@ -3,7 +3,7 @@ date = "2020-02-14"
 title = "Ustvarjanje pregleda strani PDF"
 difficulty = "level-3"
 tags = ["bash", "linux", "pdf", "postscript", "imagemagick"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200214-imagemagick-pdf-overview/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200214-imagemagick-pdf-overview/index.sl.md"
 +++
 Če želite ustvariti sliko pregleda strani iz datoteke PDF, ste prišli na pravo mesto!
 {{< gallery match="images/1/*.jpg" >}}

@@ -3,7 +3,7 @@ date = "2020-02-07"
 title = "Страхотни неща с контейнери: Интернет архив в Docker"
 difficulty = "level-3"
 tags = ["bookmarks", "Docker", "Internet-Archiv", "Synology", "shiori"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200207-docker-shiori/index.bg.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200207-docker-shiori/index.bg.md"
 +++
 В следващия урок ще инсталирате частен "интернет архив" като контейнер на Docker. Всичко, от което се нуждаете, е този файл "Docker-compose":
 ```

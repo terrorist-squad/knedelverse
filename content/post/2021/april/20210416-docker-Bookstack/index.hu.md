@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "Nagyszerű dolgok konténerekkel: Saját Bookstack Wiki a Synology DiskStationön"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "bookstack", "wiki"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210416-docker-Bookstack/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210416-docker-Bookstack/index.hu.md"
 +++
 A Bookstack a MediaWiki vagy a Confluence "nyílt forráskódú" alternatívája. Ma megmutatom, hogyan kell telepíteni a Bookstack szolgáltatást a Synology lemezállomáson.
 ## Lehetőség szakemberek számára

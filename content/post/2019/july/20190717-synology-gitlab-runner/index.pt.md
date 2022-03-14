@@ -3,7 +3,7 @@ date = "2019-07-17"
 title = "Synology-Nas: Gitlab - Corredor em Docker Container"
 difficulty = "level-4"
 tags = ["Docker", "git", "gitlab", "gitlab-runner", "raspberry-pi"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2019/july/20190717-synology-gitlab-runner/index.pt.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2019/july/20190717-synology-gitlab-runner/index.pt.md"
 +++
 Como eu instalo um runner Gitlab como um Docker no meu Synology NAS?
 ## Passo 1: Procura da imagem do Docker

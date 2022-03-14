@@ -3,7 +3,7 @@ date = "2021-03-06"
 title = "Πίνακας ελέγχου ζητημάτων με RaspberryPiZeroW, Javascript και GitLab"
 difficulty = "level-3"
 tags = ["git", "gitlab", "issueboard", "issues", "javascript", "wallboard"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210306-gitlab-dashboard/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210306-gitlab-dashboard/index.el.md"
 +++
 Η εγκατάσταση με το Raspberry Noobs είναι παιχνιδάκι! Το μόνο που χρειάζεστε είναι ένα RaspberryZeroW και μια κενή κάρτα SD.
 ## Βήμα 1: Εγκαταστάτης Noobs

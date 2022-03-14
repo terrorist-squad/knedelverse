@@ -3,7 +3,7 @@ date = "2020-02-28"
 title = "Suuria asioita konttien avulla: Papermerge DMS:n käyttäminen Synology NAS:ssa"
 difficulty = "level-3"
 tags = ["archiv", "automatisch", "dms", "Docker", "Document-Managment-System", "google", "ocr", "papermerge", "Synology", "tesseract", "texterkennung"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200228-docker-papermerge/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200228-docker-papermerge/index.fi.md"
 +++
 Papermerge on nuori asiakirjahallintajärjestelmä (DMS), joka pystyy automaattisesti jakamaan ja käsittelemään asiakirjoja. Tässä opetusohjelmassa näytän, miten asensin Papermergen Synology-levyasemalleni ja miten DMS toimii.
 ## Vaihtoehto ammattilaisille

@@ -3,7 +3,7 @@ date = "2021-02-01"
 title = "Grandi cose con i contenitori: Pihole sulla Synology DiskStation"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "dns", "adblocker", "fritzbox"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/february/20210201-docker-pihole/index.it.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/february/20210201-docker-pihole/index.it.md"
 +++
 Oggi mostro come installare un servizio Pihole sulla stazione disco Synology e collegarla al Fritzbox.
 ## Passo 1: Preparare Synology

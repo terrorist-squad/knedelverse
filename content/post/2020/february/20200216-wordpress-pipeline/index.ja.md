@@ -3,7 +3,7 @@ date = "2020-02-16"
 title = "Gitlabセミナー：GitllabのパイプラインでWordPressの静的コピーをデプロイするには？"
 difficulty = "level-2"
 tags = ["cms", "git", "gitlab", "pipeline", "serverless", "wordpress"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200216-wordpress-pipeline/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200216-wordpress-pipeline/index.ja.md"
 +++
 静的なウェブサイトは、読み込みが速く、攻撃対象が少ない。CMSのページをGitlab Pipline経由で変換する方法を紹介します。まず、wgetで静的なコピーを生成するビルドステージを作ります。
 ```

@@ -3,7 +3,7 @@ date = "2020-02-16"
 title = "Σεμινάριο Gitlab: Πώς μπορώ να αναπτύξω ένα στατικό αντίγραφο του WordPress μέσω του αγωγού Gitllab;"
 difficulty = "level-2"
 tags = ["cms", "git", "gitlab", "pipeline", "serverless", "wordpress"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200216-wordpress-pipeline/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200216-wordpress-pipeline/index.el.md"
 +++
 Οι στατικοί ιστότοποι φορτώνουν ταχύτερα και προσφέρουν μικρότερη επιφάνεια επίθεσης. Σας δείχνω πώς να μετατρέψετε μια σελίδα CMS μέσω του Gitlab Pipline. Πρώτα, δημιουργώ ένα στάδιο κατασκευής που δημιουργεί ένα στατικό αντίγραφο μέσω του wget.
 ```

@@ -3,7 +3,7 @@ date = "2021-03-24"
 title = "Rövid történet: A Gitlab beállításaim"
 difficulty = "level-3"
 tags = ["code", "development", "devops", "docker-compose", "git", "gitlab", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210324-Gitlab-setup/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210324-Gitlab-setup/index.hu.md"
 +++
 A "Gitlab a Synology lemezállomáson" témában tartott első bemutatóm után már többször megkérdezték tőlem, hogy használom-e még ezt a megoldást. Nem! Időközben áthelyeztem az Atlassian eszközeimet és a következő GitLab telepítést egy intel NUC-ra. Mellékelten mutatom a jelenlegi Compose fájlomat, ami természetesen egy Synology lemezállomáson is futtatható. Jól látható, hogy most speciális beállításokat használok az OpenLDAP, a konténer-nyilvántartás, a levelezés, a tanúsítványok és a naplózás számára. Ezenkívül a wiki és a problémakövető funkciót kikapcsoltam, mivel Atlassian-Jira-t és Atlassian-Confluence-t használok. Amint láthatja, a Gitlab nagyon jól testre szabható. Jó szórakozást!
 ```

@@ -3,7 +3,7 @@ date = "2021-03-24"
 title = "Σύντομη ιστορία: Οι ρυθμίσεις μου στο Gitlab"
 difficulty = "level-3"
 tags = ["code", "development", "devops", "docker-compose", "git", "gitlab", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210324-Gitlab-setup/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210324-Gitlab-setup/index.el.md"
 +++
 Μετά το πρώτο μου σεμινάριο για το θέμα "Gitlab στο σταθμό δίσκων της Synology", με έχουν ήδη ρωτήσει αρκετές φορές αν εξακολουθώ να χρησιμοποιώ αυτή τη λύση. Όχι! Εν τω μεταξύ, έχω μεταφέρει τα εργαλεία μου Atlassian και την ακόλουθη εγκατάσταση GitLab σε ένα intel NUC. Επισυνάπτω το τρέχον αρχείο Compose, το οποίο φυσικά μπορεί να εκτελεστεί και σε ένα σταθμό δίσκων Synology. Μπορείτε να δείτε καθαρά ότι χρησιμοποιώ τώρα ειδικές ρυθμίσεις για το OpenLDAP, το μητρώο εμπορευματοκιβωτίων, το ταχυδρομείο, τα πιστοποιητικά και την καταγραφή. Επιπλέον, η λειτουργία wiki και παρακολούθησης προβλημάτων έχει απενεργοποιηθεί επειδή χρησιμοποιώ Atlassian-Jira και Atlassian-Confluence. Όπως μπορείτε να δείτε, το Gitlab είναι πολύ προσαρμόσιμο. Καλή διασκέδαση!
 ```

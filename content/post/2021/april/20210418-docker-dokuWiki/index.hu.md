@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Nagyszerű dolgok konténerekkel: Saját dokuWiki telepítése a Synology lemezállomáson"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "dokuwiki", "wiki"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-docker-dokuWiki/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-dokuWiki/index.hu.md"
 +++
 A DokuWiki egy szabványoknak megfelelő, könnyen használható és ugyanakkor rendkívül sokoldalú nyílt forráskódú wiki szoftver. Ma megmutatom, hogyan kell telepíteni a DokuWiki szolgáltatást a Synology lemezállomáson.
 ## Lehetőség szakemberek számára

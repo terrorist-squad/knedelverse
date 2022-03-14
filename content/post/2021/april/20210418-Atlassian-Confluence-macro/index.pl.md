@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Fajne rzeczy z Atlassian: Własne makra w Confluence"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "confluence", "wiki", "macro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.pl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.pl.md"
 +++
 Confluence jest złotym standardem w dziedzinie baz wiedzy. Tworzenie własnych makr użytkownika Confluence jest również dziecinnie proste. Dziś pokażę jak stworzyłem makro terminalowe.
 {{< gallery match="images/1/*.png" >}}

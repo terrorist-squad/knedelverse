@@ -3,7 +3,7 @@ date = "2021-04-11"
 title = "Kreativní východisko z krize: profesionální webový obchod s PrestaShopem"
 difficulty = "level-4"
 tags = ["corona", "Docker", "docker-compose", "kreativ", "krise", "online-shop", "presta", "shop", "shopsystem"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210411-docker-PrestaShop/index.cs.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210411-docker-PrestaShop/index.cs.md"
 +++
 PrestaShop je evropská open source platforma pro elektronické obchodování, která má podle vlastních údajů v současnosti více než 300 000 instalací. Dnes jsem nainstaloval tento software PHP na můj server. Pro tento výukový kurz jsou nutné určité znalosti Linuxu, Dockeru a Docker Compose.
 ## Krok 1: Instalace PrestaShopu

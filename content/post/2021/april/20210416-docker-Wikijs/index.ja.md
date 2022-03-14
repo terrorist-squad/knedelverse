@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "コンテナの優れた点：Synology DiskstationへのWiki.jsのインストール"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "wikijs", "wiki"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210416-docker-Wikijs/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210416-docker-Wikijs/index.ja.md"
 +++
 Wiki.jsは強力なオープンソースのWikiソフトウェアで、そのシンプルなインターフェイスでドキュメント作成を楽しくします。今日は、Synology DiskStationにWiki.jsのサービスをインストールする方法を紹介します。
 ## プロフェッショナルのためのオプション

@@ -3,7 +3,7 @@ date = "2021-03-06"
 title = "Nadzorna plošča z RaspberryPiZeroW, Javascriptom in GitLabom"
 difficulty = "level-3"
 tags = ["git", "gitlab", "issueboard", "issues", "javascript", "wallboard"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210306-gitlab-dashboard/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210306-gitlab-dashboard/index.sl.md"
 +++
 Namestitev z Raspberry Noobs je otroško lahka! Vse, kar potrebujete, sta RaspberryZeroW in prazna kartica SD.
 ## Korak 1: Namestitveni program Noobs

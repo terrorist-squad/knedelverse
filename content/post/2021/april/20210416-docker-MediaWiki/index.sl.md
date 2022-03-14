@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "Velike stvari z zabojniki: Namestitev lastnega MediaWikija na diskovno postajo Synology"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "mediawiki", "wiki"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210416-docker-MediaWiki/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210416-docker-MediaWiki/index.sl.md"
 +++
 MediaWiki je sistem wiki, ki temelji na PHP in je na voljo brezplačno kot odprtokodni izdelek. Danes bom pokazal, kako namestiti storitev MediaWiki na diskovno postajo Synology.
 ## Možnost za strokovnjake

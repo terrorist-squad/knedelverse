@@ -3,7 +3,7 @@ date = "2020-02-07"
 title = "Kurzgeschichte: Bash-Skripte mit Elgato Stream Deck"
 difficulty = "level-2"
 tags = ["bash", "elgato", "skript", "stream-deck"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200221-Elgato%20Stream-Deck/index.de.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200221-Elgato%20Stream-Deck/index.de.md"
 +++
 
 Wenn man ein Bash – Skript im Elgato Stream-Deck einzubinden will, dann benötigt man zuerst ein Bash-Skript.

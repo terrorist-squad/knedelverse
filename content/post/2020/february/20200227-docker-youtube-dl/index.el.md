@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "Μεγάλα πράγματα με δοχεία: Εκτέλεση του προγράμματος λήψης Youtube στο Synology Diskstation"
 difficulty = "level-1"
 tags = ["Docker", "docker-compose", "download", "linux", "Synology", "video", "youtube"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-docker-youtube-dl/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-docker-youtube-dl/index.el.md"
 +++
 Πολλοί από τους φίλους μου γνωρίζουν ότι διαχειρίζομαι μια ιδιωτική πύλη βίντεο εκμάθησης στο Homelab - Network. Έχω αποθηκεύσει μαθήματα βίντεο από προηγούμενες συνδρομές σε εκπαιδευτικές πύλες και καλά σεμινάρια στο Youtube για χρήση εκτός σύνδεσης στο NAS μου.
 {{< gallery match="images/1/*.png" >}}

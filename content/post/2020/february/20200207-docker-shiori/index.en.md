@@ -3,7 +3,7 @@ date = "2020-02-07"
 title = "Great things with containers: Internet Archive in Docker"
 difficulty = "level-3"
 tags = ["bookmarks", "Docker", "Internet-Archiv", "Synology", "shiori"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200207-docker-shiori/index.en.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200207-docker-shiori/index.en.md"
 +++
 In the following tutorial, you will install yourself a private "Internet Archive" as a Docker container. All you need is this "Docker-compose" file:
 ```

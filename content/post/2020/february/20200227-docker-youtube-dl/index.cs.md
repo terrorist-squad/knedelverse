@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "Skvělé věci s kontejnery: Spuštění downloaderu Youtube na stanici Synology Diskstation"
 difficulty = "level-1"
 tags = ["Docker", "docker-compose", "download", "linux", "Synology", "video", "youtube"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-docker-youtube-dl/index.cs.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-docker-youtube-dl/index.cs.md"
 +++
 Mnozí z mých přátel vědí, že na svém portálu Homelab - Network provozuji soukromý výukový videoportál. Videokurzy z minulých členství na vzdělávacích portálech a dobré výukové programy z Youtube jsem si uložil pro offline použití na svém NAS.
 {{< gallery match="images/1/*.png" >}}

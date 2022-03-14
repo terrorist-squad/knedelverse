@@ -3,7 +3,7 @@ date = "2021-11-07"
 title = "Иногда мне хочется иметь машину времени!"
 difficulty = "level-1"
 tags = ["archiv", "internet", "iso", "90ger", "2000er"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/october/20211107-archive-iso/index.ru.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/october/20211107-archive-iso/index.ru.md"
 +++
 Wayback Machine - это архив старых веб-сайтов. Достаточно ввести там домен и получить временную шкалу всех статических снимков.
 {{< gallery match="images/1/*.png" >}}

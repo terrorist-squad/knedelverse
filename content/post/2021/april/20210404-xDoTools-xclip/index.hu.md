@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "Rövid történet: Asztali vezérlés xDoTools és xClip segítségével"
 difficulty = "level-3"
 tags = ["bash", "linux", "robot", "roboter", "linux", "Robotic-Process-Automation", "rpa", "xclip", "xdotool"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210404-xDoTools-xclip/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-xDoTools-xclip/index.hu.md"
 +++
 Ebben a bemutatóban megmutatom, hogyan lehet egy Linux - asztalt a Bash segítségével vezérelni. A következő csomagok szükségesek a Bash robothoz:
 {{< terminal >}}

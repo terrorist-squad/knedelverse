@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Załóż własną stronę Darknet"
 difficulty = "level-3"
 tags = ["darknet", "tor", "website", "hosting", "hidden"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-darknet-tor-site/index.pl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-darknet-tor-site/index.pl.md"
 +++
 Surfowanie po Darknecie jako gość jest całkiem proste. Ale jak mogę hostować stronę Onion? Pokażę Ci jak założyć własną stronę w Darknecie.
 ## Krok 1: Jak mogę surfować po Darknecie?

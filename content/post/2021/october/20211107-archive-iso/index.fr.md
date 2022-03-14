@@ -3,7 +3,7 @@ date = "2021-11-07"
 title = "Parfois, j'aimerais avoir une machine à remonter le temps !"
 difficulty = "level-1"
 tags = ["archiv", "internet", "iso", "90ger", "2000er"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/october/20211107-archive-iso/index.fr.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/october/20211107-archive-iso/index.fr.md"
 +++
 Le moteur de wayback est une archive d'anciens sites web. Il suffit d'y entrer le domaine pour obtenir une frise chronologique de tous les snapshots statiques.
 {{< gallery match="images/1/*.png" >}}

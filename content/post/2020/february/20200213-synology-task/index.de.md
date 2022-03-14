@@ -3,7 +3,7 @@ date = "2020-02-13"
 title = "Synology-Nas: Wie kann Aufgaben oder Crons ausführen?"
 difficulty = "level-1"
 tags = ["synology", "diskstation", "task", "cronjob", "cron", "aufgabe"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200213-synology-task/index.de.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200213-synology-task/index.de.md"
 +++
 
 Wollen Sie automatische Aufgaben im Synology-Nas einstellen? Bitte klicken Sie auf den „Aufgabenplaner“ in der „Systemsteuerung“. 

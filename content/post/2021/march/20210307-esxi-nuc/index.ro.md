@@ -3,7 +3,7 @@ date = "2021-03-07"
 title = "Instalați ESXi pe un NUC. Pregătiți stick-ul USB prin intermediul MacBook."
 difficulty = "level-4"
 tags = ["esxi", "homelab", "hypervisor", "linux", "nuc", "vmware"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210307-esxi-nuc/index.ro.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210307-esxi-nuc/index.ro.md"
 +++
 Cu ESXi, "intel NUC" poate fi împărțit în orice număr de calculatoare. În acest tutorial, vă arăt cum am instalat VMware ESXi pe NUC-ul meu.O mică prefață: vă recomand o actualizare a BIOS-ului înainte de instalarea ESXi. De asemenea, veți avea nevoie de un stick USB de 32 GB. Am cumpărat un pachet întreg la mai puțin de 5 euro fiecare de pe Amazon.
 {{< gallery match="images/1/*.jpg" >}}

@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "Suuria asioita konttien kanssa: Docker-rekisteri ja käyttöliittymä (UI)"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "registry", "images", "ui", "interface"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-registry/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-registry/index.fi.md"
 +++
 Opi, miten saat Docker-kuvasi saataville koko verkon laajuisesti oman rekisterisi kautta.
 ## Asennus

@@ -3,7 +3,7 @@ date = "2021-03-07"
 title = "Asenna ESXi NUC:lle. Valmistele USB-tikku MacBookin kautta."
 difficulty = "level-4"
 tags = ["esxi", "homelab", "hypervisor", "linux", "nuc", "vmware"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210307-esxi-nuc/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210307-esxi-nuc/index.fi.md"
 +++
 ESXi:n avulla "intel NUC" voidaan jakaa mihin tahansa määrään tietokoneita. Tässä opetusohjelmassa näytän, miten asensin VMware ESXi:n NUC-tietokoneeseeni.Pieni esipuhe: suosittelen BIOS-päivitystä ennen ESXi-asennusta. Tarvitset myös 32 Gt:n USB-tikun. Ostin koko nipun alle 5 eurolla kappale Amazonista.
 {{< gallery match="images/1/*.jpg" >}}

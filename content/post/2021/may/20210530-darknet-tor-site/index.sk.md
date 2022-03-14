@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Založenie vlastnej stránky Darknetu"
 difficulty = "level-3"
 tags = ["darknet", "tor", "website", "hosting", "hidden"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-darknet-tor-site/index.sk.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-darknet-tor-site/index.sk.md"
 +++
 Surfovanie v Darknete je ako návštevník pomerne jednoduché. Ako však môžem hostiť stránku Onion? Ukážem vám, ako si vytvoriť vlastnú stránku Darknetu.
 ## Krok 1: Ako môžem surfovať v Darknete?

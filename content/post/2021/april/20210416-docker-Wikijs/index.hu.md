@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "Nagyszerű dolgok konténerekkel: Wiki.js telepítése a Synology Diskstationre"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "wikijs", "wiki"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210416-docker-Wikijs/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210416-docker-Wikijs/index.hu.md"
 +++
 A Wiki.js egy nagy teljesítményű, nyílt forráskódú wiki szoftver, amely egyszerű felületével élvezetessé teszi a dokumentálást. Ma megmutatom, hogyan lehet telepíteni egy Wiki.js szolgáltatást a Synology DiskStationre.
 ## Lehetőség szakemberek számára

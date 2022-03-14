@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "Великие дела с контейнерами: управление холодильником с помощью Grocy"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "kühlschrank", "erp", "mhd", "Speispläne", "cms", "Cafe", "Bistro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-grocy/index.ru.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-grocy/index.ru.md"
 +++
 С помощью Grocy вы можете управлять целым хозяйством, рестораном, кафе, бистро или продовольственным рынком. Вы можете управлять холодильниками, меню, задачами, списками покупок и сроками годности продуктов.
 {{< gallery match="images/1/*.png" >}}

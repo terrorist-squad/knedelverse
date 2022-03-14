@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "ショートストーリー：xDoToolsとxClipによるデスクトップコントロール"
 difficulty = "level-3"
 tags = ["bash", "linux", "robot", "roboter", "linux", "Robotic-Process-Automation", "rpa", "xclip", "xdotool"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210404-xDoTools-xclip/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-xDoTools-xclip/index.ja.md"
 +++
 このチュートリアルでは、Bashを使ってLinuxのデスクトップを操作する方法を紹介します。Bashロボットには以下のパッケージが必要です。
 {{< terminal >}}

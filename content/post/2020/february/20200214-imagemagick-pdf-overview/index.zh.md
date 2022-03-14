@@ -3,7 +3,7 @@ date = "2020-02-14"
 title = "生成PDF页面概述"
 difficulty = "level-3"
 tags = ["bash", "linux", "pdf", "postscript", "imagemagick"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200214-imagemagick-pdf-overview/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200214-imagemagick-pdf-overview/index.zh.md"
 +++
 如果你想从一个PDF文件中创建一个页面概述图像，那么你就来对地方了
 {{< gallery match="images/1/*.jpg" >}}

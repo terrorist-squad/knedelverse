@@ -3,7 +3,7 @@ date = "2019-07-17"
 title = "SmartTV с RaspberryPiZeroW и LibreElec"
 difficulty = "level-3"
 tags = ["diy", "diy-smart-tv", "libreelec", "linux", "mediacenter", "mediapc", "raspberry", "raspberry-pi", "smartv"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2019/july/20190717-LibreElec/index.ru.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2019/july/20190717-LibreElec/index.ru.md"
 +++
 SmartTV могут быть бомбой замедленного действия. Часто операционные системы телевизоров содержат серьезные пробелы или не поддерживаются в актуальном состоянии. Хорошим решением может стать отдельная операционная система MediaPC. LibreElec работает на самом слабом Raspberry и может управляться с помощью пульта дистанционного управления телевизора. LibreElec является более настраиваемой, чем операционная система SmartTv, и предлагает множество приложений/модулей. Все, что вам нужно, это RaspberryZeroW и чистая SD-карта.
 ## Шаг 1:

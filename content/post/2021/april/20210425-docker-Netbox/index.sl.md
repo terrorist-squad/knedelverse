@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "Velike stvari z zabojniki: Netbox na Synology - Disk"
 difficulty = "level-3"
 tags = ["Computernetzwerken", "DCIM", "Docker", "docker-compose", "IPAM", "netbox", "Synology", "netwerk"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-Netbox/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Netbox/index.sl.md"
 +++
 NetBox je brezplačna programska oprema za upravljanje računalniškega omrežja. Danes bom pokazal, kako namestiti storitev Netbox v strežnik Synology DiskStation.
 ## Korak 1: Pripravite Synology

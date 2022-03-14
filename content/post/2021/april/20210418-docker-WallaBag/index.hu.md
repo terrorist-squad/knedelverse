@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Nagyszerű dolgok konténerekkel: Saját WallaBag a Synology lemezállomáson"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "archiv", "wallabag"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-docker-WallaBag/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-WallaBag/index.hu.md"
 +++
 A Wallabag egy érdekes weboldalak vagy cikkek archiválására szolgáló program. Ma megmutatom, hogyan kell telepíteni a Wallabag szolgáltatást a Synology lemezállomáson.
 ## Lehetőség szakemberek számára

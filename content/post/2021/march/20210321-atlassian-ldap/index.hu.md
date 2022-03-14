@@ -3,7 +3,7 @@ date = "2021-03-24"
 title = "Király dolgok az Atlassiannal: Használja az összes Atlassian eszközt LDAP-pal"
 difficulty = "level-3"
 tags = ["atlassian", "bamboo", "jira", "ldap", "openldap", "linux", "test"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210321-atlassian-ldap/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-atlassian-ldap/index.hu.md"
 +++
 Ön szerencsés, ha saját Atlassian telepítéssel rendelkezik. Ma megmutatom, hogyan csatlakoztattam a Jira-t, a Bamboo-t és a Confluence-t az LDAP-kiszolgálómhoz.
 ## 1. lépés: Az OpenLDAP telepítése

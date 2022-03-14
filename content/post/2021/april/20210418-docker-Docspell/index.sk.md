@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Veľké veci s kontajnermi: Spustenie systému Docspell DMS na stanici Synology DiskStation"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "Document-Managment-System"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-docker-Docspell/index.sk.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-Docspell/index.sk.md"
 +++
 Docspell je systém správy dokumentov pre zariadenie Synology DiskStation. Prostredníctvom služby Docspell je možné dokumenty indexovať, vyhľadávať a nájsť oveľa rýchlejšie. Dnes ukážem, ako nainštalovať službu Docspell na diskovú stanicu Synology.
 ## Krok 1: Príprava spoločnosti Synology

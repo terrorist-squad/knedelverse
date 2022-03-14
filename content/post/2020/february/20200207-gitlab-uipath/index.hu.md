@@ -3,7 +3,7 @@ date = "2020-02-07"
 title = "Az uiPath Windows robotok archiválása a Gitlab segítségével"
 difficulty = "level-5"
 tags = ["git", "gitlab", "robot", "roboter", "Robotic-Process-Automation", "rpa", "uipath", "windows"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200207-gitlab-uipath/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200207-gitlab-uipath/index.hu.md"
 +++
 Az UiPath a robotizált folyamatautomatizálás bevett szabványa. Az uiPath segítségével olyan szoftveralapú robotot/robotot fejleszthet, amely komplex adatfeldolgozási vagy kattintási feladatokat végez el Ön helyett. De lehet-e egy ilyen robotot Gitlab segítségével is irányítani?A rövid válasz: igen. És hogy pontosan hogyan, azt itt láthatja. A következő lépésekhez rendszergazdai jogokra, valamint némi uiPath, Windows és Gitlab tapasztalatra van szükséged.
 ## 1. lépés: Az első teendő a Gitlab runner telepítése.

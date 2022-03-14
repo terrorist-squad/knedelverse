@@ -3,7 +3,7 @@ date = "2021-06-26"
 title = "コンテナで素晴らしいことを：Kubernetes Dashboard"
 difficulty = "level-4"
 tags = ["kubernetes", "cloud", "homelab", "pods", "nodes", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210726-kubernetes-board/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210726-kubernetes-board/index.ja.md"
 +++
 [コンテナの優れた点：KubenetesクラスタとNFSストレージ]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "コンテナの優れた点：KubenetesクラスタとNFSストレージ")チュートリアルでKubernetesクラスタを作成した後、Kubernetesダッシュボードをインストールしてみたいと思います。
 {{< gallery match="images/1/*.jpg" >}}

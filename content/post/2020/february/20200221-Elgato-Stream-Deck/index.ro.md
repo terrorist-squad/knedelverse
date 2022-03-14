@@ -3,7 +3,7 @@ date = "2020-02-07"
 title = "Scurtă poveste: Scripturi Bash cu Elgato Stream Deck"
 difficulty = "level-2"
 tags = ["bash", "elgato", "skript", "stream-deck"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200221-Elgato%20Stream-Deck/index.ro.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200221-Elgato%20Stream-Deck/index.ro.md"
 +++
 Dacă doriți să includeți un script bash în Elgato Stream Deck, aveți nevoie mai întâi de un script bash.
 ## Pasul 1: Creați un script Bash:

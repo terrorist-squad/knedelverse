@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "Du grand avec les conteneurs : le registre Docker avec UI"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "registry", "images", "ui", "interface"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-registry/index.fr.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-registry/index.fr.md"
 +++
 Découvrez comment rendre vos images Docker disponibles sur l'ensemble du réseau via votre propre registre.
 ## Installation

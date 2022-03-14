@@ -3,7 +3,7 @@ date = "2021-02-28"
 title = "Grandi cose con i contenitori: Heimdall come homepage"
 difficulty = "level-3"
 tags = ["dienste", "Docker", "docker-compose", "docker-for-desktop", "heimdall", "homepage", "startseite"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/february/20210228-docker-heimdall/index.it.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/february/20210228-docker-heimdall/index.it.md"
 +++
 Eseguo molti servizi nella mia rete Homelab, per esempio LDAP, Gitlab, Atlassian Bamboo, Atlassian Confluence, Atlassian Jira, Jenkins, WordPress, Grafana, Graylog, ESXI/VMware, Calibre e molto altro. È facile perdere il conto di tutto.
 {{< gallery match="images/1/*.jpg" >}}

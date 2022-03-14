@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "Grandes cosas con contenedores: Instalar tu propio MediaWiki en la estación de disco Synology"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "mediawiki", "wiki"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210416-docker-MediaWiki/index.es.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210416-docker-MediaWiki/index.es.md"
 +++
 MediaWiki es un sistema wiki basado en PHP que está disponible gratuitamente como producto de código abierto. Hoy muestro cómo instalar un servicio MediaWiki en la estación de disco Synology.
 ## Opción para profesionales

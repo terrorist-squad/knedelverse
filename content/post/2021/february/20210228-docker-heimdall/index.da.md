@@ -3,7 +3,7 @@ date = "2021-02-28"
 title = "Store ting med containere: Heimdall som hjemmeside"
 difficulty = "level-3"
 tags = ["dienste", "Docker", "docker-compose", "docker-for-desktop", "heimdall", "homepage", "startseite"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/february/20210228-docker-heimdall/index.da.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/february/20210228-docker-heimdall/index.da.md"
 +++
 Jeg kører mange tjenester i mit Homelab-netværk, f.eks. LDAP, Gitlab, Atlassian Bamboo, Atlassian Confluence, Atlassian Jira, Jenkins, WordPress, Grafana, Graylog, ESXI/VMware, Calibre og meget mere. Det er nemt at miste overblikket over alting.
 {{< gallery match="images/1/*.jpg" >}}

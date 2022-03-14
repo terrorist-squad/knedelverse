@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "容器的伟大之处：在Synology磁盘站上安装你自己的MediaWiki"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "mediawiki", "wiki"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210416-docker-MediaWiki/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210416-docker-MediaWiki/index.zh.md"
 +++
 MediaWiki是一个基于PHP的wiki系统，作为一个开源产品可以免费使用。今天我展示了如何在Synology磁盘站上安装MediaWiki服务。
 ## 专业人士的选择

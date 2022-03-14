@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "Kratka zgodba: Samodejno posodabljanje zabojnikov s Stražnim stolpom"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "watchtower"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-Watchtower/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Watchtower/index.sl.md"
 +++
 Če na svoji diskovni postaji uporabljate vsebnike Docker, seveda želite, da so vedno posodobljeni. Program Watchtower samodejno posodablja slike in vsebnike. Tako lahko uživate v najnovejših funkcijah in najsodobnejši varnosti podatkov. Danes vam bom pokazal, kako namestiti stolp Watchtower na diskovno postajo Synology.
 ## Korak 1: Pripravite Synology

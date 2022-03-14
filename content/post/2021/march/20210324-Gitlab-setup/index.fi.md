@@ -3,7 +3,7 @@ date = "2021-03-24"
 title = "Lyhyt tarina: Gitlab-asetelmani"
 difficulty = "level-3"
 tags = ["code", "development", "devops", "docker-compose", "git", "gitlab", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210324-Gitlab-setup/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210324-Gitlab-setup/index.fi.md"
 +++
 Ensimmäisen opetusohjelmani "Gitlab Synologyn levyasemalla" jälkeen minulta on jo kysytty useita kertoja, käytänkö edelleen tätä ratkaisua. Ei! Sillä välin olen siirtänyt Atlassian-työkaluni ja seuraavan GitLab-asennukseni intel NUC:lle. Ohessa on nykyinen Compose-tiedostoni, jota voidaan tietenkin käyttää myös Synologyn levyasemalla. Näet selvästi, että käytän nyt erityisiä asetuksia OpenLDAP:lle, konttirekisterille, sähköpostille, varmenteille ja kirjaamiselle. Lisäksi wiki- ja ongelmanseurantaominaisuus on poistettu käytöstä, koska käytän Atlassian-Jiraa ja Atlassian-Confluencea. Kuten huomaat, Gitlab on hyvin muokattavissa. Pidä hauskaa!
 ```

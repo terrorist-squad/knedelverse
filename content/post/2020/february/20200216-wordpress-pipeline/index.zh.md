@@ -3,7 +3,7 @@ date = "2020-02-16"
 title = "Gitlab研讨会：如何通过Gitllab管道部署一个静态WordPress副本？"
 difficulty = "level-2"
 tags = ["cms", "git", "gitlab", "pipeline", "serverless", "wordpress"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200216-wordpress-pipeline/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200216-wordpress-pipeline/index.zh.md"
 +++
 静态网站加载速度更快，提供的攻击面更小。我告诉你如何通过Gitlab Pipline转换一个CMS页面。首先，我创建了一个构建阶段，通过wget生成一个静态副本。
 ```

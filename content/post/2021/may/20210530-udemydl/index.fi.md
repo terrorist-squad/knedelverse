@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Udemy Downloader Synology DiskStationilla"
 difficulty = "level-2"
 tags = ["udemy", "download", "synology", "diskstation", "udemydl"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-udemydl/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-udemydl/index.fi.md"
 +++
 Tässä ohjeessa opit lataamaan "udemy"-kursseja offline-käyttöä varten.
 ## Vaihe 1: Valmistele Udemy-kansio

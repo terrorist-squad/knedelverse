@@ -3,7 +3,7 @@ date = "2021-06-26"
 title = "Великие дела с контейнерами: панель Kubernetes Dashboard"
 difficulty = "level-4"
 tags = ["kubernetes", "cloud", "homelab", "pods", "nodes", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210726-kubernetes-board/index.ru.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210726-kubernetes-board/index.ru.md"
 +++
 После создания кластера Kubernetes в руководстве [Большие вещи с контейнерами: кластер Kubenetes и хранилище NFS]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "Большие вещи с контейнерами: кластер Kubenetes и хранилище NFS") я хотел бы установить панель Kubernetes.
 {{< gallery match="images/1/*.jpg" >}}

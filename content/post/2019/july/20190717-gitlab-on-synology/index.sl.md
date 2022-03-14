@@ -3,7 +3,7 @@ date = "2019-07-17"
 title = "Synology Nas: Namestite Gitlab?"
 difficulty = "level-1"
 tags = ["git", "gitlab", "gitlab-runner", "nas", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2019/july/20190717-gitlab-on-synology/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2019/july/20190717-gitlab-on-synology/index.sl.md"
 +++
 Tukaj prikazujem, kako sem namestil program Gitlab in izvajalca Gitlab v svoj strežnik Synology NAS. Najprej je treba aplikacijo GitLab namestiti kot paket Synology. V Centru paketov poiščite Gitlab in kliknite "Namesti".   
 {{< gallery match="images/1/*.*" >}}

@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Lucruri interesante cu Atlassian: Macros proprii în Confluence"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "confluence", "wiki", "macro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.ro.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.ro.md"
 +++
 Confluence este standardul de aur în domeniul bazei de cunoștințe. Crearea propriilor macro-uri de utilizator Confluence este, de asemenea, o joacă de copii. Astăzi vă arăt cum am creat o macro de terminal.
 {{< gallery match="images/1/*.png" >}}

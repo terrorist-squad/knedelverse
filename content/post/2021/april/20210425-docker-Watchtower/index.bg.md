@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "Кратка история: Автоматично актуализиране на контейнери с Watchtower"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "watchtower"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-Watchtower/index.bg.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Watchtower/index.bg.md"
 +++
 Ако използвате контейнери Docker на дисковата си станция, естествено искате те винаги да са актуални. Watchtower актуализира образите и контейнерите автоматично. По този начин можете да се възползвате от най-новите функции и най-съвременната защита на данните. Днес ще ви покажа как да инсталирате Watchtower на дисковата станция на Synology.
 ## Стъпка 1: Подготовка на Synology

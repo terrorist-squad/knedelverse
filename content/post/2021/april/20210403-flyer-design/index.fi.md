@@ -3,7 +3,7 @@ date = "2021-04-03"
 title = "Luovaa kriisistä: Luo ruokalistaesitteitä naapurustoon"
 difficulty = "level-1"
 tags = ["365layouts", "Caterer", "corona", "Gastronomen", "kreativ", "krise", "speisekarten", "Nachbarschaft", "speisen", "speisekarten-vorlagen"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210403-flyer-design/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210403-flyer-design/index.fi.md"
 +++
 Corona-kriisi on iskenyt pahasti ravintoloitsijoihin ja pitopalveluihin Saksassa. Digitaaliset työkalut ja ratkaisut voivat auttaa selviytymään Corona-pandemiasta mahdollisimman turvallisesti.Tässä "Luova ulos kriisistä" -opetussarjassa esittelen teknologioita tai työkaluja, jotka voivat olla hyödyllisiä pienyrityksille. Tänään luon viikoittaisen ruokalistan "OUT OF HOUSE BUSINESS". Löydät monia valikkomalleja osoitteesta https://www.365layouts.com/de/vorlagen/menu/. Voit myös muokata näitä malleja välittömästi 365Layouts-editorissa.
 ## Vaihe 1: Etsi malli

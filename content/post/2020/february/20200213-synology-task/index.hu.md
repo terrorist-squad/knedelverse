@@ -3,7 +3,7 @@ date = "2020-02-13"
 title = "Synology-Nas: Hogyan futtathatok feladatokat vagy cronokat?"
 difficulty = "level-1"
 tags = ["synology", "diskstation", "task", "cronjob", "cron", "aufgabe"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200213-synology-task/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200213-synology-task/index.hu.md"
 +++
 Szeretne automatikus feladatokat beállítani a Synology NAS-on? Kattintson a "Feladatütemezőre" a "Vezérlőpultban".
 {{< gallery match="images/1/*.png" >}}

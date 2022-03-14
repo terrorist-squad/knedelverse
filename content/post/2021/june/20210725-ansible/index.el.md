@@ -3,7 +3,7 @@ date = "2021-06-25"
 title = "Έλεγχος των PI από απόσταση με το Ansible"
 difficulty = "level-2"
 tags = ["ansible", "raspberry", "pi", "cloud", "homelab", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210725-ansible/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210725-ansible/index.el.md"
 +++
 Αφού δημιούργησα ένα σύμπλεγμα Kubernetes στο σεμινάριο [Μεγάλα πράγματα με κοντέινερ: συστάδα Kubenetes και αποθήκευση NFS]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "Μεγάλα πράγματα με κοντέινερ: συστάδα Kubenetes και αποθήκευση NFS"), θα ήθελα τώρα να μπορώ να απευθύνομαι σε αυτούς τους υπολογιστές μέσω του Ansible.
 {{< gallery match="images/1/*.jpg" >}}

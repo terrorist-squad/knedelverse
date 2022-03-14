@@ -3,7 +3,7 @@ date = "2020-02-07"
 title = "Historia corta: Guiones de Bash con Elgato Stream Deck"
 difficulty = "level-2"
 tags = ["bash", "elgato", "skript", "stream-deck"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200221-Elgato%20Stream-Deck/index.es.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200221-Elgato%20Stream-Deck/index.es.md"
 +++
 Si quiere incluir un script bash en el Elgato Stream Deck, primero necesita un script bash.
 ## Paso 1: Crear un script Bash:

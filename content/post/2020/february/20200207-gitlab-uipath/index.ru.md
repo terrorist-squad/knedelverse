@@ -3,7 +3,7 @@ date = "2020-02-07"
 title = "Организация работы роботов uiPath Windows с помощью Gitlab"
 difficulty = "level-5"
 tags = ["git", "gitlab", "robot", "roboter", "Robotic-Process-Automation", "rpa", "uipath", "windows"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200207-gitlab-uipath/index.ru.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200207-gitlab-uipath/index.ru.md"
 +++
 UiPath является признанным стандартом в области автоматизации роботизированных процессов. С помощью uiPath вы можете разработать программного робота/робот, который будет выполнять за вас сложные задачи по обработке данных или кликов. Но можно ли управлять таким роботом с помощью Gitlab? Короткий ответ - "да". А как именно, вы можете посмотреть здесь. Для выполнения следующих шагов вам понадобятся права администратора и некоторый опыт работы с uiPath, Windows и Gitlab.
 ## Шаг 1: Первое, что необходимо сделать, это установить бегунок Gitlab.

@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "Μεγάλα πράγματα με δοχεία: Μητρώο Docker με UI"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "registry", "images", "ui", "interface"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-registry/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-registry/index.el.md"
 +++
 Μάθετε πώς να κάνετε τις εικόνες σας Docker διαθέσιμες σε όλο το δίκτυο μέσω του δικού σας μητρώου.
 ## Εγκατάσταση

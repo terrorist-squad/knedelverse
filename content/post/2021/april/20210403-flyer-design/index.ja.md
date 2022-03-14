@@ -3,7 +3,7 @@ date = "2021-04-03"
 title = "危機からの脱却：近隣住民向けのメニューチラシの作成"
 difficulty = "level-1"
 tags = ["365layouts", "Caterer", "corona", "Gastronomen", "kreativ", "krise", "speisekarten", "Nachbarschaft", "speisen", "speisekarten-vorlagen"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210403-flyer-design/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210403-flyer-design/index.ja.md"
 +++
 コロナの危機は、ドイツのレストランやケータリング業者に大きな打撃を与えています。このチュートリアルシリーズ「Creative out of the crisis」では、中小企業にとって有用な技術やツールを紹介します。今日は「OUT OF HOUSE BUSINESS」の1週間分のメニューを作ります。https://www.365layouts.com/de/vorlagen/menu/、多くのメニューテンプレートを見つけることができます。また、これらのテンプレートは365Layoutsエディタですぐにカスタマイズすることができます。
 ## ステップ1：テンプレートを探す

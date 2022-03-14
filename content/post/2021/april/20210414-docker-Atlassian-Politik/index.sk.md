@@ -3,7 +3,7 @@ date = "2021-04-14"
 title = "Uncool with Atlassian: ako sa vysporiadať so zásadami spoločnosti Atlassian"
 difficulty = "level-3"
 tags = ["atlassian", "Atlassian-Politik", "bamboo", "Docker", "confluence", "docker-compose", "jira", "lizenz", "krise", "politik"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210414-docker-Atlassian-Politik/index.sk.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-Atlassian-Politik/index.sk.md"
 +++
 Spoločnosť Atlassian prestala predávať licencie na malé servery a ja som dlho premýšľal, ako to vyriešiť. Keďže chcem svoju inštaláciu ešte dlho používať, zaviedol som nasledujúce opatrenia:
 ## Opatrenie 1: Používam výlučne Docker

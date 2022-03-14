@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "Lucruri grozave cu containere: Registrul Docker cu UI"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "registry", "images", "ui", "interface"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-registry/index.ro.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-registry/index.ro.md"
 +++
 Aflați cum să faceți ca imaginile Docker să fie disponibile în întreaga rețea prin intermediul propriului registru.
 ## Instalare

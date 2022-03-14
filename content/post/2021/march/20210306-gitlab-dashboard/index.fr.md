@@ -3,7 +3,7 @@ date = "2021-03-06"
 title = "Tableau de bord des problèmes avec RaspberryPiZeroW, Javascript et GitLab"
 difficulty = "level-3"
 tags = ["git", "gitlab", "issueboard", "issues", "javascript", "wallboard"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210306-gitlab-dashboard/index.fr.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210306-gitlab-dashboard/index.fr.md"
 +++
 L'installation avec Raspberry-Noobs est un jeu d'enfant ! Tout ce dont vous avez besoin est un RaspberryZeroW et une carte SD vierge.
 ## Étape 1 : Installateur Noobs

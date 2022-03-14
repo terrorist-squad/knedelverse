@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "Geweldige dingen met containers: PDF's automatisch taggen met Calibre en Docker"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ebook", "epub", "linux", "pdf", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-calibre-heise-ix-script/index.nl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-calibre-heise-ix-script/index.nl.md"
 +++
 Het kan vaak lastig zijn om de juiste meta-info aan PDF's toe te voegen. Zelf sorteer ik de gedownloade PDF's van mijn Heise IX abonnementsaccount in mijn privé Calibre bibliotheek.
 {{< gallery match="images/1/*.png" >}}

@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Geweldige dingen met containers: Docspell DMS draaien op het Synology DiskStation"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "Document-Managment-System"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-docker-Docspell/index.nl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-Docspell/index.nl.md"
 +++
 Docspell is een documentbeheersysteem voor het Synology DiskStation. Met Docspell kunnen documenten veel sneller worden geïndexeerd, doorzocht en gevonden. Vandaag laat ik zien hoe je een Docspell service installeert op het Synology disk station.
 ## Stap 1: Synology voorbereiden

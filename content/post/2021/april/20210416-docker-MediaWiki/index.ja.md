@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "コンテナの優れた点：Synology ディスク ステーションに独自の MediaWiki をインストールする"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "mediawiki", "wiki"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210416-docker-MediaWiki/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210416-docker-MediaWiki/index.ja.md"
 +++
 MediaWikiは、PHPベースのWikiシステムで、オープンソース製品として無償で提供されています。今日は、SynologyのディスクステーションにMediaWikiのサービスをインストールする方法を紹介します。
 ## プロフェッショナルのためのオプション

@@ -3,7 +3,7 @@ date = "2021-03-21"
 title = "Stora saker med behållare: Kör Jenkins på Synology DS"
 difficulty = "level-3"
 tags = ["build", "devops", "diskstation", "java", "javascript", "Jenkins", "nas", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210321-docker-jenkins/index.sv.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-docker-jenkins/index.sv.md"
 +++
 
 ## Steg 1: Förbered Synology

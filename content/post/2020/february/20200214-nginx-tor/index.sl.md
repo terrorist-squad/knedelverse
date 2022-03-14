@@ -3,7 +3,7 @@ date = "2020-02-14"
 title = "Nginx: Kako lahko blokiram uporabnike TOR?"
 difficulty = "level-3"
 tags = ["blacklisting", "block", "hacker", "darknet", "nginx", "security", "tor"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200214-nginx-tor/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200214-nginx-tor/index.sl.md"
 +++
 Za svoj blokator darknetov potrebujem le seznam izhodnih vozlišč IO Tor in naslednje pravilo:
 ```

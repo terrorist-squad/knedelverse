@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "Kort verhaal: Desktopbesturing met xDoTools en xClip"
 difficulty = "level-3"
 tags = ["bash", "linux", "robot", "roboter", "linux", "Robotic-Process-Automation", "rpa", "xclip", "xdotool"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210404-xDoTools-xclip/index.nl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-xDoTools-xclip/index.nl.md"
 +++
 In deze tutorial laat ik zien hoe je een Linux - desktop kunt bedienen via Bash. De volgende pakketten zijn nodig voor de Bash robot:
 {{< terminal >}}

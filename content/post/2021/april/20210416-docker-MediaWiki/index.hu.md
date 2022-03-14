@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "Nagyszerű dolgok konténerekkel: Saját MediaWiki telepítése a Synology lemezállomáson"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "mediawiki", "wiki"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210416-docker-MediaWiki/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210416-docker-MediaWiki/index.hu.md"
 +++
 A MediaWiki egy PHP-alapú wiki rendszer, amely nyílt forráskódú termékként ingyenesen elérhető. Ma megmutatom, hogyan lehet telepíteni egy MediaWiki szolgáltatást a Synology lemezállomáson.
 ## Lehetőség szakemberek számára

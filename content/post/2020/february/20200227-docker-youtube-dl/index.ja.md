@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "コンテナの優れた点：Synology DiskstationでのYoutubeダウンローダーの実行"
 difficulty = "level-1"
 tags = ["Docker", "docker-compose", "download", "linux", "Synology", "video", "youtube"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-docker-youtube-dl/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-docker-youtube-dl/index.ja.md"
 +++
 私の友人の多くは、私がHomelab - Networkでプライベートな学習ビデオポータルを運営していることを知っています。過去に学習ポータルの会員になっていたビデオコースや、Youtubeの優れたチュートリアルをNASに保存してオフラインで使用しています。
 {{< gallery match="images/1/*.png" >}}

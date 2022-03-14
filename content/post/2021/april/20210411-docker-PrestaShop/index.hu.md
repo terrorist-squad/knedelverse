@@ -3,7 +3,7 @@ date = "2021-04-11"
 title = "Kreatívan ki a válságból: professzionális webshop a PrestaShop segítségével"
 difficulty = "level-4"
 tags = ["corona", "Docker", "docker-compose", "kreativ", "krise", "online-shop", "presta", "shop", "shopsystem"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210411-docker-PrestaShop/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210411-docker-PrestaShop/index.hu.md"
 +++
 A PrestaShop egy európai nyílt forráskódú e-kereskedelmi platform, amely saját információi szerint jelenleg több mint 300 000 telepítéssel rendelkezik. Ma telepítem ezt a PHP-szoftvert a szerveremre. Ehhez a bemutatóhoz szükséges némi Linux, Docker és Docker Compose ismeret.
 ## 1. lépés: Telepítse a PrestaShopot

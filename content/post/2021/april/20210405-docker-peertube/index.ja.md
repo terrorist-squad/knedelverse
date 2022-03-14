@@ -3,7 +3,7 @@ date = "2021-04-05"
 title = "コンテナを利用した優れた取り組み：PeerTubeによる独自のビデオポータル"
 difficulty = "level-1"
 tags = ["diskstation", "peertube", "Synology", "video", "videoportal"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210405-docker-peertube/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210405-docker-peertube/index.ja.md"
 +++
 Peertubeでは、自分だけの動画ポータルを作ることができます。今日は、SynologyのディスクステーションにPeertubeをインストールした様子をご紹介します。
 ## ステップ1：Synologyの準備

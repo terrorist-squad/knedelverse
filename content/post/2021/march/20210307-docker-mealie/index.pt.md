@@ -3,7 +3,7 @@ date = "2021-03-07"
 title = "Grandes coisas com recipientes: gerenciar e arquivar receitas no Synology DiskStation"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "docker-for-desktop", "rezepte", "speisen", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210307-docker-mealie/index.pt.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210307-docker-mealie/index.pt.md"
 +++
 Recolha todas as suas receitas favoritas no recipiente Docker e organize-as como desejar. Escreva suas próprias receitas ou importe receitas de websites, por exemplo "Chefkoch", "Essen
 {{< gallery match="images/1/*.png" >}}

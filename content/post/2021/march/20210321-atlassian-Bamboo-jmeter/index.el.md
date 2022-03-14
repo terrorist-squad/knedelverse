@@ -3,7 +3,7 @@ date = "2021-03-21"
 title = "Δροσερά πράγματα με την Atlassian: χρήση του Bamboo και του jMeter χωρίς plugins"
 difficulty = "level-2"
 tags = ["code", "development", "devops", "docker-compose", "git", "gitlab", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210321-atlassian-Bamboo-jmeter/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-atlassian-Bamboo-jmeter/index.el.md"
 +++
 Σήμερα δημιουργώ μια δοκιμή jMeter στο Bamboo. Φυσικά, μπορείτε επίσης να υλοποιήσετε αυτή τη ρύθμιση δοκιμών με Gitlab runners ή Jenkins slaves.
 ## Βήμα 1: Δημιουργία δοκιμής jMeter

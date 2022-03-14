@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "Lyhyt tarina: Jenkins ja openLDAP"
 difficulty = "level-1"
 tags = ["development", "devops", "Jenkins", "ldap", "linux", "openldap"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210404-docker-jenkins/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-docker-jenkins/index.fi.md"
 +++
 Tämä opetusohjelma perustuu aiempaan tietämykseen "[Suuria asioita konttien avulla: Jenkinsin käyttäminen Synology DS:llä]({{< ref "post/2021/march/20210321-docker-jenkins" >}} "Suuria asioita konttien avulla: Jenkinsin käyttäminen Synology DS:llä"):sta". Jos LDAP on jo käytössäsi, sinun tarvitsee vain luoda sopiva sovellusryhmä:
 {{< gallery match="images/1/*.png" >}}

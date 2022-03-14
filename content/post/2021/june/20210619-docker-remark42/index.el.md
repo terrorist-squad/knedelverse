@@ -3,7 +3,7 @@ date = "2021-06-19"
 title = "Μεγάλα πράγματα με δοχεία: Το Remark42 είναι η λύση για τα σχόλιά μου"
 difficulty = "level-1"
 tags = ["microservice", "docker", "vertical", "kommentare"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210619-docker-remark42/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210619-docker-remark42/index.el.md"
 +++
 Αν το ιστολόγιό σας είναι στατικός ιστότοπος, ίσως να θέλετε μια μικροεξυπηρέτηση/vertical που να παρέχει μια δυναμική λειτουργία σχολίων. Αυτό το ιστολόγιο, για παράδειγμα, έχει υλοποιηθεί στο HUGO, μια "γεννήτρια ιστοσελίδων" γραμμένη σε GO για περιεχόμενο Markdown.Στην περίπτωσή μου, προσάρμοσα αυτό το αρχείο Docker Compose για μένα και το ξεκίνησα με το "docker-compose -f compose.yml up -d". Έχω αποθηκεύσει κλειδιά API για έλεγχο ταυτότητας με το Google και το Facebook. Εισήγαγα επίσης τις ρυθμίσεις του διακομιστή αλληλογραφίας για αλληλεπίδραση με τους αναγνώστες.
 ```

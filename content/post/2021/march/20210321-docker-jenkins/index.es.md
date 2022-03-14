@@ -3,7 +3,7 @@ date = "2021-03-21"
 title = "Grandes cosas con contenedores: ejecutar Jenkins en el Synology DS"
 difficulty = "level-3"
 tags = ["build", "devops", "diskstation", "java", "javascript", "Jenkins", "nas", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210321-docker-jenkins/index.es.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-docker-jenkins/index.es.md"
 +++
 
 ## Paso 1: Preparar el Synology

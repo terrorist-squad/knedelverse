@@ -3,7 +3,7 @@ date = "2020-02-07"
 title = "uiPathのWindowsロボットをGitlabでオーケストレーションする"
 difficulty = "level-5"
 tags = ["git", "gitlab", "robot", "roboter", "Robotic-Process-Automation", "rpa", "uipath", "windows"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200207-gitlab-uipath/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200207-gitlab-uipath/index.ja.md"
 +++
 UiPathはロボティック・プロセス・オートメーションのスタンダードとして確立されています。uiPathを使えば、複雑なデータ処理やクリック作業を代行してくれるソフトウェアベースのロボット・ボットを開発することができます。しかし、このようなロボットをGitlabで制御することは可能でしょうか？その答えは「イエス」です。具体的には、こちらをご覧ください。以下の手順では、管理者権限と、uiPath、Windows、Gitlabの経験が必要です。
 ## Step 1: まず最初に、Gitlabのランナーをインストールします。

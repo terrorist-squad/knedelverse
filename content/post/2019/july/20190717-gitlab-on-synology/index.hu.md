@@ -3,7 +3,7 @@ date = "2019-07-17"
 title = "Synology Nas: Gitlab telepítése?"
 difficulty = "level-1"
 tags = ["git", "gitlab", "gitlab-runner", "nas", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2019/july/20190717-gitlab-on-synology/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2019/july/20190717-gitlab-on-synology/index.hu.md"
 +++
 Itt megmutatom, hogyan telepítettem a Gitlabot és egy Gitlab futót a Synology NAS-ra. Először a GitLab alkalmazást kell telepíteni Synology csomagként. Keresse meg a "Gitlab"-ot a "Csomagközpontban", és kattintson a "Telepítés" gombra.   
 {{< gallery match="images/1/*.*" >}}

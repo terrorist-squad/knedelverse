@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "ショートストーリー：JenkinsとopenLDAP"
 difficulty = "level-1"
 tags = ["development", "devops", "Jenkins", "ldap", "linux", "openldap"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210404-docker-jenkins/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-docker-jenkins/index.ja.md"
 +++
 このチュートリアルでは、"[コンテナで実現すること：Synology DSでJenkinsを動かす]({{< ref "post/2021/march/20210321-docker-jenkins" >}} "コンテナで実現すること：Synology DSでJenkinsを動かす") "の前の知識を基にしています。すでにLDAPを導入している場合は、適切なアプリケーショングループを作成するだけで済みます。
 {{< gallery match="images/1/*.png" >}}

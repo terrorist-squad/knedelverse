@@ -3,7 +3,7 @@ date = "2019-07-17"
 title = "PIFM: 104,6 világszerte az FM rádióban"
 difficulty = "level-1"
 tags = ["104.6rtl", "fm-streaming", "pi", "radio", "raspberry-pi"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2019/july/20190717-rpi-pifm/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2019/july/20190717-rpi-pifm/index.hu.md"
 +++
 Ha a 104.6 RTL rajongója vagy, és egy napot sem szeretnél Berlin slágerrádiója nélkül tölteni, akkor jó helyen jársz. Szükséged lesz egy Raspberry nevű egylapos számítógépre és egy kábelre a GPIO 4-es porton, mint antenna.
 ## A következő csomagok szükségesek

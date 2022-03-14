@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "Store ting med containere: Kører Youtube-downloader på Synology Diskstation"
 difficulty = "level-1"
 tags = ["Docker", "docker-compose", "download", "linux", "Synology", "video", "youtube"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-docker-youtube-dl/index.da.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-docker-youtube-dl/index.da.md"
 +++
 Mange af mine venner ved, at jeg driver en privat læringsvideo portal på mit Homelab - Network. Jeg har gemt videokurser fra tidligere medlemskaber af læringsportaler og gode Youtube-tutorials til offline brug på min NAS.
 {{< gallery match="images/1/*.png" >}}

@@ -3,7 +3,7 @@ date = "2020-02-13"
 title = "Synology-Nas: Jak mohu spustit úlohy nebo crony?"
 difficulty = "level-1"
 tags = ["synology", "diskstation", "task", "cronjob", "cron", "aufgabe"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200213-synology-task/index.cs.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200213-synology-task/index.cs.md"
 +++
 Chcete v zařízení Synology NAS nastavit automatické úlohy? Klikněte na "Plánovač úloh" v "Ovládacích panelech".
 {{< gallery match="images/1/*.png" >}}

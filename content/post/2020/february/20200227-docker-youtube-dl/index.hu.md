@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "Nagyszerű dolgok konténerekkel: Youtube letöltő futtatása Synology Diskstationon"
 difficulty = "level-1"
 tags = ["Docker", "docker-compose", "download", "linux", "Synology", "video", "youtube"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-docker-youtube-dl/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-docker-youtube-dl/index.hu.md"
 +++
 Sok barátom tudja, hogy a Homelab - hálózatomon egy privát tanulási videoportált működtetek. A korábbi tanulási portál tagságokból származó videótanfolyamokat és jó Youtube oktatóanyagokat mentettem el offline használatra a NAS-omon.
 {{< gallery match="images/1/*.png" >}}

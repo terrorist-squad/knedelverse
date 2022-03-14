@@ -3,7 +3,7 @@ date = "2021-04-03"
 title = "Ustvarjalni izhod iz krize: izdelava letakov z jedilniki za sosesko"
 difficulty = "level-1"
 tags = ["365layouts", "Caterer", "corona", "Gastronomen", "kreativ", "krise", "speisekarten", "Nachbarschaft", "speisen", "speisekarten-vorlagen"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210403-flyer-design/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210403-flyer-design/index.sl.md"
 +++
 Kriza Corona je močno prizadela gostince in ponudnike gostinskih storitev v Nemčiji. Digitalna orodja in rešitve vam lahko pomagajo, da se čim bolj varno rešite iz pandemije Corona.V tej seriji navodil "Ustvarjalni izhod iz krize" predstavljam tehnologije ali orodja, ki so lahko koristna za mala podjetja. Danes pripravljam tedenski jedilnik za "OUT OF HOUSE BUSINESS". Veliko predlog menijev najdete na spletni strani https://www.365layouts.com/de/vorlagen/menu/. Te predloge lahko takoj prilagodite tudi v urejevalniku 365Layouts.
 ## Korak 1: Poiščite predlogo

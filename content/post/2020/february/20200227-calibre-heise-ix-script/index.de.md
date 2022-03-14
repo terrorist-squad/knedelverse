@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "Großartiges mit Containern: PDFs automatisch vertaggen mit Calibre und Docker"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ebook", "epub", "linux", "pdf", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-calibre-heise-ix-script/index.de.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-calibre-heise-ix-script/index.de.md"
 +++
 
 Es kann oft mühselig sein, PDFs mit den richtigen Metainfos zu versehen. Ich selbst sortiere die gedownloadeten PDFs aus meinem Heise-IX-Abo-Account, in meine private Calibre-Bibliothek ein.

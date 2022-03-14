@@ -3,7 +3,7 @@ date = "2021-06-19"
 title = "Grandes coisas com recipientes: Observação42 é a minha solução de comentário"
 difficulty = "level-1"
 tags = ["microservice", "docker", "vertical", "kommentare"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210619-docker-remark42/index.pt.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210619-docker-remark42/index.pt.md"
 +++
 Se você rodar seu blog como um site estático, você pode querer um microserviço/vertical que forneça uma função de comentário dinâmico. Este blog, por exemplo, é realizado no HUGO, um "gerador de sites" escrito em GO para conteúdo Markdown. No meu caso, adaptei este ficheiro Docker Compose para mim e comecei-o com "docker-compose -f compose.yml up -d". Tenho as chaves de API armazenadas para autenticação com o Google e o Facebook. Também introduzi as configurações do servidor de correio para interacção com os leitores.
 ```

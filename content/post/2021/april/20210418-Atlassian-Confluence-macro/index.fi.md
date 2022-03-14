@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Siistejä asioita Atlassianin kanssa: Omat makrot Confluenceen"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "confluence", "wiki", "macro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.fi.md"
 +++
 Confluence on tietopohjien kultainen standardi. Omien Confluence-käyttäjämakrojen luominen on myös lastenleikkiä. Tänään näytän, miten loin terminaalimakron.
 {{< gallery match="images/1/*.png" >}}

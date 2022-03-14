@@ -3,7 +3,7 @@ date = "2021-06-26"
 title = "容器的伟大之处：Kubernetes仪表板"
 difficulty = "level-4"
 tags = ["kubernetes", "cloud", "homelab", "pods", "nodes", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210726-kubernetes-board/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210726-kubernetes-board/index.zh.md"
 +++
 在[容器的伟大之处：Kubenetes集群和NFS存储]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "容器的伟大之处：Kubenetes集群和NFS存储")教程中创建了一个Kubernetes集群后，我想安装一个Kubernetes仪表板。
 {{< gallery match="images/1/*.jpg" >}}

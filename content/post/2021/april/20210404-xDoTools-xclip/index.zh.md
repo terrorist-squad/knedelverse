@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "小故事：用xDoTools和xClip进行桌面控制"
 difficulty = "level-3"
 tags = ["bash", "linux", "robot", "roboter", "linux", "Robotic-Process-Automation", "rpa", "xclip", "xdotool"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210404-xDoTools-xclip/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-xDoTools-xclip/index.zh.md"
 +++
 在本教程中，我展示了如何通过Bash控制Linux--桌面。Bash机器人需要以下软件包。
 {{< terminal >}}

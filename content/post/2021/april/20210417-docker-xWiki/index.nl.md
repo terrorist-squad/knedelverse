@@ -3,7 +3,7 @@ date = "2021-04-17"
 title = "Geweldige dingen met containers: Draai je eigen xWiki op het Synology diskstation"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "xwiki", "wiki",]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210417-docker-xWiki/index.nl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210417-docker-xWiki/index.nl.md"
 +++
 XWiki is een gratis wiki-softwareplatform, geschreven in Java en ontworpen met uitbreidbaarheid in het achterhoofd. Vandaag laat ik zien hoe een xWiki-service op het Synology DiskStation kan worden geïnstalleerd.
 ## Optie voor professionals

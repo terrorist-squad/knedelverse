@@ -3,7 +3,7 @@ date = "2020-02-14"
 title = "Nginx: Как я могу блокировать пользователей TOR?"
 difficulty = "level-3"
 tags = ["blacklisting", "block", "hacker", "darknet", "nginx", "security", "tor"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200214-nginx-tor/index.ru.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200214-nginx-tor/index.ru.md"
 +++
 Для моего блокировщика даркнета мне нужен только список IO выходного узла Tor и следующее правило:
 ```

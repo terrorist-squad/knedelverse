@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "Страхотни неща с контейнери: Автоматично маркиране на PDF файлове с Calibre и Docker"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ebook", "epub", "linux", "pdf", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-calibre-heise-ix-script/index.bg.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-calibre-heise-ix-script/index.bg.md"
 +++
 Често добавянето на правилната метаинформация към PDF файловете може да бъде досадно. Аз самият сортирам изтеглените PDF файлове от абонаментния си акаунт в Heise IX в личната си библиотека в Calibre.
 {{< gallery match="images/1/*.png" >}}

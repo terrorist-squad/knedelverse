@@ -3,7 +3,7 @@ date = "2020-02-07"
 title = "Kort verhaal: Bash scripts met Elgato Stream Deck"
 difficulty = "level-2"
 tags = ["bash", "elgato", "skript", "stream-deck"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200221-Elgato%20Stream-Deck/index.nl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200221-Elgato%20Stream-Deck/index.nl.md"
 +++
 Als u een bash script in het Elgato Stream Deck wilt opnemen, heeft u eerst een bash script nodig.
 ## Stap 1: Maak een Bash script:

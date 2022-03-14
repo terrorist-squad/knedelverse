@@ -3,7 +3,7 @@ date = "2021-02-01"
 title = "Suuria asioita konttien avulla: Pihole Synology DiskStationilla"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "dns", "adblocker", "fritzbox"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/february/20210201-docker-pihole/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/february/20210201-docker-pihole/index.fi.md"
 +++
 Tänään näytän, miten Pihole-palvelu asennetaan Synologyn levyasemaan ja liitetään se Fritzboxiin.
 ## Vaihe 1: Synologyn valmistelu

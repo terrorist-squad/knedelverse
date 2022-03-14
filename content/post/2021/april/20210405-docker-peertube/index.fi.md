@@ -3,7 +3,7 @@ date = "2021-04-05"
 title = "Suuria asioita säiliöillä: Oma videoportaali PeerTube:lla"
 difficulty = "level-1"
 tags = ["diskstation", "peertube", "Synology", "video", "videoportal"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210405-docker-peertube/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210405-docker-peertube/index.fi.md"
 +++
 Peertuben avulla voit luoda oman videoportaalin. Tänään näytän, miten asensin Peertuben Synology-levyasemaani.
 ## Vaihe 1: Synologyn valmistelu

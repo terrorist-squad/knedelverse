@@ -3,7 +3,7 @@ date = "2020-02-21"
 title = "Great things with containers: Running Calibre with Docker Compose (Synology Pro Setup)"
 difficulty = "level-3"
 tags = ["calibre", "calibre-web", "Docker", "docker-compose", "Synology", "linux"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200221-docker-Calibre-pro/index.en.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200221-docker-Calibre-pro/index.en.md"
 +++
 There is already a simpler tutorial on this blog: [Synology-Nas: Install Calibre Web as ebook library]({{< ref "post/2020/february/20200213-synology-calibreweb" >}} "Synology-Nas: Install Calibre Web as ebook library"). This tutorial is for all Synology DS professionals.
 ## Step 1: Prepare Synology

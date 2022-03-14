@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "Kratka zgodba: Jenkins in openLDAP"
 difficulty = "level-1"
 tags = ["development", "devops", "Jenkins", "ldap", "linux", "openldap"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210404-docker-jenkins/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-docker-jenkins/index.sl.md"
 +++
 Ta vaja temelji na prejšnjem znanju o "[Velike stvari s kontejnerji: Zagon programa Jenkins na strežniku Synology DS]({{< ref "post/2021/march/20210321-docker-jenkins" >}} "Velike stvari s kontejnerji: Zagon programa Jenkins na strežniku Synology DS")". Če že imate LDAP na začetku, morate ustvariti le ustrezno skupino aplikacij:
 {{< gallery match="images/1/*.png" >}}

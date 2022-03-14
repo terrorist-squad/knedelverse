@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Prenosnik Udemy na strežniku Synology DiskStation"
 difficulty = "level-2"
 tags = ["udemy", "download", "synology", "diskstation", "udemydl"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-udemydl/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-udemydl/index.sl.md"
 +++
 V tem priročniku se boste naučili, kako prenesti tečaje "udemy" za uporabo brez povezave.
 ## Korak 1: Pripravite mapo Udemy

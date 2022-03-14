@@ -3,7 +3,7 @@ date = "2020-02-14"
 title = "Δημιουργία επισκόπησης σελίδας PDF"
 difficulty = "level-3"
 tags = ["bash", "linux", "pdf", "postscript", "imagemagick"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200214-imagemagick-pdf-overview/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200214-imagemagick-pdf-overview/index.el.md"
 +++
 Αν θέλετε να δημιουργήσετε μια εικόνα επισκόπησης σελίδας από ένα αρχείο PDF, τότε έχετε έρθει στο σωστό μέρος!
 {{< gallery match="images/1/*.jpg" >}}

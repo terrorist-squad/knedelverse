@@ -3,7 +3,7 @@ date = "2021-06-25"
 title = "Vzdálené ovládání PI pomocí Ansible"
 difficulty = "level-2"
 tags = ["ansible", "raspberry", "pi", "cloud", "homelab", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210725-ansible/index.cs.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210725-ansible/index.cs.md"
 +++
 Po vytvoření clusteru Kubernetes v tutoriálu [Skvělé věci s kontejnery: cluster Kubenetes a úložiště NFS]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "Skvělé věci s kontejnery: cluster Kubenetes a úložiště NFS") bych nyní chtěl mít možnost oslovit tyto počítače pomocí Ansible.
 {{< gallery match="images/1/*.jpg" >}}

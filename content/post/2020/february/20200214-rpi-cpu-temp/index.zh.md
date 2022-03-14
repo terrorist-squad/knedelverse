@@ -3,7 +3,7 @@ date = "2020-02-14"
 title = "树莓派：PI CPU的无热性"
 difficulty = "level-3"
 tags = ["bash", "cpu", "cron", "linux", "maker", "raspberry", "raspberry-pi"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200214-rpi-cpu-temp/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200214-rpi-cpu-temp/index.zh.md"
 +++
 
 {{< gallery match="images/1/*.jpg" >}}

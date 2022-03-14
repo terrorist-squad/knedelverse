@@ -3,7 +3,7 @@ date = "2021-03-24"
 title = "阿特拉斯公司的酷事：用LDAP使用所有阿特拉斯工具"
 difficulty = "level-3"
 tags = ["atlassian", "bamboo", "jira", "ldap", "openldap", "linux", "test"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210321-atlassian-ldap/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-atlassian-ldap/index.zh.md"
 +++
 如果你有自己的Atlassian安装，你是幸运的。今天我展示了我如何将Jira、Bamboo和Confluence连接到我的LDAP服务器。
 ## 第1步：安装OpenLDAP

@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "容器的伟大之处： Synology 上的 Netbox - Disk"
 difficulty = "level-3"
 tags = ["Computernetzwerken", "DCIM", "Docker", "docker-compose", "IPAM", "netbox", "Synology", "netwerk"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-Netbox/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Netbox/index.zh.md"
 +++
 NetBox是一个用于计算机网络管理的免费软件。今天我将展示如何在Synology DiskStation上安装Netbox服务。
 ## 第1步：准备好Synology

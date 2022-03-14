@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "コンテナを利用した優れた点：CalibreとDockerによるPDFへの自動タグ付け"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ebook", "epub", "linux", "pdf", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-calibre-heise-ix-script/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-calibre-heise-ix-script/index.ja.md"
 +++
 PDFに適切なメタ情報を追加するのは、しばしば面倒なことです。私自身は、Heise IXの購読アカウントからダウンロードしたPDFを、自分のプライベートなCalibreライブラリに分類しています。
 {{< gallery match="images/1/*.png" >}}

@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "Kurzgeschichte: Container automatisch aktualisieren mit Watchtower"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "watchtower"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-Watchtower/index.de.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Watchtower/index.de.md"
 +++
 
 Wenn man Docker Container auf seiner Diskstation betreibt, möchte man natürlich, dass diese auch immer auf dem neusten Stand sind. Watchtower aktualisiert Images und Container selbstständig. So kann man die neusten Features und aktuellste Datensicherheit genießen. Heute zeige ich, wie man einen Watchtower auf der Synology-Diskstation installiert.

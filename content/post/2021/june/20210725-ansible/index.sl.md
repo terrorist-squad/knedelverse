@@ -3,7 +3,7 @@ date = "2021-06-25"
 title = "Nadzor PI na daljavo s programom Ansible"
 difficulty = "level-2"
 tags = ["ansible", "raspberry", "pi", "cloud", "homelab", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210725-ansible/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210725-ansible/index.sl.md"
 +++
 Po ustvarjanju gruče Kubernetes v učbeniku [Velike stvari z zabojniki: Kubenetesova gruča in shranjevanje NFS]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "Velike stvari z zabojniki: Kubenetesova gruča in shranjevanje NFS") bi zdaj rad te računalnike naslovil prek programa Ansible.
 {{< gallery match="images/1/*.jpg" >}}

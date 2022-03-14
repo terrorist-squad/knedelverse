@@ -3,7 +3,7 @@ date = "2020-02-07"
 title = "Suuria asioita astioiden kanssa: Internet Archive in Docker"
 difficulty = "level-3"
 tags = ["bookmarks", "Docker", "Internet-Archiv", "Synology", "shiori"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200207-docker-shiori/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200207-docker-shiori/index.fi.md"
 +++
 Seuraavassa ohjeessa asennat yksityisen "Internet-arkiston" Docker-säiliönä. Tarvitset vain tämän "Docker-compose"-tiedoston:
 ```

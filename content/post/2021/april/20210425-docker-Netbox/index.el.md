@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "Μεγάλα πράγματα με δοχεία: Netbox σε Synology - Disk"
 difficulty = "level-3"
 tags = ["Computernetzwerken", "DCIM", "Docker", "docker-compose", "IPAM", "netbox", "Synology", "netwerk"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-Netbox/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Netbox/index.el.md"
 +++
 Το NetBox είναι ένα δωρεάν λογισμικό που χρησιμοποιείται για τη διαχείριση δικτύων υπολογιστών. Σήμερα θα σας δείξω πώς να εγκαταστήσετε μια υπηρεσία Netbox στον Synology DiskStation.
 ## Βήμα 1: Προετοιμάστε τη Synology

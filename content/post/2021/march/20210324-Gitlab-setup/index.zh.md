@@ -3,7 +3,7 @@ date = "2021-03-24"
 title = "小故事：我的Gitlab设置"
 difficulty = "level-3"
 tags = ["code", "development", "devops", "docker-compose", "git", "gitlab", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210324-Gitlab-setup/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210324-Gitlab-setup/index.zh.md"
 +++
 在我第一篇关于 "Gitlab on the Synology disk station "的教程之后，已经有好几次有人问我是否还在使用这个方案。没有!同时，我已经把我的Atlassian工具和下面的GitLab安装移到了intel NUC上。在此我展示了我目前的Compose文件，当然也可以在Synology磁盘站上运行。 你可以清楚地看到，我现在对OpenLDAP、容器注册表、邮件、证书和日志进行了特殊的设置。此外，由于我使用Atlassian-Jira和Atlassian-Confluence，维基和问题跟踪器功能已被停用。正如你所看到的，Gitlab是非常可定制的。玩得开心!
 ```

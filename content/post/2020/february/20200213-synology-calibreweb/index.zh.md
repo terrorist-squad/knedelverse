@@ -3,7 +3,7 @@ date = "2020-02-13"
 title = "Synology-Nas: 安装Calibre Web作为电子书库"
 difficulty = "level-1"
 tags = ["calbre-web", "calibre", "Docker", "ds918", "ebook", "epub", "nas", "pdf", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200213-synology-calibreweb/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200213-synology-calibreweb/index.zh.md"
 +++
 我如何将Calibre-Web作为Docker容器安装在我的Synology NAS上？ 注意：这种安装方法已经过时了，与当前的Calibre软件不兼容。请看一下这个新的教程：[容器的伟大之处：用Docker Compose运行Calibre]({{< ref "post/2020/february/20200221-docker-Calibre-pro" >}} "容器的伟大之处：用Docker Compose运行Calibre")。本教程适用于所有Synology DS的专业人士。
 ## 第1步：创建文件夹

@@ -3,7 +3,7 @@ date = "2021-04-05"
 title = "Nagyszerű dolgok konténerekkel: Saját videoportál a PeerTube segítségével"
 difficulty = "level-1"
 tags = ["diskstation", "peertube", "Synology", "video", "videoportal"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210405-docker-peertube/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210405-docker-peertube/index.hu.md"
 +++
 A Peertube segítségével létrehozhatja saját videoportálját. Ma megmutatom, hogyan telepítettem a Peertube-ot a Synology lemezállomásomra.
 ## 1. lépés: A Synology előkészítése

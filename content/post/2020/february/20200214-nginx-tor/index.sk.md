@@ -3,7 +3,7 @@ date = "2020-02-14"
 title = "Nginx: Ako môžem blokovať používateľov TOR?"
 difficulty = "level-3"
 tags = ["blacklisting", "block", "hacker", "darknet", "nginx", "security", "tor"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200214-nginx-tor/index.sk.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200214-nginx-tor/index.sk.md"
 +++
 Pre môj blokátor darknetu potrebujem len zoznam výstupných uzlov IO Tor a nasledujúce pravidlo:
 ```

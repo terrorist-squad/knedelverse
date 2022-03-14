@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Lucruri grozave cu containere: Rularea Docspell DMS pe Synology DiskStation"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "Document-Managment-System"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-docker-Docspell/index.ro.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-Docspell/index.ro.md"
 +++
 Docspell este un sistem de gestionare a documentelor pentru Synology DiskStation. Prin intermediul Docspell, documentele pot fi indexate, căutate și găsite mult mai rapid. Astăzi vă arăt cum să instalați un serviciu Docspell pe stația de discuri Synology.
 ## Pasul 1: Pregătiți Synology

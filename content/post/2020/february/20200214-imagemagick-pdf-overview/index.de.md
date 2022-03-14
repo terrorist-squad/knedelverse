@@ -3,7 +3,7 @@ date = "2020-02-14"
 title = "PDF-Seitenübersicht generieren"
 difficulty = "level-3"
 tags = ["bash", "linux", "pdf", "postscript", "imagemagick"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200214-imagemagick-pdf-overview/index.de.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200214-imagemagick-pdf-overview/index.de.md"
 +++
 
 Wenn Sie ein Seiten-Übersichts-Bild von einer PDF-Datei erstellen wollen, dann sind Sie hier richtig!

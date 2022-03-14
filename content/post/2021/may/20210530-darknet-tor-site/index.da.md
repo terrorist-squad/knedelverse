@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Opret din egen Darknet-side"
 difficulty = "level-3"
 tags = ["darknet", "tor", "website", "hosting", "hidden"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-darknet-tor-site/index.da.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-darknet-tor-site/index.da.md"
 +++
 Det er ganske enkelt at surfe på Darknet som besøgende. Men hvordan kan jeg være vært for en Onion-side? Jeg vil vise dig, hvordan du opretter din egen Darknet-side.
 ## Trin 1: Hvordan kan jeg surfe på Darknet?

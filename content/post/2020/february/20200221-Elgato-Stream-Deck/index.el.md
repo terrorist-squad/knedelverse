@@ -3,7 +3,7 @@ date = "2020-02-07"
 title = "Σύντομη ιστορία: σενάρια Bash με το Elgato Stream Deck"
 difficulty = "level-2"
 tags = ["bash", "elgato", "skript", "stream-deck"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200221-Elgato%20Stream-Deck/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200221-Elgato%20Stream-Deck/index.el.md"
 +++
 Αν θέλετε να συμπεριλάβετε ένα σενάριο bash στο Elgato Stream Deck, χρειάζεστε πρώτα ένα σενάριο bash.
 ## Βήμα 1: Δημιουργία δέσμης ενεργειών Bash:

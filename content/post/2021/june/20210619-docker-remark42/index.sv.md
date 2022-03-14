@@ -3,7 +3,7 @@ date = "2021-06-19"
 title = "Stora saker med containrar: Remark42 är min lösning för kommentarer"
 difficulty = "level-1"
 tags = ["microservice", "docker", "vertical", "kommentare"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210619-docker-remark42/index.sv.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210619-docker-remark42/index.sv.md"
 +++
 Om du driver din blogg som en statisk webbplats kanske du vill ha en mikrotjänst/vertikal som har en dynamisk kommentarsfunktion. Den här bloggen är till exempel gjord i HUGO, en "webbplatsgenerator" skriven i GO för Markdown-innehåll.I mitt fall anpassade jag den här Docker Compose-filen för mig och startade den med "docker-compose -f compose.yml up -d". Jag har lagrat API-nycklar för autentisering med Google och Facebook. Jag har också lagt in inställningar för e-postservern för att kunna interagera med läsarna.
 ```

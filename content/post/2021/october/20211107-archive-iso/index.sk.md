@@ -3,7 +3,7 @@ date = "2021-11-07"
 title = "Niekedy si želám mať stroj času!"
 difficulty = "level-1"
 tags = ["archiv", "internet", "iso", "90ger", "2000er"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/october/20211107-archive-iso/index.sk.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/october/20211107-archive-iso/index.sk.md"
 +++
 Wayback Machine je archív starých webových stránok. Jednoducho tam zadáte doménu a získate časovú os všetkých statických snímok.
 {{< gallery match="images/1/*.png" >}}

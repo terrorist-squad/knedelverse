@@ -3,7 +3,7 @@ date = "2020-02-07"
 title = "用Gitlab协调uiPath Windows机器人"
 difficulty = "level-5"
 tags = ["git", "gitlab", "robot", "roboter", "Robotic-Process-Automation", "rpa", "uipath", "windows"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200207-gitlab-uipath/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200207-gitlab-uipath/index.zh.md"
 +++
 UiPath是机器人流程自动化的一个既定标准。利用uiPath，你可以开发一个基于软件的机器人/机械人，为你处理复杂的数据处理或点击任务。但这样的机器人也能用Gitlab来控制吗？简短的回答是 "可以"。而具体如何，你可以在这里看到。对于以下步骤，你需要有管理权限和一些uipath、Windows和Gitlab的经验。
 ## 第一步：首先要做的是安装一个Gitlab运行器。

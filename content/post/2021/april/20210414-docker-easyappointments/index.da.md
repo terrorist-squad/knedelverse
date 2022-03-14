@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "Kreativ ud af krisen: booking af en tjeneste med easyappointments"
 difficulty = "level-3"
 tags = ["buchung", "buchungstool", "click-and-meet", "corona", "Docker", "docker-compose", "easyappointments", "krise", "einzelhandel", "geschaefte"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210414-docker-easyappointments/index.da.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-easyappointments/index.da.md"
 +++
 Corona-krisen rammer tjenesteudbyderne i Tyskland hårdt. Digitale værktøjer og løsninger kan hjælpe dig med at komme så sikkert som muligt gennem Corona-pandemien. I denne tutorial-serie "Kreativ ud af krisen" viser jeg teknologier eller værktøjer, der kan være nyttige for små virksomheder.I dag viser jeg "Easyappointments", et "klik og mødes"-bookingværktøj til tjenester, f.eks. frisører eller butikker. Easyappointments består af to områder:
 ## Område 1: Backend

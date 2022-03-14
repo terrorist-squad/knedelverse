@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "Geweldige dingen met containers: Docker register met UI"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "registry", "images", "ui", "interface"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-registry/index.nl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-registry/index.nl.md"
 +++
 Leer hoe u uw Docker images netwerkbreed beschikbaar kunt maken via uw eigen register.
 ## Installatie

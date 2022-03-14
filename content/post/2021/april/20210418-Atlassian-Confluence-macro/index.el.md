@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Ωραία πράγματα με την Atlassian: Δικές σας μακροεντολές στο Confluence"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "confluence", "wiki", "macro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.el.md"
 +++
 Το Confluence είναι το χρυσό πρότυπο στον τομέα των βάσεων γνώσης. Η δημιουργία των δικών σας μακροεντολών χρήστη του Confluence είναι επίσης παιχνιδάκι. Σήμερα θα δείξω πώς δημιούργησα μια μακροεντολή τερματικού.
 {{< gallery match="images/1/*.png" >}}

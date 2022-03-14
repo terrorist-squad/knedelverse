@@ -3,7 +3,7 @@ date = "2020-02-14"
 title = "Генериране на преглед на PDF страници"
 difficulty = "level-3"
 tags = ["bash", "linux", "pdf", "postscript", "imagemagick"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200214-imagemagick-pdf-overview/index.bg.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200214-imagemagick-pdf-overview/index.bg.md"
 +++
 Ако искате да създадете изображение за преглед на страница от PDF файл, значи сте попаднали на правилното място!
 {{< gallery match="images/1/*.jpg" >}}

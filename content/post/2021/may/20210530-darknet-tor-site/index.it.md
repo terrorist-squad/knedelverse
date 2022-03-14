@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Crea la tua pagina Darknet"
 difficulty = "level-3"
 tags = ["darknet", "tor", "website", "hosting", "hidden"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-darknet-tor-site/index.it.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-darknet-tor-site/index.it.md"
 +++
 Navigare in Darknet come visitatore è abbastanza semplice. Ma come posso ospitare una pagina di Onion? Vi mostrerò come impostare la vostra pagina Darknet.
 ## Passo 1: Come posso navigare in Darknet?

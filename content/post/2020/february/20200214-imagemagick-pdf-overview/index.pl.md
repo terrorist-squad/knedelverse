@@ -3,7 +3,7 @@ date = "2020-02-14"
 title = "Generowanie przeglądu stron PDF"
 difficulty = "level-3"
 tags = ["bash", "linux", "pdf", "postscript", "imagemagick"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200214-imagemagick-pdf-overview/index.pl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200214-imagemagick-pdf-overview/index.pl.md"
 +++
 Jeśli chcesz utworzyć obraz przeglądu strony z pliku PDF, to trafiłeś we właściwe miejsce!
 {{< gallery match="images/1/*.jpg" >}}

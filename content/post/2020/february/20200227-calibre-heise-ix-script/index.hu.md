@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "Nagyszerű dolgok konténerekkel: PDF-ek automatikus címkézése Calibre és Docker segítségével"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ebook", "epub", "linux", "pdf", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-calibre-heise-ix-script/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-calibre-heise-ix-script/index.hu.md"
 +++
 A PDF-ek megfelelő metainformációkkal való ellátása gyakran fárasztó lehet. Én magam a Heise IX előfizetési fiókomból letöltött PDF-eket a privát Calibre könyvtáramba válogatom.
 {{< gallery match="images/1/*.png" >}}

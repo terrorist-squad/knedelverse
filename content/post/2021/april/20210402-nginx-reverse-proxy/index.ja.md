@@ -3,7 +3,7 @@ date = "2021-04-02"
 title = "コンテナの優れた点：LDAPとNGINXでDockerサービスの安全性を高める"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ldap", "logging", "nutzerverwaltung", "peertube", "ssl"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210402-nginx-reverse-proxy/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-nginx-reverse-proxy/index.ja.md"
 +++
 Synology Diskstation のユーザーとして、私はホームラボのネットワークで多くのサービスを実行しています。Gitlabでソフトウェアをデプロイし、Confluenceで知識を文書化し、ウェブサーバーのCalibreで技術文献を読んでいます。
 {{< gallery match="images/1/*.png" >}}

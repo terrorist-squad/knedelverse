@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "阿特拉斯公司的酷事：Confluence中的自有宏程序"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "confluence", "wiki", "macro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.zh.md"
 +++
 Confluence是知识库领域的黄金标准。创建你自己的Confluence用户宏也是小事一桩。今天我展示了我如何创建一个终端宏。
 {{< gallery match="images/1/*.png" >}}

@@ -3,7 +3,7 @@ date = "2020-02-14"
 title = "Générer un aperçu des pages PDF"
 difficulty = "level-3"
 tags = ["bash", "linux", "pdf", "postscript", "imagemagick"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200214-imagemagick-pdf-overview/index.fr.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200214-imagemagick-pdf-overview/index.fr.md"
 +++
 Si vous souhaitez créer une image d'aperçu de la page à partir d'un fichier PDF, vous êtes au bon endroit !
 {{< gallery match="images/1/*.jpg" >}}

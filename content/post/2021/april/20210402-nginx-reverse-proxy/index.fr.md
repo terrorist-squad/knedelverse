@@ -3,7 +3,7 @@ date = "2021-04-02"
 title = "De grandes choses avec les conteneurs : sécuriser les services Docker avec LDAP et NGINX"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ldap", "logging", "nutzerverwaltung", "peertube", "ssl"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210402-nginx-reverse-proxy/index.fr.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-nginx-reverse-proxy/index.fr.md"
 +++
 En tant qu'utilisateur de Synology Diskstation, j'exploite de nombreux services sur mon réseau Homelab. Je déploie des logiciels dans Gitlab, je documente des connaissances dans Confluence et je lis des références professionnelles via le serveur web Calibre.
 {{< gallery match="images/1/*.png" >}}

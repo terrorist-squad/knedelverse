@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "Suuria asioita konttien avulla: Netbox Synologylla - Disk"
 difficulty = "level-3"
 tags = ["Computernetzwerken", "DCIM", "Docker", "docker-compose", "IPAM", "netbox", "Synology", "netwerk"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-Netbox/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Netbox/index.fi.md"
 +++
 NetBox on ilmainen ohjelmisto, jota käytetään tietokoneverkon hallintaan. Tänään näytän, miten Netbox-palvelu asennetaan Synology DiskStationiin.
 ## Vaihe 1: Synologyn valmistelu

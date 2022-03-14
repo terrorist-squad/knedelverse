@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "Nagyszerű dolgok konténerekkel: hűtőszekrény-kezelés a Grocyval"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "kühlschrank", "erp", "mhd", "Speispläne", "cms", "Cafe", "Bistro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-grocy/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-grocy/index.hu.md"
 +++
 A Grocy segítségével egy egész háztartást, éttermet, kávézót, bisztrót vagy élelmiszerpiacot kezelhet. Kezelheti a hűtőszekrényeket, menüket, feladatokat, bevásárlólistákat és az élelmiszerek minőségmegőrzési idejét.
 {{< gallery match="images/1/*.png" >}}

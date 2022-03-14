@@ -3,7 +3,7 @@ date = "2020-02-07"
 title = "Nagyszerű dolgok a konténerekkel: Internet Archive in Docker"
 difficulty = "level-3"
 tags = ["bookmarks", "Docker", "Internet-Archiv", "Synology", "shiori"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200207-docker-shiori/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200207-docker-shiori/index.hu.md"
 +++
 A következő bemutatóban egy privát "internetes archívumot" fog telepíteni Docker konténerként. Mindössze erre a "Docker-compose" fájlra van szükséged:
 ```

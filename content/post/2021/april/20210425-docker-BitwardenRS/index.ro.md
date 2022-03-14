@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "BitwardenRS pe Synology DiskStation"
 difficulty = "level-2"
 tags = ["bitwardenrs", "Docker", "docker-compose", "password-manager", "passwort", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-BitwardenRS/index.ro.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-BitwardenRS/index.ro.md"
 +++
 Bitwarden este un serviciu gratuit de gestionare a parolelor cu sursă deschisă care stochează informații confidențiale, cum ar fi datele de identificare ale site-urilor web, într-un seif criptat. Astăzi vă arăt cum să instalați un BitwardenRS pe Synology DiskStation.
 ## Pasul 1: Pregătiți dosarul BitwardenRS

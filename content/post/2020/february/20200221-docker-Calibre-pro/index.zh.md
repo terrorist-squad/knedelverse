@@ -3,7 +3,7 @@ date = "2020-02-21"
 title = "容器的伟大之处：用Docker Compose运行Calibre (Synology pro设置)"
 difficulty = "level-3"
 tags = ["calibre", "calibre-web", "Docker", "docker-compose", "Synology", "linux"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200221-docker-Calibre-pro/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200221-docker-Calibre-pro/index.zh.md"
 +++
 这个博客上已经有一个比较简单的教程：X0。本教程适用于所有Synology DS的专业人士。
 ## 第1步：准备好Synology

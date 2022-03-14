@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Udemy Downloader en el Synology DiskStation"
 difficulty = "level-2"
 tags = ["udemy", "download", "synology", "diskstation", "udemydl"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-udemydl/index.es.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-udemydl/index.es.md"
 +++
 En este tutorial aprenderás a descargar los cursos de "udemy" para utilizarlos sin conexión.
 ## Paso 1: Preparar la carpeta Udemy

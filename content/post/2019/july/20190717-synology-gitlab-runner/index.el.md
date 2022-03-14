@@ -3,7 +3,7 @@ date = "2019-07-17"
 title = "Synology-Nas: Gitlab - Δρομέας σε δοχείο Docker"
 difficulty = "level-4"
 tags = ["Docker", "git", "gitlab", "gitlab-runner", "raspberry-pi"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2019/july/20190717-synology-gitlab-runner/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2019/july/20190717-synology-gitlab-runner/index.el.md"
 +++
 Πώς μπορώ να εγκαταστήσω ένα Gitlab runner ως δοχείο Docker στο Synology NAS μου;
 ## Βήμα 1: Αναζήτηση εικόνας Docker

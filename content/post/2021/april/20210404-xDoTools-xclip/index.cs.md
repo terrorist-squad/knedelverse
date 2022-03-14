@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "Krátký příběh: Ovládání pracovní plochy pomocí nástrojů xDoTools a xClip"
 difficulty = "level-3"
 tags = ["bash", "linux", "robot", "roboter", "linux", "Robotic-Process-Automation", "rpa", "xclip", "xdotool"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210404-xDoTools-xclip/index.cs.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-xDoTools-xclip/index.cs.md"
 +++
 V tomto návodu ukážu, jak ovládat Linux - desktop pomocí Bash. Pro robota Bash jsou potřeba následující balíčky:
 {{< terminal >}}

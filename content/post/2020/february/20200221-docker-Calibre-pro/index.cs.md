@@ -3,7 +3,7 @@ date = "2020-02-21"
 title = "Skvělé věci s kontejnery: Spuštění Calibre s Docker Compose (nastavení Synology pro)"
 difficulty = "level-3"
 tags = ["calibre", "calibre-web", "Docker", "docker-compose", "Synology", "linux"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200221-docker-Calibre-pro/index.cs.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200221-docker-Calibre-pro/index.cs.md"
 +++
 Na tomto blogu již existuje jednodušší návod: [Synology-Nas: Instalace Calibre Web jako knihovny elektronických knih]({{< ref "post/2020/february/20200213-synology-calibreweb" >}} "Synology-Nas: Instalace Calibre Web jako knihovny elektronických knih"). Tento návod je určen všem profesionálům v oblasti Synology DS.
 ## Krok 1: Příprava společnosti Synology

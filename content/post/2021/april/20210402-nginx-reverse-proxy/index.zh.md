@@ -3,7 +3,7 @@ date = "2021-04-02"
 title = "容器的伟大之处：用LDAP和NGINX使Docker服务更安全"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ldap", "logging", "nutzerverwaltung", "peertube", "ssl"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210402-nginx-reverse-proxy/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-nginx-reverse-proxy/index.zh.md"
 +++
 作为Synology Diskstation的用户，我在我的Homelab网络上运行许多服务。我在Gitlab中部署软件，在Confluence中记录知识，通过Calibre网络服务器阅读技术参考资料。
 {{< gallery match="images/1/*.png" >}}

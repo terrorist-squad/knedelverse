@@ -3,7 +3,7 @@ date = "2021-03-21"
 title = "Király dolgok az Atlassian-nal: a Bamboo és a jMeter használata pluginok nélkül"
 difficulty = "level-2"
 tags = ["code", "development", "devops", "docker-compose", "git", "gitlab", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210321-atlassian-Bamboo-jmeter/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-atlassian-Bamboo-jmeter/index.hu.md"
 +++
 Ma egy jMeter tesztet készítek a Bamboo-ban. Természetesen ez a tesztelési beállítás Gitlab futókkal vagy Jenkins szolgákkal is megvalósítható.
 ## 1. lépés: jMeter teszt létrehozása

@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "Δημιουργική έξοδος από την κρίση: κράτηση υπηρεσίας με easyappointments"
 difficulty = "level-3"
 tags = ["buchung", "buchungstool", "click-and-meet", "corona", "Docker", "docker-compose", "easyappointments", "krise", "einzelhandel", "geschaefte"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210414-docker-easyappointments/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-easyappointments/index.el.md"
 +++
 Η κρίση της Corona πλήττει σκληρά τους παρόχους υπηρεσιών στη Γερμανία. Τα ψηφιακά εργαλεία και λύσεις μπορούν να βοηθήσουν να ξεπεράσετε την πανδημία Corona με τη μεγαλύτερη δυνατή ασφάλεια. Σε αυτή τη σειρά σεμιναρίων "Δημιουργική έξοδος από την κρίση" παρουσιάζω τεχνολογίες ή εργαλεία που μπορούν να είναι χρήσιμα για μικρές επιχειρήσεις.Σήμερα παρουσιάζω το "Easyappointments", ένα εργαλείο κρατήσεων "κλικ και συνάντηση" για υπηρεσίες, για παράδειγμα κομμωτήρια ή καταστήματα. Το Easyappointments αποτελείται από δύο τομείς:
 ## Περιοχή 1: Backend

@@ -3,7 +3,7 @@ date = "2020-02-14"
 title = "Generar un resumen de páginas en PDF"
 difficulty = "level-3"
 tags = ["bash", "linux", "pdf", "postscript", "imagemagick"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200214-imagemagick-pdf-overview/index.es.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200214-imagemagick-pdf-overview/index.es.md"
 +++
 Si desea crear una imagen de resumen de página a partir de un archivo PDF, ha llegado al lugar adecuado.
 {{< gallery match="images/1/*.jpg" >}}

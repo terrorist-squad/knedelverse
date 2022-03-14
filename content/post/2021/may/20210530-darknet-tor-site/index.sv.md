@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Skapa din egen Darknet-sida"
 difficulty = "level-3"
 tags = ["darknet", "tor", "website", "hosting", "hidden"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-darknet-tor-site/index.sv.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-darknet-tor-site/index.sv.md"
 +++
 Att surfa på Darknet som besökare är ganska enkelt. Men hur kan jag vara värd för en Onion-sida? Jag kommer att visa dig hur du skapar din egen Darknet-sida.
 ## Steg 1: Hur kan jag surfa på Darknet?

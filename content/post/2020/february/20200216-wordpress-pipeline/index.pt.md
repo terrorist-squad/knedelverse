@@ -3,7 +3,7 @@ date = "2020-02-16"
 title = "Seminário Gitlab: Como posso implantar uma cópia estática do WordPress através do gasoduto Gitllab?"
 difficulty = "level-2"
 tags = ["cms", "git", "gitlab", "pipeline", "serverless", "wordpress"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200216-wordpress-pipeline/index.pt.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200216-wordpress-pipeline/index.pt.md"
 +++
 Os sites estáticos carregam mais rápido e oferecem menos superfície de ataque. Eu mostro-lhe como converter uma página CMS através do Gitlab Pipline. Primeiro, eu crio uma fase de construção que gera uma cópia estática via wget.
 ```

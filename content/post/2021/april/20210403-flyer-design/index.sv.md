@@ -3,7 +3,7 @@ date = "2021-04-03"
 title = "Kreativt ur krisen: Skapa menyflyers för grannskapet"
 difficulty = "level-1"
 tags = ["365layouts", "Caterer", "corona", "Gastronomen", "kreativ", "krise", "speisekarten", "Nachbarschaft", "speisen", "speisekarten-vorlagen"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210403-flyer-design/index.sv.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210403-flyer-design/index.sv.md"
 +++
 Corona-krisen drabbar restaurangägare och cateringföretag i Tyskland hårt. Digitala verktyg och lösningar kan hjälpa dig att ta dig igenom Corona-pandemin så säkert som möjligt.I den här handledningsserien "Kreativt ut ur krisen" visar jag teknik och verktyg som kan vara användbara för småföretag. Idag skapar jag en veckomeny för "OUT OF HOUSE BUSINESS". Du hittar många menymallar på https://www.365layouts.com/de/vorlagen/menu/. Du kan också anpassa dessa mallar direkt i 365Layouts-redigeraren.
 ## Steg 1: Hitta en mall

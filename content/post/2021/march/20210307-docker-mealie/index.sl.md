@@ -3,7 +3,7 @@ date = "2021-03-07"
 title = "Velike stvari s posodami: upravljanje in arhiviranje receptov na strežniku Synology DiskStation"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "docker-for-desktop", "rezepte", "speisen", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210307-docker-mealie/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210307-docker-mealie/index.sl.md"
 +++
 Vse svoje najljubše recepte zberete v vsebniku Docker in jih uredite po svojih željah. Napišite svoje recepte ali uvozite recepte s spletnih strani, na primer "Chefkoch", "Essen
 {{< gallery match="images/1/*.png" >}}

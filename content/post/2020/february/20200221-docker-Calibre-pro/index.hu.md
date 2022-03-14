@@ -3,7 +3,7 @@ date = "2020-02-21"
 title = "Nagyszerű dolgok konténerekkel: Calibre futtatása Docker Compose-szal (Synology pro beállítás)"
 difficulty = "level-3"
 tags = ["calibre", "calibre-web", "Docker", "docker-compose", "Synology", "linux"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200221-docker-Calibre-pro/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200221-docker-Calibre-pro/index.hu.md"
 +++
 Ezen a blogon már van egy egyszerűbb bemutató: [Synology-Nas: Telepítse a Calibre Web-et e-könyvtárként]({{< ref "post/2020/february/20200213-synology-calibreweb" >}} "Synology-Nas: Telepítse a Calibre Web-et e-könyvtárként"). Ez a bemutató minden Synology DS szakembernek szól.
 ## 1. lépés: A Synology előkészítése

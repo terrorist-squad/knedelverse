@@ -3,7 +3,7 @@ date = "2020-02-13"
 title = "Synology-Nas: Confluence jako system wiki"
 difficulty = "level-4"
 tags = ["atlassian", "confluence", "Docker", "ds918", "Synology", "wiki", "nas"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200213-synology-confluence/index.pl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200213-synology-confluence/index.pl.md"
 +++
 Jeśli chcesz zainstalować Atlassian Confluence na serwerze NAS firmy Synology, to trafiłeś we właściwe miejsce.
 ## Krok 1

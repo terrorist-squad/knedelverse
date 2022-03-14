@@ -3,7 +3,7 @@ date = "2021-09-05"
 title = "Odlične stvari s posodami: Logitechovi medijski strežniki na diskovni postaji Synology"
 difficulty = "level-1"
 tags = ["logitech", "synology", "diskstation", "nas", "sound-system", "multiroom"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/september/20210905-logitech-mediaserver/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/september/20210905-logitech-mediaserver/index.sl.md"
 +++
 V tem vodniku boste izvedeli, kako v strežnik Synology DiskStation namestiti medijski strežnik Logitech Media Server.
 {{< gallery match="images/1/*.jpg" >}}

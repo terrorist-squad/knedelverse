@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "História curta: Actualização automática de contentores com a Torre de Vigilância"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "watchtower"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-Watchtower/index.pt.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Watchtower/index.pt.md"
 +++
 Se você executar os containers Docker na sua estação de disco, você naturalmente quer que eles estejam sempre atualizados. Torre de Vigilância actualiza automaticamente imagens e recipientes. Desta forma, você pode desfrutar das últimas características e da segurança de dados mais atualizada. Hoje vou mostrar-lhe como instalar uma Torre de Vigilância na estação de disco Synology.
 ## Passo 1: Preparar a Sinologia

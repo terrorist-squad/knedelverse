@@ -3,7 +3,7 @@ date = "2020-02-28"
 title = "Velké věci s kontejnery: Spuštění systému Papermerge DMS na zařízení Synology NAS"
 difficulty = "level-3"
 tags = ["archiv", "automatisch", "dms", "Docker", "Document-Managment-System", "google", "ocr", "papermerge", "Synology", "tesseract", "texterkennung"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200228-docker-papermerge/index.cs.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200228-docker-papermerge/index.cs.md"
 +++
 Papermerge je mladý systém správy dokumentů (DMS), který dokáže automaticky přiřazovat a zpracovávat dokumenty. V tomto návodu ukážu, jak jsem nainstaloval Papermerge na diskovou stanici Synology a jak funguje DMS.
 ## Možnost pro profesionály

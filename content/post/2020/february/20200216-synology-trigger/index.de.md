@@ -3,7 +3,7 @@ date = "2020-02-16"
 title = "Synology-Nas: Setting up Gitlab Triggers"
 difficulty = "level-1"
 tags = ["git", "gitlab", "gitlab-runner", "Synology", "trigger"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200216-synology-trigger/index.en.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200216-synology-trigger/index.en.md"
 +++
 
 In order to trigger a Gitlab pipeline automatically, a so-called trigger must be created. You can create as many triggers as you want in the project - settings.

@@ -3,7 +3,7 @@ date = "2021-03-07"
 title = "Az ESXi telepítése egy NUC-ra. Készítse elő az USB-pendrive-ot a MacBookon keresztül."
 difficulty = "level-4"
 tags = ["esxi", "homelab", "hypervisor", "linux", "nuc", "vmware"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210307-esxi-nuc/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210307-esxi-nuc/index.hu.md"
 +++
 Az ESXi segítségével az "intel NUC" tetszőleges számú számítógépre osztható. Ebben a bemutatóban megmutatom, hogyan telepítettem a VMware ESXi-t a NUC-omra.Kis előszó: az ESXi telepítése előtt ajánlom a BIOS frissítését. Szüksége lesz egy 32 GB-os USB-pendrive-ra is. Egy egész csomagot vettem az Amazonon kevesebb mint 5 euróért darabonként.
 {{< gallery match="images/1/*.jpg" >}}

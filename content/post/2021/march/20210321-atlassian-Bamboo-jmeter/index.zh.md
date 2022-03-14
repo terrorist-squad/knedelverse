@@ -3,7 +3,7 @@ date = "2021-03-21"
 title = "使用阿特拉斯的酷事：在没有插件的情况下使用Bamboo和jMeter"
 difficulty = "level-2"
 tags = ["code", "development", "devops", "docker-compose", "git", "gitlab", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210321-atlassian-Bamboo-jmeter/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-atlassian-Bamboo-jmeter/index.zh.md"
 +++
 今天我在Bamboo中创建一个jMeter测试。当然，你也可以用Gitlab runners或Jenkins slaves实现这个测试设置。
 ## 第1步：创建jMeter测试

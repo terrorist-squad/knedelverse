@@ -3,7 +3,7 @@ date = "2021-04-11"
 title = "摆脱危机的创意：使用PrestaShop的专业网店"
 difficulty = "level-4"
 tags = ["corona", "Docker", "docker-compose", "kreativ", "krise", "online-shop", "presta", "shop", "shopsystem"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210411-docker-PrestaShop/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210411-docker-PrestaShop/index.zh.md"
 +++
 PrestaShop是一个欧洲的开源电子商务平台，根据它自己的信息，目前有超过300,000个安装。今天我在我的服务器上安装这个PHP软件。本教程需要一些Linux、Docker和Docker Compose知识。
 ## 第1步：安装PrestaShop

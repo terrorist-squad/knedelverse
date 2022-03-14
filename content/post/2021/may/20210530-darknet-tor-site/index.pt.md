@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Configure a sua própria página Darknet"
 difficulty = "level-3"
 tags = ["darknet", "tor", "website", "hosting", "hidden"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-darknet-tor-site/index.pt.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-darknet-tor-site/index.pt.md"
 +++
 Navegar no Darknet como visitante é bastante simples. Mas como posso hospedar uma página de cebola? Vou mostrar-te como criar a tua própria página Darknet.
 ## Passo 1: Como eu posso surfar no Darknet?

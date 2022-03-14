@@ -3,7 +3,7 @@ date = "2021-06-19"
 title = "コンテナを利用した優れた点：Remark42は私のコメントソリューションです。"
 difficulty = "level-1"
 tags = ["microservice", "docker", "vertical", "kommentare"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210619-docker-remark42/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210619-docker-remark42/index.ja.md"
 +++
 静的なサイトとしてブログを運営しているのであれば、動的なコメント機能を提供するマイクロサービス/バーティカルがいいかもしれません。例えばこのブログは、Markdownコンテンツ用にGOで書かれた「ウェブサイト・ジェネレーター」であるHUGOで実現しています。私の場合は、このDocker Composeファイルを自分用にアレンジして、「docker-compose -f compose.yml up -d」で起動しました。GoogleやFacebookとの認証用にAPIキーを保存しています。また、読者との交流のために、メールサーバーの設定を入力しました。
 ```

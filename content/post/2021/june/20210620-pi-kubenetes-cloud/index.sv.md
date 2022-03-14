@@ -3,7 +3,7 @@ date = "2021-06-20"
 title = "Stora saker med containrar: Kubenetes kluster och NFS-lagring"
 difficulty = "level-4"
 tags = ["kubernetes", "nfs", "filer", "cloud", "homelab", "pods", "nodes", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210620-pi-kubenetes-cloud/index.sv.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210620-pi-kubenetes-cloud/index.sv.md"
 +++
 Idag installerar jag ett nytt Kubenetes-kluster och det finns mycket att göra!
 {{< gallery match="images/1/*.jpg" >}}

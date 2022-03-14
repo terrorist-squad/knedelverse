@@ -3,7 +3,7 @@ date = "2021-04-11"
 title = "Kreativni izhod iz krize: profesionalna spletna trgovina s PrestaShopom"
 difficulty = "level-4"
 tags = ["corona", "Docker", "docker-compose", "kreativ", "krise", "online-shop", "presta", "shop", "shopsystem"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210411-docker-PrestaShop/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210411-docker-PrestaShop/index.sl.md"
 +++
 PrestaShop je evropska odprtokodna platforma za e-trgovino, ki je po lastnih podatkih trenutno nameščena v več kot 300.000 sistemih. Danes nameščam to programsko opremo PHP na svoj strežnik. Za to vadnico je potrebno nekaj znanja o Linuxu, Dockerju in Docker Compose.
 ## Korak 1: Namestite PrestaShop

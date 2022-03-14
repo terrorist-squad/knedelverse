@@ -3,7 +3,7 @@ date = "2021-06-26"
 title = "Skvělé věci s kontejnery: Kubernetes Dashboard"
 difficulty = "level-4"
 tags = ["kubernetes", "cloud", "homelab", "pods", "nodes", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210726-kubernetes-board/index.cs.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210726-kubernetes-board/index.cs.md"
 +++
 Po vytvoření clusteru Kubernetes v tutoriálu [Skvělé věci s kontejnery: cluster Kubenetes a úložiště NFS]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "Skvělé věci s kontejnery: cluster Kubenetes a úložiště NFS") bych rád nainstaloval ovládací panel Kubernetes.
 {{< gallery match="images/1/*.jpg" >}}

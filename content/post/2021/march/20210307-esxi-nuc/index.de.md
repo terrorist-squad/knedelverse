@@ -3,7 +3,7 @@ date = "2021-03-07"
 title = "ESXi auf einem NUC installieren. USB-Stick via MacBook präparieren."
 difficulty = "level-4"
 tags = ["esxi", "homelab", "hypervisor", "linux", "nuc", "vmware"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210307-esxi-nuc/index.de.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210307-esxi-nuc/index.de.md"
 +++
 
 Mit ESXi lässt sich der „intel NUC“ in beliebige viele Computer unterteilen. In diesem Tutorial zeige ich, wie ich VMware ESXi auf meinen NUC installiert habe.

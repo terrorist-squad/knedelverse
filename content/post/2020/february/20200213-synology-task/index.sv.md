@@ -3,7 +3,7 @@ date = "2020-02-13"
 title = "Synology-Nas: Hur kan jag köra uppgifter eller crons?"
 difficulty = "level-1"
 tags = ["synology", "diskstation", "task", "cronjob", "cron", "aufgabe"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200213-synology-task/index.sv.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200213-synology-task/index.sv.md"
 +++
 Vill du ställa in automatiska uppgifter i Synology NAS-enheten? Klicka på "Task Scheduler" i kontrollpanelen.
 {{< gallery match="images/1/*.png" >}}

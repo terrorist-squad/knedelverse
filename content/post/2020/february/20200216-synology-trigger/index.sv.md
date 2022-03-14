@@ -3,7 +3,7 @@ date = "2020-02-16"
 title = "Synology-Nas: Konfigurera Gitlab-triggers"
 difficulty = "level-1"
 tags = ["git", "gitlab", "gitlab-runner", "Synology", "trigger"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200216-synology-trigger/index.en.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200216-synology-trigger/index.en.md"
 +++
 För att kunna utlösa en Gitlab-pipeline automatiskt måste en så kallad trigger skapas. Du kan skapa så många utlösare som du vill i projektinställningarna.
 {{< gallery match="images/1/*.png" >}}

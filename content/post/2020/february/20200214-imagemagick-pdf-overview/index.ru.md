@@ -3,7 +3,7 @@ date = "2020-02-14"
 title = "Создание обзора страниц PDF"
 difficulty = "level-3"
 tags = ["bash", "linux", "pdf", "postscript", "imagemagick"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200214-imagemagick-pdf-overview/index.ru.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200214-imagemagick-pdf-overview/index.ru.md"
 +++
 Если вы хотите создать обзорное изображение страницы из PDF-файла, то вы пришли по адресу!
 {{< gallery match="images/1/*.jpg" >}}

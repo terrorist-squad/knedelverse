@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "Great things with containers: Netbox on Synology - Disk"
 difficulty = "level-3"
 tags = ["Computernetzwerken", "DCIM", "Docker", "docker-compose", "IPAM", "netbox", "Synology", "netwerk"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-Netbox/index.en.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Netbox/index.en.md"
 +++
 NetBox is a free software used for computer network management. Today I will show how to install a NetBox service on Synology DiskStation.
 ## Step 1: Prepare Synology

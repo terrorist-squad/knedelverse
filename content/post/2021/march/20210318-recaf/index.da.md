@@ -3,7 +3,7 @@ date = "2021-03-18"
 title = "Kort fortælling: Tilpasning af udenlandske Java-biblioteker"
 difficulty = "level-2"
 tags = ["dekompilieren", "manipulieren", "Recaf", "rekompilieren", "reverse", "reverse-engineering"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210318-recaf/index.da.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210318-recaf/index.da.md"
 +++
 Forleden ville jeg tilpasse metoder i et fremmed Java-bibliotek og ledte derfor efter et passende værktøj. Jeg har kigget meget på bytecode-editorer og bytecode. Men endelig endte jeg med Recaf, og jeg er helt vild med det: https://github.com/Col-E/Recaf
 {{< gallery match="images/1/*.png" >}}

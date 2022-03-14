@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Suuria asioita konttien avulla: Oman dokuWikin asentaminen Synologyn levyasemalle"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "dokuwiki", "wiki"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-docker-dokuWiki/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-dokuWiki/index.fi.md"
 +++
 DokuWiki on standardien mukainen, helppokäyttöinen ja samalla erittäin monipuolinen avoimen lähdekoodin wikiohjelmisto. Tänään näytän, miten DokuWiki-palvelu asennetaan Synologyn levyasemalle.
 ## Vaihtoehto ammattilaisille

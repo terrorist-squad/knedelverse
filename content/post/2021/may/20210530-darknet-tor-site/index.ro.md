@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Creați-vă propria pagină Darknet"
 difficulty = "level-3"
 tags = ["darknet", "tor", "website", "hosting", "hidden"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-darknet-tor-site/index.ro.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-darknet-tor-site/index.ro.md"
 +++
 Navigarea pe Darknet ca vizitator este destul de simplă. Dar cum pot găzdui o pagină Onion? Vă voi arăta cum să vă creați propria pagină Darknet.
 ## Pasul 1: Cum pot naviga pe Darknet?

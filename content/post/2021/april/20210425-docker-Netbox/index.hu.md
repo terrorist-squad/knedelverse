@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "Nagyszerű dolgok konténerekkel: Netbox a Synology-n - Lemez"
 difficulty = "level-3"
 tags = ["Computernetzwerken", "DCIM", "Docker", "docker-compose", "IPAM", "netbox", "Synology", "netwerk"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-Netbox/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Netbox/index.hu.md"
 +++
 A NetBox egy ingyenes szoftver, amelyet számítógépes hálózatok kezelésére használnak. Ma megmutatom, hogyan kell telepíteni a Netbox szolgáltatást a Synology DiskStationre.
 ## 1. lépés: A Synology előkészítése

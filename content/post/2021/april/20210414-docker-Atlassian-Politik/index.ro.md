@@ -3,7 +3,7 @@ date = "2021-04-14"
 title = "Uncool cu Atlassian: cum să te descurci cu politica Atlassian"
 difficulty = "level-3"
 tags = ["atlassian", "Atlassian-Politik", "bamboo", "Docker", "confluence", "docker-compose", "jira", "lizenz", "krise", "politik"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210414-docker-Atlassian-Politik/index.ro.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-Atlassian-Politik/index.ro.md"
 +++
 Atlassian a încetat să mai vândă licențe pentru servere mici și mă gândesc de mult timp cum să rezolv această problemă. Deoarece doresc să îmi folosesc instalația pentru o perioadă lungă de timp, am implementat următoarele măsuri:
 ## Măsura 1: Folosesc exclusiv Docker

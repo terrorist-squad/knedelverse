@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "Великие вещи с контейнерами: реестр Docker с пользовательским интерфейсом"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "registry", "images", "ui", "interface"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-registry/index.ru.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-registry/index.ru.md"
 +++
 Узнайте, как сделать образы Docker доступными для всей сети через собственный реестр.
 ## Установка

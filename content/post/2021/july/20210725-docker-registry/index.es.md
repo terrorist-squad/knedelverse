@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "Grandes cosas con los contenedores: Registro Docker con interfaz de usuario"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "registry", "images", "ui", "interface"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-registry/index.es.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-registry/index.es.md"
 +++
 Aprenda a hacer que sus imágenes Docker estén disponibles en toda la red a través de su propio registro.
 ## Instalación

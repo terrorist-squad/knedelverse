@@ -3,7 +3,7 @@ date = "2021-03-06"
 title = "Приборная панель с RaspberryPiZeroW, Javascript и GitLab"
 difficulty = "level-3"
 tags = ["git", "gitlab", "issueboard", "issues", "javascript", "wallboard"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210306-gitlab-dashboard/index.ru.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210306-gitlab-dashboard/index.ru.md"
 +++
 Установка с Raspberry Noobs - это детская игра! Все, что вам нужно, это RaspberryZeroW и чистая SD-карта.
 ## Шаг 1: Установщик для новичков

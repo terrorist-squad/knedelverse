@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "容器的伟大之处：在Synology DiskStation上建立你自己的Bookstack Wiki"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "bookstack", "wiki"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210416-docker-Bookstack/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210416-docker-Bookstack/index.zh.md"
 +++
 Bookstack是MediaWiki或Confluence的一个 "开源 "替代品。今天我展示了如何在Synology磁盘站上安装Bookstack服务。
 ## 专业人士的选择

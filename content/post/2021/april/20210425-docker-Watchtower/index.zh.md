@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "短文：用守望先锋自动更新容器"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "watchtower"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-Watchtower/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Watchtower/index.zh.md"
 +++
 如果你在磁盘站上运行Docker容器，你自然希望它们始终是最新的。Watchtower自动更新图像和容器。这样，你就可以享受到最新的功能和最先进的数据安全。今天我将告诉你如何在Synology磁盘站上安装Watchtower。
 ## 第1步：准备好Synology

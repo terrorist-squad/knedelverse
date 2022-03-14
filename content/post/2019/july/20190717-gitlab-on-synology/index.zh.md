@@ -3,7 +3,7 @@ date = "2019-07-17"
 title = "Synology Nas: 安装 Gitlab?"
 difficulty = "level-1"
 tags = ["git", "gitlab", "gitlab-runner", "nas", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2019/july/20190717-gitlab-on-synology/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2019/july/20190717-gitlab-on-synology/index.zh.md"
 +++
 这里我展示了我如何在我的Synology NAS上安装Gitlab和Gitlab runner。首先，GitLab应用程序必须以Synology软件包的形式安装。在 "软件包中心 "搜索 "Gitlab "并点击 "安装"。   
 {{< gallery match="images/1/*.*" >}}

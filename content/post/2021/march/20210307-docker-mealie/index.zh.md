@@ -3,7 +3,7 @@ date = "2021-03-07"
 title = "容器的伟大之处：在Synology DiskStation上管理和存档菜谱"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "docker-for-desktop", "rezepte", "speisen", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210307-docker-mealie/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210307-docker-mealie/index.zh.md"
 +++
 在Docker容器中收集所有你喜欢的菜谱，并按你的意愿组织它们。编写你自己的食谱或从网站导入食谱，例如 "Chefkoch"、"Essen "等。
 {{< gallery match="images/1/*.png" >}}

@@ -3,7 +3,7 @@ date = "2021-04-02"
 title = "Nagyszerű dolgok konténerekkel: a Docker szolgáltatások biztonságosabbá tétele LDAP és NGINX segítségével"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ldap", "logging", "nutzerverwaltung", "peertube", "ssl"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210402-nginx-reverse-proxy/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-nginx-reverse-proxy/index.hu.md"
 +++
 Synology Diskstation felhasználóként számos szolgáltatást futtatok a Homelab hálózatomon. Szoftvert telepítek a Gitlabban, dokumentálom a tudást a Confluence-ben, és műszaki referenciákat olvasok a Calibre webszerver segítségével.
 {{< gallery match="images/1/*.png" >}}

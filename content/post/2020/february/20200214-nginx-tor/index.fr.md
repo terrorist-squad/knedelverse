@@ -3,7 +3,7 @@ date = "2020-02-14"
 title = "Nginx : comment bloquer les utilisateurs de TOR"
 difficulty = "level-3"
 tags = ["blacklisting", "block", "hacker", "darknet", "nginx", "security", "tor"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200214-nginx-tor/index.fr.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200214-nginx-tor/index.fr.md"
 +++
 Pour mon bloqueur de darknet, j'ai seulement besoin d'une liste Tor-Exit-Node-IO et de la rule suivante :
 ```

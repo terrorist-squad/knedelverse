@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Perusta oma Darknet-sivusi"
 difficulty = "level-3"
 tags = ["darknet", "tor", "website", "hosting", "hidden"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-darknet-tor-site/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-darknet-tor-site/index.fi.md"
 +++
 Darknetissä surffailu vierailijana on melko yksinkertaista. Mutta miten voin isännöidä Onion-sivua? Näytän sinulle, miten voit perustaa oman Darknet-sivusi.
 ## Vaihe 1: Miten voin surffata Darknetissä?

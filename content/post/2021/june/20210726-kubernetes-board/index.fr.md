@@ -3,7 +3,7 @@ date = "2021-06-26"
 title = "Du grand avec les conteneurs : tableau de bord Kubernetes"
 difficulty = "level-4"
 tags = ["kubernetes", "cloud", "homelab", "pods", "nodes", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210726-kubernetes-board/index.fr.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210726-kubernetes-board/index.fr.md"
 +++
 Après avoir créé un cluster Kubernetes dans le tutoriel [Du grand avec les conteneurs : cluster Kubenetes et stockage NFS]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "Du grand avec les conteneurs : cluster Kubenetes et stockage NFS"), je souhaite installer un tableau de bord Kubernetes.
 {{< gallery match="images/1/*.jpg" >}}

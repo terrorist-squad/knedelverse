@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Synology DiskStation 上的 Udemy 下载器"
 difficulty = "level-2"
 tags = ["udemy", "download", "synology", "diskstation", "udemydl"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-udemydl/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-udemydl/index.zh.md"
 +++
 在本教程中，您将学习如何下载 "udemy "课程供离线使用。
 ## 第1步：准备好Udemy文件夹

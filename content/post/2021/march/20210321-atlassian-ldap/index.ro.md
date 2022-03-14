@@ -3,7 +3,7 @@ date = "2021-03-24"
 title = "Lucruri interesante cu Atlassian: Utilizați toate instrumentele Atlassian cu LDAP"
 difficulty = "level-3"
 tags = ["atlassian", "bamboo", "jira", "ldap", "openldap", "linux", "test"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210321-atlassian-ldap/index.ro.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-atlassian-ldap/index.ro.md"
 +++
 Sunteți norocos dacă aveți propria instalație Atlassian. Astăzi vă arăt cum am conectat Jira, Bamboo și Confluence la serverul meu LDAP.
 ## Pasul 1: Instalați OpenLDAP

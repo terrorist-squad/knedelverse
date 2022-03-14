@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "容器的伟大之处：在Synology Diskstation上运行Youtube下载器"
 difficulty = "level-1"
 tags = ["Docker", "docker-compose", "download", "linux", "Synology", "video", "youtube"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-docker-youtube-dl/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-docker-youtube-dl/index.zh.md"
 +++
 我的许多朋友都知道，我在我的Homelab - Network上运行一个私人学习视频门户。我把过去学习门户会员的视频课程和Youtube上的好教程保存在我的NAS上供离线使用。
 {{< gallery match="images/1/*.png" >}}

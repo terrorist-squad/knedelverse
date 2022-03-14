@@ -3,7 +3,7 @@ date = "2019-07-17"
 title = "PIFM：104.6全球调频电台"
 difficulty = "level-1"
 tags = ["104.6rtl", "fm-streaming", "pi", "radio", "raspberry-pi"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2019/july/20190717-rpi-pifm/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2019/july/20190717-rpi-pifm/index.zh.md"
 +++
 如果你是104.6 RTL的粉丝，不想一天都没有柏林的热门电台，那么你就来对地方了。你需要一台名为树莓的单板计算机，以及GPIO端口4上的一根电缆作为天线。
 ## 需要以下软件包

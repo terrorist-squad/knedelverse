@@ -3,7 +3,7 @@ date = "2021-06-20"
 title = "Store ting med containere: Kubenetes klynge og NFS-lagring"
 difficulty = "level-4"
 tags = ["kubernetes", "nfs", "filer", "cloud", "homelab", "pods", "nodes", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210620-pi-kubenetes-cloud/index.da.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210620-pi-kubenetes-cloud/index.da.md"
 +++
 I dag skal jeg installere en ny Kubenetes-klynge, og der er meget at lave!
 {{< gallery match="images/1/*.jpg" >}}

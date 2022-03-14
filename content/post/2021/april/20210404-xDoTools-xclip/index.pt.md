@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "História curta: Controle da área de trabalho com xDoTools e xClip"
 difficulty = "level-3"
 tags = ["bash", "linux", "robot", "roboter", "linux", "Robotic-Process-Automation", "rpa", "xclip", "xdotool"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210404-xDoTools-xclip/index.pt.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-xDoTools-xclip/index.pt.md"
 +++
 Neste tutorial eu mostro como controlar um Linux - desktop via Bash. Os seguintes pacotes são necessários para o robô Bash:
 {{< terminal >}}

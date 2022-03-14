@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "Кратка история: Контрол на работния плот с xDoTools и xClip"
 difficulty = "level-3"
 tags = ["bash", "linux", "robot", "roboter", "linux", "Robotic-Process-Automation", "rpa", "xclip", "xdotool"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210404-xDoTools-xclip/index.bg.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-xDoTools-xclip/index.bg.md"
 +++
 В този урок ще покажа как да управлявате Linux - десктоп чрез Bash. Следните пакети са необходими за робота Bash:
 {{< terminal >}}

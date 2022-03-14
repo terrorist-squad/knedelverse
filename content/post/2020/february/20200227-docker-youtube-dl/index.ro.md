@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "Lucruri grozave cu containere: Rularea Youtube downloader pe Synology Diskstation"
 difficulty = "level-1"
 tags = ["Docker", "docker-compose", "download", "linux", "Synology", "video", "youtube"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-docker-youtube-dl/index.ro.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-docker-youtube-dl/index.ro.md"
 +++
 Mulți dintre prietenii mei știu că am un portal video privat de învățare pe rețeaua mea Homelab - Network. Am salvat cursuri video de la abonamentele anterioare la portaluri de învățare și tutoriale bune de pe Youtube pentru utilizare offline pe NAS-ul meu.
 {{< gallery match="images/1/*.png" >}}

@@ -3,7 +3,7 @@ date = "2021-06-19"
 title = "Velké věci s kontejnery: Remark42 je moje řešení pro komentáře"
 difficulty = "level-1"
 tags = ["microservice", "docker", "vertical", "kommentare"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210619-docker-remark42/index.cs.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210619-docker-remark42/index.cs.md"
 +++
 Pokud provozujete svůj blog jako statický web, možná budete chtít mikroslužbu/vertikální službu, která poskytuje funkci dynamických komentářů. Tento blog je například realizován v programu HUGO, "generátoru webových stránek" napsaném v jazyce GO pro obsah Markdown.V mém případě jsem si tento soubor Docker Compose upravil pro sebe a spustil ho příkazem "docker-compose -f compose.yml up -d". Mám uložené klíče API pro ověřování u společností Google a Facebook. Zadal jsem také nastavení poštovního serveru pro interakci se čtenáři.
 ```

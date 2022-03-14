@@ -3,7 +3,7 @@ date = "2019-07-17"
 title = "Synology Nas: Asenna Gitlab?"
 difficulty = "level-1"
 tags = ["git", "gitlab", "gitlab-runner", "nas", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2019/july/20190717-gitlab-on-synology/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2019/july/20190717-gitlab-on-synology/index.fi.md"
 +++
 Tässä näytän, miten asensin Gitlabin ja Gitlab-runnerin Synology NAS:iin. Ensin GitLab-sovellus on asennettava Synology-pakettina. Etsi "Gitlab" pakettikeskuksesta ja napsauta "Asenna".   
 {{< gallery match="images/1/*.*" >}}

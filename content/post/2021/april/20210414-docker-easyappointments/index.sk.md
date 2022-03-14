@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "Kreatívne z krízy: rezervácia služby s jednoduchými termínmi"
 difficulty = "level-3"
 tags = ["buchung", "buchungstool", "click-and-meet", "corona", "Docker", "docker-compose", "easyappointments", "krise", "einzelhandel", "geschaefte"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210414-docker-easyappointments/index.sk.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-easyappointments/index.sk.md"
 +++
 Kríza spoločnosti Corona tvrdo zasiahla poskytovateľov služieb v Nemecku. Digitálne nástroje a riešenia môžu pomôcť prekonať pandémiu Corona čo najbezpečnejšie. V tejto sérii návodov "Kreatívne z krízy" ukazujem technológie alebo nástroje, ktoré môžu byť užitočné pre malé podniky.Dnes ukazujem "Easyappointments", nástroj na rezerváciu služieb, napríklad kaderníctva alebo obchodov. Easyappointments pozostáva z dvoch oblastí:
 ## Oblasť 1: Backend

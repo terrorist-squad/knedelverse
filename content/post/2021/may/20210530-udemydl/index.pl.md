@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Udemy Downloader na serwerze Synology DiskStation"
 difficulty = "level-2"
 tags = ["udemy", "download", "synology", "diskstation", "udemydl"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-udemydl/index.pl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-udemydl/index.pl.md"
 +++
 W tym poradniku dowiesz się jak pobrać kursy "udemy" do użytku offline.
 ## Krok 1: Przygotuj folder Udemy

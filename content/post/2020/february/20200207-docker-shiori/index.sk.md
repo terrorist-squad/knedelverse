@@ -3,7 +3,7 @@ date = "2020-02-07"
 title = "Veľké veci s kontajnermi: Internetový archív v aplikácii Docker"
 difficulty = "level-3"
 tags = ["bookmarks", "Docker", "Internet-Archiv", "Synology", "shiori"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200207-docker-shiori/index.sk.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200207-docker-shiori/index.sk.md"
 +++
 V nasledujúcom návode nainštalujete súkromný "internetový archív" ako kontajner Docker. Všetko, čo potrebujete, je tento súbor "Docker-compose":
 ```

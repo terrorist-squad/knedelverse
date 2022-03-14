@@ -3,7 +3,7 @@ date = "2021-03-06"
 title = "使用RaspberryPiZeroW、Javascript和GitLab的问题仪表板"
 difficulty = "level-3"
 tags = ["git", "gitlab", "issueboard", "issues", "javascript", "wallboard"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210306-gitlab-dashboard/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210306-gitlab-dashboard/index.zh.md"
 +++
 用Raspberry Noobs进行安装是小儿科!你只需要一个RaspberryZeroW和一张空白SD卡。
 ## 第1步：Noobs安装程序

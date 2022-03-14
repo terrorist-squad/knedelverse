@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Téléchargeur Udemy sur la station de disque Synology"
 difficulty = "level-2"
 tags = ["udemy", "download", "synology", "diskstation", "udemydl"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-udemydl/index.fr.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-udemydl/index.fr.md"
 +++
 Dans ce tutoriel, vous apprendrez comment télécharger des cours "udemy" pour une utilisation hors ligne.
 ## Etape 1 : Préparer le dossier Udemy

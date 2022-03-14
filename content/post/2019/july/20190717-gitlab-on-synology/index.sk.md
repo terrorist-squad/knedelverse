@@ -3,7 +3,7 @@ date = "2019-07-17"
 title = "Synology Nas: Inštalácia aplikácie Gitlab?"
 difficulty = "level-1"
 tags = ["git", "gitlab", "gitlab-runner", "nas", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2019/july/20190717-gitlab-on-synology/index.sk.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2019/july/20190717-gitlab-on-synology/index.sk.md"
 +++
 Tu ukazujem, ako som nainštaloval Gitlab a Gitlab runner na Synology NAS. Najprv je potrebné nainštalovať aplikáciu GitLab ako balík Synology. Vyhľadajte "Gitlab" v "Centre balíčkov" a kliknite na "Inštalovať".   
 {{< gallery match="images/1/*.*" >}}

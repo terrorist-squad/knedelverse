@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "小故事：Jenkins和openLDAP"
 difficulty = "level-1"
 tags = ["development", "devops", "Jenkins", "ldap", "linux", "openldap"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210404-docker-jenkins/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-docker-jenkins/index.zh.md"
 +++
 本教程是建立在以前的 "[容器的伟大之处：在Synology DS上运行Jenkins]({{< ref "post/2021/march/20210321-docker-jenkins" >}} "容器的伟大之处：在Synology DS上运行Jenkins") "知识基础上的。如果你一开始就已经有了LDAP，你只需要创建一个合适的应用组。
 {{< gallery match="images/1/*.png" >}}

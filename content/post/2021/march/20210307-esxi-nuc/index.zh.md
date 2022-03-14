@@ -3,7 +3,7 @@ date = "2021-03-07"
 title = "在NUC上安装ESXi。通过MacBook准备好U盘。"
 difficulty = "level-4"
 tags = ["esxi", "homelab", "hypervisor", "linux", "nuc", "vmware"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210307-esxi-nuc/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210307-esxi-nuc/index.zh.md"
 +++
 通过ESXi，"intel NUC "可以被划分为任何数量的计算机。在本教程中，我展示了我是如何在我的NUC上安装VMware ESXi的。小前言：我建议在安装ESXi之前进行BIOS更新。你还将需要一个32GB的U盘。我从亚马逊买了一整捆，每捆不到5欧元。
 {{< gallery match="images/1/*.jpg" >}}

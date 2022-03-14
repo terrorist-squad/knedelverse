@@ -3,7 +3,7 @@ date = "2021-06-26"
 title = "Grandes coisas com recipientes: Kubernetes Dashboard"
 difficulty = "level-4"
 tags = ["kubernetes", "cloud", "homelab", "pods", "nodes", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210726-kubernetes-board/index.pt.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210726-kubernetes-board/index.pt.md"
 +++
 Depois de criar um cluster Kubernetes no tutorial [Grandes coisas com contentores: aglomerado Kubenetes e armazenamento NFS]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "Grandes coisas com contentores: aglomerado Kubenetes e armazenamento NFS"), eu gostaria de instalar um painel de controlo Kubernetes.
 {{< gallery match="images/1/*.jpg" >}}

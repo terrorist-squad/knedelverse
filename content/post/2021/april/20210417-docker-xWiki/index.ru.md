@@ -3,7 +3,7 @@ date = "2021-04-17"
 title = "Великие дела с контейнерами: Запуск собственной xWiki на дисковой станции Synology"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "xwiki", "wiki",]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210417-docker-xWiki/index.ru.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210417-docker-xWiki/index.ru.md"
 +++
 XWiki - это свободная программная платформа вики, написанная на Java и разработанная с учетом расширяемости. Сегодня я покажу, как установить службу xWiki на Synology DiskStation.
 ## Вариант для профессионалов

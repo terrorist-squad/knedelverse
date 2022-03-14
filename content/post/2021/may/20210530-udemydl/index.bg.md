@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Изтегляне на Udemy в Synology DiskStation"
 difficulty = "level-2"
 tags = ["udemy", "download", "synology", "diskstation", "udemydl"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-udemydl/index.bg.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-udemydl/index.bg.md"
 +++
 В този урок ще научите как да изтегляте курсове на "udemy" за офлайн употреба.
 ## Стъпка 1: Подгответе папката Udemy

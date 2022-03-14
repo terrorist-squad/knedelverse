@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "Velike stvari z zabojniki: upravljanje hladilnika z Grocyjem"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "kühlschrank", "erp", "mhd", "Speispläne", "cms", "Cafe", "Bistro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-grocy/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-grocy/index.sl.md"
 +++
 Z Grocyjem lahko upravljate celotno gospodinjstvo, restavracijo, kavarno, bistro ali živilsko tržnico. Upravljate lahko hladilnike, menije, opravila, nakupovalne sezname in rok trajanja živil.
 {{< gallery match="images/1/*.png" >}}

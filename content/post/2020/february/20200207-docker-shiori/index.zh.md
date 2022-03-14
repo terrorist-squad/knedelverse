@@ -3,7 +3,7 @@ date = "2020-02-07"
 title = "容器的伟大之处。Docker中的互联网档案馆"
 difficulty = "level-3"
 tags = ["bookmarks", "Docker", "Internet-Archiv", "Synology", "shiori"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200207-docker-shiori/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200207-docker-shiori/index.zh.md"
 +++
 在下面的教程中，你将把一个私有的 "互联网档案 "安装成一个Docker容器。你所需要的就是这个 "Docker-compose "文件。
 ```

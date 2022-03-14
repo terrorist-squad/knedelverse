@@ -3,7 +3,7 @@ date = "2021-06-26"
 title = "Wspaniałe rzeczy z kontenerami: Kubernetes Dashboard"
 difficulty = "level-4"
 tags = ["kubernetes", "cloud", "homelab", "pods", "nodes", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210726-kubernetes-board/index.pl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210726-kubernetes-board/index.pl.md"
 +++
 Po utworzeniu klastra Kubernetes w tutorialu [Wielkie rzeczy z kontenerami: klaster Kubenetes i magazyn NFS]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "Wielkie rzeczy z kontenerami: klaster Kubenetes i magazyn NFS"), chciałbym zainstalować dashboard Kubernetes.
 {{< gallery match="images/1/*.jpg" >}}

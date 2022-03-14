@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "Wspaniałe rzeczy z kontenerami: Uruchamianie programu do pobierania plików Youtube na stacji Synology Diskstation"
 difficulty = "level-1"
 tags = ["Docker", "docker-compose", "download", "linux", "Synology", "video", "youtube"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-docker-youtube-dl/index.pl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-docker-youtube-dl/index.pl.md"
 +++
 Wielu moich znajomych wie, że prowadzę prywatny portal video do nauki na moim Homelab - Network. Zapisałem kursy wideo z poprzednich członkostw w portalach edukacyjnych i dobre tutoriale Youtube do użytku offline na moim NAS.
 {{< gallery match="images/1/*.png" >}}

@@ -3,7 +3,7 @@ date = "2020-02-13"
 title = "Synology-Nas: wikiシステムとしてのConfluence"
 difficulty = "level-4"
 tags = ["atlassian", "confluence", "Docker", "ds918", "Synology", "wiki", "nas"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200213-synology-confluence/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200213-synology-confluence/index.ja.md"
 +++
 Synology NASにAtlassian Confluenceをインストールするには、適切な場所に来ています。
 ## ステップ1

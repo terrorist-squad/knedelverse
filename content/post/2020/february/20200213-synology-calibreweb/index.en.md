@@ -3,7 +3,7 @@ date = "2020-02-13"
 title = "Synology-Nas: Install Calibre Web as ebook library"
 difficulty = "level-1"
 tags = ["calbre-web", "calibre", "Docker", "ds918", "ebook", "epub", "nas", "pdf", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200213-synology-calibreweb/index.en.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200213-synology-calibreweb/index.en.md"
 +++
 How do I install Calibre-Web as a Docker container on my Synology NAS? Attention: This installation method is outdated and is not compatible with the current Calibre software. Please check out this new tutorial:[Great things with containers: running Calibre with Docker Compose]({{< ref "post/2020/february/20200221-docker-Calibre-pro" >}} "Great things with containers: running Calibre with Docker Compose"). This tutorial is for all Synology DS professionals.
 ## Step 1: Create folder

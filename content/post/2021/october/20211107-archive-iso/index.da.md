@@ -3,7 +3,7 @@ date = "2021-11-07"
 title = "Nogle gange ville jeg ønske, at jeg havde en tidsmaskine!"
 difficulty = "level-1"
 tags = ["archiv", "internet", "iso", "90ger", "2000er"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/october/20211107-archive-iso/index.da.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/october/20211107-archive-iso/index.da.md"
 +++
 Wayback Machine er et arkiv over gamle websteder. Du skal blot indtaste domænet der og få en tidslinje over alle statiske snapshots.
 {{< gallery match="images/1/*.png" >}}

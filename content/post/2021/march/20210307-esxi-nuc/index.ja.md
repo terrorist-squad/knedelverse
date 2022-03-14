@@ -3,7 +3,7 @@ date = "2021-03-07"
 title = "NUCにESXiをインストールする。MacBookでUSBメモリを用意する。"
 difficulty = "level-4"
 tags = ["esxi", "homelab", "hypervisor", "linux", "nuc", "vmware"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210307-esxi-nuc/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210307-esxi-nuc/index.ja.md"
 +++
 ESXiを使えば、「intel NUC」を何台ものコンピューターに分割することができます。このチュートリアルでは、私のNUCにVMware ESXiをインストールした方法を紹介します。ちょっとした前置きですが、ESXiのインストールの前にBIOSのアップデートを行うことをお勧めします。また、32GBのUSBメモリも必要です。私はAmazonで1つ5ユーロ以下でまとめて買いました。
 {{< gallery match="images/1/*.jpg" >}}

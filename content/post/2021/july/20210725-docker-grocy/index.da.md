@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "Store ting med beholdere: køleskabsstyring med Grocy"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "kühlschrank", "erp", "mhd", "Speispläne", "cms", "Cafe", "Bistro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-grocy/index.da.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-grocy/index.da.md"
 +++
 Med Grocy kan du administrere en hel husholdning, en restaurant, en café, en bistro eller et fødevaremarked. Du kan administrere køleskabe, menuer, opgaver, indkøbslister og madens sidste holdbarhedsdato.
 {{< gallery match="images/1/*.png" >}}

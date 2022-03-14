@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "Великие дела с контейнерами: Запуск загрузчика Youtube на Synology Diskstation"
 difficulty = "level-1"
 tags = ["Docker", "docker-compose", "download", "linux", "Synology", "video", "youtube"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-docker-youtube-dl/index.ru.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-docker-youtube-dl/index.ru.md"
 +++
 Многие из моих друзей знают, что я веду частный обучающий видеопортал в Homelab - Network. Я сохранил на NAS видеокурсы из прошлых членств на учебных порталах и хорошие учебники Youtube для автономного использования.
 {{< gallery match="images/1/*.png" >}}

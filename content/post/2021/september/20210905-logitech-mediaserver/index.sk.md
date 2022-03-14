@@ -3,7 +3,7 @@ date = "2021-09-05"
 title = "Veľké veci s kontajnermi: mediálne servery Logitech na diskovej stanici Synology"
 difficulty = "level-1"
 tags = ["logitech", "synology", "diskstation", "nas", "sound-system", "multiroom"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/september/20210905-logitech-mediaserver/index.sk.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/september/20210905-logitech-mediaserver/index.sk.md"
 +++
 V tomto návode sa dozviete, ako nainštalovať mediálny server Logitech do zariadenia Synology DiskStation.
 {{< gallery match="images/1/*.jpg" >}}

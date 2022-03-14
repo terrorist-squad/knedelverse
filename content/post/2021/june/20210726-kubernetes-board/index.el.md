@@ -3,7 +3,7 @@ date = "2021-06-26"
 title = "Μεγάλα πράγματα με κοντέινερ: Kubernetes Dashboard"
 difficulty = "level-4"
 tags = ["kubernetes", "cloud", "homelab", "pods", "nodes", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210726-kubernetes-board/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210726-kubernetes-board/index.el.md"
 +++
 Μετά τη δημιουργία ενός cluster Kubernetes στο σεμινάριο [Μεγάλα πράγματα με κοντέινερ: συστάδα Kubenetes και αποθήκευση NFS]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "Μεγάλα πράγματα με κοντέινερ: συστάδα Kubenetes και αποθήκευση NFS"), θα ήθελα να εγκαταστήσω ένα dashboard Kubernetes.
 {{< gallery match="images/1/*.jpg" >}}

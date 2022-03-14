@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "Lyhyt tarina: Päivitä kontit automaattisesti Watchtowerin avulla"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "watchtower"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-Watchtower/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Watchtower/index.fi.md"
 +++
 Jos käytät Docker-kontteja levyasemallasi, haluat luonnollisesti, että ne ovat aina ajan tasalla. Watchtower päivittää kuvat ja kontit automaattisesti. Näin voit nauttia uusimmista ominaisuuksista ja ajantasaisimmasta tietoturvasta. Tänään näytän, miten Watchtower asennetaan Synologyn levyasemaan.
 ## Vaihe 1: Synologyn valmistelu

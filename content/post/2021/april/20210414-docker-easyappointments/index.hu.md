@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "Kreatív ki a válságból: szolgáltatásfoglalás easyappointments szolgáltatással"
 difficulty = "level-3"
 tags = ["buchung", "buchungstool", "click-and-meet", "corona", "Docker", "docker-compose", "easyappointments", "krise", "einzelhandel", "geschaefte"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210414-docker-easyappointments/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-easyappointments/index.hu.md"
 +++
 A Corona-válság keményen sújtja a németországi szolgáltatókat. A digitális eszközök és megoldások segíthetnek abban, hogy a lehető legbiztonságosabban vészeljük át a Corona-járványt. Ebben a "Kreatívan a válságból" című sorozatban olyan technológiákat vagy eszközöket mutatok be, amelyek hasznosak lehetnek a kisvállalkozások számára.Ma az "Easyappointments", egy "kattints és találkozz" foglalási eszközt mutatok be szolgáltatások, például fodrászok vagy üzletek számára. Az Easyappointments két területből áll:
 ## 1. terület: Backend

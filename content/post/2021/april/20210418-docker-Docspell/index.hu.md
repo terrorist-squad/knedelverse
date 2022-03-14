@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Nagyszerű dolgok konténerekkel: A Docspell DMS futtatása a Synology DiskStation rendszeren"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "Document-Managment-System"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-docker-Docspell/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-Docspell/index.hu.md"
 +++
 A Docspell egy dokumentumkezelő rendszer a Synology DiskStationhöz. A Docspell segítségével a dokumentumok sokkal gyorsabban indexelhetők, kereshetők és megtalálhatók. Ma megmutatom, hogyan kell telepíteni a Docspell szolgáltatást a Synology lemezállomáson.
 ## 1. lépés: A Synology előkészítése

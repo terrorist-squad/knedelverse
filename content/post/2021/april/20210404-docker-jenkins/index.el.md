@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "Σύντομη ιστορία: Jenkins και openLDAP"
 difficulty = "level-1"
 tags = ["development", "devops", "Jenkins", "ldap", "linux", "openldap"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210404-docker-jenkins/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-docker-jenkins/index.el.md"
 +++
 Αυτό το σεμινάριο βασίζεται στην προηγούμενη γνώση του "[Μεγάλα πράγματα με κοντέινερ: Εκτέλεση του Jenkins στο Synology DS]({{< ref "post/2021/march/20210321-docker-jenkins" >}} "Μεγάλα πράγματα με κοντέινερ: Εκτέλεση του Jenkins στο Synology DS")". Αν έχετε ήδη LDAP στην αρχή, το μόνο που χρειάζεται είναι να δημιουργήσετε μια κατάλληλη ομάδα εφαρμογών:
 {{< gallery match="images/1/*.png" >}}

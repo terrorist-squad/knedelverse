@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Δημιουργήστε τη δική σας σελίδα στο Darknet"
 difficulty = "level-3"
 tags = ["darknet", "tor", "website", "hosting", "hidden"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-darknet-tor-site/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-darknet-tor-site/index.el.md"
 +++
 Η περιήγηση στο Darknet ως επισκέπτης είναι αρκετά απλή. Αλλά πώς μπορώ να φιλοξενήσω μια σελίδα Onion; Θα σας δείξω πώς να δημιουργήσετε τη δική σας σελίδα στο Darknet.
 ## Βήμα 1: Πώς μπορώ να σερφάρω στο Darknet;

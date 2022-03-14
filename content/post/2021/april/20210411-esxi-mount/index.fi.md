@@ -3,7 +3,7 @@ date = "2021-04-11"
 title = "Lyhyt tarina: Synologyn volyymien liittäminen ESXiin."
 difficulty = "level-1"
 tags = ["dos", "esxi", "khk-kaufmann-v1", "nuc", "pc-kaufmann", "Synology", "vmware"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210411-esxi-mount/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210411-esxi-mount/index.fi.md"
 +++
 
 ## Vaihe 1: Aktivoi "NFS"-palvelu.

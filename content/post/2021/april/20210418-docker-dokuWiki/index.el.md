@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Μεγάλα πράγματα με δοχεία: Εγκαθιστώντας το δικό σας dokuWiki στο σταθμό δίσκων της Synology"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "dokuwiki", "wiki"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-docker-dokuWiki/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-dokuWiki/index.el.md"
 +++
 Το DokuWiki είναι ένα συμβατό με τα πρότυπα, εύχρηστο και ταυτόχρονα εξαιρετικά ευέλικτο λογισμικό wiki ανοικτού κώδικα. Σήμερα θα σας δείξω πώς να εγκαταστήσετε μια υπηρεσία DokuWiki στο σταθμό δίσκων Synology.
 ## Επιλογή για επαγγελματίες

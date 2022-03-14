@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "Leuke dingen met Atlassian: Pimp mijn Bamboo-monitor"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210402-Bamboo-monitor/index.nl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-Bamboo-monitor/index.nl.md"
 +++
 Hoe kan ik een buildmonitor voor Bamboo, Jenkins of Gitlab maken? Ik zal het vanavond uitzoeken! Ik heb al een soortgelijke [Handleiding voor Gitlab-Issue-Boards]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Handleiding voor Gitlab-Issue-Boards") geschreven.
 {{< gallery match="images/1/*.jpg" >}}

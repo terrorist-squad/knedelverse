@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "Great things with containers: refrigerator management with Grocy"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "kühlschrank", "erp", "mhd", "Speispläne", "cms", "Cafe", "Bistro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-grocy/index.en.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-grocy/index.en.md"
 +++
 With Grocy you can manage a whole household, restaurant, cafe, bistro or food market. You can manage refrigerators, menus, task, shopping lists and the shelf life of food.
 {{< gallery match="images/1/*.png" >}}

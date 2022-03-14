@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "Velike stvari z zabojniki: Zagon programa za prenos datotek Youtube na strežniku Synology Diskstation"
 difficulty = "level-1"
 tags = ["Docker", "docker-compose", "download", "linux", "Synology", "video", "youtube"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-docker-youtube-dl/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-docker-youtube-dl/index.sl.md"
 +++
 Mnogi moji prijatelji vedo, da na svojem portalu Homelab - Network vodim zasebni učni video portal. Video tečaje iz preteklih članstev v učnih portalih in dobre vaje iz YouTuba imam shranjene za uporabo brez povezave na svojem strežniku NAS.
 {{< gallery match="images/1/*.png" >}}

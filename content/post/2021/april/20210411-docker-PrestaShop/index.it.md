@@ -3,7 +3,7 @@ date = "2021-04-11"
 title = "Creativi fuori dalla crisi: webshop professionale con PrestaShop"
 difficulty = "level-4"
 tags = ["corona", "Docker", "docker-compose", "kreativ", "krise", "online-shop", "presta", "shop", "shopsystem"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210411-docker-PrestaShop/index.it.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210411-docker-PrestaShop/index.it.md"
 +++
 PrestaShop è una piattaforma europea di e-commerce open source con, secondo le sue stesse informazioni, attualmente più di 300.000 installazioni. Oggi sto installando questo software PHP sul mio server. Per questo tutorial è richiesta una certa conoscenza di Linux, Docker e Docker Compose.
 ## Passo 1: installare PrestaShop

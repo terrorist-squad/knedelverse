@@ -3,7 +3,7 @@ date = "2020-02-14"
 title = "Generarea unei imagini de ansamblu a paginilor PDF"
 difficulty = "level-3"
 tags = ["bash", "linux", "pdf", "postscript", "imagemagick"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200214-imagemagick-pdf-overview/index.ro.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200214-imagemagick-pdf-overview/index.ro.md"
 +++
 Dacă doriți să creați o imagine de ansamblu a paginii dintr-un fișier PDF, atunci ați ajuns la locul potrivit!
 {{< gallery match="images/1/*.jpg" >}}

@@ -3,7 +3,7 @@ date = "2020-02-07"
 title = "Ενορχήστρωση ρομπότ uiPath Windows με το Gitlab"
 difficulty = "level-5"
 tags = ["git", "gitlab", "robot", "roboter", "Robotic-Process-Automation", "rpa", "uipath", "windows"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200207-gitlab-uipath/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200207-gitlab-uipath/index.el.md"
 +++
 Η UiPath είναι ένα καθιερωμένο πρότυπο στην αυτοματοποίηση ρομποτικών διαδικασιών. Με το uiPath, μπορείτε να αναπτύξετε ένα ρομπότ/ρομπότ βασισμένο σε λογισμικό, το οποίο αναλαμβάνει σύνθετες εργασίες επεξεργασίας δεδομένων ή κλικ για εσάς. Μπορεί όμως ένα τέτοιο ρομπότ να ελεγχθεί και με το Gitlab; Η σύντομη απάντηση είναι "ναι". Και πώς ακριβώς μπορείτε να δείτε εδώ. Για τα παρακάτω βήματα, χρειάζεστε δικαιώματα διαχείρισης και κάποια εμπειρία σε uiPath, Windows και Gitlab.
 ## Βήμα 1: Το πρώτο πράγμα που πρέπει να κάνετε είναι να εγκαταστήσετε έναν Gitlab runner.

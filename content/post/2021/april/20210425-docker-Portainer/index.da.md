@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "Store ting med containere: Portainer som et alternativ til Synology Docker GUI"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "watchtower"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-Portainer/index.da.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Portainer/index.da.md"
 +++
 
 ## Trin 1: Forbered Synology

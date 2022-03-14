@@ -3,7 +3,7 @@ date = "2020-02-07"
 title = "Stora saker med behållare: Internet Archive i Docker"
 difficulty = "level-3"
 tags = ["bookmarks", "Docker", "Internet-Archiv", "Synology", "shiori"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200207-docker-shiori/index.sv.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200207-docker-shiori/index.sv.md"
 +++
 I följande handledning ska du installera ett privat "Internetarkiv" som en Docker-behållare. Allt du behöver är den här filen "Docker-compose":
 ```

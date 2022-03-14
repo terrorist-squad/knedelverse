@@ -3,7 +3,7 @@ date = "2021-06-19"
 title = "Großartiges mit Containern: Remark42 ist meine Kommentar-Lösung"
 difficulty = "level-1"
 tags = ["microservice", "docker", "vertical", "kommentare"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210619-docker-remark42/index.de.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210619-docker-remark42/index.de.md"
 +++
 
 Wenn man seinen Blog als statische Seite betreibt, dann wünscht man sich vielleicht einen Microservice/Vertical, der eine dynamische Kommentar-Funktion stellt. Dieser Blog ist zum Beispiel in HUGO, einem in GO geschrieben "Websitegenerator" für Markdown-Inhalte realisiert.

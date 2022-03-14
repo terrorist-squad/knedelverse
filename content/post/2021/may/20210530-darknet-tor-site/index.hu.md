@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Saját Darknet oldal létrehozása"
 difficulty = "level-3"
 tags = ["darknet", "tor", "website", "hosting", "hidden"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-darknet-tor-site/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-darknet-tor-site/index.hu.md"
 +++
 Látogatóként szörfözni a Darknetben nagyon egyszerű. De hogyan tudok egy Onion oldalt üzemeltetni? Megmutatom, hogyan hozhatod létre a saját Darknet oldaladat.
 ## 1. lépés: Hogyan szörfözhetek a Darknetben?

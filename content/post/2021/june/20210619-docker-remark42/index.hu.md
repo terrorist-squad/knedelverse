@@ -3,7 +3,7 @@ date = "2021-06-19"
 title = "Nagyszerű dolgok konténerekkel: Remark42 az én kommentmegoldásom"
 difficulty = "level-1"
 tags = ["microservice", "docker", "vertical", "kommentare"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210619-docker-remark42/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210619-docker-remark42/index.hu.md"
 +++
 Ha a blogját statikus webhelyként üzemelteti, akkor olyan mikroszolgáltatást/vertikális oldalt érdemes használni, amely dinamikus hozzászólási funkciót biztosít. Ez a blog például HUGO-ban valósul meg, ami egy GO-ban írt "weboldal-generátor" Markdown tartalmakhoz.Az én esetemben ezt a Docker Compose fájlt adaptáltam magamnak, és a "docker-compose -f compose.yml up -d" paranccsal indítottam el. A Google és a Facebook hitelesítéshez tárolt API-kulcsokat tároltam. Az olvasókkal való interakció érdekében a levelezőszerver beállításait is megadtam.
 ```

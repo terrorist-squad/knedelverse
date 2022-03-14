@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "Velike stvari s posodami: Samodejno označevanje PDF-jev s Calibre in Dockerjem"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ebook", "epub", "linux", "pdf", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-calibre-heise-ix-script/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-calibre-heise-ix-script/index.sl.md"
 +++
 Dodajanje ustreznih metainformacij v datoteke PDF je pogosto zamudno. Sam razvrščam prenesene datoteke PDF iz svojega naročniškega računa Heise IX v svojo zasebno knjižnico Calibre.
 {{< gallery match="images/1/*.png" >}}

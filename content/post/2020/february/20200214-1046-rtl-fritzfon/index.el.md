@@ -3,7 +3,7 @@ date = "2020-02-14"
 title = "104.6 RTL στο FritzFon!"
 difficulty = "level-2"
 tags = ["104.6rtl", "avm", "berlin", "Fritzbox", "rtl-radio"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/tree/main/content/post/2020/february/20200214-1046-rtl-fritzfon/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/tree/main/content/post/2020/february/20200214-1046-rtl-fritzfon/index.el.md"
 +++
 Είναι απίστευτα εύκολο να εγκαταστήσετε το 104.6 RTL στο Fritzphone σας. Στη συνέχεια μπορείτε να ακούσετε το Haus- und Garten- Weit Berlin's Hitradion. Συνδεθείτε στο Fritzbox και επιλέξτε το στοιχείο μενού "Home network" > "Media server". Εκεί, στην καρτέλα "Internet radio", θα βρείτε όλους τους σταθμούς που είναι ήδη εγκατεστημένοι στο Fritzbox.
 {{< gallery match="images/1/*.png" >}}

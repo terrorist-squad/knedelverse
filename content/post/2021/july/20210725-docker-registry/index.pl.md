@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "Wspaniałe rzeczy z kontenerami: Rejestr Dockera z UI"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "registry", "images", "ui", "interface"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-registry/index.pl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-registry/index.pl.md"
 +++
 Dowiedz się, jak sprawić, by obrazy Dockera były dostępne w całej sieci za pośrednictwem własnego rejestru.
 ## Instalacja

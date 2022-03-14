@@ -3,7 +3,7 @@ date = "2021-03-07"
 title = "Installeer ESXi op een NUC. Maak de USB-stick klaar via de MacBook."
 difficulty = "level-4"
 tags = ["esxi", "homelab", "hypervisor", "linux", "nuc", "vmware"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210307-esxi-nuc/index.nl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210307-esxi-nuc/index.nl.md"
 +++
 Met ESXi kan de "intel NUC" worden verdeeld in een willekeurig aantal computers. In deze tutorial laat ik zien hoe ik VMware ESXi op mijn NUC installeerde.Klein voorwoord: ik raad een BIOS update aan vóór de ESXi installatie. U hebt ook een USB-stick van 32 GB nodig. Ik kocht een hele bundel voor minder dan 5 euro per stuk van Amazon.
 {{< gallery match="images/1/*.jpg" >}}

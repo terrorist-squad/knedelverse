@@ -3,7 +3,7 @@ date = "2021-06-26"
 title = "Store ting med containere: Kubernetes Dashboard"
 difficulty = "level-4"
 tags = ["kubernetes", "cloud", "homelab", "pods", "nodes", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210726-kubernetes-board/index.da.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210726-kubernetes-board/index.da.md"
 +++
 Efter at have oprettet en Kubernetes-klynge i [Store ting med containere: Kubenetes klynge og NFS-lagring]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "Store ting med containere: Kubenetes klynge og NFS-lagring")-tutorialet vil jeg gerne installere et Kubernetes-dashboard.
 {{< gallery match="images/1/*.jpg" >}}

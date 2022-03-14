@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "Kreativ aus der Krise: Buchung einer Dienstleistung mit easyappointments"
 difficulty = "level-3"
 tags = ["buchung", "buchungstool", "click-and-meet", "corona", "Docker", "docker-compose", "easyappointments", "krise", "einzelhandel", "geschaefte"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210414-docker-easyappointments/index.de.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-easyappointments/index.de.md"
 +++
 
 Die Corona-Krise trifft die Dienstleister in Deutschland mit aller Härte. Digitale Tools und Lösungen können dabei helfen, so sicher wie möglich durch die Corona-Pandemie zu kommen. In dieser Tutorial-Reihe „Kreativ aus der Krise“ zeige ich Technologien bzw. Tools, die für Kleinunternehmen nützlich sein können.

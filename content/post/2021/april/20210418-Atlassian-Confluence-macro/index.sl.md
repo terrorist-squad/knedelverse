@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Kul stvari z družbo Atlassian: Lastni makri v Confluence"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "confluence", "wiki", "macro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.sl.md"
 +++
 Confluence je zlati standard na področju baz znanja. Tudi ustvarjanje lastnih uporabniških makrov Confluence je otročje lahko. Danes bom pokazal, kako sem ustvaril makro terminala.
 {{< gallery match="images/1/*.png" >}}

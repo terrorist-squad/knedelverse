@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "Synology DiskStation上的BitwardenRS"
 difficulty = "level-2"
 tags = ["bitwardenrs", "Docker", "docker-compose", "password-manager", "passwort", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-BitwardenRS/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-BitwardenRS/index.zh.md"
 +++
 Bitwarden是一个免费的开源密码管理服务，它将网站凭证等机密信息存储在一个加密的保险库中。今天我展示了如何在Synology DiskStation上安装一个BitwardenRS。
 ## 第1步：准备好BitwardenRS文件夹

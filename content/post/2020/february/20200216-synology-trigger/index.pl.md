@@ -3,7 +3,7 @@ date = "2020-02-16"
 title = "Synology-Nas: Konfigurowanie wyzwalaczy Gitlab"
 difficulty = "level-1"
 tags = ["git", "gitlab", "gitlab-runner", "Synology", "trigger"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200216-synology-trigger/index.en.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200216-synology-trigger/index.en.md"
 +++
 W celu automatycznego uruchomienia potoku Gitlab należy utworzyć tzw. trigger. Możesz utworzyć dowolną ilość wyzwalaczy w ustawieniach projektu.
 {{< gallery match="images/1/*.png" >}}

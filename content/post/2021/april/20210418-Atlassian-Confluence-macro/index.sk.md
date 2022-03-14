@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Parádne veci s Atlassianom: Vlastné makrá v Confluence"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "confluence", "wiki", "macro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.sk.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.sk.md"
 +++
 Confluence je zlatým štandardom v oblasti bázy znalostí. Vytvorenie vlastných používateľských makier Confluence je tiež hračka. Dnes ukážem, ako som vytvoril makro terminálu.
 {{< gallery match="images/1/*.png" >}}

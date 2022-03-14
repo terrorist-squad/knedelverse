@@ -3,7 +3,7 @@ date = "2021-06-19"
 title = "Suuria asioita konttien kanssa: Remark42 on minun kommenttiratkaisuni"
 difficulty = "level-1"
 tags = ["microservice", "docker", "vertical", "kommentare"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210619-docker-remark42/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210619-docker-remark42/index.fi.md"
 +++
 Jos käytät blogiasi staattisena sivustona, saatat haluta mikropalvelun tai vertikaalisen sivuston, joka tarjoaa dynaamisen kommentointitoiminnon. Esimerkiksi tämä blogi on toteutettu HUGOlla, joka on GO-kielellä kirjoitettu "verkkosivugeneraattori" Markdown-sisältöä varten.Omassa tapauksessani mukautin tämän Docker Compose -tiedoston itselleni ja käynnistin sen komennolla "docker-compose -f compose.yml up -d". Olen tallentanut API-avaimet Googlen ja Facebookin todennusta varten. Syötin myös sähköpostipalvelimen asetukset vuorovaikutusta varten lukijoiden kanssa.
 ```

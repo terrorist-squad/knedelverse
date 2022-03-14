@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "Luova ulos kriisistä: palvelun varaaminen easyappointments-palvelun avulla"
 difficulty = "level-3"
 tags = ["buchung", "buchungstool", "click-and-meet", "corona", "Docker", "docker-compose", "easyappointments", "krise", "einzelhandel", "geschaefte"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210414-docker-easyappointments/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-easyappointments/index.fi.md"
 +++
 Corona-kriisi iskee pahasti palveluntarjoajiin Saksassa. Digitaaliset työkalut ja ratkaisut voivat auttaa selviytymään Corona-pandemiasta mahdollisimman turvallisesti. Tässä opetusohjelmasarjassa "Creative out of the crisis" esittelen teknologioita tai työkaluja, jotka voivat olla hyödyllisiä pienille yrityksille.Tänään esittelen "Easyappointments", "klikkaa ja tapaa" -varausvälineen palveluille, esimerkiksi kampaamoille tai kaupoille. Easyappointments koostuu kahdesta alueesta:
 ## Alue 1: Backend

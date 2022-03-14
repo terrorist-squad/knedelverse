@@ -3,7 +3,7 @@ date = "2021-04-17"
 title = "Lucruri grozave cu containere: Rularea propriului xWiki pe stația de discuri Synology"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "xwiki", "wiki",]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210417-docker-xWiki/index.ro.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210417-docker-xWiki/index.ro.md"
 +++
 XWiki este o platformă software wiki gratuită, scrisă în Java și concepută cu gândul la extensibilitate. Astăzi vă arăt cum să instalați un serviciu xWiki pe Synology DiskStation.
 ## Opțiune pentru profesioniști

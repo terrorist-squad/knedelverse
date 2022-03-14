@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "コンテナの優れた点：Synology上のNetbox - Disk"
 difficulty = "level-3"
 tags = ["Computernetzwerken", "DCIM", "Docker", "docker-compose", "IPAM", "netbox", "Synology", "netwerk"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-Netbox/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Netbox/index.ja.md"
 +++
 NetBoxは、コンピュータネットワークの管理に使用されるフリーソフトウェアです。今日は、Synology DiskStationにNetboxサービスをインストールする方法をご紹介します。
 ## ステップ1：Synologyの準備

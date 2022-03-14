@@ -3,7 +3,7 @@ date = "2020-02-16"
 title = "Synology-Nas: Gitlab triggerek beállítása"
 difficulty = "level-1"
 tags = ["git", "gitlab", "gitlab-runner", "Synology", "trigger"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200216-synology-trigger/index.en.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200216-synology-trigger/index.en.md"
 +++
 A Gitlab csővezeték automatikus indításához létre kell hozni egy úgynevezett trigger-t. A projektbeállításokban annyi trigger-t hozhat létre, amennyit csak akar.
 {{< gallery match="images/1/*.png" >}}

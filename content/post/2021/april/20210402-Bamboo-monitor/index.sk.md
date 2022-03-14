@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "Parádne veci s Atlassian: Pimp my Bamboo Monitor"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210402-Bamboo-monitor/index.sk.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-Bamboo-monitor/index.sk.md"
 +++
 Ako môžem vytvoriť monitor zostavenia pre Bamboo, Jenkins alebo Gitlab? Do večera na to prídem! Už som napísal podobný [Výukový program pre Gitlab-Issue-Boards]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Výukový program pre Gitlab-Issue-Boards").
 {{< gallery match="images/1/*.jpg" >}}

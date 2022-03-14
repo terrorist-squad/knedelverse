@@ -3,7 +3,7 @@ date = "2021-11-07"
 title = "A veces me gustaría tener una máquina del tiempo."
 difficulty = "level-1"
 tags = ["archiv", "internet", "iso", "90ger", "2000er"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/october/20211107-archive-iso/index.es.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/october/20211107-archive-iso/index.es.md"
 +++
 La Wayback Machine es un archivo de sitios web antiguos. Basta con introducir el dominio allí y obtener una línea de tiempo de todas las instantáneas estáticas.
 {{< gallery match="images/1/*.png" >}}

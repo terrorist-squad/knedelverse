@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Zet uw eigen Darknet pagina op"
 difficulty = "level-3"
 tags = ["darknet", "tor", "website", "hosting", "hidden"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-darknet-tor-site/index.nl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-darknet-tor-site/index.nl.md"
 +++
 Surfen op Darknet als bezoeker is vrij eenvoudig. Maar hoe kan ik een Onion pagina hosten? Ik zal je laten zien hoe je je eigen Darknet pagina kunt opzetten.
 ## Stap 1: Hoe kan ik op het Darknet surfen?

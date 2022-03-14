@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "Creatief uit de crisis: een dienst boeken met easyappointments"
 difficulty = "level-3"
 tags = ["buchung", "buchungstool", "click-and-meet", "corona", "Docker", "docker-compose", "easyappointments", "krise", "einzelhandel", "geschaefte"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210414-docker-easyappointments/index.nl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-easyappointments/index.nl.md"
 +++
 De Corona-crisis treft de dienstverleners in Duitsland hard. Digitale hulpmiddelen en oplossingen kunnen helpen om de Corona-pandemie zo veilig mogelijk door te komen. In deze tutorial serie "Creatief uit de crisis" laat ik technologieën of tools zien die nuttig kunnen zijn voor kleine bedrijven.Vandaag laat ik "Easyappointments" zien, een "klik en ontmoet" boekingstool voor diensten, bijvoorbeeld kappers of winkels. Easyappointments bestaat uit twee gebieden:
 ## Gebied 1: Achterkant

@@ -3,7 +3,7 @@ date = "2021-03-07"
 title = "Installera ESXi på en NUC. Förbered ett USB-minne via MacBook."
 difficulty = "level-4"
 tags = ["esxi", "homelab", "hypervisor", "linux", "nuc", "vmware"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210307-esxi-nuc/index.sv.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210307-esxi-nuc/index.sv.md"
 +++
 Med ESXi kan intel NUC delas upp i ett obegränsat antal datorer. I den här handledningen visar jag hur jag installerade VMware ESXi på min NUC.Litet förord: Jag rekommenderar en BIOS-uppdatering före ESXi-installationen. Du behöver också ett USB-minne på 32 GB. Jag köpte en hel bunt för mindre än 5 euro styck från Amazon.
 {{< gallery match="images/1/*.jpg" >}}

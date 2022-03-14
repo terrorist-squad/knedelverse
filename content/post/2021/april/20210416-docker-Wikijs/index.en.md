@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "Great things with containers: Installing Wiki.js on the Synology Diskstation"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "wikijs", "wiki"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210416-docker-Wikijs/index.en.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210416-docker-Wikijs/index.en.md"
 +++
 Wiki.js is a powerful open source wiki software that makes documentation a pleasure with its simple interface. Today I show how to install a Wiki.js service on the Synology DiskStation.
 ## Option for professionals

@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Grandes coisas com recipientes: WallaBag próprio na estação de disco Synology"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "archiv", "wallabag"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-docker-WallaBag/index.pt.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-WallaBag/index.pt.md"
 +++
 Wallabag é um programa de arquivamento de sites ou artigos interessantes. Hoje eu mostro como instalar um serviço Wallabag na estação de disco Synology.
 ## Opção para profissionais

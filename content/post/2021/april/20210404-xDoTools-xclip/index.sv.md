@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "Kort berättelse: Skrivbordskontroll med xDoTools och xClip"
 difficulty = "level-3"
 tags = ["bash", "linux", "robot", "roboter", "linux", "Robotic-Process-Automation", "rpa", "xclip", "xdotool"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210404-xDoTools-xclip/index.sv.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-xDoTools-xclip/index.sv.md"
 +++
 I den här handledningen visar jag hur man kontrollerar ett Linux - skrivbord via Bash. Följande paket behövs för Bash-robotten:
 {{< terminal >}}

@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "Lucruri grozave cu containere: Etichetarea automată a PDF-urilor cu Calibre și Docker"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ebook", "epub", "linux", "pdf", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-calibre-heise-ix-script/index.ro.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-calibre-heise-ix-script/index.ro.md"
 +++
 Adesea, adăugarea de meta-informații corecte la PDF-uri poate fi plictisitoare. Eu însumi sortez PDF-urile descărcate din contul meu de abonament Heise IX în biblioteca mea privată Calibre.
 {{< gallery match="images/1/*.png" >}}

@@ -3,7 +3,7 @@ date = "2021-03-06"
 title = "Issue Dashboard met RaspberryPiZeroW, Javascript en GitLab"
 difficulty = "level-3"
 tags = ["git", "gitlab", "issueboard", "issues", "javascript", "wallboard"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210306-gitlab-dashboard/index.nl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210306-gitlab-dashboard/index.nl.md"
 +++
 Installatie met Raspberry Noobs is kinderspel! Alles wat je nodig hebt is een RaspberryZeroW en een lege SD kaart.
 ## Stap 1: Noobs Installer

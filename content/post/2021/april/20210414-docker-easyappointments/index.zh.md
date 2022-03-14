@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "创造性地走出危机：用轻松预约的方式预约服务"
 difficulty = "level-3"
 tags = ["buchung", "buchungstool", "click-and-meet", "corona", "Docker", "docker-compose", "easyappointments", "krise", "einzelhandel", "geschaefte"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210414-docker-easyappointments/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-easyappointments/index.zh.md"
 +++
 科罗娜危机对德国的服务提供商造成了严重打击。数字工具和解决方案可以帮助尽可能安全地度过科罗纳大流行病。在这个教程系列 "走出危机的创意 "中，我展示了对小企业有用的技术或工具。今天我展示了 "Easyappointments"，一个 "点击并满足 "的服务预订工具，例如美发店或商店。易任由两个方面组成。
 ## 区域1：后端

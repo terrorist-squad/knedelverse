@@ -3,7 +3,7 @@ date = "2021-11-07"
 title = "Manchmal wünsche ich mir eine Zeitmaschine!"
 difficulty = "level-1"
 tags = ["archiv", "internet", "iso", "90ger", "2000er"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/october/20211107-archive-iso/index.de.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/october/20211107-archive-iso/index.de.md"
 +++
 
 Die Waybackmaschine ist ein Archiv alter Webseiten. Man gibt dort einfach die Domain ein und erhält einen Zeitstrahl aller statischen Snapshots.

@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "Krótka historia: Kontrola pulpitu za pomocą xDoTools i xClip"
 difficulty = "level-3"
 tags = ["bash", "linux", "robot", "roboter", "linux", "Robotic-Process-Automation", "rpa", "xclip", "xdotool"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210404-xDoTools-xclip/index.pl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-xDoTools-xclip/index.pl.md"
 +++
 W tym tutorialu pokażę jak kontrolować pulpit Linuksa poprzez Bash. Następujące pakiety są potrzebne dla robota Bash:
 {{< terminal >}}

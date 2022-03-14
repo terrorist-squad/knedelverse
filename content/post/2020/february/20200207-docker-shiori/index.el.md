@@ -3,7 +3,7 @@ date = "2020-02-07"
 title = "Μεγάλα πράγματα με δοχεία: Αρχείο Διαδικτύου σε Docker"
 difficulty = "level-3"
 tags = ["bookmarks", "Docker", "Internet-Archiv", "Synology", "shiori"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200207-docker-shiori/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200207-docker-shiori/index.el.md"
 +++
 Στο σεμινάριο που ακολουθεί, θα εγκαταστήσετε ένα ιδιωτικό "αρχείο Internet" ως δοχείο Docker. Το μόνο που χρειάζεστε είναι αυτό το αρχείο "Docker-compose":
 ```

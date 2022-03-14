@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "De grandes choses avec les conteneurs : la gestion des réfrigérateurs avec Grocy"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "kühlschrank", "erp", "mhd", "Speispläne", "cms", "Cafe", "Bistro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-grocy/index.fr.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-grocy/index.fr.md"
 +++
 Avec Grocy, on peut gérer tout un ménage, un restaurant, un café, un bistrot ou une épicerie. On peut gérer les réfrigérateurs, les menus, les tâches, les listes de courses et la durée de conservation des aliments.
 {{< gallery match="images/1/*.png" >}}

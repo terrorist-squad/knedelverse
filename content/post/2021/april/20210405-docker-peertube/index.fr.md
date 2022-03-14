@@ -3,7 +3,7 @@ date = "2021-04-05"
 title = "De grandes choses avec les conteneurs : un portail vidéo personnel avec PeerTube"
 difficulty = "level-1"
 tags = ["diskstation", "peertube", "Synology", "video", "videoportal"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210405-docker-peertube/index.fr.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210405-docker-peertube/index.fr.md"
 +++
 Peertube permet de créer son propre portail vidéo. Aujourd'hui, je montre comment j'ai installé Peertube sur mon disque dur Synology.
 ## Étape 1 : Préparer Synology

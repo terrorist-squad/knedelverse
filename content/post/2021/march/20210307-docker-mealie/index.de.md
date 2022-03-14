@@ -3,7 +3,7 @@ date = "2021-03-07"
 title = "Großartiges mit Containern: Rezepte auf der Synology-Diskstation verwalten und archivieren"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "docker-for-desktop", "rezepte", "speisen", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210307-docker-mealie/index.de.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210307-docker-mealie/index.de.md"
 +++
 
 Sammeln Sie alle Ihre Lieblingsrezepte im Docker-Container und organisieren Sie diese nach Ihren Wünschen. Schreiben Sie eigene Rezepte oder Importieren Sie Rezepte von Websites, zum Beispiel „Chefkoch“, „Essen & Trinken“ oder „BBC-FOOD“. Ich zeige Ihnen, wie Sie das Docker-Image „Mealie“ zum Laufen bringen.

@@ -3,7 +3,7 @@ date = "2021-09-05"
 title = "Store ting med containere: Logitech medieservere på Synology diskstation"
 difficulty = "level-1"
 tags = ["logitech", "synology", "diskstation", "nas", "sound-system", "multiroom"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/september/20210905-logitech-mediaserver/index.da.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/september/20210905-logitech-mediaserver/index.da.md"
 +++
 I denne vejledning lærer du, hvordan du installerer en Logitech Media Server på Synology DiskStation.
 {{< gallery match="images/1/*.jpg" >}}

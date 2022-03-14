@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Создайте свою собственную страницу в Даркнете"
 difficulty = "level-3"
 tags = ["darknet", "tor", "website", "hosting", "hidden"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-darknet-tor-site/index.ru.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-darknet-tor-site/index.ru.md"
 +++
 Серфинг в Даркнете в качестве посетителя довольно прост. Но как я могу разместить у себя страницу Onion? Я покажу вам, как создать свою собственную страницу в Darknet.
 ## Шаг 1: Как пользоваться Даркнетом?

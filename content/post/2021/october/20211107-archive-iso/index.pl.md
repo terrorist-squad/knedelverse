@@ -3,7 +3,7 @@ date = "2021-11-07"
 title = "Czasami chciałabym mieć wehikuł czasu!"
 difficulty = "level-1"
 tags = ["archiv", "internet", "iso", "90ger", "2000er"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/october/20211107-archive-iso/index.pl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/october/20211107-archive-iso/index.pl.md"
 +++
 The Wayback Machine to archiwum starych stron internetowych. Wystarczy wprowadzić domenę tam i uzyskać oś czasu wszystkich statycznych snapshotów.
 {{< gallery match="images/1/*.png" >}}

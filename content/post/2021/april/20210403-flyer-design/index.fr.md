@@ -3,7 +3,7 @@ date = "2021-04-03"
 title = "Sortir de la crise de manière créative : créer des flyers de menus pour le voisinage"
 difficulty = "level-1"
 tags = ["365layouts", "Caterer", "corona", "Gastronomen", "kreativ", "krise", "speisekarten", "Nachbarschaft", "speisen", "speisekarten-vorlagen"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210403-flyer-design/index.fr.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210403-flyer-design/index.fr.md"
 +++
 La crise Corona touche de plein fouet les restaurateurs et les traiteurs en Allemagne. Les outils et solutions numériques peuvent aider à traverser la pandémie de Corona le plus sûrement possible.Dans cette série de tutoriels "Créer pour sortir de la crise", je présente des technologies ou des outils qui peuvent être utiles aux petites entreprises. Aujourd'hui, je crée un menu hebdomadaire pour le "MANAGEMENT HORS CHAMBRE". Sur https://www.365layouts.com/de/vorlagen/menu/, vous trouverez de nombreux modèles de menus. Vous pouvez également personnaliser ces modèles immédiatement dans l'éditeur 365Layouts.
 ## Étape 1 : Trouver un modèle

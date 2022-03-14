@@ -3,7 +3,7 @@ date = "2021-03-24"
 title = "Historia corta: Mi configuración de Gitlab"
 difficulty = "level-3"
 tags = ["code", "development", "devops", "docker-compose", "git", "gitlab", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210324-Gitlab-setup/index.es.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210324-Gitlab-setup/index.es.md"
 +++
 Después de mi primer tutorial sobre el tema "Gitlab en la estación de disco Synology", ya me han preguntado varias veces si sigo utilizando esta solución. ¡No! Mientras tanto, he trasladado mis herramientas de Atlassian y la siguiente instalación de GitLab a un intel NUC. Adjunto mi archivo actual de Compose, que por supuesto también se puede ejecutar en una estación de disco Synology. Se puede ver claramente que ahora utilizo configuraciones especiales para OpenLDAP, registro de contenedores, correo, certificados y registro. Además, la función de wiki y issue tracker ha sido desactivada porque uso Atlassian-Jira y Atlassian-Confluence. Como puedes ver, Gitlab es muy personalizable. Diviértete.
 ```

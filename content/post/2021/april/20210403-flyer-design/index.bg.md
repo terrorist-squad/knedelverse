@@ -3,7 +3,7 @@ date = "2021-04-03"
 title = "Творчески изход от кризата: създаване на листовки с менюта за квартала"
 difficulty = "level-1"
 tags = ["365layouts", "Caterer", "corona", "Gastronomen", "kreativ", "krise", "speisekarten", "Nachbarschaft", "speisen", "speisekarten-vorlagen"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210403-flyer-design/index.bg.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210403-flyer-design/index.bg.md"
 +++
 Кризата с Corona се отразява тежко на ресторантьорите и доставчиците на храна в Германия. Цифровите инструменти и решения могат да ви помогнат да преминете през пандемията от корона възможно най-безопасно.В тази поредица от уроци "Творчески изход от кризата" показвам технологии или инструменти, които могат да бъдат полезни за малкия бизнес. Днес създавам седмично меню за "БИЗНЕСА ВЪН ОТ ДОМА". Можете да намерите много шаблони на менюта на адрес https://www.365layouts.com/de/vorlagen/menu/. Можете също така да персонализирате тези шаблони веднага в редактора на 365Layouts.
 ## Стъпка 1: Намиране на шаблон

@@ -3,7 +3,7 @@ date = "2021-04-03"
 title = "Creatief uit de crisis: maak menufolders voor de buurt"
 difficulty = "level-1"
 tags = ["365layouts", "Caterer", "corona", "Gastronomen", "kreativ", "krise", "speisekarten", "Nachbarschaft", "speisen", "speisekarten-vorlagen"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210403-flyer-design/index.nl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210403-flyer-design/index.nl.md"
 +++
 De Corona-crisis treft restauranthouders en cateringbedrijven in Duitsland hard. Digitale hulpmiddelen en oplossingen kunnen helpen om de Corona-pandemie zo veilig mogelijk door te komen. In deze tutorialserie "Creatief uit de crisis" laat ik technologieën of hulpmiddelen zien die nuttig kunnen zijn voor kleine bedrijven. Vandaag maak ik een weekmenu voor de "BUITENLANDSE BUSINESS". U kunt veel menusjablonen vinden op https://www.365layouts.com/de/vorlagen/menu/. U kunt deze sjablonen ook meteen aanpassen in de 365Layouts-editor.
 ## Stap 1: Zoek sjabloon

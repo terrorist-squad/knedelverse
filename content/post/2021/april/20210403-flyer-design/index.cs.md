@@ -3,7 +3,7 @@ date = "2021-04-03"
 title = "Kreativně z krize: Vytvoření letáků s nabídkou pro okolí"
 difficulty = "level-1"
 tags = ["365layouts", "Caterer", "corona", "Gastronomen", "kreativ", "krise", "speisekarten", "Nachbarschaft", "speisen", "speisekarten-vorlagen"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210403-flyer-design/index.cs.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210403-flyer-design/index.cs.md"
 +++
 Krize společnosti Corona tvrdě dopadá na restauratéry a provozovatele stravovacích služeb v Německu. Digitální nástroje a řešení mohou pomoci překonat pandemii Corony co nejbezpečněji.V tomto seriálu návodů "Kreativní východisko z krize" ukazuji technologie nebo nástroje, které mohou být užitečné pro malé podniky. Dnes vytvářím týdenní menu pro "OUT OF HOUSE BUSINESS". Mnoho šablon menu najdete na adrese https://www.365layouts.com/de/vorlagen/menu/. Tyto šablony můžete také ihned přizpůsobit v editoru 365Layouts.
 ## Krok 1: Vyhledání šablony

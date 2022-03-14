@@ -3,7 +3,7 @@ date = "2020-02-21"
 title = "コンテナの優れた点：Docker ComposeでCalibreを実行する（Synology proのセットアップ）"
 difficulty = "level-3"
 tags = ["calibre", "calibre-web", "Docker", "docker-compose", "Synology", "linux"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200221-docker-Calibre-pro/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200221-docker-Calibre-pro/index.ja.md"
 +++
 このブログには、すでにもっと簡単なチュートリアルがあります： [Synology-Nas：電子書籍ライブラリとしてのCalibre Webのインストール]({{< ref "post/2020/february/20200213-synology-calibreweb" >}} "Synology-Nas：電子書籍ライブラリとしてのCalibre Webのインストール").このチュートリアルは、すべての Synology DS プロフェッショナルのためのものです。
 ## ステップ1：Synologyの準備

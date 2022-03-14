@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "Страхотни неща с контейнери: управление на хладилника с Grocy"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "kühlschrank", "erp", "mhd", "Speispläne", "cms", "Cafe", "Bistro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-grocy/index.bg.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-grocy/index.bg.md"
 +++
 С Grocy можете да управлявате цяло домакинство, ресторант, кафене, бистро или хранителен пазар. Можете да управлявате хладилници, менюта, задачи, списъци за пазаруване и срок на годност на хранителните продукти.
 {{< gallery match="images/1/*.png" >}}

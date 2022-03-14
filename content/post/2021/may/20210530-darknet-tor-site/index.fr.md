@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Créer son propre site Darknet"
 difficulty = "level-3"
 tags = ["darknet", "tor", "website", "hosting", "hidden"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-darknet-tor-site/index.fr.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-darknet-tor-site/index.fr.md"
 +++
 Surfer sur le darknet en tant que visiteur est assez simple. Mais comment héberger une page Onion ? Je vous montre comment mettre en place votre propre site darknet.
 ## Étape 1 : Comment surfer sur le darknet ?

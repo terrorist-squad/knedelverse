@@ -3,7 +3,7 @@ date = "2021-04-03"
 title = "Criativos para sair da crise: Criar folhetos de menu para a vizinhança"
 difficulty = "level-1"
 tags = ["365layouts", "Caterer", "corona", "Gastronomen", "kreativ", "krise", "speisekarten", "Nachbarschaft", "speisen", "speisekarten-vorlagen"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210403-flyer-design/index.pt.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210403-flyer-design/index.pt.md"
 +++
 A crise da Corona está a atingir duramente os restauradores e fornecedores de catering na Alemanha. Nesta série tutorial "Criativo para sair da crise" eu mostro tecnologias ou ferramentas que podem ser úteis para as pequenas empresas. Hoje estou a criar um menu semanal para o "OUT OF HOUSE BUSINESS". Você pode encontrar muitos modelos de menu em https://www.365layouts.com/de/vorlagen/menu/. Você também pode personalizar estes modelos imediatamente no editor 365Layouts.
 ## Passo 1: Encontrar modelo

@@ -3,7 +3,7 @@ date = "2021-09-05"
 title = "Grandes cosas con contenedores: servidores multimedia de Logitech en la estación de discos de Synology"
 difficulty = "level-1"
 tags = ["logitech", "synology", "diskstation", "nas", "sound-system", "multiroom"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/september/20210905-logitech-mediaserver/index.es.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/september/20210905-logitech-mediaserver/index.es.md"
 +++
 En este tutorial, aprenderá a instalar un Logitech Media Server en Synology DiskStation.
 {{< gallery match="images/1/*.jpg" >}}

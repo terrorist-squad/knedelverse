@@ -3,7 +3,7 @@ date = "2021-04-02"
 title = "Bra saker med containrar: säkrare Dockertjänster med LDAP och NGINX"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ldap", "logging", "nutzerverwaltung", "peertube", "ssl"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210402-nginx-reverse-proxy/index.sv.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-nginx-reverse-proxy/index.sv.md"
 +++
 Som Synology Diskstation-användare kör jag många tjänster i mitt Homelab-nätverk. Jag distribuerar programvara i Gitlab, dokumenterar kunskap i Confluence och läser tekniska referenser via Calibre-webbservern.
 {{< gallery match="images/1/*.png" >}}

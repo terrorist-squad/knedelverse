@@ -3,7 +3,7 @@ date = "2020-02-16"
 title = "Gitlab-seminaari: Miten voin ottaa käyttöön staattisen WordPress-kopion Gitllab-putken kautta?"
 difficulty = "level-2"
 tags = ["cms", "git", "gitlab", "pipeline", "serverless", "wordpress"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200216-wordpress-pipeline/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200216-wordpress-pipeline/index.fi.md"
 +++
 Staattiset verkkosivustot latautuvat nopeammin ja tarjoavat vähemmän hyökkäyspintaa. Näytän, miten CMS-sivu muunnetaan Gitlab Pipline -palvelun kautta. Ensin luon rakennusvaiheen, joka luo staattisen kopion wgetin avulla.
 ```

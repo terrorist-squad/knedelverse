@@ -3,7 +3,7 @@ date = "2021-04-14"
 title = "Uncool με την Atlassian: πώς να αντιμετωπίσετε την πολιτική της Atlassian"
 difficulty = "level-3"
 tags = ["atlassian", "Atlassian-Politik", "bamboo", "Docker", "confluence", "docker-compose", "jira", "lizenz", "krise", "politik"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210414-docker-Atlassian-Politik/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-Atlassian-Politik/index.el.md"
 +++
 Η Atlassian σταμάτησε να πουλάει τις μικρές άδειες χρήσης διακομιστή και σκεφτόμουν για πολύ καιρό πώς να το αντιμετωπίσω αυτό. Δεδομένου ότι θέλω να χρησιμοποιώ την εγκατάστασή μου για μεγάλο χρονικό διάστημα, έχω εφαρμόσει τα ακόλουθα μέτρα:
 ## Μέτρο 1: Χρησιμοποιώ αποκλειστικά το Docker

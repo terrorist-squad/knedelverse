@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "容器的伟大之处：在Synology磁盘站上拥有WallaBag"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "archiv", "wallabag"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-docker-WallaBag/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-WallaBag/index.zh.md"
 +++
 Wallabag是一个用于归档有趣的网站或文章的程序。今天我展示了如何在Synology磁盘站上安装Wallabag服务。
 ## 专业人士的选择

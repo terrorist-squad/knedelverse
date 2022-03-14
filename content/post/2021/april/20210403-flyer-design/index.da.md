@@ -3,7 +3,7 @@ date = "2021-04-03"
 title = "Kreativt ud af krisen: Udarbejd menuflyers til nabolaget"
 difficulty = "level-1"
 tags = ["365layouts", "Caterer", "corona", "Gastronomen", "kreativ", "krise", "speisekarten", "Nachbarschaft", "speisen", "speisekarten-vorlagen"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210403-flyer-design/index.da.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210403-flyer-design/index.da.md"
 +++
 Corona-krisen rammer restauratører og cateringvirksomheder i Tyskland hårdt. Digitale værktøjer og løsninger kan hjælpe dig med at komme så sikkert som muligt gennem Corona-pandemien.I denne tutorial-serie "Kreativ ud af krisen" viser jeg teknologier eller værktøjer, der kan være nyttige for små virksomheder. I dag laver jeg en ugentlig menu til "OUT OF HOUSE BUSINESS". Du kan finde mange menuskabeloner på https://www.365layouts.com/de/vorlagen/menu/. Du kan også tilpasse disse skabeloner med det samme i 365Layouts-editoren.
 ## Trin 1: Find skabelon

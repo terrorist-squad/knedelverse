@@ -3,7 +3,7 @@ date = "2021-04-03"
 title = "Kreatívan a válságból: Készítsünk menü szórólapokat a szomszédság számára"
 difficulty = "level-1"
 tags = ["365layouts", "Caterer", "corona", "Gastronomen", "kreativ", "krise", "speisekarten", "Nachbarschaft", "speisen", "speisekarten-vorlagen"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210403-flyer-design/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210403-flyer-design/index.hu.md"
 +++
 A Corona-válság keményen sújtja a németországi vendéglátósokat és vendéglátósokat. A digitális eszközök és megoldások segíthetnek abban, hogy a lehető legbiztonságosabban átvészeljük a Corona-járványt.A "Kreatívan ki a válságból" című bemutató sorozatban olyan technológiákat vagy eszközöket mutatok be, amelyek hasznosak lehetnek a kisvállalkozások számára. Ma egy heti menüt készítek a "Házon kívüli vállalkozás" számára. Számos menüsablon található a https://www.365layouts.com/de/vorlagen/menu/ oldalon. Ezeket a sablonokat a 365Layouts szerkesztőben azonnal testreszabhatja.
 ## 1. lépés: Sablon keresése

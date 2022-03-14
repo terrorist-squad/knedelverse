@@ -3,7 +3,7 @@ date = "2020-02-16"
 title = "Seminář Gitlabu: Jak mohu nasadit statickou kopii WordPressu prostřednictvím potrubí Gitlabu?"
 difficulty = "level-2"
 tags = ["cms", "git", "gitlab", "pipeline", "serverless", "wordpress"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200216-wordpress-pipeline/index.cs.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200216-wordpress-pipeline/index.cs.md"
 +++
 Statické webové stránky se načítají rychleji a nabízejí menší prostor pro útoky. Ukážu vám, jak převést stránku CMS přes Gitlab Pipline. Nejprve vytvořím fázi sestavení, která vygeneruje statickou kopii pomocí nástroje wget.
 ```

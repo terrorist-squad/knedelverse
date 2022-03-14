@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "Wspaniałe rzeczy z kontenerami: Automatyczne tagowanie plików PDF za pomocą Calibre i Dockera"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ebook", "epub", "linux", "pdf", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-calibre-heise-ix-script/index.pl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-calibre-heise-ix-script/index.pl.md"
 +++
 Dodawanie właściwych meta-info do plików PDF może być często żmudne. Ja sam sortuję pobrane pliki PDF z mojego konta subskrypcyjnego Heise IX do mojej prywatnej biblioteki Calibre.
 {{< gallery match="images/1/*.png" >}}

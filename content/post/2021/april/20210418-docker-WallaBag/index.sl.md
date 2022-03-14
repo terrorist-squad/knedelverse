@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Velike stvari z zabojniki: Lastna torba WallaBag na diskovni postaji Synology"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "archiv", "wallabag"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-docker-WallaBag/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-WallaBag/index.sl.md"
 +++
 Wallabag je program za arhiviranje zanimivih spletnih mest ali člankov. Danes bom pokazal, kako namestiti storitev Wallabag na diskovno postajo Synology.
 ## Možnost za strokovnjake

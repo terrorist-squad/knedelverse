@@ -3,7 +3,7 @@ date = "2021-09-05"
 title = "Lucruri grozave cu containere: servere media Logitech pe stația de discuri Synology"
 difficulty = "level-1"
 tags = ["logitech", "synology", "diskstation", "nas", "sound-system", "multiroom"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/september/20210905-logitech-mediaserver/index.ro.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/september/20210905-logitech-mediaserver/index.ro.md"
 +++
 În acest tutorial, veți învăța cum să instalați un Logitech Media Server pe Synology DiskStation.
 {{< gallery match="images/1/*.jpg" >}}

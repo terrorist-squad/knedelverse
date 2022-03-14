@@ -3,7 +3,7 @@ date = "2021-06-20"
 title = "容器的伟大之处：Kubenetes集群和NFS存储"
 difficulty = "level-4"
 tags = ["kubernetes", "nfs", "filer", "cloud", "homelab", "pods", "nodes", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210620-pi-kubenetes-cloud/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210620-pi-kubenetes-cloud/index.zh.md"
 +++
 今天我正在安装一个新的Kubenetes集群，有很多事情要做。
 {{< gallery match="images/1/*.jpg" >}}

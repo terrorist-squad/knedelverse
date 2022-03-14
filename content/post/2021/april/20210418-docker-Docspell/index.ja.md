@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "コンテナの優れた点：Synology DiskStationでのDocspell DMSの実行"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "Document-Managment-System"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-docker-Docspell/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-Docspell/index.ja.md"
 +++
 Docspellは、Synology DiskStation用のドキュメント管理システムです。Docspellを使うことで、文書の索引付け、検索、発見が格段に早くなります。今日は、SynologyのディスクステーションにDocspellサービスをインストールする方法を紹介します。
 ## ステップ1：Synologyの準備

@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "Stora saker med containrar: Docker Registry med användargränssnitt"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "registry", "images", "ui", "interface"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-registry/index.sv.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-registry/index.sv.md"
 +++
 Lär dig hur du gör dina Docker-avbildningar tillgängliga i hela nätverket via ditt eget register.
 ## Installation

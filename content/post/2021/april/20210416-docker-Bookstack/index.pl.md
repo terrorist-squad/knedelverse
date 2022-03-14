@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "Wspaniałe rzeczy z kontenerami: własna Wiki Bookstack na stacji Synology DiskStation"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "bookstack", "wiki"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210416-docker-Bookstack/index.pl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210416-docker-Bookstack/index.pl.md"
 +++
 Bookstack jest alternatywą "open source" dla MediaWiki czy Confluence. Dziś pokażę jak zainstalować usługę Bookstack na stacji dysków Synology.
 ## Opcja dla profesjonalistów

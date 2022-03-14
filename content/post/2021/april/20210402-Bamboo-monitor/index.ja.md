@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "アトラシアンのクールな機能：Pimp my Bamboo Monitor"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210402-Bamboo-monitor/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-Bamboo-monitor/index.ja.md"
 +++
 Bamboo、Jenkins、Gitlab用のビルドモニターを作るにはどうすればいいですか？今夜までに解決します！」と言っていました。すでに同じような[Gitlab-Issue-Boardsのチュートリアル]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Gitlab-Issue-Boardsのチュートリアル")を書いています。
 {{< gallery match="images/1/*.jpg" >}}

@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Leuke dingen met Atlassian: Eigen macro's in Confluence"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "confluence", "wiki", "macro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.nl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.nl.md"
 +++
 Confluence is de gouden standaard op het gebied van kennisbanken. Het maken van uw eigen Confluence gebruikersmacro's is ook kinderspel. Vandaag laat ik zien hoe ik een terminal macro heb gemaakt.
 {{< gallery match="images/1/*.png" >}}

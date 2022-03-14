@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Coola saker med Atlassian: Egna makron i Confluence"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "confluence", "wiki", "macro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.sv.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.sv.md"
 +++
 Confluence är den gyllene standarden när det gäller kunskapsbaser. Det är också enkelt att skapa egna Confluence-användarmakroner. Idag visar jag hur jag skapade ett terminalmakro.
 {{< gallery match="images/1/*.png" >}}

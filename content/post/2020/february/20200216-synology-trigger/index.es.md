@@ -3,7 +3,7 @@ date = "2020-02-16"
 title = "Synology-Nas: Configuración de los activadores de Gitlab"
 difficulty = "level-1"
 tags = ["git", "gitlab", "gitlab-runner", "Synology", "trigger"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200216-synology-trigger/index.en.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200216-synology-trigger/index.en.md"
 +++
 Para desencadenar un pipeline de Gitlab de forma automática, hay que crear un llamado trigger. Puedes crear tantos activadores como quieras en la configuración del proyecto.
 {{< gallery match="images/1/*.png" >}}

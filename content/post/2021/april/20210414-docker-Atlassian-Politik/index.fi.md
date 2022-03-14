@@ -3,7 +3,7 @@ date = "2021-04-14"
 title = "Uncool Atlassianin kanssa: miten toimia Atlassianin politiikan kanssa?"
 difficulty = "level-3"
 tags = ["atlassian", "Atlassian-Politik", "bamboo", "Docker", "confluence", "docker-compose", "jira", "lizenz", "krise", "politik"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210414-docker-Atlassian-Politik/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-Atlassian-Politik/index.fi.md"
 +++
 Atlassian on lopettanut pienten palvelinlisenssien myynnin, ja olen miettinyt pitkään, miten toimin tämän asian kanssa. Koska haluan käyttää asennustani vielä pitkään, olen toteuttanut seuraavat toimenpiteet:
 ## Toimenpide 1: Käytän yksinomaan Dockeria

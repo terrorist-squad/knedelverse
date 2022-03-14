@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "Velike stvari s posodami: register Docker z uporabniškim vmesnikom"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "registry", "images", "ui", "interface"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-registry/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-registry/index.sl.md"
 +++
 Naučite se, kako lahko slike Docker prek lastnega registra omogočite, da so na voljo v celotnem omrežju.
 ## Namestitev

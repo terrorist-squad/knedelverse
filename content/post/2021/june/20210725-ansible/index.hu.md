@@ -3,7 +3,7 @@ date = "2021-06-25"
 title = "PI-k távoli vezérlése Ansible segítségével"
 difficulty = "level-2"
 tags = ["ansible", "raspberry", "pi", "cloud", "homelab", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210725-ansible/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210725-ansible/index.hu.md"
 +++
 Miután létrehoztam egy Kubernetes fürtöt az [Nagyszerű dolgok konténerekkel: Kubenetes fürt és NFS tárolás]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "Nagyszerű dolgok konténerekkel: Kubenetes fürt és NFS tárolás") bemutatóban, most szeretném, ha ezeket a számítógépeket az Ansible segítségével tudnám megszólítani.
 {{< gallery match="images/1/*.jpg" >}}

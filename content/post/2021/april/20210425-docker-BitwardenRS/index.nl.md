@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "BitwardenRS op het Synology DiskStation"
 difficulty = "level-2"
 tags = ["bitwardenrs", "Docker", "docker-compose", "password-manager", "passwort", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-BitwardenRS/index.nl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-BitwardenRS/index.nl.md"
 +++
 Bitwarden is een gratis open-source wachtwoordbeheerdienst die vertrouwelijke informatie, zoals websitegegevens, opslaat in een versleutelde kluis. Vandaag laat ik zien hoe je een BitwardenRS installeert op een Synology DiskStation.
 ## Stap 1: BitwardenRS map klaarmaken

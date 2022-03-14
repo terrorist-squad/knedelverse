@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "Stora saker med behållare: kylskåpshantering med Grocy"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "kühlschrank", "erp", "mhd", "Speispläne", "cms", "Cafe", "Bistro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-grocy/index.sv.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-grocy/index.sv.md"
 +++
 Med Grocy kan du hantera ett helt hushåll, en restaurang, ett café, en bistro eller en matmarknad. Du kan hantera kylskåp, menyer, uppgifter, inköpslistor och bäst-före-datum för livsmedel.
 {{< gallery match="images/1/*.png" >}}

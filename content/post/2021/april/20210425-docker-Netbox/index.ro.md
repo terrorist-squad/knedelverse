@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "Lucruri grozave cu containere: Netbox pe Synology - Disk"
 difficulty = "level-3"
 tags = ["Computernetzwerken", "DCIM", "Docker", "docker-compose", "IPAM", "netbox", "Synology", "netwerk"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-Netbox/index.ro.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Netbox/index.ro.md"
 +++
 NetBox este un software gratuit utilizat pentru gestionarea rețelelor de calculatoare. Astăzi vă voi arăta cum să instalați un serviciu Netbox pe Synology DiskStation.
 ## Pasul 1: Pregătiți Synology

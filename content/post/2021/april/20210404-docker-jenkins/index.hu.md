@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "Rövid történet: Jenkins és openLDAP"
 difficulty = "level-1"
 tags = ["development", "devops", "Jenkins", "ldap", "linux", "openldap"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210404-docker-jenkins/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-docker-jenkins/index.hu.md"
 +++
 Ez a bemutató az "[Nagyszerű dolgok konténerekkel: Jenkins futtatása a Synology DS-en]({{< ref "post/2021/march/20210321-docker-jenkins" >}} "Nagyszerű dolgok konténerekkel: Jenkins futtatása a Synology DS-en")" korábbi ismereteire épül. Ha az LDAP már az induláskor rendelkezésre áll, akkor csak egy megfelelő alkalmazáscsoportot kell létrehoznia:
 {{< gallery match="images/1/*.png" >}}

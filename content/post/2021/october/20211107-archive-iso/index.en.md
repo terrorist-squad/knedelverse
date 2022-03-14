@@ -3,7 +3,7 @@ date = "2021-11-07"
 title = "Sometimes I wish I had a time machine!"
 difficulty = "level-1"
 tags = ["archiv", "internet", "iso", "90ger", "2000er"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/october/20211107-archive-iso/index.en.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/october/20211107-archive-iso/index.en.md"
 +++
 The Wayback Machine is an archive of old websites. You simply enter the domain there and get a timeline of all static snapshots.
 {{< gallery match="images/1/*.png" >}}

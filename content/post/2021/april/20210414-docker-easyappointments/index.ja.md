@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "危機を乗り越えるクリエイティブ：easyappointmentsでサービスを予約する"
 difficulty = "level-3"
 tags = ["buchung", "buchungstool", "click-and-meet", "corona", "Docker", "docker-compose", "easyappointments", "krise", "einzelhandel", "geschaefte"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210414-docker-easyappointments/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-easyappointments/index.ja.md"
 +++
 コロナの危機は、ドイツのサービスプロバイダーに大きな打撃を与えている。デジタルツールやソリューションは、コロナのパンデミックをできるだけ安全に乗り切るために役立ちます。このチュートリアルシリーズ「Creative out of the crisis」では、スモールビジネスに役立つ技術やツールを紹介しています。今日紹介するのは「Easyappointments」で、美容院やお店などのサービスを「クリックして会う」予約ツールです。Easyappointmentsは2つのエリアで構成されています。
 ## エリア1：バックエンド

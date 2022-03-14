@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Cooles mit Atlassian: Eigene Macros in Confluence"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "confluence", "wiki", "macro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.de.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.de.md"
 +++
 
 Confluence ist der Goldstandard im Knowledge-Base-Bereich. Auch das Erstellen von eigenen Confluence-Benutzermacros ist kinderleicht. Heute zeige ich, wie ich ein Terminal-Macro erstellt habe.

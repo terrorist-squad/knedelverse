@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "BitwardenRS Synology DiskStationissa"
 difficulty = "level-2"
 tags = ["bitwardenrs", "Docker", "docker-compose", "password-manager", "passwort", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-BitwardenRS/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-BitwardenRS/index.fi.md"
 +++
 Bitwarden on ilmainen avoimen lähdekoodin salasanojen hallintapalvelu, joka tallentaa luottamukselliset tiedot, kuten verkkosivustojen tunnukset, salattuun holviin. Tänään näytän, miten BitwardenRS asennetaan Synology DiskStationiin.
 ## Vaihe 1: BitwardenRS-kansion valmistelu

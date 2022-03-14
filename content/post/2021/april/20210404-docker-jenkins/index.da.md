@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "Kort fortalt: Jenkins og openLDAP"
 difficulty = "level-1"
 tags = ["development", "devops", "Jenkins", "ldap", "linux", "openldap"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210404-docker-jenkins/index.da.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-docker-jenkins/index.da.md"
 +++
 Denne vejledning bygger på den tidligere viden om "[Store ting med containere: Kørsel af Jenkins på Synology DS]({{< ref "post/2021/march/20210321-docker-jenkins" >}} "Store ting med containere: Kørsel af Jenkins på Synology DS")". Hvis du allerede har LDAP i starten, skal du kun oprette en passende programgruppe:
 {{< gallery match="images/1/*.png" >}}

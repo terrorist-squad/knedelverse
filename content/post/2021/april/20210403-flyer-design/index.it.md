@@ -3,7 +3,7 @@ date = "2021-04-03"
 title = "Creativo fuori dalla crisi: creare volantini di menu per il quartiere"
 difficulty = "level-1"
 tags = ["365layouts", "Caterer", "corona", "Gastronomen", "kreativ", "krise", "speisekarten", "Nachbarschaft", "speisen", "speisekarten-vorlagen"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210403-flyer-design/index.it.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210403-flyer-design/index.it.md"
 +++
 La crisi della Corona sta colpendo duramente i ristoratori e il catering in Germania. Strumenti e soluzioni digitali possono aiutare a superare la pandemia di Corona nel modo più sicuro possibile.In questa serie di tutorial "Creativo fuori dalla crisi" mostro tecnologie o strumenti che possono essere utili per le piccole imprese. Oggi sto creando un menu settimanale per il "FUORI CASA". Potete trovare molti modelli di menu su https://www.365layouts.com/de/vorlagen/menu/. Puoi anche personalizzare questi modelli immediatamente nell'editor 365Layouts.
 ## Passo 1: trovare il modello

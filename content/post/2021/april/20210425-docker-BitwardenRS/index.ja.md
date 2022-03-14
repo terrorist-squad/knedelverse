@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "Synology DiskStationのBitwardenRS"
 difficulty = "level-2"
 tags = ["bitwardenrs", "Docker", "docker-compose", "password-manager", "passwort", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-BitwardenRS/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-BitwardenRS/index.ja.md"
 +++
 Bitwardenは、オープンソースの無料パスワード管理サービスで、ウェブサイトの認証情報などの機密情報を暗号化された金庫に保管します。今日は、Synology DiskStationにBitwardenRSをインストールする方法を紹介します。
 ## ステップ1：BitwardenRSフォルダの準備

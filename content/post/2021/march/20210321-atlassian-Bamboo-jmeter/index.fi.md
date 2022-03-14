@@ -3,7 +3,7 @@ date = "2021-03-21"
 title = "Siistejä asioita Atlassianin kanssa: Bamboon ja jMeterin käyttö ilman lisäosia"
 difficulty = "level-2"
 tags = ["code", "development", "devops", "docker-compose", "git", "gitlab", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210321-atlassian-Bamboo-jmeter/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-atlassian-Bamboo-jmeter/index.fi.md"
 +++
 Tänään luon jMeter-testin Bamboon. Voit tietysti toteuttaa tämän testiasetelman myös Gitlab-juoksijoiden tai Jenkins-orjien avulla.
 ## Vaihe 1: Luo jMeter-testi

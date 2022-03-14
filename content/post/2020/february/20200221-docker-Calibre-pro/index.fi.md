@@ -3,7 +3,7 @@ date = "2020-02-21"
 title = "Hienoja asioita konttien kanssa: Calibren käyttäminen Docker Composen kanssa (Synology pro -asennus)"
 difficulty = "level-3"
 tags = ["calibre", "calibre-web", "Docker", "docker-compose", "Synology", "linux"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200221-docker-Calibre-pro/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200221-docker-Calibre-pro/index.fi.md"
 +++
 Tässä blogissa on jo helpompi opetusohjelma: [Synology-Nas: Asenna Calibre Web e-kirjastoksi]({{< ref "post/2020/february/20200213-synology-calibreweb" >}} "Synology-Nas: Asenna Calibre Web e-kirjastoksi"). Tämä opetusohjelma on tarkoitettu kaikille Synology DS -ammattilaisille.
 ## Vaihe 1: Synologyn valmistelu

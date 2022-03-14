@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "Store ting med containere: Din egen Bookstack Wiki på Synology DiskStation"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "bookstack", "wiki"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210416-docker-Bookstack/index.da.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210416-docker-Bookstack/index.da.md"
 +++
 Bookstack er et "open source"-alternativ til MediaWiki eller Confluence. I dag viser jeg, hvordan man installerer en Bookstack-tjeneste på Synology diskstationen.
 ## Mulighed for fagfolk

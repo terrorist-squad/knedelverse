@@ -3,7 +3,7 @@ date = "2021-06-26"
 title = "Velike stvari s kontejnerji: nadzorna plošča Kubernetes"
 difficulty = "level-4"
 tags = ["kubernetes", "cloud", "homelab", "pods", "nodes", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210726-kubernetes-board/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210726-kubernetes-board/index.sl.md"
 +++
 Po ustvarjanju gruče Kubernetes v vodniku [Velike stvari z zabojniki: Kubenetesova gruča in shranjevanje NFS]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "Velike stvari z zabojniki: Kubenetesova gruča in shranjevanje NFS") želim namestiti nadzorno ploščo Kubernetes.
 {{< gallery match="images/1/*.jpg" >}}

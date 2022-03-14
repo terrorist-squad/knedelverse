@@ -3,7 +3,7 @@ date = "2021-03-06"
 title = "Ovládací panel problémov s RaspberryPiZeroW, Javascriptom a GitLabom"
 difficulty = "level-3"
 tags = ["git", "gitlab", "issueboard", "issues", "javascript", "wallboard"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210306-gitlab-dashboard/index.sk.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210306-gitlab-dashboard/index.sk.md"
 +++
 Inštalácia s Raspberry Noobs je detská hra! Potrebujete len RaspberryZeroW a prázdnu kartu SD.
 ## Krok 1: Inštalačný program Noobs

@@ -3,7 +3,7 @@ date = "2019-07-17"
 title = "PIFM: 104,6 på verdensplan på FM-radio"
 difficulty = "level-1"
 tags = ["104.6rtl", "fm-streaming", "pi", "radio", "raspberry-pi"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2019/july/20190717-rpi-pifm/index.da.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2019/july/20190717-rpi-pifm/index.da.md"
 +++
 Hvis du er en 104.6 RTL-fan og ikke ønsker at tilbringe en dag uden Berlins hitradio, så er du kommet til det rette sted. Du skal bruge en singleboard-computer kaldet en Raspberry og et kabel på GPIO-port 4 som antenne.
 ## Følgende pakker er påkrævet

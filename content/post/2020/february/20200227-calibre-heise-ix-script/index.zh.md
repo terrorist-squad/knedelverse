@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "容器的伟大之处：用Calibre和Docker自动标记PDF文件"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ebook", "epub", "linux", "pdf", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-calibre-heise-ix-script/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-calibre-heise-ix-script/index.zh.md"
 +++
 在PDF中添加正确的元信息往往是很乏味的。我自己将下载的PDF文件从我的Heise IX订阅账户中分类到我的私人Calibre图书馆。
 {{< gallery match="images/1/*.png" >}}

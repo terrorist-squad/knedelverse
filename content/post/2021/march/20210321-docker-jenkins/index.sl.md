@@ -3,7 +3,7 @@ date = "2021-03-21"
 title = "Velike stvari s kontejnerji: Zagon programa Jenkins na strežniku Synology DS"
 difficulty = "level-3"
 tags = ["build", "devops", "diskstation", "java", "javascript", "Jenkins", "nas", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210321-docker-jenkins/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-docker-jenkins/index.sl.md"
 +++
 
 ## Korak 1: Pripravite Synology

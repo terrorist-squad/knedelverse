@@ -3,7 +3,7 @@ date = "2021-06-25"
 title = "Contrôler les PI à distance avec Ansible"
 difficulty = "level-2"
 tags = ["ansible", "raspberry", "pi", "cloud", "homelab", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210725-ansible/index.fr.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210725-ansible/index.fr.md"
 +++
 Après avoir créé un cluster Kubernetes dans le tutoriel [Du grand avec les conteneurs : cluster Kubenetes et stockage NFS]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "Du grand avec les conteneurs : cluster Kubenetes et stockage NFS"), j'aimerais maintenant pouvoir accéder à ces ordinateurs via Ansible.
 {{< gallery match="images/1/*.jpg" >}}

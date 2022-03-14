@@ -3,7 +3,7 @@ date = "2020-02-14"
 title = "Generare una panoramica delle pagine in PDF"
 difficulty = "level-3"
 tags = ["bash", "linux", "pdf", "postscript", "imagemagick"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200214-imagemagick-pdf-overview/index.it.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200214-imagemagick-pdf-overview/index.it.md"
 +++
 Se volete creare un'immagine panoramica della pagina da un file PDF, allora siete nel posto giusto!
 {{< gallery match="images/1/*.jpg" >}}

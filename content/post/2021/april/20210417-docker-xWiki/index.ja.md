@@ -3,7 +3,7 @@ date = "2021-04-17"
 title = "コンテナの優れた点：Synology ディスクステーションで独自の xWiki を実行する"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "xwiki", "wiki",]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210417-docker-xWiki/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210417-docker-xWiki/index.ja.md"
 +++
 XWikiは、Javaで書かれたフリーのWikiソフトウェアプラットフォームで、拡張性を考慮して設計されています。今日は、Synology DiskStationにxWikiサービスをインストールする方法を紹介します。
 ## プロフェッショナルのためのオプション

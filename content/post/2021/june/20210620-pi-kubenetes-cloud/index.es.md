@@ -3,7 +3,7 @@ date = "2021-06-20"
 title = "Grandes cosas con contenedores: clúster Kubenetes y almacenamiento NFS"
 difficulty = "level-4"
 tags = ["kubernetes", "nfs", "filer", "cloud", "homelab", "pods", "nodes", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210620-pi-kubenetes-cloud/index.es.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210620-pi-kubenetes-cloud/index.es.md"
 +++
 ¡Hoy estoy instalando un nuevo cluster de Kubenetes y hay mucho que hacer!
 {{< gallery match="images/1/*.jpg" >}}

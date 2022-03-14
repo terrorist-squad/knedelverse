@@ -3,7 +3,7 @@ date = "2021-06-25"
 title = "Controllare i PI da remoto con Ansible"
 difficulty = "level-2"
 tags = ["ansible", "raspberry", "pi", "cloud", "homelab", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210725-ansible/index.it.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210725-ansible/index.it.md"
 +++
 Dopo aver creato un cluster Kubernetes nel tutorial [Grandi cose con i container: cluster Kubenetes e storage NFS]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "Grandi cose con i container: cluster Kubenetes e storage NFS"), vorrei ora essere in grado di indirizzare questi computer tramite Ansible.
 {{< gallery match="images/1/*.jpg" >}}

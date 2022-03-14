@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "Siistejä asioita Atlassianin kanssa: Pimp my Bamboo Monitor -ohjelmisto"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210402-Bamboo-monitor/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-Bamboo-monitor/index.fi.md"
 +++
 Miten voin luoda rakennusseurannan Bamboota, Jenkinsiä tai Gitlabia varten? Selvitän sen illalla! Olen jo kirjoittanut samanlaisen [Gitlab-Issue-Boardsin opetusohjelma]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Gitlab-Issue-Boardsin opetusohjelma").
 {{< gallery match="images/1/*.jpg" >}}

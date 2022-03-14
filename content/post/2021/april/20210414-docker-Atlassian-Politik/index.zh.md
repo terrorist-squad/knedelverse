@@ -3,7 +3,7 @@ date = "2021-04-14"
 title = "与阿特拉斯的不冷静：如何应对阿特拉斯的政策"
 difficulty = "level-3"
 tags = ["atlassian", "Atlassian-Politik", "bamboo", "Docker", "confluence", "docker-compose", "jira", "lizenz", "krise", "politik"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210414-docker-Atlassian-Politik/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-Atlassian-Politik/index.zh.md"
 +++
 Atlassian已经停止销售小型服务器许可证，我已经考虑了很久，如何处理这个问题。由于我仍然想长期使用我的安装，我已经实施了以下措施。
 ## 措施1：我只使用Docker

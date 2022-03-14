@@ -3,7 +3,7 @@ date = "2020-02-07"
 title = "uiPath-Windows-Roboter mit Gitlab orchestrieren"
 difficulty = "level-5"
 tags = ["git", "gitlab", "robot", "roboter", "Robotic-Process-Automation", "rpa", "uipath", "windows"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200207-gitlab-uipath/index.de.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200207-gitlab-uipath/index.de.md"
 +++
 
 UiPath ist ein etablierter Standard in der Robotic-Process-Automation. Mit uiPath können Sie einen software-basierenden Roboter/Bot entwickeln, der ihnen komplexe Datenverarbeitungs- bzw. Klick-Aufgaben abnimmt. Aber lässt sich so ein Roboter auch mit Gitlab steuern?

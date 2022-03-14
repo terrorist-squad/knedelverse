@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Cose interessanti con Atlassian: macro proprie in Confluence"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "confluence", "wiki", "macro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.it.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.it.md"
 +++
 Confluence è il gold standard nell'area della base di conoscenza. Anche creare le proprie macro utente di Confluence è un gioco da ragazzi. Oggi mostro come ho creato una macro del terminale.
 {{< gallery match="images/1/*.png" >}}

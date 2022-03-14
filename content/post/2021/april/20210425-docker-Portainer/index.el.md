@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "Υπέροχα πράγματα με κοντέινερ: Το Portainer ως εναλλακτική λύση στο Synology Docker GUI"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "watchtower"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-Portainer/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Portainer/index.el.md"
 +++
 
 ## Βήμα 1: Προετοιμάστε τη Synology

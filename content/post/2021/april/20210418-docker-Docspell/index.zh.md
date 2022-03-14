@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "容器的伟大之处：在Synology DiskStation上运行Docspell DMS"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "Document-Managment-System"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-docker-Docspell/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-Docspell/index.zh.md"
 +++
 Docspell 是一个适用于 Synology DiskStation 的文件管理系统。通过Docspell，文件可以更快地被索引、搜索和找到。今天我将展示如何在Synology磁盘站上安装Docspell服务。
 ## 第1步：准备好Synology

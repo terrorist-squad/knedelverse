@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Program Udemy Downloader v zariadení Synology DiskStation"
 difficulty = "level-2"
 tags = ["udemy", "download", "synology", "diskstation", "udemydl"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-udemydl/index.sk.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-udemydl/index.sk.md"
 +++
 V tomto návode sa dozviete, ako si stiahnuť kurzy "udemy" na použitie offline.
 ## Krok 1: Pripravte si priečinok Udemy

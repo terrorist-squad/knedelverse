@@ -3,7 +3,7 @@ date = "2021-03-07"
 title = "Εγκαταστήστε το ESXi σε μια NUC. Προετοιμάστε το στικ USB μέσω του MacBook."
 difficulty = "level-4"
 tags = ["esxi", "homelab", "hypervisor", "linux", "nuc", "vmware"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210307-esxi-nuc/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210307-esxi-nuc/index.el.md"
 +++
 Με το ESXi, ο "intel NUC" μπορεί να χωριστεί σε οποιονδήποτε αριθμό υπολογιστών. Σε αυτό το σεμινάριο, δείχνω πώς εγκατέστησα το VMware ESXi στο NUC μου.Μικρός πρόλογος: συνιστώ μια ενημέρωση του BIOS πριν από την εγκατάσταση του ESXi. Θα χρειαστείτε επίσης ένα στικάκι USB 32GB. Αγόρασα μια ολόκληρη δέσμη για λιγότερο από 5 ευρώ το καθένα από το Amazon.
 {{< gallery match="images/1/*.jpg" >}}

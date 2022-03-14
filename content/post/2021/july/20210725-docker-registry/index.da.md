@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "Store ting med containere: Docker Registry med brugergrænseflade"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "registry", "images", "ui", "interface"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-registry/index.da.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-registry/index.da.md"
 +++
 Lær, hvordan du gør dine Docker-aftryk tilgængelige i hele netværket via dit eget register.
 ## Installation

@@ -3,7 +3,7 @@ date = "2021-02-01"
 title = "容器的伟大之处：Synology Diskstation 上的 Pihole"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "dns", "adblocker", "fritzbox"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/february/20210201-docker-pihole/index.zh.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/february/20210201-docker-pihole/index.zh.md"
 +++
 今天我展示了如何在Synology磁盘站上安装Pihole服务并将其连接到Fritzbox。
 ## 第1步：准备好Synology

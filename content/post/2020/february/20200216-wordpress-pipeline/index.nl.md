@@ -3,7 +3,7 @@ date = "2020-02-16"
 title = "Gitlab seminar: Hoe kan ik een statische WordPress kopie implementeren via de Gitllab pijplijn?"
 difficulty = "level-2"
 tags = ["cms", "git", "gitlab", "pipeline", "serverless", "wordpress"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200216-wordpress-pipeline/index.nl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200216-wordpress-pipeline/index.nl.md"
 +++
 Statische websites laden sneller en bieden minder aanvalsmogelijkheden. Ik laat je zien hoe je een CMS pagina converteert via Gitlab Pipline. Eerst maak ik een build stage die een statische kopie genereert via wget.
 ```

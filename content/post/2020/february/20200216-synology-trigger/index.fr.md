@@ -3,7 +3,7 @@ date = "2020-02-16"
 title = "Synology-Nas : Configuration des déclencheurs Gitlab"
 difficulty = "level-1"
 tags = ["git", "gitlab", "gitlab-runner", "Synology", "trigger"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200216-synology-trigger/index.en.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200216-synology-trigger/index.en.md"
 +++
 Pour déclencher automatiquement un pipeline Gitlab, il faut créer un déclencheur. Vous pouvez créer autant de déclencheurs que vous le souhaitez dans les paramètres du projet.
 {{< gallery match="images/1/*.png" >}}

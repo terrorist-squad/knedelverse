@@ -3,7 +3,7 @@ date = "2020-02-07"
 title = "Orkestreer uiPath Windows Robots met Gitlab"
 difficulty = "level-5"
 tags = ["git", "gitlab", "robot", "roboter", "Robotic-Process-Automation", "rpa", "uipath", "windows"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200207-gitlab-uipath/index.nl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200207-gitlab-uipath/index.nl.md"
 +++
 UiPath is een gevestigde standaard in robotprocesautomatisering. Met uiPath kunt u een softwarematige robot/bot ontwikkelen die complexe gegevensverwerking of kliktaken voor u uitvoert. Maar kan zo'n robot ook met Gitlab bestuurd worden? Het korte antwoord is "ja". En hoe precies kunt u hier zien. Voor de volgende stappen heb je beheerdersrechten nodig en enige ervaring met uiPath, Windows en Gitlab.
 ## Stap 1: Het eerste wat je moet doen is een Gitlab runner installeren.

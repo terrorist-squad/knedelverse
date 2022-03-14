@@ -3,7 +3,7 @@ date = "2021-04-03"
 title = "Kreatywne wyjście z kryzysu: Tworzenie ulotek z menu dla dzielnicy"
 difficulty = "level-1"
 tags = ["365layouts", "Caterer", "corona", "Gastronomen", "kreativ", "krise", "speisekarten", "Nachbarschaft", "speisen", "speisekarten-vorlagen"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210403-flyer-design/index.pl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210403-flyer-design/index.pl.md"
 +++
 Kryzys związany z Coroną mocno uderza w restauratorów i firmy cateringowe w Niemczech. Cyfrowe narzędzia i rozwiązania mogą pomóc przejść przez pandemię Corony tak bezpiecznie, jak to tylko możliwe. W tej serii poradników "Kreatywne wyjście z kryzysu" pokazuję technologie lub narzędzia, które mogą być przydatne dla małych firm. Dziś tworzę tygodniowy jadłospis dla "BIZNESU POZA DOMEM". Wiele szablonów menu można znaleźć na stronie https://www.365layouts.com/de/vorlagen/menu/. Możesz również dostosować te szablony od razu w edytorze 365Layouts.
 ## Krok 1: Znajdź szablon

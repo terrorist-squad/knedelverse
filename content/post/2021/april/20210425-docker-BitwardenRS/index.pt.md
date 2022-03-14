@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "BitwardenRS no Synology DiskStation"
 difficulty = "level-2"
 tags = ["bitwardenrs", "Docker", "docker-compose", "password-manager", "passwort", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-BitwardenRS/index.pt.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-BitwardenRS/index.pt.md"
 +++
 Bitwarden é um serviço gratuito de gerenciamento de senhas de código aberto que armazena informações confidenciais, como credenciais de sites em um cofre criptografado. Hoje eu mostro como instalar um BitwardenRS no Synology DiskStation.
 ## Passo 1: Prepare a pasta BitwardenRS

@@ -3,7 +3,7 @@ date = "2021-03-18"
 title = "Breve storia: adattamento di librerie Java straniere"
 difficulty = "level-2"
 tags = ["dekompilieren", "manipulieren", "Recaf", "rekompilieren", "reverse", "reverse-engineering"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210318-recaf/index.it.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210318-recaf/index.it.md"
 +++
 L'altro giorno volevo adattare dei metodi in una libreria Java straniera e stavo quindi cercando uno strumento adatto. Ho cercato molto negli editor di bytecode e nel bytecode. Ma alla fine ho finito con Recaf e sono assolutamente entusiasta: https://github.com/Col-E/Recaf
 {{< gallery match="images/1/*.png" >}}

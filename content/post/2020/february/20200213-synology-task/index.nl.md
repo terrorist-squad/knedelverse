@@ -3,7 +3,7 @@ date = "2020-02-13"
 title = "Synology-Nas: Hoe kan ik taken of crons uitvoeren?"
 difficulty = "level-1"
 tags = ["synology", "diskstation", "task", "cronjob", "cron", "aufgabe"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200213-synology-task/index.nl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200213-synology-task/index.nl.md"
 +++
 Wilt u automatische taken instellen in de Synology NAS? Klik op de "Taakplanner" in het "Configuratiescherm".
 {{< gallery match="images/1/*.png" >}}

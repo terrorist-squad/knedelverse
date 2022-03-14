@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "Udemy Downloader a Synology DiskStation rendszeren"
 difficulty = "level-2"
 tags = ["udemy", "download", "synology", "diskstation", "udemydl"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-udemydl/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-udemydl/index.hu.md"
 +++
 Ebben a bemutatóban megtanulhatja, hogyan töltse le az "udemy" tanfolyamokat offline használatra.
 ## 1. lépés: Udemy mappa előkészítése

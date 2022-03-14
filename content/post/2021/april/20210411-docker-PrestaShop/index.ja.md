@@ -3,7 +3,7 @@ date = "2021-04-11"
 title = "危機からの脱却：PrestaShopによるプロフェッショナルなウェブショップ"
 difficulty = "level-4"
 tags = ["corona", "Docker", "docker-compose", "kreativ", "krise", "online-shop", "presta", "shop", "shopsystem"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210411-docker-PrestaShop/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210411-docker-PrestaShop/index.ja.md"
 +++
 PrestaShopは、ヨーロッパのオープンソースのEコマースプラットフォームで、同社の情報によると、現在30万以上のインストール数があります。今日はこのPHPソフトウェアを私のサーバーにインストールします。このチュートリアルには、Linux、DockerおよびDocker Composeに関する知識が必要です。
 ## ステップ1：PrestaShopのインストール

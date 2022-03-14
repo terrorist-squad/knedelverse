@@ -3,7 +3,7 @@ date = "2021-11-07"
 title = "Néha azt kívánom, bárcsak lenne egy időgépem!"
 difficulty = "level-1"
 tags = ["archiv", "internet", "iso", "90ger", "2000er"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/october/20211107-archive-iso/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/october/20211107-archive-iso/index.hu.md"
 +++
 A Wayback Machine a régi weboldalak archívuma. Egyszerűen adja meg a tartományt, és megkapja az összes statikus pillanatfelvétel idővonalát.
 {{< gallery match="images/1/*.png" >}}

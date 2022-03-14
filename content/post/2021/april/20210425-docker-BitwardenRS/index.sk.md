@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "BitwardenRS na zariadení Synology DiskStation"
 difficulty = "level-2"
 tags = ["bitwardenrs", "Docker", "docker-compose", "password-manager", "passwort", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-BitwardenRS/index.sk.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-BitwardenRS/index.sk.md"
 +++
 Bitwarden je bezplatná služba s otvoreným zdrojovým kódom na správu hesiel, ktorá ukladá dôverné informácie, napríklad poverenia na webové stránky, do zašifrovaného trezoru. Dnes vám ukážem, ako nainštalovať BitwardenRS do zariadenia Synology DiskStation.
 ## Krok 1: Pripravte priečinok BitwardenRS

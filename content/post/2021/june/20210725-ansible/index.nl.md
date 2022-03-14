@@ -3,7 +3,7 @@ date = "2021-06-25"
 title = "PI's op afstand beheren met Ansible"
 difficulty = "level-2"
 tags = ["ansible", "raspberry", "pi", "cloud", "homelab", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210725-ansible/index.nl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210725-ansible/index.nl.md"
 +++
 Na het aanmaken van een Kubernetes cluster in de [Geweldige dingen met containers: Kubenetes cluster en NFS opslag]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "Geweldige dingen met containers: Kubenetes cluster en NFS opslag") tutorial, zou ik nu graag in staat zijn om deze computers aan te spreken via Ansible.
 {{< gallery match="images/1/*.jpg" >}}

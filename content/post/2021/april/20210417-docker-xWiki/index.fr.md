@@ -3,7 +3,7 @@ date = "2021-04-17"
 title = "De grandes choses avec les conteneurs : faire fonctionner son propre xWiki sur le disque dur Synology"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "xwiki", "wiki",]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210417-docker-xWiki/index.fr.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210417-docker-xWiki/index.fr.md"
 +++
 XWiki est une plate-forme logicielle wiki gratuite, écrite en Java et dont la conception est axée sur l'extensibilité. Aujourd'hui, je montre comment installer un service xWiki sur le disque dur de Synology.
 ## Option pour les professionnels

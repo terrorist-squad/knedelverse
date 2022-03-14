@@ -3,7 +3,7 @@ date = "2021-06-20"
 title = "Страхотни неща с контейнери: Kubenetes клъстер и NFS съхранение"
 difficulty = "level-4"
 tags = ["kubernetes", "nfs", "filer", "cloud", "homelab", "pods", "nodes", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210620-pi-kubenetes-cloud/index.bg.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210620-pi-kubenetes-cloud/index.bg.md"
 +++
 Днес инсталирам нов клъстер на Kubenetes и имам много работа!
 {{< gallery match="images/1/*.jpg" >}}

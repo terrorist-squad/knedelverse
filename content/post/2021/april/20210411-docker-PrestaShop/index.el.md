@@ -3,7 +3,7 @@ date = "2021-04-11"
 title = "Δημιουργική έξοδος από την κρίση: επαγγελματικό webshop με το PrestaShop"
 difficulty = "level-4"
 tags = ["corona", "Docker", "docker-compose", "kreativ", "krise", "online-shop", "presta", "shop", "shopsystem"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210411-docker-PrestaShop/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210411-docker-PrestaShop/index.el.md"
 +++
 Το PrestaShop είναι μια ευρωπαϊκή πλατφόρμα ηλεκτρονικού εμπορίου ανοικτού κώδικα με, σύμφωνα με τις δικές της πληροφορίες, σήμερα πάνω από 300.000 εγκαταστάσεις. Σήμερα εγκαθιστώ αυτό το λογισμικό PHP στον διακομιστή μου. Για αυτό το σεμινάριο απαιτούνται κάποιες γνώσεις Linux, Docker και Docker Compose.
 ## Βήμα 1: Εγκαταστήστε το PrestaShop

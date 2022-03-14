@@ -3,7 +3,7 @@ date = "2020-02-14"
 title = "Generovanie prehľadu stránok PDF"
 difficulty = "level-3"
 tags = ["bash", "linux", "pdf", "postscript", "imagemagick"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200214-imagemagick-pdf-overview/index.sk.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200214-imagemagick-pdf-overview/index.sk.md"
 +++
 Ak chcete vytvoriť obrázok prehľadu stránok zo súboru PDF, potom ste na správnom mieste!
 {{< gallery match="images/1/*.jpg" >}}

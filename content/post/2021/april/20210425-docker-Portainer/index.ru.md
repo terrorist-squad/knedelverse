@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "Великие дела с контейнерами: Portainer как альтернатива Synology Docker GUI"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "watchtower"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-Portainer/index.ru.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Portainer/index.ru.md"
 +++
 
 ## Шаг 1: Подготовьте Synology

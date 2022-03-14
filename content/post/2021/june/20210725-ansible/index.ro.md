@@ -3,7 +3,7 @@ date = "2021-06-25"
 title = "Controlul IP-urilor de la distanță cu Ansible"
 difficulty = "level-2"
 tags = ["ansible", "raspberry", "pi", "cloud", "homelab", "raspberry-pi", "raspberry"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/june/20210725-ansible/index.ro.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210725-ansible/index.ro.md"
 +++
 După ce am creat un cluster Kubernetes în tutorialul [Lucruri grozave cu containere: cluster Kubenetes și stocare NFS]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "Lucruri grozave cu containere: cluster Kubenetes și stocare NFS"), aș dori acum să pot adresa aceste computere prin Ansible.
 {{< gallery match="images/1/*.jpg" >}}

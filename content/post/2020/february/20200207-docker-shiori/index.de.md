@@ -3,7 +3,7 @@ date = "2020-02-07"
 title = "Großartiges mit Containern: Internet-Archiv in Docker"
 difficulty = "level-3"
 tags = ["bookmarks", "Docker", "Internet-Archiv", "Synology", "shiori"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200207-docker-shiori/index.de.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200207-docker-shiori/index.de.md"
 +++
 
 Im folgenden Tutorial installieren Sie sich ein privates „Internet-Archiv“ als Docker-Container. Alles was Sie brauchen ist diese „Docker-compose“-Datei:

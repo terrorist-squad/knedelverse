@@ -3,7 +3,7 @@ date = "2021-03-24"
 title = "Kurzgeschichte: Mein Gitlab-Setup"
 difficulty = "level-3"
 tags = ["code", "development", "devops", "docker-compose", "git", "gitlab", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210324-Gitlab-setup/index.de.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210324-Gitlab-setup/index.de.md"
 +++
 
 Nach meinem ersten Tutorial zum Thema „Gitlab auf der Synology-Diskstation„, wurde ich bereits mehrfach gefragt, ob ich diese Lösung noch verwende. Ne! Inzwischen habe ich meine Atlassian-Tools sowie die folgende GitLab-Installation auf einen intel NUC ausgelagert. Anbei zeige ich einmal meine aktuelle Compose -Datei, die natürlich auch auf einer Synology-Diskstation betrieben werden kann.

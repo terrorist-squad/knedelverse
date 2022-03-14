@@ -3,7 +3,7 @@ date = "2021-04-14"
 title = "Uncool az Atlassiannal: hogyan kezeljük az Atlassian szabályzatát?"
 difficulty = "level-3"
 tags = ["atlassian", "Atlassian-Politik", "bamboo", "Docker", "confluence", "docker-compose", "jira", "lizenz", "krise", "politik"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210414-docker-Atlassian-Politik/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-Atlassian-Politik/index.hu.md"
 +++
 Az Atlassian leállította a kis szerverlicencek értékesítését, és már régóta gondolkodtam azon, hogyan kezeljem ezt a helyzetet. Mivel még sokáig szeretném használni a telepítésemet, a következő intézkedéseket hajtottam végre:
 ## 1. intézkedés: Kizárólag Dockert használok

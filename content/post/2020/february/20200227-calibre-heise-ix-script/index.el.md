@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "Υπέροχα πράγματα με κοντέινερ: Αυτόματη επισήμανση PDF με το Calibre και το Docker"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ebook", "epub", "linux", "pdf", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-calibre-heise-ix-script/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-calibre-heise-ix-script/index.el.md"
 +++
 Συχνά μπορεί να είναι κουραστικό να προσθέσετε τις σωστές μετα-πληροφορίες στα PDF. Εγώ ο ίδιος ταξινομώ τα κατεβασμένα PDF από τον συνδρομητικό μου λογαριασμό Heise IX στην ιδιωτική μου βιβλιοθήκη Calibre.
 {{< gallery match="images/1/*.png" >}}

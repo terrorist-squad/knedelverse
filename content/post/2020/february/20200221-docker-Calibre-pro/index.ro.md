@@ -3,7 +3,7 @@ date = "2020-02-21"
 title = "Lucruri grozave cu containere: Rularea Calibre cu Docker Compose (configurare Synology pro)"
 difficulty = "level-3"
 tags = ["calibre", "calibre-web", "Docker", "docker-compose", "Synology", "linux"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200221-docker-Calibre-pro/index.ro.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200221-docker-Calibre-pro/index.ro.md"
 +++
 Există deja un tutorial mai ușor pe acest blog: [Synology-Nas: Instalați Calibre Web ca o bibliotecă de cărți electronice]({{< ref "post/2020/february/20200213-synology-calibreweb" >}} "Synology-Nas: Instalați Calibre Web ca o bibliotecă de cărți electronice"). Acest tutorial se adresează tuturor profesioniștilor Synology DS.
 ## Pasul 1: Pregătiți Synology

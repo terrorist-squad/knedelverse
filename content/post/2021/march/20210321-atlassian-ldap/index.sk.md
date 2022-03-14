@@ -3,7 +3,7 @@ date = "2021-03-24"
 title = "Parádne veci s Atlassian: Používanie všetkých nástrojov Atlassian s LDAP"
 difficulty = "level-3"
 tags = ["atlassian", "bamboo", "jira", "ldap", "openldap", "linux", "test"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210321-atlassian-ldap/index.sk.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-atlassian-ldap/index.sk.md"
 +++
 Máte šťastie, ak máte vlastnú inštaláciu Atlassian. Dnes ukážem, ako som pripojil Jira, Bamboo a Confluence k serveru LDAP.
 ## Krok 1: Inštalácia OpenLDAP

@@ -3,7 +3,7 @@ date = "2021-03-24"
 title = "アトラシアンの優れた点: アトラシアンのすべてのツールをLDAPで使用することができます。"
 difficulty = "level-3"
 tags = ["atlassian", "bamboo", "jira", "ldap", "openldap", "linux", "test"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210321-atlassian-ldap/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-atlassian-ldap/index.ja.md"
 +++
 自分でAtlassianをインストールしている人はラッキーです。今日は、Jira、Bamboo、ConfluenceをLDAPサーバーに接続する方法を紹介します。
 ## ステップ1：OpenLDAPのインストール

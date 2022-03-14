@@ -3,7 +3,7 @@ date = "2021-03-07"
 title = "Lucruri grozave cu containere: Gestionați și arhivați rețete pe Synology DiskStation"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "docker-for-desktop", "rezepte", "speisen", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210307-docker-mealie/index.ro.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210307-docker-mealie/index.ro.md"
 +++
 Adunați toate rețetele dvs. preferate în containerul Docker și organizați-le după cum doriți. Scrieți propriile rețete sau importați rețete de pe site-uri web, de exemplu "Chefkoch", "Essen".
 {{< gallery match="images/1/*.png" >}}

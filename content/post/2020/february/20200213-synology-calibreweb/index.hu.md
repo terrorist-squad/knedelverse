@@ -3,7 +3,7 @@ date = "2020-02-13"
 title = "Synology-Nas: Telepítse a Calibre Web-et e-könyvtárként"
 difficulty = "level-1"
 tags = ["calbre-web", "calibre", "Docker", "ds918", "ebook", "epub", "nas", "pdf", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200213-synology-calibreweb/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200213-synology-calibreweb/index.hu.md"
 +++
 Hogyan telepíthetem a Calibre-Webet Docker konténerként a Synology NAS-ra? Figyelem: Ez a telepítési módszer elavult, és nem kompatibilis a jelenlegi Calibre szoftverrel. Kérjük, nézze meg ezt az új bemutatót:[Nagyszerű dolgok konténerekkel: Calibre futtatása Docker Compose-szal]({{< ref "post/2020/february/20200221-docker-Calibre-pro" >}} "Nagyszerű dolgok konténerekkel: Calibre futtatása Docker Compose-szal"). Ez a bemutató minden Synology DS szakembernek szól.
 ## 1. lépés: Mappa létrehozása

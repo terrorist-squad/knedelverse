@@ -3,7 +3,7 @@ date = "2021-02-28"
 title = "Stora saker med containrar: Heimdall som startsida"
 difficulty = "level-3"
 tags = ["dienste", "Docker", "docker-compose", "docker-for-desktop", "heimdall", "homepage", "startseite"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/february/20210228-docker-heimdall/index.sv.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/february/20210228-docker-heimdall/index.sv.md"
 +++
 Jag kör många tjänster i mitt Homelab-nätverk, till exempel LDAP, Gitlab, Atlassian Bamboo, Atlassian Confluence, Atlassian Jira, Jenkins, WordPress, Grafana, Graylog, ESXI/VMware, Calibre och mycket mer. Det är lätt att tappa bort allt.
 {{< gallery match="images/1/*.jpg" >}}

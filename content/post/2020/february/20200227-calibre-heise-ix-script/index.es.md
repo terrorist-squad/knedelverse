@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "Grandes cosas con contenedores: Etiquetado automático de PDFs con Calibre y Docker"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ebook", "epub", "linux", "pdf", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-calibre-heise-ix-script/index.es.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-calibre-heise-ix-script/index.es.md"
 +++
 A menudo puede resultar tedioso añadir la metainformación adecuada a los PDF. Yo mismo clasifico los PDF descargados desde mi cuenta de suscripción a Heise IX en mi biblioteca privada de Calibre.
 {{< gallery match="images/1/*.png" >}}

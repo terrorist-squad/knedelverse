@@ -3,7 +3,7 @@ date = "2021-04-03"
 title = "Ieșirea creativă din criză: Creați fluturași cu meniuri pentru cartier"
 difficulty = "level-1"
 tags = ["365layouts", "Caterer", "corona", "Gastronomen", "kreativ", "krise", "speisekarten", "Nachbarschaft", "speisen", "speisekarten-vorlagen"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210403-flyer-design/index.ro.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210403-flyer-design/index.ro.md"
 +++
 Criza Corona îi lovește din plin pe restauratorii și furnizorii de servicii de catering din Germania. Instrumentele și soluțiile digitale pot ajuta să trecem cât mai bine peste pandemia Corona.În această serie de tutoriale "Ieșirea creativă din criză" prezint tehnologii sau instrumente care pot fi utile pentru întreprinderile mici. Astăzi creez un meniu săptămânal pentru "OUT OF HOUSE BUSINESS". Puteți găsi multe modele de meniuri la https://www.365layouts.com/de/vorlagen/menu/. De asemenea, puteți personaliza imediat aceste șabloane în editorul 365Layouts.
 ## Pasul 1: Găsiți șablonul

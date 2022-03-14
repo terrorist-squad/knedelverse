@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "Suuria asioita konttien avulla: oman MediaWikin asentaminen Synologyn levyasemalle"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "mediawiki", "wiki"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210416-docker-MediaWiki/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210416-docker-MediaWiki/index.fi.md"
 +++
 MediaWiki on PHP-pohjainen wikijärjestelmä, joka on saatavilla ilmaiseksi avoimen lähdekoodin tuotteena. Tänään näytän, miten MediaWiki-palvelu asennetaan Synologyn levyasemalle.
 ## Vaihtoehto ammattilaisille

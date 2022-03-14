@@ -3,7 +3,7 @@ date = "2019-07-17"
 title = "PIFM: 104,6 παγκοσμίως στο ραδιόφωνο FM"
 difficulty = "level-1"
 tags = ["104.6rtl", "fm-streaming", "pi", "radio", "raspberry-pi"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2019/july/20190717-rpi-pifm/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2019/july/20190717-rpi-pifm/index.el.md"
 +++
 Αν είστε οπαδός του 104,6 RTL και δεν θέλετε να περάσετε ούτε μια μέρα χωρίς το ραδιόφωνο του Βερολίνου, τότε είστε στο σωστό μέρος. Χρειάζεστε έναν υπολογιστή μιας πλακέτας που ονομάζεται Raspberry και ένα καλώδιο στη θύρα GPIO 4 ως κεραία.
 ## Απαιτούνται τα ακόλουθα πακέτα

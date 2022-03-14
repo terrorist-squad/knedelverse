@@ -3,7 +3,7 @@ date = "2020-02-16"
 title = "Gitlab szeminárium: Hogyan tudok telepíteni egy statikus WordPress másolatot a Gitllab pipeline-on keresztül?"
 difficulty = "level-2"
 tags = ["cms", "git", "gitlab", "pipeline", "serverless", "wordpress"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200216-wordpress-pipeline/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200216-wordpress-pipeline/index.hu.md"
 +++
 A statikus weboldalak gyorsabban töltődnek be, és kisebb támadási felületet kínálnak. Megmutatom, hogyan lehet egy CMS oldalt a Gitlab Pipline segítségével átalakítani. Először létrehozok egy build stage-et, amely a wget segítségével létrehoz egy statikus másolatot.
 ```

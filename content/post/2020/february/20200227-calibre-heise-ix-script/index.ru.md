@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "Великие вещи с контейнерами: автоматическое маркирование PDF-файлов с помощью Calibre и Docker"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ebook", "epub", "linux", "pdf", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-calibre-heise-ix-script/index.ru.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-calibre-heise-ix-script/index.ru.md"
 +++
 Добавление нужной метаинформации в PDF-файлы часто бывает утомительным. Я сам сортирую загруженные PDF-файлы с моего аккаунта подписки Heise IX в моей личной библиотеке Calibre.
 {{< gallery match="images/1/*.png" >}}

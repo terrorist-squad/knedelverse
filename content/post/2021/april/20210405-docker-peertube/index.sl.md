@@ -3,7 +3,7 @@ date = "2021-04-05"
 title = "Velike stvari s kontejnerji: Lasten video portal s PeerTube"
 difficulty = "level-1"
 tags = ["diskstation", "peertube", "Synology", "video", "videoportal"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210405-docker-peertube/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210405-docker-peertube/index.sl.md"
 +++
 V Peertubu lahko ustvarite svoj lasten video portal. Danes bom pokazal, kako sem Peertube namestil na svojo diskovno postajo Synology.
 ## Korak 1: Pripravite Synology

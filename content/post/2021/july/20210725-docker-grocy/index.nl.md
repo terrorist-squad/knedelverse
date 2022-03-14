@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "Grootse dingen met containers: koelkastbeheer met Grocy"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "kühlschrank", "erp", "mhd", "Speispläne", "cms", "Cafe", "Bistro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-grocy/index.nl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-grocy/index.nl.md"
 +++
 Met Grocy kunt u een heel huishouden, restaurant, café, bistro of voedselmarkt beheren. U kunt koelkasten, menu's, taken, boodschappenlijstjes en de houdbaarheidsdatum van voedsel beheren.
 {{< gallery match="images/1/*.png" >}}

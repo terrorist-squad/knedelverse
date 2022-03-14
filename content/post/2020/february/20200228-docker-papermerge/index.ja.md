@@ -3,7 +3,7 @@ date = "2020-02-28"
 title = "コンテナで実現すること：Papermerge DMSをSynology NASで動かす"
 difficulty = "level-3"
 tags = ["archiv", "automatisch", "dms", "Docker", "Document-Managment-System", "google", "ocr", "papermerge", "Synology", "tesseract", "texterkennung"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200228-docker-papermerge/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200228-docker-papermerge/index.ja.md"
 +++
 Papermergeは、ドキュメントを自動的に割り当てて処理することができる若いドキュメント管理システム（DMS）です。このチュートリアルでは、PapermergeをSynologyのディスクステーションにインストールした方法と、DMSがどのように機能するかを紹介します。
 ## プロフェッショナルのためのオプション

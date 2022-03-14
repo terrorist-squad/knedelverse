@@ -3,7 +3,7 @@ date = "2021-07-25"
 title = "Veľké veci s kontajnermi: správa chladničky s Grocy"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "kühlschrank", "erp", "mhd", "Speispläne", "cms", "Cafe", "Bistro"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/july/20210725-docker-grocy/index.sk.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-grocy/index.sk.md"
 +++
 Pomocou Grocy môžete spravovať celú domácnosť, reštauráciu, kaviareň, bistro alebo potravinový trh. Môžete spravovať chladničky, jedálne lístky, úlohy, nákupné zoznamy a dátumy trvanlivosti potravín.
 {{< gallery match="images/1/*.png" >}}

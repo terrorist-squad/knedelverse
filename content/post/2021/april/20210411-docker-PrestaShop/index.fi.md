@@ -3,7 +3,7 @@ date = "2021-04-11"
 title = "Luova ulos kriisistä: ammattimainen verkkokauppa PrestaShopilla"
 difficulty = "level-4"
 tags = ["corona", "Docker", "docker-compose", "kreativ", "krise", "online-shop", "presta", "shop", "shopsystem"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210411-docker-PrestaShop/index.fi.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210411-docker-PrestaShop/index.fi.md"
 +++
 PrestaShop on eurooppalainen avoimen lähdekoodin verkkokauppa-alusta, jolla on sen omien tietojen mukaan tällä hetkellä yli 300 000 asennusta. Asennan tänään tämän PHP-ohjelmiston palvelimelleni. Tämä opetusohjelma edellyttää jonkin verran Linux-, Docker- ja Docker Compose -tietämystä.
 ## Vaihe 1: Asenna PrestaShop

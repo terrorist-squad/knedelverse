@@ -3,7 +3,7 @@ date = "2021-05-30"
 title = "自分のDarknetページを立ち上げる"
 difficulty = "level-3"
 tags = ["darknet", "tor", "website", "hosting", "hidden"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/may/20210530-darknet-tor-site/index.ja.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-darknet-tor-site/index.ja.md"
 +++
 ビジターとしてダークネットをサーフするのはとても簡単です。しかし、どうやってOnionのページをホストすることができますか？自分のDarknetページを開設する方法を紹介します。
 ## ステップ1：ダークネットをサーフィンするにはどうしたらいいですか？

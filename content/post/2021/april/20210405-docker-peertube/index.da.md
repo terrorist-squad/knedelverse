@@ -3,7 +3,7 @@ date = "2021-04-05"
 title = "Store ting med containere: Egen videoportal med PeerTube"
 difficulty = "level-1"
 tags = ["diskstation", "peertube", "Synology", "video", "videoportal"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210405-docker-peertube/index.da.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210405-docker-peertube/index.da.md"
 +++
 Med Peertube kan du oprette din egen videoportal. I dag viser jeg, hvordan jeg installerede Peertube på min Synology diskstation.
 ## Trin 1: Forbered Synology

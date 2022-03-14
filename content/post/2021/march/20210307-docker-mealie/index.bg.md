@@ -3,7 +3,7 @@ date = "2021-03-07"
 title = "Страхотни неща с контейнери: управление и архивиране на рецепти в Synology DiskStation"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "docker-for-desktop", "rezepte", "speisen", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210307-docker-mealie/index.bg.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210307-docker-mealie/index.bg.md"
 +++
 Съберете всичките си любими рецепти в контейнер Docker и ги организирайте, както желаете. Напишете свои собствени рецепти или импортирайте рецепти от уебсайтове, например "Chefkoch", "Essen
 {{< gallery match="images/1/*.png" >}}

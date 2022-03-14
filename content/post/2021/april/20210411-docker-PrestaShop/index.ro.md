@@ -3,7 +3,7 @@ date = "2021-04-11"
 title = "Ieșirea creativă din criză: magazin web profesionist cu PrestaShop"
 difficulty = "level-4"
 tags = ["corona", "Docker", "docker-compose", "kreativ", "krise", "online-shop", "presta", "shop", "shopsystem"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210411-docker-PrestaShop/index.ro.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210411-docker-PrestaShop/index.ro.md"
 +++
 PrestaShop este o platformă europeană de comerț electronic open source cu, conform propriilor informații, peste 300.000 de instalări în prezent. Astăzi instalez acest software PHP pe serverul meu. Pentru acest tutorial sunt necesare anumite cunoștințe despre Linux, Docker și Docker Compose.
 ## Pasul 1: Instalați PrestaShop

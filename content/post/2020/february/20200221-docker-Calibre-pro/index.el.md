@@ -3,7 +3,7 @@ date = "2020-02-21"
 title = "Μεγάλα πράγματα με κοντέινερ: Εκτέλεση του Calibre με το Docker Compose (εγκατάσταση Synology pro)"
 difficulty = "level-3"
 tags = ["calibre", "calibre-web", "Docker", "docker-compose", "Synology", "linux"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200221-docker-Calibre-pro/index.el.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200221-docker-Calibre-pro/index.el.md"
 +++
 Υπάρχει ήδη ένα ευκολότερο σεμινάριο σε αυτό το ιστολόγιο: [Synology-Nas: Εγκαταστήστε το Calibre Web ως βιβλιοθήκη ebook]({{< ref "post/2020/february/20200213-synology-calibreweb" >}} "Synology-Nas: Εγκαταστήστε το Calibre Web ως βιβλιοθήκη ηλεκτρονικών βιβλίων"). Αυτό το σεμινάριο απευθύνεται σε όλους τους επαγγελματίες της Synology DS.
 ## Βήμα 1: Προετοιμάστε τη Synology

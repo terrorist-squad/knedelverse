@@ -3,7 +3,7 @@ date = "2021-03-07"
 title = "Namestitev ESXi v računalnik NUC. Prek računalnika MacBook pripravite ključek USB."
 difficulty = "level-4"
 tags = ["esxi", "homelab", "hypervisor", "linux", "nuc", "vmware"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210307-esxi-nuc/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210307-esxi-nuc/index.sl.md"
 +++
 S sistemom ESXi lahko računalnik intel NUC razdelite na poljubno število računalnikov. V tem priročniku prikazujem, kako sem na svoj računalnik NUC namestil VMware ESXi.Majhen uvod: pred namestitvijo ESXi priporočam posodobitev BIOS-a. Potrebujete tudi ključek USB s kapaciteto 32 GB. Celoten paket sem kupil na Amazonu za manj kot 5 evrov za kos.
 {{< gallery match="images/1/*.jpg" >}}

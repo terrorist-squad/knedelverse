@@ -3,7 +3,7 @@ date = "2021-03-24"
 title = "Krátky príbeh: Moje nastavenie Gitlabu"
 difficulty = "level-3"
 tags = ["code", "development", "devops", "docker-compose", "git", "gitlab", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210324-Gitlab-setup/index.sk.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210324-Gitlab-setup/index.sk.md"
 +++
 Po mojom prvom návode na tému "Gitlab na diskovej stanici Synology" som už niekoľkokrát dostal otázku, či toto riešenie stále používam. Nie! Medzitým som presunul svoje nástroje Atlassian a nasledujúcu inštaláciu GitLab na intel NUC. V prílohe uvádzam svoj aktuálny súbor Compose, ktorý je samozrejme možné spustiť aj na diskovej stanici Synology. Jasne vidíte, že teraz používam špeciálne nastavenia pre OpenLDAP, register kontajnerov, poštu, certifikáty a protokolovanie. Okrem toho bola deaktivovaná funkcia wiki a sledovania problémov, pretože používam Atlassian-Jira a Atlassian-Confluence. Ako vidíte, Gitlab je veľmi prispôsobiteľný. Bavte sa!
 ```

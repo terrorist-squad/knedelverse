@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "Lucruri grozave cu containere: Propria ta Bookstack Wiki pe Synology DiskStation"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "bookstack", "wiki"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210416-docker-Bookstack/index.ro.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210416-docker-Bookstack/index.ro.md"
 +++
 Bookstack este o alternativă "open source" la MediaWiki sau Confluence. Astăzi vă arăt cum să instalați un serviciu Bookstack pe stația de discuri Synology.
 ## Opțiune pentru profesioniști

@@ -3,7 +3,7 @@ date = "2021-02-28"
 title = "Страхотни неща с контейнери: Хеймдал като начална страница"
 difficulty = "level-3"
 tags = ["dienste", "Docker", "docker-compose", "docker-for-desktop", "heimdall", "homepage", "startseite"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/february/20210228-docker-heimdall/index.bg.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/february/20210228-docker-heimdall/index.bg.md"
 +++
 Използвам много услуги в моята мрежа Homelab, например LDAP, Gitlab, Atlassian Bamboo, Atlassian Confluence, Atlassian Jira, Jenkins, WordPress, Grafana, Graylog ,ESXI/VMware, Calibre и много други. Лесно е да изгубите представа за всичко.
 {{< gallery match="images/1/*.jpg" >}}

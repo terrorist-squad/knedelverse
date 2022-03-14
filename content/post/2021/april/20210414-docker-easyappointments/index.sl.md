@@ -3,7 +3,7 @@ date = "2021-04-16"
 title = "Ustvarjalni izhod iz krize: rezervacija storitve z enostavnimi termini"
 difficulty = "level-3"
 tags = ["buchung", "buchungstool", "click-and-meet", "corona", "Docker", "docker-compose", "easyappointments", "krise", "einzelhandel", "geschaefte"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210414-docker-easyappointments/index.sl.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-easyappointments/index.sl.md"
 +++
 Kriza v podjetju Corona je močno prizadela ponudnike storitev v Nemčiji. Digitalna orodja in rešitve vam lahko pomagajo čim bolj varno prebroditi pandemijo Corona. V tej seriji navodil "Ustvarjalno iz krize" prikazujem tehnologije ali orodja, ki so lahko koristna za mala podjetja.Danes prikazujem Easyappointments, orodje za rezervacijo storitev, na primer frizerjev ali trgovin, ki omogoča "klik in srečanje". Aplikacija Easyappointments je sestavljena iz dveh področij:
 ## Področje 1: zaledje

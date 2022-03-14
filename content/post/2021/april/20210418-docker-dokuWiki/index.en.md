@@ -3,7 +3,7 @@ date = "2021-04-18"
 title = "Great things with containers: Installing your own dokuWiki on the Synology Diskstation"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "dokuwiki", "wiki"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210418-docker-dokuWiki/index.en.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-dokuWiki/index.en.md"
 +++
 DokuWiki is a standards-compliant, easy-to-use, yet extremely versatile open source wiki software. Today I show how to install a dokuWiki service on the Synology DiskStation.
 ## Option for professionals

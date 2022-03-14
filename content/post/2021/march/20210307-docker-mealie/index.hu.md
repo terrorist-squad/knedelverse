@@ -3,7 +3,7 @@ date = "2021-03-07"
 title = "Nagyszerű dolgok konténerekkel: receptek kezelése és archiválása a Synology DiskStation eszközön"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "docker-for-desktop", "rezepte", "speisen", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210307-docker-mealie/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210307-docker-mealie/index.hu.md"
 +++
 Gyűjtse össze kedvenc receptjeit a Docker-konténerben, és rendezheti őket tetszése szerint. Írjon saját recepteket vagy importáljon recepteket weboldalakról, például a "Chefkoch", "Essen", "Essen", stb.
 {{< gallery match="images/1/*.png" >}}

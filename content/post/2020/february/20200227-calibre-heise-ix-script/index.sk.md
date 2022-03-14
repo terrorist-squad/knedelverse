@@ -3,7 +3,7 @@ date = "2020-02-27"
 title = "Skvelé veci s kontajnermi: Automatické označovanie PDF súborov pomocou Calibre a Docker"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ebook", "epub", "linux", "pdf", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2020/february/20200227-calibre-heise-ix-script/index.sk.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-calibre-heise-ix-script/index.sk.md"
 +++
 Pridávanie správnych metainformácií do súborov PDF môže byť často zdĺhavé. Ja sám triedim stiahnuté PDF súbory z môjho predplatiteľského účtu Heise IX do mojej súkromnej knižnice Calibre.
 {{< gallery match="images/1/*.png" >}}

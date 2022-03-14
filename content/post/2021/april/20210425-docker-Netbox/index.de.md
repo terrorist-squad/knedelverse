@@ -3,7 +3,7 @@ date = "2021-04-25T09:28:11+01:00"
 title = "Großartiges mit Containern: Netbox auf der Synology – Disk"
 difficulty = "level-3"
 tags = ["Computernetzwerken", "DCIM", "Docker", "docker-compose", "IPAM", "netbox", "Synology", "netwerk"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210425-docker-Netbox/index.de.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Netbox/index.de.md"
 +++
 
 NetBox ist eine kostenlose Software, die für das Management von Computernetzwerken verwendet wird. Heute zeige ich, wie man einen Netbox-Dienst auf der Synology-Diskstation installiert.

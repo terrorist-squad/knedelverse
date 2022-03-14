@@ -3,7 +3,7 @@ date = "2021-04-04"
 title = "Király dolgok az Atlassian segítségével: Pimp my Bamboo Monitor"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/april/20210402-Bamboo-monitor/index.hu.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-Bamboo-monitor/index.hu.md"
 +++
 Hogyan hozhatok létre egy build monitort a Bamboo, Jenkins vagy Gitlab számára? Ma estére kitalálom! Már írtam egy hasonló [Tutorial a Gitlab-Issue-Boards számára]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Tutorial a Gitlab-Issue-Boards számára")-t.
 {{< gallery match="images/1/*.jpg" >}}

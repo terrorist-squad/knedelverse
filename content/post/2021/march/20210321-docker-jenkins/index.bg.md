@@ -3,7 +3,7 @@ date = "2021-03-21"
 title = "Страхотни неща с контейнери: стартиране на Jenkins на Synology DS"
 difficulty = "level-3"
 tags = ["build", "devops", "diskstation", "java", "javascript", "Jenkins", "nas", "Synology"]
-githublink = "https://github.com/ChristianKnedel/knedelverse/blob/main/content/post/2021/march/20210321-docker-jenkins/index.bg.md"
+githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-docker-jenkins/index.bg.md"
 +++
 
 ## Стъпка 1: Подготовка на Synology
