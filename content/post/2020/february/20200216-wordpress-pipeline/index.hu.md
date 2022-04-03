@@ -23,7 +23,7 @@ uild:
     expire_in: 24 week
 
 ```
-Az eredményt vagy statikus artefaktumot 24 hétig archiváljuk, és a csővezetéken keresztül bármikor bevethető.
+Az eredményt vagy statikus artefaktumot 24 hétig archiváljuk, és a csővezetéken keresztül bármikor telepíthetjük.
 {{< gallery match="images/1/*.png" >}}
 A következő lépésben az eredményt be lehet vetni:
 ```

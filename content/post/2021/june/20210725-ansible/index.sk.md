@@ -37,3 +37,4 @@ Teraz môžete spúšťať knihy skladieb alebo príkazy, napríklad reštartova
 ansible raspi -m shell -a 'sudo /sbin/reboot'
 
 {{</ terminal >}}
+

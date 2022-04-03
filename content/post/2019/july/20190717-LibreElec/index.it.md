@@ -19,3 +19,4 @@ Dopo di che l'installazione è finita e avviabile
 "{{< gallery match="images/4/*.jpg" >}}"
 Ora è possibile collegare questo MediaPc a fonti esterne come il NAS o installare applicazioni come Youtube. Buon divertimento!   
 "{{< gallery match="images/5/*.jpg" >}}"
+Come già scritto, si può anche usare il telecomando del televisore tramite il controller CEC.

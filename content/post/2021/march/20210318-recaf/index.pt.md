@@ -12,3 +12,4 @@ A ferramenta pode ser encontrada no seguinte endereço: https://github.com/Col-E
 java -jar recaf-2.18.2-J8-jar-with-dependencies.jar
 
 {{</ terminal >}}
+

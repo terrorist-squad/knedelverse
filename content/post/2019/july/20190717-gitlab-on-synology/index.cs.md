@@ -11,3 +11,4 @@ Služba mi naslouchá na portu "30000". Když vše funguje, vyvolám Gitlab pomo
 {{< gallery match="images/2/*.*" >}}
 Při prvním přihlášení jsem požádán o budoucí heslo "admin". To bylo ono! Nyní mohu organizovat projekty. Nyní je možné nainstalovat běhové prostředí Gitlab.  
 {{< gallery match="images/3/*.*" >}}
+

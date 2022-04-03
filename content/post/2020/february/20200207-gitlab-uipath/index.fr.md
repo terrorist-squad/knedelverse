@@ -60,3 +60,4 @@ build1:
 ```
 Mon robot logiciel Windows s'exécute directement après le commit dans la branche maître :
 {{< gallery match="images/14/*.png" >}}
+L'option "Schedules" permet de gérer le démarrage automatique du robot. Un grand avantage de cette combinaison est que les projets "robotiques" ainsi que les résultats des projets (artifacts) peuvent être contrôlés, versionnés et gérés de manière centralisée par Gitlab avec d'autres projets "non robotiques".

@@ -12,3 +12,4 @@ Nástroj nájdete na tejto adrese: https://github.com/Col-E/Recaf/releases. Deko
 java -jar recaf-2.18.2-J8-jar-with-dependencies.jar
 
 {{</ terminal >}}
+

@@ -89,5 +89,5 @@ Am atribuit porturi fixe pentru containerul "WikiJS". Fără porturi fixe, s-ar 
 {{</table>}}
 În cele din urmă, introduc aceste variabile de mediu:Vezi:
 {{< gallery match="images/11/*.png" >}}
-Containerul poate fi pornit acum. Chem serverul Wiki.js cu adresa IP a Synology și portul meu de container/3000.
+Containerul poate fi pornit acum. Sun la serverul Wiki.js cu adresa IP a Synology și portul meu de container/3000.
 {{< gallery match="images/12/*.png" >}}

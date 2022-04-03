@@ -59,7 +59,7 @@ Desværre virkede den aktuelle Lastest-version ikke for mig, så jeg installered
 docker-compose -f prestashop.yml up
 
 {{</ terminal >}}
-Det er bedst at få frisk kaffe, fordi processen tager lang tid. Grænsefladen kan kun bruges, når følgende tekst vises.
+Det er bedst at få frisk kaffe, da processen tager lang tid. Grænsefladen kan kun bruges, når følgende tekst vises.
 {{< gallery match="images/1/*.png" >}}
 Jeg kan derefter ringe til min PrestaShop-server og fortsætte installationen via grænsefladen.
 {{< gallery match="images/2/*.png" >}}
@@ -72,5 +72,5 @@ docker-compose -f prestashop.yml up -d
 {{</ terminal >}}
 
 ## Trin 2: Test butikken
-Efter genstarten tester jeg min Presta shop-installation og kalder også admin-grænsefladen under "shop-url/admin genveje".
+Efter genstarten tester jeg min Presta shop-installation og kalder også admin-grænsefladen under "shop-url/admin shortcuts".
 {{< gallery match="images/4/*.png" >}}

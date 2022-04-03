@@ -28,13 +28,13 @@ services:
 ```
 
 ## Stap 1
-Eerst maak ik een map voor de downloads. Ik ga naar "System Control" -> "Shared Folder" en maak een nieuwe map aan genaamd "Downloads".
+Eerst maak ik een map aan voor de downloads. Ik ga naar "System Control" -> "Shared Folder" en maak een nieuwe map aan genaamd "Downloads".
 {{< gallery match="images/2/*.png" >}}
 
 ## Stap 2: Zoek naar Docker image
 Ik klik op het tabblad "Registratie" in het Synology Docker-venster en zoek naar "youtube-dl-nas". Ik selecteer de Docker image "modenaf360/youtube-dl-nas" en klik dan op de tag "latest".
 {{< gallery match="images/3/*.png" >}}
-Na het downloaden van de afbeelding, is de afbeelding beschikbaar als een afbeelding. Docker maakt onderscheid tussen 2 toestanden, container "dynamische toestand" en image/image (vaste toestand). Voordat we een container kunnen maken van de image, moeten een paar instellingen worden gemaakt.
+Na het downloaden van de afbeelding, is de afbeelding beschikbaar als een afbeelding. Docker maakt onderscheid tussen 2 toestanden, container "dynamische toestand" en image/image (vaste toestand). Voordat we een container van het image kunnen maken, moeten een paar instellingen worden gemaakt.
 ## Stap 3: Zet het beeld in werking:
 Ik dubbelklik op mijn youtube-dl-nas beeld.
 {{< gallery match="images/4/*.png" >}}

@@ -1,11 +1,11 @@
 +++
 date = "2020-02-28"
-title = "Velké věci s kontejnery: Spuštění systému Papermerge DMS na zařízení Synology NAS"
+title = "Velké věci s kontejnery: Spuštění Papermerge DMS na zařízení Synology NAS"
 difficulty = "level-3"
 tags = ["archiv", "automatisch", "dms", "Docker", "Document-Managment-System", "google", "ocr", "papermerge", "Synology", "tesseract", "texterkennung"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200228-docker-papermerge/index.cs.md"
 +++
-Papermerge je mladý systém správy dokumentů (DMS), který dokáže automaticky přiřazovat a zpracovávat dokumenty. V tomto návodu ukážu, jak jsem nainstaloval Papermerge na diskovou stanici Synology a jak funguje DMS.
+Papermerge je mladý systém správy dokumentů (DMS), který dokáže automaticky přiřazovat a zpracovávat dokumenty. V tomto návodu ukážu, jak jsem nainstaloval Papermerge na svou diskovou stanici Synology a jak funguje DMS.
 ## Možnost pro profesionály
 Jako zkušený uživatel Synology se samozřejmě můžete přihlásit pomocí SSH a nainstalovat celou instalaci pomocí souboru Docker Compose.
 ```
@@ -33,8 +33,8 @@ Nejprve vytvořím složku pro sloučení papíru. Přejdu do "Ovládání syst�
 Krok 2: Vyhledání obrazu DockerKliknu na kartu "Registrace" v okně Synology Docker a vyhledám "Papermerge". Vyberu obraz Docker "linuxserver/papermerge" a kliknu na značku "latest".
 {{< gallery match="images/2/*.png" >}}
 Po stažení obrázku je obrázek k dispozici jako obrázek. Docker rozlišuje 2 stavy, kontejner "dynamický stav" a obraz/image (pevný stav). Před vytvořením kontejneru z bitové kopie je třeba provést několik nastavení.
-## Krok 3: Zprovozněte obrázek:
-Dvakrát kliknu na obrázek pro sloučení papíru.
+## Krok 3: Zprovoznění obrázku:
+Dvakrát kliknu na obrázek sloučení papíru.
 {{< gallery match="images/3/*.png" >}}
 Pak kliknu na "Rozšířené nastavení" a aktivuji "Automatický restart". Vyberu kartu "Svazek" a kliknu na "Přidat složku". Tam vytvořím novou složku databáze s touto přípojnou cestou "/data".
 {{< gallery match="images/4/*.png" >}}
@@ -52,5 +52,5 @@ Papermerge analyzuje text dokumentů a obrázků. Papermerge používá knihovnu
 {{< gallery match="images/9/*.png" >}}
 Vytvořil jsem složku s názvem "Vše s Lorem", abych otestoval automatické přiřazování dokumentů. Poté jsem kliknul na nový rozpoznávací vzor v položce nabídky "Automaty".
 {{< gallery match="images/10/*.png" >}}
-Všechny nové dokumenty obsahující slovo "Lorem" jsou zařazeny do složky "Vše s Lorem" a označeny "has-lorem". Je důležité, abyste ve značkách používali čárku, jinak se značka nenastaví. Pokud nahrajete odpovídající dokument, bude označen a seřazen.
+Všechny nové dokumenty obsahující slovo "Lorem" jsou zařazeny do složky "Vše s Lorem" a označeny "has-lorem". Je důležité, abyste ve značkách používali čárku, jinak se značka nenastaví. Pokud nahrajete dokument, bude označen a seřazen.
 {{< gallery match="images/11/*.png" >}}

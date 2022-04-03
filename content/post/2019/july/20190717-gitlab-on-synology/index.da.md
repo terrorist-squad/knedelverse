@@ -11,3 +11,4 @@ Tjenesten lytter til port "30000" for mig. Når alt har virket, kalder jeg mit G
 {{< gallery match="images/2/*.*" >}}
 Når jeg logger ind første gang, bliver jeg bedt om den fremtidige "admin"-adgangskode. Det var det! Nu kan jeg organisere projekter. Nu kan der installeres en Gitlab runner.  
 {{< gallery match="images/3/*.*" >}}
+

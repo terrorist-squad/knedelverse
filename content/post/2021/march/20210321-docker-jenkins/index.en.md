@@ -1,15 +1,15 @@
 +++
 date = "2021-03-21"
-title = "Great things with containers: Running Jenkins on the Synology DS"
+title = "Great things with containers: running Jenkins on the Synology DS"
 difficulty = "level-3"
 tags = ["build", "devops", "diskstation", "java", "javascript", "Jenkins", "nas", "Synology"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-docker-jenkins/index.en.md"
 +++
 
 ## Step 1: Prepare Synology
-First of all, you need to enable SSH login on Diskstation. To do this, go to the "Control Panel" > "Terminal
+The first thing to do is to enable SSH login on Diskstation. To do this, go to the "Control Panel" > "Terminal
 {{< gallery match="images/1/*.png" >}}
-After that you can log in via "SSH", the given port and the administrator password (Windows users take Putty or WinSCP).
+After that you can log in via "SSH", the specified port and the administrator password (Windows users take Putty or WinSCP).
 {{< gallery match="images/2/*.png" >}}
 I log in via Terminal, winSCP or Putty and leave this console open for later.
 ## Step 2: Prepare Docker folder
@@ -45,7 +45,7 @@ I can also make good use of the console in this step. I start the Jenkins server
 sudo docker-compose -f jenkins.yml up -d
 
 {{</ terminal >}}
-After that I can call my Jenkins server with the IP of the diskstation and the assigned port from "step 2".
+After that I can call my Jenkins server with the IP of the diskstation and the assigned port from "Step 2".
 {{< gallery match="images/4/*.png" >}}
 
 ## Step 4: Setup
@@ -58,7 +58,7 @@ cat data/secrets/initialAdminPassword
 {{</ terminal >}}
 See:
 {{< gallery match="images/6/*.png" >}}
-I have selected the "Recommended Installation".
+I have selected the "Recommended installation".
 {{< gallery match="images/7/*.png" >}}
 
 ## Step 5: My first job

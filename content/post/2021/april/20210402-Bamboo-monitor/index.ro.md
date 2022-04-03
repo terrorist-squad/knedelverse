@@ -1,11 +1,11 @@
 +++
-date = "2021-04-04"
+date = "2021-04-0q"
 title = "Lucruri interesante cu Atlassian: Pimp my Bamboo Monitor"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-Bamboo-monitor/index.ro.md"
 +++
-Cum pot crea un monitor de construcție pentru Bamboo, Jenkins sau Gitlab? Până diseară o să mă descurc! Am scris deja un [Tutorial pentru Gitlab-Issue-Boards]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Tutorial pentru Gitlab-Issue-Boards") similar.
+Cum pot crea un monitor de construcție pentru Bamboo, Jenkins sau Gitlab? Până diseară o să mă descurc! Am scris deja un [Tutorial pentru Gitlab Issue Boards]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Tutorial pentru Gitlab Issue Boards") similar.
 {{< gallery match="images/1/*.jpg" >}}
 Baza pentru acest tutorial este Raspberry Imager și sistemul de operare "Raspberry Pi OS Lite". După instalarea sistemului de operare, cardul SD poate fi introdus în Zmeura. În cazul meu, este vorba de un Raspberry Pi Zero.
 {{< gallery match="images/2/*.*" >}}
@@ -32,7 +32,7 @@ sudo su dashboard
 {{</ terminal >}}
 
 ##  3.1. ) Butoane/Funcție
-Vreau ca Zmeura mea să fie operabilă în modul chioșc. Pentru a face acest lucru, am stocat două comenzi de taste, Ctrl Alt X pentru terminal și Alt C pentru a închide terminalul. În terminal puteți interoga IP-ul curent cu ifconfig, opriți Zmeura cu sudo shutdown -h now etc.....
+Vreau ca Zmeura mea să fie operabilă în modul chioșc. Pentru a face acest lucru, am stocat două comenzi de taste, Ctrl Alt X pentru terminal și Alt C pentru a închide terminalul. În terminal, puteți interoga IP-ul curent cu ifconfig, opriți Zmeura cu sudo shutdown -h now etc.....
 {{< terminal >}}
 cd ~
 mkdir .matchbox
@@ -227,3 +227,4 @@ sudo reboot
 {{</ terminal >}}
 
 ## Gata
+Fiecare dasboard trebuie repornit o dată pe zi. Am creat un cron pentru acest lucru.

@@ -13,14 +13,14 @@ je crée un nouveau répertoire appelé "udemy" dans le répertoire Docker.
 ## Étape 2 : Installer l'image d'Ubuntu
 Je clique sur l'onglet "Registre" dans la fenêtre docker de Synology et je recherche "ubunutu". Je sélectionne l'image docker "ubunutu" et je clique ensuite sur le tag "latest".
 {{< gallery match="images/2/*.png" >}}
-Je double-clique sur mon image Ubuntu. Ensuite, je clique sur "Paramètres avancés" et j'active là aussi le "redémarrage automatique".
+Je double-clique sur mon image Ubuntu. Ensuite, je clique sur "Paramètres avancés" et j'active ici aussi le "redémarrage automatique".
 {{< gallery match="images/3/*.png" >}}
 Je choisis l'onglet "Volume" et je clique sur "Ajouter un dossier". Là, je crée un nouveau dossier avec ce chemin de montage "/download".
 {{< gallery match="images/4/*.png" >}}
 Le conteneur peut maintenant être démarré
 {{< gallery match="images/5/*.png" >}}
 
-## Étape 4 : installer le téléchargeur Udemy
+## Étape 4 : Installer le téléchargeur Udemy
 Je clique sur "Conteneur" dans la fenêtre du docker Synology et je double-clique sur mon "conteneur Udemy". Ensuite, je clique sur l'onglet "Terminal" et je saisis les commandes suivantes.
 {{< gallery match="images/6/*.png" >}}
 
@@ -55,3 +55,4 @@ python3 udemy-dl-master/udemy-dl.py -k /download/cookie.txt https://www.udemy.co
 {{</ terminal >}}
 Voir
 {{< gallery match="images/9/*.png" >}}
+

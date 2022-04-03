@@ -19,3 +19,4 @@ Po tem je namestitev končana in zagonska
 "{{< gallery match="images/4/*.jpg" >}}"
 Zdaj lahko ta računalnik MediaPc povežete z zunanjimi viri, kot je NAS, ali namestite aplikacije, kot je Youtube. Zabavajte se!   
 "{{< gallery match="images/5/*.jpg" >}}"
+Kot smo že zapisali, lahko daljinski upravljalnik televizorja uporabljate tudi prek krmilnika CEC.

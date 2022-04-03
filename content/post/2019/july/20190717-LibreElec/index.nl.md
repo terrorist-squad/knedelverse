@@ -19,3 +19,4 @@ Daarna is de installatie klaar en bootable
 "{{< gallery match="images/4/*.jpg" >}}"
 Nu kunt u deze MediaPc verbinden met externe bronnen zoals NAS of apps installeren zoals Youtube. Veel plezier!   
 "{{< gallery match="images/5/*.jpg" >}}"
+Zoals reeds geschreven, kunt u ook de afstandsbediening van uw TV gebruiken via de CEC-controller.

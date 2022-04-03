@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["104.6rtl", "fm-streaming", "pi", "radio", "raspberry-pi"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2019/july/20190717-rpi-pifm/index.pl.md"
 +++
-Jeśli jesteś fanem 104.6 RTL i nie chcesz spędzić dnia bez berlińskiego hitu radiowego, to jesteś we właściwym miejscu. Potrzebny jest komputer jednopłytkowy zwany Raspberry i kabel na porcie GPIO 4 jako antena.
+Jeśli jesteś fanem stacji 104,6 RTL i nie chcesz spędzić dnia bez berlińskiego przeboju radiowego, to jesteś we właściwym miejscu. Potrzebny jest komputer jednopłytkowy Raspberry i kabel na porcie GPIO 4 jako antena.
 ## Wymagane są następujące pakiety
 
 {{< terminal >}}
@@ -14,7 +14,7 @@ sudo apt-get upgrade
 sudo apt-get install sox libsox-fmt-all
 
 {{</ terminal >}}
-Tworzę folder download i pobieram skrypt PIFM:
+Tworzę folder pobierania i pobieram skrypt PIFM:
 {{< terminal >}}
 mkdir /home/pi/installs
 cd /home/pi/installs/
@@ -24,7 +24,7 @@ tar vfzx pifm.tar.gz
 {{</ terminal >}}
 
 ## skrypt pifm
-Tworzę nowy plik "$vim /home/pi/radio-streamer.sh" z następującą zawartością:
+Tworzę nowy plik "$vim /home/pi/radio-streamer.sh" o następującej zawartości:
 ```
 #!/bin/bash 
 pkill sox 
@@ -41,7 +41,7 @@ sudo chmod 775 /home/pi/radio-streamer.sh
 {{</ terminal >}}
 
 ## Możliwe crontjob
-Komputer jest restartowany każdej nocy między godziną 4 a 5. Ponadto Radion łączy się ponownie co godzinę.
+Komputer jest uruchamiany ponownie każdej nocy między godziną 4 a 5. Ponadto urządzenie Radion nawiązuje ponowne połączenie co godzinę.
 ```
 @reboot sleep 60 && sudo /home/pi/radio-streamer.sh 
 36 4 * * * sudo pkill sox 

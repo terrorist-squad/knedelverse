@@ -70,7 +70,7 @@ Näiden asetusten jälkeen Mariadb-palvelin voidaan käynnistää! Painan "Apply
 ## Vaihe 3: Asenna Wiki.js
 Napsautan Synology Docker -ikkunan "Rekisteröinti"-välilehteä ja etsin "wiki". Valitsen Docker-kuvan "requarks/wiki" ja napsautan sitten tagia "latest".
 {{< gallery match="images/7/*.png" >}}
-Kaksoisnapsautan WikiJS-kuvaani. Sitten napsautan "Lisäasetukset" ja aktivoin "Automaattinen uudelleenkäynnistys" myös täällä.
+Kaksoisnapsautan WikiJS-kuvaani. Sitten napsautan "Lisäasetukset" ja aktivoin "Automaattinen uudelleenkäynnistys" myös tässä.
 {{< gallery match="images/8/*.png" >}}
 Määritän kiinteät portit WikiJS-säiliölle. Ilman kiinteitä portteja voi olla, että "bookstack-palvelin" toimii eri portissa uudelleenkäynnistyksen jälkeen.
 {{< gallery match="images/9/*.png" >}}

@@ -11,3 +11,4 @@ Palvelu kuuntelee porttia "30000" minun puolestani. Kun kaikki on toiminut, kuts
 {{< gallery match="images/2/*.*" >}}
 Kun kirjaudun sisään ensimmäistä kertaa, minulta kysytään tulevaa "admin"-salasanaa. Se oli siinä! Nyt voin organisoida hankkeita. Nyt Gitlab-runner voidaan asentaa.  
 {{< gallery match="images/3/*.*" >}}
+

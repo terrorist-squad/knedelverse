@@ -30,3 +30,4 @@ chmod 755 say-hallo.sh
 {{< gallery match="images/3/*.png" >}}
 
 ## Stap 4: Klaar!
+De nieuwe knop is nu bruikbaar.

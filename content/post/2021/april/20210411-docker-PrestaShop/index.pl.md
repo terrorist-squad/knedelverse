@@ -5,15 +5,15 @@ difficulty = "level-4"
 tags = ["corona", "Docker", "docker-compose", "kreativ", "krise", "online-shop", "presta", "shop", "shopsystem"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210411-docker-PrestaShop/index.pl.md"
 +++
-PrestaShop jest europejską platformą e-commerce typu open source z, według własnych informacji, obecnie ponad 300.000 instalacji. Dzisiaj instaluję to oprogramowanie PHP na moim serwerze. Do tego tutoriala wymagana jest wiedza z zakresu Linuksa, Dockera i Docker Compose.
+PrestaShop to europejska platforma open source do handlu elektronicznego, która według własnych danych ma obecnie ponad 300 000 instalacji. Dzisiaj instaluję to oprogramowanie PHP na moim serwerze. Do tego samouczka wymagana jest pewna wiedza na temat Linuksa, Dockera i Docker Compose.
 ## Krok 1: Zainstaluj PrestaShop
-Tworzę nowy katalog o nazwie "prestashop" na moim serwerze:
+Na moim serwerze tworzę nowy katalog o nazwie "prestashop":
 {{< terminal >}}
 mkdir prestashop
 cd prestashop
 
 {{</ terminal >}}
-Następnie wchodzę do katalogu prestashop i tworzę nowy plik o nazwie "prestashop.yml" z następującą zawartością.
+Następnie wchodzę do katalogu prestashop i tworzę nowy plik o nazwie "prestashop.yml" o następującej zawartości.
 ```
 version: '2'
 
@@ -54,23 +54,23 @@ networks:
   shop-network:
 
 ```
-Niestety, aktualna wersja Lastest nie działała u mnie, więc zainstalowałem wersję "1.7.7.2". Ten plik jest uruchamiany za pomocą Docker Compose:
+Niestety, aktualna wersja Lastest nie działała u mnie, więc zainstalowałem wersję "1.7.7.2". Ten plik jest uruchamiany za pomocą aplikacji Docker Compose:
 {{< terminal >}}
 docker-compose -f prestashop.yml up
 
 {{</ terminal >}}
 Najlepiej zaopatrzyć się w świeżą kawę, ponieważ proces ten trwa długo. Interfejs może być używany tylko wtedy, gdy wyświetlany jest następujący tekst.
 {{< gallery match="images/1/*.png" >}}
-Mogę wtedy wywołać mój serwer PrestaShop i kontynuować instalację poprzez interfejs.
+Następnie mogę wywołać mój serwer PrestaShop i kontynuować instalację za pomocą interfejsu.
 {{< gallery match="images/2/*.png" >}}
-Kończę Docker-Compose z "Ctrl C" i wywołuję podfolder "prestadata" ("cd prestadata"). Tam należy skasować folder "install" za pomocą "rm -r install".
+Kończę pracę z Docker-Compose, naciskając klawisz "Ctrl C", i wywołuję podfolder "prestadata" ("cd prestadata"). W tym celu należy usunąć folder "install" za pomocą polecenia "rm -r install".
 {{< gallery match="images/3/*.png" >}}
-Dodatkowo znajduje się tam folder "Admin", w moim przypadku "admin697vqoryt". Zapamiętałem ten skrót na później i ponownie uruchomiłem serwer przez Docker Compose:
+Ponadto znajduje się tam folder "Admin", w moim przypadku "admin697vqoryt". Zapamiętałem ten skrót na później i ponownie uruchomiłem serwer za pomocą aplikacji Docker Compose:
 {{< terminal >}}
 docker-compose -f prestashop.yml up -d
 
 {{</ terminal >}}
 
 ## Krok 2: Przetestuj sklep
-Po ponownym uruchomieniu, testuję moją instalację sklepu Presta i wywołuję interfejs administratora pod "shop-url/admin shortcuts".
+Po ponownym uruchomieniu testuję instalację sklepu Presta, a także wywołuję interfejs administratora pod adresem "shop-url/admin shortcuts".
 {{< gallery match="images/4/*.png" >}}

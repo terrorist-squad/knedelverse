@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 A PDF-ek megfelelő metainformációkkal való ellátása gyakran fárasztó lehet. Én magam a Heise IX előfizetési fiókomból letöltött PDF-eket a privát Calibre könyvtáramba válogatom.
 {{< gallery match="images/1/*.png" >}}
-Mivel ez a folyamat minden hónapban megismétlődik, a következő beállítással álltam elő. Én csak az új PDF-eket húzom a könyvtáramba.
+Mivel ez a folyamat minden hónapban megismétlődik, a következő beállítással álltam elő. Csak az új PDF-eket húzom be a könyvtáramba.
 {{< gallery match="images/2/*.png" >}}
 Létrehoztam egy konténert, amely kötetként megkapja a Calibre könyvtáramat (-v ...:/books). Ebbe a konténerbe a következő csomagokat telepítettem:
 {{< terminal >}}
@@ -44,3 +44,4 @@ done
 ```
 A "calibredb set_metadata" paranccsal minden mást beállítottam címkéknek. Az eredmény így néz ki:
 {{< gallery match="images/3/*.png" >}}
+A szkript elérhető a Githubon is: https://github.com/ChristianKnedel/heise-ix-reader-for-calibre .

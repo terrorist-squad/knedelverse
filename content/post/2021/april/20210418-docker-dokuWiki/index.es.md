@@ -50,3 +50,4 @@ Por último, introduzco estas variables de entorno:Ver:
 {{< gallery match="images/5/*.png" >}}
 El contenedor ya puede iniciarse. Llamo al servidor dokuWIki con la dirección IP del Synology y el puerto de mi contenedor.
 {{< gallery match="images/6/*.png" >}}
+

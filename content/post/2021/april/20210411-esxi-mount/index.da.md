@@ -21,3 +21,4 @@ Nu kan hukommelsen bruges.
 {{< gallery match="images/4/*.png" >}}
 Til test installerede jeg en DOS-installation og et gammelt regnskabsprogram via dette monteringspunkt.
 {{< gallery match="images/5/*.png" >}}
+

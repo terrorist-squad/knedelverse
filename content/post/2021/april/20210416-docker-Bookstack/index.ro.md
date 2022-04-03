@@ -86,3 +86,4 @@ Containerul poate fi pornit acum. Crearea bazei de date poate dura ceva timp. Co
 {{< gallery match="images/12/*.png" >}}
 Chem serverul Bookstack cu adresa IP a Synology și portul containerului meu. Numele de utilizator este "admin@admin.com", iar parola este "password".
 {{< gallery match="images/13/*.png" >}}
+

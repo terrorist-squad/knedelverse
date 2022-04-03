@@ -5,12 +5,12 @@ difficulty = "level-2"
 tags = ["bitwardenrs", "Docker", "docker-compose", "password-manager", "passwort", "Synology"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-BitwardenRS/index.bg.md"
 +++
-Bitwarden е безплатна услуга за управление на пароли с отворен код, която съхранява поверителна информация, като например идентификационни данни за уебсайтове, в криптиран трезор. Днес ще покажа как да инсталирате BitwardenRS на Synology DiskStation.
+Bitwarden е безплатна услуга за управление на пароли с отворен код, която съхранява поверителна информация, като например идентификационни данни за уебсайтове, в криптиран трезор. Днес показвам как да инсталирате BitwardenRS на Synology DiskStation.
 ## Стъпка 1: Подгответе папката BitwardenRS
 Създавам нова директория, наречена "bitwarden", в директорията на Docker.
 {{< gallery match="images/1/*.png" >}}
 
-## Стъпка 2: Инсталиране на BitwardenRS
+## Стъпка 2: Инсталирайте BitwardenRS
 Кликвам върху раздела "Регистрация" в прозореца на Synology Docker и търся "bitwarden". Избирам образа на Docker "bitwardenrs/server" и след това щраквам върху етикета "latest".
 {{< gallery match="images/2/*.png" >}}
 Кликвам два пъти върху изображението на моите bitwardenrs. След това щраквам върху "Разширени настройки" и активирам "Автоматично рестартиране" и тук.
@@ -25,5 +25,5 @@ Bitwarden е безплатна услуга за управление на па
 ## Стъпка 3: Настройка на HTTPS
 Кликвам върху "Control Panel" (Контролен панел) > "Reverse Proxy" (Обратен прокси сървър) и "Create" (Създаване).
 {{< gallery match="images/7/*.png" >}}
-След това мога да се обадя на сървъра bitwardenrs с IP адреса на Synology и моя прокси порт 8085, криптирано.
+След това мога да извикам сървъра bitwardenrs с IP адреса на Synology и моя прокси порт 8085, криптиран.
 {{< gallery match="images/8/*.png" >}}

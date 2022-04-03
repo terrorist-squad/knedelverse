@@ -5,7 +5,7 @@ difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "dokuwiki", "wiki"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-dokuWiki/index.hu.md"
 +++
-A DokuWiki egy szabványoknak megfelelő, könnyen használható és ugyanakkor rendkívül sokoldalú nyílt forráskódú wiki szoftver. Ma megmutatom, hogyan kell telepíteni a DokuWiki szolgáltatást a Synology lemezállomáson.
+A DokuWiki egy szabványoknak megfelelő, könnyen használható és ugyanakkor rendkívül sokoldalú nyílt forráskódú wiki szoftver. Ma megmutatom, hogyan lehet telepíteni a DokuWiki szolgáltatást a Synology lemezállomáson.
 ## Lehetőség szakemberek számára
 Tapasztalt Synology felhasználóként természetesen bejelentkezhet SSH-n keresztül, és telepítheti a teljes telepítést Docker Compose fájlon keresztül.
 ```
@@ -50,3 +50,4 @@ Végül megadom ezeket a környezeti változókat:Lásd:
 {{< gallery match="images/5/*.png" >}}
 A konténer most már elindítható. A dokuWIki szervert a Synology IP-címével és a konténerportommal hívom.
 {{< gallery match="images/6/*.png" >}}
+

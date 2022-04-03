@@ -9,3 +9,4 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 {{< gallery match="images/1/*.png" >}}
 Теперь моя VMware Fusion подключена к серверу ESXi в качестве клиента.
 {{< gallery match="images/2/*.png" >}}
+

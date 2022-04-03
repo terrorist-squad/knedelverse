@@ -1,6 +1,6 @@
 +++
 date = "2021-04-05"
-title = "Velike stvari s kontejnerji: Lasten video portal s PeerTube"
+title = "Velike stvari z zabojniki: Lasten video portal s PeerTube"
 difficulty = "level-1"
 tags = ["diskstation", "peertube", "Synology", "video", "videoportal"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210405-docker-peertube/index.sl.md"
@@ -86,7 +86,7 @@ Nato lahko pokličem strežnik Peertube z IP diskovne postaje in dodeljenimi vra
 {{< gallery match="images/4/*.png" >}}
 Uporabniško ime je "root", geslo pa "password" (ali korak 2 / PT_INITIAL_ROOT_PASSWORD).
 ## Prilagoditev teme
-Videz Peertube je zelo enostavno prilagoditi. To storim tako, da kliknem na "Administracija" > "Nastavitve" in "Napredne nastavitve".
+Videz Peertube je zelo enostavno prilagoditi. To storim tako, da kliknem na "Administracija" > "Nastavitve" in "Dodatne nastavitve".
 {{< gallery match="images/5/*.png" >}}
 Tam sem v polje CSS vnesel naslednje:
 ```
@@ -135,3 +135,4 @@ curl -s '$API_PATH/videos/upload'-H 'Authorization: Bearer $token' --max-time 11
 ```
 
 ## Moj nasvet: Preberite članek "Velike stvari s kontejnerji: večja varnost storitev Docker z LDAP in NGINX".
+Peertube uporabljam z obratnim posrednikom. To pomeni, da lahko do te storitve dostopajo samo uporabniki LDAP. To nastavitev sem dokumentiral pod "[Velike stvari s posodami: večja varnost storitev Docker z LDAP in NGINX]({{< ref "post/2021/april/20210402-nginx-reverse-proxy" >}} "Velike stvari s posodami: večja varnost storitev Docker z LDAP in NGINX")".

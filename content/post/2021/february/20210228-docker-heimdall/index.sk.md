@@ -14,7 +14,7 @@ Pomocou tohto príkazu vytvorte dočasný pracovný priečinok:
 mkdir /tmp/bilder
 
 {{</ terminal >}}
-Heimdall je služba, ktorá vám umožňuje spravovať záložky prostredníctvom panela Dashboard. Keďže používam Docker for Desktop, stačí, ak tento súbor Docker Compose umiestnim do lokálneho priečinka:
+Heimdall je služba, ktorá vám umožňuje spravovať záložky prostredníctvom panela Dashboard. Keďže používam Docker for Desktop, stačí, ak tento súbor Docker Compose umiestnim do miestneho priečinka:
 ```
 version: "2.1"
 services:
@@ -40,3 +40,4 @@ ocker-compose -f compose-file.yml up -d
 {{</ terminal >}}
 
 {{< gallery match="images/2/*.png" >}}
+

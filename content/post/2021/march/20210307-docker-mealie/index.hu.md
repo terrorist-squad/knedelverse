@@ -5,11 +5,11 @@ difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "docker-for-desktop", "rezepte", "speisen", "Synology"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210307-docker-mealie/index.hu.md"
 +++
-Gyűjtse össze kedvenc receptjeit a Docker-konténerben, és rendezheti őket tetszése szerint. Írjon saját recepteket vagy importáljon recepteket weboldalakról, például a "Chefkoch", "Essen", "Essen", stb.
+Gyűjtse össze az összes kedvenc receptjét a Docker-konténerben, és rendszerezze őket tetszése szerint. Írjon saját recepteket vagy importáljon recepteket weboldalakról, például a "Chefkoch", "Essen", "Essen", stb.
 {{< gallery match="images/1/*.png" >}}
 
 ## Lehetőség szakemberek számára
-Tapasztalt Synology felhasználóként természetesen bejelentkezhet SSH-val, és telepítheti a teljes telepítést Docker Compose fájlon keresztül.
+Tapasztalt Synology felhasználóként természetesen bejelentkezhet SSH-n keresztül, és telepítheti a teljes telepítést Docker Compose fájlon keresztül.
 ```
 version: "2.0"
 services:
@@ -34,7 +34,7 @@ A kép letöltése után a kép képként elérhető. A Docker 2 állapotot kül
 ## 2. lépés: Helyezze a képet működésbe:
 Duplán kattintok a "mealie" képemre.
 {{< gallery match="images/3/*.png" >}}
-Ezután a "Speciális beállítások" menüpontra kattintok, és aktiválom az "Automatikus újraindítás" opciót. Kiválasztom a "Kötet" lapot, és a "Mappa hozzáadása" gombra kattintok. Ott létrehozok egy új mappát ezzel a "/app/data" csatlakozási útvonallal.
+Ezután a "Speciális beállítások" gombra kattintok, és aktiválom az "Automatikus újraindítás" opciót. Kiválasztom a "Kötet" lapot, és a "Mappa hozzáadása" gombra kattintok. Ott létrehozok egy új mappát ezzel a "/app/data" csatlakozási útvonallal.
 {{< gallery match="images/4/*.png" >}}
 A "Mealie" konténerhez fix portokat rendelek. Fix portok nélkül előfordulhat, hogy a "Mealie szerver" egy másik porton fut az újraindítás után.
 {{< gallery match="images/5/*.png" >}}
@@ -44,7 +44,7 @@ Ezek után a beállítások után a Mealie Server elindítható! Ezután a Synol
 {{< gallery match="images/7/*.png" >}}
 
 ## Hogyan működik a Mealie?
-Ha az egeret a jobb/alul lévő "Plusz" gomb fölé viszem, majd a "Lánc" szimbólumra kattintok, be tudok írni egy url-t. A Mealie alkalmazás ezután automatikusan megkeresi a szükséges meta- és sémainformációkat.
+Ha az egeret a jobb/alul lévő "plusz" gomb fölé viszem, majd a "lánc" szimbólumra kattintok, be tudok írni egy url-t. A Mealie alkalmazás ezután automatikusan megkeresi a szükséges meta- és sémainformációkat.
 {{< gallery match="images/8/*.png" >}}
 Az import nagyszerűen működik (ezeket a funkciókat a Chef, Food, Food
 {{< gallery match="images/9/*.png" >}}
@@ -62,7 +62,7 @@ A Mealie mobilon is jól néz ki:
 {{< gallery match="images/13/*.*" >}}
 
 ## Rest-Api
-Az API dokumentációja a "http://gewaehlte-ip:und-port ... /docs" címen található. Itt számos olyan módszert talál, amely az automatizáláshoz használható.
+Az API dokumentációja a "http://gewaehlte-ip:und-port ... /docs" címen található. Itt számos olyan módszert találsz, amelyek az automatizáláshoz használhatók.
 {{< gallery match="images/14/*.png" >}}
 
 ## Api példa
@@ -85,3 +85,4 @@ done < clear.txt
 ```
 Mostantól offline is hozzáférhet a receptekhez:
 {{< gallery match="images/15/*.png" >}}
+Következtetés: Ha egy kis időt szánsz a Mealie-ra, remek receptadatbázist építhetsz! A Mealie-t nyílt forráskódú projektként folyamatosan fejlesztik, és a következő címen érhető el: https://github.com/hay-kot/mealie/.

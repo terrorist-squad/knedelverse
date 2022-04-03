@@ -5,9 +5,9 @@ difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "xwiki", "wiki",]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210417-docker-xWiki/index.hu.md"
 +++
-Az XWiki egy szabad wiki szoftver platform, amely Java nyelven íródott és a bővíthetőséget szem előtt tartva tervezték. Ma megmutatom, hogyan telepíthetünk xWiki szolgáltatást a Synology DiskStationre.
+Az XWiki egy szabad wiki szoftver platform, amely Java nyelven íródott és a bővíthetőséget szem előtt tartva tervezték. Ma bemutatom, hogyan telepíthetünk xWiki szolgáltatást a Synology DiskStationre.
 ## Lehetőség szakemberek számára
-Tapasztalt Synology felhasználóként természetesen bejelentkezhet SSH-val, és telepítheti a teljes telepítést Docker Compose fájlon keresztül.
+Tapasztalt Synology felhasználóként természetesen bejelentkezhet SSH-n keresztül, és telepítheti a teljes telepítést Docker Compose fájlon keresztül.
 ```
 version: '3'
 services:
@@ -47,9 +47,9 @@ Ezután létre kell hozni egy adatbázist. A Synology Docker ablakban a "Registr
 {{< gallery match="images/2/*.png" >}}
 A kép letöltése után a kép képként elérhető. A Docker 2 állapotot különböztet meg, a konténer "dinamikus állapotát" és a képet (rögzített állapot). Mielőtt létrehoznánk egy konténert a képből, néhány beállítást el kell végezni. Duplán kattintok a postgres képemre.
 {{< gallery match="images/3/*.png" >}}
-Ezután a "Speciális beállítások" menüpontra kattintok, és aktiválom az "Automatikus újraindítás" opciót. Kiválasztom a "Kötet" lapot, és a "Mappa hozzáadása" gombra kattintok. Ott létrehozok egy új adatbázis mappát ezzel a mount útvonallal "/var/lib/postgresql/data".
+Ezután a "Speciális beállítások" gombra kattintok, és aktiválom az "Automatikus újraindítás" opciót. Kiválasztom a "Kötet" lapot, és a "Mappa hozzáadása" gombra kattintok. Ott létrehozok egy új adatbázis mappát ezzel a mount útvonallal "/var/lib/postgresql/data".
 {{< gallery match="images/4/*.png" >}}
-A "Portbeállítások" alatt az összes port törlésre kerül. Ez azt jelenti, hogy kiválasztom az "5432" portot, és a "-" gombbal törlöm.
+A "Portbeállítások" alatt az összes port törlődik. Ez azt jelenti, hogy kiválasztom az "5432" portot, és a "-" gombbal törlöm.
 {{< gallery match="images/5/*.png" >}}
 {{<table "table table-striped table-bordered">}}
 |Változó neve|Érték|Mi ez?|

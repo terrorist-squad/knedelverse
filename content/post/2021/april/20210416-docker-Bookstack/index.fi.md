@@ -65,7 +65,7 @@ Näiden asetusten jälkeen Mariadb-palvelin voidaan käynnistää! Painan "Apply
 ## Vaihe 3: Asenna Bookstack
 Napsautan Synology Docker -ikkunan "Rekisteröinti"-välilehteä ja etsin "bookstack". Valitsen Docker-kuvan "solidnerd/bookstack" ja napsautan sitten tagia "latest".
 {{< gallery match="images/7/*.png" >}}
-Kaksoisnapsautan Bookstack-kuvaani. Sitten napsautan "Lisäasetukset" ja aktivoin "Automaattinen uudelleenkäynnistys" myös täällä.
+Kaksoisnapsautan Bookstack-kuvaani. Sitten napsautan "Lisäasetukset" ja aktivoin "Automaattinen uudelleenkäynnistys" myös tässä.
 {{< gallery match="images/8/*.png" >}}
 Määritän kiinteät portit kontille "bookstack". Ilman kiinteitä portteja voi olla, että "bookstack-palvelin" toimii eri portissa uudelleenkäynnistyksen jälkeen. Ensimmäinen konttisatama voidaan poistaa. Toinen satama olisi muistettava.
 {{< gallery match="images/9/*.png" >}}
@@ -86,3 +86,4 @@ Säiliö voidaan nyt käynnistää. Tietokannan luominen voi kestää jonkin aik
 {{< gallery match="images/12/*.png" >}}
 Soitan Bookstack-palvelimelle Synologyn IP-osoitteella ja konttiportilla. Kirjautumisnimi on "admin@admin.com" ja salasana "password".
 {{< gallery match="images/13/*.png" >}}
+

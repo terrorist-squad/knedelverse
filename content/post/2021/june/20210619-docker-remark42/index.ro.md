@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["microservice", "docker", "vertical", "kommentare"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210619-docker-remark42/index.ro.md"
 +++
-Dacă vă gestionați blogul ca un site static, poate doriți un microserviciu/vertical care să ofere o funcție de comentarii dinamice. Acest blog, de exemplu, este realizat în HUGO, un "generator de site-uri web" scris în GO pentru conținut Markdown.În cazul meu, am adaptat acest fișier Docker Compose pentru mine și l-am pornit cu "docker-compose -f compose.yml up -d". Am stocat chei API pentru autentificarea cu Google și Facebook. De asemenea, am introdus setările serverului de e-mail pentru interacțiunea cu cititorii.
+Dacă vă gestionați blogul ca un site static, este posibil să doriți un microserviciu/vertical care să ofere o funcție de comentarii dinamice. Acest blog, de exemplu, este realizat în HUGO, un "generator de site-uri web" scris în GO pentru conținut Markdown.În cazul meu, am adaptat acest fișier Docker Compose pentru mine și l-am pornit cu "docker-compose -f compose.yml up -d". Am stocat chei API pentru autentificarea cu Google și Facebook. De asemenea, am introdus setările serverului de e-mail pentru interacțiunea cu cititorii.
 ```
 version: '2'
 
@@ -68,3 +68,4 @@ După configurare, serviciul este gata de utilizare și poate fi integrat în si
 ```
 Și iată cum arată Remark42:
 {{< gallery match="images/1/*.png" >}}
+

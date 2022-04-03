@@ -60,3 +60,4 @@ build1:
 ```
 Robotul meu software pentru Windows este executat direct după ce a fost trimis pe ramura principală:
 {{< gallery match="images/14/*.png" >}}
+Pornirea automată a robotului poate fi gestionată prin intermediul opțiunii "Schedules". Un mare avantaj al acestei combinații este că proiectele "robotice" și rezultatele proiectelor (artefacte) pot fi controlate, versificate și gestionate în mod centralizat de Gitlab împreună cu alte proiecte "non-robotice".

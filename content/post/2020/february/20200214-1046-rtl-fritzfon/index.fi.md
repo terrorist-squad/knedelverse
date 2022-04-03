@@ -9,3 +9,4 @@ githublink = "https://github.com/terrorist-squad/knedelverse/tree/main/content/p
 {{< gallery match="images/1/*.png" >}}
 Selaa sivun alareunaan. Valitse "Muu Internet-radioasema" kohdassa "Lisää Internet-radioasema". Anna nimi "104.6 RTL Berlins Hitradio" ja osoite "http://stream.104.6rtl.com/rtl-live".
 {{< gallery match="images/2/*.png" >}}
+Klikkaa "OK"! Uusi lähetys on heti käytettävissä FritzFonissasi.

@@ -21,3 +21,4 @@ Dopo la regolazione, basta cliccare su "Salva (X)".
 {{< gallery match="images/4/*.png" >}}
 Il tuo modello di menu è ora creato in risoluzione di stampa come un PDF scaricabile e stampabile.  Puoi scaricare, stampare e inviare il file PDF.   
 {{< gallery match="images/5/*.png" >}}
+

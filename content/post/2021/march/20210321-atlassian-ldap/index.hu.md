@@ -5,7 +5,7 @@ difficulty = "level-3"
 tags = ["atlassian", "bamboo", "jira", "ldap", "openldap", "linux", "test"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-atlassian-ldap/index.hu.md"
 +++
-Ön szerencsés, ha saját Atlassian telepítéssel rendelkezik. Ma megmutatom, hogyan csatlakoztattam a Jira-t, a Bamboo-t és a Confluence-t az LDAP-kiszolgálómhoz.
+Szerencsés vagy, ha saját Atlassian telepítésed van. Ma megmutatom, hogyan csatlakoztattam a Jira-t, a Bamboo-t és a Confluence-t az LDAP-kiszolgálómhoz.
 ## 1. lépés: Az OpenLDAP telepítése
 Beállítottam az OpenLDAP-ot ezzel a Docker Compose-fájllal a Synology NAS-on.
 ```
@@ -66,7 +66,7 @@ networks:
 ```
 
 ## 2. lépés: Az OpenLDAP beállítása
-Az LDAP-kiszolgálóban létrehoztam csoportokat a különböző eszközökhöz.
+Az LDAP-kiszolgálóban csoportokat hoztam létre a különböző eszközök számára.
 {{< gallery match="images/1/*.png" >}}
 
 ## 3. lépés: Atlassian eszközök csatlakoztatása
@@ -85,5 +85,5 @@ Lásd:
 {{< gallery match="images/4/*.png" >}}
 
 ## 4. lépés: Felhasználói és csoportos séma
-A következő felhasználói és csoportbeállításokat vettem fel. A legfontosabb dolog a "csoportos objektumszűrő" beállítás. Természetesen ez a Bamboo, a Confluence és a Jira esetében más és más.
+A következő felhasználói és csoportbeállításokat vettem fel. A legfontosabb a "csoportos objektumszűrő" beállítás. Természetesen ez a Bamboo, a Confluence és a Jira esetében más és más.
 {{< gallery match="images/5/*.png" >}}

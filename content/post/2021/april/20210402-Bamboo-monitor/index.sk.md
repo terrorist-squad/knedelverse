@@ -1,13 +1,13 @@
 +++
-date = "2021-04-04"
+date = "2021-04-0q"
 title = "Parádne veci s Atlassian: Pimp my Bamboo Monitor"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-Bamboo-monitor/index.sk.md"
 +++
-Ako môžem vytvoriť monitor zostavenia pre Bamboo, Jenkins alebo Gitlab? Do večera na to prídem! Už som napísal podobný [Výukový program pre Gitlab-Issue-Boards]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Výukový program pre Gitlab-Issue-Boards").
+Ako môžem vytvoriť monitor zostavenia pre Bamboo, Jenkins alebo Gitlab? Do večera na to prídem! Už som napísal podobný [Výukový program pre nástenky problémov Gitlab]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Výukový program pre nástenky problémov Gitlab").
 {{< gallery match="images/1/*.jpg" >}}
-Základom tohto návodu je Raspberry Imager a operačný systém "Raspberry Pi OS Lite". Po inštalácii operačného systému môžete do Raspberry vložiť kartu SD. V mojom prípade je to Raspberry Pi Zero.
+Základom tohto návodu je Raspberry Imager a operačný systém "Raspberry Pi OS Lite". Po nainštalovaní operačného systému môžete do Raspberry vložiť kartu SD. V mojom prípade je to Raspberry Pi Zero.
 {{< gallery match="images/2/*.*" >}}
 
 ## Krok 1: Inštalácia aplikácie Matchbox/Správca okien
@@ -195,7 +195,7 @@ timer.append(
 
 
 ```
-Samozrejme, môžete do neho zabudovať ľubovoľné správanie, napríklad reštartovanie neúspešných testov.
+Samozrejme, môžete do neho zapracovať ľubovoľné správanie, napríklad reštartovanie neúspešných testov.
 ## 4. autologue do relácie X
 Ďalším krokom je nastavenie automatického prihlásenia. Tento súbor je prispôsobený na tento účel:
 {{< terminal >}}
@@ -227,3 +227,4 @@ sudo reboot
 {{</ terminal >}}
 
 ## Pripravené
+Každý dasboard by sa mal reštartovať raz denne. Vytvoril som na to cron.

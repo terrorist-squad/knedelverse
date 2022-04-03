@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "archiv", "wallabag"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-WallaBag/index.nl.md"
 +++
-Wallabag is een programma voor het archiveren van interessante websites of artikelen. Vandaag laat ik zien hoe je een Wallabag service installeert op het Synology disk station.
+Wallabag is een programma voor het archiveren van interessante websites of artikelen. Vandaag zal ik laten zien hoe je een Wallabag service installeert op het Synology disk station.
 ## Optie voor professionals
 Als ervaren Synology gebruiker kunt u natuurlijk inloggen met SSH en de hele setup installeren via Docker Compose bestand.
 ```
@@ -40,14 +40,14 @@ services:
 
 ```
 Meer nuttige Docker images voor thuisgebruik zijn te vinden in de [Dockerverse]({{< ref "dockerverse" >}} "Dockerverse").
-## Stap 1: Maak de map klaar
+## Stap 1: Maak de wallazak klaar
 Ik maak een nieuwe map genaamd "wallabag" in de Docker map.
 {{< gallery match="images/1/*.png" >}}
 
 ## Stap 2: Database installeren
 Daarna moet een database worden gecreëerd. Ik klik op het tabblad "Registratie" in het Synology Docker venster en zoek naar "mariadb". Ik selecteer de Docker image "mariadb" en klik dan op de tag "latest".
 {{< gallery match="images/2/*.png" >}}
-Na het downloaden van de afbeelding, is de afbeelding beschikbaar als een afbeelding. Docker maakt onderscheid tussen 2 staten, container "dynamische staat" en image (vaste staat). Voordat we een container van de image maken, moeten een paar instellingen worden gemaakt. Ik dubbelklik op mijn mariadb image.
+Na het downloaden van de afbeelding, is de afbeelding beschikbaar als een afbeelding. Docker maakt onderscheid tussen 2 toestanden, container "dynamische toestand" en image (vaste toestand). Voordat we een container van de image maken, moeten er een paar instellingen worden gemaakt. Ik dubbelklik op mijn mariadb image.
 {{< gallery match="images/3/*.png" >}}
 Dan klik ik op "Geavanceerde instellingen" en activeer de "Automatische herstart". Ik selecteer de tab "Volume" en klik op "Map toevoegen". Daar maak ik een nieuwe database map aan met dit mount pad "/var/lib/mysql".
 {{< gallery match="images/4/*.png" >}}
@@ -97,3 +97,4 @@ De container kan nu worden gestart. Het kan enige tijd duren om de database aan 
 {{< gallery match="images/14/*.png" >}}
 Ik bel de wallabag server met het Synology IP adres en mijn container poort.
 {{< gallery match="images/15/*.png" >}}
+Ik moet echter zeggen dat ik persoonlijk de voorkeur geef aan shiori als internetarchief.

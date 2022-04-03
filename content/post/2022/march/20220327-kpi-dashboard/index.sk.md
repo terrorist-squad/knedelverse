@@ -92,3 +92,4 @@ docker run -it -p 9292:9292 my-dashboard:latest
 {{</ terminal >}}
 A takto to vyzerá:
 {{< gallery match="images/3/*.png" >}}
+To je základom dobrého informačného systému. Môžete si prispôsobiť všetky farby, skripty a widgety.

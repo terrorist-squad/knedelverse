@@ -1,39 +1,39 @@
 +++
 date = "2021-03-06"
-title = "RaspberryPiZeroW、Javascript、GitLabを使った課題ダッシュボード"
+title = "RaspberryPiZeroWとJavascriptとGitLabで作るイシューダッシュボード"
 difficulty = "level-3"
 tags = ["git", "gitlab", "issueboard", "issues", "javascript", "wallboard"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210306-gitlab-dashboard/index.ja.md"
 +++
-Raspberry Noobsでのインストールは子供の遊びです。必要なのは、RaspberryZeroWと空のSDカードだけです。
+Raspberry Noobsでインストールするのは簡単です。必要なものは、RaspberryZeroWと空のSDカードだけです。
 ## ステップ1：Noobsインストーラー
-https://www.raspberrypi.org/downloads/noobs/ から Noobs のインストーラーをダウンロードします。
-## Step 2: SDカード
-このZIPアーカイブを空のSDカードに解凍します。
+Noobsのインストーラは、https://www.raspberrypi.org/downloads/noobs/ からダウンロードしてください。
+## ステップ2：SDカード
+空のSDカードにこのZIPアーカイブを解凍してください。
 {{< gallery match="images/1/*.png" >}}
-できました。これで、RaspberryPiZeroをテレビに接続することができます。すると、インストールメニューが表示されます。
+完了！これで、RaspberryPiZeroとテレビを接続することができました。その後、インストールメニューが表示されます。
 {{< gallery match="images/2/*.jpg" >}}
-カードにNoobsLiteを搭載している場合は、まずWLAN接続を行う必要があります。そして、「Rasbian Lite」を選択し、「インストール」をクリックします。Rasbian Liteは、デスクトップを持たないサーバー版です。起動後、パッケージ管理を更新する必要があります。
+NoobsLiteがカードに搭載されている場合、まずWLAN接続を確立する必要があります。そして、「Rasbian Lite」を選択し、「インストール」をクリックします。Rasbian Liteは、デスクトップがないサーバー版です。起動後、パッケージ管理の更新が必要です。
 {{< terminal >}}
 sudo apt-get update
 
 {{</ terminal >}}
-その後、以下のパッケージをインストールする必要があります。
+その後、以下のパッケージがインストールされている必要があります。
 {{< terminal >}}
 sudo apt-get install -y nodm matchbox-window-manager uzbl xinit vim
 
 {{</ terminal >}}
-また、ダッシュボードの表示用にユーザーを作成する必要があります。
+また、ダッシュボード表示用のユーザーも作成する必要があります。
 {{< terminal >}}
 sudo adduser dashboard
 
 {{</ terminal >}}
-ダッシュボード "ユーザーとしてログインします。
+Dashboard」ユーザーでログインする。
 {{< terminal >}}
 sudo su dashboard
 
 {{</ terminal >}}
-Create an X-Session -Script.カーソルキーでこの行に変更し、「i」キーで挿入モードに変更することができます。
+X-Sessionを作成する -Script.カーソルキーでこの行に移動し、「i」キーで挿入モードに変更することができますね。
 {{< terminal >}}
 sudo vim ~/.xsession
 
@@ -49,12 +49,12 @@ while true; do
 done
 
 ```
-その後、「Esc」キーを押してコマンドモードを変更し、「:wq」で「書き込み」、「quit」とします。また、このスクリプトには以下の権限が必要です。
+次に「Esc」キーを押してコマンドモードを変更し、「:wq」で「書き込み」、「終了」します。また、このスクリプトには、以下の権利が必要です。
 {{< terminal >}}
 chmod 755 ~/.xsession
 
 {{</ terminal >}}
-このスクリプトでは、ブラウザの設定（/home/dashboard/uzbl.conf）が表示されています。この設定は次のようになります。
+このスクリプトでは、ブラウザの設定(/home/dashboard/uzbl.conf)を見ています。この構成は次のようなものです。
 ```
 set config_home = /home/dashboard 
 set socket_dir=/tmp 
@@ -64,7 +64,7 @@ set on_event = request ON_EVENT
 @on_event LOAD_FINISH script @config_home/gitlab.js
 
 ```
-ハーフタイム!もうすぐ完成ですね。さて、ユーザーの行動をシミュレートできるJavascriptが必要です。Gitlabのユーザーを別途作成することが重要です。このユーザーは、プロジェクトにおいて「レポーター」として管理することができます。
+ハーフタイム！もう少しで完成です。次に、ユーザーの行動をシミュレートするためのJavascriptが必要です。Gitlabのユーザーを別に作成することが重要です。このユーザーは、プロジェクトにおいて「報告者」として管理することができます。
 ```
 var gitlabUrl = 'http://git-lab-url:port';
 var gitlabUser = 'userName';
@@ -143,7 +143,7 @@ timer.append(
 
 
 ```
-これで、ログアウトできます。etc/default/nodm "にあるDisplayManagerの設定を変更してください。ここでは、"NODM_USER "を "dashboard "に、"NODM_ENABLED "を "true "に変更する必要があります。
+これで、ログアウトできます。etc/default/nodm "のDisplayManagerの設定を変更してください。ここでは、「NODM_USER」を「dashboard」に、「NODM_ENABLED」を「true」に変更する必要があります。
 ```
 # nodm configuration
 
@@ -179,5 +179,5 @@ NODM_MIN_SESSION_TIME=60
 NODM_X_TIMEOUT=300
 
 ```
-ここで「sudo reboot」で再起動すると、以下のようなダッシュボードが表示されます。
+ここで、「sudo reboot」で再起動すると、以下のようなダッシュボードが表示されます。
 {{< gallery match="images/3/*.jpg" >}}

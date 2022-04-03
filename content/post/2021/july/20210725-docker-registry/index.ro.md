@@ -55,10 +55,11 @@ docker-compose -f registry.yml up -d
 {{</ terminal >}}
 Ulterior, registrul propriu poate fi utilizat cu IP-ul și portul țintă ale containerului UI.
 {{< gallery match="images/1/*.png" >}}
-Acum pot să construiesc, să împing și să completez imagini din registrul meu:
+Acum pot construi, împinge și popula imagini din registrul meu:
 {{< terminal >}}
 docker build -t 192.168.178.61:5000/mein-image:version .
 docker push 192.168.178.61:5000/mein-image:version
 docker pull 192.168.178.61:5000/mein-image:version
 
 {{</ terminal >}}
+

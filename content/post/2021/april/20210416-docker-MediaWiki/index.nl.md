@@ -46,7 +46,7 @@ Ik maak een nieuwe map aan genaamd "wiki" in de Docker map.
 ## Stap 2: Database installeren
 Daarna moet een database worden gecreëerd. Ik klik op het tabblad "Registratie" in het Synology Docker venster en zoek naar "mariadb". Ik selecteer de Docker image "mariadb" en klik dan op de tag "latest".
 {{< gallery match="images/2/*.png" >}}
-Na het downloaden van de afbeelding, is de afbeelding beschikbaar als een afbeelding. Docker maakt onderscheid tussen 2 toestanden, container "dynamische toestand" en image (vaste toestand). Voordat we een container van de image maken, moeten een paar instellingen worden gemaakt. Ik dubbelklik op mijn mariadb image.
+Na het downloaden van de afbeelding, is de afbeelding beschikbaar als een afbeelding. Docker maakt onderscheid tussen 2 toestanden, container "dynamische toestand" en image (vaste toestand). Voordat we een container van de image maken, moeten er een paar instellingen worden gemaakt. Ik dubbelklik op mijn mariadb image.
 {{< gallery match="images/3/*.png" >}}
 Dan klik ik op "Geavanceerde instellingen" en activeer de "Automatische herstart". Ik selecteer de tab "Volume" en klik op "Map toevoegen". Daar maak ik een nieuwe database map aan met dit mount pad "/var/lib/mysql".
 {{< gallery match="images/4/*.png" >}}
@@ -69,7 +69,7 @@ Ik klik op het tabblad "Registratie" in het Synology Docker-venster en zoek naar
 {{< gallery match="images/7/*.png" >}}
 Ik dubbelklik op mijn Mediawiki plaatje.
 {{< gallery match="images/8/*.png" >}}
-Dan klik ik op "Geavanceerde instellingen" en activeer ook hier de "Automatische herstart". Ik selecteer de tab "Volume" en klik op "Map toevoegen". Daar maak ik een nieuwe map aan met dit mount pad "/var/www/html/images".
+Dan klik ik op "Geavanceerde instellingen" en activeer ook hier de "Automatische herstart". Ik selecteer het tabblad "Volume" en klik op "Map toevoegen". Daar maak ik een nieuwe map aan met dit mount pad "/var/www/html/images".
 {{< gallery match="images/9/*.png" >}}
 Ik wijs vaste poorten toe voor de "MediaWiki" container. Zonder vaste poorten zou het kunnen dat de "MediaWiki server" na een herstart op een andere poort draait.
 {{< gallery match="images/10/*.png" >}}

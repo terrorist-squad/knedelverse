@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "docker-for-desktop", "radio", "mp3", "ripp", "streamripper", "radiorecorder"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2022/march/20220321-docker-mighty-mixxx-tapper/index.bg.md"
 +++
-Streamripper е инструмент за командния ред, който може да се използва за записване на потоци от MP3 или OGG/Vorbis и да се записва директно на твърдия диск. Песните се именуват автоматично според изпълнителя и се записват поотделно, като форматът е този, който е изпратен първоначално (така че всъщност се създават файлове с разширение .mp3 или .ogg). Намерих страхотен интерфейс за радиорекордер и изградих образ на Docker от него, вижте: https://github.com/terrorist-squad/mightyMixxxTapper/
+Streamripper е инструмент за командния ред, който може да се използва за записване на потоци от MP3 или OGG/Vorbis и да се записва директно на твърдия диск. Песните автоматично се именуват по името на изпълнителя и се записват поотделно, като форматът е този, който е изпратен първоначално (така че на практика се създават файлове с разширение .mp3 или .ogg). Намерих страхотен интерфейс за радиорекордер и изградих образ на Docker от него, вижте: https://github.com/terrorist-squad/mightyMixxxTapper/
 {{< gallery match="images/1/*.png" >}}
 
 ## Възможност за професионалисти

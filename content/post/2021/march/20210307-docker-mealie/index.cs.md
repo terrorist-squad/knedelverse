@@ -71,7 +71,7 @@ Představte si následující fikci: "Gruner und Jahr spouští internetový por
 wget --spider --force-html -r -l12  "https://www.essen-und-trinken.de/rezepte/archiv/"  2>&1 | grep '/rezepte/' | grep '^--' | awk '{ print $3 }' > liste.txt
 
 {{</ terminal >}}
-Poté tento seznam vyčistěte a zobrazte jej proti zbytku api, příklad:
+Poté tento seznam vyčistěte a zobrazte jej proti api rest, např.:
 ```
 #!/bin/bash
 sort -u liste.txt > clear.txt
@@ -85,3 +85,4 @@ done < clear.txt
 ```
 Nyní můžete k receptům přistupovat i offline:
 {{< gallery match="images/15/*.png" >}}
+Závěr: Pokud věnujete Mealii trochu času, můžete si vytvořit skvělou databázi receptů! Mealie je neustále vyvíjen jako projekt s otevřeným zdrojovým kódem a najdete ho na následující adrese: https://github.com/hay-kot/mealie/.

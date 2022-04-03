@@ -19,3 +19,4 @@ Herefter er installationen færdig og kan startes op
 "{{< gallery match="images/4/*.jpg" >}}"
 Nu kan du tilslutte denne MediaPc til eksterne kilder som f.eks. en NAS eller installere apps som f.eks. Youtube. Hyg dig!   
 "{{< gallery match="images/5/*.jpg" >}}"
+Som allerede skrevet kan du også bruge fjernbetjeningen til dit tv via CEC-controlleren.

@@ -20,3 +20,4 @@ docker run --name watchtower --restart always -v /var/run/docker.sock:/var/run/d
 {{</ terminal >}}
 Después, la Atalaya siempre se ejecuta en segundo plano.
 {{< gallery match="images/3/*.png" >}}
+

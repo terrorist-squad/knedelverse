@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["Docker", "docker-compose", "download", "linux", "Synology", "video", "youtube"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-docker-youtube-dl/index.es.md"
 +++
-Muchos de mis amigos saben que dirijo un portal privado de vídeos de aprendizaje en mi Homelab - Network. He guardado en mi NAS los cursos en vídeo de anteriores afiliaciones a portales de aprendizaje y buenos tutoriales de Youtube para utilizarlos sin conexión.
+Muchos de mis amigos saben que dirijo un portal privado de vídeos de aprendizaje en mi Homelab - Network. He guardado los cursos en vídeo de anteriores afiliaciones a portales de aprendizaje y buenos tutoriales de Youtube para utilizarlos sin conexión en mi NAS.
 {{< gallery match="images/1/*.png" >}}
 A lo largo del tiempo he recopilado 8845 cursos de vídeo con 282616 vídeos individuales. El tiempo total de funcionamiento equivale a unos 2 años. Absolutamente loco! En este tutorial muestro cómo hacer una copia de seguridad de buenos tutoriales de Youtube con un servicio de descarga de Docker para fines offline.
 ## Opción para profesionales

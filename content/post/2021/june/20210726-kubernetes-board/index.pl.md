@@ -5,9 +5,9 @@ difficulty = "level-4"
 tags = ["kubernetes", "cloud", "homelab", "pods", "nodes", "raspberry-pi", "raspberry"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210726-kubernetes-board/index.pl.md"
 +++
-Po utworzeniu klastra Kubernetes w tutorialu [Wielkie rzeczy z kontenerami: klaster Kubenetes i magazyn NFS]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "Wielkie rzeczy z kontenerami: klaster Kubenetes i magazyn NFS"), chciałbym zainstalować dashboard Kubernetes.
+Po utworzeniu klastra Kubernetes w samouczku [Wspaniałe rzeczy z kontenerami: klaster Kubenetes i pamięć masowa NFS]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "Wspaniałe rzeczy z kontenerami: klaster Kubenetes i pamięć masowa NFS") chciałbym zainstalować pulpit nawigacyjny Kubernetes.
 {{< gallery match="images/1/*.jpg" >}}
-To polecenie zawiera wszystko, czego potrzebuję do mojego projektu:
+To polecenie zawiera wszystko, co jest potrzebne w moim projekcie:
 {{< terminal >}}
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.2.0/aio/deploy/recommended.yaml
 
@@ -19,9 +19,9 @@ kubectl -n kube-system edit service kubernetes-dashboard --namespace=kubernetes-
 {{</ terminal >}}
 Węzeł ".spec.type" musi mieć wartość "NodePort".
 {{< gallery match="images/2/*.png" >}}
-Po tym, deska rozdzielcza jest już dostępna:
+Po wykonaniu tych czynności tablica rozdzielcza jest już dostępna:
 {{< gallery match="images/3/*.png" >}}
-Aby uzyskać token dostępu, należy odszukać klucz kontrolera wdrażania:
+Aby uzyskać token dostępu, należy wyszukać klucz kontrolera obrazu stanowiska:
 {{< terminal >}}
 kubectl -n kube-system get secret | grep deployment-controller-token
 

@@ -19,3 +19,4 @@ L'installation est ensuite terminée et amorçable
 "{{< gallery match="images/4/*.jpg" >}}"
 Vous pouvez maintenant connecter ce MediaPc à une source externe comme un NAS ou installer des applications comme Youtube. Je vous souhaite beaucoup de plaisir !   
 "{{< gallery match="images/5/*.jpg" >}}"
+Comme nous l'avons déjà écrit, vous pouvez également utiliser la télécommande de votre téléviseur via le contrôleur CEC.

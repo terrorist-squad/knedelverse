@@ -112,7 +112,7 @@ Det er muligt at søge efter videoer med denne kommando:
 curl -s "http://pree-tube/api/v1search/videos?search=docker&languageOneOf=de"
 
 {{</ terminal >}}
-Der kræves f.eks. autentificering og et sessionstoken for at uploade en fil:
+Der kræves f.eks. autentificering og et sessionstoken til upload:
 ```
 #!/bin/bash
 USERNAME="user"
@@ -135,3 +135,4 @@ curl -s '$API_PATH/videos/upload'-H 'Authorization: Bearer $token' --max-time 11
 ```
 
 ## Mit tip: Læs "Great things with containers: Making Docker services more secure with LDAP and NGINX".
+Jeg kører min Peertube med en reverse proxy. Det betyder, at kun LDAP-brugere kan få adgang til denne tjeneste. Jeg har dokumenteret denne opsætning under "[Gode ting med containere: sikring af Docker-tjenester med LDAP og NGINX]({{< ref "post/2021/april/20210402-nginx-reverse-proxy" >}} "Gode ting med containere: sikring af Docker-tjenester med LDAP og NGINX")".

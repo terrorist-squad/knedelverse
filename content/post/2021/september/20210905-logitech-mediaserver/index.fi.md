@@ -5,17 +5,17 @@ difficulty = "level-1"
 tags = ["logitech", "synology", "diskstation", "nas", "sound-system", "multiroom"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/september/20210905-logitech-mediaserver/index.fi.md"
 +++
-Tässä opetusohjelmassa opit asentamaan Logitech Media Serverin Synology DiskStationiin.
+Tässä opetusohjelmassa opit asentamaan Logitechin mediapalvelimen Synology DiskStationiin.
 {{< gallery match="images/1/*.jpg" >}}
 
-## Vaihe 1: Valmistele Logitech Media Server -kansio.
+## Vaihe 1: Logitech Media Server -kansioiden valmistelu
 Luon Docker-hakemistoon uuden hakemiston nimeltä "logitechmediaserver".
 {{< gallery match="images/2/*.png" >}}
 
 ## Vaihe 2: Asenna Logitech Mediaserver -kuva
 Napsautan Synology Docker -ikkunan "Rekisteröinti"-välilehteä ja etsin "logitechmediaserver". Valitsen Docker-kuvan "lmscommunity/logitechmediaserver" ja napsautan sitten tagia "latest".
 {{< gallery match="images/3/*.png" >}}
-Kaksoisnapsautan Logitech Media Server -kuvaa. Sitten napsautan "Lisäasetukset" ja aktivoin "Automaattinen uudelleenkäynnistys" myös täällä.
+Kaksoisnapsautan Logitech Media Server -kuvaa. Sitten napsautan "Lisäasetukset" ja aktivoin "Automaattinen uudelleenkäynnistys" myös tässä.
 {{< gallery match="images/4/*.png" >}}
 {{<table "table table-striped table-bordered">}}
 |Ordner |Mountpath|
@@ -32,3 +32,4 @@ Lopuksi annan ympäristömuuttujan. Muuttuja "TZ" on aikavyöhyke "Eurooppa/Berl
 {{< gallery match="images/7/*.png" >}}
 Näiden asetusten jälkeen Logitechmediaserver-palvelin voidaan käynnistää! Sen jälkeen voit soittaa Logitechmediaserveriin Synology-aseman Ip-osoitteen ja osoitetun portin kautta, esimerkiksi http://192.168.21.23:9000 .
 {{< gallery match="images/8/*.png" >}}
+

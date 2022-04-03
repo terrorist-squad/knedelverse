@@ -11,3 +11,4 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 {{< gallery match="images/2/*.*" >}}
 Когда я вхожу в систему в первый раз, меня просят ввести будущий пароль "admin". Это было все! Теперь я могу организовывать проекты. Теперь можно установить бегунок Gitlab.  
 {{< gallery match="images/3/*.*" >}}
+

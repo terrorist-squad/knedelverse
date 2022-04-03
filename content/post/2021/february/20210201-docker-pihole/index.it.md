@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Oggi mostro come installare un servizio Pihole sulla stazione disco Synology e collegarla al Fritzbox.
 ## Passo 1: Preparare Synology
-Innanzitutto, il login SSH deve essere attivato sulla DiskStation. Per farlo, andate nel "Pannello di controllo" > "Terminale
+In primo luogo, il login SSH deve essere attivato sulla DiskStation. Per farlo, andate nel "Pannello di controllo" > "Terminale
 {{< gallery match="images/1/*.png" >}}
 Poi si può accedere tramite "SSH", la porta specificata e la password dell'amministratore (gli utenti Windows usano Putty o WinSCP).
 {{< gallery match="images/2/*.png" >}}
@@ -50,7 +50,7 @@ Il contenitore può ora essere avviato:
 sudo docker-compose up -d
 
 {{</ terminal >}}
-Richiamo il server Pihole con l'indirizzo IP del Synology e la mia porta del container e accedo con la password WEBPASSWORD.
+Chiamo il server Pihole con l'indirizzo IP del Synology e la mia porta del container e accedo con la password WEBPASSWORD.
 {{< gallery match="images/4/*.png" >}}
 Ora l'indirizzo DNS può essere cambiato nel Fritzbox sotto "Home Network" > "Network" > "Network Settings".
 {{< gallery match="images/5/*.png" >}}

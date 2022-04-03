@@ -37,3 +37,4 @@ Most már végre lehet hajtani a playbookokat vagy parancsokat, például újrai
 ansible raspi -m shell -a 'sudo /sbin/reboot'
 
 {{</ terminal >}}
+

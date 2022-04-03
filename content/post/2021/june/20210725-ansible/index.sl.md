@@ -37,3 +37,4 @@ Sedaj lahko izvajate knjige igranja ali ukaze, na primer ponovni zagon vseh stre
 ansible raspi -m shell -a 'sudo /sbin/reboot'
 
 {{</ terminal >}}
+

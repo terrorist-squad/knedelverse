@@ -19,3 +19,4 @@ Poté je instalace dokončena a je možné ji spustit
 "{{< gallery match="images/4/*.jpg" >}}"
 Nyní můžete tento MediaPc připojit k externím zdrojům, jako je NAS, nebo instalovat aplikace, jako je například Youtube. Bavte se!   
 "{{< gallery match="images/5/*.jpg" >}}"
+Jak již bylo napsáno, dálkové ovládání televizoru můžete používat také prostřednictvím ovladače CEC.

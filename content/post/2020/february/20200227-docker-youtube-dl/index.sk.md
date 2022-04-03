@@ -48,7 +48,7 @@ Po týchto nastaveniach je možné Downloader spustiť! Potom môžete sťahova�
 {{< gallery match="images/8/*.png" >}}
 Na overenie použite používateľské meno a heslo z položiek MY_ID a MY_PW.
 ## Krok 4: Ideme
-Teraz môžete do poľa "URL" zadať URL adresy videí a zoznamov skladieb a všetky videá sa automaticky dostanú do priečinka na prevzatie na diskovej stanici Synology.
+Teraz môžete do poľa "URL" zadať URL adresy videí a zoznamov skladieb a všetky videá automaticky skončia v priečinku na prevzatie na diskovej stanici Synology.
 {{< gallery match="images/9/*.png" >}}
 Priečinok na stiahnutie:
 {{< gallery match="images/10/*.png" >}}

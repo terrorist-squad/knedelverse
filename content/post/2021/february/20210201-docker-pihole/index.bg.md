@@ -50,7 +50,7 @@ services:
 sudo docker-compose up -d
 
 {{</ terminal >}}
-Извиквам сървъра Pihole с IP адреса на Synology и порта на контейнера и влизам в него с паролата WEBPASSWORD.
+Обаждам се на сървъра Pihole с IP адреса на Synology и порта на контейнера и влизам в него с паролата WEBPASSWORD.
 {{< gallery match="images/4/*.png" >}}
 Сега DNS адресът може да бъде променен във Fritzbox под "Домашна мрежа" > "Мрежа" > "Настройки на мрежата".
 {{< gallery match="images/5/*.png" >}}

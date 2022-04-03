@@ -85,3 +85,4 @@ done < clear.txt
 ```
 Désormais, vous pouvez également accéder aux recettes hors ligne :
 {{< gallery match="images/15/*.png" >}}
+Conclusion : si l'on consacre un peu de temps à Mealie, on peut construire une super base de données de recettes ! En tant que projet open source, Mealie est constamment développé et peut être consulté à l'adresse suivante : https://github.com/hay-kot/mealie/

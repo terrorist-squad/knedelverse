@@ -77,7 +77,7 @@ L'utilisateur final peut également choisir le service et le prestataire de serv
 {{< gallery match="images/4/*.png" >}}
 
 ## Horaires de travail et pauses
-Les heures de service générales peuvent être réglées sous "Settings" > "Business Logic". Mais on peut aussi modifier les heures de service des prestataires de services/utilisateurs dans le "Working plan" de l'utilisateur.
+Les heures de service générales peuvent être réglées sous "Settings" > "Business Logic". Mais il est également possible de modifier les heures de service des prestataires de services/utilisateurs dans le "Working plan" de l'utilisateur.
 {{< gallery match="images/5/*.png" >}}
 
 ## Aperçu des réservations et agenda

@@ -5,7 +5,7 @@ difficulty = "level-3"
 tags = ["bash", "linux", "robot", "roboter", "linux", "Robotic-Process-Automation", "rpa", "xclip", "xdotool"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-xDoTools-xclip/index.bg.md"
 +++
-В този урок ще покажа как да управлявате Linux - десктоп чрез Bash. Следните пакети са необходими за робота Bash:
+В този урок показвам как да управлявате Linux - десктоп чрез Bash. Следните пакети са необходими за робота Bash:
 {{< terminal >}}
 apt-get install xdotool xclip
 
@@ -41,3 +41,4 @@ xdotool key "Return"                         ## Internetadresse aufrufen
 ```
 
 ## Защо се нуждаете от xclip???
+С xdotools/"ctrl c" можете да копирате съдържанието в кеша и да го прочетете или обработите с xclip в bash скрипта.

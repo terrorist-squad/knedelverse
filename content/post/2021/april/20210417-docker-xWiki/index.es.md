@@ -49,7 +49,7 @@ Después de la descarga de la imagen, ésta está disponible como imagen. Docker
 {{< gallery match="images/3/*.png" >}}
 Luego hago clic en "Configuración avanzada" y activo el "Reinicio automático". Selecciono la pestaña "Volumen" y hago clic en "Añadir carpeta". Allí creo una nueva carpeta de base de datos con esta ruta de montaje "/var/lib/postgresql/data".
 {{< gallery match="images/4/*.png" >}}
-En "Configuración de puertos" se eliminan todos los puertos. Esto significa que selecciono el puerto "5432" y lo borro con el botón "-".
+En "Configuración de puertos" se borran todos los puertos. Esto significa que selecciono el puerto "5432" y lo borro con el botón "-".
 {{< gallery match="images/5/*.png" >}}
 {{<table "table table-striped table-bordered">}}
 |Nombre de la variable|Valor|¿Qué es?|

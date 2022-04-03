@@ -5,17 +5,17 @@ difficulty = "level-2"
 tags = ["code", "development", "devops", "docker-compose", "git", "gitlab", "Synology"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-atlassian-Bamboo-jmeter/index.pl.md"
 +++
-Dzisiaj tworzę test jMeter w Bamboo. Oczywiście, można również zaimplementować tę konfigurację testową za pomocą Gitlab runners lub Jenkins slaves.
+Dzisiaj tworzę test jMeter w programie Bamboo. Oczywiście można również zastosować tę konfigurację testów za pomocą programów uruchamiających Gitlab lub podrzędnych Jenkinsa.
 ## Krok 1: Utwórz test jMeter
-Najpierw, oczywiście, musisz stworzyć test jMeter. Pobrałem jMeter z następującego adresu url https://jmeter.apache.org/ i uruchomiłem go za pomocą tej komendy:
+Najpierw należy oczywiście utworzyć test jMeter. Pobrałem program jMeter z następującego adresu url https://jmeter.apache.org/ i uruchomiłem go za pomocą tego polecenia:
 {{< terminal >}}
 java -jar bin/ApacheJMeter.jar
 
 {{</ terminal >}}
-Zobacz:Mój test demo do tego tutoriala ma zawierać wadliwe i działające samplery. Celowo ustawiłem bardzo niskie limity czasu.
+Zobacz:Mój test demonstracyjny na potrzeby tego poradnika ma zawierać wadliwe i działające samplery. Celowo ustawiłem bardzo niskie limity czasu.
 {{< gallery match="images/2/*.png" >}}
-Zapisuję za pomocą pliku JMX dla mojego zadania Bamboo.
-## Krok 2: Przygotuj środek do bambusa
+Zapisuję plik JMX dla mojego zadania w programie Bamboo.
+## Krok 2: Przygotowanie środka do bambusa
 Ponieważ Java jest warunkiem wstępnym dla agentów Bamboo, dopiero potem instaluję Pythona.
 {{< terminal >}}
 apt-get update
@@ -42,7 +42,7 @@ else
 fi
 
 ```
-Katalog narzędzi jest na stałe przypisany do maszyny i nie jest częścią repozytorium projektu. Dodatkowo używam tego skryptu Pythona:
+Katalog narzędzi jest na stałe zapisany na komputerze i nie jest częścią repozytorium projektu. Dodatkowo używam tego skryptu Pythona:
 ```
 #!/usr/bin/python
 import re
@@ -60,9 +60,9 @@ print "nothing found - exit 0"
 sys.exit(0)
 
 ```
-Tworzę również wzorzec artefaktów dla dzienników wynikowych.
+Tworzę również schemat artefaktów dla dzienników wynikowych.
 {{< gallery match="images/4/*.png" >}}
 
 ## Gotowe!
-Teraz mogę wykonywać swoją pracę. Po zmianie timeoutów, test jest również "zielony".
+Teraz mogę wykonywać swoją pracę. Po zmianie limitów czasu test jest również "zielony".
 {{< gallery match="images/5/*.png" >}}

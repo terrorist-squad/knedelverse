@@ -9,3 +9,4 @@ Tässä lyhyessä opetusohjelmassa näytän, miten ESXi-koneita ohjataan etänä
 {{< gallery match="images/1/*.png" >}}
 Nyt VMware Fusion on yhdistetty ESXi-palvelimeen asiakkaana.
 {{< gallery match="images/2/*.png" >}}
+

@@ -50,3 +50,4 @@ services:
 {{< gallery match="images/5/*.png" >}}
 Контейнерът вече може да бъде стартиран. Извиквам сървъра dokuWIki с IP адреса на Synology и порта на контейнера.
 {{< gallery match="images/6/*.png" >}}
+

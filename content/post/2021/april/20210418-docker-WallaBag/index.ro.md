@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "archiv", "wallabag"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-WallaBag/index.ro.md"
 +++
-Wallabag este un program de arhivare a site-urilor sau articolelor interesante. Astăzi vă arăt cum să instalați un serviciu Wallabag pe stația de discuri Synology.
+Wallabag este un program de arhivare a site-urilor sau articolelor interesante. Astăzi vă voi arăta cum să instalați un serviciu Wallabag pe stația de discuri Synology.
 ## Opțiune pentru profesioniști
 În calitate de utilizator experimentat Synology, vă puteți, desigur, conecta cu SSH și instala întreaga configurație prin intermediul fișierului Docker Compose.
 ```
@@ -97,3 +97,4 @@ Containerul poate fi pornit acum. Crearea bazei de date poate dura ceva timp. Co
 {{< gallery match="images/14/*.png" >}}
 Sun la serverul wallabag cu adresa IP a Synology și portul containerului meu.
 {{< gallery match="images/15/*.png" >}}
+Trebuie să spun, totuși, că eu personal prefer shiori ca arhivă pe internet.

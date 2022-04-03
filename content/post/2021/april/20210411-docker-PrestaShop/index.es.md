@@ -1,6 +1,6 @@
 +++
 date = "2021-04-11"
-title = "Creatividad para salir de la crisis: tienda web profesional con PrestaShop"
+title = "Salir de la crisis de forma creativa: tienda web profesional con PrestaShop"
 difficulty = "level-4"
 tags = ["corona", "Docker", "docker-compose", "kreativ", "krise", "online-shop", "presta", "shop", "shopsystem"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210411-docker-PrestaShop/index.es.md"
@@ -61,7 +61,7 @@ docker-compose -f prestashop.yml up
 {{</ terminal >}}
 Es mejor conseguir un café fresco, porque el proceso lleva mucho tiempo. La interfaz sólo puede utilizarse cuando aparece el siguiente texto.
 {{< gallery match="images/1/*.png" >}}
-A continuación, puedo llamar a mi servidor de PrestaShop y continuar la instalación a través de la interfaz.
+Entonces puedo llamar a mi servidor de PrestaShop y continuar la instalación a través de la interfaz.
 {{< gallery match="images/2/*.png" >}}
 Termino Docker-Compose con "Ctrl C" y llamo a la subcarpeta "prestadata" ("cd prestadata"). Allí hay que borrar la carpeta "install" con "rm -r install".
 {{< gallery match="images/3/*.png" >}}

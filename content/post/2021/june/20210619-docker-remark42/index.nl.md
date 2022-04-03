@@ -68,3 +68,4 @@ Na de configuratie is de dienst klaar voor gebruik en kan hij in de website word
 ```
 En dit is hoe Remark42 eruit ziet:
 {{< gallery match="images/1/*.png" >}}
+

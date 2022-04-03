@@ -67,7 +67,7 @@ sudo docker exec -it calibre-web-server cp /app/calibre-web/app.db /briefkaste/a
 {{</ terminal >}}
 Tämän jälkeen Calibre-hakemistossa on uusi "app.db"-tiedosto:
 {{< gallery match="images/9/*.png" >}}
-Sitten pysäytän Calibre-palvelimen:
+Tämän jälkeen pysäytän Calibre-palvelimen:
 {{< terminal >}}
 sudo docker-compose -f calibre.yml down
 

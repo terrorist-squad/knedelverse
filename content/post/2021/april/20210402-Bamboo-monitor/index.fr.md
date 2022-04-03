@@ -1,11 +1,11 @@
 +++
-date = "2021-04-04"
+date = "2021-04-0q"
 title = "Des trucs cools avec Atlassian : Pimp my Bamboo-Monitor"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-Bamboo-monitor/index.fr.md"
 +++
-Comment créer un moniteur de build pour Bamboo, Jenkins ou Gitlab ? Je le trouverai d'ici ce soir ! J'ai déjà écrit un [Tutoriel sur les tableaux d'affichage Gitlab]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Tutoriel sur les tableaux d'affichage Gitlab") similaire.
+Comment créer un moniteur de build pour Bamboo, Jenkins ou Gitlab ? D'ici ce soir, je trouverai la solution ! J'ai déjà écrit un [Tutoriel sur les tableaux d'affichage Gitlab]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Tutoriel sur les tableaux d'affichage Gitlab") similaire.
 {{< gallery match="images/1/*.jpg" >}}
 La base de ce tutoriel est le Raspberry-Imager et le système d'exploitation "Raspberry Pi OS Lite". Après l'installation du système d'exploitation, la carte SD peut être insérée dans le Raspberry. Dans mon cas, il s'agit d'un Raspberry Pi Zero.
 {{< gallery match="images/2/*.*" >}}
@@ -17,7 +17,7 @@ sudo apt-get install xorg nodm matchbox-window-manager uzbl xinit unclutter vim
 
 {{</ terminal >}}
 
-## Étape 2 : Je crée un utilisateur de tableau de bord
+## Étape 2 : Je crée un utilisateur du tableau de bord
 Avec la commande suivante, je crée un nouvel utilisateur nommé "dashboard" :
 {{< terminal >}}
 sudo adduser dashboard
@@ -227,3 +227,4 @@ sudo reboot
 {{</ terminal >}}
 
 ## Prêt
+Chaque dasboard doit être redémarré une fois par jour. J'ai créé un cron pour cela.

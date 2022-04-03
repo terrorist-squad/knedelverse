@@ -41,3 +41,4 @@ xdotool key "Return"                         ## Internetadresse aufrufen
 ```
 
 ## Miksi tarvitset xclip????
+Käyttämällä xdotools/"ctrl c" voit kopioida sisältöä välimuistiin ja lukea tai käsitellä niitä xclipillä bash-skriptissä.

@@ -21,7 +21,7 @@ Ahora se puede iniciar el contenedor
 {{< gallery match="images/5/*.png" >}}
 
 ## Paso 4: Instalar Udemy Downloader
-Hago clic en "Contenedor" en la ventana de Synology Docker y hago doble clic en mi "contenedor Udemy". A continuación, hago clic en la pestaña "Terminal" e introduzco los siguientes comandos.
+Hago clic en "Contenedor" en la ventana de Synology Docker y hago doble clic en mi "contenedor Udemy". Luego hago clic en la pestaña "Terminal" e introduzco los siguientes comandos.
 {{< gallery match="images/6/*.png" >}}
 
 ##  Comandos:
@@ -55,3 +55,4 @@ python3 udemy-dl-master/udemy-dl.py -k /download/cookie.txt https://www.udemy.co
 {{</ terminal >}}
 Ver:
 {{< gallery match="images/9/*.png" >}}
+

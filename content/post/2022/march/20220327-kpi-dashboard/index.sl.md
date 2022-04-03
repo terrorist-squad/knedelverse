@@ -5,7 +5,7 @@ difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "docker-for-desktop", "dashboard", "kpi", "kpi-dashboard", "kennzahlen", "wallboard"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2022/march/20220327-kpi-dashboard/index.sl.md"
 +++
-Zlasti v dobi Corona z decentraliziranim delom so na vseh lokacijah zelo potrebne najnovejše informacije. Sam sem vzpostavil že nešteto informacijskih sistemov in rad bi vam predstavil odlično programsko opremo, imenovano Smashing. govornik: https://smashing.github.io/Das Projekt Smashing je pod imenom Dashing prvotno razvilo podjetje Shopify za predstavitev poslovnih podatkov. Seveda pa ne morete prikazati le poslovnih podatkov. Razvijalci z vsega sveta so za Gitlab, Jenkins, Bamboo, Jira itd. razvili ploščice Smashing, tako imenovane gradnike, glej:https://github.com/Smashing/smashing/wiki/Additional-WidgetsDoch kako z njimi delate?
+Zlasti v dobi Corona z decentraliziranim delom so na vseh lokacijah zelo potrebne najnovejše informacije. Sam sem vzpostavil že nešteto informacijskih sistemov in rad bi vam predstavil odlično programsko opremo, imenovano Smashing. govornik: https://smashing.github.io/Das Projekt Smashing je pod imenom Dashing prvotno razvilo podjetje Shopify za predstavitev poslovnih podatkov. Seveda pa ne morete prikazati le poslovnih podatkov. Razvijalci z vsega sveta so razvili ploščice Smashing, tako imenovane gradnike, za Gitlab, Jenkins, Bamboo, Jira itd., glej:https://github.com/Smashing/smashing/wiki/Additional-WidgetsDoch kako delate z njimi?
 ## Korak 1: Ustvarite osnovno sliko
 Najprej ustvarim preprosto sliko Docker, ki že vključuje Ruby in Dashing.
 {{< terminal >}}
@@ -92,3 +92,4 @@ docker run -it -p 9292:9292 my-dashboard:latest
 {{</ terminal >}}
 Tako je videti:
 {{< gallery match="images/3/*.png" >}}
+To je osnova za dober informacijski sistem. Prilagodite lahko vse barve, skripte in pripomočke.

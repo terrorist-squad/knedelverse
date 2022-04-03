@@ -22,7 +22,7 @@ chmod 755 say-hallo.sh
 {{</ terminal >}}
 
 ## 第3步：将Bash脚本包含在甲板中
-3.1) 现在可以打开Stream Deck应用程序了。
+3.1) 现在可以打开Stream Deck应用程序。
 {{< gallery match="images/1/*.png" >}}
 3.2) 然后我把 "打开系统 "的动作拖到一个按钮上。
 {{< gallery match="images/2/*.png" >}}
@@ -30,3 +30,4 @@ chmod 755 say-hallo.sh
 {{< gallery match="images/3/*.png" >}}
 
 ## 第四步：完成!
+新的按钮现在可以使用了。

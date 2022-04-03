@@ -32,11 +32,11 @@ Ensin luon kansion paperin yhdistämistä varten. Menen "System Control" -> "Sha
 {{< gallery match="images/1/*.png" >}}
 Vaihe 2: Etsi Docker-kuvaKlikkaan Synology Docker -ikkunan "Registration"-välilehteä ja etsin "Papermerge". Valitsen Docker-kuvan "linuxserver/papermerge" ja napsautan sitten tagia "latest".
 {{< gallery match="images/2/*.png" >}}
-Kuvan lataamisen jälkeen kuva on käytettävissä kuvana. Dockerissa erotetaan kaksi tilaa, kontti "dynaaminen tila" ja kuva/image (kiinteä tila). Ennen kuin voimme luoda säiliön kuvasta, on tehtävä muutamia asetuksia.
+Kuvan lataamisen jälkeen kuva on käytettävissä kuvana. Dockerissa erotetaan kaksi tilaa, kontti "dynaaminen tila" ja kuva/image (kiinteä tila). Ennen kuin voimme luoda kontin kuvasta, on tehtävä muutamia asetuksia.
 ## Vaihe 3: Ota kuva käyttöön:
 Kaksoisnapsautan paperin yhdistämiskuvaa.
 {{< gallery match="images/3/*.png" >}}
-Sitten klikkaan "Lisäasetukset" ja aktivoin "Automaattinen uudelleenkäynnistys". Valitsen välilehden "Volume" ja napsautan "Add folder". Siellä luon uuden tietokantakansion, jossa on tämä liitäntäpolku "/data".
+Sitten klikkaan "Lisäasetukset" ja aktivoin "Automaattinen uudelleenkäynnistys". Valitsen välilehden "Volume" ja napsautan "Add folder". Siellä luon uuden tietokantakansion, jonka kiinnityspolku on "/data".
 {{< gallery match="images/4/*.png" >}}
 Tallennan tänne myös toisen kansion, jonka liitän liitäntäpolkuun "/config". Sillä ei ole väliä, missä tämä kansio on. On kuitenkin tärkeää, että se kuuluu Synologyn admin-käyttäjälle.
 {{< gallery match="images/5/*.png" >}}

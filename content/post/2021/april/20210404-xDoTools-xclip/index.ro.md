@@ -41,3 +41,4 @@ xdotool key "Return"                         ## Internetadresse aufrufen
 ```
 
 ## De ce ai nevoie de xclip?????
+Cu xdotools/"ctrl c" puteți copia conținutul în memoria cache și îl puteți citi sau procesa cu xclip în scriptul bash.

@@ -6,12 +6,12 @@ tags = ["git", "gitlab", "issueboard", "issues", "javascript", "wallboard"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210306-gitlab-dashboard/index.en.md"
 +++
 The installation with Raspberry-Noobs is very easy! All you need is a RaspberryZeroW and a blank SD card.
-## Step 1: Noobs Installer
+## Step 1: Noobs installer
 Download the Noobs installer from https://www.raspberrypi.org/downloads/noobs/.
 ## Step 2: SD card
 Unzip this zip archive to the empty SD card.
 {{< gallery match="images/1/*.png" >}}
-Done! Now you can connect the RaspberryPiZero to the TV. You will then see the installation menu.
+Done! Now you can connect the RaspberryPiZero to the TV. After that you will see the installation menu.
 {{< gallery match="images/2/*.jpg" >}}
 If you have NoobsLite on the card, then you must first establish a WLAN - connection. Then please select "Rasbian Lite" and click on "Install". Rasbian Lite is the server - variant without desktop. After booting, the package management must be updated.
 {{< terminal >}}
@@ -23,7 +23,7 @@ After that, the following packages need to be installed:
 sudo apt-get install -y nodm matchbox-window-manager uzbl xinit vim
 
 {{</ terminal >}}
-You also need to create a user for the dashboard display.
+Also, a user must be created for the dashboard display.
 {{< terminal >}}
 sudo adduser dashboard
 
@@ -49,12 +49,12 @@ while true; do
 done
 
 ```
-After that, press the "Esc" key to switch command mode and then ":wq" for "write" and "quit". Also, this script needs the following permissions:
+After that, press the "Esc" key to change the command mode and then ":wq" for "write" and "quit". Also, this script needs the following permissions:
 {{< terminal >}}
 chmod 755 ~/.xsession
 
 {{</ terminal >}}
-In this script, you will see a browser configuration (/home/dashboard/uzbl.conf). This configuration looks like this:
+In this script, you will see a browser configuration (/home/dashboard/uzbl.conf). This configuration looks like the following:
 ```
 set config_home = /home/dashboard 
 set socket_dir=/tmp 
@@ -64,7 +64,7 @@ set on_event = request ON_EVENT
 @on_event LOAD_FINISH script @config_home/gitlab.js
 
 ```
-Half-time! You are almost done. Now you need a javascript with which you can simulate a user behavior. It is important that you create a separate Gitlab user. This user can be managed as a "reporter" in projects.
+Half time! You are almost done. Now you need a javascript with which you can simulate a user behavior. It is important that you create a separate Gitlab user. This user can be managed as a "reporter" in projects.
 ```
 var gitlabUrl = 'http://git-lab-url:port';
 var gitlabUser = 'userName';
@@ -179,5 +179,5 @@ NODM_MIN_SESSION_TIME=60
 NODM_X_TIMEOUT=300
 
 ```
-If you now reboot with "sudo reboot", you will see the following dashboard:
+If you reboot now with "sudo reboot", you will see the following dashboard:
 {{< gallery match="images/3/*.jpg" >}}

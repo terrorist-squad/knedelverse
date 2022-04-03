@@ -144,7 +144,7 @@ networks:
 
 
 ## Ukrep 2: Varnostne kopije podatkovnih zbirk in slik
-Seveda imajo v moji strategiji za obnovitev po nesreči veliko vlogo vsakodnevne decentralizirane varnostne kopije podatkovnih zbirk. Vendar sem naredil tudi varnostno kopijo namestitvenih slik. Sliko Docker lahko arhivirate z naslednjim ukazom:
+Seveda imajo v moji strategiji za obnovitev po nesreči veliko vlogo dnevne decentralizirane varnostne kopije podatkovnih zbirk. Vendar sem naredil tudi varnostno kopijo namestitvenih slik. Sliko Docker lahko arhivirate z naslednjim ukazom:
 {{< terminal >}}
 docker save -o bamboo-7.2.3-image.tar atlassian/bamboo-server
 
@@ -156,5 +156,6 @@ ocker load -i bamboo-7.2.3-image.tar
 {{</ terminal >}}
 Shranil sem tudi slike Postgresa.
 ## Ukrep 3: Ustvarite namestitveni ključek USB
-Dokumentacijo, vse namestitvene arhive, podatkovne imenike Postgresa in konfiguracije sem varnostno kopiral na ključ USB. Kot sem rekel, je varnostna kopija DB pravzaprav najpomembnejša, saj je aktivirana licenca tudi v podatkovni zbirki.
+Dokumentacijo, vse namestitvene arhive, podatkovne imenike Postgresa in konfiguracije sem varnostno kopiral na ključ USB. Kot sem rekel, je varnostna kopija DB pravzaprav najpomembnejša, saj je aktivirana licenca tudi v zbirki podatkov.
 {{< gallery match="images/1/*.png" >}}
+

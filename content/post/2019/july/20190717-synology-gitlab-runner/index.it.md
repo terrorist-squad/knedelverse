@@ -28,13 +28,13 @@ Questo file è semplicemente memorizzato sul Synology NAS.
 {{< gallery match="images/2/*.png" >}}
 
 ## Passo 3: impostare GitLab Runner
-Clicco sull'immagine del mio corridore:
+Clicco sulla mia immagine Runner:
 {{< gallery match="images/3/*.png" >}}
 Attivo l'impostazione "Abilita il riavvio automatico":
 {{< gallery match="images/4/*.png" >}}
 Poi clicco su "Impostazioni avanzate" e seleziono la scheda "Volume":
 {{< gallery match="images/5/*.png" >}}
-Clicco su Add file e includo il mio file hosts attraverso il percorso "/etc/hosts". Questo passo è necessario solo se gli hostname non possono essere risolti.
+Clicco su Add File e includo il mio file hosts attraverso il percorso "/etc/hosts". Questo passo è necessario solo se gli hostname non possono essere risolti.
 {{< gallery match="images/6/*.png" >}}
 Accetto le impostazioni e clicco su next.
 {{< gallery match="images/7/*.png" >}}

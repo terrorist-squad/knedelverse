@@ -85,10 +85,11 @@ Megismétlem a build parancsot:
 docker build -t my-dashboard:latest .
 
 {{</ terminal >}}
-Most tudom először elindítani az új műszerfalamat, és a http://localhost:9292 címen hozzáférhetek hozzá.
+Most tudom először elindítani az új műszerfalat, és a http://localhost:9292 címen hozzáférhetek hozzá.
 {{< terminal >}}
 docker run -it -p 9292:9292 my-dashboard:latest
 
 {{</ terminal >}}
 És így néz ki:
 {{< gallery match="images/3/*.png" >}}
+Ez az alapja egy jó információs rendszernek. Testreszabhatja az összes színt, szkriptet és widgetet.

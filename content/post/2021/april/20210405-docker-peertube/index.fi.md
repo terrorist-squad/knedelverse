@@ -135,3 +135,4 @@ curl -s '$API_PATH/videos/upload'-H 'Authorization: Bearer $token' --max-time 11
 ```
 
 ## Vinkkini: Lue "Suuria asioita konteilla: Docker-palveluiden turvaaminen LDAP:n ja NGINX:n avulla".
+Käytän Peertubea käänteisen välityspalvelimen kanssa. Tämä tarkoittaa, että vain LDAP-käyttäjät voivat käyttää tätä palvelua. Olen dokumentoinut tämän asennuksen kohdassa "[Hienoja asioita konttien kanssa: Docker-palveluiden turvaaminen LDAP:n ja NGINX:n avulla]({{< ref "post/2021/april/20210402-nginx-reverse-proxy" >}} "Hienoja asioita konttien kanssa: Docker-palveluiden turvaaminen LDAP:n ja NGINX:n avulla")".

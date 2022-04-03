@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Wayback Machine er et arkiv over gamle websteder. Du skal blot indtaste domænet der og få en tidslinje over alle statiske snapshots.
 {{< gallery match="images/1/*.png" >}}
-For nylig er der også blevet tilføjet et stort kulturelt skatkammer af gamle ISO-/CD-billeder. Under følgende link kan du finde gamle spil, blade, styresystemer og også gamle postordrekataloger: https://archive.org/details/softwareSo for eksempel Otto katalog CD'en fra 2000: https://archive.org/details/ottofruehjahrsommer2000
+For nylig er der også blevet tilføjet et stort kulturelt skatkammer af gamle ISOs/CD-billeder. Under følgende link kan du finde gamle spil, blade, operativsystemer og også gamle postordrekataloger: https://archive.org/details/softwareSo for eksempel Otto katalog-CD'en fra 2000: https://archive.org/details/ottofruehjahrsommer2000
 {{< gallery match="images/2/*.png" >}}
 Lego-kataloget fra 1992 er også et rigtigt højdepunkt: https://archive.org/details/netherlands-Katalog_Lego-1992/page/n43/mode/2up
 {{< gallery match="images/3/*.png" >}}

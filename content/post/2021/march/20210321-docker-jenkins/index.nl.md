@@ -64,5 +64,5 @@ Ik heb de "Aanbevolen installatie" geselecteerd.
 ## Stap 5: Mijn eerste baan
 Ik log in en maak mijn Docker job aan.
 {{< gallery match="images/8/*.png" >}}
-Zoals u kunt zien, werkt alles geweldig!
+Zoals je kunt zien, werkt alles geweldig!
 {{< gallery match="images/9/*.png" >}}

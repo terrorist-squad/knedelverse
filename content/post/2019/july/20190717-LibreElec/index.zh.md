@@ -19,3 +19,4 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 "{{< gallery match="images/4/*.jpg" >}}"
 现在你可以将这个MediaPc连接到外部资源，如NAS或安装Youtube等应用程序。玩得开心!   
 "{{< gallery match="images/5/*.jpg" >}}"
+正如已经写过的，你也可以通过CEC控制器使用你的电视遥控器。

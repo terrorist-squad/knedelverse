@@ -21,3 +21,4 @@ Most már használható a memória.
 {{< gallery match="images/4/*.png" >}}
 A teszteléshez telepítettem egy DOS telepítést és egy régi könyvelési szoftvert ezen a csatlakozási ponton keresztül.
 {{< gallery match="images/5/*.png" >}}
+

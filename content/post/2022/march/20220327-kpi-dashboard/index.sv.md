@@ -5,7 +5,7 @@ difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "docker-for-desktop", "dashboard", "kpi", "kpi-dashboard", "kennzahlen", "wallboard"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2022/march/20220327-kpi-dashboard/index.sv.md"
 +++
-Särskilt i Corona-eran, med decentraliserat arbete, är det viktigt att ha aktuell information på alla platser. Jag har själv redan inrättat otaliga informationssystem och skulle vilja presentera en fantastisk programvara som heter Smashing.Speaker: https://smashing.github.io/Das Smashing-projektet utvecklades ursprungligen under namnet Dashing av företaget Shopify för att presentera affärssiffror. Men du kan naturligtvis inte bara visa affärssiffror. Utvecklare från hela världen har utvecklat så kallade widgets för Gitlab, Jenkins, Bamboo, Jira, etc., se:https://github.com/Smashing/smashing/wiki/Additional-WidgetsDoch Hur arbetar du med det?
+Särskilt i Corona-eran, med decentraliserat arbete, är det viktigt att ha aktuell information på alla platser. Jag har själv redan inrättat otaliga informationssystem och skulle vilja presentera en fantastisk programvara som heter Smashing.Speaker: https://smashing.github.io/Das Smashing-projektet utvecklades ursprungligen under namnet Dashing av företaget Shopify för att presentera affärssiffror. Men du kan naturligtvis inte bara visa affärssiffror. Utvecklare från hela världen har utvecklat så kallade widgets för Gitlab, Jenkins, Bamboo, Jira etc., se:https://github.com/Smashing/smashing/wiki/Additional-WidgetsDoch Hur arbetar du med det?
 ## Steg 1: Skapa en basbild
 Först skapar jag en enkel Docker-avbildning som redan innehåller Ruby och Dashing.
 {{< terminal >}}
@@ -92,3 +92,4 @@ docker run -it -p 9292:9292 my-dashboard:latest
 {{</ terminal >}}
 Och så här ser det ut:
 {{< gallery match="images/3/*.png" >}}
+Detta är grunden för ett bra informationssystem. Du kan anpassa alla färger, skript och widgets.

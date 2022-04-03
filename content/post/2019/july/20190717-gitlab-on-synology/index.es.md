@@ -11,3 +11,4 @@ El servicio escucha el puerto "30000" para mí. Cuando todo ha funcionado, llamo
 {{< gallery match="images/2/*.*" >}}
 Cuando me conecto por primera vez, se me pide la futura contraseña "admin". ¡Eso fue todo! Ahora puedo organizar proyectos. Ahora se puede instalar un corredor de Gitlab.  
 {{< gallery match="images/3/*.*" >}}
+

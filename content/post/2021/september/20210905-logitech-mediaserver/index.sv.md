@@ -32,3 +32,4 @@ Slutligen anger jag en miljövariabel. Variabeln "TZ" är tidszonen "Europe/Berl
 {{< gallery match="images/7/*.png" >}}
 Efter dessa inställningar kan Logitechmediaserver-Server startas! Därefter kan du ringa Logitechmediaserver via Ip-adressen till Synology-disctationen och den tilldelade porten, till exempel http://192.168.21.23:9000 .
 {{< gallery match="images/8/*.png" >}}
+

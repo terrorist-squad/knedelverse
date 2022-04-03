@@ -5,7 +5,7 @@ difficulty = "level-3"
 tags = ["calibre", "calibre-web", "Docker", "docker-compose", "Synology", "linux"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200221-docker-Calibre-pro/index.zh.md"
 +++
-这个博客上已经有一个比较简单的教程：X0。本教程适用于所有Synology DS的专业人士。
+这个博客上已经有一个比较简单的教程：X0。本教程适用于所有Synology DS专业人员。
 ## 第1步：准备好Synology
 首先，必须在 DiskStation 上激活 SSH 登录。要做到这一点，请进入 "控制面板">"终端"。
 {{< gallery match="images/1/*.png" >}}
@@ -42,7 +42,7 @@ services:
     restart: unless-stopped
 
 ```
-在这个新文件中，有几个地方必须调整如下：* PUID/PGID：DS用户的用户和组ID必须在PUID/PGID中输入。这里我使用 "步骤1 "中的控制台和 "id -u "命令来查看用户ID。用 "id -g "命令，我得到了组的ID。* ports: 对于端口，前面的部分 "8055: "必须被调整。directories这个文件中的所有目录必须被纠正。正确的地址可以在DS的属性窗口中看到。(屏幕截图如下)
+在这个新文件中，有几个地方必须调整如下：* PUID/PGID：必须在PUID/PGID中输入DS用户的用户和组ID。这里我使用 "步骤1 "中的控制台和 "id -u "命令来查看用户ID。用 "id -g "命令，我得到了组的ID。* ports: 对于端口，前面的部分 "8055: "必须被调整。directories这个文件中的所有目录必须被纠正。正确的地址可以在DS的属性窗口中看到。(屏幕截图如下)
 {{< gallery match="images/6/*.png" >}}
 
 ## 第5步：测试开始
@@ -56,7 +56,7 @@ sudo docker-compose -f calibre.yml up -d
 {{< gallery match="images/7/*.png" >}}
 
 ## 第6步：设置
-然后我就可以用磁盘站的IP和 "步骤4 "中分配的端口调用我的Calibre服务器。我在设置中使用我的"/books "挂载点。之后，服务器就已经可以使用了。
+然后我就可以用磁盘站的IP和 "步骤4 "中分配的端口调用我的Calibre服务器。在设置中，我使用我的"/books "挂载点。之后，服务器就已经可以使用了。
 {{< gallery match="images/8/*.png" >}}
 
 ## 第7步：最终确定设置

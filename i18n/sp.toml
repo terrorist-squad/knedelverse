@@ -1,0 +1,23 @@
+[level-1]
+  other = "Factible para todos"
+
+[level-2]
+  other = "Ni muy fácil ni muy difícil"
+
+[level-3]
+  other = "Puede tardar un poco más"
+
+[level-4]
+  other = "Muy deportivo"
+
+[level-5]
+  other = "Realmente exigente"
+
+[Difficulty]
+  other = "Nivel de dificultad"
+
+[Recommendations]
+  other = "Recomendaciones"
+
+[Comments]
+  other = "Comentarios"

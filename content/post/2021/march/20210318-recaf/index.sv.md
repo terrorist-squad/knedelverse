@@ -12,3 +12,4 @@ Verktyget finns på följande adress: https://github.com/Col-E/Recaf/releases. D
 java -jar recaf-2.18.2-J8-jar-with-dependencies.jar
 
 {{</ terminal >}}
+

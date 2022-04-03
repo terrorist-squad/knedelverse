@@ -15,7 +15,7 @@ Clico na guia "Registration" na janela do Synology Docker e procuro por "bitward
 {{< gallery match="images/2/*.png" >}}
 Faço duplo clique na minha imagem de bitwardenrs. Depois clique em "Configurações avançadas" e ative o "Reinício automático" aqui também.
 {{< gallery match="images/3/*.png" >}}
-Eu seleciono o separador "Volume" e clico em "Adicionar pasta". Lá eu crio uma nova pasta com este caminho de montagem "/dados".
+Selecciono o separador "Volume" e clico em "Adicionar Pasta". Lá eu crio uma nova pasta com este caminho de montagem "/dados".
 {{< gallery match="images/4/*.png" >}}
 Eu atribuo portos fixos para o contentor "bitwardenrs". Sem portas fixas, poderia ser que o "bitwardenrs server" funcione em uma porta diferente após um reinício. O primeiro porto de contentores pode ser apagado. O outro porto deve ser lembrado.
 {{< gallery match="images/5/*.png" >}}

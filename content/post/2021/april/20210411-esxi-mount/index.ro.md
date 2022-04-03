@@ -21,3 +21,4 @@ Acum memoria poate fi utilizată.
 {{< gallery match="images/4/*.png" >}}
 Pentru testare, am instalat o instalație DOS și un vechi software de contabilitate prin intermediul acestui punct de montare.
 {{< gallery match="images/5/*.png" >}}
+

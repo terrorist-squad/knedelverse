@@ -148,7 +148,7 @@ Ora abbiamo bisogno del comando "kubeadm join" dall'inizializzazione di Kubenete
 kubeadm join master-ip:port --token r4fddsfjdsjsdfomsfdoi --discovery-token-ca-cert-hash sha256:1adea3bfxfdfddfdfxfdfsdffsfdsdf946da811c27d1807aa
 
 {{</ terminal >}}
-Se ora inserisco di nuovo il comando "kubectl get nodes" da "Server 1", questi nodi sono probabilmente visualizzati nello stato "Not Ready". Anche qui c'è il problema della rete che aveva anche il maestro. Eseguo di nuovo il comando di prima, ma questa volta aggiungo una "f" per forza.
+Se ora inserisco di nuovo il comando "kubectl get nodes" dal "Server 1", questi nodi sono probabilmente visualizzati nello stato "Not Ready". Anche qui c'è il problema della rete che aveva anche il maestro. Eseguo nuovamente il comando di prima, ma questa volta aggiungo una "f" per forza.
 {{< terminal >}}
 kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/2140ac876ef134e0ed5af15c65e414cf26827915/Documentation/kube-flannel.yml
 
@@ -208,3 +208,4 @@ kubectl delete deplyments my-nginx
 {{</ terminal >}}
 >Vedi:
 {{< gallery match="images/10/*.png" >}}
+

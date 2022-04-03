@@ -9,3 +9,4 @@ githublink = "https://github.com/terrorist-squad/knedelverse/tree/main/content/p
 {{< gallery match="images/1/*.png" >}}
 Scorrere fino al fondo della pagina. Seleziona "Altra stazione radio Internet" sotto "Aggiungi stazione radio Internet". Inserisci un nome "104.6 RTL Berlins Hitradio" e l'indirizzo "http://stream.104.6rtl.com/rtl-live".
 {{< gallery match="images/2/*.png" >}}
+Cliccate su "OK"! La nuova trasmissione è immediatamente utilizzabile sul vostro FritzFon.

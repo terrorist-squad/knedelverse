@@ -33,7 +33,7 @@ sudo service tor restart
 sudo service privoxy restart
 
 {{</ terminal >}}
-Εισάγω τη διεύθυνση proxy στο Firefox, απενεργοποιώ τη "Javascript" και επισκέπτομαι τη "δοκιμαστική σελίδα Tor". Εάν όλα έχουν λειτουργήσει, μπορώ τώρα να επισκέπτομαι ιστότοπους TOR/.Onion.
+Εισάγω τη διεύθυνση proxy στο Firefox, απενεργοποιώ τη "Javascript" και επισκέπτομαι τη "δοκιμαστική σελίδα Tor". Αν όλα έχουν λειτουργήσει, μπορώ τώρα να επισκέπτομαι ιστότοπους TOR/.Onion.
 {{< gallery match="images/2/*.png" >}}
 
 ## Βήμα 2: Πώς μπορώ να φιλοξενήσω τον ιστότοπο Darknet;

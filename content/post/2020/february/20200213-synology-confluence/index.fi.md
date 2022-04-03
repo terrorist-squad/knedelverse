@@ -5,13 +5,13 @@ difficulty = "level-4"
 tags = ["atlassian", "confluence", "Docker", "ds918", "Synology", "wiki", "nas"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200213-synology-confluence/index.fi.md"
 +++
-Jos haluat asentaa Atlassian Confluence -palvelun Synology NAS -laitteeseen, olet oikeassa paikassa.
+Jos haluat asentaa Atlassian Confluence -palvelun Synology NAS -laitteeseen, olet tullut oikeaan paikkaan.
 ## Vaihe 1
 Ensin avaan Docker-sovelluksen Synologyn käyttöliittymässä ja siirryn sitten "Rekisteröinti"-alasvetokohtaan. Siellä etsin "Confluence" ja klikkaan ensimmäistä kuvaa "Atlassian Confluence".
 {{< gallery match="images/1/*.png" >}}
 
 ## Vaihe 2
-Kuvan lataamisen jälkeen kuva on käytettävissä kuvana. Dockerissa erotetaan kaksi tilaa, kontti "dynaaminen tila" ja kuva/image (kiinteä tila). Ennen kuin voimme luoda säiliön kuvasta, on tehtävä muutamia asetuksia.
+Kuvan lataamisen jälkeen kuva on käytettävissä kuvana. Dockerissa erotetaan kaksi tilaa, kontti "dynaaminen tila" ja kuva/image (kiinteä tila). Ennen kuin voimme luoda kontin kuvasta, on tehtävä muutamia asetuksia.
 ## Automaattinen uudelleenkäynnistys
 Kaksoisnapsautan Confluence-kuvaani.
 {{< gallery match="images/2/*.png" >}}

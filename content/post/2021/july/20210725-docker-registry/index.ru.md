@@ -48,7 +48,7 @@ networks:
 ```
 Более полезные образы Docker для домашнего использования можно найти в [Dockerverse]({{< ref "dockerverse" >}} "Dockerverse").
 ## Команда запуска
-Этот файл запускается через Docker Compose. После этого установка становится доступной под предназначенным доменом/портом.
+Этот файл запускается через Docker Compose. После этого установка становится доступной в указанном домене/порту.
 {{< terminal >}}
 docker-compose -f registry.yml up -d
 
@@ -62,3 +62,4 @@ docker push 192.168.178.61:5000/mein-image:version
 docker pull 192.168.178.61:5000/mein-image:version
 
 {{</ terminal >}}
+

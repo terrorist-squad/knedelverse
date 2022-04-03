@@ -72,7 +72,7 @@ Nel server LDAP ho creato dei gruppi per i diversi strumenti.
 ## Passo 3: collegare gli strumenti Atlassian
 La configurazione è la stessa per tutti gli strumenti Atlassian. Inserisco l'indirizzo IP e la porta del mio server LDAP.
 {{< gallery match="images/2/*.png" >}}
-Per lo "schema LDAP", ho inserito solo il "DN di base". Per i certificati autofirmati, l'opzione "Secure SSL" deve essere disattivata.
+Per lo "schema LDAP" ho inserito solo il "DN di base". Per i certificati autofirmati, l'opzione "Secure SSL" deve essere disattivata.
 {{< gallery match="images/3/*.png" >}}
 
 ## Altre caratteristiche speciali dei certificati autofirmati

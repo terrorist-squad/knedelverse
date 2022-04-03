@@ -15,7 +15,7 @@ Prijavim se prek terminala, winSCP ali Puttyja in pustim to konzolo odprto za po
 ## Korak 2: Ustvarite mapo Docspel
 V imeniku programa Docker ustvarim nov imenik z imenom "docspell".
 {{< gallery match="images/3/*.png" >}}
-Zdaj je treba prenesti in razpakirati naslednjo datoteko v imeniku: https://github.com/eikek/docspell/archive/refs/heads/master.zip . Za to uporabljam konzolo:
+Zdaj je treba prenesti naslednjo datoteko in jo razpakirati v imeniku: https://github.com/eikek/docspell/archive/refs/heads/master.zip . Za to uporabljam konzolo:
 {{< terminal >}}
 cd /volume1/docker/docspell/
 mkdir docs
@@ -24,7 +24,7 @@ wget https://github.com/eikek/docspell/archive/refs/heads/master.zip
 /bin/7z x master.zip
 
 {{</ terminal >}}
-Nato uredim datoteko "docker/docker-compose.yml" in v "consumedir" in "db" vnesem svoje naslove Synology:
+Nato uredim datoteko "docker/docker-compose.yml" in v "consumedir" in "db" vnesem naslova Synology:
 {{< gallery match="images/4/*.png" >}}
 Nato lahko zaženem datoteko Compose:
 {{< terminal >}}
@@ -34,3 +34,4 @@ docker-compose up -d
 {{</ terminal >}}
 Po nekaj minutah lahko pokličem strežnik Docspell z IP diskovne postaje in dodeljenimi vrati/7878.
 {{< gallery match="images/5/*.png" >}}
+Iskanje dokumentov deluje dobro. Škoda, da besedila v slikah niso indeksirana. S programom Papermerge lahko iščete tudi besedila v slikah.

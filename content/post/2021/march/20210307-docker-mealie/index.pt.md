@@ -34,17 +34,17 @@ Após o download da imagem, a imagem está disponível como imagem. Docker disti
 ## Passo 2: Colocar a imagem em funcionamento:
 Faço duplo clique na minha imagem de "refeição".
 {{< gallery match="images/3/*.png" >}}
-Depois clico em "Definições avançadas" e activo o "Reinício automático". Eu seleciono o separador "Volume" e clico em "Adicionar pasta". Lá eu crio uma nova pasta com este caminho de montagem "/app/data".
+Depois clico em "Definições avançadas" e activo o "Reinício automático". Selecciono o separador "Volume" e clico em "Adicionar pasta". Lá eu crio uma nova pasta com este caminho de montagem "/app/data".
 {{< gallery match="images/4/*.png" >}}
 Eu atribuo portos fixos para o contentor "Mealie". Sem portas fixas, poderia ser que o "Mealie server" funcione em uma porta diferente após um reinício.
 {{< gallery match="images/5/*.png" >}}
 Finalmente, introduzo duas variáveis de ambiente. A variável "db_type" é o tipo de base de dados e "TZ" é o fuso horário "Europa/Berlim".
 {{< gallery match="images/6/*.png" >}}
-Após estas configurações, o Mealie Server pode ser iniciado! Em seguida, você pode chamar Mealie através do endereço Ip do disquete Synology e da porta designada, por exemplo http://192.168.21.23:8096 .
+Após estas configurações, o Mealie Server pode ser iniciado! Em seguida, você pode chamar Mealie através do endereço Ip do disco Synology e da porta designada, por exemplo http://192.168.21.23:8096 .
 {{< gallery match="images/7/*.png" >}}
 
 ## Como funciona o Mealie?
-Se eu mover o mouse sobre o botão "Plus" à direita/bottom e depois clicar no símbolo "Chain", eu posso inserir uma url. A aplicação Mealie procura então automaticamente as meta e informações de esquema necessárias.
+Se eu mover o mouse sobre o botão "Plus" à direita/bottom e depois clicar no símbolo "Chain", eu posso inserir uma url. A aplicação Mealie procura então automaticamente as meta e informações do esquema necessárias.
 {{< gallery match="images/8/*.png" >}}
 A importação funciona muito bem (já usei estas funções com urls do Chef, Food
 {{< gallery match="images/9/*.png" >}}
@@ -85,3 +85,4 @@ done < clear.txt
 ```
 Agora você também pode acessar as receitas offline:
 {{< gallery match="images/15/*.png" >}}
+Conclusão: Se você colocar algum tempo na Mealie, você pode construir uma grande base de dados de receitas! O Mealie está constantemente a ser desenvolvido como um projecto de fonte aberta e pode ser encontrado no seguinte endereço: https://github.com/hay-kot/mealie/

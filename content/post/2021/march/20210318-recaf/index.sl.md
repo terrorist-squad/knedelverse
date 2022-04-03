@@ -7,8 +7,9 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Nekega dne sem želel prilagoditi metode v tuji knjižnici Jave in zato sem iskal ustrezno orodje. Veliko sem se ukvarjal z urejevalniki bajtkode in bajtkodo. Toda na koncu sem končala z Recafom in sem popolnoma navdušena: https://github.com/Col-E/Recaf
 {{< gallery match="images/1/*.png" >}}
-Orodje je na voljo na naslednjem naslovu: https://github.com/Col-E/Recaf/releases. Dekompiliranje, ponovno kompiliranje in upravljanje knjižnic je z Recafom otročje enostavno! Najbolje je, da ga takoj preizkusite.
+Orodje je na voljo na naslednjem naslovu: https://github.com/Col-E/Recaf/releases. Dekompiliranje, rekompiliranje in upravljanje knjižnic je z Recafom otročje enostavno! Najbolje je, da ga takoj preizkusite.
 {{< terminal >}}
 java -jar recaf-2.18.2-J8-jar-with-dependencies.jar
 
 {{</ terminal >}}
+

@@ -46,7 +46,7 @@ Jeg kan også gøre god brug af konsollen i dette trin. Jeg starter portainer-se
 sudo docker-compose -f portainer.yml up -d
 
 {{</ terminal >}}
-Derefter kan jeg kalde min Portainer-server op med diskstationens IP og den tildelte port fra "Trin 2". Jeg indtaster min administratoradgangskode og vælger den lokale variant.
+Derefter kan jeg ringe til min Portainer-server med diskstationens IP-nummer og den tildelte port fra "Trin 2". Jeg indtaster min administratoradgangskode og vælger den lokale variant.
 {{< gallery match="images/4/*.png" >}}
 Som du kan se, fungerer alting fint!
 {{< gallery match="images/5/*.png" >}}

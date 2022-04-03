@@ -32,7 +32,7 @@ Eerst maak ik een map aan voor de paper merge. Ik ga naar "System Control" -> "S
 {{< gallery match="images/1/*.png" >}}
 Stap 2: Zoek naar Docker imageIk klik op het tabblad "Registratie" in het Synology Docker venster en zoek naar "Papermerge". Ik selecteer de Docker image "linuxserver/papermerge" en klik dan op de tag "latest".
 {{< gallery match="images/2/*.png" >}}
-Na het downloaden van de afbeelding, is de afbeelding beschikbaar als een afbeelding. Docker maakt onderscheid tussen 2 toestanden, container "dynamische toestand" en image/image (vaste toestand). Voordat we een container kunnen maken van de image, moeten een paar instellingen worden gemaakt.
+Na het downloaden van de afbeelding, is de afbeelding beschikbaar als een afbeelding. Docker maakt onderscheid tussen 2 toestanden, container "dynamische toestand" en image/image (vaste toestand). Voordat we een container van het image kunnen maken, moeten een paar instellingen worden gemaakt.
 ## Stap 3: Zet het beeld in werking:
 Ik dubbelklik op mijn paper merge image.
 {{< gallery match="images/3/*.png" >}}

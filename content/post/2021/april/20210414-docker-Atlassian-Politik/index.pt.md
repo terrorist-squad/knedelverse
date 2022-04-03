@@ -6,7 +6,7 @@ tags = ["atlassian", "Atlassian-Politik", "bamboo", "Docker", "confluence", "doc
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-Atlassian-Politik/index.pt.md"
 +++
 A Atlassian deixou de vender as licenças dos pequenos servidores e eu tenho pensado durante muito tempo sobre como lidar com isto. Como ainda quero usar a minha instalação por muito tempo, implementei as seguintes medidas:
-## Medida 1: Eu uso exclusivamente o Docker
+## Medida 1: Eu uso exclusivamente Docker
 Eu dirijo todas as ferramentas Atlassian como contentores Docker. Instalações mais antigas e nativas também podem ser transferidas para uma instalação Docker através de lixeiras de banco de dados. Estes podem então ser convenientemente executados em um Núcleo de informação ou em uma estação de disco Synology no Homelab.
 {{< tabs>}}
 
@@ -158,3 +158,4 @@ Eu também salvei as imagens do Postgres.
 ## Acção 3: Criar um stick de instalação USB
 Eu fiz backup da minha documentação, de todos os arquivos de instalação, dos diretórios de dados Postgres e das configurações em um pendrive. Como eu disse, o backup do BD é na verdade a coisa mais importante, porque a licença ativada também está na base de dados.
 {{< gallery match="images/1/*.png" >}}
+

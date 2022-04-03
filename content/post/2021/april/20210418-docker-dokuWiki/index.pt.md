@@ -34,7 +34,7 @@ Eu crio um novo diretório chamado "wiki" no diretório Docker.
 ## Passo 2: Instalar o DokuWiki
 Depois disso, tem de ser criada uma base de dados. Clico na guia "Registration" na janela do Synology Docker e procuro por "dokuwiki". Eu seleciono a imagem do Docker "bitnami/dokuwiki" e depois clico na tag "latest".
 {{< gallery match="images/2/*.png" >}}
-Após o download da imagem, a imagem está disponível como imagem. Docker distingue entre 2 estados, "estado dinâmico" do contentor e imagem (estado fixo). Antes de criarmos um recipiente a partir da imagem, algumas configurações têm de ser feitas. Eu faço duplo clique na minha imagem dokuwiki.
+Após o download da imagem, a imagem está disponível como imagem. Docker distingue entre 2 estados, recipiente "estado dinâmico" e imagem (estado fixo). Antes de criarmos um recipiente a partir da imagem, algumas configurações têm de ser feitas. Eu faço duplo clique na minha imagem dokuwiki.
 {{< gallery match="images/3/*.png" >}}
 Eu atribuo portos fixos para o contentor "dokuwiki". Sem portas fixas, poderia ser que o "servidor dokuwiki" funcione em uma porta diferente após um reinício.
 {{< gallery match="images/4/*.png" >}}
@@ -50,3 +50,4 @@ Finalmente, eu entro nestas variáveis de ambiente:Veja:
 {{< gallery match="images/5/*.png" >}}
 O contentor pode agora ser iniciado. Eu chamo o servidor dokuWIki com o endereço IP Synology e a porta do meu contêiner.
 {{< gallery match="images/6/*.png" >}}
+

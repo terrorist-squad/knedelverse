@@ -13,7 +13,7 @@ Zoals ik al geschreven heb, draai ik een centrale openLDAP server in de Docker c
 {{< gallery match="images/2/*.png" >}}
 
 ## Onveilige toepassing beveiligen met omgekeerde proxy
-Aangezien het "linuxserver/calibre-web" Docker image geen SSL encryptie en LDAP ondersteunt, maak ik een virtueel netwerk aan genaamd "calibreweb" en zet een NGINX reverse proxy voor de Calibre server. Dit is hoe mijn Docker Compose bestand er uit ziet. Alle toekomstige toegangs logs worden opgeslagen in de log directory en mijn zelf-ondertekende certificaten staan in de certs directory.
+Aangezien het "linuxserver/calibre-web" Docker image geen SSL encryptie en LDAP ondersteunt, maak ik een virtueel netwerk aan genaamd "calibreweb" en zet een NGINX reverse proxy voor de Calibre server. Dit is hoe mijn Docker Compose bestand eruit ziet. Alle toekomstige toegangs logs worden opgeslagen in de log directory en mijn zelf-ondertekende certificaten staan in de certs directory.
 ```
 version: '3.7'
 services:
@@ -100,3 +100,4 @@ Als je nu de setup start met "docker-compose -f ...etc... up", kun je ook de toe
 {{< gallery match="images/3/*.png" >}}
 Omdat de LDAP-gebruikers alleen gastgebruikers zijn, moeten gastgebruikersrechten worden ingesteld in Calibreweb:
 {{< gallery match="images/4/*.png" >}}
+Ik gebruik deze setup voor de volgende diensten:* Video bibliotheek (Peertube)* Bibliotheek (Calibreweb)* Gitlab (De CE ondersteunt geen groepen, dus je moet 2x inloggen)

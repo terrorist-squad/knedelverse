@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["104.6rtl", "fm-streaming", "pi", "radio", "raspberry-pi"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2019/july/20190717-rpi-pifm/index.sk.md"
 +++
-Ak ste fanúšikom stanice 104,6 RTL a nechcete stráviť deň bez berlínskeho hitového rádia, potom ste na správnom mieste. Potrebujete jednodoskový počítač s názvom Raspberry a kábel na porte GPIO 4 ako anténu.
+Ak ste fanúšikom stanice 104,6 RTL a nechcete stráviť ani deň bez berlínskeho hitového rádia, potom ste na správnom mieste. Potrebujete jednodoskový počítač s názvom Raspberry a kábel na porte GPIO 4 ako anténu.
 ## Vyžadujú sa tieto balíky
 
 {{< terminal >}}

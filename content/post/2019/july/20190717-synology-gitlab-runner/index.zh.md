@@ -27,14 +27,14 @@ ff02::2 ip6-allrouters
 这个文件只是存储在Synology NAS上。
 {{< gallery match="images/2/*.png" >}}
 
-## 第3步：设置GitLab Runner
-我点击了我的跑步机图像。
+## 第3步：设置GitLab运行器
+我点击了我的亚军图像。
 {{< gallery match="images/3/*.png" >}}
 我激活了 "启用自动重新启动 "的设置。
 {{< gallery match="images/4/*.png" >}}
 然后我点击 "高级设置"，选择 "音量 "标签。
 {{< gallery match="images/5/*.png" >}}
-我点击添加文件，通过"/etc/hosts "路径包括我的hosts文件。只有在主机名不能被解决的情况下，才有必要进行这一步骤。
+我点击添加文件，并通过路径"/etc/hosts "包括我的hosts文件。只有在主机名不能被解决的情况下，才有必要进行这一步骤。
 {{< gallery match="images/6/*.png" >}}
 我接受设置并点击下一步。
 {{< gallery match="images/7/*.png" >}}

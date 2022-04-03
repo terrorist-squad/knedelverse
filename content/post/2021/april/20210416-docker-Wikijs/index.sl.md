@@ -41,7 +41,7 @@ services:
       MYSQL_PASSWORD: my_wiki_pass
 
 ```
-Več uporabnih slik Docker za domačo uporabo lahko najdete v Dockerverse.
+Več uporabnih slik Docker za domačo uporabo najdete v Dockerverse.
 ## Korak 1: Pripravite mapo wiki
 V imeniku programa Docker ustvarim nov imenik z imenom "wiki".
 {{< gallery match="images/1/*.png" >}}
@@ -72,7 +72,7 @@ V oknu Synology Docker kliknem na zavihek "Registracija" in poiščem "wiki". Iz
 {{< gallery match="images/7/*.png" >}}
 Dvakrat kliknem na svojo sliko WikiJS. Nato kliknem na "Napredne nastavitve" in aktiviram možnost "Samodejni ponovni zagon".
 {{< gallery match="images/8/*.png" >}}
-Za vsebnik "WikiJS" dodelim fiksna vrata. Brez fiksnih vrat se lahko zgodi, da strežnik bookstack po ponovnem zagonu teče na drugih vratih.
+Za vsebnik "WikiJS" dodelim fiksna vrata. Brez fiksnih vrat se lahko zgodi, da "strežnik bookstack" po ponovnem zagonu teče na drugih vratih.
 {{< gallery match="images/9/*.png" >}}
 Poleg tega je treba ustvariti povezavo do vsebnika "mysql". Kliknem na zavihek "Povezave" in izberem vsebnik zbirke podatkov. Ime vzdevka si je treba zapomniti za namestitev wikija.
 {{< gallery match="images/10/*.png" >}}
@@ -89,5 +89,5 @@ Poleg tega je treba ustvariti povezavo do vsebnika "mysql". Kliknem na zavihek "
 {{</table>}}
 Na koncu vnesem te okoljske spremenljivke: Glej:
 {{< gallery match="images/11/*.png" >}}
-Posodo lahko zaženete. Strežnik Wiki.js pokličem z naslovom IP strežnika Synology in pristaniščem za zabojnik/3000.
+Posodo lahko zaženete. Strežnik Wiki.js pokličem z naslovom IP Synology in pristaniščem za zabojnik/3000.
 {{< gallery match="images/12/*.png" >}}

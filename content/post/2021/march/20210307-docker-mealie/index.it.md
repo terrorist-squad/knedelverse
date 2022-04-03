@@ -40,7 +40,7 @@ Assegno delle porte fisse per il contenitore "Mealie". Senza porte fisse, potreb
 {{< gallery match="images/5/*.png" >}}
 Infine, inserisco due variabili d'ambiente. La variabile "db_type" è il tipo di database e "TZ" è il fuso orario "Europe/Berlin".
 {{< gallery match="images/6/*.png" >}}
-Dopo queste impostazioni, Mealie Server può essere avviato! In seguito, puoi chiamare Mealie tramite l'indirizzo Ip della distazione Synology e la porta assegnata, per esempio http://192.168.21.23:8096 .
+Dopo queste impostazioni, Mealie Server può essere avviato! In seguito potete chiamare Mealie tramite l'indirizzo Ip della distazione Synology e la porta assegnata, per esempio http://192.168.21.23:8096 .
 {{< gallery match="images/7/*.png" >}}
 
 ## Come funziona Mealie?
@@ -52,7 +52,7 @@ In modalità di modifica, posso anche aggiungere una categoria. È importante ch
 {{< gallery match="images/10/*.png" >}}
 
 ## Caratteristiche speciali
-Ho notato che le categorie del menu non si aggiornano automaticamente. Dovete aiutarvi qui con un ricarico del browser.
+Ho notato che le categorie del menu non si aggiornano automaticamente. Qui bisogna aiutarsi con un ricarico del browser.
 {{< gallery match="images/11/*.png" >}}
 
 ## Altre caratteristiche
@@ -85,3 +85,4 @@ done < clear.txt
 ```
 Ora puoi anche accedere alle ricette offline:
 {{< gallery match="images/15/*.png" >}}
+Conclusione: se metti un po' di tempo in Mealie, puoi costruire un grande database di ricette! Mealie è costantemente sviluppato come progetto open source e può essere trovato al seguente indirizzo: https://github.com/hay-kot/mealie/

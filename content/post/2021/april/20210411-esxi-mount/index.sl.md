@@ -13,7 +13,7 @@ Nato kliknem na "Skupna mapa" in izberem imenik.
 {{< gallery match="images/2/*.png" >}}
 
 ## Korak 2: Namestitev imenikov v ESXi
-V ESXiju kliknem na "Shranjevanje" > "Novo podatkovno skladišče" in vanj vnesem podatke.
+V ESXiju kliknem na "Skladiščenje" > "Novo podatkovno skladišče" in vanj vnesem podatke.
 {{< gallery match="images/3/*.png" >}}
 
 ## Pripravljen
@@ -21,3 +21,4 @@ Zdaj lahko pomnilnik uporabite.
 {{< gallery match="images/4/*.png" >}}
 Za testiranje sem prek te priključne točke namestil namestitev DOS-a in staro računovodsko programsko opremo.
 {{< gallery match="images/5/*.png" >}}
+

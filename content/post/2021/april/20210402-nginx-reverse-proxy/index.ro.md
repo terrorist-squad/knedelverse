@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 În calitate de utilizator Synology Diskstation, utilizez multe servicii în rețeaua mea Homelab. Implementez software în Gitlab, documentez cunoștințele în Confluence și citesc referințe tehnice prin intermediul serverului web Calibre.
 {{< gallery match="images/1/*.png" >}}
-Toate serviciile de rețea comunică în mod criptat și sunt securizate prin intermediul unei administrații centrale a utilizatorilor. Astăzi vă arăt cum am securizat serviciul Calibre cu criptare SSL, logare a accesului și restricție de acces LDAP. Pentru acest tutorial sunt necesare cunoștințe prealabile din "[Lucruri interesante cu Atlassian: Utilizați toate instrumentele Atlassian cu LDAP]({{< ref "post/2021/march/20210321-atlassian-ldap" >}} "Lucruri interesante cu Atlassian: Utilizați toate instrumentele Atlassian cu LDAP")" și "[Lucruri grozave cu containere: Rularea Calibre cu Docker Compose]({{< ref "post/2020/february/20200221-docker-Calibre-pro" >}} "Lucruri grozave cu containere: Rularea Calibre cu Docker Compose")".
+Toate serviciile de rețea comunică în mod criptat și sunt securizate prin intermediul unei administrații centrale a utilizatorilor. Astăzi vă arăt cum am securizat serviciul Calibre cu criptare SSL, logare a accesului și restricționare a accesului LDAP. Pentru acest tutorial sunt necesare cunoștințe prealabile din "[Lucruri interesante cu Atlassian: Utilizați toate instrumentele Atlassian cu LDAP]({{< ref "post/2021/march/20210321-atlassian-ldap" >}} "Lucruri interesante cu Atlassian: Utilizați toate instrumentele Atlassian cu LDAP")" și "[Lucruri grozave cu containere: Rularea Calibre cu Docker Compose]({{< ref "post/2020/february/20200221-docker-Calibre-pro" >}} "Lucruri grozave cu containere: Rularea Calibre cu Docker Compose")".
 ## Serverul meu LDAP
 După cum am scris deja, în containerul Docker rulează un server central openLDAP. Am creat, de asemenea, câteva grupuri de aplicații.
 {{< gallery match="images/2/*.png" >}}
@@ -100,3 +100,4 @@ Dacă porniți acum configurarea cu "docker-compose -f ...etc... up", puteți ve
 {{< gallery match="images/3/*.png" >}}
 Deoarece utilizatorii LDAP sunt doar utilizatori invitați, drepturile de utilizator invitat trebuie să fie setate în Calibreweb:
 {{< gallery match="images/4/*.png" >}}
+Execut această configurație pentru următoarele servicii:* Biblioteca video (Peertube)* Biblioteca (Calibreweb)* Gitlab (CE nu acceptă grupuri, așa că trebuie să vă conectați de două ori)

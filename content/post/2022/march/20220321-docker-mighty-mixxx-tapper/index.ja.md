@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "docker-for-desktop", "radio", "mp3", "ripp", "streamripper", "radiorecorder"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2022/march/20220321-docker-mighty-mixxx-tapper/index.ja.md"
 +++
-Streamripperは、MP3やOGG/Vorbisのストリームを録音し、直接ハードディスクに保存することができるコマンドライン用のツールです。曲は自動的にアーティスト名を付けて個別に保存され、形式は最初に送信されたものになります（したがって、実際には拡張子が.mp3または.oggのファイルが作成されます）。私は素晴らしいradiorecorderのインターフェイスを見つけ、そこからDockerイメージを構築しました。参照：https://github.com/terrorist-squad/mightyMixxxTapper/
+Streamripperは、MP3やOGG/Vorbisのストリームを録音して、直接ハードディスクに保存することができるコマンドライン用のツールです。曲は自動的にアーティスト名を付けて個別に保存され、形式は最初に送信されたものになります（したがって実質的には.mp3または.oggという拡張子のファイルが作成されます）。私は素晴らしいradiorecorderのインターフェースを見つけ、そこからDockerイメージを構築しました。参照: https://github.com/terrorist-squad/mightyMixxxTapper/
 {{< gallery match="images/1/*.png" >}}
 
 ## プロフェッショナル向けオプション

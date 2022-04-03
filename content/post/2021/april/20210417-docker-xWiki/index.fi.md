@@ -45,7 +45,7 @@ Luon Docker-hakemistoon uuden hakemiston nimeltä "wiki".
 ## Vaihe 2: Asenna tietokanta
 Tämän jälkeen on luotava tietokanta. Napsautan Synology Docker -ikkunan "Rekisteröinti"-välilehteä ja etsin "postgres". Valitsen Docker-kuvan "postgres" ja napsautan sitten tagia "latest".
 {{< gallery match="images/2/*.png" >}}
-Kuvan lataamisen jälkeen kuva on käytettävissä kuvana. Dockerissa erotetaan kaksi tilaa, kontti (dynaaminen tila) ja kuva (kiinteä tila). Ennen kuin luomme kontin kuvasta, on tehtävä muutamia asetuksia. Kaksoisnapsautan postgres-kuvaani.
+Kuvan lataamisen jälkeen kuva on käytettävissä kuvana. Dockerissa erotetaan kaksi tilaa, kontti (dynaaminen tila) ja kuva (kiinteä tila). Ennen kuin luomme kontin kuvasta, on tehtävä muutama asetus. Kaksoisnapsautan postgres-kuvaani.
 {{< gallery match="images/3/*.png" >}}
 Sitten klikkaan "Lisäasetukset" ja aktivoin "Automaattinen uudelleenkäynnistys". Valitsen välilehden "Volume" ja napsautan "Add folder". Siellä luon uuden tietokantakansio, jossa on tämä liitäntäpolku "/var/lib/postgresql/data".
 {{< gallery match="images/4/*.png" >}}
@@ -65,7 +65,7 @@ Näiden asetusten jälkeen Mariadb-palvelin voidaan käynnistää! Painan "Apply
 ## Vaihe 3: Asenna xWiki
 Napsautan Synology Docker -ikkunan "Rekisteröinti"-välilehteä ja etsin "xwiki". Valitsen Docker-kuvan "xwiki" ja napsautan sitten tagia "10-postgres-tomcat".
 {{< gallery match="images/7/*.png" >}}
-Kaksoisklikkaan xwiki-kuvaani. Sitten napsautan "Lisäasetukset" ja aktivoin "Automaattinen uudelleenkäynnistys" myös täällä.
+Kaksoisklikkaan xwiki-kuvaani. Sitten napsautan "Lisäasetukset" ja aktivoin "Automaattinen uudelleenkäynnistys" myös tässä.
 {{< gallery match="images/8/*.png" >}}
 Määritän kiinteät portit kontille "xwiki". Ilman kiinteitä portteja voi olla, että "xwiki-palvelin" toimii eri portissa uudelleenkäynnistyksen jälkeen.
 {{< gallery match="images/9/*.png" >}}

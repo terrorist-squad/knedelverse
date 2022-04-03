@@ -25,5 +25,5 @@ username: shiori
 password: gopher
 
 ```
-Hienoa! Voit käyttää internet-arkistoasi:
+Hienoa! Voit käyttää Internet-arkistoasi:
 {{< gallery match="images/1/*.png" >}}

@@ -15,7 +15,7 @@ Ik klik op het tabblad "Registratie" in het Synology Docker-venster en zoek naar
 {{< gallery match="images/2/*.png" >}}
 Ik dubbelklik op mijn bitwardenrs foto. Dan klik ik op "Geavanceerde instellingen" en activeer ook hier de "Automatische herstart".
 {{< gallery match="images/3/*.png" >}}
-Ik selecteer de tab "Volume" en klik op "Map toevoegen". Daar maak ik een nieuwe map aan met dit mount pad "/data".
+Ik selecteer het tabblad "Volume" en klik op "Map toevoegen". Daar maak ik een nieuwe map aan met dit mount pad "/data".
 {{< gallery match="images/4/*.png" >}}
 Ik wijs vaste poorten toe voor de "bitwardenrs" container. Zonder vaste poorten kan het zijn dat de "bitwardenrs server" na een herstart op een andere poort draait. De eerste containerpoort kan worden verwijderd. De andere poort moet je niet vergeten.
 {{< gallery match="images/5/*.png" >}}

@@ -50,3 +50,4 @@ Endelig indtaster jeg disse miljøvariabler:Se:
 {{< gallery match="images/5/*.png" >}}
 Beholderen kan nu startes. Jeg kalder dokuWIki-serveren med Synologys IP-adresse og min containerport.
 {{< gallery match="images/6/*.png" >}}
+

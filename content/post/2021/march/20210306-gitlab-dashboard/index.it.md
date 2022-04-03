@@ -64,7 +64,7 @@ set on_event = request ON_EVENT
 @on_event LOAD_FINISH script @config_home/gitlab.js
 
 ```
-Tempo di mezzo! Hai quasi finito. Ora avete bisogno di un Javascript con il quale potete simulare il comportamento dell'utente. È importante creare un utente Gitlab separato. Questo utente può essere gestito come "reporter" nei progetti.
+Tempo di mezzo! Hai quasi finito. Ora avete bisogno di un Javascript con il quale potete simulare il comportamento dell'utente. È importante che tu crei un utente Gitlab separato. Questo utente può essere gestito come "reporter" nei progetti.
 ```
 var gitlabUrl = 'http://git-lab-url:port';
 var gitlabUser = 'userName';

@@ -50,5 +50,6 @@ Määritän kiinteät portit Grocy-säiliölle. Ilman kiinteitä portteja voi ol
 {{</table>}}
 Lopuksi annan nämä ympäristömuuttujat: Ks:
 {{< gallery match="images/7/*.png" >}}
-Säiliö voidaan nyt käynnistää. Soitan Grocy-palvelimelle Synologyn IP-osoitteella ja konttiportillani ja kirjaudun sisään käyttäjänimellä "admin" ja salasanalla "admin".
+Säiliö voidaan nyt käynnistää. Kutsun Grocy-palvelimen Synologyn IP-osoitteella ja konttiportilla ja kirjaudun sisään käyttäjänimellä "admin" ja salasanalla "admin".
 {{< gallery match="images/8/*.png" >}}
+

@@ -1,26 +1,26 @@
 +++
 date = "2021-03-07"
-title = "NUCにESXiをインストールする。MacBookでUSBメモリを用意する。"
+title = "NUCにESXiをインストールします。MacBook経由でUSBメモリを用意する。"
 difficulty = "level-4"
 tags = ["esxi", "homelab", "hypervisor", "linux", "nuc", "vmware"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210307-esxi-nuc/index.ja.md"
 +++
-ESXiを使えば、「intel NUC」を何台ものコンピューターに分割することができます。このチュートリアルでは、私のNUCにVMware ESXiをインストールした方法を紹介します。ちょっとした前置きですが、ESXiのインストールの前にBIOSのアップデートを行うことをお勧めします。また、32GBのUSBメモリも必要です。私はAmazonで1つ5ユーロ以下でまとめて買いました。
+ESXiを使えば、「intel NUC」を任意の台数のコンピュータに分割することができます。このチュートリアルでは、NUCにVMware ESXiをインストールする方法を紹介します。小さな前置き：ESXiをインストールする前にBIOSのアップデートをすることをお勧めします。また、32GBのUSBメモリが必要です。アマゾンで1つ5ユーロ以下でバンドルごと購入しました。
 {{< gallery match="images/1/*.jpg" >}}
-私のNUC-8I7BEHには、2x 16GB HyperX Impact Ram、1x 256GB Samsung 970 EVO M2モジュール、1TB 2.5-inch WD-REDハードドライブが搭載されています。
+私のNUC-8I7BEHには、2x 16GB HyperX Impact Ram、1x 256GB Samsung 970 EVO M2モジュール、1TB 2.5-inch WD-RED hard driveが搭載されています。
 {{< gallery match="images/2/*.jpg" >}}
 
-## Step 1: USBスティックの検索
-次のコマンドは、すべてのドライブを表示します。
+## ステップ1: USB-Stickを探す
+次のコマンドですべてのドライブを表示させることができます。
 {{< terminal >}}
 diskutil list
 
 {{</ terminal >}}
-ここでは、私のUSBメモリの識別子が「disk2」であることがわかります。
+ここで、私のUSBメモリには「disk2」という識別子がついていることがわかります。
 {{< gallery match="images/3/*.png" >}}
 
 ## ステップ2：ファイルシステムの準備
-これで、次のコマンドを使って、ファイルシステムを準備することができました。
+これで、次のコマンドでファイルシステムを準備できるようになりました。
 {{< terminal >}}
 $ diskutil eraseDisk MS-DOS "ESXI" MBR disk2
 
@@ -28,23 +28,23 @@ $ diskutil eraseDisk MS-DOS "ESXI" MBR disk2
 その後、Finderでも識別子が表示されるようになりました。
 {{< gallery match="images/4/*.png" >}}
 
-## ステップ3：USBメモリの取り出し
-unmountDisk "コマンドを使ってボリュームを取り出します。
+## ステップ3：USBメモリーを取り出す
+unmountDisk」コマンドでボリュームをイジェクトしています。
 {{< terminal >}}
 $ diskutil unmountDisk /dev/disk2
 
 {{</ terminal >}}
-見てください。
+ご覧ください。
 {{< gallery match="images/5/*.png" >}}
 
-## Step 4: スティックをブータブルにする
-ここで、「sudo fdisk -e /dev/disk2」というコマンドを入力し、「f 1」、「write」、「quit」と入力すると、ご覧のようになります。
+## ステップ4：スティックをブータブルにする
+ここで、「sudo fdisk -e /dev/disk2」というコマンドを入力し、「f 1」、「write」、「quit」を入力すると、ご覧のようになります。
 {{< gallery match="images/6/*.png" >}}
 
-## Step 5: データのコピー
-あとは、ESXi-ISO: https://www.vmware.com/de/try-vmware.html をダウンロードするだけです。その後、ESXi-ISOをマウントして、中身をUSBメモリにコピーします。
+## ステップ5：データをコピーする
+あとは、ESXi-ISO: https://www.vmware.com/de/try-vmware.html をダウンロードする必要があります。その後、ESXi-ISOをマウントして、中身をUSBメモリにコピーすればいいんです。
 {{< gallery match="images/7/*.png" >}}
-すべてがコピーされたら、「ISOLINUX.CFG」というファイルを探して、「SYSLINUX.CFG」にリネームします。また、「APPEND -c boot.cfg」の行に「-p 1」を追加しています。
+すべてコピーできたら、「ISOLINUX.CFG」というファイルを探して、「SYSLINUX.CFG」にリネームしています。APPEND -c boot.cfg」の行に「-p 1」も追加しています。
 {{< gallery match="images/8/*.png" >}}
-お疲れ様でした。これで、スティックが使えるようになりました。楽しんでください。
+失敬これでスティックが使えるようになりました。楽しんできてください。
 {{< gallery match="images/9/*.png" >}}

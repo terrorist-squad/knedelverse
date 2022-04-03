@@ -28,7 +28,7 @@ Este archivo se almacena simplemente en el Synology NAS.
 {{< gallery match="images/2/*.png" >}}
 
 ## Paso 3: Configurar el GitLab Runner
-Hago clic en la imagen de mi corredor:
+Hago clic en mi imagen de Runner:
 {{< gallery match="images/3/*.png" >}}
 Activo el ajuste "Activar el reinicio automático":
 {{< gallery match="images/4/*.png" >}}

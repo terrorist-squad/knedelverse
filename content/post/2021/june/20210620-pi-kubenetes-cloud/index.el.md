@@ -14,7 +14,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 - 2x Raspberry 4 / 8GB Ram: https://www.reichelt.de/raspberry-pi-4-b-4x-1-5-ghz-8-gb-ram-wlan-bt-rasp-pi-4-b-8gb-p276923.html?
 - 3x μονάδες τροφοδοσίας: https://www.reichelt.de/raspberry-pi-netzteil-5-1-v-3-0-a-usb-type-c-eu-stecker-s-rpi-ps-15w-bk-eu-p260010.html
 - 1x Rackmount: https://amzn.to/3H8vOg7
-- 1x Σετ βυσμάτων Dupont 600 τεμαχίων: https://amzn.to/3kcfYqQ
+- 1x 600 τεμάχια σετ βυσμάτων Dupont: https://amzn.to/3kcfYqQ
 - 1x πράσινο LED με αντίσταση σειράς: https://amzn.to/3EQgXVp
 - 1x μπλε LED με αντίσταση σειράς: https://amzn.to/31ChYSO
 - 10x Marquardt 203.007.013 Τεμάχιο κάλυψης Μαύρο: https://www.voelkner.de/products/215024/Marquardt-203.007.013-Blindstueck-Schwarz.html
@@ -59,7 +59,7 @@ sudo mkdir /media/usb-platte
 sudo apt-get install nfs-kernel-server -y
 
 {{</ terminal >}}
-> Επιπλέον, δημιουργήθηκε ένας νέος φάκελος στο δίσκο USB
+> Επιπλέον, έχει δημιουργηθεί ένας νέος φάκελος στο δίσκο USB
 {{< terminal >}}
 sudo mkdir /media/usb-platte/nfsshare
 sudo chown -R pi:pi /media/usb-platte/nfsshare/
@@ -72,7 +72,7 @@ sudo find /media/usb-platte/nfsshare/ -type f -exec chmod 644 {} \;
 /media/usb-platte/nfsshare *(rw,all_squash,insecure,async,no_subtree_check,anonuid=1000,anongid=1000)
 
 ```
->Τώρα η ρύθμιση μπορεί να υιοθετηθεί ως εξής.
+> Τώρα η ρύθμιση μπορεί να υιοθετηθεί ως εξής.
 {{< terminal >}}
 sudo exportfs -ra
 
@@ -156,7 +156,7 @@ kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/2140ac876ef134
 >Μετά από αυτό, βλέπω όλους τους κόμβους έτοιμους για χρήση.
 {{< gallery match="images/6/*.png" >}}
 
-## Μικρή δοκιμαστική εγκατάσταση (Server 1/Kubenetes-Master)
+## Μικρή δοκιμαστική εγκατάσταση (Διακομιστής 1/Kubenetes-Master)
 Γράφω μια μικρή δοκιμαστική ανάπτυξη και ελέγχω τις λειτουργίες. Δημιουργώ ένα αρχείο "nginx.yml" με το ακόλουθο περιεχόμενο:
 ```
 apiVersion: apps/v1
@@ -208,3 +208,4 @@ kubectl delete deplyments my-nginx
 {{</ terminal >}}
 >Βλέπε:
 {{< gallery match="images/10/*.png" >}}
+

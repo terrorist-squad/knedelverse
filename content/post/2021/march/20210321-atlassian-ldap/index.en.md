@@ -1,11 +1,11 @@
 +++
 date = "2021-03-24"
-title = "Cool things with Atlassian: Use all Atlassian tools with LDAP"
+title = "Cool stuff with Atlassian: Use all Atlassian tools with LDAP"
 difficulty = "level-3"
 tags = ["atlassian", "bamboo", "jira", "ldap", "openldap", "linux", "test"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-atlassian-ldap/index.en.md"
 +++
-You're lucky if you have your own Atlassian installation. Today I'll show how I connected Jira, Bamboo and Confluence to my LDAP server.
+You can consider yourself lucky if you have your own Atlassian installation. Today I show how I connected Jira, Bamboo and Confluence to my LDAP server.
 ## Step 1: Install OpenLDAP
 I have OpenLDAP set up on my Synology NAS using this Docker compose file.
 ```
@@ -69,10 +69,10 @@ networks:
 In the LDAP server I have created groups for the different tools.
 {{< gallery match="images/1/*.png" >}}
 
-## Step 3: Connect Atlassian Tools
+## Step 3: Connect Atlassian tools
 The setup is the same for all Atlassian tools. I specify the IP address and port of my LDAP server.
 {{< gallery match="images/2/*.png" >}}
-For the "LDAP Scheme" I have only entered the "Base DN". With self-signed certificates the option "Secure SSL" must be deactivated.
+For the "LDAP Scheme" I have only entered the "Base DN". For self-signed certificates, the "Secure SSL" option must be deactivated.
 {{< gallery match="images/3/*.png" >}}
 
 ## Other special features of self-signed certificates

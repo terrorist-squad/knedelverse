@@ -44,7 +44,7 @@ services:
 {{< gallery match="images/7/*.png" >}}
 
 ## 迈瑞是如何工作的？
-如果我把鼠标移到右/下方的 "加号 "按钮上，然后点击 "链 "符号，我就可以输入一个网址。Mealie应用程序会自动搜索所需的元和模式信息。
+如果我把鼠标移到右/下方的 "加号 "按钮上，然后点击 "连锁 "符号，我就可以输入一个网址。Mealie应用程序会自动搜索所需的元和模式信息。
 {{< gallery match="images/8/*.png" >}}
 导入效果很好（我曾用这些函数从Chef、Food
 {{< gallery match="images/9/*.png" >}}
@@ -61,7 +61,7 @@ services:
 Mealie在移动端看起来也很不错。
 {{< gallery match="images/13/*.*" >}}
 
-## 暂停-Api
+## 休息-Api
 API文档可以在 "http://gewaehlte-ip:und-port ... /docs "找到。在这里，你会发现许多可用于自动化的方法。
 {{< gallery match="images/14/*.png" >}}
 
@@ -85,3 +85,4 @@ done < clear.txt
 ```
 现在，你也可以在离线状态下访问这些食谱。
 {{< gallery match="images/15/*.png" >}}
+结论：如果你在Mealie上投入一些时间，你可以建立一个伟大的食谱数据库!Mealie作为一个开源项目正在不断开发，可以在以下地址找到：https://github.com/hay-kot/mealie/。

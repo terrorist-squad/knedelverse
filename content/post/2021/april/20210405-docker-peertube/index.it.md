@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Con Peertube puoi creare il tuo portale video. Oggi mostro come ho installato Peertube sulla mia Synology disk station.
 ## Passo 1: Preparare Synology
-Innanzitutto, il login SSH deve essere attivato sulla DiskStation. Per farlo, andate nel "Pannello di controllo" > "Terminale
+In primo luogo, il login SSH deve essere attivato sulla DiskStation. Per farlo, andate nel "Pannello di controllo" > "Terminale
 {{< gallery match="images/1/*.png" >}}
 Poi si può accedere tramite "SSH", la porta specificata e la password dell'amministratore.
 {{< gallery match="images/2/*.png" >}}
@@ -135,3 +135,4 @@ curl -s '$API_PATH/videos/upload'-H 'Authorization: Bearer $token' --max-time 11
 ```
 
 ## Il mio consiglio: leggete "Grandi cose con i container: rendere i servizi Docker più sicuri con LDAP e NGINX".
+Faccio funzionare il mio Peertube con un reverse proxy. Questo significa che solo gli utenti LDAP possono accedere a questo servizio. Ho documentato questa configurazione sotto "[Grandi cose con i container: rendere i servizi Docker più sicuri con LDAP e NGINX]({{< ref "post/2021/april/20210402-nginx-reverse-proxy" >}} "Grandi cose con i container: rendere i servizi Docker più sicuri con LDAP e NGINX")".

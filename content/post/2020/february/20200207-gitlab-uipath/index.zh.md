@@ -1,6 +1,6 @@
 +++
 date = "2020-02-07"
-title = "用Gitlab协调uiPath Windows机器人"
+title = "用Gitlab编排uiPath Windows机器人"
 difficulty = "level-5"
 tags = ["git", "gitlab", "robot", "roboter", "Robotic-Process-Automation", "rpa", "uipath", "windows"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200207-gitlab-uipath/index.zh.md"
@@ -21,7 +21,7 @@ UiPath是机器人流程自动化的一个既定标准。利用uiPath，你可�
 {{< gallery match="images/5/*.png" >}}
 
 ## 第3步：注册Gitlab Runner
-Gitlab Runner 的 Windows 安装程序可以在以下页面找到：https://docs.gitlab.com/runner/install/windows.html 。我在 "C "驱动器中创建了一个新文件夹，并将安装程序放在那里。
+Gitlab Runner 的 Windows 安装程序可以在以下页面找到：https://docs.gitlab.com/runner/install/windows.html 。我在我的 "C "驱动器中创建了一个新文件夹，并将安装程序放在那里。
 {{< gallery match="images/6/*.png" >}}
 3.1.)我以 "管理员 "身份使用 "CMD "命令，打开一个新的控制台，并改变到一个目录 "cd C:\gitlab-runner"。
 {{< gallery match="images/7/*.png" >}}
@@ -60,3 +60,4 @@ build1:
 ```
 我的Windows软件机器人是在提交到主分支后直接执行的。
 {{< gallery match="images/14/*.png" >}}
+机器人的自动启动可以通过 "时间表 "选项进行管理。这种组合的一大优势是，"机器人 "项目和项目成果（工件）可以通过Gitlab与其他 "非机器人 "项目进行集中控制、版本控制和管理。

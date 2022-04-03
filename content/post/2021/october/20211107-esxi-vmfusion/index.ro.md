@@ -7,5 +7,6 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 În acest scurt tutorial vă arăt cum să controlați de la distanță mașinile ESXi prin intermediul VMware Fusion. În primul rând, apelez la detaliile mașinii în interfața ESXi și fac clic pe "Console".
 {{< gallery match="images/1/*.png" >}}
-Acum, VMware Fusion este conectat la serverul ESXi ca și client.
+Acum, VMware Fusion este conectat la serverul ESXi în calitate de client.
 {{< gallery match="images/2/*.png" >}}
+

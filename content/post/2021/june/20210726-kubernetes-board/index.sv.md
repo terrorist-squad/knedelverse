@@ -21,7 +21,7 @@ Noden ".spec.type" måste vara "NodePort".
 {{< gallery match="images/2/*.png" >}}
 Därefter är instrumentpanelen redan tillgänglig:
 {{< gallery match="images/3/*.png" >}}
-För att få tillgångstoken måste man leta efter en nyckel för distributionsstyrning:
+För att få tillgångstoken måste man söka efter en nyckel för distributionsstyrning:
 {{< terminal >}}
 kubectl -n kube-system get secret | grep deployment-controller-token
 

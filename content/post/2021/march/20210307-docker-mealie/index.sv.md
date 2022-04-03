@@ -30,7 +30,7 @@ services:
 ## Steg 1: Sök efter Docker-avbildningen
 Jag klickar på fliken "Registration" i Synology Docker-fönstret och söker efter "mealie". Jag väljer Docker-avbildningen "hkotel/mealie:latest" och klickar sedan på taggen "latest".
 {{< gallery match="images/2/*.png" >}}
-När bilden har laddats ner finns den tillgänglig som en bild. Docker skiljer mellan två tillstånd: container (dynamiskt tillstånd) och image/image (fast tillstånd). Innan vi kan skapa en behållare från avbildningen måste några inställningar göras.
+När bilden har laddats ner finns den tillgänglig som en bild. Docker skiljer mellan två tillstånd, container (dynamiskt tillstånd) och image/image (fast tillstånd). Innan vi kan skapa en behållare från avbildningen måste några inställningar göras.
 ## Steg 2: Använd bilden:
 Jag dubbelklickar på min "mealie"-bild.
 {{< gallery match="images/3/*.png" >}}
@@ -40,15 +40,15 @@ Jag tilldelar containern "Mealie" fasta portar. Utan fasta portar kan det vara s
 {{< gallery match="images/5/*.png" >}}
 Slutligen anger jag två miljövariabler. Variabeln "db_type" är databastypen och "TZ" är tidszonen "Europe/Berlin".
 {{< gallery match="images/6/*.png" >}}
-Efter dessa inställningar kan Mealie Server startas! Därefter kan du ringa Mealie via Ip-adressen till Synology-disctationen och den tilldelade porten, till exempel http://192.168.21.23:8096 .
+Efter dessa inställningar kan Mealie Server startas! Därefter kan du ringa Mealie via Synology-diskstationens ip-adress och den tilldelade porten, till exempel http://192.168.21.23:8096 .
 {{< gallery match="images/7/*.png" >}}
 
 ## Hur fungerar Mealie?
-Om jag för musen över "Plus"-knappen till höger/nerst och sedan klickar på "Chain"-symbolen kan jag ange en webbadress. Mealie-applikationen söker sedan automatiskt efter den nödvändiga meta- och schemainformationen.
+Om jag för musen över plusknappen till höger/nerst och sedan klickar på kedjesymbolen kan jag ange en webbadress. Mealie-applikationen söker sedan automatiskt efter den nödvändiga meta- och schemainformationen.
 {{< gallery match="images/8/*.png" >}}
 Importen fungerar utmärkt (jag har använt dessa funktioner med webbadresser från Chef, Food
 {{< gallery match="images/9/*.png" >}}
-I redigeringsläget kan jag också lägga till en kategori. Det är viktigt att jag trycker på "Enter"-knappen en gång efter varje kategori. I annat fall tillämpas inte denna inställning.
+I redigeringsläget kan jag också lägga till en kategori. Det är viktigt att jag trycker på "Enter"-knappen en gång efter varje kategori. Annars tillämpas inte denna inställning.
 {{< gallery match="images/10/*.png" >}}
 
 ## Specialfunktioner
@@ -85,3 +85,4 @@ done < clear.txt
 ```
 Nu kan du också få tillgång till recepten offline:
 {{< gallery match="images/15/*.png" >}}
+Slutsats: Om du lägger lite tid på Mealie kan du bygga upp en bra receptdatabas! Mealie utvecklas ständigt som ett projekt med öppen källkod och finns på följande adress: https://github.com/hay-kot/mealie/

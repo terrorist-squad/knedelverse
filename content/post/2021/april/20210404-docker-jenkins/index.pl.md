@@ -5,11 +5,11 @@ difficulty = "level-1"
 tags = ["development", "devops", "Jenkins", "ldap", "linux", "openldap"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-docker-jenkins/index.pl.md"
 +++
-Ten tutorial bazuje na wcześniejszej wiedzy o "[Wielkie rzeczy z kontenerami: Uruchamianie Jenkinsa na Synology DS]({{< ref "post/2021/march/20210321-docker-jenkins" >}} "Wielkie rzeczy z kontenerami: Uruchamianie Jenkinsa na Synology DS")". Jeżeli na początku masz już LDAP, wystarczy utworzyć odpowiednią grupę aplikacji:
+W tym podręczniku wykorzystano wcześniejszą wiedzę o "[Wspaniałe rzeczy z kontenerami: Uruchamianie Jenkinsa na Synology DS]({{< ref "post/2021/march/20210321-docker-jenkins" >}} "Wspaniałe rzeczy z kontenerami: Uruchamianie Jenkinsa na Synology DS")". Jeśli na początku działa już protokół LDAP, wystarczy utworzyć odpowiednią grupę aplikacji:
 {{< gallery match="images/1/*.png" >}}
-Następnie należy wprowadzić ustawienia w Jenkins. Klikam na "Manage Jenkins" > "Configure Global Security".
+Następnie należy wprowadzić ustawienia w programie Jenkins. Klikam na "Zarządzaj Jenkinsem" > "Konfiguruj zabezpieczenia globalne".
 {{< gallery match="images/2/*.png" >}}
-Ważne: W przypadku certyfikatów samopodpisanych, truststore musi być dostarczony przez Java-Opts serwera Jenkinsa. Ponieważ mój serwer Jenkinsa został utworzony za pomocą pliku Docker Compose, wygląda on dla mnie mniej więcej tak:
+Ważne: W przypadku certyfikatów samopodpisanych magazyn zaufania musi być udostępniony przez Java-Opts serwera Jenkinsa. Ponieważ mój serwer Jenkinsa został utworzony za pomocą pliku Docker Compose, wygląda on dla mnie mniej więcej tak:
 ```
 version: '2.0'
 services:

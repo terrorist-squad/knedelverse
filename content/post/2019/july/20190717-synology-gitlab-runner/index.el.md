@@ -28,7 +28,7 @@ ff02::2 ip6-allrouters
 {{< gallery match="images/2/*.png" >}}
 
 ## Βήμα 3: Ρύθμιση του GitLab Runner
-Κάνω κλικ στην εικόνα του δρομέα μου:
+Κάνω κλικ στην εικόνα του Runner μου:
 {{< gallery match="images/3/*.png" >}}
 Ενεργοποιώ τη ρύθμιση "Ενεργοποίηση αυτόματης επανεκκίνησης":
 {{< gallery match="images/4/*.png" >}}
@@ -38,7 +38,7 @@ ff02::2 ip6-allrouters
 {{< gallery match="images/6/*.png" >}}
 Αποδέχομαι τις ρυθμίσεις και κάνω κλικ στο next.
 {{< gallery match="images/7/*.png" >}}
-Τώρα βρίσκω την αρχικοποιημένη εικόνα στο Container:
+Τώρα βρίσκω την αρχικοποιημένη εικόνα κάτω από το Container:
 {{< gallery match="images/8/*.png" >}}
 Επιλέγω το δοχείο (gitlab-gitlab-runner2 για μένα) και κάνω κλικ στο "Details". Στη συνέχεια, κάνω κλικ στην καρτέλα "Terminal" και δημιουργώ μια νέα συνεδρία bash. Εδώ πληκτρολογώ την εντολή "gitlab-runner register". Για την εγγραφή, χρειάζομαι πληροφορίες που μπορώ να βρω στην εγκατάσταση του GitLab στη διεύθυνση http://gitlab-adresse:port/admin/runners.   
 {{< gallery match="images/9/*.png" >}}

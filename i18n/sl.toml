@@ -1,0 +1,23 @@
+[level-1]
+  other = "Izvedljivo za vsakogar"
+
+[level-2]
+  other = "Ni prelahko in ni pretežko"
+
+[level-3]
+  other = "Morda bo trajalo malo dlje"
+
+[level-4]
+  other = "Zelo športno"
+
+[level-5]
+  other = "Zelo zahtevno"
+
+[Difficulty]
+  other = "Stopnja težavnosti"
+
+[Recommendations]
+  other = "Priporočila"
+
+[Comments]
+  other = "Komentarji"

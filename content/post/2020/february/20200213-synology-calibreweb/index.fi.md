@@ -11,13 +11,13 @@ Ensin luon kansion Calibre-kirjastolle.  Kutsun "Järjestelmän hallinta" -> "Ja
 {{< gallery match="images/1/*.png" >}}
 
 ##  Vaihe 2: Luo Calibre-kirjasto
-Nyt kopioin olemassa olevan kirjaston tai "[tämä tyhjä esimerkkikirjasto](https://drive.google.com/file/d/1zfeU7Jh3FO_jFlWSuZcZQfQOGD0NvXBm/view)" uuteen hakemistoon. Olen itse kopioinut työpöytäsovelluksen nykyisen kirjaston.
+Nyt kopioin olemassa olevan kirjaston tai "[tämä tyhjä esimerkkikirjasto](https://drive.google.com/file/d/1zfeU7Jh3FO_jFlWSuZcZQfQOGD0NvXBm/view)" uuteen hakemistoon. Olen itse kopioinut työpöytäsovelluksen olemassa olevan kirjaston.
 {{< gallery match="images/2/*.png" >}}
 
 ## Vaihe 3: Etsi Docker-kuva
 Napsautan Synology Docker -ikkunan "Registration"-välilehteä ja etsin "Calibre". Valitsen Docker-kuvan "janeczku/calibre-web" ja napsautan sitten tagia "latest".
 {{< gallery match="images/3/*.png" >}}
-Kuvan lataamisen jälkeen kuva on käytettävissä kuvana. Dockerissa erotetaan kaksi tilaa, kontti "dynaaminen tila" ja kuva/image (kiinteä tila). Ennen kuin voimme luoda säiliön kuvasta, on tehtävä muutamia asetuksia.
+Kuvan lataamisen jälkeen kuva on käytettävissä kuvana. Dockerissa erotetaan kaksi tilaa, kontti "dynaaminen tila" ja kuva/image (kiinteä tila). Ennen kuin voimme luoda kontin kuvasta, on tehtävä muutamia asetuksia.
 ## Vaihe 4: Ota kuva käyttöön:
 Kaksoisnapsautan Calibre-kuvaani.
 {{< gallery match="images/4/*.png" >}}

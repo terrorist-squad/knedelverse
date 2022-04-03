@@ -7,11 +7,11 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Com Peertube você pode criar o seu próprio portal de vídeo. Hoje eu mostro como instalei o Peertube na minha estação de disco Synology.
 ## Passo 1: Preparar a Sinologia
-Primeiro, o login SSH deve ser ativado no DiskStation. Para fazer isso, vá para o "Painel de Controle" > "Terminal
+Primeiro, o login do SSH deve ser ativado no DiskStation. Para fazer isso, vá para o "Painel de Controle" > "Terminal
 {{< gallery match="images/1/*.png" >}}
 Então você pode entrar via "SSH", a porta especificada e a senha do administrador.
 {{< gallery match="images/2/*.png" >}}
-Eu inicio sessão via Terminal, winSCP ou Putty e deixo este console aberto para mais tarde.
+Eu inicio sessão via Terminal, winSCP ou Putty e deixo esta consola aberta para mais tarde.
 ## Passo 2: Preparar pasta Docker
 Eu crio um novo diretório chamado "Peertube" no diretório Docker.
 {{< gallery match="images/3/*.png" >}}
@@ -77,7 +77,7 @@ networks:
   peertube:
 
 ```
-Este arquivo é iniciado através do Docker Compose:
+Este ficheiro é iniciado através do Docker Compose:
 {{< terminal >}}
 sudo docker-compose -f compose-file-name.yml up -d
 
@@ -135,3 +135,4 @@ curl -s '$API_PATH/videos/upload'-H 'Authorization: Bearer $token' --max-time 11
 ```
 
 ## A minha dica: Leia "Grandes coisas com contentores: tornar os serviços Docker mais seguros com LDAP e NGINX".
+Eu dirijo o meu Peertube com um proxy reverso. Isto significa que apenas utilizadores de LDAP podem aceder a este serviço. Eu documentei esta configuração em "[Grandes coisas com contentores: tornar os serviços Docker mais seguros com LDAP e NGINX]({{< ref "post/2021/april/20210402-nginx-reverse-proxy" >}} "Grandes coisas com contentores: tornar os serviços Docker mais seguros com LDAP e NGINX")".

@@ -52,3 +52,4 @@ services:
 {{< gallery match="images/7/*.png" >}}
 Теперь контейнер можно запустить. Я вызываю сервер Grocy с IP-адресом Synology и портом моего контейнера и вхожу в систему с именем пользователя "admin" и паролем "admin".
 {{< gallery match="images/8/*.png" >}}
+

@@ -44,7 +44,7 @@ V adresáři Docker vytvořím nový adresář s názvem "wiki".
 {{< gallery match="images/1/*.png" >}}
 
 ## Krok 2: Instalace databáze
-Poté je třeba vytvořit databázi. V okně Synology Docker kliknu na kartu "Registrace" a vyhledám "mariadb". Vyberu obraz Docker "mariadb" a kliknu na značku "latest".
+Poté je třeba vytvořit databázi. V okně Synology Docker kliknu na kartu "Registrace" a vyhledám položku "mariadb". Vyberu obraz Docker "mariadb" a kliknu na značku "latest".
 {{< gallery match="images/2/*.png" >}}
 Po stažení obrázku je obrázek k dispozici jako obrázek. Docker rozlišuje 2 stavy, kontejner "dynamický stav" a image (pevný stav). Před vytvořením kontejneru z obrazu je třeba provést několik nastavení. Poklepu na svůj obraz mariadb.
 {{< gallery match="images/3/*.png" >}}

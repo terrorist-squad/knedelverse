@@ -48,5 +48,5 @@ sudo docker-compose -f portainer.yml up -d
 {{</ terminal >}}
 Dan kan ik mijn Portainer server oproepen met het IP van het diskstation en de toegewezen poort van "Stap 2". Ik voer mijn admin wachtwoord in en selecteer de lokale variant.
 {{< gallery match="images/4/*.png" >}}
-Zoals u kunt zien, werkt alles geweldig!
+Zoals je kunt zien, werkt alles geweldig!
 {{< gallery match="images/5/*.png" >}}

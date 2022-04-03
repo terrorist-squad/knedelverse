@@ -15,7 +15,7 @@ A kép letöltése után a kép képként elérhető. A Docker 2 állapotot kül
 ## Automatikus újraindítás
 Duplán kattintok a Confluence-képemre.
 {{< gallery match="images/2/*.png" >}}
-Ezután a "Speciális beállítások" menüpontra kattintok, és aktiválom az "Automatikus újraindítás" opciót.
+Ezután a "Speciális beállítások" gombra kattintok, és aktiválom az "Automatikus újraindítás" opciót.
 {{< gallery match="images/3/*.png" >}}
 
 ## Kikötők
@@ -23,7 +23,7 @@ A Confluence konténerhez fix portokat rendelek. Fix portok nélkül előfordulh
 {{< gallery match="images/4/*.png" >}}
 
 ## Memória
-Létrehozok egy fizikai mappát, és csatlakoztatom a konténerben (/var/atlassian/application-data/confluence/). Ez a beállítás megkönnyíti az adatok biztonsági mentését és visszaállítását.
+Létrehozok egy fizikai mappát, és csatlakoztatom a konténerbe (/var/atlassian/application-data/confluence/). Ez a beállítás megkönnyíti az adatok biztonsági mentését és visszaállítását.
 {{< gallery match="images/5/*.png" >}}
 Ezek után a beállítások után a Confluence elindítható!
 {{< gallery match="images/6/*.png" >}}

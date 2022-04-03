@@ -50,3 +50,4 @@ Slutligen anger jag dessa miljövariabler:Se:
 {{< gallery match="images/5/*.png" >}}
 Behållaren kan nu startas. Jag ringer dokuWIki-servern med Synologys IP-adress och min containerport.
 {{< gallery match="images/6/*.png" >}}
+

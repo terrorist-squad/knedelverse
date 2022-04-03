@@ -44,3 +44,4 @@ done
 ```
 Avec la commande "calibredb set_metadata", je définis tout le reste comme balises. Le résultat est le suivant :
 {{< gallery match="images/3/*.png" >}}
+Le script est également disponible sur Github : https://github.com/ChristianKnedel/heise-ix-reader-for-calibre .

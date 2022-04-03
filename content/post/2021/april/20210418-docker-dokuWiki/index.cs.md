@@ -50,3 +50,4 @@ Nakonec zadám tyto proměnné prostředí:Viz:
 {{< gallery match="images/5/*.png" >}}
 Nyní lze kontejner spustit. Zavolám server dokuWIki s IP adresou Synology a portem kontejneru.
 {{< gallery match="images/6/*.png" >}}
+

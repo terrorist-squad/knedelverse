@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "archiv", "wallabag"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-WallaBag/index.da.md"
 +++
-Wallabag er et program til arkivering af interessante websteder eller artikler. I dag viser jeg, hvordan man installerer en Wallabag-tjeneste på Synology diskstationen.
+Wallabag er et program til arkivering af interessante websteder eller artikler. I dag vil jeg vise, hvordan man installerer en Wallabag-tjeneste på Synology diskstationen.
 ## Mulighed for fagfolk
 Som erfaren Synology-bruger kan du naturligvis logge ind med SSH og installere hele opsætningen via Docker Compose-filen.
 ```
@@ -82,8 +82,8 @@ Desuden skal der stadig oprettes et "link" til "mariadb"-containeren. Jeg klikke
 |SYMFONY__ENV__DATABASE_DRIVER	|pdo_mysql|
 |SYMFONY__ENV__DATABASE_HOST	|db|
 |SYMFONY__ENV__DATABASE_PORT	|3306|
-|SYMFONY__ENV__DATABASE_NAME	|wallabag|
-|SYMFONY__ENV__DATABASE_USER	|wallabag|
+|SYMFONY__ENV__DATABASE_NAME	||
+|SYMFONY__ENV__DATABASE_USER	||
 |SYMFONY__ENV__DATABASE_PASSWORD	|wallapass|
 |SYMFONY__ENV__DATABASE_CHARSET |utf8mb4|
 |SYMFONY__ENV__DOMAIN_NAME	|"http://synology-ip:container-port" <- Ændre venligst|
@@ -97,3 +97,4 @@ Beholderen kan nu startes. Det kan tage noget tid at oprette databasen. Adfærde
 {{< gallery match="images/14/*.png" >}}
 Jeg kalder wallabag-serveren med Synologys IP-adresse og min containerport.
 {{< gallery match="images/15/*.png" >}}
+Jeg må dog sige, at jeg personligt foretrækker shiori som et internetarkiv.

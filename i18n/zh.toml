@@ -1,0 +1,23 @@
+[level-1]
+  other = "人人可做"
+
+[level-2]
+  other = "不太容易，也不太难"
+
+[level-3]
+  other = "可能需要更长的时间"
+
+[level-4]
+  other = "很有运动精神"
+
+[level-5]
+  other = "真的很苛刻"
+
+[Difficulty]
+  other = "难度等级"
+
+[Recommendations]
+  other = "建议"
+
+[Comments]
+  other = "评论"

@@ -9,7 +9,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 ## Steg 1: Aktivera tjänsten "NFS".
 Först måste NFS-tjänsten aktiveras på Diskstation. För att göra detta går jag till inställningen "Control Panel" > "File Services" och klickar på "Enable NFS" (aktivera NFS).
 {{< gallery match="images/1/*.png" >}}
-Sedan klickar jag på "Delad mapp" och väljer en katalog.
+Jag klickar sedan på "Delad mapp" och väljer en katalog.
 {{< gallery match="images/2/*.png" >}}
 
 ## Steg 2: Montera kataloger i ESXi
@@ -21,3 +21,4 @@ Nu kan minnet användas.
 {{< gallery match="images/4/*.png" >}}
 För att testa installerade jag en DOS-installation och ett gammalt bokföringsprogram via denna monteringspunkt.
 {{< gallery match="images/5/*.png" >}}
+

@@ -86,3 +86,4 @@ Behållaren kan nu startas. Det kan ta lite tid att skapa databasen. Beteendet k
 {{< gallery match="images/12/*.png" >}}
 Jag ringer Bookstack-servern med Synologys IP-adress och min containerport. Inloggningsnamnet är "admin@admin.com" och lösenordet är "password".
 {{< gallery match="images/13/*.png" >}}
+

@@ -58,11 +58,11 @@ cat data/secrets/initialAdminPassword
 {{</ terminal >}}
 Se:
 {{< gallery match="images/6/*.png" >}}
-Jag har valt "Rekommenderad installation".
+Error:LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to api.deepl.com:443 
 {{< gallery match="images/7/*.png" >}}
 
 ## Steg 5: Mitt första jobb
 Jag loggar in och skapar mitt Docker-jobb.
 {{< gallery match="images/8/*.png" >}}
-Som du kan se fungerar allt utmärkt!
+Som du kan se fungerar allting utmärkt!
 {{< gallery match="images/9/*.png" >}}

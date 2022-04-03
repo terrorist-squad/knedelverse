@@ -37,3 +37,4 @@ ansible all -m ping --ssh-common-args='-o StrictHostKeyChecking=no'
 ansible raspi -m shell -a 'sudo /sbin/reboot'
 
 {{</ terminal >}}
+

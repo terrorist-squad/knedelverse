@@ -11,7 +11,7 @@ Først åbner jeg Docker-appen i Synology-grænsefladen og går derefter til und
 {{< gallery match="images/1/*.png" >}}
 
 ## Trin 2
-Når billedet er downloadet, er det tilgængeligt som et billede. Docker skelner mellem 2 tilstande, container "dynamisk tilstand" og image/image (fast tilstand). Før vi kan oprette en container fra billedet, skal der foretages et par indstillinger.
+Når billedet er downloadet, er det tilgængeligt som et billede. Docker skelner mellem 2 tilstande, container "dynamisk tilstand" og image/image (fast tilstand). Før vi kan oprette en container fra billedet, skal der foretages nogle få indstillinger.
 ## Automatisk genstart
 Jeg dobbeltklikker på mit Confluence-aftryk.
 {{< gallery match="images/2/*.png" >}}

@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "kühlschrank", "erp", "mhd", "Speispläne", "cms", "Cafe", "Bistro"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-grocy/index.cs.md"
 +++
-Pomocí Grocy můžete spravovat celou domácnost, restauraci, kavárnu, bistro nebo potravinový trh. Můžete spravovat ledničky, jídelníčky, úkoly, nákupní seznamy a data trvanlivosti potravin.
+Pomocí Grocy můžete spravovat celou domácnost, restauraci, kavárnu, bistro nebo trh s potravinami. Můžete spravovat chladničky, jídelníčky, úkoly, nákupní seznamy a dobu trvanlivosti potravin.
 {{< gallery match="images/1/*.png" >}}
 Dnes ukážu, jak nainstalovat službu Grocy na diskovou stanici Synology.
 ## Možnost pro profesionály
@@ -52,3 +52,4 @@ Nakonec zadám tyto proměnné prostředí:Viz:
 {{< gallery match="images/7/*.png" >}}
 Nyní lze kontejner spustit. Vyvolám server Grocy s IP adresou Synology a portem kontejneru a přihlásím se pomocí uživatelského jména "admin" a hesla "admin".
 {{< gallery match="images/8/*.png" >}}
+

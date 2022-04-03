@@ -1,6 +1,6 @@
 +++
 date = "2021-04-11"
-title = "Δημιουργική έξοδος από την κρίση: επαγγελματικό webshop με το PrestaShop"
+title = "Δημιουργική έξοδος από την κρίση: επαγγελματικό webshop με PrestaShop"
 difficulty = "level-4"
 tags = ["corona", "Docker", "docker-compose", "kreativ", "krise", "online-shop", "presta", "shop", "shopsystem"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210411-docker-PrestaShop/index.el.md"

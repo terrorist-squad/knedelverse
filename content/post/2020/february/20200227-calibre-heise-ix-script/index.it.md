@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Spesso può essere noioso aggiungere le giuste meta-informazioni ai PDF. Io stesso ordino i PDF scaricati dal mio account di abbonamento Heise IX nella mia biblioteca privata Calibre.
 {{< gallery match="images/1/*.png" >}}
-Poiché questo processo si ripete ogni mese, ho trovato la seguente configurazione. Io trascino solo i miei nuovi PDF nella mia libreria.
+Siccome questo processo si ripete ogni mese, ho trovato il seguente setup. Io trascino solo i miei nuovi PDF nella mia libreria.
 {{< gallery match="images/2/*.png" >}}
 Ho creato un contenitore che ottiene la mia libreria Calibre come volume (-v ...:/books). In questo contenitore ho installato i seguenti pacchetti:
 {{< terminal >}}
@@ -44,3 +44,4 @@ done
 ```
 Con il comando "calibredb set_metadata" ho impostato tutto il resto come tag. Il risultato appare così:
 {{< gallery match="images/3/*.png" >}}
+Lo script è disponibile anche su Github: https://github.com/ChristianKnedel/heise-ix-reader-for-calibre .

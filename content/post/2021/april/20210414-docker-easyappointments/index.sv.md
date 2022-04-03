@@ -5,7 +5,7 @@ difficulty = "level-3"
 tags = ["buchung", "buchungstool", "click-and-meet", "corona", "Docker", "docker-compose", "easyappointments", "krise", "einzelhandel", "geschaefte"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-easyappointments/index.sv.md"
 +++
-Corona-krisen drabbar tjänsteleverantörerna i Tyskland hårt. Digitala verktyg och lösningar kan hjälpa dig att ta dig igenom Corona-pandemin på ett så säkert sätt som möjligt. I den här handledningsserien "Kreativt ur krisen" visar jag teknik eller verktyg som kan vara användbara för småföretag.I dag visar jag "Easyappointments", ett bokningsverktyg för att boka tjänster, till exempel frisörer eller butiker, genom att klicka och träffa varandra. Easy Appointments består av två områden:
+Corona-krisen drabbar tjänsteleverantörerna i Tyskland hårt. Digitala verktyg och lösningar kan hjälpa dig att ta dig igenom Corona-pandemin på ett så säkert sätt som möjligt. I den här handledningsserien "Kreativt ur krisen" visar jag teknik eller verktyg som kan vara användbara för småföretag.I dag visar jag "Easyappointments", ett bokningsverktyg för att boka tjänster, till exempel frisörer eller butiker, genom att klicka och mötas. Easy Appointments består av två områden:
 ## Område 1: Baksidan
 En "backend" för hantering av tjänster och möten.
 {{< gallery match="images/1/*.png" >}}
@@ -77,11 +77,11 @@ Slutkonsumenten kan också välja tjänst och önskad tjänsteleverantör.
 {{< gallery match="images/4/*.png" >}}
 
 ## Arbetstid och raster
-Allmänna jourtider kan ställas in under "Inställningar" > "Affärslogik". Tjänsteleverantörernas/användarnas arbetstider kan dock också ändras i användarens "Arbetsplan".
+Allmänna jourtider kan ställas in under "Inställningar" > "Affärslogik". Arbetstiderna för tjänsteleverantörer/användare kan dock också ändras i användarens "Arbetsplan".
 {{< gallery match="images/5/*.png" >}}
 
 ## Bokningsöversikt och dagbok
-I kalenderbilden syns alla bokningar. Naturligtvis kan bokningar också skapas eller redigeras där.
+I kalenderlistan är alla bokningar synliga. Naturligtvis kan bokningar också skapas eller redigeras där.
 {{< gallery match="images/6/*.png" >}}
 
 ## Färg eller logiska justeringar

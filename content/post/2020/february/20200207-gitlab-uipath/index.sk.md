@@ -60,3 +60,4 @@ build1:
 ```
 Môj softvérový robot pre systém Windows sa spustí priamo po odovzdaní do hlavnej vetvy:
 {{< gallery match="images/14/*.png" >}}
+Automatické spustenie robota možno spravovať prostredníctvom možnosti "Plány". Veľkou výhodou tejto kombinácie je, že "robotické" projekty a výsledky projektov (artefakty) môžu byť centrálne kontrolované, verzované a spravované systémom Gitlab spolu s inými "nerobotickými" projektmi.

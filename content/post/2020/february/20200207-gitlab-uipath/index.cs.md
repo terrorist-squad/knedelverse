@@ -5,7 +5,7 @@ difficulty = "level-5"
 tags = ["git", "gitlab", "robot", "roboter", "Robotic-Process-Automation", "rpa", "uipath", "windows"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200207-gitlab-uipath/index.cs.md"
 +++
-UiPath je zavedeným standardem v oblasti robotické automatizace procesů. Pomocí uiPath můžete vyvinout softwarového robota/bota, který se za vás postará o složité zpracování dat nebo o úlohy klikání. Lze však takového robota ovládat i pomocí Gitlabu?Stručná odpověď zní "ano". A jak přesně, se můžete podívat zde. K následujícím krokům potřebujete administrátorská práva a určité zkušenosti s uiPath, Windows a Gitlabem.
+UiPath je zavedeným standardem v oblasti automatizace robotických procesů. Pomocí uiPath můžete vyvinout softwarového robota/bota, který se za vás postará o složité zpracování dat nebo o úlohy klikání. Lze však takového robota ovládat i pomocí Gitlabu?Stručná odpověď zní "ano". A jak přesně, se můžete podívat zde. K následujícím krokům potřebujete administrátorská práva a určité zkušenosti s uiPath, Windows a Gitlabem.
 ## Krok 1: Nejprve je třeba nainstalovat spouštěč Gitlab.
 1.1.) Vytvořte nového uživatele Gitlabu pro cílový operační systém. Klikněte na "Nastavení" > "Rodina a další uživatelé" a poté na "Přidat další osobu k tomuto počítači".
 {{< gallery match="images/1/*.png" >}}
@@ -41,7 +41,7 @@ Skvělé! Váš Gitlab Runner je spuštěn a použitelný.
 Vzhledem k tomu, že spouštěč Gitlab pracuje s verzováním systému Git, musí být nainstalován také systém Git pro Windows:
 {{< gallery match="images/11/*.png" >}}
 
-## Krok 5: Instalace UiPath
+## Krok 5: Instalace aplikace UiPath
 Instalace UiPath je nejjednodušší částí tohoto návodu. Přihlaste se jako uživatel Gitlabu a nainstalujte komunitní verzi. Samozřejmě můžete ihned nainstalovat veškerý software, který váš robot potřebuje, například: Office 365.
 {{< gallery match="images/12/*.png" >}}
 
@@ -60,3 +60,4 @@ build1:
 ```
 Můj softwarový robot pro Windows se spustí přímo po odevzdání do hlavní větve:
 {{< gallery match="images/14/*.png" >}}
+Automatické spuštění robota lze spravovat pomocí možnosti "Plány". Velkou výhodou této kombinace je, že "robotické" projekty a výsledky projektů (artefakty) lze centrálně kontrolovat, verzovat a spravovat pomocí Gitlabu s ostatními "nerobotickými" projekty.

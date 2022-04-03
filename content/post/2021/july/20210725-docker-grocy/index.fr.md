@@ -52,3 +52,4 @@ Pour finir, je saisis ces variables d'environnement:Voir :
 {{< gallery match="images/7/*.png" >}}
 Le conteneur peut maintenant être démarré. J'appelle le serveur Grocy avec l'adresse IP de Synology et mon port de conteneur et je me connecte avec le nom d'utilisateur "admin" et le mot de passe "admin".
 {{< gallery match="images/8/*.png" >}}
+

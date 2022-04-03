@@ -1,6 +1,6 @@
 +++
 date = "2021-03-06"
-title = "Dashboard s RaspberryPiZeroW, Javascriptem a GitLabem"
+title = "Dashboard problémů s RaspberryPiZeroW, Javascriptem a GitLabem"
 difficulty = "level-3"
 tags = ["git", "gitlab", "issueboard", "issues", "javascript", "wallboard"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210306-gitlab-dashboard/index.cs.md"

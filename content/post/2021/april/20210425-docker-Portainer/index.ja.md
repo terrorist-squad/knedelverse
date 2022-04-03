@@ -1,28 +1,28 @@
 +++
 date = "2021-04-25T09:28:11+01:00"
-title = "コンテナの素晴らしさ：Synology Docker GUIの代替としてのPortainer"
+title = "コンテナで素晴らしいものを：Synology Docker GUI の代替となる Portainer"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "watchtower"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Portainer/index.ja.md"
 +++
 
-## ステップ1：Synologyの準備
-まず、DiskStationでSSHログインを有効にする必要があります。そのためには、「コントロールパネル」→「ターミナル」で
+## ステップ1：Synologyを準備する
+まず、DiskStationでSSHログインを有効にする必要があります。そのためには、「コントロールパネル」→「ターミナル」を開きます。
 {{< gallery match="images/1/*.png" >}}
-そして、「SSH」で指定されたポートと管理者パスワードでログインします（WindowsユーザーはPuttyまたはWinSCPを使用）。
+そして、「SSH」、指定されたポート、管理者パスワードでログインします（WindowsユーザーはPuttyまたはWinSCPを使用します）。
 {{< gallery match="images/2/*.png" >}}
-Terminal、winSCP、Puttyなどでログインして、このコンソールを後から開くようにしています。
+ターミナル、winSCP、Puttyでログインして、このコンソールを開いたままにしておくと、後で便利です。
 ## ステップ2：portainerフォルダの作成
-Dockerのディレクトリに「portainer」という新しいディレクトリを作ります。
+Dockerディレクトリの中に「portainer」というディレクトリを新規に作成します。
 {{< gallery match="images/3/*.png" >}}
-そして、コンソールでportainerディレクトリに行き、そこに「portainer.yml」というフォルダと新しいファイルを作成します。
+そして、コンソールでportainerディレクトリに行き、そこに「portainer.yml」というフォルダとファイルを新規に作成するのです。
 {{< terminal >}}
 cd /volume1/docker/portainer
 mkdir portainer_data
 vim portainer.yml
 
 {{</ terminal >}}
-以下は「portainer.yml」ファイルの内容です。
+以下は、「portainer.yml」ファイルの内容です。
 ```
 version: '3'
 
@@ -39,14 +39,14 @@ services:
       - ./portainer_data:/data
 
 ```
-家庭での使用に便利なDockerイメージは、[Dockerverse]({{< ref "dockerverse" >}} "Dockerverse")にもあります。
-## Step 3: ポータースタート
-また、このステップでは、コンソールをうまく利用することができます。私はDocker Compose経由でportainerサーバーを起動します。
+家庭で使える便利なDockerイメージは、[ドッカーバース]({{< ref "dockerverse" >}} "ドッカーバース").Dockerにあります。
+## ステップ3：ポーテナ開始
+このステップでは、コンソールもうまく活用できるんだ。Docker Composeでportainerサーバを起動させています。
 {{< terminal >}}
 sudo docker-compose -f portainer.yml up -d
 
 {{</ terminal >}}
-そして、ディスクステーションのIPと「ステップ2」で割り当てられたポートを使って、Portainerサーバーを呼び出すことができます。私は管理者のパスワードを入力し、ローカル変数を選択します。
+そして、ディスクステーションのIPと「ステップ2」で割り当てたポートで、Portainerサーバーを呼び出すことができます。管理者パスワードを入力し、ローカルバリアントを選択しています。
 {{< gallery match="images/4/*.png" >}}
-ご覧の通り、すべてが素晴らしい出来です。
+ご覧のとおり、すべてがうまくいっています。
 {{< gallery match="images/5/*.png" >}}

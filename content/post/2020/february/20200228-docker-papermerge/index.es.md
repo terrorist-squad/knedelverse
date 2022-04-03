@@ -52,5 +52,5 @@ Papermerge analiza el texto de documentos e imágenes. Papermerge utiliza una bi
 {{< gallery match="images/9/*.png" >}}
 He creado una carpeta llamada "Todo con Lorem" para probar la asignación automática de documentos. A continuación, hice clic en un nuevo patrón de reconocimiento en la opción de menú "Automatizaciones".
 {{< gallery match="images/10/*.png" >}}
-Todos los documentos nuevos que contienen la palabra "Lorem" se colocan en la carpeta "Todo con Lorem" y se etiquetan como "has-lorem". Es importante utilizar una coma en las etiquetas, de lo contrario la etiqueta no se establecerá. Si subes un documento correspondiente, se etiquetará y clasificará.
+Todos los documentos nuevos que contienen la palabra "Lorem" se colocan en la carpeta "Todo con Lorem" y se etiquetan como "has-lorem". Es importante utilizar una coma en las etiquetas, de lo contrario la etiqueta no se establecerá. Si subes un documento, se etiquetará y clasificará.
 {{< gallery match="images/11/*.png" >}}

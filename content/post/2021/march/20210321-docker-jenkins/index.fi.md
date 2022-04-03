@@ -58,7 +58,7 @@ cat data/secrets/initialAdminPassword
 {{</ terminal >}}
 Katso:
 {{< gallery match="images/6/*.png" >}}
-Olen valinnut "Suositeltava asennus".
+Olen valinnut "Suositeltu asennus".
 {{< gallery match="images/7/*.png" >}}
 
 ## Vaihe 5: Ensimmäinen työpaikka

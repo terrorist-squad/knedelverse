@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "docker-for-desktop", "radio", "mp3", "ripp", "streamripper", "radiorecorder"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2022/march/20220321-docker-mighty-mixxx-tapper/index.pl.md"
 +++
-Streamripper to narzędzie wiersza poleceń, które służy do nagrywania strumieni MP3 lub OGG/Vorbis i zapisywania ich bezpośrednio na dysku twardym. Utwory są automatycznie nazywane imionami wykonawców i zapisywane indywidualnie, a ich format jest taki, jaki został pierwotnie wysłany (czyli w efekcie tworzone są pliki z rozszerzeniem .mp3 lub .ogg). Znalazłem świetny interfejs radiorecordera i zbudowałem z niego obraz Dockera, patrz: https://github.com/terrorist-squad/mightyMixxxTapper/
+Streamripper to narzędzie wiersza poleceń, które służy do nagrywania strumieni MP3 lub OGG/Vorbis i zapisywania ich bezpośrednio na dysku twardym. Utwory są automatycznie nazywane zgodnie z nazwą wykonawcy i zapisywane indywidualnie, a ich format jest taki, jaki został pierwotnie wysłany (w rzeczywistości tworzone są więc pliki z rozszerzeniem .mp3 lub .ogg). Znalazłem świetny interfejs radiorecordera i zbudowałem z niego obraz Dockera, patrz: https://github.com/terrorist-squad/mightyMixxxTapper/
 {{< gallery match="images/1/*.png" >}}
 
 ## Opcja dla profesjonalistów
@@ -33,7 +33,7 @@ Po pobraniu obrazu jest on dostępny jako obraz. Docker rozróżnia dwa stany: k
 ## Krok 2: Uruchomienie obrazu:
 Klikam dwukrotnie na obraz "mighty-mixxx-tapper".
 {{< gallery match="images/3/*.png" >}}
-Następnie klikam na "Ustawienia zaawansowane" i włączam opcję "Automatyczne ponowne uruchamianie". Wybieram zakładkę "Wolumin" i klikam "Dodaj folder". W tym miejscu tworzę nowy folder ze ścieżką montowania "/tmp/ripps/".
+Następnie klikam na "Ustawienia zaawansowane" i włączam opcję "Automatyczne ponowne uruchamianie". Wybieram zakładkę "Wolumin" i klikam "Dodaj folder". Tworzę w nim nowy folder ze ścieżką montowania "/tmp/ripps/".
 {{< gallery match="images/4/*.png" >}}
 Przydzielam stałe porty dla kontenera "mighty-mixxx-tapper". Bez ustalonych portów może się zdarzyć, że serwer "mighty-mixxx-tapper-server" będzie działał na innym porcie po ponownym uruchomieniu.
 {{< gallery match="images/5/*.png" >}}

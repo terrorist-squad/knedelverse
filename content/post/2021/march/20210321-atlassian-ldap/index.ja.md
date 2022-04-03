@@ -1,13 +1,13 @@
 +++
 date = "2021-03-24"
-title = "アトラシアンの優れた点: アトラシアンのすべてのツールをLDAPで使用することができます。"
+title = "アトラシアンでのクールな使い方: LDAP ですべてのアトラシアンツールを使用する"
 difficulty = "level-3"
 tags = ["atlassian", "bamboo", "jira", "ldap", "openldap", "linux", "test"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-atlassian-ldap/index.ja.md"
 +++
-自分でAtlassianをインストールしている人はラッキーです。今日は、Jira、Bamboo、ConfluenceをLDAPサーバーに接続する方法を紹介します。
+Atlassianのインストールを自分で行っている人はラッキーです。今日は、Jira、Bamboo、Confluence を LDAP サーバーに接続する方法を紹介します。
 ## ステップ1：OpenLDAPのインストール
-このDocker Composeファイルを使って、Synology NASにOpenLDAPをセットアップしました。
+このDocker ComposeファイルでOpenLDAPをSynologyのNASにセットアップしました。
 ```
 ersion: '2'
 services:
@@ -65,25 +65,25 @@ networks:
 
 ```
 
-## ステップ2：OpenLDAPの設定
-LDAPサーバーでは、異なるツールのためのグループを作成しました。
+## ステップ2：OpenLDAPのセットアップ
+LDAPサーバーに、さまざまなツールのグループを作成しました。
 {{< gallery match="images/1/*.png" >}}
 
-## ステップ3：アトラシアンツールの接続
-設定方法は、すべてのアトラシアンツールで同じです。私は、LDAPサーバーのIPアドレスとポートを入力します。
+## ステップ 3: Atlassian ツールの接続
+設定は、すべてのアトラシアンツールで同じです。LDAPサーバーのIPアドレスとポートを入力しています。
 {{< gallery match="images/2/*.png" >}}
-LDAPスキーム」では、「基本DN」のみを入力しています。自己署名証明書の場合は、「Secure SSL」のオプションを無効にする必要があります。
+LDAPスキーム」は「Basic DN」のみを入力しました。自己署名証明書の場合は、「セキュアSSL」オプションをオフにする必要があります。
 {{< gallery match="images/3/*.png" >}}
 
 ## 自己署名証明書のその他の特徴
-自己署名証明書を使用しているので、トラストストアの入力には
+自己署名証明書を使っているので、トラストストアに入るのは
 ```
 -Dcom.sun.jndi.ldap.object.disableEndpointIdentification=true -Djdk.tls.trustNameService=true -Dcom.sun.jndi.ldap.object.disableEndpointIdentification -Djavax.net.ssl.trustStore=/store/keystore.jks -Djavax.net.ssl.trustStorePassword=password
 
 ```
-見てください。
+ご覧ください。
 {{< gallery match="images/4/*.png" >}}
 
 ## ステップ4：ユーザーとグループのスキーム
-以下のようなユーザーとグループの設定を取っています。最も重要なのは、「グループオブジェクトフィルタ」の設定です。もちろん、Bamboo、Confluence、Jiraでは異なります。
+私は以下のユーザーとグループの設定を取りました。最も重要なのは、「グループオブジェクトフィルター」の設定です。もちろん、Bamboo、Confluence、Jiraでは異なります。
 {{< gallery match="images/5/*.png" >}}

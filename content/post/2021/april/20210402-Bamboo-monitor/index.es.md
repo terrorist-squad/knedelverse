@@ -1,11 +1,11 @@
 +++
-date = "2021-04-04"
+date = "2021-04-0q"
 title = "Cosas geniales con Atlassian: Pimp my Bamboo Monitor"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-Bamboo-monitor/index.es.md"
 +++
-¿Cómo puedo crear un monitor de construcción para Bamboo, Jenkins o Gitlab? ¡Lo resolveré esta noche! Ya he escrito un [Tutorial para Gitlab-Issue-Boards]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Tutorial para Gitlab-Issue-Boards") similar.
+¿Cómo puedo crear un monitor de construcción para Bamboo, Jenkins o Gitlab? ¡Lo resolveré esta noche! Ya he escrito un [Tutorial para los Issue Boards de Gitlab]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Tutorial para los Issue Boards de Gitlab") similar.
 {{< gallery match="images/1/*.jpg" >}}
 La base de este tutorial es el Raspberry Imager y el sistema operativo "Raspberry Pi OS Lite". Después de la instalación del sistema operativo, se puede insertar la tarjeta SD en la Raspberry. En mi caso, se trata de una Raspberry Pi Zero.
 {{< gallery match="images/2/*.*" >}}
@@ -94,7 +94,7 @@ exit
 {{</ terminal >}}
 
 ##  3.5.) behaviour.js y el texto desplazado
-Este Javascript controla el comportamiento del tablero. Si la compilación o la prueba fallan, se muestra un teletipo grande. Así puedo ver los errores incluso a distancia.
+Este Javascript controla el comportamiento del tablero. Si la construcción o la prueba fallan, se muestra un gran teletipo. Así puedo ver los errores incluso a distancia.
 {{< gallery match="images/3/*.png" >}}
 
 {{< terminal >}}
@@ -197,7 +197,7 @@ timer.append(
 ```
 Por supuesto, puede incorporar cualquier comportamiento que desee, como reiniciar las pruebas fallidas.
 ## 4. autologue en la sesión X
-El siguiente paso es establecer el inicio de sesión automático. Este archivo está adaptado para este fin:
+El siguiente paso es establecer el inicio de sesión automático. Este archivo está adaptado para ello:
 {{< terminal >}}
 sudo vim /etc/default/nodm
 
@@ -227,3 +227,4 @@ sudo reboot
 {{</ terminal >}}
 
 ## Listo
+Cada dasboard debe reiniciarse una vez al día. He creado un cron para esto.

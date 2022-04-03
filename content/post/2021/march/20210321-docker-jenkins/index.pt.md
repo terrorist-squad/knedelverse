@@ -7,11 +7,11 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 
 ## Passo 1: Preparar a Sinologia
-Primeiro, o login SSH deve ser ativado no DiskStation. Para fazer isso, vá para o "Painel de Controle" > "Terminal
+Primeiro, o login do SSH deve ser ativado no DiskStation. Para fazer isso, vá para o "Painel de Controle" > "Terminal
 {{< gallery match="images/1/*.png" >}}
 Então você pode entrar via "SSH", a porta especificada e a senha do administrador (usuários do Windows usam Putty ou WinSCP).
 {{< gallery match="images/2/*.png" >}}
-Eu inicio sessão via Terminal, winSCP ou Putty e deixo este console aberto para mais tarde.
+Eu inicio sessão via Terminal, winSCP ou Putty e deixo esta consola aberta para mais tarde.
 ## Passo 2: Preparar pasta Docker
 Eu crio um novo diretório chamado "jenkins" no diretório Docker.
 {{< gallery match="images/3/*.png" >}}

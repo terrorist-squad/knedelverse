@@ -5,7 +5,7 @@ difficulty = "level-4"
 tags = ["esxi", "homelab", "hypervisor", "linux", "nuc", "vmware"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210307-esxi-nuc/index.sl.md"
 +++
-S sistemom ESXi lahko računalnik intel NUC razdelite na poljubno število računalnikov. V tem priročniku prikazujem, kako sem na svoj računalnik NUC namestil VMware ESXi.Majhen uvod: pred namestitvijo ESXi priporočam posodobitev BIOS-a. Potrebujete tudi ključek USB s kapaciteto 32 GB. Celoten paket sem kupil na Amazonu za manj kot 5 evrov za kos.
+S sistemom ESXi lahko računalnik intel NUC razdelite na poljubno število računalnikov. V tem vodniku prikazujem, kako sem na svoj računalnik NUC namestil VMware ESXi.Majhen uvod: Pred namestitvijo ESXi priporočam posodobitev BIOS-a. Potrebujete tudi ključek USB s kapaciteto 32 GB. Celoten paket sem kupil na Amazonu za manj kot 5 evrov za kos.
 {{< gallery match="images/1/*.jpg" >}}
 Moj NUC-8I7BEH ima 2x 16GB HyperX Impact Ram, 1x 256GB Samsung 970 EVO M2 modul in 1TB 2,5-palčni trdi disk WD-RED.
 {{< gallery match="images/2/*.jpg" >}}

@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["104.6rtl", "fm-streaming", "pi", "radio", "raspberry-pi"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2019/july/20190717-rpi-pifm/index.fi.md"
 +++
-Jos olet 104.6 RTL:n fani etkä halua viettää päivääkään ilman Berliinin hittiradiota, olet oikeassa paikassa. Tarvitset yhden piirilevyn tietokoneen nimeltä Raspberry ja kaapelin GPIO-porttiin 4 antenniksi.
+Jos olet 104.6 RTL:n fani etkä halua viettää päivääkään ilman Berliinin hittiradiota, olet oikeassa paikassa. Tarvitset yhden piirilevyn tietokoneen nimeltä Raspberry ja GPIO-porttiin 4 liitettävän kaapelin antenniksi.
 ## Tarvitaan seuraavat paketit
 
 {{< terminal >}}

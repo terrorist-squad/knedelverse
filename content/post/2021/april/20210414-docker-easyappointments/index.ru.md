@@ -64,7 +64,7 @@ networks:
   easyappointments-network:
 
 ```
-Этот файл запускается через Docker Compose. После этого установка становится доступной под предназначенным доменом/портом.
+Этот файл запускается через Docker Compose. После этого установка становится доступной в указанном домене/порту.
 {{< terminal >}}
 docker-compose -f easyappointments.yml up
 

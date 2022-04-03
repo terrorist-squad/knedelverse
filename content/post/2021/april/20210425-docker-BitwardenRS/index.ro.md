@@ -15,7 +15,7 @@ Fac clic pe fila "Înregistrare" din fereastra Synology Docker și caut "bitward
 {{< gallery match="images/2/*.png" >}}
 Dau dublu clic pe imaginea mea de bitwardenrs. Apoi fac clic pe "Setări avansate" și activez și aici "Repornire automată".
 {{< gallery match="images/3/*.png" >}}
-Selectez fila "Volume" și fac clic pe "Add Folder". Acolo creez un nou folder cu această cale de montare "/data".
+Selectez fila "Volume" și fac clic pe "Add Folder". Acolo creez un nou dosar cu această cale de montare "/data".
 {{< gallery match="images/4/*.png" >}}
 Atribui porturi fixe pentru containerul "bitwardenrs". Fără porturi fixe, s-ar putea ca "serverul bitwardenrs" să ruleze pe un port diferit după o repornire. Primul port container poate fi șters. Celălalt port trebuie reținut.
 {{< gallery match="images/5/*.png" >}}

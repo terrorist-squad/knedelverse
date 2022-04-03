@@ -9,7 +9,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 {{< gallery match="images/1/*.png" >}}
 Тъй като този процес се повтаря всеки месец, измислих следната конфигурация. Влача само новите PDF файлове в библиотеката си.
 {{< gallery match="images/2/*.png" >}}
-Създадох контейнер, който получава моята библиотека на Calibre като том (-v ...:/books). В този контейнер съм инсталирал следните пакети:
+Създадох контейнер, който получава библиотеката ми в Calibre като том (-v ...:/books). В този контейнер съм инсталирал следните пакети:
 {{< terminal >}}
 apt-get update && apt-get install -y xpdf calibre
 
@@ -44,3 +44,4 @@ done
 ```
 С командата "calibredb set_metadata" задавам всичко останало като тагове. Резултатът изглежда така:
 {{< gallery match="images/3/*.png" >}}
+Скриптът е достъпен и в Github: https://github.com/ChristianKnedel/heise-ix-reader-for-calibre .

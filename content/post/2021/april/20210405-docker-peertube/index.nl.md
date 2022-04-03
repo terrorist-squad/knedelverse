@@ -135,3 +135,4 @@ curl -s '$API_PATH/videos/upload'-H 'Authorization: Bearer $token' --max-time 11
 ```
 
 ## Mijn tip: Lees "Geweldige dingen met containers: Docker services veiliger maken met LDAP en NGINX".
+Ik gebruik mijn Peertube met een omgekeerde proxy. Dit betekent dat alleen LDAP-gebruikers toegang hebben tot deze dienst. Ik heb deze opstelling gedocumenteerd onder "[Geweldige dingen met containers: Docker-services veiliger maken met LDAP en NGINX]({{< ref "post/2021/april/20210402-nginx-reverse-proxy" >}} "Geweldige dingen met containers: Docker-services veiliger maken met LDAP en NGINX")".

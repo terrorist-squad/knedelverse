@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Miután létrehoztam egy Kubernetes fürtöt az [Nagyszerű dolgok konténerekkel: Kubenetes fürt és NFS tárolás]({{< ref "post/2021/june/20210620-pi-kubenetes-cloud" >}} "Nagyszerű dolgok konténerekkel: Kubenetes fürt és NFS tárolás") bemutatóban, szeretnék telepíteni egy Kubernetes dashboardot.
 {{< gallery match="images/1/*.jpg" >}}
-Ez a parancs mindent tartalmaz, amire szükségem van a projektemhez:
+Ez a parancs tartalmaz mindent, amire szükségem van a projektemhez:
 {{< terminal >}}
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.2.0/aio/deploy/recommended.yaml
 

@@ -21,7 +21,7 @@ Após o download da imagem, a imagem está disponível como imagem. Docker disti
 ## Passo 4: Colocar a imagem em funcionamento:
 Faço duplo clique na minha imagem Calibre.
 {{< gallery match="images/4/*.png" >}}
-Depois clico em "Definições avançadas" e activo o "Reinício automático". Eu seleciono o separador "Volume" e clico em "Adicionar pasta". Lá eu crio uma nova pasta de banco de dados com este caminho de montagem "/calibre".
+Depois clico em "Definições avançadas" e activo o "Reinício automático". Selecciono o separador "Volume" e clico em "Adicionar pasta". Lá eu crio uma nova pasta de banco de dados com este caminho de montagem "/calibre".
 {{< gallery match="images/5/*.png" >}}
 Atribuo portos fixos para o contentor Calibre. Sem portas fixas, poderia ser que o Calibre funcione em uma porta diferente após um reinício.
 {{< gallery match="images/6/*.png" >}}

@@ -5,7 +5,7 @@ difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "dokuwiki", "wiki"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-dokuWiki/index.ro.md"
 +++
-DokuWiki este un software wiki cu sursă deschisă compatibil cu standardele, ușor de utilizat și, în același timp, extrem de versatil. Astăzi vă arăt cum să instalați un serviciu DokuWiki pe stația de discuri Synology.
+DokuWiki este un software wiki open source compatibil cu standardele, ușor de utilizat și, în același timp, extrem de versatil. Astăzi vă arăt cum să instalați un serviciu DokuWiki pe stația de discuri Synology.
 ## Opțiune pentru profesioniști
 În calitate de utilizator experimentat Synology, vă puteți, desigur, conecta cu SSH și instala întreaga configurație prin intermediul fișierului Docker Compose.
 ```
@@ -50,3 +50,4 @@ Atribui porturi fixe pentru containerul "dokuwiki". Fără porturi fixe, s-ar pu
 {{< gallery match="images/5/*.png" >}}
 Containerul poate fi pornit acum. Chem serverul dokuWIki cu adresa IP a Synology și portul containerului meu.
 {{< gallery match="images/6/*.png" >}}
+

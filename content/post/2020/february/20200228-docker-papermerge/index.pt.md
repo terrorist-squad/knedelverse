@@ -52,5 +52,5 @@ Papermerge analisa o texto de documentos e imagens. Papermerge utiliza uma bibli
 {{< gallery match="images/9/*.png" >}}
 Eu criei uma pasta chamada "Tudo com Lorem" para testar a atribuição automática de documentos. Depois cliquei num novo padrão de reconhecimento no item de menu "Automatismos".
 {{< gallery match="images/10/*.png" >}}
-Todos os novos documentos contendo a palavra "Lorem" são colocados na pasta "Tudo com Lorem" e marcados com "has-lorem". É importante usar uma vírgula nas etiquetas, caso contrário, a etiqueta não será definida. Se você carregar um documento correspondente, ele será etiquetado e classificado.
+Todos os novos documentos contendo a palavra "Lorem" são colocados na pasta "Tudo com Lorem" e marcados com "has-lorem". É importante usar uma vírgula nas etiquetas, caso contrário, a etiqueta não será definida. Se você carregar um documento, ele será etiquetado e classificado.
 {{< gallery match="images/11/*.png" >}}

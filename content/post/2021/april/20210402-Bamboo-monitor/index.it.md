@@ -1,13 +1,13 @@
 +++
-date = "2021-04-04"
+date = "2021-04-0q"
 title = "Cose interessanti con Atlassian: Pimp my Bamboo Monitor"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-Bamboo-monitor/index.it.md"
 +++
-Come posso creare un monitor di build per Bamboo, Jenkins o Gitlab? Lo capirò entro stasera! Ho già scritto un [Tutorial per Gitlab-Issue-Board]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Tutorial per Gitlab-Issue-Board") simile.
+Come posso creare un monitor di build per Bamboo, Jenkins o Gitlab? Lo capirò entro stasera! Ho già scritto un [Tutorial per le schede di problemi di Gitlab]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Tutorial per le schede di problemi di Gitlab") simile.
 {{< gallery match="images/1/*.jpg" >}}
-La base di questo tutorial è il Raspberry Imager e il sistema operativo "Raspberry Pi OS Lite". Dopo l'installazione del sistema operativo, la scheda SD può essere inserita nel Raspberry. Nel mio caso, questo è un Raspberry Pi Zero.
+La base di questo tutorial è il Raspberry Imager e il sistema operativo "Raspberry Pi OS Lite". Dopo aver installato il sistema operativo, la scheda SD può essere inserita nel Raspberry. Nel mio caso, questo è un Raspberry Pi Zero.
 {{< gallery match="images/2/*.*" >}}
 
 ## Passo 1: installare Matchbox/Window Manager
@@ -32,7 +32,7 @@ sudo su dashboard
 {{</ terminal >}}
 
 ##  3.1. ) Pulsanti/funzioni
-Voglio che il mio Raspberry sia utilizzabile in modalità chiosco. Per fare questo, memorizzo due comandi chiave, Ctrl Alt X per il terminale e Alt C per chiudere il terminale. Nel terminale potete interrogare l'IP corrente con ifconfig, spegnere il Raspberry con sudo shutdown -h now etc.....
+Voglio che il mio Raspberry sia utilizzabile in modalità chiosco. Per fare questo, memorizzo due comandi chiave, Ctrl Alt X per il terminale e Alt C per chiudere il terminale. Nel terminale, potete interrogare l'IP corrente con ifconfig, spegnere il Raspberry con sudo shutdown -h now etc.....
 {{< terminal >}}
 cd ~
 mkdir .matchbox
@@ -227,3 +227,4 @@ sudo reboot
 {{</ terminal >}}
 
 ## Pronto
+Ogni dasboard dovrebbe essere riavviato una volta al giorno. Ho creato un cron per questo.

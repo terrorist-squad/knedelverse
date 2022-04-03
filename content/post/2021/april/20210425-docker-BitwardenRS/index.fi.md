@@ -13,9 +13,9 @@ Luon Docker-hakemistoon uuden hakemiston nimeltä "bitwarden".
 ## Vaihe 2: Asenna BitwardenRS
 Napsautan Synology Docker -ikkunan "Rekisteröinti"-välilehteä ja etsin "bitwarden". Valitsen Docker-kuvan "bitwardenrs/server" ja napsautan sitten tagia "latest".
 {{< gallery match="images/2/*.png" >}}
-Kaksoisnapsautan bitwardenrs-kuvaani. Sitten napsautan "Lisäasetukset" ja aktivoin "Automaattinen uudelleenkäynnistys" myös täällä.
+Kaksoisnapsautan bitwardenrs-kuvaani. Sitten napsautan "Lisäasetukset" ja aktivoin "Automaattinen uudelleenkäynnistys" myös tässä.
 {{< gallery match="images/3/*.png" >}}
-Valitsen välilehden "Volume" ja napsautan "Add Folder". Siellä luon uuden kansion, jossa on tämä kiinnityspolku "/data".
+Valitsen "Volume"-välilehden ja napsautan "Add Folder". Siellä luon uuden kansion, jossa on tämä liitäntäpolku "/data".
 {{< gallery match="images/4/*.png" >}}
 Määritän kiinteät portit "bitwardenrs"-säiliölle. Ilman kiinteitä portteja voi olla, että bitwardenrs-palvelin toimii eri portissa uudelleenkäynnistyksen jälkeen. Ensimmäinen konttisatama voidaan poistaa. Toinen satama olisi muistettava.
 {{< gallery match="images/5/*.png" >}}

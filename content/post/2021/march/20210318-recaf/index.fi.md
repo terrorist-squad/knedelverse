@@ -12,3 +12,4 @@ Työkalu löytyy seuraavasta osoitteesta: https://github.com/Col-E/Recaf/release
 java -jar recaf-2.18.2-J8-jar-with-dependencies.jar
 
 {{</ terminal >}}
+

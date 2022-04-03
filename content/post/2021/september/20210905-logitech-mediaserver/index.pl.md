@@ -9,13 +9,13 @@ W tym samouczku dowiesz się, jak zainstalować serwer multimediów firmy Logite
 {{< gallery match="images/1/*.jpg" >}}
 
 ## Krok 1: Przygotuj folder Logitech Media Server
-Tworzę nowy katalog o nazwie "logitechmediaserver" w katalogu Docker.
+W katalogu Docker tworzę nowy katalog o nazwie "logitechmediaserver".
 {{< gallery match="images/2/*.png" >}}
 
 ## Krok 2: Zainstaluj obraz Logitech Mediaserver
-Klikam na zakładkę "Rejestracja" w oknie Synology Docker i wyszukuję "logitechmediaserver". Wybieram obraz Docker "lmscommunity/logitechmediaserver", a następnie klikam na tag "latest".
+Klikam kartę "Rejestracja" w oknie Synology Docker i wyszukuję "logitechmediaserver". Wybieram obraz Docker "lmscommunity/logitechmediaserver", a następnie klikam znacznik "latest".
 {{< gallery match="images/3/*.png" >}}
-Klikam dwukrotnie obraz serwera Logitech Media Server. Następnie klikam na "Ustawienia zaawansowane" i aktywuję "Automatyczny restart" również tutaj.
+Klikam dwukrotnie obraz serwera Logitech Media Server. Następnie klikam na "Ustawienia zaawansowane" i włączam opcję "Automatyczne ponowne uruchamianie".
 {{< gallery match="images/4/*.png" >}}
 {{<table "table table-striped table-bordered">}}
 |Ordner |Mountpath|
@@ -24,11 +24,12 @@ Klikam dwukrotnie obraz serwera Logitech Media Server. Następnie klikam na "Ust
 |/volume1/docker/logitechmediaserver/music |/muzyka|
 |/volume1/docker/logitechmediaserver/playlist |/playlista|
 {{</table>}}
-Wybieram zakładkę "Wolumin" i klikam na "Dodaj folder". Tam tworzę trzy foldery:Zobacz:
+Wybieram zakładkę "Wolumin" i klikam "Dodaj folder". W tym miejscu tworzę trzy foldery:Zobacz:
 {{< gallery match="images/5/*.png" >}}
-Przydzielam stałe porty dla kontenera "Logitechmediaserver". Bez ustalonych portów, może się zdarzyć, że "serwer Logitechmediaserver" działa na innym porcie po ponownym uruchomieniu.
+Do kontenera "Logitechmediaserver" przypisuję stałe porty. Bez ustalonych portów może się zdarzyć, że po ponownym uruchomieniu "serwer Logitechmediaserver" działa na innym porcie.
 {{< gallery match="images/6/*.png" >}}
-Na koniec wprowadzam zmienną środowiskową. Zmienna "TZ" jest strefą czasową "Europa/Berlin".
+Na koniec należy wprowadzić zmienną środowiskową. Zmienna "TZ" oznacza strefę czasową "Europa/Berlin".
 {{< gallery match="images/7/*.png" >}}
-Po wprowadzeniu tych ustawień można uruchomić serwer Logitechmediaserver! Następnie można wywołać Logitechmediaserver przez adres Ip dysktacji Synology i przypisany port, na przykład http://192.168.21.23:9000 .
+Po wprowadzeniu tych ustawień można uruchomić serwer Logitechmediaserver! Następnie można nawiązać połączenie z aplikacją Logitechmediaserver za pośrednictwem adresu IP stacji dyskowej Synology i przypisanego portu, na przykład http://192.168.21.23:9000 .
 {{< gallery match="images/8/*.png" >}}
+

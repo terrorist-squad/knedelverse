@@ -5,7 +5,7 @@ difficulty = "level-2"
 tags = ["code", "development", "devops", "docker-compose", "git", "gitlab", "Synology"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-atlassian-Bamboo-jmeter/index.cs.md"
 +++
-Dnes vytvářím test jMeter v aplikaci Bamboo. Toto testovací nastavení můžete samozřejmě realizovat také pomocí běhounů Gitlab nebo otroků Jenkins.
+Dnes vytvářím test jMeter v aplikaci Bamboo. Toto testovací nastavení můžete samozřejmě realizovat také pomocí běhacích programů Gitlab nebo Jenkins slave.
 ## Krok 1: Vytvoření testu jMeter
 Nejprve je samozřejmě nutné vytvořit test jMeter. Stáhl jsem si jMeter z následující adresy https://jmeter.apache.org/ a spustil ho tímto příkazem:
 {{< terminal >}}
@@ -16,7 +16,7 @@ Viz:Můj ukázkový test pro tento návod má obsahovat vadné a funkční vzork
 {{< gallery match="images/2/*.png" >}}
 Ukládám pomocí souboru JMX pro svou úlohu Bamboo.
 ## Krok 2: Příprava bambusového prostředku
-Protože Java je podmínkou pro agenty Bamboo, nainstaluji Python až poté.
+Jelikož je Java nezbytnou podmínkou pro agenty Bamboo, nainstaluji Python až poté.
 {{< terminal >}}
 apt-get update
 apt-get install python

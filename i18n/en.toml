@@ -1,0 +1,24 @@
+[level-1]
+  other = "Can be done by anyone"
+
+[level-2]
+  other = "Not too easy and not too hard"
+
+[level-3]
+  other = "It may take a little longer"
+
+[level-4]
+  other = "Very athletic"
+
+[level-5]
+  other = "Really challenging"
+
+[Difficulty]
+  other = "Difficulty level"
+
+[Recommendations]
+  other = "Recommendations"
+
+[Comments]
+  other = "Comments"
+

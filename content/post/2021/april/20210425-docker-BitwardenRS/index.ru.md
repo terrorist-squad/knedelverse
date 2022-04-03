@@ -11,7 +11,7 @@ Bitwarden - это бесплатная служба управления пар
 {{< gallery match="images/1/*.png" >}}
 
 ## Шаг 2: Установите BitwardenRS
-Я перехожу на вкладку "Регистрация" в окне Synology Docker и ищу "bitwarden". Я выбираю образ Docker "bitwardenrs/server", а затем нажимаю на тег "latest".
+Я перехожу на вкладку "Регистрация" в окне Synology Docker и ищу "bitwarden". Я выбираю образ Docker "bitwardenrs/server" и затем нажимаю на тег "latest".
 {{< gallery match="images/2/*.png" >}}
 Я дважды щелкаю по изображению моего битварденрса. Затем я нажимаю на "Дополнительные настройки" и активирую "Автоматический перезапуск" здесь же.
 {{< gallery match="images/3/*.png" >}}

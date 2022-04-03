@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "docker-for-desktop", "radio", "mp3", "ripp", "streamripper", "radiorecorder"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2022/march/20220321-docker-mighty-mixxx-tapper/index.sv.md"
 +++
-Streamripper är ett verktyg för kommandoraden som kan användas för att spela in MP3- eller OGG/Vorbis-strömmar och spara dem direkt på hårddisken. Låtarna namnges automatiskt efter artisten och sparas individuellt, formatet är det format som ursprungligen skickades (det skapas alltså filer med tillägget .mp3 eller .ogg). Jag hittade ett bra gränssnitt för radiobandspelare och byggde en Docker-avbildning av det, se: https://github.com/terrorist-squad/mightyMixxxTapper/
+Streamripper är ett verktyg för kommandoraden som kan användas för att spela in MP3- eller OGG/Vorbis-strömmar och spara dem direkt på hårddisken. Låtarna namnges automatiskt efter artisten och sparas individuellt, formatet är det som ursprungligen skickades (så i praktiken skapas filer med tillägget .mp3 eller .ogg). Jag hittade ett bra gränssnitt för radiobandspelare och byggde en Docker-avbildning av det, se: https://github.com/terrorist-squad/mightyMixxxTapper/
 {{< gallery match="images/1/*.png" >}}
 
 ## Alternativ för yrkesverksamma
@@ -29,7 +29,7 @@ services:
 ## Steg 1: Sök efter Docker-avbildningen
 Jag klickar på fliken "Registration" i Synology Docker-fönstret och söker efter "mighty-mixxx-tapper". Jag väljer Docker-avbildningen "chrisknedel/mighty-mixxx-tapper" och klickar sedan på taggen "latest".
 {{< gallery match="images/2/*.png" >}}
-När bilden har laddats ner finns den tillgänglig som en bild. Docker skiljer mellan två tillstånd: container (dynamiskt tillstånd) och image/image (fast tillstånd). Innan vi kan skapa en behållare från avbildningen måste några inställningar göras.
+När bilden har laddats ner finns den tillgänglig som en bild. Docker skiljer mellan två tillstånd, container (dynamiskt tillstånd) och image/image (fast tillstånd). Innan vi kan skapa en behållare från avbildningen måste några inställningar göras.
 ## Steg 2: Använd bilden:
 Jag dubbelklickar på min bild "mighty-mixxx-tapper".
 {{< gallery match="images/3/*.png" >}}

@@ -11,3 +11,4 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 {{< gallery match="images/2/*.*" >}}
 Όταν συνδέομαι για πρώτη φορά, μου ζητείται ο μελλοντικός κωδικός πρόσβασης "admin". Αυτό ήταν! Τώρα μπορώ να οργανώσω έργα. Τώρα μπορείτε να εγκαταστήσετε έναν εκτελεστή του Gitlab.  
 {{< gallery match="images/3/*.*" >}}
+

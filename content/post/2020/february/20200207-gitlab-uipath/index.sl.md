@@ -1,6 +1,6 @@
 +++
 date = "2020-02-07"
-title = "Urejanje robotov uiPath Windows z Gitlabom"
+title = "Orkestriranje robotov uiPath Windows z Gitlabom"
 difficulty = "level-5"
 tags = ["git", "gitlab", "robot", "roboter", "Robotic-Process-Automation", "rpa", "uipath", "windows"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200207-gitlab-uipath/index.sl.md"
@@ -21,23 +21,23 @@ Nato dodajte novega uporabnika.
 {{< gallery match="images/5/*.png" >}}
 
 ## Korak 3: Registracija programa Gitlab Runner
-Namestitveni program za Windows za Gitlab Runner najdete na naslednji strani: https://docs.gitlab.com/runner/install/windows.html . Ustvaril sem novo mapo v pogonu "C" in vanjo namestil namestitveni program.
+Namestitveni program za Windows za Gitlab Runner najdete na naslednji strani: https://docs.gitlab.com/runner/install/windows.html . Ustvaril sem novo mapo na disku C in vanjo namestil namestitveni program.
 {{< gallery match="images/6/*.png" >}}
 3.1.) Z ukazom "CMD" kot "Administrator" odprem novo konzolo in spremenim imenik "cd C:\gitlab-runner".
 {{< gallery match="images/7/*.png" >}}
-Tam pokličem naslednji ukaz. Kot lahko vidite, sem tukaj vnesel tudi uporabniško ime in geslo uporabnika Gitlab.
+V njem kličem naslednji ukaz. Kot lahko vidite, sem tukaj vnesel tudi uporabniško ime in geslo uporabnika Gitlab.
 {{< terminal >}}
 gitlab-runner-windows-386.exe install --user ".\gitlab" --password "*****"
 
 {{</ terminal >}}
 3.2.) Zdaj lahko registrirate izvajalca Gitlab. Če za namestitev Gitlab uporabljate samopodpisano potrdilo, morate potrdilo opremiti z atributom "-tls-ca-file=". Nato vnesite url naslov Gitlab in žeton registra.
 {{< gallery match="images/8/*.png" >}}
-3.2.) Po uspešni registraciji lahko program za zagon zaženete z ukazom "gitlab-runner-windows-386.exe start":
+3.2.) Po uspešni registraciji lahko program zaženete z ukazom "gitlab-runner-windows-386.exe start":
 {{< gallery match="images/9/*.png" >}}
 Odlično! Vaš Gitlab Runner deluje in je uporaben.
 {{< gallery match="images/10/*.png" >}}
 
-## Korak 4: Namestitev sistema Git
+## Korak 4: Namestite Git
 Ker izvajalec Gitlab deluje z različicami Git, je treba namestiti tudi Git za Windows:
 {{< gallery match="images/11/*.png" >}}
 
@@ -60,3 +60,4 @@ build1:
 ```
 Moj robot programske opreme Windows se izvede neposredno po objavi v glavni veji:
 {{< gallery match="images/14/*.png" >}}
+Samodejni zagon robota lahko upravljate z možnostjo "Urniki". Velika prednost te kombinacije je, da je mogoče "robotske" projekte in rezultate projektov (artefakte) centralno nadzorovati, različicati in upravljati prek sistema Gitlab skupaj z drugimi "nerobotskimi" projekti.

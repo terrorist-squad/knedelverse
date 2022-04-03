@@ -1,11 +1,11 @@
 +++
 date = "2020-02-14"
-title = "Nginx：TORユーザーをブロックするにはどうしたらいいですか？"
+title = "Nginx：TORユーザーをブロックするにはどうすればよいですか？"
 difficulty = "level-3"
 tags = ["blacklisting", "block", "hacker", "darknet", "nginx", "security", "tor"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200214-nginx-tor/index.ja.md"
 +++
-私のダークネットブロッカーに必要なのは、Torの出口ノードのIOリストと以下のルールだけです。
+私のダークネットブロッカーには、Tor exit node IO listと以下のルールが必要なだけです。
 ```
 location / { 
   limit_req zone=one; #request limit 
@@ -57,5 +57,5 @@ else
 fi
 
 ```
-このスクリプトは、PIリスト（tor-ips.conf）を「/etc/nginx/conf.d/」というディレクトリに配置します。サーバーの設定を確認し、Nginxの設定を更新します。ブロックされたユーザーにはその旨が表示されます。
+このスクリプトは、PIリスト（tor-ips.conf）を「/etc/nginx/conf.d/」というディレクトリに配置します。サーバーの設定を確認し、Nginxの設定を更新します。ブロックされたユーザーには、それが表示されます。
 {{< gallery match="images/1/*.png" >}}

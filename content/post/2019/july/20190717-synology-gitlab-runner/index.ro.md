@@ -28,13 +28,13 @@ Acest fișier este pur și simplu stocat pe Synology NAS.
 {{< gallery match="images/2/*.png" >}}
 
 ## Pasul 3: Configurați GitLab Runner
-Fac clic pe imaginea alergătorului meu:
+Fac clic pe imaginea mea de alergător:
 {{< gallery match="images/3/*.png" >}}
 Activez setarea "Enable automatic restart":
 {{< gallery match="images/4/*.png" >}}
 Apoi fac clic pe "Setări avansate" și selectez fila "Volum":
 {{< gallery match="images/5/*.png" >}}
-Fac clic pe Add file (Adaugă fișier) și includ fișierul meu hosts prin intermediul căii "/etc/hosts". Acest pas este necesar numai dacă numele de gazdă nu pot fi rezolvate.
+Fac clic pe Add File (Adăugare fișier) și includ fișierul meu hosts prin intermediul căii "/etc/hosts". Acest pas este necesar numai dacă numele de gazdă nu pot fi rezolvate.
 {{< gallery match="images/6/*.png" >}}
 Accept setările și fac clic pe next.
 {{< gallery match="images/7/*.png" >}}

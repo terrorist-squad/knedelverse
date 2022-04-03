@@ -21,3 +21,4 @@ Efter justeringen skal du blot klikke på "Gem (X)".
 {{< gallery match="images/4/*.png" >}}
 Din menuskabelon er nu oprettet i udskriftsopløsning som en PDF-fil, der kan downloades og udskrives.  Du kan downloade, udskrive og sende PDF-filen.   
 {{< gallery match="images/5/*.png" >}}
+

@@ -8,7 +8,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 Volete impostare attività automatiche nel Synology NAS? Cliccate su "Task Scheduler" nel "Pannello di controllo".
 {{< gallery match="images/1/*.png" >}}
 
-## Tempi e ripetizioni impostati
+## Tempi e ripetizioni stabiliti
 Nel "task planner", nuovi "compiti" possono essere creati quasi cron jobs. I tempi e le ripetizioni sono fissati qui.
 {{< gallery match="images/2/*.png" >}}
 

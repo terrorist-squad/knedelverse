@@ -7,13 +7,13 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 C'è già un tutorial più semplice su questo blog: [Synology-Nas: installare Calibre Web come libreria di ebook]({{< ref "post/2020/february/20200213-synology-calibreweb" >}} "Synology-Nas: installare Calibre Web come libreria di ebook"). Questo tutorial è per tutti i professionisti di Synology DS.
 ## Passo 1: Preparare Synology
-Innanzitutto, il login SSH deve essere attivato sulla DiskStation. Per farlo, andate nel "Pannello di controllo" > "Terminale
+In primo luogo, il login SSH deve essere attivato sulla DiskStation. Per farlo, andate nel "Pannello di controllo" > "Terminale
 {{< gallery match="images/1/*.png" >}}
 Poi si può accedere tramite "SSH", la porta specificata e la password dell'amministratore (gli utenti Windows usano Putty o WinSCP).
 {{< gallery match="images/2/*.png" >}}
 Mi collego tramite Terminale, winSCP o Putty e lascio questa console aperta per dopo.
 ## Passo 2: Creare una cartella di libri
-Creo una nuova cartella per la libreria di Calibre. Per fare questo, richiamo "Controllo del sistema" -> "Cartella condivisa" e creo una nuova cartella chiamata "Libri". Se non c'è ancora una cartella "Docker", allora anche questa deve essere creata.
+Creo una nuova cartella per la libreria di Calibre. Per fare questo, richiamo "Controllo Sistema" -> "Cartella Condivisa" e creo una nuova cartella chiamata "Libri". Se non c'è ancora una cartella "Docker", allora anche questa deve essere creata.
 {{< gallery match="images/3/*.png" >}}
 
 ## Passo 3: Preparare la cartella del libro

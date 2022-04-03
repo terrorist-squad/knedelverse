@@ -5,7 +5,7 @@ difficulty = "level-3"
 tags = ["calibre", "calibre-web", "Docker", "docker-compose", "Synology", "linux"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200221-docker-Calibre-pro/index.el.md"
 +++
-Υπάρχει ήδη ένα ευκολότερο σεμινάριο σε αυτό το ιστολόγιο: [Synology-Nas: Εγκαταστήστε το Calibre Web ως βιβλιοθήκη ebook]({{< ref "post/2020/february/20200213-synology-calibreweb" >}} "Synology-Nas: Εγκαταστήστε το Calibre Web ως βιβλιοθήκη ηλεκτρονικών βιβλίων"). Αυτό το σεμινάριο απευθύνεται σε όλους τους επαγγελματίες της Synology DS.
+Υπάρχει ήδη ένα ευκολότερο σεμινάριο σε αυτό το ιστολόγιο: [Synology-Nas: Εγκαταστήστε το Calibre Web ως βιβλιοθήκη ηλεκτρονικών βιβλίων]({{< ref "post/2020/february/20200213-synology-calibreweb" >}} "Synology-Nas: Εγκαταστήστε το Calibre Web ως βιβλιοθήκη ηλεκτρονικών βιβλίων"). Αυτό το σεμινάριο απευθύνεται σε όλους τους επαγγελματίες της Synology DS.
 ## Βήμα 1: Προετοιμάστε τη Synology
 Πρώτον, η σύνδεση SSH πρέπει να ενεργοποιηθεί στον DiskStation. Για να το κάνετε αυτό, μεταβείτε στον "Πίνακα Ελέγχου" > "Τερματικό
 {{< gallery match="images/1/*.png" >}}
@@ -56,7 +56,7 @@ sudo docker-compose -f calibre.yml up -d
 {{< gallery match="images/7/*.png" >}}
 
 ## Βήμα 6: Ρύθμιση
-Στη συνέχεια, μπορώ να καλέσω τον διακομιστή Calibre με την IP του σταθμού δίσκου και την εκχωρημένη θύρα από το "Βήμα 4". Χρησιμοποιώ το σημείο προσάρτησης "/books" στη ρύθμιση. Μετά από αυτό, ο διακομιστής είναι ήδη χρησιμοποιήσιμος.
+Στη συνέχεια, μπορώ να καλέσω τον διακομιστή Calibre με την IP του σταθμού δίσκου και την εκχωρημένη θύρα από το "Βήμα 4". Στη ρύθμιση, χρησιμοποιώ το σημείο προσάρτησης "/books". Μετά από αυτό, ο διακομιστής είναι ήδη χρησιμοποιήσιμος.
 {{< gallery match="images/8/*.png" >}}
 
 ## Βήμα 7: Οριστικοποίηση της εγκατάστασης

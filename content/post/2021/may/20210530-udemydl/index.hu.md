@@ -40,7 +40,7 @@ Pillanatképek:
 {{< gallery match="images/7/*.png" >}}
 
 ## 4. lépés: Az Udemy letöltő üzembe helyezése
-Most szükségem van egy "hozzáférési jelszóra". Meglátogatom az Udemy-t a Firefox böngészőmmel, és megnyitom a Firebug-ot. A "Webes tárolás" fülre kattintok, és bemásolom a "Hozzáférési tokent".
+Most szükségem van egy "hozzáférési jelszóra". Meglátogatom az Udemy-t a Firefox böngészőmmel, és megnyitom a Firebugot. A "Webes tárolás" fülre kattintok, és bemásolom a "Hozzáférési tokent".
 {{< gallery match="images/8/*.png" >}}
 Létrehozok egy új fájlt a konténeremben:
 {{< terminal >}}
@@ -55,3 +55,4 @@ python3 udemy-dl-master/udemy-dl.py -k /download/cookie.txt https://www.udemy.co
 {{</ terminal >}}
 Lásd:
 {{< gallery match="images/9/*.png" >}}
+

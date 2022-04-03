@@ -32,3 +32,4 @@ Pour finir, je saisis encore une variable d'environnement. La variable "TZ" le f
 {{< gallery match="images/7/*.png" >}}
 Après ces réglages, le serveur Logitechmediaserver peut être démarré ! Ensuite, on peut appeler le serveur Logitechmediaserver via l'adresse Ip de la station Synology et le port attribué, par exemple http://192.168.21.23:9000 .
 {{< gallery match="images/8/*.png" >}}
+

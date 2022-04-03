@@ -1,6 +1,6 @@
 +++
 date = "2020-02-27"
-title = "Stora saker med behållare: Automatisk märkning av PDF-filer med Calibre och Docker"
+title = "Stora saker med behållare: Automatisk taggning av PDF-filer med Calibre och Docker"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ebook", "epub", "linux", "pdf", "Synology"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-calibre-heise-ix-script/index.sv.md"
@@ -44,3 +44,4 @@ done
 ```
 Med kommandot "calibredb set_metadata" ställer jag in allt annat som taggar. Resultatet ser ut så här:
 {{< gallery match="images/3/*.png" >}}
+Skriptet finns också på Github: https://github.com/ChristianKnedel/heise-ix-reader-for-calibre .

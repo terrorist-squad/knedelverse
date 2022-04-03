@@ -42,7 +42,7 @@ services:
     restart: unless-stopped
 
 ```
-V tomto novom súbore je potrebné upraviť niekoľko miest nasledovne: * PUID/PGID: V poli PUID/PGID je potrebné zadať ID používateľa a ID skupiny používateľa DS. Tu použijem konzolu z kroku 1 a príkaz "id -u" na zobrazenie ID používateľa. Príkazom "id -g" získam ID skupiny.* porty: Pre port je potrebné upraviť prednú časť "8055:".adresáreVšetky adresáre v tomto súbore je potrebné opraviť. Správne adresy môžete vidieť v okne vlastností DS. (Nasleduje snímka obrazovky)
+V tomto novom súbore je potrebné upraviť niekoľko miest nasledovne: * PUID/PGID: V poli PUID/PGID je potrebné zadať ID používateľa a skupiny používateľa DS. Tu použijem konzolu z kroku 1 a príkaz "id -u" na zobrazenie ID používateľa. Príkazom "id -g" získam ID skupiny.* porty: Pre port je potrebné upraviť prednú časť "8055:".adresáreVšetky adresáre v tomto súbore je potrebné opraviť. Správne adresy môžete vidieť v okne vlastností DS. (Nasleduje snímka obrazovky)
 {{< gallery match="images/6/*.png" >}}
 
 ## Krok 5: Testovacie spustenie

@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Cum instalez Calibre-Web ca un container Docker pe Synology NAS? Atenție: Această metodă de instalare este depășită și nu este compatibilă cu software-ul Calibre actual. Vă rugăm să aruncați o privire la acest nou tutorial:[Lucruri grozave cu containere: Rularea Calibre cu Docker Compose]({{< ref "post/2020/february/20200221-docker-Calibre-pro" >}} "Lucruri grozave cu containere: Rularea Calibre cu Docker Compose"). Acest tutorial se adresează tuturor profesioniștilor Synology DS.
 ## Pasul 1: Creați un dosar
-În primul rând, creez un dosar pentru biblioteca Calibre.  Apelez la "System control" -> "Shared folder" și creez un nou folder "Books".
+Mai întâi, creez un dosar pentru biblioteca Calibre.  Apelez la "System control" -> "Shared folder" și creez un nou folder "Books".
 {{< gallery match="images/1/*.png" >}}
 
 ##  Pasul 2: Creați biblioteca Calibre

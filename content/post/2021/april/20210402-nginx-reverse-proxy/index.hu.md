@@ -100,3 +100,4 @@ Ha most a "docker-compose -f ...etc... up" paranccsal indítjuk el a telepítés
 {{< gallery match="images/3/*.png" >}}
 Mivel az LDAP-felhasználók csak vendégfelhasználók, a Calibrewebben be kell állítani a vendégfelhasználói jogokat:
 {{< gallery match="images/4/*.png" >}}
+Ezt a beállítást futtatom a következő szolgáltatásokhoz:* Videókönyvtár (Peertube)* Könyvtár (Calibreweb)* Gitlab (A CE nem támogatja a csoportokat, ezért 2x kell bejelentkezni)

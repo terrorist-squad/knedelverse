@@ -20,3 +20,4 @@ docker run --name watchtower --restart always -v /var/run/docker.sock:/var/run/d
 {{</ terminal >}}
 Sen jälkeen Vartiotorni toimii aina taustalla.
 {{< gallery match="images/3/*.png" >}}
+

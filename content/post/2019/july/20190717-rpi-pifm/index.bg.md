@@ -23,7 +23,7 @@ tar vfzx pifm.tar.gz
 
 {{</ terminal >}}
 
-## скрипт на pifm
+## Скрипт pifm
 Създавам нов файл "$vim /home/pi/radio-streamer.sh" със следното съдържание:
 ```
 #!/bin/bash 

@@ -50,7 +50,7 @@ Behållaren kan nu startas:
 sudo docker-compose up -d
 
 {{</ terminal >}}
-Jag ringer upp Pihole-servern med Synologys IP-adress och min containerport och loggar in med lösenordet WEBPASSWORD.
+Jag ringer Pihole-servern med Synologys IP-adress och min containerport och loggar in med lösenordet WEBPASSWORD.
 {{< gallery match="images/4/*.png" >}}
 Nu kan du ändra DNS-adressen i Fritzbox under "Hemnätverk" > "Nätverk" > "Nätverksinställningar".
 {{< gallery match="images/5/*.png" >}}

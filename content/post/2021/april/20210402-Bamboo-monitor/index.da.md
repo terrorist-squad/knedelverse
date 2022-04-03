@@ -1,5 +1,5 @@
 +++
-date = "2021-04-04"
+date = "2021-04-0q"
 title = "Fede ting med Atlassian: Pimp min Bamboo Monitor"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
@@ -49,7 +49,7 @@ Nøgleopstillingen i dette tilfælde er som følger:
 ```
 
 ##  3.2. ) X - session
-De følgende linjer skal også indtastes i en fil "$ vim ~/.xsession". Dette script kontrollerer, om instrumentbrættet er tilgængeligt. Hvis den ikke kan nås, venter den 10 sekunder. Selvfølgelig skal adressen/IP-adressen justeres.
+Følgende linjer skal også indtastes i en fil "$ vim ~/.xsession". Dette script kontrollerer, om instrumentbrættet er tilgængeligt. Hvis den ikke kan nås, venter den 10 sekunder. Selvfølgelig skal adressen/IP-adressen justeres.
 ```
 xset -dpms
 xset s off
@@ -227,3 +227,4 @@ sudo reboot
 {{</ terminal >}}
 
 ## Klar
+Hvert dasboard skal genstartes en gang om dagen. Jeg har oprettet en cron til dette formål.

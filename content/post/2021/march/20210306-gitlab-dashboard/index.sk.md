@@ -49,7 +49,7 @@ while true; do
 done
 
 ```
-Potom stlačte kláves "Esc", aby ste zmenili režim príkazu, a potom ":wq" pre "write" a "quit". Okrem toho tento skript vyžaduje nasledujúce práva:
+Potom stlačte kláves "Esc", aby ste zmenili príkazový režim, a potom ":wq" pre "write" a "quit". Okrem toho tento skript vyžaduje nasledujúce práva:
 {{< terminal >}}
 chmod 755 ~/.xsession
 

@@ -1,22 +1,22 @@
 +++
 date = "2021-03-21"
-title = "アトラシアンのすごいところ: BambooとjMeterをプラグインなしで使う"
+title = "Atlassian のクールな使い方: プラグインなしで Bamboo と jMeter を使う"
 difficulty = "level-2"
 tags = ["code", "development", "devops", "docker-compose", "git", "gitlab", "Synology"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-atlassian-Bamboo-jmeter/index.ja.md"
 +++
-今日はBambooでjMeterのテストを作ります。もちろん、GitlabのランナーやJenkinsのスレーブを使って、このテストセットアップを実装することもできます。
+今日、私はBambooでjMeterのテストを作成しています。もちろん、このテスト設定をGitlabランナーやJenkinsスレーブで実装することも可能です。
 ## ステップ1：jMeterテストの作成
-まず、当然ながら、jMeterのテストを作成しなければなりません。以下のURL https://jmeter.apache.org/ からjMeterをダウンロードし、以下のコマンドで起動しました。
+まず、当然ですが、jMeterのテストを作成する必要があります。以下のURL https://jmeter.apache.org/ からjMeterをダウンロードし、以下のコマンドで起動しました。
 {{< terminal >}}
 java -jar bin/ApacheJMeter.jar
 
 {{</ terminal >}}
-参照：「このチュートリアルのための私のデモテストには、不具合のあるサンプラーと動作するサンプラーが含まれています。わざとタイムアウトを低く設定しています。
+See:このチュートリアルのための私のデモテストは、不具合のあるサンプラーと動作するサンプラーを含むことを意図しています。タイムアウトはわざと少なく設定しています。
 {{< gallery match="images/2/*.png" >}}
-私はBambooタスクのJMXファイルで保存しています。
-## ステップ2：Bamboo Agentの準備
-BambooのエージェントはJavaが前提条件なので、Pythonはその後にインストールするだけです。
+BambooタスクのJMXファイルで保存しています。
+## ステップ2: バンブーエージェントの準備
+BambooのエージェントはJavaが前提なので、Pythonは後からインストールするだけです。
 {{< terminal >}}
 apt-get update
 apt-get install python
@@ -24,7 +24,7 @@ apt-get install python
 {{</ terminal >}}
 新しいジョブとシェルタスクを作成します。
 {{< gallery match="images/3/*.png" >}}
-そして、このシェルスクリプトを挿入する。
+そして、このシェルスクリプトを挿入してください。
 ```
 #!/bin/bash
 java -jar /tools/apache-jmeter-5.4.1/bin/ApacheJMeter.jar -n -t test.jmx -l requests.log > result.log
@@ -42,7 +42,7 @@ else
 fi
 
 ```
-ツールのディレクトリはマシン上に固定されており、プロジェクトのリポジトリには含まれていません。さらに、このPythonスクリプトを使っています。
+ツールディレクトリはマシン上で固定されており、プロジェクトリポジトリの一部ではありません。さらに、私はこのPythonスクリプトを使っています。
 ```
 #!/usr/bin/python
 import re
@@ -60,9 +60,9 @@ print "nothing found - exit 0"
 sys.exit(0)
 
 ```
-また、結果ログのアーティファクトパターンを作成しています。
+また、結果ログのアーティファクトパターンも作成しています。
 {{< gallery match="images/4/*.png" >}}
 
 ## Ready!
-これで自分の仕事ができるようになりました。タイムアウトを変更したら、テストも「緑」になりました。
+これで仕事ができる。タイムアウトを変更したら、テストも「緑」になりました。
 {{< gallery match="images/5/*.png" >}}

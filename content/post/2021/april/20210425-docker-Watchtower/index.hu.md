@@ -5,7 +5,7 @@ difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "watchtower"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Watchtower/index.hu.md"
 +++
-Ha Docker-konténereket futtat a lemezállomásán, természetesen azt szeretné, hogy azok mindig naprakészek legyenek. A Watchtower automatikusan frissíti a képeket és a konténereket. Így élvezheti a legújabb funkciókat és a legmodernebb adatbiztonságot. Ma megmutatom, hogyan kell telepíteni egy Watchtower-t a Synology lemezállomásra.
+Ha Docker-konténereket futtat a lemezállomásán, természetesen azt szeretné, hogy azok mindig naprakészek legyenek. A Watchtower automatikusan frissíti a képeket és konténereket. Így élvezheti a legújabb funkciókat és a legmodernebb adatbiztonságot. Ma megmutatom, hogyan kell telepíteni egy Watchtower-t a Synology lemezállomásra.
 ## 1. lépés: A Synology előkészítése
 Először is aktiválni kell az SSH bejelentkezést a DiskStationön. Ehhez menjen a "Vezérlőpult" > "Terminál" > "Terminál" menüpontba.
 {{< gallery match="images/1/*.png" >}}
@@ -20,3 +20,4 @@ docker run --name watchtower --restart always -v /var/run/docker.sock:/var/run/d
 {{</ terminal >}}
 Ezután az Őrtorony mindig a háttérben fut.
 {{< gallery match="images/3/*.png" >}}
+

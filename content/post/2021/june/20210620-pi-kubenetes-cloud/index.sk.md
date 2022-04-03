@@ -5,7 +5,7 @@ difficulty = "level-4"
 tags = ["kubernetes", "nfs", "filer", "cloud", "homelab", "pods", "nodes", "raspberry-pi", "raspberry"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210620-pi-kubenetes-cloud/index.sk.md"
 +++
-Dnes inštalujem nový cluster Kubenetes a čaká ma veľa práce!
+Dnes inštalujem nový cluster Kubenetes a mám toho veľa na práci!
 {{< gallery match="images/1/*.jpg" >}}
 Objednal som si preň tieto komponenty:
 - 1x WDBU6Y0050BBK WD Elements portable 5TB: https://www.reichelt.de/wd-elements-portable-5tb-wdbu6y0050bbk-p270625.html?
@@ -208,3 +208,4 @@ kubectl delete deplyments my-nginx
 {{</ terminal >}}
 >Pozrite si:
 {{< gallery match="images/10/*.png" >}}
+

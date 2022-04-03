@@ -34,3 +34,4 @@ docker-compose up -d
 {{</ terminal >}}
 Néhány perc múlva a Docspell szerveremet a lemezállomás IP címével és a hozzárendelt 7878-as porttal tudom hívni.
 {{< gallery match="images/5/*.png" >}}
+A dokumentumok keresése jól működik. Sajnálatosnak tartom, hogy a képekben lévő szövegek nincsenek indexelve. A Papermerge segítségével szövegeket is kereshet a képeken.

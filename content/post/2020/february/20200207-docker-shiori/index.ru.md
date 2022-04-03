@@ -19,7 +19,7 @@ services:
 
 
 ```
-После запуска yml-файла с помощью Docker-Compose через "docker-compose -f your-file.yml up -d", вы можете получить доступ к локальному интернет-архиву через указанный порт, например http://localhost:18080 . Логин по умолчанию можно найти на следующем сайте: https://github.com/go-shiori/shiori/wiki/Usage.
+После запуска yml-файла с помощью Docker-Compose через "docker-compose -f your-file.yml up -d", вы можете получить доступ к локальному интернет-архиву через указанный порт, например, http://localhost:18080 . Логин по умолчанию можно найти на следующем сайте: https://github.com/go-shiori/shiori/wiki/Usage.
 ```
 username: shiori
 password: gopher

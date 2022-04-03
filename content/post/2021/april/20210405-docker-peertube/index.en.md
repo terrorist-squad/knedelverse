@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 With Peertube you can create your own video portal. Today I show how I installed Peertube on my Synology Diskstation.
 ## Step 1: Prepare Synology
-First of all, you need to enable SSH login on Diskstation. To do this, go to the "Control Panel" > "Terminal
+The first thing to do is to enable SSH login on Diskstation. To do this, go to the "Control Panel" > "Terminal
 {{< gallery match="images/1/*.png" >}}
 After that you can log in via "SSH", the specified port and the administrator password.
 {{< gallery match="images/2/*.png" >}}
@@ -15,7 +15,7 @@ I log in via Terminal, winSCP or Putty and leave this console open for later.
 ## Step 2: Prepare Docker folder
 I create a new directory called "Peertube" in the Docker directory.
 {{< gallery match="images/3/*.png" >}}
-After that I go into the Peertube directory and create a new file called "peertube.yml" with the following content. For the port, the front part "9000:" can be customized. The second volume contains all videos, playlist, thumbnails etc... and therefore must be adjusted.
+After that I go to the Peertube directory and create a new file called "peertube.yml" with the following content. For the port, the front part "9000:" can be customized. The second volume contains all videos, playlist, thumbnails etc... and therefore must be adjusted.
 ```
 version: "3.7"
 
@@ -85,7 +85,7 @@ sudo docker-compose -f compose-file-name.yml up -d
 After that I can call my Peertube server with the IP of the diskstation and the assigned port from "Step 2". Great!
 {{< gallery match="images/4/*.png" >}}
 The username is "root" and the password is "password" (or step 2 / PT_INITIAL_ROOT_PASSWORD).
-## Theme Customization
+## Theme customization
 The appearance of Peertube is very easy to customize. To do this, I click on "Administration" > "Settings" and "Advanced settings".
 {{< gallery match="images/5/*.png" >}}
 There I entered the following in the CSS field:
@@ -135,3 +135,4 @@ curl -s '$API_PATH/videos/upload'-H 'Authorization: Bearer $token' --max-time 11
 ```
 
 ## My tip: Read "Great things with containers: making Docker services more secure with LDAP and NGINX".
+I run my Peertube with a reverse proxy. This means that only LDAP users can access this service. I have documented this setup under "[Great things with containers: making Docker services more secure with LDAP and NGINX]({{< ref "post/2021/april/20210402-nginx-reverse-proxy" >}} "Great things with containers: making Docker services more secure with LDAP and NGINX")".

@@ -1,6 +1,6 @@
 +++
 date = "2021-04-25T09:28:11+01:00"
-title = "Υπέροχα πράγματα με κοντέινερ: Το Portainer ως εναλλακτική λύση στο Synology Docker GUI"
+title = "Μεγάλα πράγματα με κοντέινερ: Το Portainer ως εναλλακτική λύση στο Synology Docker GUI"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "watchtower"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Portainer/index.el.md"
@@ -15,7 +15,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 ## Βήμα 2: Δημιουργία φακέλου portainer
 Δημιουργώ έναν νέο κατάλογο με όνομα "portainer" στον κατάλογο Docker.
 {{< gallery match="images/3/*.png" >}}
-Στη συνέχεια, πηγαίνω στον κατάλογο portainer με την κονσόλα και δημιουργώ εκεί έναν φάκελο και ένα νέο αρχείο με όνομα "portainer.yml".
+Στη συνέχεια, πηγαίνω στον κατάλογο portainer με την κονσόλα και δημιουργώ έναν φάκελο και ένα νέο αρχείο με όνομα "portainer.yml" εκεί.
 {{< terminal >}}
 cd /volume1/docker/portainer
 mkdir portainer_data

@@ -1,15 +1,15 @@
 +++
 date = "2021-07-25"
-title = "コンテナを使った素晴らしいこと：Grocyによる冷蔵庫の管理"
+title = "コンテナで素敵なこと：Grocyで冷蔵庫管理"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "kühlschrank", "erp", "mhd", "Speispläne", "cms", "Cafe", "Bistro"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-grocy/index.ja.md"
 +++
-Grocyでは、家庭全体、レストラン、カフェ、ビストロ、フードマーケットを管理することができます。冷蔵庫、メニュー、タスク、買い物リスト、食品の賞味期限などを管理することができます。
+Grocyを使えば、家庭、レストラン、カフェ、ビストロ、フードマーケットをまるごと管理することができます。冷蔵庫、メニュー、タスク、買い物リスト、食品の賞味期限を管理することができます。
 {{< gallery match="images/1/*.png" >}}
-今日は、SynologyのディスクステーションにGrocyサービスをインストールする方法を紹介します。
-## プロフェッショナルのためのオプション
-経験豊富なSynologyユーザーであれば、もちろんSSHでログインし、Docker Composeファイルでセットアップ全体をインストールすることができます。
+今日は、Synology disk station に Grocy サービスをインストールする方法を紹介します。
+## プロフェッショナル向けオプション
+経験豊富な Synology ユーザーであれば、もちろん SSH でログインし、Docker Compose ファイルを介してセットアップ全体をインストールすることができます。
 ```
 version: "2.1"
 services:
@@ -27,28 +27,29 @@ services:
     restart: unless-stopped
 
 ```
-家庭での使用に便利なDockerイメージは、[Dockerverse]({{< ref "dockerverse" >}} "Dockerverse")にもあります。
+家庭で使える便利なDockerイメージは、[ドッカーバース]({{< ref "dockerverse" >}} "ドッカーバース").Dockerにあります。
 ## ステップ1：Grocyフォルダの準備
-Dockerのディレクトリに「grocy」という新しいディレクトリを作ります。
+Dockerのディレクトリに「grocy」というディレクトリを新規に作成します。
 {{< gallery match="images/2/*.png" >}}
 
 ## ステップ2：Grocyのインストール
-Synology Dockerのウィンドウで「登録」タブをクリックし、「Grocy」を検索します。linuxserver/grocy:latest」というDockerイメージを選択して、「latest」というタグをクリックしています。
+Synology Dockerウィンドウの「登録」タブをクリックし、「Grocy」を検索しています。Dockerイメージ「linuxserver/grocy:latest」を選択し、「latest」タグをクリックしています。
 {{< gallery match="images/3/*.png" >}}
-私はGrocyの画像をダブルクリックします。
+自分のグロシー画像をダブルクリックする。
 {{< gallery match="images/4/*.png" >}}
-そして、「詳細設定」をクリックして、ここでも「自動再起動」を有効にします。ボリューム "タブを選択し、"フォルダの追加 "をクリックします。そこで、「/config」というマウントパスで新しいフォルダを作成します。
+そして「詳細設定」をクリックし、ここでも「自動再起動」を有効にしています。ボリューム」タブを選択し、「フォルダの追加」をクリックしています。そこで、このマウントパス「/config」で新しいフォルダを作成します。
 {{< gallery match="images/5/*.png" >}}
-Grocy "コンテナには固定ポートを割り当てています。ポートが固定されていないと、再起動後に「Grocyサーバー」が別のポートで動作してしまう可能性があります。
+Grocy」コンテナには、固定ポートを割り当てています。固定ポートがないと、再起動後に「Grocyサーバー」が別のポートで動作している可能性があります。
 {{< gallery match="images/6/*.png" >}}
 {{<table "table table-striped table-bordered">}}
-|変数名|価値|それは何ですか？|
+|変数名|価値|何ですか？|
 |--- | --- |---|
 |TZ | Europe/Berlin |タイムゾーン|
-|PUID | 1024 |Synology Admin UserからのユーザーID|
-|PGID |	100 |Synology Admin UserからのグループID|
+|PUID | 1024 |Synology管理ユーザーからのユーザーID|
+|PGID |	100 |Synology管理ユーザーからのグループID|
 {{</table>}}
-最後に、これらの環境変数を入力します：See:
+最後に、これらの環境変数を入力します:See:
 {{< gallery match="images/7/*.png" >}}
-これで、コンテナが起動できるようになりました。SynologyのIPアドレスと私のコンテナポートでGrocyサーバーを呼び出し、ユーザー名「admin」とパスワード「admin」でログインします。
+これで、コンテナの起動が可能になりました。Synology の IP アドレスと私のコンテナ ポートで Grocy サーバーを呼び出し、ユーザー名 "admin" とパスワード "admin" でログインしています。
 {{< gallery match="images/8/*.png" >}}
+

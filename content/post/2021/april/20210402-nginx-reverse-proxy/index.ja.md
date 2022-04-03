@@ -1,19 +1,19 @@
 +++
 date = "2021-04-02"
-title = "コンテナの優れた点：LDAPとNGINXでDockerサービスの安全性を高める"
+title = "コンテナですごいこと：LDAPとNGINXでDockerサービスをよりセキュアにする"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ldap", "logging", "nutzerverwaltung", "peertube", "ssl"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-nginx-reverse-proxy/index.ja.md"
 +++
-Synology Diskstation のユーザーとして、私はホームラボのネットワークで多くのサービスを実行しています。Gitlabでソフトウェアをデプロイし、Confluenceで知識を文書化し、ウェブサーバーのCalibreで技術文献を読んでいます。
+Synology Diskstation ユーザーとして、私はホームラボのネットワークで多くのサービスを実行しています。Gitlabでソフトウェアをデプロイし、Confluenceで知識を文書化し、Calibreウェブサーバーで技術文献を読んでいます。
 {{< gallery match="images/1/*.png" >}}
-すべてのネットワークサービスは、暗号化された通信を行い、中央のユーザー管理によって保護されています。 今日は、SSL暗号化、アクセスログ、LDAPアクセス制限を用いて、Calibreサービスを保護した方法を紹介します。このチュートリアルでは、"[アトラシアンの優れた点: アトラシアンのすべてのツールをLDAPで使用することができます。]({{< ref "post/2021/march/20210321-atlassian-ldap" >}} "アトラシアンの優れた点: アトラシアンのすべてのツールをLDAPで使用することができます。") "と "[コンテナで実現すること：Docker ComposeでCalibreを動かす]({{< ref "post/2020/february/20200221-docker-Calibre-pro" >}} "コンテナで実現すること：Docker ComposeでCalibreを動かす") "の予備知識が必要です。
+すべてのネットワークサービスは暗号化されて通信し、中央のユーザー管理によって保護されています。 今日は、SSL暗号化、アクセスログ、LDAPアクセス制限によって私のCalibreサービスを保護する方法を紹介します。このチュートリアルでは、"[アトラシアンでのクールな使い方: LDAP ですべてのアトラシアンツールを使用する]({{< ref "post/2021/march/20210321-atlassian-ldap" >}} "アトラシアンでのクールな使い方: LDAP ですべてのアトラシアンツールを使用する") "と "[コンテナで素晴らしいことを: Docker ComposeでCalibreを実行する]({{< ref "post/2020/february/20200221-docker-Calibre-pro" >}} "コンテナで素晴らしいことを: Docker ComposeでCalibreを実行する") "からの予備知識が必要です。
 ## 私のLDAPサーバー
-すでに書いたように、私はDockerコンテナの中で中央のopenLDAPサーバーを動かしています。また、いくつかのアプリケーショングループを作成しました。
+すでに書いたように、私はDockerコンテナで中央のopenLDAPサーバーを動かしています。また、いくつかのアプリケーショングループを作成しました。
 {{< gallery match="images/2/*.png" >}}
 
-## リバースプロキシを使って安全でないアプリケーションを保護する
-linuxserver/calibre-web」のDockerイメージはSSL暗号化とLDAPをサポートしていないので、「calibreweb」という仮想ネットワークを作成し、Calibreサーバの前にNGINXリバースプロキシを配置します。 これが私のDocker Composeファイルの内容です。今後のアクセスログはすべてlogディレクトリに保存され、自己署名証明書はcertsディレクトリにあります。
+## リバースプロキシで安全でないアプリケーションを保護
+linuxserver/calibre-web」のDockerイメージはSSL暗号化とLDAPをサポートしていないので、「calibreweb」という仮想ネットワークを作り、NGINXリバースプロクシをCalibreサーバの前に置く。 Docker Composeファイルはこんな感じです。今後のアクセスログはすべてlogディレクトリに、自己署名証明書はcertsディレクトリに保存されます。
 ```
 version: '3.7'
 services:
@@ -52,9 +52,9 @@ networks:
   calibreweb:
 
 ```
-家庭での使用に便利なDockerイメージは、[Dockerverse]({{< ref "dockerverse" >}} "Dockerverse")にもあります。
+家庭で使える便利なDockerイメージは、[ドッカーバース]({{< ref "dockerverse" >}} "ドッカーバース").Dockerにあります。
 ## Nginxの設定
-default.conf "ファイルには、すべてのLDAPと暗号化の設定が含まれています。もちろん、URL、binddn、証明書、ポート、パスワードやグループの調整も必要です。
+default.conf」ファイルには、すべてのLDAPと暗号化の設定が含まれています。もちろん、URL、binddn、証明書、ポート、パスワードやグループも調整する必要があります。
 ```
 # ldap auth configuration
 auth_ldap_cache_enabled on;
@@ -96,7 +96,8 @@ server {
 
 
 ```
-これで「docker-compose -f ...etc... up」でセットアップを開始すると、ログインしたユーザーのアクセスもアクセスログで確認できます。
+ここで「docker-compose -f ...etc... up」で設定を開始すると、アクセスログでログインしたユーザーのアクセスも確認できる。
 {{< gallery match="images/3/*.png" >}}
-LDAPユーザーはあくまでもゲストユーザーなので、ゲストユーザーの権限をCalibrewebで設定する必要があります。
+LDAPユーザーはあくまでゲストユーザーなので、キャリバーウェブでゲストユーザー権限を設定する必要があります。
 {{< gallery match="images/4/*.png" >}}
+私はこの設定を以下のサービスに対して行っています：* ビデオライブラリー (Peertube)* ライブラリー (Calibreweb)* Gitlab (CE はグループをサポートしていないので、2回ログインする必要があります)。

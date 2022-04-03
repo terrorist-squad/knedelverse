@@ -14,8 +14,8 @@ He pedido estos componentes para ello:
 - 2x Raspberry 4 / 8GB Ram: https://www.reichelt.de/raspberry-pi-4-b-4x-1-5-ghz-8-gb-ram-wlan-bt-rasp-pi-4-b-8gb-p276923.html?
 - 3x fuentes de alimentación: https://www.reichelt.de/raspberry-pi-netzteil-5-1-v-3-0-a-usb-type-c-eu-stecker-s-rpi-ps-15w-bk-eu-p260010.html
 - 1x Montaje en rack: https://amzn.to/3H8vOg7
-- 1x Kit de enchufes Dupont de 600 piezas: https://amzn.to/3kcfYqQ
-- 1 LED verde con resistencia en serie: https://amzn.to/3EQgXVp
+- 1x Kit de tapones Dupont de 600 piezas: https://amzn.to/3kcfYqQ
+- 1x LED verde con resistencia en serie: https://amzn.to/3EQgXVp
 - 1x LED azul con resistencia en serie: https://amzn.to/31ChYSO
 - 10x Marquardt 203.007.013 Pieza ciega Negra: https://www.voelkner.de/products/215024/Marquardt-203.007.013-Blindstueck-Schwarz.html
 - 1 base de lámpara: https://amzn.to/3H0UZkG
@@ -67,7 +67,7 @@ sudo find /media/usb-platte/nfsshare/ -type d -exec chmod 755 {} \;
 sudo find /media/usb-platte/nfsshare/ -type f -exec chmod 644 {} \;
 
 {{</ terminal >}}
->>Entonces hay que editar el archivo "/etc/exports". Allí se introducen la ruta, el ID de usuario y el ID de grupo:
+>>Luego hay que editar el archivo "/etc/exports". Allí se introducen la ruta, el ID de usuario y el ID de grupo:
 ```
 /media/usb-platte/nfsshare *(rw,all_squash,insecure,async,no_subtree_check,anonuid=1000,anongid=1000)
 
@@ -208,3 +208,4 @@ kubectl delete deplyments my-nginx
 {{</ terminal >}}
 >Ver:
 {{< gallery match="images/10/*.png" >}}
+

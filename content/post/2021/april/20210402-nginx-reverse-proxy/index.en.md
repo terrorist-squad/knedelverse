@@ -7,13 +7,13 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 As a Synology Diskstation user, I run many services on my Homelab network. I deploy software in Gitlab, document knowledge in Confluence and read technical references via the Calibre web server.
 {{< gallery match="images/1/*.png" >}}
-All network services communicate encrypted and are secured via a central user management.Today I show how I secured my Calibre service with SSL encryption, access logging and LDAP access restriction. This tutorial requires prior knowledge from "[Cool things with Atlassian: Use all Atlassian tools with LDAP]({{< ref "post/2021/march/20210321-atlassian-ldap" >}} "Cool things with Atlassian: Use all Atlassian tools with LDAP")" and "[Great things with containers: running Calibre with Docker Compose]({{< ref "post/2020/february/20200221-docker-Calibre-pro" >}} "Great things with containers: running Calibre with Docker Compose")".
+All network services communicate encrypted and are secured via a central user management.Today I show how I secured my Calibre service with SSL encryption, access logging and LDAP access restriction. This tutorial requires prior knowledge from "[Cool stuff with Atlassian: Use all Atlassian tools with LDAP]({{< ref "post/2021/march/20210321-atlassian-ldap" >}} "Cool stuff with Atlassian: Use all Atlassian tools with LDAP")" and "[Great things with containers: Running Calibre with Docker Compose]({{< ref "post/2020/february/20200221-docker-Calibre-pro" >}} "Great things with containers: Running Calibre with Docker Compose")".
 ## My LDAP server
-As I wrote before, I'm running a central openLDAP server in the Docker container. I have also created a few application groups.
+As I wrote before, I run a central openLDAP server in the Docker container. I have also created a few application groups.
 {{< gallery match="images/2/*.png" >}}
 
 ## Secure insecure application with reverse proxy
-Since the "linuxserver/calibre-web" Docker image does not support SSL encryption and LDAP, I create a virtual network called "calibreweb" and put a NGINX reverse proxy in front of the Calibre server.This is what my Docker Compose file looks like. The log directory is where all future access logs will be stored and the certs directory is where my self-signed certificates reside.
+Since the "linuxserver/calibre-web" Docker image does not support SSL encryption and LDAP, I create a virtual network called "calibreweb" and put a NGINX reverse proxy in front of the Calibre server.This is what my Docker compose file looks like. The log directory is where all future access logs will be stored and the certs directory is where my self-signed certificates reside.
 ```
 version: '3.7'
 services:
@@ -100,3 +100,4 @@ If you now start the setup with "docker-compose -f ...etc... up", you can also s
 {{< gallery match="images/3/*.png" >}}
 Since the LDAP users are only guest users, guest user rights must be set in Calibreweb:
 {{< gallery match="images/4/*.png" >}}
+I run this setup for the following services:* Video library (Peertube)* Library (Calibreweb)* Gitlab (The CE does not support groups, so you have to log in 2x)

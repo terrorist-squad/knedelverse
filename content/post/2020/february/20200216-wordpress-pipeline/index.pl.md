@@ -5,7 +5,7 @@ difficulty = "level-2"
 tags = ["cms", "git", "gitlab", "pipeline", "serverless", "wordpress"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200216-wordpress-pipeline/index.pl.md"
 +++
-Statyczne strony ładują się szybciej i oferują mniejszą powierzchnię ataku. Pokazuję jak przekonwertować stronę CMS poprzez Gitlab Pipline. Po pierwsze, tworzę etap budowania, który generuje statyczną kopię poprzez wget.
+Statyczne witryny ładują się szybciej i stanowią mniejszy obszar ataku. Pokazuję, jak przekonwertować stronę CMS za pomocą Gitlab Pipline. Po pierwsze, tworzę etap budowania, który generuje statyczną kopię za pomocą programu wget.
 ```
 uild:
   stage: build
@@ -23,9 +23,9 @@ uild:
     expire_in: 24 week
 
 ```
-Rezultat lub statyczny artefakt jest archiwizowany przez 24 tygodnie i może być wdrożony w dowolnym momencie poprzez rurociąg.
+Rezultat lub artefakt statyczny jest archiwizowany przez 24 tygodnie i może być w każdej chwili wdrożony za pośrednictwem rurociągu.
 {{< gallery match="images/1/*.png" >}}
-W następnym kroku wynik może zostać wdrożony:
+W następnym kroku można wdrożyć wyniki:
 ```
 live:
   before_script:
@@ -40,7 +40,7 @@ live:
     - rsync -avuz -e 'ssh -p {-P  Port wenn nötig} -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null' static/*  user@www.domain.com:/path/to/www.domain.de/public/
 
 ```
-Zrobione! Załączam jeszcze raz cały potok (.gitlab_ci.yml)
+Gotowe! Jeszcze raz załączam cały rurociąg (.gitlab_ci.yml)
 ```
 stages:
   - build

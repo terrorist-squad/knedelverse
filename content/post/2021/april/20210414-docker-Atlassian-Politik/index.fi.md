@@ -144,7 +144,7 @@ networks:
 
 
 ## Toimenpide 2: Tietokantojen ja kuvien varmuuskopiot.
-Päivittäiset hajautetut tietokantojen varmuuskopiot ovat tietenkin tärkeä osa katastrofista toipumista koskevaa strategiaani. Mutta varmuuskopioin myös asennuskuvat. Docker-kuva voidaan arkistoida seuraavalla komennolla:
+Päivittäisillä hajautetuilla tietokantojen varmuuskopioinneilla on tietenkin suuri merkitys katastrofista toipumista koskevassa strategiassani. Mutta varmuuskopioin myös asennuskuvat. Docker-kuva voidaan arkistoida seuraavalla komennolla:
 {{< terminal >}}
 docker save -o bamboo-7.2.3-image.tar atlassian/bamboo-server
 
@@ -158,3 +158,4 @@ Olen myös tallentanut Postgres-kuvat.
 ## Toimenpide 3: Luo USB-asennustikku
 Olen varmuuskopioinut dokumentaationi, kaikki asennusarkistot, Postgres-tietohakemistot ja kokoonpanot USB-tikulle. Kuten sanoin, tietokannan varmuuskopiointi on itse asiassa tärkein asia, koska aktivoitu lisenssi on myös tietokannassa.
 {{< gallery match="images/1/*.png" >}}
+

@@ -11,3 +11,4 @@ De service luistert naar poort "30000" voor mij. Als alles gewerkt heeft, roep i
 {{< gallery match="images/2/*.*" >}}
 Als ik voor de eerste keer inlog, wordt mij om het toekomstige "admin" wachtwoord gevraagd. Dat was het! Nu kan ik projecten organiseren. Nu kan een Gitlab runner geïnstalleerd worden.  
 {{< gallery match="images/3/*.*" >}}
+

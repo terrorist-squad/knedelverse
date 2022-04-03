@@ -59,7 +59,7 @@ Dit pakket is nodig voor NFS:
 sudo apt-get install nfs-kernel-server -y
 
 {{</ terminal >}}
->Er werd ook een nieuwe map aangemaakt op de USB-schijf
+>Er werd ook een nieuwe map aangemaakt op de USB disk
 {{< terminal >}}
 sudo mkdir /media/usb-platte/nfsshare
 sudo chown -R pi:pi /media/usb-platte/nfsshare/
@@ -97,7 +97,7 @@ curl -sSL get.docker.com | sh
 sudo usermod pi -aG docker
 
 {{</ terminal >}}
->Daarna wordt de swap grootte op alle servers op nul gezet. Dit betekent dat ik het "/etc/dphys-swapfile" bestand bewerk en het attribuut "CONF_SWAPSIZE" op "0" zet.
+>Daarna wordt de swap grootte op alle servers op nul gezet. Dit betekent dat ik het bestand "/etc/dphys-swapfile" bewerk en het attribuut "CONF_SWAPSIZE" op "0" zet.
 {{< gallery match="images/4/*.png" >}}
 >Daarnaast moeten de "Control-Group" instellingen in het "/boot/cmdline.txt" bestand worden aangepast:
 ```
@@ -106,7 +106,7 @@ cgroup_enable=cpuset cgroup_enable=memory cgroup_memory=1
 ```
 Zie:
 {{< gallery match="images/5/*.png" >}}
->Nu zouden alle Raspberrys één keer moeten herstarten en zijn dan klaar voor de Kubernetes installatie.
+>Nu zouden alle Raspberrys eenmalig moeten herstarten en zijn dan klaar voor de Kubernetes installatie.
 {{< terminal >}}
 sudo reboot
 
@@ -208,3 +208,4 @@ kubectl delete deplyments my-nginx
 {{</ terminal >}}
 >Zie:
 {{< gallery match="images/10/*.png" >}}
+

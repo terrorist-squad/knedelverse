@@ -1,19 +1,19 @@
 +++
 date = "2021-03-06"
-title = "Issue Dashboard z RaspberryPiZeroW, Javascript i GitLab"
+title = "Tablica błędów z RaspberryPiZeroW, Javascriptem i GitLabem"
 difficulty = "level-3"
 tags = ["git", "gitlab", "issueboard", "issues", "javascript", "wallboard"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210306-gitlab-dashboard/index.pl.md"
 +++
-Instalacja z Raspberry Noobs jest dziecinnie prosta! Wszystko czego potrzebujesz to RaspberryZeroW i pusta karta SD.
+Instalacja z Raspberry Noobs jest dziecinnie prosta! Wszystko, czego potrzebujesz, to RaspberryZeroW i pusta karta SD.
 ## Krok 1: Instalator dla noobów
-Pobierz instalator Noobs z https://www.raspberrypi.org/downloads/noobs/.
+Pobierz instalator Noobs z witryny https://www.raspberrypi.org/downloads/noobs/.
 ## Krok 2: Karta SD
 Rozpakuj to archiwum zip na pustą kartę SD.
 {{< gallery match="images/1/*.png" >}}
-Zrobione! Teraz możesz podłączyć RaspberryPiZero do telewizora. Pojawi się menu instalacji.
+Gotowe! Teraz możesz podłączyć RaspberryPiZero do telewizora. Zostanie wyświetlone menu instalacyjne.
 {{< gallery match="images/2/*.jpg" >}}
-Jeśli masz NoobsLite na karcie, musisz najpierw ustanowić połączenie WLAN. Następnie wybierz "Rasbian Lite" i kliknij na "Zainstaluj". Rasbian Lite jest wersją serwerową bez pulpitu. Po uruchomieniu systemu, zarządzanie pakietami musi zostać zaktualizowane.
+Jeśli na karcie znajduje się program NoobsLite, należy najpierw nawiązać połączenie z siecią WLAN. Następnie wybierz "Rasbian Lite" i kliknij "Zainstaluj". Rasbian Lite to wersja serwerowa bez pulpitu. Po uruchomieniu komputera należy zaktualizować zarządzanie pakietami.
 {{< terminal >}}
 sudo apt-get update
 
@@ -23,7 +23,7 @@ Następnie należy zainstalować następujące pakiety:
 sudo apt-get install -y nodm matchbox-window-manager uzbl xinit vim
 
 {{</ terminal >}}
-Należy również utworzyć użytkownika do wyświetlania tablicy rozdzielczej.
+Należy także utworzyć użytkownika do wyświetlania tablicy rozdzielczej.
 {{< terminal >}}
 sudo adduser dashboard
 
@@ -33,12 +33,12 @@ Zaloguj się jako użytkownik "Dashboard":
 sudo su dashboard
 
 {{</ terminal >}}
-Utwórz X-Session -Script. Mogę przejść do tej linii za pomocą klawiszy kursora i przejść do trybu wstawiania za pomocą klawisza "i".
+Utwórz sesję X -Script. Mogę przechodzić do tego wiersza za pomocą klawiszy kursora i przechodzić do trybu wstawiania za pomocą klawisza "i".
 {{< terminal >}}
 sudo vim ~/.xsession
 
 {{</ terminal >}}
-Treść
+Zawartość
 ```
 #!/bin/bash 
 xset s off 
@@ -49,12 +49,12 @@ while true; do
 done
 
 ```
-Następnie naciśnij klawisz "Esc", aby zmienić tryb poleceń, a następnie ":wq" dla "write" i "quit". Dodatkowo skrypt ten wymaga następujących uprawnień:
+Następnie naciśnij klawisz "Esc", aby zmienić tryb poleceń, a potem ":wq" dla "write" i "quit". Ponadto ten skrypt wymaga następujących uprawnień:
 {{< terminal >}}
 chmod 755 ~/.xsession
 
 {{</ terminal >}}
-W tym skrypcie widoczna jest konfiguracja przeglądarki (/home/dashboard/uzbl.conf). Konfiguracja ta wygląda następująco:
+W tym skrypcie widoczna jest konfiguracja przeglądarki (/home/dashboard/uzbl.conf). Ta konfiguracja wygląda następująco:
 ```
 set config_home = /home/dashboard 
 set socket_dir=/tmp 
@@ -64,7 +64,7 @@ set on_event = request ON_EVENT
 @on_event LOAD_FINISH script @config_home/gitlab.js
 
 ```
-Połowa czasu! Już prawie skończyłeś. Teraz potrzebujesz skryptu Javascript, za pomocą którego możesz symulować zachowanie użytkownika. Ważne jest, abyś utworzył osobnego użytkownika Gitlab. Użytkownik ten może być zarządzany jako "reporter" w projektach.
+Połowa czasu! Już prawie skończyłeś. Teraz potrzebny jest skrypt Javascript, za pomocą którego można symulować zachowanie użytkownika. Ważne jest, aby utworzyć osobnego użytkownika Gitlab. Użytkownik ten może być zarządzany jako "reporter" w projektach.
 ```
 var gitlabUrl = 'http://git-lab-url:port';
 var gitlabUser = 'userName';
@@ -143,7 +143,7 @@ timer.append(
 
 
 ```
-Teraz możesz się wylogować. Proszę zmienić ustawienia DisplayManager w "/etc/default/nodm". Tutaj musisz zmienić "NODM_USER" na "dashboard" i "NODM_ENABLED" na "true".
+Teraz możesz się wylogować. Należy zmienić ustawienie opcji DisplayManager w pliku "/etc/default/nodm". W tym miejscu należy zmienić wartość "NODM_USER" na "dashboard", a "NODM_ENABLED" na "true".
 ```
 # nodm configuration
 
@@ -179,5 +179,5 @@ NODM_MIN_SESSION_TIME=60
 NODM_X_TIMEOUT=300
 
 ```
-Jeśli teraz uruchomisz się ponownie za pomocą "sudo reboot", zobaczysz następujący pulpit:
+Po ponownym uruchomieniu komputera za pomocą polecenia "sudo reboot" pojawi się następujący pulpit:
 {{< gallery match="images/3/*.jpg" >}}

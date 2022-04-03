@@ -28,7 +28,7 @@ Ez a fájl egyszerűen a Synology NAS-on tárolódik.
 {{< gallery match="images/2/*.png" >}}
 
 ## 3. lépés: A GitLab Runner beállítása
-Rákattintok a futóm képére:
+A Runner képemre kattintok:
 {{< gallery match="images/3/*.png" >}}
 Aktiválom az "Automatikus újraindítás engedélyezése" beállítást:
 {{< gallery match="images/4/*.png" >}}

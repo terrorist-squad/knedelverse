@@ -20,7 +20,7 @@ Ogni macro utente "renderizzata" ha di default una variabile corpo:
 Inhalt $body
 
 ```
-Tutte le altre variabili sono definite nel codice della macro. Più sull'argomento delle variabili
+Tutte le altre variabili sono definite nel codice della macro. Più sul tema delle variabili
 ```
 
 ## @param Title:title=Titlebar Title|type=string|required=truel|default=Bash
@@ -158,6 +158,6 @@ Ora manca un po' di HTML/CSS e il Marco è pronto! Per esempio:
 
 ```
 
-## Passo 3: usare la macro dell'utente
+## Passo 3: usare la macro utente
 Se l'utente marko è dotato di variabili, HTML e CSS, questo può essere utilizzato.
 {{< gallery match="images/4/*.png" >}}

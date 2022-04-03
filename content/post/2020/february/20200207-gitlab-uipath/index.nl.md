@@ -60,3 +60,4 @@ build1:
 ```
 Mijn Windows software robot wordt uitgevoerd direct na het committen naar de master branch:
 {{< gallery match="images/14/*.png" >}}
+De automatische start van de robot kan worden beheerd via de optie "Schema's". Een groot voordeel van deze combinatie is dat de "robotprojecten" en projectresultaten (artefacten) centraal gecontroleerd, geversioneerd en beheerd kunnen worden door Gitlab met andere "niet-robotprojecten".

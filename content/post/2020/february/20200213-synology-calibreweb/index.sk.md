@@ -11,7 +11,7 @@ Najprv vytvorím priečinok pre knižnicu Calibre.  Vyvolám "Ovládanie systém
 {{< gallery match="images/1/*.png" >}}
 
 ##  Krok 2: Vytvorenie knižnice Calibre
-Teraz skopírujem existujúcu knižnicu alebo "[túto prázdnu vzorovú knižnicu](https://drive.google.com/file/d/1zfeU7Jh3FO_jFlWSuZcZQfQOGD0NvXBm/view)" do nového adresára. Sám som skopíroval existujúcu knižnicu desktopovej aplikácie.
+Teraz do nového adresára skopírujem existujúcu knižnicu alebo "[túto prázdnu vzorovú knižnicu](https://drive.google.com/file/d/1zfeU7Jh3FO_jFlWSuZcZQfQOGD0NvXBm/view)". Sám som skopíroval existujúcu knižnicu desktopovej aplikácie.
 {{< gallery match="images/2/*.png" >}}
 
 ## Krok 3: Vyhľadanie obrazu aplikácie Docker

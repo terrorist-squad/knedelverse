@@ -47,7 +47,7 @@ Nato je treba ustvariti zbirko podatkov. V oknu Synology Docker kliknem na zavih
 {{< gallery match="images/2/*.png" >}}
 Po prenosu slike je slika na voljo kot slika. Docker razlikuje med dvema stanjema, zabojnikom (dinamično stanje) in sliko (fiksno stanje). Preden iz slike ustvarimo vsebnik, je treba opraviti nekaj nastavitev. Dvakrat kliknem na svojo sliko postgres.
 {{< gallery match="images/3/*.png" >}}
-Nato kliknem na "Napredne nastavitve" in aktiviram možnost "Samodejni ponovni zagon". Izberem zavihek "Obseg" in kliknem na "Dodaj mapo". Tam ustvarim novo mapo podatkovne zbirke s to potjo priklopa "/var/lib/postgresql/data".
+Nato kliknem na "Napredne nastavitve" in aktiviram možnost "Samodejni ponovni zagon". Izberem zavihek "Obseg" in kliknem na "Dodaj mapo". Tam ustvarim novo mapo zbirke podatkov s to potjo priklopa "/var/lib/postgresql/data".
 {{< gallery match="images/4/*.png" >}}
 V razdelku "Nastavitve vrat" so izbrisana vsa vrata. To pomeni, da izberem vrata "5432" in jih izbrišem z gumbom "-".
 {{< gallery match="images/5/*.png" >}}
@@ -82,5 +82,5 @@ Poleg tega je treba ustvariti povezavo do vsebnika "postgres". Kliknem na zavihe
 {{</table>}}
 Na koncu vnesem te okoljske spremenljivke: Glej:
 {{< gallery match="images/11/*.png" >}}
-Posodo lahko zaženete. Strežnik xWiki pokličem z naslovom IP strežnika Synology in pristaniščem zabojnika.
+Posodo lahko zaženete. Strežnik xWiki pokličem z naslovom IP strežnika Synology in pristaniščem za zabojnik.
 {{< gallery match="images/12/*.png" >}}

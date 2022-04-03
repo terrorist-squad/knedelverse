@@ -100,3 +100,4 @@ Se você agora iniciar a configuração com "docker-compose -f ...etc... up", vo
 {{< gallery match="images/3/*.png" >}}
 Como os usuários LDAP são apenas usuários convidados, os direitos de usuário convidado devem ser definidos no Calibreweb:
 {{< gallery match="images/4/*.png" >}}
+Executo esta configuração para os seguintes serviços:* Videoteca (Peertube)* Biblioteca (Calibreweb)* Gitlab (O CE não suporta grupos, portanto você tem que fazer o login 2x)

@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Come utente di Synology Diskstation, eseguo molti servizi sulla mia rete Homelab. Distribuisco software in Gitlab, documento le conoscenze in Confluence e leggo i riferimenti tecnici tramite il server web Calibre.
 {{< gallery match="images/1/*.png" >}}
-Tutti i servizi di rete comunicano in modo criptato e sono protetti tramite un'amministrazione centrale degli utenti. Oggi mostro come ho protetto il mio servizio Calibre con la crittografia SSL, la registrazione degli accessi e la restrizione di accesso LDAP. La conoscenza preliminare di "[Cose fantastiche con Atlassian: usare tutti gli strumenti Atlassian con LDAP]({{< ref "post/2021/march/20210321-atlassian-ldap" >}} "Cose fantastiche con Atlassian: usare tutti gli strumenti Atlassian con LDAP")" e "[Grandi cose con i container: eseguire Calibre con Docker Compose]({{< ref "post/2020/february/20200221-docker-Calibre-pro" >}} "Grandi cose con i container: eseguire Calibre con Docker Compose")" è richiesta per questo tutorial.
+Tutti i servizi di rete comunicano in modo criptato e sono protetti tramite un'amministrazione centrale degli utenti. Oggi mostro come ho reso sicuro il mio servizio Calibre con la crittografia SSL, la registrazione degli accessi e la restrizione di accesso LDAP. La conoscenza preliminare di "[Cose fantastiche con Atlassian: usare tutti gli strumenti Atlassian con LDAP]({{< ref "post/2021/march/20210321-atlassian-ldap" >}} "Cose fantastiche con Atlassian: usare tutti gli strumenti Atlassian con LDAP")" e "[Grandi cose con i container: eseguire Calibre con Docker Compose]({{< ref "post/2020/february/20200221-docker-Calibre-pro" >}} "Grandi cose con i container: eseguire Calibre con Docker Compose")" è richiesta per questo tutorial.
 ## Il mio server LDAP
 Come ho già scritto, eseguo un server openLDAP centrale nel contenitore Docker. Ho anche creato alcuni gruppi di applicazioni.
 {{< gallery match="images/2/*.png" >}}
@@ -100,3 +100,4 @@ Se ora si avvia il setup con "docker-compose -f ...etc... up", si possono anche 
 {{< gallery match="images/3/*.png" >}}
 Poiché gli utenti LDAP sono solo utenti ospiti, i diritti degli utenti ospiti devono essere impostati in Calibreweb:
 {{< gallery match="images/4/*.png" >}}
+Eseguo questa configurazione per i seguenti servizi:* Libreria video (Peertube)* Libreria (Calibreweb)* Gitlab (Il CE non supporta i gruppi, quindi devi fare il login 2 volte)

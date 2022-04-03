@@ -1,27 +1,27 @@
 +++
 date = "2021-04-16"
-title = "Kreatywne wyjście z kryzysu: rezerwacja usługi z easyappointments"
+title = "Kreatywne wyjście z kryzysu: rezerwacja usług za pomocą easyappointments"
 difficulty = "level-3"
 tags = ["buchung", "buchungstool", "click-and-meet", "corona", "Docker", "docker-compose", "easyappointments", "krise", "einzelhandel", "geschaefte"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-easyappointments/index.pl.md"
 +++
-Kryzys w firmie Corona mocno uderza w usługodawców w Niemczech. Narzędzia i rozwiązania cyfrowe mogą pomóc w jak najbezpieczniejszym przejściu pandemii Corony. W tej serii poradników "Kreatywne wyjście z kryzysu" pokazuję technologie lub narzędzia, które mogą być przydatne dla małych firm. Dziś pokazuję "Easyappointments", narzędzie do rezerwacji usług typu "kliknij i spotkaj się", np. dla fryzjerów lub sklepów. Easyappointments składa się z dwóch obszarów:
-## Obszar 1: Backend
-Backend" do zarządzania usługami i terminami.
+Kryzys związany z firmą Corona mocno uderza w dostawców usług w Niemczech. Narzędzia i rozwiązania cyfrowe mogą pomóc w jak najbezpieczniejszym przejściu pandemii Corony. W serii poradników "Kreatywne wychodzenie z kryzysu" pokazuję technologie i narzędzia, które mogą być przydatne dla małych firm. Dzisiaj przedstawiam "Easyappointments", narzędzie do rezerwacji usług typu "kliknij i spotkaj się", np. dla fryzjerów lub sklepów. Program Łatwe Nominacje składa się z dwóch obszarów:
+## Obszar 1: zaplecze
+zaplecze" do zarządzania usługami i terminami.
 {{< gallery match="images/1/*.png" >}}
 
 ## Obszar 2: Frontend
-Narzędzie dla użytkowników końcowych do rezerwacji terminów. Wszystkie już zarezerwowane terminy są blokowane i nie mogą być rezerwowane dwukrotnie.
+Narzędzie dla użytkowników końcowych służące do rezerwacji terminów. Wszystkie już zarezerwowane terminy są blokowane i nie można ich rezerwować dwukrotnie.
 {{< gallery match="images/2/*.png" >}}
 
 ## Instalacja
-Zainstalowałem Easyappointments już kilka razy za pomocą Docker-Compose i mogę gorąco polecić tę metodę instalacji. Tworzę nowy katalog o nazwie "easyappointments" na moim serwerze:
+Zainstalowałem już kilka razy Easyappointments za pomocą Docker-Compose i mogę gorąco polecić tę metodę instalacji. Na moim serwerze tworzę nowy katalog o nazwie "easyappointments":
 {{< terminal >}}
 mkdir easyappointments
 cd easyappointments
 
 {{</ terminal >}}
-Następnie wchodzę do katalogu easyappointments i tworzę nowy plik o nazwie "easyappointments.yml" z następującą zawartością:
+Następnie przechodzę do katalogu easyappointments i tworzę nowy plik o nazwie "easyappointments.yml" o następującej zawartości:
 ```
 version: '2'
 services:
@@ -64,26 +64,26 @@ networks:
   easyappointments-network:
 
 ```
-Ten plik jest uruchamiany za pomocą Docker Compose. Następnie instalacja jest dostępna pod przewidzianą domeną/portem.
+Ten plik jest uruchamiany za pomocą aplikacji Docker Compose. Następnie instalacja jest dostępna pod przewidzianą domeną/portem.
 {{< terminal >}}
 docker-compose -f easyappointments.yml up
 
 {{</ terminal >}}
 
 ## Utwórz usługę
-Usługi można tworzyć w zakładce "Usługi". Każda nowa usługa musi być następnie przypisana do usługodawcy/użytkownika. Oznacza to, że mogę zarezerwować wyspecjalizowanych pracowników lub usługodawców.
+Usługi można tworzyć w zakładce "Usługi". Następnie każda nowa usługa musi zostać przypisana do usługodawcy/użytkownika. Oznacza to, że mogę zarezerwować wyspecjalizowanych pracowników lub usługodawców.
 {{< gallery match="images/3/*.png" >}}
 Konsument końcowy może również wybrać usługę i preferowanego dostawcę usług.
 {{< gallery match="images/4/*.png" >}}
 
 ## Czas pracy i przerwy
-Ogólne godziny pracy można ustawić w "Ustawieniach" > "Logice biznesowej". Godziny pracy usługodawców/użytkowników można jednak zmienić również w "Planie pracy" użytkownika.
+Ogólne godziny dyżuru można ustawić w obszarze "Ustawienia" > "Logika biznesowa". Godziny pracy usługodawców/użytkowników można jednak również zmienić w "Planie pracy" użytkownika.
 {{< gallery match="images/5/*.png" >}}
 
 ## Przegląd i terminarz rezerwacji
-W kalendarzu spotkań widoczne są wszystkie rezerwacje. Oczywiście, rezerwacje można również tworzyć i edytować w tym miejscu.
+W kalendarzu spotkań widoczne są wszystkie rezerwacje. Oczywiście można tam również tworzyć i edytować rezerwacje.
 {{< gallery match="images/6/*.png" >}}
 
 ## Korekty kolorystyczne lub logiczne
-Jeśli skopiujesz katalog "/app/www" i dołączysz go jako "wolumin", będziesz mógł dostosować arkusze stylów i logikę według własnego uznania.
+Jeśli skopiujesz katalog "/app/www" i dołączysz go jako "wolumin", będziesz mógł dowolnie dostosować arkusze stylów i logikę.
 {{< gallery match="images/7/*.png" >}}

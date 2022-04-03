@@ -21,7 +21,7 @@ kubectl -n kube-system edit service kubernetes-dashboard --namespace=kubernetes-
 {{< gallery match="images/2/*.png" >}}
 След това таблото за управление вече е достъпно:
 {{< gallery match="images/3/*.png" >}}
-За да получите токена за достъп, трябва да потърсите ключ на контролера за внедряване:
+За да получите токена за достъп, трябва да потърсите ключа на контролера за внедряване:
 {{< terminal >}}
 kubectl -n kube-system get secret | grep deployment-controller-token
 

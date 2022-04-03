@@ -14,7 +14,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 apt-get update && apt-get install -y xpdf calibre
 
 {{</ terminal >}}
-现在我的脚本搜索符合 "IX*.pdf "模式的新PDF。从每个PDF中，前5页被导出为文本。然后，所有出现在这个单词列表中的单词都被删除：https://raw.githubusercontent.com/ChristianKnedel/heise-ix-reader-for-calibre/master/blacklist.txt
+现在我的脚本搜索符合 "IX*.pdf "模式的新PDF文件。从每个PDF中，前5页被导出为文本。然后，所有出现在这个单词列表中的单词都被删除：https://raw.githubusercontent.com/ChristianKnedel/heise-ix-reader-for-calibre/master/blacklist.txt
 ```
 #!/bin/bash
 export LANG=C.UTF-8
@@ -44,3 +44,4 @@ done
 ```
 通过 "calibredb set_metadata "命令，我把其他一切都设置为标签。结果看起来是这样的。
 {{< gallery match="images/3/*.png" >}}
+该脚本也可以在Github上找到：https://github.com/ChristianKnedel/heise-ix-reader-for-calibre 。

@@ -5,7 +5,7 @@ difficulty = "level-3"
 tags = ["code", "development", "devops", "docker-compose", "git", "gitlab", "Synology"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210324-Gitlab-setup/index.en.md"
 +++
-After my first tutorial on "Gitlab on Synology Diskstation", I have been asked several times if I still use this solution. Nope! In the meantime, I have moved my Atlassian tools and the following GitLab installation to an intel NUC. Attached I show my current Compose file, which of course can also be run on a Synology diskstation.You can clearly see that I now use special settings for OpenLDAP, container registry, mail, certificates and logging. Also, the wiki and issue tracker - feature has been disabled because I use Atlassian-Jira and Atlassian-Confluence. As you can see, Gitlab is very customizable. Have fun!
+After my first tutorial about "Gitlab on Synology Diskstation", I was asked several times if I still use this solution. Nope! In the meantime I have moved my Atlassian tools and the following GitLab installation to an intel NUC. Enclosed I show once my current Compose -file, which can of course also be run on a Synology diskstation.You can clearly see that I now use special setting for OpenLDAP, container registry, mail, certificates and logging. Also, the wiki and issue tracker feature has been disabled because I use Atlassian-Jira and Atlassian-Confluence. As you can see, you can customize Gitlab very well. Have fun!
 ```
 version: '2'
 services:
@@ -173,3 +173,4 @@ networks:
   gitlab:
 
 ```
+

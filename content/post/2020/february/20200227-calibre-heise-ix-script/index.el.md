@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ebook", "epub", "linux", "pdf", "Synology"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-calibre-heise-ix-script/index.el.md"
 +++
-Συχνά μπορεί να είναι κουραστικό να προσθέσετε τις σωστές μετα-πληροφορίες στα PDF. Εγώ ο ίδιος ταξινομώ τα κατεβασμένα PDF από τον συνδρομητικό μου λογαριασμό Heise IX στην ιδιωτική μου βιβλιοθήκη Calibre.
+Συχνά μπορεί να είναι κουραστικό να προσθέσετε τις σωστές μετα-πληροφορίες στα PDF. Εγώ ο ίδιος ταξινομώ τα PDF που έχω κατεβάσει από τον λογαριασμό συνδρομής Heise IX στην ιδιωτική μου βιβλιοθήκη Calibre.
 {{< gallery match="images/1/*.png" >}}
 Επειδή αυτή η διαδικασία επαναλαμβάνεται κάθε μήνα, έχω καταλήξει στην ακόλουθη ρύθμιση. Σύρω μόνο τα νέα μου PDF στη βιβλιοθήκη μου.
 {{< gallery match="images/2/*.png" >}}
@@ -44,3 +44,4 @@ done
 ```
 Με την εντολή "calibredb set_metadata" ορίζω όλα τα υπόλοιπα ως ετικέτες. Το αποτέλεσμα είναι το εξής:
 {{< gallery match="images/3/*.png" >}}
+Το σενάριο είναι επίσης διαθέσιμο στο Github: https://github.com/ChristianKnedel/heise-ix-reader-for-calibre .

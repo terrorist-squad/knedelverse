@@ -1,6 +1,6 @@
 +++
 date = "2021-02-01"
-title = "容器的伟大之处：Synology Diskstation 上的 Pihole"
+title = "容器的伟大之处：Synology DiskStation 上的 Pihole"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "dns", "adblocker", "fritzbox"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/february/20210201-docker-pihole/index.zh.md"
@@ -50,7 +50,7 @@ services:
 sudo docker-compose up -d
 
 {{</ terminal >}}
-我用Synology的IP地址和我的容器端口调用Pihole服务器，用WEBPASSWORD密码登录。
+我用Synology的IP地址和我的容器端口呼叫Pihole服务器，并使用WEBPASSWORD密码登录。
 {{< gallery match="images/4/*.png" >}}
 现在可以在Fritzbox的 "家庭网络">"网络">"网络设置 "中改变DNS地址。
 {{< gallery match="images/5/*.png" >}}

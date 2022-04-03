@@ -22,9 +22,10 @@ convert 716023b632a9cbe6cad3ab368c202288.pdf /tmp/bilder/page.png
 
 {{</ terminal >}}
 
-## Step 3: Mounting the pictures
+## Step 3: Mounting the images
 Now the collage just needs to be put together:
 {{< terminal >}}
 montage /tmp/bilder/* -shadow -geometry '400x400+2+2>' -background '#f1f1f1' uebersich.jpg
 
 {{</ terminal >}}
+

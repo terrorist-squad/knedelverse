@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 
 {{< gallery match="images/1/*.jpg" >}}
-Jeśli chcesz wyłączyć Raspberry w określonej temperaturze, to jesteś we właściwym miejscu. Mam skrypt, który sprawdza temperaturę procesora poprzez Crontab:
+Jeśli chcesz wyłączyć malinę w określonej temperaturze, to jesteś we właściwym miejscu. Mam skrypt, który sprawdza temperaturę procesora za pomocą programu Crontab:
 ```
 #!/bin/sh
 #  This script reads the Broadcom SoC temperature value and shuts down if it

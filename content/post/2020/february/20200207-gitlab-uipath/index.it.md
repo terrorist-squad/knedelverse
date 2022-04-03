@@ -21,7 +21,7 @@ Poi aggiungi il nuovo utente.
 {{< gallery match="images/5/*.png" >}}
 
 ## Passo 3: registrare Gitlab Runner
-Il programma di installazione per Windows per il Gitlab Runner può essere trovato alla seguente pagina: https://docs.gitlab.com/runner/install/windows.html . Ho creato una nuova cartella nell'unità "C" e ci ho messo il programma di installazione.
+Il programma di installazione per Windows per il Gitlab Runner può essere trovato alla seguente pagina: https://docs.gitlab.com/runner/install/windows.html . Ho creato una nuova cartella nel mio drive "C" e ci ho messo il programma di installazione.
 {{< gallery match="images/6/*.png" >}}
 3.1.) Uso il comando "CMD" come "Amministratore" per aprire una nuova console e passare a una directory "cd C:\gitlab-runner".
 {{< gallery match="images/7/*.png" >}}
@@ -32,7 +32,7 @@ gitlab-runner-windows-386.exe install --user ".\gitlab" --password "*****"
 {{</ terminal >}}
 3.2.) Ora il runner di Gitlab può essere registrato. Se usi un certificato autofirmato per la tua installazione di Gitlab, devi fornire il certificato con l'attributo "-tls-ca-file=". Poi inserisci l'url di Gitlab e il token di registro.
 {{< gallery match="images/8/*.png" >}}
-3.2.) Dopo l'avvenuta registrazione, il corridore può essere avviato con il comando "gitlab-runner-windows-386.exe start":
+3.2.) Dopo una registrazione riuscita, il corridore può essere avviato con il comando "gitlab-runner-windows-386.exe start":
 {{< gallery match="images/9/*.png" >}}
 Grande! Il tuo Gitlab Runner è attivo, funzionante e utilizzabile.
 {{< gallery match="images/10/*.png" >}}
@@ -60,3 +60,4 @@ build1:
 ```
 Il mio robot software Windows viene eseguito direttamente dopo il commit sul ramo master:
 {{< gallery match="images/14/*.png" >}}
+L'avvio automatico del robot può essere gestito tramite l'opzione "Schedules". Un grande vantaggio di questa combinazione è che i progetti "robotici" e i risultati del progetto (artefatti) possono essere controllati, versionati e gestiti centralmente da Gitlab con altri progetti "non robotici".

@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Az Atlassian leállította a kis szerverlicencek értékesítését, és már régóta gondolkodtam azon, hogyan kezeljem ezt a helyzetet. Mivel még sokáig szeretném használni a telepítésemet, a következő intézkedéseket hajtottam végre:
 ## 1. intézkedés: Kizárólag Dockert használok
-Minden Atlassian eszközt Docker-konténerként futtatok. A régebbi, natív telepítések is átvihetők egy Docker-telepítésbe adatbázis-dömpinggel. Ezek aztán kényelmesen futtathatók egy intel Nuc vagy egy Synology lemezállomáson a Homelabban.
+Minden Atlassian eszközt Docker-konténerként futtatok. A régebbi, natív telepítések adatbázis-dömpinggel is átvihetők egy Docker-telepítésbe. Ezek aztán kényelmesen futtathatók egy intel Nuc vagy egy Synology lemezállomáson a Homelabban.
 {{< tabs>}}
 
 
@@ -156,5 +156,6 @@ ocker load -i bamboo-7.2.3-image.tar
 {{</ terminal >}}
 A Postgres-képeket is elmentettem.
 ## 3. művelet: USB telepítő pendrive létrehozása
-Biztonsági mentést készítettem a dokumentációmról, az összes telepítési archívumról, a Postgres adatkönyvtárakról és a konfigurációkról egy USB-pendrive-ra. Mint mondtam, az adatbázis biztonsági mentése a legfontosabb, mivel az aktivált licenc is az adatbázisban van.
+Biztonsági mentést készítettem a dokumentációmról, az összes telepítési archívumról, a Postgres adatkönyvtárakról és a konfigurációkról egy USB-pendrive-ra. Mint mondtam, a DB biztonsági mentés valójában a legfontosabb dolog, mivel az aktivált licenc is az adatbázisban van.
 {{< gallery match="images/1/*.png" >}}
+

@@ -21,3 +21,4 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 {{< gallery match="images/4/*.png" >}}
 Το πρότυπο μενού σας έχει πλέον δημιουργηθεί σε ανάλυση εκτύπωσης ως PDF που μπορείτε να κατεβάσετε και να εκτυπώσετε.  Μπορείτε να κατεβάσετε, να εκτυπώσετε και να στείλετε το αρχείο PDF.   
 {{< gallery match="images/5/*.png" >}}
+

@@ -37,3 +37,4 @@ Nu kan du utföra spelböcker eller kommandon, till exempel starta om alla servr
 ansible raspi -m shell -a 'sudo /sbin/reboot'
 
 {{</ terminal >}}
+

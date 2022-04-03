@@ -76,8 +76,8 @@ I servizi possono essere creati sotto "Servizi". Ogni nuovo servizio deve poi es
 Il consumatore finale può anche scegliere il servizio e il fornitore di servizi preferito.
 {{< gallery match="images/4/*.png" >}}
 
-## Orario di lavoro e pause
-Le ore di servizio generali possono essere impostate in "Impostazioni" > "Logica aziendale". Tuttavia, l'orario di lavoro dei fornitori/utenti di servizi può anche essere cambiato nel "Piano di lavoro" dell'utente.
+## Orari di lavoro e pause
+Le ore di servizio generali possono essere impostate in "Impostazioni" > "Logica aziendale". Tuttavia, l'orario di lavoro dei fornitori di servizi/utenti può anche essere cambiato nel "Piano di lavoro" dell'utente.
 {{< gallery match="images/5/*.png" >}}
 
 ## Panoramica delle prenotazioni e agenda

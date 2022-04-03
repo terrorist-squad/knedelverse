@@ -33,9 +33,9 @@ Após o download da imagem, a imagem está disponível como imagem. Docker disti
 ## Passo 2: Colocar a imagem em funcionamento:
 Clico duas vezes na minha imagem de "poderoso mix de tatuagens".
 {{< gallery match="images/3/*.png" >}}
-Depois clico em "Definições avançadas" e activo o "Reinício automático". Selecciono o separador "Volume" e clico em "Adicionar pasta". Lá eu crio uma nova pasta com este caminho de montagem "/tmp/ripps/".
+Depois clico em "Definições avançadas" e activo o "Reinício automático". Eu seleciono o separador "Volume" e clico em "Adicionar pasta". Lá eu crio uma nova pasta com este caminho de montagem "/tmp/ripps/".
 {{< gallery match="images/4/*.png" >}}
 Atribuo portos fixos para o contentor "mighty-mixxx-tapper". Sem portas fixas, pode ser que o "mighty-mixxx-tapper-server" funcione em uma porta diferente após um reinício.
 {{< gallery match="images/5/*.png" >}}
-Após estas configurações, o poderoso servidor-misturador-tapper-server pode ser iniciado! Depois disso, você pode chamar o mighty-mixxx-tapper através do endereço Ip do disco de Synology e da porta atribuída, por exemplo http://192.168.21.23:8097.
+Depois destas configurações, o poderoso servidor-misturador-tapper-server pode ser iniciado! Depois disso, você pode chamar o mighty-mixxx-tapper através do endereço Ip do disco de Synology e da porta atribuída, por exemplo http://192.168.21.23:8097.
 {{< gallery match="images/6/*.png" >}}

@@ -68,3 +68,4 @@ Efter konfigurationen er tjenesten klar til brug og kan integreres på webstedet
 ```
 Og sådan ser Remark42 ud:
 {{< gallery match="images/1/*.png" >}}
+

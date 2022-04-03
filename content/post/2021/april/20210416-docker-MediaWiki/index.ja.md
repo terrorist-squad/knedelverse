@@ -1,13 +1,13 @@
 +++
 date = "2021-04-16"
-title = "コンテナの優れた点：Synology ディスク ステーションに独自の MediaWiki をインストールする"
+title = "コンテナですごいこと：Synologyディスクステーションに自分だけのMediaWikiをインストールする"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "mediawiki", "wiki"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210416-docker-MediaWiki/index.ja.md"
 +++
-MediaWikiは、PHPベースのWikiシステムで、オープンソース製品として無償で提供されています。今日は、SynologyのディスクステーションにMediaWikiのサービスをインストールする方法を紹介します。
-## プロフェッショナルのためのオプション
-経験豊富なSynologyユーザーであれば、もちろんSSHでログインし、Docker Composeファイルでセットアップ全体をインストールすることができます。
+MediaWikiは、PHPベースのWikiシステムで、オープンソース製品として無償で提供されています。今日は、Synology ディスクステーションに MediaWiki サービスをインストールする方法を紹介します。
+## プロフェッショナル向けオプション
+経験豊富な Synology ユーザーであれば、もちろん SSH でログインし、Docker Compose ファイルを介してセットアップ全体をインストールすることができます。
 ```
 version: '3'
 services:
@@ -38,44 +38,44 @@ services:
       MYSQL_PASSWORD: my_wiki_pass
 
 ```
-家庭での使用に便利なDockerイメージは、[Dockerverse]({{< ref "dockerverse" >}} "Dockerverse")にもあります。
-## ステップ1: MediaWikiフォルダの準備
-Dockerのディレクトリに「wiki」という新しいディレクトリを作ります。
+家庭で使える便利なDockerイメージは、[ドッカーバース]({{< ref "dockerverse" >}} "ドッカーバース").Dockerにあります。
+## ステップ1：MediaWikiフォルダの準備
+Dockerディレクトリの中に「wiki」というディレクトリを新規に作成します。
 {{< gallery match="images/1/*.png" >}}
 
 ## ステップ2：データベースのインストール
-その後、データベースを作成する必要があります。Synology Dockerのウィンドウで「登録」タブをクリックし、「mariadb」を検索します。Dockerイメージの「mariadb」を選択し、タグの「latest」をクリックしています。
+その後、データベースを作成する必要があります。Synology Dockerのウィンドウで「登録」タブをクリックし、「mariadb」を検索しています。Dockerイメージ「mariadb」を選択し、「latest」タグをクリックしています。
 {{< gallery match="images/2/*.png" >}}
-画像のダウンロード後、画像として利用できます。Dockerでは、コンテナ（動的状態）とイメージ（固定状態）の2つの状態を区別しています。イメージからコンテナを作成する前に、いくつかの設定を行う必要があります。 mariadbのイメージをダブルクリックします。
+画像ダウンロード後、画像として利用可能です。Dockerでは、コンテナ（動的状態）とイメージ（固定状態）の2つの状態を区別しています。イメージからコンテナを作成する前に、いくつかの設定を行う必要があります。 mariadb イメージをダブルクリックします。
 {{< gallery match="images/3/*.png" >}}
-そして、「詳細設定」をクリックし、「自動再起動」を有効にします。ボリューム "タブを選択し、"フォルダの追加 "をクリックします。そこで、「/var/lib/mysql」というマウントパスで新しいデータベースフォルダを作成します。
+そして、「詳細設定」をクリックして「自動再起動」を有効にしています。ボリューム」タブを選択し、「フォルダの追加」をクリックしています。そこで、マウントパスを「/var/lib/mysql」として、新しいデータベースフォルダを作成します。
 {{< gallery match="images/4/*.png" >}}
-ポート設定」では、すべてのポートが削除されます。つまり、「3306」のポートを選択し、「-」ボタンで削除するのだ。
+ポート設定」で、すべてのポートを削除します。つまり、「3306」ポートを選択し、「-」ボタンで削除するのです。
 {{< gallery match="images/5/*.png" >}}
 {{<table "table table-striped table-bordered">}}
-|変数名|価値|それは何ですか？|
+|変数名|価値|何ですか？|
 |--- | --- |---|
 |TZ	| Europe/Berlin	|タイムゾーン|
 |MYSQL_ROOT_PASSWORD	| my_wiki_pass	|データベースのマスターパスワード。|
-|MYSQL_DATABASE |	my_wiki	|これはデータベース名です。|
+|MYSQL_DATABASE |	my_wiki	|これは、データベース名です。|
 |MYSQL_USER	| wikiuser |wikiデータベースのユーザー名。|
-|MYSQL_PASSWORD	| my_wiki_pass |wikiデータベースユーザーのパスワード。|
+|MYSQL_PASSWORD	| my_wiki_pass |wikiデータベースユーザのパスワード。|
 {{</table>}}
-最後に、これらの環境変数を入力します：See:
+最後に、これらの環境変数を入力します:See:
 {{< gallery match="images/6/*.png" >}}
-以上の設定で、Mariadbサーバーが起動できるようになります。私はどこでも「Apply」を押します。
-## ステップ3: MediaWikiのインストール
-Synology Dockerのウィンドウで「登録」タブをクリックし、「mediawiki」を検索します。Dockerイメージの「mediawiki」を選択し、「latest」というタグをクリックしています。
+以上の設定で、Mariadbサーバーが起動できるようになります。どこでも "Apply "を押してしまう。
+## ステップ3：MediaWikiのインストール
+Synology Dockerウィンドウの「登録」タブをクリックし、「mediawiki」を検索しています。Dockerイメージ「mediawiki」を選択し、「latest」タグをクリックしています。
 {{< gallery match="images/7/*.png" >}}
-私はMediawikiの画像をダブルクリックします。
+自分のMediawikiの画像をダブルクリックする。
 {{< gallery match="images/8/*.png" >}}
-そして、「詳細設定」をクリックして、ここでも「自動再起動」を有効にします。ボリューム "タブを選択し、"フォルダの追加 "をクリックします。そこで、「/var/www/html/images」というマウントパスで新しいフォルダを作成します。
+そして「詳細設定」をクリックし、ここでも「自動再起動」を有効にしています。ボリューム」タブを選択し、「フォルダの追加」をクリックしています。そこで、このマウントパス「/var/www/html/images」で新しいフォルダを作成します。
 {{< gallery match="images/9/*.png" >}}
-MediaWiki "コンテナには固定のポートを割り当てています。ポートが固定されていないと、再起動後に「MediaWikiサーバ」が別のポートで実行される可能性があります。
+MediaWiki」コンテナには、固定ポートを割り当てています。固定ポートがなければ、再起動後に「MediaWikiサーバ」が別のポートで動作することもあり得ます。
 {{< gallery match="images/10/*.png" >}}
-また、「mariadb」コンテナへの「リンク」を作成する必要があります。リンク "タブをクリックして、データベースコンテナを選択しました。エイリアス名は、wikiのインストールのために覚えておく必要があります。
+さらに、「mariadb」コンテナへの「リンク」もまだ作成する必要があります。リンク」タブをクリックし、データベースコンテナを選択しています。エイリアス名は、Wikiのインストール時に覚えておく必要があります。
 {{< gallery match="images/11/*.png" >}}
-最後に、環境変数「TZ」に「Europe/Berlin」という値を入力します。
+最後に、環境変数「TZ」に「Europe/Berlin」という値を入力しています。
 {{< gallery match="images/12/*.png" >}}
-これで、コンテナが起動できるようになりました。SynologyのIPアドレスと私のコンテナポートでMediawikiサーバーを呼び出します。Database server」には、データベースコンテナのエイリアス名を入力します。また、「ステップ2」で設定したデータベース名、ユーザー名、パスワードを入力します。
+これで、コンテナの起動が可能になりました。私はSynologyのIPアドレスと私のコンテナポートでMediawikiサーバーを呼び出します。Database serverに、データベースコンテナのエイリアス名を入力します。また、「Step2」で入力したデータベース名、ユーザー名、パスワードも入力します。
 {{< gallery match="images/13/*.png" >}}

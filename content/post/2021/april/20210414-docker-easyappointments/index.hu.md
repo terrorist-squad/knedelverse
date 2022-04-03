@@ -15,7 +15,7 @@ Végfelhasználói eszköz időpontfoglaláshoz. A már lefoglalt időpontok blo
 {{< gallery match="images/2/*.png" >}}
 
 ## Telepítés
-Az Easyappointments-et már többször telepítettem a Docker-Compose segítségével, és ezt a telepítési módszert nagyon ajánlom. Létrehozok egy új könyvtárat "easyappointments" néven a szerveremen:
+Már többször telepítettem az Easyappointments-et a Docker-Compose segítségével, és nagyon ajánlom ezt a telepítési módszert. Létrehozok egy új könyvtárat "easyappointments" néven a szerveremen:
 {{< terminal >}}
 mkdir easyappointments
 cd easyappointments

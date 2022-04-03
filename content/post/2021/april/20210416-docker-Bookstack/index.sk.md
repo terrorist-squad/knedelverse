@@ -86,3 +86,4 @@ Kontajner je teraz možné spustiť. Vytvorenie databázy môže chvíľu trvať
 {{< gallery match="images/12/*.png" >}}
 Zavolám server Bookstack s IP adresou Synology a svojím kontajnerovým portom. Prihlasovacie meno je "admin@admin.com" a heslo je "password".
 {{< gallery match="images/13/*.png" >}}
+

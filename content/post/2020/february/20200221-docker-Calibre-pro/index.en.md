@@ -1,23 +1,23 @@
 +++
 date = "2020-02-21"
-title = "Great things with containers: Running Calibre with Docker Compose (Synology Pro Setup)"
+title = "Great things with containers: Running Calibre with Docker Compose (Synology pro setup)."
 difficulty = "level-3"
 tags = ["calibre", "calibre-web", "Docker", "docker-compose", "Synology", "linux"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200221-docker-Calibre-pro/index.en.md"
 +++
 There is already a simpler tutorial on this blog: [Synology-Nas: Install Calibre Web as ebook library]({{< ref "post/2020/february/20200213-synology-calibreweb" >}} "Synology-Nas: Install Calibre Web as ebook library"). This tutorial is for all Synology DS professionals.
 ## Step 1: Prepare Synology
-First of all, you need to enable SSH login on Diskstation. To do this, go to the "Control Panel" > "Terminal
+The first thing to do is to enable SSH login on Diskstation. To do this, go to the "Control Panel" > "Terminal
 {{< gallery match="images/1/*.png" >}}
-After that you can log in via "SSH", the given port and the administrator password (Windows users take Putty or WinSCP).
+After that you can log in via "SSH", the specified port and the administrator password (Windows users take Putty or WinSCP).
 {{< gallery match="images/2/*.png" >}}
 I log in via Terminal, winSCP or Putty and leave this console open for later.
 ## Step 2: Create books folder
-I create a new folder for the Calibre library. To do this, I go to "Control Panel" -> "Shared Folder" and create a new folder "Books". If there is no "Docker" folder yet, then this must also be created.
+I create a new folder for the Calibre library. To do this, I go to "Control Panel" -> "Shared Folder" and create a new folder called "Books". If there is no "Docker" folder yet, then this must also be created.
 {{< gallery match="images/3/*.png" >}}
 
 ## Step 3: Prepare books folder
-Now the following file must be downloaded and unpacked: https://drive.google.com/file/d/1zfeU7Jh3FO_jFlWSuZcZQfQOGD0NvXBm/view. The content ("metadata.db") must be put into the new books directory, see:
+Now the following file must be downloaded and unpacked: https://drive.google.com/file/d/1zfeU7Jh3FO_jFlWSuZcZQfQOGD0NvXBm/view. The content ("metadata.db") must be placed in the new books directory, see:
 {{< gallery match="images/4/*.png" >}}
 
 ## Step 4: Prepare Docker folder
@@ -46,7 +46,7 @@ In this new file several places must be adjusted as follows:* PUID/PGID: In PUID
 {{< gallery match="images/6/*.png" >}}
 
 ## Step 5: Test start
-I can also make good use of the console in this step. I change to the Calibre directory and start the Calibre server via Docker Compose.
+I can also make good use of the console in this step. I change to the Calibre directory and start the Calibre server there via Docker Compose.
 {{< terminal >}}
 cd /volume1/docker/calibre
 sudo docker-compose -f calibre.yml up -d
@@ -65,7 +65,7 @@ Also in this step the console is needed. I use the "exec" command to save the co
 sudo docker exec -it calibre-web-server cp /app/calibre-web/app.db /briefkaste/app.db
 
 {{</ terminal >}}
-After that, I see a new "app.db" file in the Calibre directory:
+After that I see a new "app.db" file in the Calibre directory:
 {{< gallery match="images/9/*.png" >}}
 I then stop the Calibre server:
 {{< terminal >}}

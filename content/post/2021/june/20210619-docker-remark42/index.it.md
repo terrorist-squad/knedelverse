@@ -68,3 +68,4 @@ Dopo la configurazione, il servizio è pronto per l'uso e può essere integrato 
 ```
 E questo è l'aspetto di Remark42:
 {{< gallery match="images/1/*.png" >}}
+

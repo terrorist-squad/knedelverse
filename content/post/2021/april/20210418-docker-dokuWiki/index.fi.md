@@ -50,3 +50,4 @@ Lopuksi annan nämä ympäristömuuttujat: Ks:
 {{< gallery match="images/5/*.png" >}}
 Säiliö voidaan nyt käynnistää. Kutsun dokuWIki-palvelinta Synologyn IP-osoitteella ja konttiportilla.
 {{< gallery match="images/6/*.png" >}}
+

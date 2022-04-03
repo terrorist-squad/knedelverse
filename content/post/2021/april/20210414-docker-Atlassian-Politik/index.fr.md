@@ -158,3 +158,4 @@ J'ai également sauvegardé les images Postgres.
 ## Action 3 : créer une clé USB d'installation
 J'ai sauvegardé ma documentation, toutes les archives d'installation, les répertoires de données Postgres et les configurations sur une clé USB. Comme je l'ai dit, la sauvegarde de la base de données est en fait la plus importante, car la licence activée se trouve également dans la base de données.
 {{< gallery match="images/1/*.png" >}}
+

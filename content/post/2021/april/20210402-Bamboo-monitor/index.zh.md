@@ -1,11 +1,11 @@
 +++
-date = "2021-04-04"
+date = "2021-04-0q"
 title = "阿特拉斯公司的酷事：为我的竹子监视器做宣传"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-Bamboo-monitor/index.zh.md"
 +++
-如何为Bamboo、Jenkins或Gitlab创建一个构建监视器？我今晚就能想出办法来!我已经写过一个类似的[Gitlab-Issue-Boards的教程]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Gitlab-Issue-Boards的教程")。
+如何为Bamboo、Jenkins或Gitlab创建一个构建监视器？我今晚就能想出办法来!我已经写过一个类似的[Gitlab问题板教程]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Gitlab问题板教程")。
 {{< gallery match="images/1/*.jpg" >}}
 本教程的基础是Raspberry Imager和 "Raspberry Pi OS Lite "操作系统。安装完操作系统后，可以将SD卡插入树莓中。在我的例子中，这是一个Raspberry Pi Zero。
 {{< gallery match="images/2/*.*" >}}
@@ -227,3 +227,4 @@ sudo reboot
 {{</ terminal >}}
 
 ## 准备就绪
+每个dasboard应该每天重新启动一次。我已经为此创建了一个cron。

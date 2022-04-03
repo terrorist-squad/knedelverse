@@ -1,6 +1,6 @@
 +++
 date = "2020-02-07"
-title = "Orkestrera uiPath Windows-robotar med Gitlab"
+title = "Orkestrera uiPath Windows Robots med Gitlab"
 difficulty = "level-5"
 tags = ["git", "gitlab", "robot", "roboter", "Robotic-Process-Automation", "rpa", "uipath", "windows"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200207-gitlab-uipath/index.sv.md"
@@ -15,13 +15,13 @@ UiPath är en etablerad standard inom robotiserad processautomatisering. Med uiP
 {{< gallery match="images/3/*.png" >}}
 
 ## Steg 2: Aktivera inloggning för tjänsten
-Om du vill använda en separat, lokal användare för din Windows Gitlab Runner måste du "Aktivera inloggning som tjänst". Detta gör du genom att gå till Windows-menyn > "Lokal säkerhetsprincip". Där väljer du "Local Policy" > "Assign User Rights" på vänster sida och "Logon as Service" på höger sida.
+Om du vill använda en separat, lokal användare för din Windows Gitlab Runner måste du "Aktivera inloggning som en tjänst". Detta gör du genom att gå till Windows-menyn > "Lokal säkerhetsprincip". Där väljer du "Local Policy" > "Assign User Rights" på vänster sida och "Logon as Service" på höger sida.
 {{< gallery match="images/4/*.png" >}}
 Lägg sedan till den nya användaren.
 {{< gallery match="images/5/*.png" >}}
 
 ## Steg 3: Registrera Gitlab Runner
-Windows-installationsprogrammet för Gitlab Runner finns på följande sida: https://docs.gitlab.com/runner/install/windows.html . Jag skapade en ny mapp på "C"-enheten och lade installationsprogrammet där.
+Windows-installationsprogrammet för Gitlab Runner finns på följande sida: https://docs.gitlab.com/runner/install/windows.html . Jag skapade en ny mapp på min "C"-enhet och lade installationsprogrammet där.
 {{< gallery match="images/6/*.png" >}}
 3.1.) Jag använder kommandot "CMD" som "Administratör" för att öppna en ny konsol och byta till en katalog "cd C:\gitlab-runner".
 {{< gallery match="images/7/*.png" >}}
@@ -32,7 +32,7 @@ gitlab-runner-windows-386.exe install --user ".\gitlab" --password "*****"
 {{</ terminal >}}
 3.2.) Nu kan Gitlab Runner registreras. Om du använder ett självsignerat certifikat för din Gitlab-installation måste du ange certifikatet med attributet "-tls-ca-file=". Ange sedan Gitlabs webbadress och registertoken.
 {{< gallery match="images/8/*.png" >}}
-3.2.) När registreringen har lyckats kan Runner startas med kommandot "gitlab-runner-windows-386.exe start":
+3.2.) Efter godkänd registrering kan Runner startas med kommandot "gitlab-runner-windows-386.exe start":
 {{< gallery match="images/9/*.png" >}}
 Bra! Din Gitlab Runner är igång och kan användas.
 {{< gallery match="images/10/*.png" >}}
@@ -60,3 +60,4 @@ build1:
 ```
 Min Windows-programvarurobot körs direkt efter att den har lagts in i mastergrenen:
 {{< gallery match="images/14/*.png" >}}
+Den automatiska starten av roboten kan hanteras via alternativet "Schedules". En stor fördel med den här kombinationen är att de "robottekniska" projekten och projektresultaten (artefakter) kan kontrolleras, versioneras och hanteras centralt av Gitlab tillsammans med andra "icke robottekniska" projekt.

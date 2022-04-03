@@ -11,3 +11,4 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 {{< gallery match="images/2/*.*" >}}
 当我第一次登录时，我被要求提供未来的 "管理员 "密码。就是这样!现在我可以组织项目了。现在可以安装一个Gitlab运行器了。  
 {{< gallery match="images/3/*.*" >}}
+

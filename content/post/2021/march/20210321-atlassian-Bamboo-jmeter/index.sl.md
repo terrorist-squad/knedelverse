@@ -42,7 +42,7 @@ else
 fi
 
 ```
-Imenik z orodji je fiksno nameščen v računalniku in ni del skladišča projekta. Poleg tega uporabljam tudi to skripto Python:
+Imenik z orodji je fiksno nameščen v računalniku in ni del skladišča projekta. Poleg tega uporabljam to skriptno programsko opremo Python:
 ```
 #!/usr/bin/python
 import re

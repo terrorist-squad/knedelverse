@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "docker-for-desktop", "radio", "mp3", "ripp", "streamripper", "radiorecorder"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2022/march/20220321-docker-mighty-mixxx-tapper/index.hu.md"
 +++
-A Streamripper egy parancssori eszköz, amely MP3 vagy OGG/Vorbis streamek rögzítésére és közvetlen merevlemezre mentésére használható. A dalokat automatikusan az előadónak megfelelően nevezi el, és egyenként menti el, a formátum az eredetileg elküldött formátum (tehát valójában .mp3 vagy .ogg kiterjesztésű fájlok jönnek létre). Találtam egy nagyszerű rádiófelvevő felületet és építettem belőle egy Docker image-et, lásd: https://github.com/terrorist-squad/mightyMixxxTapper/
+A Streamripper egy parancssori eszköz, amely MP3 vagy OGG/Vorbis streamek rögzítésére és közvetlen merevlemezre mentésére használható. A dalokat automatikusan az előadó után nevezi el és külön-külön menti el, a formátum az eredetileg elküldött formátum (tehát gyakorlatilag .mp3 vagy .ogg kiterjesztésű fájlok jönnek létre). Találtam egy nagyszerű rádiófelvevő felületet és építettem belőle egy Docker image-et, lásd: https://github.com/terrorist-squad/mightyMixxxTapper/
 {{< gallery match="images/1/*.png" >}}
 
 ## Lehetőség szakemberek számára

@@ -1,6 +1,6 @@
 +++
 date = "2021-05-30"
-title = "Program Udemy Downloader v zariadení Synology DiskStation"
+title = "Nástroj Udemy Downloader v zariadení Synology DiskStation"
 difficulty = "level-2"
 tags = ["udemy", "download", "synology", "diskstation", "udemydl"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-udemydl/index.sk.md"
@@ -55,3 +55,4 @@ python3 udemy-dl-master/udemy-dl.py -k /download/cookie.txt https://www.udemy.co
 {{</ terminal >}}
 Pozri:
 {{< gallery match="images/9/*.png" >}}
+

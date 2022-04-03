@@ -67,7 +67,7 @@ Jeg klikker på fanen "Registration" i Synology Docker-vinduet og søger efter "
 {{< gallery match="images/7/*.png" >}}
 Jeg dobbeltklikker på mit Bookstack-billede. Derefter klikker jeg på "Avancerede indstillinger" og aktiverer også "Automatisk genstart" her.
 {{< gallery match="images/8/*.png" >}}
-Jeg tildeler faste porte til "bookstack"-containeren. Uden faste porte kan det være, at "bookstack-serveren" kører på en anden port efter en genstart. Den første containerport kan slettes. Den anden havn bør huskes.
+Jeg tildeler faste porte til "bookstack"-containeren. Uden faste porte kan det være, at "bookstack-serveren" kører på en anden port efter en genstart. Den første containerport kan slettes. Den anden havn skal huskes.
 {{< gallery match="images/9/*.png" >}}
 Desuden skal der stadig oprettes et "link" til "mariadb"-containeren. Jeg klikker på fanen "Links" og vælger databasebeholderen. Aliasnavnet skal huskes i forbindelse med wiki-installationen.
 {{< gallery match="images/10/*.png" >}}
@@ -86,3 +86,4 @@ Beholderen kan nu startes. Det kan tage noget tid at oprette databasen. Adfærde
 {{< gallery match="images/12/*.png" >}}
 Jeg kalder Bookstack-serveren med Synologys IP-adresse og min containerport. Login-navnet er "admin@admin.com" og adgangskoden er "password".
 {{< gallery match="images/13/*.png" >}}
+

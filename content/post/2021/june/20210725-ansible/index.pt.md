@@ -37,3 +37,4 @@ Agora você pode executar playbooks ou comandos, por exemplo, reiniciar todos os
 ansible raspi -m shell -a 'sudo /sbin/reboot'
 
 {{</ terminal >}}
+

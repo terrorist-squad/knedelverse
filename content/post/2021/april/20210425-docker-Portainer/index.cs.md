@@ -46,7 +46,7 @@ V tomto kroku mohu také dobře využít konzolu. Spouštím server portainer po
 sudo docker-compose -f portainer.yml up -d
 
 {{</ terminal >}}
-Pak mohu zavolat svůj server Portainer pomocí IP adresy diskové stanice a přiřazeného portu z kroku 2. Zadám heslo správce a vyberu místní variantu.
+Pak mohu vyvolat server Portainer pomocí IP adresy diskové stanice a přiřazeného portu z kroku 2. Zadám heslo správce a vyberu místní variantu.
 {{< gallery match="images/4/*.png" >}}
 Jak vidíte, vše funguje skvěle!
 {{< gallery match="images/5/*.png" >}}

@@ -46,7 +46,7 @@ V tej novi datoteki je treba prilagoditi več mest, kot sledi: * PUID/PGID: V po
 {{< gallery match="images/6/*.png" >}}
 
 ## Korak 5: Testni zagon
-V tem koraku lahko dobro izkoristim tudi konzolo. Spremenim se v imenik Calibre in tam zaženem strežnik Calibre prek programa Docker Compose.
+V tem koraku lahko dobro izkoristim tudi konzolo. Premaknem se v imenik Calibre in tam zaženem strežnik Calibre prek programa Docker Compose.
 {{< terminal >}}
 cd /volume1/docker/calibre
 sudo docker-compose -f calibre.yml up -d

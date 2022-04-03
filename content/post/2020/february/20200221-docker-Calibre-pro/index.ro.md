@@ -56,7 +56,7 @@ sudo docker-compose -f calibre.yml up -d
 {{< gallery match="images/7/*.png" >}}
 
 ## Pasul 6: Configurare
-Apoi, pot apela serverul Calibre cu IP-ul stației de disc și portul atribuit de la "Pasul 4". Folosesc punctul de montare "/books" în configurare. După aceea, serverul este deja utilizabil.
+Apoi, pot apela serverul Calibre cu IP-ul stației de disc și portul atribuit de la "Pasul 4". În configurare, folosesc punctul de montare "/books". După aceea, serverul este deja utilizabil.
 {{< gallery match="images/8/*.png" >}}
 
 ## Etapa 7: Finalizarea configurației

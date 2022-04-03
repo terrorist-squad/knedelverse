@@ -9,3 +9,4 @@ I denne korte vejledning viser jeg, hvordan du fjernstyrer ESXi-maskiner via VMw
 {{< gallery match="images/1/*.png" >}}
 Nu er min VMware Fusion forbundet til ESXi-serveren som en klient.
 {{< gallery match="images/2/*.png" >}}
+

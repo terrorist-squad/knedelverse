@@ -13,7 +13,7 @@ Luon Docker-hakemistoon uuden hakemiston nimeltä "udemy".
 ## Vaihe 2: Asenna Ubuntu-kuva
 Napsautan Synology Docker -ikkunan "Rekisteröinti"-välilehteä ja etsin "ubunutu". Valitsen Docker-kuvan "ubunutu" ja napsautan sitten tagia "latest".
 {{< gallery match="images/2/*.png" >}}
-Kaksoisnapsautan Ubuntu-kuvaani. Sitten napsautan "Lisäasetukset" ja aktivoin "Automaattinen uudelleenkäynnistys" myös täällä.
+Kaksoisnapsautan Ubuntu-kuvaani. Sitten napsautan "Lisäasetukset" ja aktivoin "Automaattinen uudelleenkäynnistys" myös tässä.
 {{< gallery match="images/3/*.png" >}}
 Valitsen "Volume"-välilehden ja napsautan "Add folder". Siellä luon uuden kansion, jossa on tämä liitäntäpolku "/download".
 {{< gallery match="images/4/*.png" >}}
@@ -55,3 +55,4 @@ python3 udemy-dl-master/udemy-dl.py -k /download/cookie.txt https://www.udemy.co
 {{</ terminal >}}
 Katso:
 {{< gallery match="images/9/*.png" >}}
+

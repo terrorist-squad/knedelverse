@@ -11,7 +11,7 @@ Seleccione una plantilla y haga clic en "Usar plantilla". A continuación, es po
 {{< gallery match="images/1/*.png" >}}
 
 ## Paso 2: Personalizar los textos
-Después de iniciar sesión con éxito, la plantilla se abre en "modo de edición".  Cuando se mueve el cursor del ratón sobre un texto, éste se resalta.  
+Después de iniciar sesión con éxito, la plantilla se abre en "modo de edición".  Si mueve el cursor del ratón sobre un texto, éste se resalta.  
 {{< gallery match="images/2/*.png" >}}
 Ahora haga clic una vez en un "Elemento de texto" para ver las "Opciones de ajuste". Haga clic en "Cambiar texto" para ajustar un texto. Todas las demás opciones están bloqueadas. Haga clic en otro elemento de la página para aplicar su cambio.
 {{< gallery match="images/3/*.png" >}}
@@ -21,3 +21,4 @@ Una vez realizado el ajuste, simplemente haga clic en "Guardar (X)".
 {{< gallery match="images/4/*.png" >}}
 Su plantilla de menú se crea ahora en resolución de impresión como un PDF descargable.  Puede descargar, imprimir y enviar el archivo PDF.   
 {{< gallery match="images/5/*.png" >}}
+

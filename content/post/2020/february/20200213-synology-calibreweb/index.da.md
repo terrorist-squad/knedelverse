@@ -1,6 +1,6 @@
 +++
 date = "2020-02-13"
-title = "Synology-Nas: Installer Calibre Web som e-bogbibliotek"
+title = "Synology-Nas: Installer Calibre Web som et e-bogsbibliotek"
 difficulty = "level-1"
 tags = ["calbre-web", "calibre", "Docker", "ds918", "ebook", "epub", "nas", "pdf", "Synology"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200213-synology-calibreweb/index.da.md"
@@ -33,7 +33,7 @@ Standardlogin er "admin" med adgangskode "admin123".
 {{< gallery match="images/9/*.png" >}}
 Færdig! Nu kan jeg selvfølgelig også forbinde desktop-appen via min "bogmappe". Jeg bytter biblioteket i min app og vælger derefter min Nas-mappe.
 {{< gallery match="images/10/*.png" >}}
-Noget i denne retning:
+Noget i den retning:
 {{< gallery match="images/11/*.png" >}}
 Hvis jeg nu redigerer meta-infos i desktop-appen, bliver de også automatisk opdateret i web-appen.
 {{< gallery match="images/12/*.png" >}}

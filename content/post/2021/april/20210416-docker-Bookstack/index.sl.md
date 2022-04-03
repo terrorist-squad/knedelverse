@@ -86,3 +86,4 @@ Posodo lahko zaženete. Ustvarjanje podatkovne zbirke lahko traja nekaj časa. O
 {{< gallery match="images/12/*.png" >}}
 Strežnik Bookstack pokličem z naslovom IP Synology in vratom za zabojnik. Prijavno ime je "admin@admin.com", geslo pa "password".
 {{< gallery match="images/13/*.png" >}}
+

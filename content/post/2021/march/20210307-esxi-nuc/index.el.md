@@ -1,6 +1,6 @@
 +++
 date = "2021-03-07"
-title = "Εγκαταστήστε το ESXi σε μια NUC. Προετοιμάστε το στικ USB μέσω του MacBook."
+title = "Εγκαταστήστε το ESXi σε μια NUC. Προετοιμάστε το στικάκι USB μέσω του MacBook."
 difficulty = "level-4"
 tags = ["esxi", "homelab", "hypervisor", "linux", "nuc", "vmware"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210307-esxi-nuc/index.el.md"

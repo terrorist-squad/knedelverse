@@ -20,3 +20,4 @@ docker run --name watchtower --restart always -v /var/run/docker.sock:/var/run/d
 {{</ terminal >}}
 Μετά από αυτό, το Παρατηρητήριο τρέχει πάντα στο παρασκήνιο.
 {{< gallery match="images/3/*.png" >}}
+

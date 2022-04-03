@@ -28,3 +28,4 @@ convert 716023b632a9cbe6cad3ab368c202288.pdf /tmp/bilder/page.png
 montage /tmp/bilder/* -shadow -geometry '400x400+2+2>' -background '#f1f1f1' uebersich.jpg
 
 {{</ terminal >}}
+

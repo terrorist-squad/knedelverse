@@ -100,3 +100,4 @@ server {
 {{< gallery match="images/3/*.png" >}}
 由于LDAP用户只是访客用户，所以必须在Calibreweb中设置访客用户权限。
 {{< gallery match="images/4/*.png" >}}
+我为以下服务运行这个设置：* 视频库（Peertube）* 图书馆（Calibreweb）* Gitlab（CE不支持组，所以你必须登录2次）。

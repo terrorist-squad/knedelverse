@@ -12,3 +12,4 @@ Nástroj naleznete na následující adrese: https://github.com/Col-E/Recaf/rele
 java -jar recaf-2.18.2-J8-jar-with-dependencies.jar
 
 {{</ terminal >}}
+

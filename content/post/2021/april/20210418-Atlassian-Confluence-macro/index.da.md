@@ -20,7 +20,7 @@ Alle "gengivne" brugermakroer har som standard en kropsvariabel:
 Inhalt $body
 
 ```
-Alle andre variabler er defineret i makrokoden. Mere om emnet variabler
+Alle andre variabler er defineret i makrokoden. Mere om variabler
 ```
 
 ## @param Title:title=Titlebar Title|type=string|required=truel|default=Bash

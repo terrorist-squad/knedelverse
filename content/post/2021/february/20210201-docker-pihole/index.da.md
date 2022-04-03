@@ -1,6 +1,6 @@
 +++
 date = "2021-02-01"
-title = "Store ting med containere: Pihole på Synology DiskStation"
+title = "Store ting med containere: Pihole på Synology Diskstation"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "dns", "adblocker", "fritzbox"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/february/20210201-docker-pihole/index.da.md"
@@ -50,7 +50,7 @@ Beholderen kan nu startes:
 sudo docker-compose up -d
 
 {{</ terminal >}}
-Jeg kalder Pihole-serveren op med Synologys IP-adresse og min containerport og logger ind med adgangskoden WEBPASSWORD.
+Jeg ringer til Pihole-serveren med Synologys IP-adresse og min containerport og logger ind med adgangskoden WEBPASSWORD.
 {{< gallery match="images/4/*.png" >}}
 Nu kan DNS-adressen ændres i Fritzboxen under "Home Network" > "Network" > "Network Settings" (Netværksindstillinger).
 {{< gallery match="images/5/*.png" >}}

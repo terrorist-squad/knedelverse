@@ -1,11 +1,11 @@
 +++
-date = "2021-04-04"
-title = "Skvělé věci s Atlassian: Pimp my Bamboo Monitor"
+date = "2021-04-0q"
+title = "Parádní věci s Atlassianem: Pimp my Bamboo Monitor"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-Bamboo-monitor/index.cs.md"
 +++
-Jak mohu vytvořit monitor sestavení pro Bamboo, Jenkins nebo Gitlab? Do večera na to přijdu! Podobný [Výukový program pro Gitlab-Issue-Boards]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Výukový program pro Gitlab-Issue-Boards") jsem již napsal.
+Jak mohu vytvořit monitor sestavení pro Bamboo, Jenkins nebo Gitlab? Do večera na to přijdu! Podobný [Výukový program pro desky problémů Gitlab]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Výukový program pro desky problémů Gitlab") jsem již napsal.
 {{< gallery match="images/1/*.jpg" >}}
 Základem tohoto návodu je Raspberry Imager a operační systém "Raspberry Pi OS Lite". Po instalaci operačního systému lze do Raspberry vložit kartu SD. V mém případě je to Raspberry Pi Zero.
 {{< gallery match="images/2/*.*" >}}
@@ -32,7 +32,7 @@ sudo su dashboard
 {{</ terminal >}}
 
 ##  3.1. ) Tlačítka/funkce
-Chci, aby moje Raspberry bylo provozuschopné v režimu kiosku. Za tímto účelem ukládám dva klávesové příkazy, Ctrl Alt X pro terminál a Alt C pro zavření terminálu. V terminálu se můžete zeptat na aktuální IP pomocí ifconfig, vypnout Malina pomocí sudo shutdown -h now etc.....
+Chci, aby moje Raspberry bylo provozuschopné v režimu kiosku. Za tímto účelem ukládám dva klávesové příkazy, Ctrl Alt X pro terminál a Alt C pro zavření terminálu. V terminálu se můžete zeptat na aktuální IP pomocí ifconfig, vypnout Raspberry pomocí sudo shutdown -h now etc.....
 {{< terminal >}}
 cd ~
 mkdir .matchbox
@@ -227,3 +227,4 @@ sudo reboot
 {{</ terminal >}}
 
 ## Připraveno
+Každý dasboard by měl být restartován jednou denně. Vytvořil jsem pro to cron.

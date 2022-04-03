@@ -21,3 +21,4 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 {{< gallery match="images/4/*.png" >}}
 За целите на тестването инсталирах инсталация на DOS и стар счетоводен софтуер чрез тази точка за монтиране.
 {{< gallery match="images/5/*.png" >}}
+

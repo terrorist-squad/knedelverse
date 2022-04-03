@@ -9,3 +9,4 @@ A 104.6 RTL hihetetlenül egyszerűen telepíthető a Fritzphone készülékre. 
 {{< gallery match="images/1/*.png" >}}
 Görgessen az oldal aljára. Kérjük, válassza az "Egyéb internetes rádióállomás" lehetőséget az "Internetes rádióállomás hozzáadása" menüpont alatt. Adja meg a "104.6 RTL Berlins Hitradio" nevet és a "http://stream.104.6rtl.com/rtl-live" címet.
 {{< gallery match="images/2/*.png" >}}
+Kattintson az "OK" gombra! Az új sebességváltó azonnal használható a FritzFonon.

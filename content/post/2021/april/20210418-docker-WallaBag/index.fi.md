@@ -67,9 +67,9 @@ Näiden asetusten jälkeen Mariadb-palvelin voidaan käynnistää! Painan "Apply
 ## Vaihe 3: Asenna Wallabag
 Napsautan Synology Docker -ikkunan "Registration"-välilehteä ja etsin "wallabag". Valitsen Docker-kuvan "wallabag/wallabag" ja napsautan sitten tagia "latest".
 {{< gallery match="images/8/*.png" >}}
-Kaksoisnapsautan seinäpussini kuvaa. Sitten napsautan "Lisäasetukset" ja aktivoin "Automaattinen uudelleenkäynnistys" myös täällä.
+Kaksoisnapsautan seinäpussini kuvaa. Sitten napsautan "Lisäasetukset" ja aktivoin "Automaattinen uudelleenkäynnistys" myös tässä.
 {{< gallery match="images/9/*.png" >}}
-Valitsen "Volume"-välilehden ja napsautan "Add Folder". Luon sinne uuden kansion, jossa on tämä kiinnityspolku "/var/www/wallabag/web/assets/images".
+Valitsen "Volume"-välilehden ja napsautan "Add Folder". Luon sinne uuden kansion, jossa on tämä liitäntäpolku "/var/www/wallabag/web/assets/images".
 {{< gallery match="images/10/*.png" >}}
 Määritän kiinteät portit "wallabag"-säiliölle. Ilman kiinteitä portteja voi olla, että "wallabag-palvelin" toimii eri portissa uudelleenkäynnistyksen jälkeen. Ensimmäinen konttisatama voidaan poistaa. Toinen satama olisi muistettava.
 {{< gallery match="images/11/*.png" >}}
@@ -97,3 +97,4 @@ Säiliö voidaan nyt käynnistää. Tietokannan luominen voi kestää jonkin aik
 {{< gallery match="images/14/*.png" >}}
 Soitan wallabag-palvelimelle Synologyn IP-osoitteella ja konttiportilla.
 {{< gallery match="images/15/*.png" >}}
+Minun on kuitenkin sanottava, että itse pidän enemmän shiorista Internet-arkistona.

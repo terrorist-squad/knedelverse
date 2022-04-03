@@ -1,6 +1,6 @@
 +++
 date = "2021-04-25T09:28:11+01:00"
-title = "Grandes cosas con contenedores: Netbox en Synology - Disco"
+title = "Grandes cosas con contenedores: Netbox en Synology - Diskstation"
 difficulty = "level-3"
 tags = ["Computernetzwerken", "DCIM", "Docker", "docker-compose", "IPAM", "netbox", "Synology", "netwerk"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Netbox/index.es.md"
@@ -30,15 +30,15 @@ Luego edito el archivo "docker/docker-compose.yml" e introduzco mis direcciones 
 ```
 version: '3.4'
 services:
-  netbox: &netbox
-    image: netboxcommunity/netbox:${VERSION-latest}
+  netbox: 
+    image: netboxcommunity/netbox:${VERSION-v3.1-1.6.0}
     depends_on:
     - postgres
     - redis
     - redis-cache
     - netbox-worker
     env_file: env/netbox.env
-    user: '101'
+    user: 'unit:root'
     volumes:
     - ./startup_scripts:/opt/netbox/startup_scripts:z,ro
     - ./initializers:/opt/netbox/initializers:z,ro
@@ -48,20 +48,32 @@ services:
     - ./netbox-media-files:/opt/netbox/netbox/media:z
     ports:
     - "8097:8080"
+    
   netbox-worker:
-    <<: *netbox
+    image: netboxcommunity/netbox:${VERSION-v3.1-1.6.0}
+    env_file: env/netbox.env
+    user: 'unit:root'
     depends_on:
     - redis
-    entrypoint:
+    - postgres
+    command:
     - /opt/netbox/venv/bin/python
     - /opt/netbox/netbox/manage.py
-    command:
     - rqworker
-    ports: []
+
+  netbox-housekeeping:
+    image: netboxcommunity/netbox:${VERSION-v3.1-1.6.0}
+    env_file: env/netbox.env
+    user: 'unit:root'
+    depends_on:
+    - redis
+    - postgres
+    command:
+    - /opt/netbox/housekeeping.sh
 
   # postgres
   postgres:
-    image: postgres:12-alpine
+    image: postgres:14-alpine
     env_file: env/postgres.env
     volumes:
     - ./netbox-postgres-data:/var/lib/postgresql/data
@@ -76,6 +88,7 @@ services:
     env_file: env/redis.env
     volumes:
     - ./netbox-redis-data:/data
+
   redis-cache:
     image: redis:6-alpine
     command:
@@ -84,8 +97,9 @@ services:
     - redis-server --requirepass $$REDIS_PASSWORD ## $$ because of docker-compose
     env_file: env/redis-cache.env
 
+
 ```
-Después de eso puedo iniciar el archivo de composición:
+Es muy importante que la herencia "<<: *Se sustituye "netbox" y se introduce un puerto para "netbox", tras lo cual puedo iniciar el archivo Compose:
 {{< terminal >}}
 sudo docker-compose up
 

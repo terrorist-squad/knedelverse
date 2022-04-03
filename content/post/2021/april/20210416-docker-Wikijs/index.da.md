@@ -74,7 +74,7 @@ Jeg dobbeltklikker på mit WikiJS-billede. Derefter klikker jeg på "Avancerede 
 {{< gallery match="images/8/*.png" >}}
 Jeg tildeler faste porte til "WikiJS"-containeren. Uden faste porte kan det være, at "bookstack-serveren" kører på en anden port efter en genstart.
 {{< gallery match="images/9/*.png" >}}
-Desuden skal der oprettes et "link" til "mysql"-containeren. Jeg klikker på fanen "Links" og vælger databasebeholderen. Aliasnavnet skal huskes i forbindelse med wiki-installationen.
+Desuden skal der stadig oprettes et "link" til "mysql"-containeren. Jeg klikker på fanen "Links" og vælger databasebeholderen. Aliasnavnet skal huskes i forbindelse med wiki-installationen.
 {{< gallery match="images/10/*.png" >}}
 {{<table "table table-striped table-bordered">}}
 |Variabelt navn|Værdi|Hvad er det?|

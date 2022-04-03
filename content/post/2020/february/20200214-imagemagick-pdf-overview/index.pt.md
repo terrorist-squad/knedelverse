@@ -28,3 +28,4 @@ Agora a colagem só precisa de ser montada:
 montage /tmp/bilder/* -shadow -geometry '400x400+2+2>' -background '#f1f1f1' uebersich.jpg
 
 {{</ terminal >}}
+

@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 
 ## Passo 1: Preparare Synology
-Innanzitutto, il login SSH deve essere attivato sulla DiskStation. Per farlo, andate nel "Pannello di controllo" > "Terminale
+In primo luogo, il login SSH deve essere attivato sulla DiskStation. Per farlo, andate nel "Pannello di controllo" > "Terminale
 {{< gallery match="images/1/*.png" >}}
 Poi si può accedere tramite "SSH", la porta specificata e la password dell'amministratore (gli utenti Windows usano Putty o WinSCP).
 {{< gallery match="images/2/*.png" >}}
@@ -46,7 +46,7 @@ Posso anche fare buon uso della console in questo passo. Avvio il server portain
 sudo docker-compose -f portainer.yml up -d
 
 {{</ terminal >}}
-Poi posso chiamare il mio server Portainer con l'IP della stazione disco e la porta assegnata dal "Passo 2". Inserisco la mia password di amministratore e seleziono la variante locale.
+Poi posso richiamare il mio server Portainer con l'IP della stazione disco e la porta assegnata dal "Passo 2". Inserisco la mia password di amministratore e seleziono la variante locale.
 {{< gallery match="images/4/*.png" >}}
 Come potete vedere, tutto funziona alla grande!
 {{< gallery match="images/5/*.png" >}}

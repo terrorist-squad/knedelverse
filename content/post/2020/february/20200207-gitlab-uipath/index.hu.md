@@ -32,7 +32,7 @@ gitlab-runner-windows-386.exe install --user ".\gitlab" --password "*****"
 {{</ terminal >}}
 3.2.) Most már regisztrálható a Gitlab runner. Ha önaláírt tanúsítványt használ a Gitlab telepítéséhez, akkor a tanúsítványt a "-tls-ca-file=" attribútummal kell megadni. Ezután adja meg a Gitlab url-t és a regisztrációs tokent.
 {{< gallery match="images/8/*.png" >}}
-3.2.) A sikeres regisztráció után a futó a "gitlab-runner-windows-386.exe start" paranccsal indítható:
+3.2.) Sikeres regisztráció után a futó a "gitlab-runner-windows-386.exe start" paranccsal indítható:
 {{< gallery match="images/9/*.png" >}}
 Nagyszerű! A Gitlab Runner már működik és használható.
 {{< gallery match="images/10/*.png" >}}
@@ -60,3 +60,4 @@ build1:
 ```
 A Windows szoftverrobotom közvetlenül a master ágba történő átadás után kerül végrehajtásra:
 {{< gallery match="images/14/*.png" >}}
+A robot automatikus indítása az "Ütemezés" opcióval kezelhető. Ennek a kombinációnak nagy előnye, hogy a "robotikus" projektek és a projekt eredményei (artefaktumok) központilag ellenőrizhetők, verziókezelhetők és kezelhetők a Gitlab által más "nem robotikus" projektekkel együtt.

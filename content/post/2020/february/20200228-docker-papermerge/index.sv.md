@@ -32,7 +32,7 @@ Först skapar jag en mapp för papperssammanläggningen. Jag går till "System C
 {{< gallery match="images/1/*.png" >}}
 Steg 2: Sök efter Docker-avbildningenJag klickar på fliken "Registration" i Synology Docker-fönstret och söker efter "Papermerge". Jag väljer Docker-avbildningen "linuxserver/papermerge" och klickar sedan på taggen "latest".
 {{< gallery match="images/2/*.png" >}}
-När bilden har laddats ner finns den tillgänglig som en bild. Docker skiljer mellan två tillstånd: container (dynamiskt tillstånd) och image/image (fast tillstånd). Innan vi kan skapa en behållare från avbildningen måste några inställningar göras.
+När bilden har laddats ner finns den tillgänglig som en bild. Docker skiljer mellan två tillstånd, container (dynamiskt tillstånd) och image/image (fast tillstånd). Innan vi kan skapa en behållare från avbildningen måste några inställningar göras.
 ## Steg 3: Använd bilden:
 Jag dubbelklickar på min bild för papperssammanfogning.
 {{< gallery match="images/3/*.png" >}}

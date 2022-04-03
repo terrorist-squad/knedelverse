@@ -5,7 +5,7 @@ difficulty = "level-4"
 tags = ["Docker", "git", "gitlab", "gitlab-runner", "raspberry-pi"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2019/july/20190717-synology-gitlab-runner/index.bg.md"
 +++
-Как да инсталирам Gitlab runner като Docker контейнер на моя Synology NAS?
+Как да инсталирам Gitlab runner като контейнер Docker на моя Synology NAS?
 ## Стъпка 1: Търсене на образ на Docker
 Кликвам върху раздела "Регистрация" в прозореца на Synology Docker и търся Gitlab. Избирам образа на Docker "gitlab/gitlab-runner" и след това избирам маркера "bleeding".
 {{< gallery match="images/1/*.png" >}}
@@ -28,7 +28,7 @@ ff02::2 ip6-allrouters
 {{< gallery match="images/2/*.png" >}}
 
 ## Стъпка 3: Настройка на GitLab Runner
-Кликвам върху изображението на моя бегач:
+Кликвам върху изображението на моя Runner:
 {{< gallery match="images/3/*.png" >}}
 Активирам настройката "Активиране на автоматичното рестартиране":
 {{< gallery match="images/4/*.png" >}}

@@ -13,7 +13,7 @@ Como ya he escrito, ejecuto un servidor central openLDAP en el contenedor Docker
 {{< gallery match="images/2/*.png" >}}
 
 ## Asegurar una aplicación insegura con un proxy inverso
-Como la imagen Docker "linuxserver/calibre-web" no soporta encriptación SSL ni LDAP, creo una red virtual llamada "calibreweb" y pongo un proxy inverso NGINX delante del servidor Calibre. Este es el aspecto de mi archivo Docker Compose. Todos los registros de acceso futuros se almacenan en el directorio log y mis certificados autofirmados están en el directorio certs.
+Como la imagen Docker "linuxserver/calibre-web" no soporta encriptación SSL y LDAP, creo una red virtual llamada "calibreweb" y pongo un proxy inverso NGINX delante del servidor Calibre. Este es el aspecto de mi archivo Docker Compose. Todos los registros de acceso futuros se almacenan en el directorio log y mis certificados autofirmados están en el directorio certs.
 ```
 version: '3.7'
 services:
@@ -100,3 +100,4 @@ Si ahora inicias la configuración con "docker-compose -f ...etc... up", tambié
 {{< gallery match="images/3/*.png" >}}
 Dado que los usuarios de LDAP son sólo usuarios invitados, los derechos de los usuarios invitados deben establecerse en Calibreweb:
 {{< gallery match="images/4/*.png" >}}
+Ejecuto esta configuración para los siguientes servicios:* Videoteca (Peertube)* Biblioteca (Calibreweb)* Gitlab (El CE no admite grupos, por lo que hay que entrar dos veces)

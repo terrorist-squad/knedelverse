@@ -1,11 +1,11 @@
 +++
 date = "2020-02-16"
-title = "Gitlabセミナー：GitllabのパイプラインでWordPressの静的コピーをデプロイするには？"
+title = "Gitlabセミナー：GitllabパイプラインでWordPressの静的コピーをデプロイする方法とは？"
 difficulty = "level-2"
 tags = ["cms", "git", "gitlab", "pipeline", "serverless", "wordpress"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200216-wordpress-pipeline/index.ja.md"
 +++
-静的なウェブサイトは、読み込みが速く、攻撃対象が少ない。CMSのページをGitlab Pipline経由で変換する方法を紹介します。まず、wgetで静的なコピーを生成するビルドステージを作ります。
+静的なウェブサイトは読み込みが速く、攻撃対象も少なくなります。Gitlab Pipline経由でCMSのページを変換する方法を紹介します。まず、wgetで静的コピーを生成するビルドステージを作成します。
 ```
 uild:
   stage: build
@@ -23,7 +23,7 @@ uild:
     expire_in: 24 week
 
 ```
-結果や静的なアーティファクトは24週間保存され、パイプラインを介していつでも展開することができます。
+結果または静的アーティファクトは24週間保存され、パイプラインを通じていつでもデプロイすることができます。
 {{< gallery match="images/1/*.png" >}}
 次のステップでは、その結果をデプロイすることができます。
 ```
@@ -40,7 +40,7 @@ live:
     - rsync -avuz -e 'ssh -p {-P  Port wenn nötig} -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null' static/*  user@www.domain.com:/path/to/www.domain.de/public/
 
 ```
-できました。パイプライン全体（.gitlab_ci.yml）をもう一度囲みます。
+完了！パイプライン全体（.gitlab_ci.yml）をもう一度囲みます。
 ```
 stages:
   - build

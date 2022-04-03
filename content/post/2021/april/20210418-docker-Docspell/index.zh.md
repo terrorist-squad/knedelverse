@@ -34,3 +34,4 @@ docker-compose up -d
 {{</ terminal >}}
 几分钟后，我可以用磁盘站的IP和分配的端口/7878呼叫我的Docspell服务器。
 {{< gallery match="images/5/*.png" >}}
+搜索文件的效果很好。我觉得很遗憾的是，图片中的文字没有被索引。有了Papermerge，你还可以搜索图片中的文本。

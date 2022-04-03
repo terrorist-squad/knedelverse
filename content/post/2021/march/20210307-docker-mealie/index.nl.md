@@ -30,11 +30,11 @@ services:
 ## Stap 1: Zoek naar Docker image
 Ik klik op het tabblad "Registratie" in het Synology Docker venster en zoek naar "mealie". Ik selecteer de Docker image "hkotel/mealie:latest" en klik dan op de tag "latest".
 {{< gallery match="images/2/*.png" >}}
-Na het downloaden van de afbeelding, is de afbeelding beschikbaar als een afbeelding. Docker maakt onderscheid tussen 2 toestanden, container "dynamische toestand" en image/image (vaste toestand). Voordat we een container kunnen maken van de image, moeten een paar instellingen worden gemaakt.
+Na het downloaden van de afbeelding, is de afbeelding beschikbaar als een afbeelding. Docker maakt onderscheid tussen 2 toestanden, container "dynamische toestand" en image/image (vaste toestand). Voordat we een container van het image kunnen maken, moeten een paar instellingen worden gemaakt.
 ## Stap 2: Zet het beeld in werking:
 Ik dubbelklik op mijn "mealie" plaatje.
 {{< gallery match="images/3/*.png" >}}
-Dan klik ik op "Geavanceerde instellingen" en activeer de "Automatische herstart". Ik selecteer de tab "Volume" en klik op "Map toevoegen". Daar maak ik een nieuwe map aan met dit mount pad "/app/data".
+Dan klik ik op "Geavanceerde instellingen" en activeer de "Automatische herstart". Ik selecteer het tabblad "Volume" en klik op "Map toevoegen". Daar maak ik een nieuwe map aan met dit mount pad "/app/data".
 {{< gallery match="images/4/*.png" >}}
 Ik wijs vaste poorten toe voor de "Mealie" container. Zonder vaste poorten, zou het kunnen dat de "Mealie server" op een andere poort draait na een herstart.
 {{< gallery match="images/5/*.png" >}}
@@ -85,3 +85,4 @@ done < clear.txt
 ```
 Nu kunt u de recepten ook offline bekijken:
 {{< gallery match="images/15/*.png" >}}
+Conclusie: Als je wat tijd in Mealie steekt, kun je een geweldige receptendatabase opbouwen! Mealie wordt voortdurend ontwikkeld als een open source project en is te vinden op het volgende adres: https://github.com/hay-kot/mealie/

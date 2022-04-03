@@ -5,13 +5,13 @@ difficulty = "level-4"
 tags = ["atlassian", "confluence", "Docker", "ds918", "Synology", "wiki", "nas"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200213-synology-confluence/index.nl.md"
 +++
-Als u Atlassian Confluence wilt installeren op een Synology NAS, dan bent u op de juiste plaats.
+Als u Atlassian Confluence wilt installeren op een Synology NAS, dan bent u hier op de juiste plaats.
 ## Stap 1
 Eerst open ik de Docker-app in de Synology-interface en ga dan naar het sub-item "Registratie". Daar zoek ik naar "Confluence" en klik op het eerste plaatje "Atlassian Confluence".
 {{< gallery match="images/1/*.png" >}}
 
 ## Stap 2
-Na het downloaden van de afbeelding, is de afbeelding beschikbaar als een afbeelding. Docker maakt onderscheid tussen 2 toestanden, container "dynamische toestand" en image/image (vaste toestand). Voordat we een container kunnen maken van de image, moeten een paar instellingen worden gemaakt.
+Na het downloaden van de afbeelding, is de afbeelding beschikbaar als een afbeelding. Docker maakt onderscheid tussen 2 toestanden, container "dynamische toestand" en image/image (vaste toestand). Voordat we een container van het image kunnen maken, moeten een paar instellingen worden gemaakt.
 ## Automatische herstart
 Ik dubbelklik op mijn Confluence image.
 {{< gallery match="images/2/*.png" >}}

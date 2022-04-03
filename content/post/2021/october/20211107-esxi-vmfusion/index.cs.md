@@ -9,3 +9,4 @@ V tomto krátkém tutoriálu ukážu, jak vzdáleně ovládat počítače ESXi p
 {{< gallery match="images/1/*.png" >}}
 Nyní je můj VMware Fusion připojen k serveru ESXi jako klient.
 {{< gallery match="images/2/*.png" >}}
+

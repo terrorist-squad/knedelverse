@@ -5,7 +5,7 @@ difficulty = "level-4"
 tags = ["kubernetes", "nfs", "filer", "cloud", "homelab", "pods", "nodes", "raspberry-pi", "raspberry"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210620-pi-kubenetes-cloud/index.da.md"
 +++
-I dag skal jeg installere en ny Kubenetes-klynge, og der er meget at lave!
+I dag installerer jeg en ny Kubenetes-klynge, og der er meget at gøre!
 {{< gallery match="images/1/*.jpg" >}}
 Jeg har bestilt disse komponenter til den:
 - 1x WDBU6Y0050BBK WD Elements portable 5TB: https://www.reichelt.de/wd-elements-portable-5tb-wdbu6y0050bbk-p270625.html?
@@ -67,7 +67,7 @@ sudo find /media/usb-platte/nfsshare/ -type d -exec chmod 755 {} \;
 sudo find /media/usb-platte/nfsshare/ -type f -exec chmod 644 {} \;
 
 {{</ terminal >}}
->>Derpå skal filen "/etc/exports" redigeres. Her angives stien, bruger-id og gruppe-id:
+>>Derpå skal filen "/etc/exports" redigeres. Her angives stien, bruger-id'et og gruppe-id'et:
 ```
 /media/usb-platte/nfsshare *(rw,all_squash,insecure,async,no_subtree_check,anonuid=1000,anongid=1000)
 
@@ -139,7 +139,7 @@ sudo systemctl daemon-reload
 systemctl restart kubelet
 
 {{</ terminal >}}
-> Kommandoen "kubectl get nodes" skulle nu vise "Master" i status "Ready".
+>Kommandoen "kubectl get nodes" skulle nu vise "Master" i status "Ready".
 {{< gallery match="images/6/*.png" >}}
 
 ## Kubernetes - Tilføj knudepunkter
@@ -148,7 +148,7 @@ Nu skal vi bruge kommandoen "kubeadm join" fra Kubenetes initialisering. Jeg ind
 kubeadm join master-ip:port --token r4fddsfjdsjsdfomsfdoi --discovery-token-ca-cert-hash sha256:1adea3bfxfdfddfdfxfdfsdffsfdsdf946da811c27d1807aa
 
 {{</ terminal >}}
-Hvis jeg nu indtaster kommandoen "kubectl get nodes" fra "Server 1" igen, vises disse knudepunkter sandsynligvis i status "Not Ready" (ikke klar). Også her er der det netværksproblem, som også masteren havde. Jeg kører kommandoen fra før igen, men denne gang tilføjer jeg et "f" for force.
+Hvis jeg nu indtaster kommandoen "kubectl get nodes" fra "Server 1" igen, vises disse knudepunkter sandsynligvis i status "Not Ready" (ikke klar). Også her er der det netværksproblem, som skibsføreren også havde. Jeg kører kommandoen fra før igen, men denne gang tilføjer jeg et "f" for force.
 {{< terminal >}}
 kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/2140ac876ef134e0ed5af15c65e414cf26827915/Documentation/kube-flannel.yml
 
@@ -208,3 +208,4 @@ kubectl delete deplyments my-nginx
 {{</ terminal >}}
 >Se:
 {{< gallery match="images/10/*.png" >}}
+

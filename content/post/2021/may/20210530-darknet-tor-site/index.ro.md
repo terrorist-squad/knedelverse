@@ -5,7 +5,7 @@ difficulty = "level-3"
 tags = ["darknet", "tor", "website", "hosting", "hidden"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-darknet-tor-site/index.ro.md"
 +++
-Navigarea pe Darknet ca vizitator este destul de simplă. Dar cum pot găzdui o pagină Onion? Vă voi arăta cum să vă creați propria pagină Darknet.
+Navigarea în Darknet ca vizitator este destul de simplă. Dar cum pot găzdui o pagină Onion? Vă voi arăta cum să vă creați propria pagină Darknet.
 ## Pasul 1: Cum pot naviga pe Darknet?
 Folosesc un desktop Ubuntu pentru o mai bună ilustrare. Acolo instalez următoarele pachete:
 {{< terminal >}}

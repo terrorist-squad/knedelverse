@@ -41,3 +41,12 @@ sudo chmod 775 /home/pi/radio-streamer.sh
 {{</ terminal >}}
 
 ## Possível crontjob
+O computador é reiniciado todas as noites entre as 4 e as 5 horas. Além disso, o Radion volta a ligar-se de hora a hora.
+```
+@reboot sleep 60 && sudo /home/pi/radio-streamer.sh 
+36 4 * * * sudo pkill sox 
+37 4 * * * sudo pkill pifm 
+38 4 * * * sudo reboot 
+59 * * * * sudo /home/pi/radio-streamer.sh
+
+```

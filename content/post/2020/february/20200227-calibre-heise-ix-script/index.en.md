@@ -5,16 +5,16 @@ difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ebook", "epub", "linux", "pdf", "Synology"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-calibre-heise-ix-script/index.en.md"
 +++
-It can often be tedious to tag PDFs with the right meta info. I myself sort the downloaded PDFs from my Heise IX subscription account into my private Calibre library.
+It can often be tedious to tag PDFs with the right meta info. I myself sort the downloaded PDFs from my Heise-IX subscription account, into my private Calibre library.
 {{< gallery match="images/1/*.png" >}}
-Because this process repeats itself every month, I came up with the following setup. I only drag my new PDFs into my library.
+Because this process repeats itself every month, I came up with the following setup. I just drag and drop my new PDFs into my library.
 {{< gallery match="images/2/*.png" >}}
-I created a container for myself that gets my Calibre library as a volume (-v ...:/books). In this container I installed the following packages:
+I have created a container for myself that gets my Calibre library as a volume (-v ...:/books). In this container I installed the following packages:
 {{< terminal >}}
 apt-get update && apt-get install -y xpdf calibre
 
 {{</ terminal >}}
-Now my script searches for new PDFs that match the pattern "IX*.pdf". From each PDF the first 5 pages are exported as text. Afterwards, all words that appear on this word list are removed: https://raw.githubusercontent.com/ChristianKnedel/heise-ix-reader-for-calibre/master/blacklist.txt
+Now my script searches for new PDFs that match the pattern "IX*.pdf". From each PDF the first 5 pages are exported as text. Then all words are removed that appear on this word list: https://raw.githubusercontent.com/ChristianKnedel/heise-ix-reader-for-calibre/master/blacklist.txt
 ```
 #!/bin/bash
 export LANG=C.UTF-8
@@ -42,5 +42,6 @@ done
 
 
 ```
-I use the "calibredb set_metadata" command to set everything else as tags. The result looks like this:
+With the command "calibredb set_metadata" I set everything else as tags. The result looks like this:
 {{< gallery match="images/3/*.png" >}}
+The script is also available on Github: https://github.com/ChristianKnedel/heise-ix-reader-for-calibre .

@@ -20,3 +20,4 @@ docker run --name watchtower --restart always -v /var/run/docker.sock:/var/run/d
 {{</ terminal >}}
 След това програмата Watchtower винаги работи във фонов режим.
 {{< gallery match="images/3/*.png" >}}
+

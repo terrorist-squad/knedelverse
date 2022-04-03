@@ -9,3 +9,4 @@ githublink = "https://github.com/terrorist-squad/knedelverse/tree/main/content/p
 {{< gallery match="images/1/*.png" >}}
 滚动到页面底部。请在 "添加网络电台 "下选择 "其他网络电台"。输入一个名称 "104.6 RTL Berlins Hitradio "和地址 "http://stream.104.6rtl.com/rtl-live"。
 {{< gallery match="images/2/*.png" >}}
+点击 "确定"!新的变速器可以立即在您的FritzFon上使用。

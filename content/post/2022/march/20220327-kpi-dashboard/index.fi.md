@@ -92,3 +92,4 @@ docker run -it -p 9292:9292 my-dashboard:latest
 {{</ terminal >}}
 Ja tältä se näyttää:
 {{< gallery match="images/3/*.png" >}}
+Tämä on hyvän tietojärjestelmän perusta. Voit muokata kaikkia värejä, skriptejä ja widgettejä.

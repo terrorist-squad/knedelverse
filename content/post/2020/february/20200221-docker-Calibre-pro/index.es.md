@@ -56,7 +56,7 @@ sudo docker-compose -f calibre.yml up -d
 {{< gallery match="images/7/*.png" >}}
 
 ## Paso 6: Configuración
-Entonces puedo llamar a mi servidor Calibre con la IP de la estación de disco y el puerto asignado desde el "Paso 4". Utilizo mi punto de montaje "/libros" en la configuración. Después de eso, el servidor ya es utilizable.
+Entonces puedo llamar a mi servidor Calibre con la IP de la estación de disco y el puerto asignado desde el "Paso 4". En la configuración, uso mi punto de montaje "/libros". Después de eso, el servidor ya es utilizable.
 {{< gallery match="images/8/*.png" >}}
 
 ## Paso 7: Finalizar la configuración

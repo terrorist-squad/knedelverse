@@ -65,7 +65,7 @@ Après ces réglages, le serveur Mariadb peut être démarré ! J'appuie partout
 {{< gallery match="images/7/*.png" >}}
 
 ## Étape 3 : installer le Wallabag
-Je clique sur l'onglet "Registre" dans la fenêtre docker de Synology et je recherche "wallabag". Je sélectionne l'image docker "wallabag/wallabag" et je clique ensuite sur le tag "latest".
+Je clique sur l'onglet "Registration" dans la fenêtre docker de Synology et je recherche "wallabag". Je sélectionne l'image docker "wallabag/wallabag" et je clique ensuite sur le tag "latest".
 {{< gallery match="images/8/*.png" >}}
 Je double-clique sur mon image wallabag. Ensuite, je clique sur "Paramètres avancés" et j'active ici aussi le "Redémarrage automatique".
 {{< gallery match="images/9/*.png" >}}
@@ -97,3 +97,4 @@ Le conteneur peut maintenant être démarré. La création de la base de donnée
 {{< gallery match="images/14/*.png" >}}
 J'appelle le serveur wallabag avec l'adresse IP de Synology et mon port de conteneur.
 {{< gallery match="images/15/*.png" >}}
+Mais je dois dire que, personnellement, je préfère shiori comme archive Internet.

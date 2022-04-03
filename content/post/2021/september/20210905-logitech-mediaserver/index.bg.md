@@ -13,7 +13,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 {{< gallery match="images/2/*.png" >}}
 
 ## Стъпка 2: Инсталиране на изображението Logitech Mediaserver
-Щраквам върху раздела "Регистрация" в прозореца Synology Docker и търся "logitechmediaserver". Избирам образа на Docker "lmscommunity/logitechmediaserver" и след това щраквам върху етикета "latest".
+Щраквам върху раздела "Регистрация" в прозореца на Synology Docker и търся "logitechmediaserver". Избирам образа на Docker "lmscommunity/logitechmediaserver" и след това щраквам върху етикета "latest".
 {{< gallery match="images/3/*.png" >}}
 Кликвам два пъти върху изображението на Logitech Media Server. След това щраквам върху "Разширени настройки" и активирам "Автоматично рестартиране" и тук.
 {{< gallery match="images/4/*.png" >}}
@@ -30,5 +30,6 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 {{< gallery match="images/6/*.png" >}}
 Накрая въвеждам променлива на средата. Променливата "TZ" е часовата зона "Европа/Берлин".
 {{< gallery match="images/7/*.png" >}}
-След тези настройки Logitechmediaserver-Server може да бъде стартиран! След това можете да се обадите на Logitechmediaserver чрез Ip адреса на Synology устройството и назначения порт, например http://192.168.21.23:9000 .
+След тези настройки Logitechmediaserver-Server може да бъде стартиран! След това можете да се обадите на Logitechmediaserver чрез Ip адреса на устройството Synology и назначения порт, например http://192.168.21.23:9000 .
 {{< gallery match="images/8/*.png" >}}
+

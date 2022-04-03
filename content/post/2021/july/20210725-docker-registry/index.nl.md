@@ -5,9 +5,9 @@ difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "registry", "images", "ui", "interface"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-registry/index.nl.md"
 +++
-Leer hoe u uw Docker images netwerkbreed beschikbaar kunt maken via uw eigen register.
+Leer hoe u uw Docker-images netwerkbreed beschikbaar kunt maken via uw eigen register.
 ## Installatie
-Ik maak een nieuwe directory genaamd "docker-registry" op mijn server:
+Ik maak een nieuwe map genaamd "docker-registry" op mijn server:
 {{< terminal >}}
 mkdir docker-registry
 
@@ -62,3 +62,4 @@ docker push 192.168.178.61:5000/mein-image:version
 docker pull 192.168.178.61:5000/mein-image:version
 
 {{</ terminal >}}
+

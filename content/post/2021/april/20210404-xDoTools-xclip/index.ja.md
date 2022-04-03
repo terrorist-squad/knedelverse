@@ -5,12 +5,12 @@ difficulty = "level-3"
 tags = ["bash", "linux", "robot", "roboter", "linux", "Robotic-Process-Automation", "rpa", "xclip", "xdotool"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-xDoTools-xclip/index.ja.md"
 +++
-このチュートリアルでは、Bashを使ってLinuxのデスクトップを操作する方法を紹介します。Bashロボットには以下のパッケージが必要です。
+このチュートリアルでは、Bashを使用してLinux - デスクトップを制御する方法を紹介します。Bashロボットに必要なパッケージは以下の通りです。
 {{< terminal >}}
 apt-get install xdotool xclip
 
 {{</ terminal >}}
-その後は、例えばxdotoolの全てのコマンドが使えるようになります。
+その後、例えば、すべての xdotool コマンドを使用することができます。
 ```
 #!/bin/bash
 
@@ -29,7 +29,7 @@ xdotool mousemove 100 200 click 1
 #usw...
 
 ```
-以下の例では、Firefoxのウィンドウが検索され、Ubuntuのアドレスが表示された新しいタブが開かれます。
+次の例では、Firefoxのウィンドウを検索して、Ubuntuのアドレスで新しいタブを開いています。
 ```
 WID=$(xdotool search firefox | head -n1)     ## Window-ID von Firefox ermitteln
 xdotool windowactivate $WID
@@ -40,4 +40,5 @@ xdotool key "Return"                         ## Internetadresse aufrufen
 
 ```
 
-## なぜxclipが必要なのでしょうか？
+## なぜxclipが必要なのか？
+xdotools/"ctrl c "でキャッシュに内容をコピーし、bashスクリプトのxclipで読み込んだり処理したりすることができます。

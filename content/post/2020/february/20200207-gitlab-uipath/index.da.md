@@ -60,3 +60,4 @@ build1:
 ```
 Min Windows-softwarerobot udføres direkte efter at jeg har lagt den ind i mastergrenen:
 {{< gallery match="images/14/*.png" >}}
+Den automatiske start af robotten kan styres via indstillingen "Schedules". En stor fordel ved denne kombination er, at de "robotprojekter" og projektresultater (artefakter) kan styres, versioneres og administreres centralt af Gitlab sammen med andre "ikke-robotprojekter".

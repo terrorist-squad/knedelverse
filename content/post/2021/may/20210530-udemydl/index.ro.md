@@ -55,3 +55,4 @@ python3 udemy-dl-master/udemy-dl.py -k /download/cookie.txt https://www.udemy.co
 {{</ terminal >}}
 A se vedea:
 {{< gallery match="images/9/*.png" >}}
+

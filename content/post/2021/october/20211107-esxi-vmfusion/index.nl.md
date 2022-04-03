@@ -9,3 +9,4 @@ In deze korte handleiding laat ik zien hoe je ESXi machines op afstand kunt bedi
 {{< gallery match="images/1/*.png" >}}
 Nu is mijn VMware Fusion verbonden met de ESXi server als een client.
 {{< gallery match="images/2/*.png" >}}
+

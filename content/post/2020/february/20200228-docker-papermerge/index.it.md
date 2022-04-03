@@ -28,7 +28,7 @@ services:
 ```
 
 ## Passo 1: Creare la cartella
-Prima creo una cartella per l'unione della carta. Vado in "Controllo sistema" -> "Cartella condivisa" e creo una nuova cartella chiamata "Archivio documenti".
+Prima creo una cartella per la fusione della carta. Vado in "Controllo sistema" -> "Cartella condivisa" e creo una nuova cartella chiamata "Archivio documenti".
 {{< gallery match="images/1/*.png" >}}
 Passo 2: Cercare l'immagine DockerFaccio clic sulla scheda "Registrazione" nella finestra Synology Docker e cerco "Papermerge". Seleziono l'immagine Docker "linuxserver/papermerge" e poi clicco sul tag "latest".
 {{< gallery match="images/2/*.png" >}}

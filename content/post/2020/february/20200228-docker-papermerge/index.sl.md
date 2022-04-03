@@ -52,5 +52,5 @@ Papermerge analizira besedilo dokumentov in slik. Papermerge uporablja knjižnic
 {{< gallery match="images/9/*.png" >}}
 Ustvaril sem mapo z imenom "Vse z Loremom", da bi preizkusil samodejno dodeljevanje dokumentov. Nato sem v meniju "Avtomatizira" kliknil nov vzorec prepoznavanja.
 {{< gallery match="images/10/*.png" >}}
-Vsi novi dokumenti, ki vsebujejo besedo "Lorem", so nameščeni v mapo "Vse z Lorem" in označeni z "has-lorem". Pomembno je, da v oznakah uporabite vejico, sicer se oznaka ne bo nastavila. Če naložite ustrezen dokument, bo označen in razvrščen.
+Vsi novi dokumenti, ki vsebujejo besedo "Lorem", so nameščeni v mapo "Vse z Lorem" in označeni z "has-lorem". Pomembno je, da v oznakah uporabite vejico, sicer se oznaka ne bo nastavila. Če naložite dokument, bo označen in razvrščen.
 {{< gallery match="images/11/*.png" >}}

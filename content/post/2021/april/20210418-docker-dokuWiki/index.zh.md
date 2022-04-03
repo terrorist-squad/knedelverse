@@ -50,3 +50,4 @@ services:
 {{< gallery match="images/5/*.png" >}}
 现在可以启动该容器了。我使用Synology的IP地址和我的容器端口调用dokuWIki服务器。
 {{< gallery match="images/6/*.png" >}}
+

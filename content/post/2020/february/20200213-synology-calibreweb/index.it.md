@@ -31,7 +31,7 @@ Ora richiamo il mio IP Synology con la porta Calibre assegnata e vedo la seguent
 {{< gallery match="images/8/*.png" >}}
 Il login di default è "admin" con password "admin123".
 {{< gallery match="images/9/*.png" >}}
-Fatto! Naturalmente, ora posso anche collegare l'applicazione desktop tramite la mia "cartella dei libri". Scambio la libreria nella mia app e poi seleziono la mia cartella Nas.
+Fatto! Naturalmente, ora posso anche collegare l'applicazione desktop attraverso la mia "cartella dei libri". Scambio la libreria nella mia app e poi seleziono la mia cartella Nas.
 {{< gallery match="images/10/*.png" >}}
 Qualcosa del genere:
 {{< gallery match="images/11/*.png" >}}

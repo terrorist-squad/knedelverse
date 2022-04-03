@@ -100,3 +100,4 @@ Om du nu startar installationen med "docker-compose -f ...etc... up" kan du ocks
 {{< gallery match="images/3/*.png" >}}
 Eftersom LDAP-användarna endast är gästanvändare måste gästanvändarrättigheterna ställas in i Calibreweb:
 {{< gallery match="images/4/*.png" >}}
+Jag kör den här inställningen för följande tjänster:* Videobibliotek (Peertube)* Bibliotek (Calibreweb)* Gitlab (CE stöder inte grupper, så du måste logga in två gånger)

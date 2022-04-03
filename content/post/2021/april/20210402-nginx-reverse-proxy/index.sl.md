@@ -100,3 +100,4 @@ server {
 {{< gallery match="images/3/*.png" >}}
 Ker so uporabniki LDAP le gostujoči uporabniki, je treba v Calibrewebu nastaviti pravice gostujočih uporabnikov:
 {{< gallery match="images/4/*.png" >}}
+To nastavitev uporabljam za naslednje storitve:* Video knjižnica (Peertube)* Knjižnica (Calibreweb)* Gitlab (CE ne podpira skupin, zato se morate prijaviti 2x)

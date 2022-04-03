@@ -1,21 +1,21 @@
 +++
 date = "2021-04-05"
-title = "コンテナを利用した優れた取り組み：PeerTubeによる独自のビデオポータル"
+title = "コンテナですごいこと：PeerTubeで自分だけのビデオポータルを作ろう"
 difficulty = "level-1"
 tags = ["diskstation", "peertube", "Synology", "video", "videoportal"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210405-docker-peertube/index.ja.md"
 +++
-Peertubeでは、自分だけの動画ポータルを作ることができます。今日は、SynologyのディスクステーションにPeertubeをインストールした様子をご紹介します。
-## ステップ1：Synologyの準備
-まず、DiskStationでSSHログインを有効にする必要があります。そのためには、「コントロールパネル」→「ターミナル」で
+Peertubeを使えば、自分だけの動画ポータルを作ることができます。今日は、Synology disk stationにPeertubeをインストールした方法を紹介します。
+## ステップ1：Synologyを準備する
+まず、DiskStationでSSHログインを有効にする必要があります。そのためには、「コントロールパネル」→「ターミナル」を開きます。
 {{< gallery match="images/1/*.png" >}}
-そして、「SSH」で指定されたポートと管理者パスワードでログインします。
+そして、「SSH」、指定されたポート、管理者パスワードでログインすることができます。
 {{< gallery match="images/2/*.png" >}}
-Terminal、winSCP、Puttyなどでログインして、このコンソールを後から開くようにしています。
+ターミナル、winSCP、Puttyでログインして、このコンソールを開いたままにしておくと、後で便利です。
 ## ステップ2：Dockerフォルダの準備
-Dockerのディレクトリに「Peertube」という新しいディレクトリを作ります。
+Dockerディレクトリの中に「Peertube」というディレクトリを新規に作成します。
 {{< gallery match="images/3/*.png" >}}
-そして、Peertubeのディレクトリに入り、以下の内容で「peertube.yml」というファイルを新規に作成します。ポートでは、フロント部分の「9000：」を調整することができます。2つ目のボリュームには、すべてのビデオ、プレイリスト、サムネイルなどが含まれているため、適応する必要があります。
+そして、Peertubeのディレクトリに入り、以下の内容で「peertube.yml」というファイルを新規に作成します。ポートについては、前面部「9000：」を調整することができます。2巻目には、すべてのビデオ、プレイリスト、サムネイルなどが含まれているため、適応させる必要があります。
 ```
 version: "3.7"
 
@@ -77,18 +77,18 @@ networks:
   peertube:
 
 ```
-このファイルはDocker Composeで起動します。
+このファイルはDocker Compose経由で起動します。
 {{< terminal >}}
 sudo docker-compose -f compose-file-name.yml up -d
 
 {{</ terminal >}}
-その後、「ステップ2」で設定したディスクステーションのIPと割り当てられたポートを使って、Peertubeサーバーを呼び出すことができます。最高ですね。
+その後、「ステップ2」で割り当てたディスクステーションのIPとポートでPeertubeサーバーを呼び出すことができます。素晴らしい
 {{< gallery match="images/4/*.png" >}}
-ユーザー名は "root"、パスワードは "password"（または手順2 / PT_INITIAL_ROOT_PASSWORD）となります。
+ユーザー名は「root」、パスワードは「password」（または手順2 / PT_INITIAL_ROOT_PASSWORD）です。
 ## テーマのカスタマイズ
-Peertubeの外観をカスタマイズするのはとても簡単です。そのためには、「管理」→「設定」→「詳細設定」をクリックします。
+Peertubeの外観をカスタマイズするのはとても簡単です。そのために、「管理」→「設定」→「詳細設定」をクリックしています。
 {{< gallery match="images/5/*.png" >}}
-そこで、CSS欄に以下のように入力しました。
+そこで、CSSの欄に以下のように入力しました。
 ```
 body#custom-css {
 --mainColor: #3598dc;
@@ -104,15 +104,15 @@ body#custom-css {
 
 ```
 
-## Rest API
-PeerTubeは、広範囲で文書化されたRest APIを備えています。https://docs.joinpeertube.org/api-rest-reference.html。
+## レストAPI
+PeerTubeには広範かつ十分に文書化されたRest APIがあります：https://docs.joinpeertube.org/api-rest-reference.html。
 {{< gallery match="images/6/*.png" >}}
-このコマンドでは、ビデオの検索が可能です。
+このコマンドにより、ビデオの検索が可能です。
 {{< terminal >}}
 curl -s "http://pree-tube/api/v1search/videos?search=docker&languageOneOf=de"
 
 {{</ terminal >}}
-アップロードなどには、認証とセッション・トークンが必要です。
+アップロードなどには、認証とセッショントークンが必要です。
 ```
 #!/bin/bash
 USERNAME="user"
@@ -134,4 +134,5 @@ curl -s '$API_PATH/videos/upload'-H 'Authorization: Bearer $token' --max-time 11
 
 ```
 
-## 私のアドバイス：「Great things with containers: making Docker services more secure with LDAP and NGINX」をお読みください。
+## 私のアドバイス：「コンテナですごいこと：LDAPとNGINXでDockerサービスをより安全にする」を読んでみてください。
+私はPeertubeをリバースプロキシで運用しています。つまり、LDAPユーザーだけがアクセスできるサービスです。私はこの設定を「[コンテナですごいこと：LDAPとNGINXでDockerサービスをよりセキュアにする]({{< ref "post/2021/april/20210402-nginx-reverse-proxy" >}} "コンテナですごいこと：LDAPとNGINXでDockerサービスをよりセキュアにする")」で記録しています。

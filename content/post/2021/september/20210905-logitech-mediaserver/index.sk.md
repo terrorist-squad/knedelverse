@@ -1,6 +1,6 @@
 +++
 date = "2021-09-05"
-title = "Veľké veci s kontajnermi: mediálne servery Logitech na diskovej stanici Synology"
+title = "Skvelé veci s kontajnermi: mediálne servery Logitech na diskovej stanici Synology"
 difficulty = "level-1"
 tags = ["logitech", "synology", "diskstation", "nas", "sound-system", "multiroom"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/september/20210905-logitech-mediaserver/index.sk.md"
@@ -30,5 +30,6 @@ Pre kontajner "Logitechmediaserver" priraďujem pevné porty. Bez pevných porto
 {{< gallery match="images/6/*.png" >}}
 Nakoniec zadám premennú prostredia. Premenná "TZ" je časové pásmo "Európa/Berlín".
 {{< gallery match="images/7/*.png" >}}
-Po týchto nastaveniach je možné spustiť Logitechmediaserver-Server! Potom môžete zavolať Logitechmediaserver prostredníctvom Ip adresy diskovacieho zariadenia Synology a priradeného portu, napríklad http://192.168.21.23:9000 .
+Po týchto nastaveniach je možné spustiť Logitechmediaserver-Server! Potom môžete zavolať Logitechmediaserver prostredníctvom Ip adresy diskovej stanice Synology a priradeného portu, napríklad http://192.168.21.23:9000 .
 {{< gallery match="images/8/*.png" >}}
+

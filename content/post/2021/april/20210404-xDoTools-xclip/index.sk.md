@@ -41,3 +41,4 @@ xdotool key "Return"                         ## Internetadresse aufrufen
 ```
 
 ## Prečo potrebujete xclip???
+Pomocou nástroja xdotools/"ctrl c" môžete kopírovať obsah do vyrovnávacej pamäte a čítať alebo spracovať ho pomocou xclip v skripte bash.

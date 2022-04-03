@@ -5,7 +5,7 @@ difficulty = "level-2"
 tags = ["code", "development", "devops", "docker-compose", "git", "gitlab", "Synology"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-atlassian-Bamboo-jmeter/index.hu.md"
 +++
-Ma egy jMeter tesztet készítek a Bamboo-ban. Természetesen ez a tesztelési beállítás Gitlab futókkal vagy Jenkins szolgákkal is megvalósítható.
+Ma egy jMeter tesztet készítek a Bamboo-ban. Természetesen ezt a tesztelési beállítást Gitlab futókkal vagy Jenkins szolgákkal is megvalósíthatod.
 ## 1. lépés: jMeter teszt létrehozása
 Először természetesen létre kell hoznod egy jMeter tesztet. Letöltöttem a jMeter-t a következő url-ről: https://jmeter.apache.org/ és ezzel a paranccsal indítottam el:
 {{< terminal >}}
@@ -16,7 +16,7 @@ Lásd:Az ehhez a bemutatóhoz készített demó tesztem hibás és működő min
 {{< gallery match="images/2/*.png" >}}
 A JMX-fájllal mentem a Bamboo-feladatomhoz.
 ## 2. lépés: Készítsük elő a bambusz ügynököt
-Mivel a Java a Bamboo-ügynökök előfeltétele, a Pythont csak utána telepítem.
+Mivel a Java a Bamboo-ügynökök előfeltétele, a Pythont csak ezután telepítem.
 {{< terminal >}}
 apt-get update
 apt-get install python
@@ -60,7 +60,7 @@ print "nothing found - exit 0"
 sys.exit(0)
 
 ```
-Az eredménynaplókhoz is létrehozok egy artefaktum mintát.
+Az eredménynaplókhoz is létrehozok egy artefaktum-mintát.
 {{< gallery match="images/4/*.png" >}}
 
 ## Készen állunk!

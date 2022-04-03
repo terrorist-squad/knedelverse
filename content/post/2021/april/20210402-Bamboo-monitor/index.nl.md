@@ -1,5 +1,5 @@
 +++
-date = "2021-04-04"
+date = "2021-04-0q"
 title = "Leuke dingen met Atlassian: Pimp mijn Bamboo-monitor"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Hoe kan ik een buildmonitor voor Bamboo, Jenkins of Gitlab maken? Ik zal het vanavond uitzoeken! Ik heb al een soortgelijke [Handleiding voor Gitlab-Issue-Boards]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Handleiding voor Gitlab-Issue-Boards") geschreven.
 {{< gallery match="images/1/*.jpg" >}}
-De basis voor deze tutorial is de Raspberry Imager en het "Raspberry Pi OS Lite" besturingssysteem. Na de installatie van het besturingssysteem, kan de SD-kaart in de Raspberry worden gestoken. In mijn geval is dat een Raspberry Pi Zero.
+De basis voor deze tutorial is de Raspberry Imager en het "Raspberry Pi OS Lite" besturingssysteem. Na het installeren van het besturingssysteem kan de SD-kaart in de Raspberry worden gestoken. In mijn geval is dat een Raspberry Pi Zero.
 {{< gallery match="images/2/*.*" >}}
 
 ## Stap 1: Installeer Matchbox/Window Manager
@@ -42,7 +42,7 @@ vim .matchbox/kbdconfig
 De sleutelindeling is in dit geval als volgt:
 ```
 
-##  Snelkoppelingen voor vensterbediening
+##  Snelle vensterbediening
 <Alt>c=close
 <ctrl><alt>x=!xterm
 
@@ -227,3 +227,4 @@ sudo reboot
 {{</ terminal >}}
 
 ## Klaar
+Elk dasboard moet één keer per dag opnieuw worden opgestart. Ik heb hier een cron voor gemaakt.

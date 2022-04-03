@@ -97,3 +97,4 @@ Posodo lahko zaženete. Ustvarjanje podatkovne zbirke lahko traja nekaj časa. O
 {{< gallery match="images/14/*.png" >}}
 Strežnik wallabag pokličem z naslovom IP Synology in vratom za zabojnik.
 {{< gallery match="images/15/*.png" >}}
+Vendar moram reči, da imam osebno raje shiori kot internetni arhiv.

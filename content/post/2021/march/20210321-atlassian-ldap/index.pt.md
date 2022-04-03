@@ -69,7 +69,7 @@ networks:
 No servidor LDAP criei grupos para as diferentes ferramentas.
 {{< gallery match="images/1/*.png" >}}
 
-## Passo 3: Conectar ferramentas Atlassian
+## Passo 3: Conecte as ferramentas Atlassian
 A configuração é a mesma para todas as ferramentas Atlassian. Eu digito o endereço IP e a porta do meu servidor LDAP.
 {{< gallery match="images/2/*.png" >}}
 Para o "esquema LDAP", eu só introduzi o "DN Básico". Para certificados autoassinados, a opção "Secure SSL" deve ser desativada.

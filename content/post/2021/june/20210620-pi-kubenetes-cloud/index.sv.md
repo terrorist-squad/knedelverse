@@ -125,7 +125,7 @@ Nu kan Kubenetes master initieras.
 sudo kubeadm init --token-ttl=0 --pod-network-cidr=10.244.0.0/16
 
 {{</ terminal >}}
-Efter den lyckade initialiseringen godkänner jag inställningarna. Jag minns det visade kommandot "kubeadm join" för att ansluta arbetarnoderna.
+Efter den lyckade initialiseringen godkänner jag inställningarna. Jag minns det visade kommandot "kubeadm join" för att ansluta arbetsnoderna.
 {{< terminal >}}
 mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
@@ -208,3 +208,4 @@ kubectl delete deplyments my-nginx
 {{</ terminal >}}
 >Se:
 {{< gallery match="images/10/*.png" >}}
+

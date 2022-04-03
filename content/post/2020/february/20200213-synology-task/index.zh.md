@@ -13,5 +13,5 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 {{< gallery match="images/2/*.png" >}}
 
 ## 脚本
-目标脚本存储在 "任务设置 "下。在我的例子中，创建了一个压缩档案。你应该自己测试这个功能。
+目标脚本存储在 "任务设置 "下。在我的案例中，创建了一个压缩档案。你应该自己测试这个功能。
 {{< gallery match="images/3/*.png" >}}

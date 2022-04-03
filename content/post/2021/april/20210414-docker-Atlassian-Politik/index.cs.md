@@ -144,7 +144,7 @@ networks:
 
 
 ## Opatření 2: Zálohování databází a obrazů
-V mé strategii obnovy po havárii samozřejmě hrají velkou roli každodenní decentralizované zálohy databází. Ale zálohoval jsem také instalační obrazy. Obraz aplikace Docker lze archivovat pomocí následujícího příkazu:
+V mé strategii obnovy po havárii samozřejmě hrají velkou roli každodenní decentralizované zálohy databází. Zálohoval jsem však také instalační obrazy. Obraz aplikace Docker lze archivovat pomocí následujícího příkazu:
 {{< terminal >}}
 docker save -o bamboo-7.2.3-image.tar atlassian/bamboo-server
 
@@ -158,3 +158,4 @@ Uložil jsem také obrazy systému Postgres.
 ## Akce 3: Vytvoření instalační paměti USB
 Zálohoval jsem dokumentaci, všechny instalační archivy, datové adresáře Postgresu a konfigurace na USB disk. Jak jsem řekl, záloha DB je vlastně nejdůležitější, protože aktivovaná licence je také v databázi.
 {{< gallery match="images/1/*.png" >}}
+

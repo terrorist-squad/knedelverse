@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "kühlschrank", "erp", "mhd", "Speispläne", "cms", "Cafe", "Bistro"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-grocy/index.it.md"
 +++
-Con Grocy è possibile gestire un'intera casa, un ristorante, un caffè, un bistrot o un mercato alimentare. È possibile gestire frigoriferi, menu, attività, liste della spesa e la data di scadenza degli alimenti.
+Con Grocy è possibile gestire un'intera casa, un ristorante, un caffè, un bistrot o un mercato alimentare. È possibile gestire frigoriferi, menu, attività, liste della spesa e la durata di conservazione del cibo.
 {{< gallery match="images/1/*.png" >}}
 Oggi mostro come installare un servizio Grocy sulla Synology disk station.
 ## Opzione per i professionisti
@@ -52,3 +52,4 @@ Infine, inserisco queste variabili d'ambiente:Vedi:
 {{< gallery match="images/7/*.png" >}}
 Il contenitore può ora essere avviato. Richiamo il server Grocy con l'indirizzo IP di Synology e la mia porta del container e accedo con il nome utente "admin" e la password "admin".
 {{< gallery match="images/8/*.png" >}}
+

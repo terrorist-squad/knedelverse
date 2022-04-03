@@ -1,38 +1,38 @@
 +++
-date = "2021-04-04"
-title = "アトラシアンのクールな機能：Pimp my Bamboo Monitor"
+date = "2021-04-0q"
+title = "Atlassian でできること: Pimp my Bamboo Monitor"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-Bamboo-monitor/index.ja.md"
 +++
-Bamboo、Jenkins、Gitlab用のビルドモニターを作るにはどうすればいいですか？今夜までに解決します！」と言っていました。すでに同じような[Gitlab-Issue-Boardsのチュートリアル]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Gitlab-Issue-Boardsのチュートリアル")を書いています。
+Bamboo、Jenkins、Gitlab 用のビルドモニターを作成するにはどうしたらいいですか？今夜までに何とかします!すでに似たような[Gitlab-Issue-Boardsのためのチュートリアル]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Gitlab-Issue-Boardsのためのチュートリアル")を書きました。
 {{< gallery match="images/1/*.jpg" >}}
-このチュートリアルの基礎となるのは、Raspberry Imagerと「Raspberry Pi OS Lite」というOSです。OSのインストールが終わると、SDカードをラズベリーに挿入できるようになります。私の場合、これはRaspberry Pi Zeroです。
+このチュートリアルのベースとなるのは、ラズベリーイメージャーと「Raspberry Pi OS Lite」オペレーティングシステムです。OSのインストールが完了すると、SDカードをラズパイに挿入できるようになります。私の場合、これはRaspberry Pi Zeroです。
 {{< gallery match="images/2/*.*" >}}
 
 ## ステップ1：Matchbox/Window Managerのインストール
-キオスクモードでRaspberryを操作するには、ウィンドウマネージャとブラウザが必要です。これらは以下のコマンドでインストールされます。
+キオスクモードでラズベリーを操作するには、ウィンドウマネージャとブラウザが必要です。これらは、以下のコマンドでインストールします。
 {{< terminal >}}
 sudo apt-get install xorg nodm matchbox-window-manager uzbl xinit unclutter vim
 
 {{</ terminal >}}
 
-## ステップ2： ダッシュボードのユーザーを作成します
-次のコマンドで、"dashboard "という新しいユーザーを作成します。
+## ステップ2：ダッシュボードユーザーを作成する
+以下のコマンドで、"dashboard "というユーザーを新規に作成します。
 {{< terminal >}}
 sudo adduser dashboard
 
 {{</ terminal >}}
 
 ## ステップ3：xServerとWindow Managerの設定
-以下のすべての手順は、"dashboard "ユーザーセッションで実行する必要があります。私は "su "でセッションに変更します。
+以下の手順は、すべて「dashboard」ユーザーセッションで行う必要があります。suでセッションに変更する。
 {{< terminal >}}
 sudo su dashboard
 
 {{</ terminal >}}
 
-## 3.1. ) ボタン/機能
-ラズベリーをキオスクモードで操作できるようにしたい。そのために、Ctrl Alt Xでターミナル、Alt Cでターミナルを閉じるという2つのキーコマンドを保存しています。ターミナルでは、ifconfigで現在のIPを確認し、sudo shutdown -h now etc..... でラズベリーをシャットダウンします。
+## 3.1. ) ボタン／機能
+Raspberryをキオスクモードで操作できるようにしたい。そのために、端末のCtrl Alt Xと端末を閉じるAlt Cという2つのキーコマンドを記憶させています。ターミナルでは、ifconfigで現在のIPを問い合わせたり、sudo shutdown -h nowでRaspberryをシャットダウンしたり......といったことができます。
 {{< terminal >}}
 cd ~
 mkdir .matchbox
@@ -42,14 +42,14 @@ vim .matchbox/kbdconfig
 この場合のキーレイアウトは以下の通りです。
 ```
 
-## ウィンドウ操作のショートカット
+## 窓の操作のショートカット
 <Alt>c=close
 <ctrl><alt>x=!xterm
 
 ```
 
 ## 3.2. ) X - セッション
-また、「$ vim ~/.xsession」というファイルに以下の行を入力する必要があります。このスクリプトは、ダッシュボードがアクセス可能かどうかをチェックします。到達できない場合は、10秒待ちます。もちろん、アドレス/IPの調整も必要です。
+また、「$ vim ~/.xsession」ファイルには、以下の行を入力する必要があります。このスクリプトは、ダッシュボードにアクセス可能かどうかをチェックします。到達できない場合は、10秒待つ。もちろん、アドレス/IPの調整も必要です。
 ```
 xset -dpms
 xset s off
@@ -62,19 +62,19 @@ exec matchbox-window-manager -use_titlebar no & while true; do
 done
 
 ```
-スクリプトが実行可能であることは非常に重要です。
+スクリプトが実行可能であることが非常に重要です。
 {{< terminal >}}
 sudo chmod 755 ~/.xsession
 
 {{</ terminal >}}
 
-## 3.3. )インターフェイスの共同設定
-以下の行では、Webインターフェースの設定を行います。ブラウザは最大化され、ステータスバーは隠されています。
+## 3.3. )インターフェース協調設定
+以下の行は、ウェブインターフェースの設定です。ブラウザが最大化され、ステータスバーが非表示になります。
 {{< terminal >}}
 vim ~/uzbl.conf
 
 {{</ terminal >}}
-内容をご紹介します。
+内容です。
 ```
 set socket_dir=/tmp
 set geometry=maximized
@@ -86,22 +86,22 @@ set show_status=0
 
 ```
 
-## 3.4.)準備完了
-ダッシュボード」のセッションは残すことができます。
+## 3.4.)レディ
+ダッシュボード」セッションを残すことができます。
 {{< terminal >}}
 exit
 
 {{</ terminal >}}
 
-## 3.5.) behaviour.jsとテキストのスクロール
-このJavascriptは、ボードの動作を制御します。ビルドやテストが失敗すると、大きなテロップが表示されます。そうすれば、遠くからでもエラーを確認することができます。
+## 3.5.) behaviour.jsとスクロールするテキスト
+このJavascriptはボードの挙動を制御します。ビルドやテストに失敗した場合は、大きなテロップが表示されます。こうすることで、遠くからでもエラーを確認することができるのです。
 {{< gallery match="images/3/*.png" >}}
 
 {{< terminal >}}
 vim ~/verhalten.conf
 
 {{</ terminal >}}
-内容をご紹介します。
+内容です。
 ```
 var bamboobUrl = 'https://ip:port';
 var bambooUser = 'nutzer';
@@ -196,13 +196,13 @@ timer.append(
 
 ```
 もちろん、失敗したテストを再開するなど、必要な動作を組み込むことができます。
-## 4. X-sessionにオートローグする
-次は、自動ログインの設定です。このファイルはそのために用意されたものです。
+## 4. Xセッションへのオートロギング
+次に、自動ログインの設定です。このファイルは、この目的に適合しています。
 {{< terminal >}}
 sudo vim /etc/default/nodm
 
 {{</ terminal >}}
-ここでログインユーザー「dashboard」を入力し、ディスプレイマネージャーを解除します。
+ここでログインユーザー "dashboard "を入力し、ディスプレイマネージャーを解除する。
 ```
 # nodm configuration
 # Set NODM_ENABLED to something different than 'false' to enable nodm
@@ -226,4 +226,5 @@ sudo reboot
 
 {{</ terminal >}}
 
-## 準備完了
+## レディ
+各ダスボードは、1日1回再起動する必要があります。そのためのcronを作りました。

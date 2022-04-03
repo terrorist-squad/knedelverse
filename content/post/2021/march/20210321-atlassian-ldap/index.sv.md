@@ -85,5 +85,5 @@ Se:
 {{< gallery match="images/4/*.png" >}}
 
 ## Steg 4: System för användare och grupper
-Jag har tagit följande användar- och gruppinställningar. Det viktigaste är inställningen för "gruppobjektfilter". Detta är naturligtvis annorlunda för Bamboo, Confluence och Jira.
+Jag har tagit följande användar- och gruppinställningar. Den viktigaste är inställningen för "gruppobjektfilter". Detta är naturligtvis annorlunda för Bamboo, Confluence och Jira.
 {{< gallery match="images/5/*.png" >}}

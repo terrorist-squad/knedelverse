@@ -5,7 +5,7 @@ difficulty = "level-3"
 tags = ["bash", "linux", "robot", "roboter", "linux", "Robotic-Process-Automation", "rpa", "xclip", "xdotool"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-xDoTools-xclip/index.el.md"
 +++
-Σε αυτό το σεμινάριο δείχνω πώς να ελέγχετε μια επιφάνεια εργασίας Linux μέσω του Bash. Τα ακόλουθα πακέτα είναι απαραίτητα για το ρομπότ Bash:
+Σε αυτό το σεμινάριο δείχνω πώς να ελέγχετε μια επιφάνεια εργασίας Linux - μέσω του Bash. Τα ακόλουθα πακέτα είναι απαραίτητα για το ρομπότ Bash:
 {{< terminal >}}
 apt-get install xdotool xclip
 
@@ -41,3 +41,4 @@ xdotool key "Return"                         ## Internetadresse aufrufen
 ```
 
 ## Γιατί χρειάζεστε xclip????
+Με το xdotools/"ctrl c" μπορείτε να αντιγράψετε τα περιεχόμενα στην κρυφή μνήμη και να τα διαβάσετε ή να τα επεξεργαστείτε με το xclip στο σενάριο bash.

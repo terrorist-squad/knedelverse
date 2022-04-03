@@ -1,5 +1,5 @@
 +++
-date = "2021-04-04"
+date = "2021-04-0q"
 title = "Cooles mit Atlassian: Pimp my Bamboo-Monitor"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]

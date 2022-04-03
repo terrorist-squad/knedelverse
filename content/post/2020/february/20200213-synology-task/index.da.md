@@ -8,7 +8,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 Ønsker du at indstille automatiske opgaver i Synology NAS'en? Klik på "Task Scheduler" i "Kontrolpanel".
 {{< gallery match="images/1/*.png" >}}
 
-## Tider og gentagelser indstillet
+## Tider og gentagelser fastsat
 I "opgaveplanlæggeren" kan der oprettes nye "opgaver", som er som cron-jobs. Tiderne og gentagelserne er fastsat her.
 {{< gallery match="images/2/*.png" >}}
 

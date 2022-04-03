@@ -29,7 +29,7 @@ xdotool mousemove 100 200 click 1
 #usw...
 
 ```
-Nell'esempio seguente, la finestra di Firefox viene cercata e viene aperta una nuova scheda con l'indirizzo di Ubuntu:
+Nell'esempio seguente, si cerca nella finestra di Firefox e si apre una nuova scheda con l'indirizzo di Ubuntu:
 ```
 WID=$(xdotool search firefox | head -n1)     ## Window-ID von Firefox ermitteln
 xdotool windowactivate $WID
@@ -41,3 +41,4 @@ xdotool key "Return"                         ## Internetadresse aufrufen
 ```
 
 ## Perché hai bisogno di xclip?
+Con xdotools/"ctrl c" puoi copiare i contenuti nella cache e leggerli o elaborarli con xclip nello script bash.

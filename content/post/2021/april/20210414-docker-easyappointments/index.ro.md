@@ -6,7 +6,7 @@ tags = ["buchung", "buchungstool", "click-and-meet", "corona", "Docker", "docker
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-easyappointments/index.ro.md"
 +++
 Criza Corona lovește puternic furnizorii de servicii din Germania. Instrumentele și soluțiile digitale pot ajuta să trecem prin pandemia Corona în condiții cât mai sigure. În această serie de tutoriale "Ieșirea creativă din criză" vă prezint tehnologii sau instrumente care pot fi utile pentru întreprinderile mici.Astăzi vă prezint "Easyappointments", un instrument de rezervare "click and meet" pentru servicii, de exemplu coafor sau magazine. Easyappointments este format din două domenii:
-## Domeniul 1: Backend
+## Zona 1: Backend
 Un "backend" pentru gestionarea serviciilor și a programărilor.
 {{< gallery match="images/1/*.png" >}}
 

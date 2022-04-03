@@ -1,11 +1,11 @@
 +++
-date = "2021-04-04"
-title = "Siistejä asioita Atlassianin kanssa: Pimp my Bamboo Monitor -ohjelmisto"
+date = "2021-04-0q"
+title = "Siistejä asioita Atlassianin kanssa: Pimp my Bamboo Monitori"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-Bamboo-monitor/index.fi.md"
 +++
-Miten voin luoda rakennusseurannan Bamboota, Jenkinsiä tai Gitlabia varten? Selvitän sen illalla! Olen jo kirjoittanut samanlaisen [Gitlab-Issue-Boardsin opetusohjelma]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Gitlab-Issue-Boardsin opetusohjelma").
+Miten voin luoda build monitorin Bamboo, Jenkins tai Gitlab? Selvitän sen illalla! Olen jo kirjoittanut samanlaisen [Gitlab Issue Boards -oppaan opetusohjelma]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Gitlab Issue Boards -oppaan opetusohjelma").
 {{< gallery match="images/1/*.jpg" >}}
 Tämän opetusohjelman perustana on Raspberry Imager ja "Raspberry Pi OS Lite" -käyttöjärjestelmä. Käyttöjärjestelmän asennuksen jälkeen SD-kortti voidaan asettaa Raspberryyn. Minun tapauksessani tämä on Raspberry Pi Zero.
 {{< gallery match="images/2/*.*" >}}
@@ -24,7 +24,7 @@ sudo adduser dashboard
 
 {{</ terminal >}}
 
-## Vaihe 3: Konfigurointi xServer ja Window Manager
+## Vaihe 3: Konfigurointi xServer ja ikkunanhallintajärjestelmä
 Kaikki seuraavat vaiheet on suoritettava kojelaudan käyttäjäistunnossa. Siirryn istuntoon "su" -nimellä:
 {{< terminal >}}
 sudo su dashboard
@@ -32,7 +32,7 @@ sudo su dashboard
 {{</ terminal >}}
 
 ##  3.1. ) Painikkeet/toiminnot
-Haluan vadelmani olevan käytettävissä kioskitilassa. Tätä varten tallennan kaksi näppäinkomentoa: Ctrl Alt X terminaalin avaamiseksi ja Alt C terminaalin sulkemiseksi. Terminaalissa voit kysyä nykyistä IP-osoitetta ifconfigilla, sammuttaa vadelman sudo shutdown -h nyt jne..... avulla.
+Haluan vadelmani olevan käytettävissä kioskitilassa. Tätä varten tallennan kaksi näppäinkomentoa: Ctrl Alt X terminaalin avaamiseksi ja Alt C terminaalin sulkemiseksi. Terminaalissa voit kysyä nykyistä IP-osoitetta ifconfigilla, sammuttaa vadelman sudo shutdown -h now jne..... avulla.
 {{< terminal >}}
 cd ~
 mkdir .matchbox
@@ -227,3 +227,4 @@ sudo reboot
 {{</ terminal >}}
 
 ## Valmis
+Kukin kojelauta on käynnistettävä uudelleen kerran päivässä. Olen luonut tätä varten cron-ohjelman.

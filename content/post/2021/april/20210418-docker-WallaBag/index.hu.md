@@ -49,9 +49,9 @@ Ezután létre kell hozni egy adatbázist. A Synology Docker ablakban a "Regiszt
 {{< gallery match="images/2/*.png" >}}
 A kép letöltése után a kép képként elérhető. A Docker 2 állapotot különböztet meg, a konténer "dinamikus állapotát" és a képet (rögzített állapot). Mielőtt létrehoznánk egy konténert a képből, néhány beállítást el kell végezni. Duplán kattintok a mariadb képemre.
 {{< gallery match="images/3/*.png" >}}
-Ezután a "Speciális beállítások" menüpontra kattintok, és aktiválom az "Automatikus újraindítás" opciót. Kiválasztom a "Kötet" lapot, és a "Mappa hozzáadása" gombra kattintok. Ott létrehozok egy új adatbázis mappát ezzel a mount útvonallal "/var/lib/mysql".
+Ezután a "Speciális beállítások" gombra kattintok, és aktiválom az "Automatikus újraindítás" opciót. Kiválasztom a "Kötet" lapot, és a "Mappa hozzáadása" gombra kattintok. Ott létrehozok egy új adatbázis mappát ezzel a mount útvonallal "/var/lib/mysql".
 {{< gallery match="images/4/*.png" >}}
-A "Portbeállítások" alatt az összes port törlésre kerül. Ez azt jelenti, hogy kiválasztom a "3306" portot, és a "-" gombbal törlöm.
+A "Portbeállítások" alatt az összes port törlődik. Ez azt jelenti, hogy kiválasztom a "3306" portot, és a "-" gombbal törlöm.
 {{< gallery match="images/5/*.png" >}}
 {{<table "table table-striped table-bordered">}}
 |Változó neve|Érték|Mi ez?|
@@ -69,7 +69,7 @@ A Synology Docker ablakban a "Regisztráció" fülre kattintok, és rákeresek a
 {{< gallery match="images/8/*.png" >}}
 Duplán kattintok a fali táska képére. Ezután a "Speciális beállítások" menüpontra kattintok, és itt is aktiválom az "Automatikus újraindítás" opciót.
 {{< gallery match="images/9/*.png" >}}
-Kiválasztom a "Kötet" lapot, és a "Mappa hozzáadása" gombra kattintok. Ott létrehozok egy új mappát ezzel a mount útvonallal "/var/www/wallabag/web/assets/images".
+Kiválasztom a "Kötet" fület, és a "Mappa hozzáadása" gombra kattintok. Ott létrehozok egy új mappát ezzel a mount útvonallal "/var/www/wallabag/web/assets/images".
 {{< gallery match="images/10/*.png" >}}
 A "wallabag" konténerhez fix portokat rendelek. Fix portok nélkül előfordulhat, hogy a "wallabag szerver" egy másik porton fut az újraindítás után. Az első konténerport törölhető. A másik kikötőt nem szabad elfelejteni.
 {{< gallery match="images/11/*.png" >}}
@@ -97,3 +97,4 @@ A konténer most már elindítható. Az adatbázis létrehozása eltarthat egy i
 {{< gallery match="images/14/*.png" >}}
 Felhívom a wallabag szervert a Synology IP-címével és a konténerportommal.
 {{< gallery match="images/15/*.png" >}}
+Azt kell mondanom azonban, hogy én személy szerint jobban szeretem a shiorit mint internetes archívumot.

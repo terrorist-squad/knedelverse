@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "archiv", "wallabag"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-WallaBag/index.zh.md"
 +++
-Wallabag是一个用于归档有趣的网站或文章的程序。今天我展示了如何在Synology磁盘站上安装Wallabag服务。
+Wallabag是一个用于归档有趣的网站或文章的程序。今天我将展示如何在Synology磁盘站上安装Wallabag服务。
 ## 专业人士的选择
 作为一个有经验的Synology用户，你当然可以用SSH登录并通过Docker Compose文件安装整个设置。
 ```
@@ -49,7 +49,7 @@ services:
 {{< gallery match="images/2/*.png" >}}
 图像下载后，可作为图像使用。Docker区分了2种状态，容器 "动态状态 "和镜像（固定状态）。在我们从镜像中创建一个容器之前，必须进行一些设置。 我双击我的mariadb镜像。
 {{< gallery match="images/3/*.png" >}}
-然后我点击 "高级设置"，激活 "自动重新启动"。我选择 "卷 "标签，点击 "添加文件夹"。我在那里创建了一个新的数据库文件夹，挂载路径为"/var/lib/mysql"。
+然后我点击 "高级设置"，激活 "自动重新启动"。我选择 "卷 "选项卡并点击 "添加文件夹"。我在那里创建了一个新的数据库文件夹，挂载路径为"/var/lib/mysql"。
 {{< gallery match="images/4/*.png" >}}
 在 "端口设置 "下，所有端口都被删除。这意味着我选择 "3306 "端口，并用"-"按钮将其删除。
 {{< gallery match="images/5/*.png" >}}
@@ -65,7 +65,7 @@ services:
 {{< gallery match="images/7/*.png" >}}
 
 ## 第3步：安装Wallabag
-我在Synology Docker窗口中点击 "注册 "标签，并搜索 "wallabag"。我选择Docker镜像 "wallabag/wallabag"，然后点击标签 "最新"。
+我在Synology Docker窗口中点击 "注册 "标签，然后搜索 "wallabag"。我选择Docker镜像 "wallabag/wallabag"，然后点击标签 "最新"。
 {{< gallery match="images/8/*.png" >}}
 我双击我的壁包图像。然后我点击 "高级设置"，在这里也激活了 "自动重新启动"。
 {{< gallery match="images/9/*.png" >}}
@@ -97,3 +97,4 @@ services:
 {{< gallery match="images/14/*.png" >}}
 我用Synology的IP地址和我的容器端口呼叫wallabag服务器。
 {{< gallery match="images/15/*.png" >}}
+然而，我必须说，我个人更喜欢shiori作为一个互联网档案。

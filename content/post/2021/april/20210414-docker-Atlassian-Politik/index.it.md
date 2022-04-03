@@ -158,3 +158,4 @@ Ho anche salvato le immagini di Postgres.
 ## Azione 3: creare una chiavetta di installazione USB
 Ho fatto il backup della mia documentazione, tutti gli archivi di installazione, le directory dei dati Postgres e le configurazioni su una chiavetta USB. Come ho detto, il backup del DB è in realtà la cosa più importante perché la licenza attivata è anche nel database.
 {{< gallery match="images/1/*.png" >}}
+

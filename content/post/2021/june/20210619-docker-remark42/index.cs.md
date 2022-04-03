@@ -68,3 +68,4 @@ Po konfiguraci je služba připravena k použití a lze ji integrovat do webový
 ```
 A takto vypadá Remark42:
 {{< gallery match="images/1/*.png" >}}
+

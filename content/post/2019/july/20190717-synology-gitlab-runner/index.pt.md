@@ -34,7 +34,7 @@ Ativei a configuração "Habilitar reinício automático":
 {{< gallery match="images/4/*.png" >}}
 Depois clico em "Definições avançadas" e selecciono o separador "Volume":
 {{< gallery match="images/5/*.png" >}}
-Clico em Adicionar ficheiro e incluo o meu ficheiro anfitrião através do caminho "/etc/hosts". Este passo só é necessário se os nomes das hostes não puderem ser resolvidos.
+Clico em Adicionar Ficheiro e incluo o meu ficheiro anfitrião através do caminho "/etc/hosts". Este passo só é necessário se os nomes das hostes não puderem ser resolvidos.
 {{< gallery match="images/6/*.png" >}}
 Eu aceito as configurações e clique em next.
 {{< gallery match="images/7/*.png" >}}

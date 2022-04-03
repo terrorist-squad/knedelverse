@@ -30,3 +30,4 @@ chmod 755 say-hallo.sh
 {{< gallery match="images/3/*.png" >}}
 
 ## Korak 4: Končano!
+Novi gumb je zdaj uporaben.

@@ -5,11 +5,11 @@ difficulty = "level-1"
 tags = ["development", "devops", "Jenkins", "ldap", "linux", "openldap"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-docker-jenkins/index.ja.md"
 +++
-このチュートリアルでは、"[コンテナで実現すること：Synology DSでJenkinsを動かす]({{< ref "post/2021/march/20210321-docker-jenkins" >}} "コンテナで実現すること：Synology DSでJenkinsを動かす") "の前の知識を基にしています。すでにLDAPを導入している場合は、適切なアプリケーショングループを作成するだけで済みます。
+このチュートリアルは、"[コンテナですごいこと：Synology DSでJenkinsを動かす]({{< ref "post/2021/march/20210321-docker-jenkins" >}} "コンテナですごいこと：Synology DSでJenkinsを動かす") "に関するこれまでの知識をもとに構成されています。すでにLDAPを最初から持っている場合は、適切なアプリケーション・グループを作成するだけでよい。
 {{< gallery match="images/1/*.png" >}}
-その後、Jenkinsに設定を入力する必要があります。ジェンキンスの管理」→「グローバルセキュリティの設定」をクリックします。
+その後、Jenkinsに設定を入力する必要があります。Jenkinsの管理」→「グローバルセキュリティの設定」をクリックしました。
 {{< gallery match="images/2/*.png" >}}
-重要：自己署名証明書の場合、JenkinsサーバーのJava-Optsでトラストストアを提供する必要があります。私のJenkinsサーバーはDocker Composeファイルで作成されているので、私の場合は以下のようになっています。
+重要：自己署名証明書の場合、トラストストアはJenkinsサーバーのJava-Optsで提供される必要があります。私のJenkinsサーバーはDocker Composeファイル経由で作成されているので、私の場合は以下のような感じになっています。
 ```
 version: '2.0'
 services:

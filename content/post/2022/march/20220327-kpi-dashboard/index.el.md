@@ -5,7 +5,7 @@ difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "docker-for-desktop", "dashboard", "kpi", "kpi-dashboard", "kennzahlen", "wallboard"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2022/march/20220327-kpi-dashboard/index.el.md"
 +++
-Ειδικά στην εποχή της Corona, με την αποκεντρωμένη εργασία, η επικαιροποιημένη πληροφόρηση έχει μεγάλη ζήτηση σε όλες τις τοποθεσίες. Εγώ ο ίδιος έχω ήδη δημιουργήσει αμέτρητα πληροφοριακά συστήματα και θα ήθελα να σας παρουσιάσω ένα σπουδαίο λογισμικό που ονομάζεται Smashing.Speaker: https://smashing.github.io/Das Το έργο Smashing αναπτύχθηκε αρχικά με την ονομασία Dashing από την εταιρεία Shopify για την παρουσίαση επιχειρηματικών στοιχείων. Αλλά φυσικά δεν μπορείτε να εμφανίζετε μόνο επιχειρηματικά στοιχεία. Προγραμματιστές από όλο τον κόσμο έχουν αναπτύξει πλακίδια Smashing, τα λεγόμενα widgets, για τα Gitlab, Jenkins, Bamboo, Jira κ.λπ., βλέπε:https://github.com/Smashing/smashing/wiki/Additional-WidgetsDoch πώς δουλεύετε με αυτά;
+Ειδικά στην εποχή της Corona, με την αποκεντρωμένη εργασία, η επικαιροποιημένη πληροφόρηση έχει μεγάλη ζήτηση σε όλες τις τοποθεσίες. Εγώ ο ίδιος έχω ήδη δημιουργήσει αμέτρητα πληροφοριακά συστήματα και θα ήθελα να σας παρουσιάσω ένα σπουδαίο λογισμικό που ονομάζεται Smashing.Speaker: https://smashing.github.io/Das Το έργο Smashing αναπτύχθηκε αρχικά με την ονομασία Dashing από την εταιρεία Shopify για την παρουσίαση επιχειρηματικών στοιχείων. Αλλά φυσικά δεν μπορείτε να εμφανίζετε μόνο επιχειρηματικά στοιχεία. Προγραμματιστές από όλο τον κόσμο έχουν αναπτύξει πλακίδια Smashing, τα λεγόμενα widgets, για τα Gitlab, Jenkins, Bamboo, Jira κ.λπ., βλ.:https://github.com/Smashing/smashing/wiki/Additional-WidgetsDoch πώς δουλεύετε με αυτά;
 ## Βήμα 1: Δημιουργία βασικής εικόνας
 Αρχικά, δημιουργώ μια απλή εικόνα Docker που περιλαμβάνει ήδη το Ruby και το Dashing.
 {{< terminal >}}
@@ -92,3 +92,4 @@ docker run -it -p 9292:9292 my-dashboard:latest
 {{</ terminal >}}
 Και κάπως έτσι φαίνεται:
 {{< gallery match="images/3/*.png" >}}
+Αυτή είναι η βάση για ένα καλό σύστημα πληροφοριών. Μπορείτε να προσαρμόσετε όλα τα χρώματα, τα σενάρια και τα widgets.

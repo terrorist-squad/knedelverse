@@ -9,7 +9,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 {{< gallery match="images/1/*.png" >}}
 
 ## Tiempos y repeticiones establecidos
-En el "planificador de tareas", se pueden crear nuevas "tareas" casi cron jobs. Aquí se establecen los tiempos y las repeticiones.
+En el "planificador de tareas", se pueden crear nuevas "tareas", casi trabajos cron. Aquí se establecen los tiempos y las repeticiones.
 {{< gallery match="images/2/*.png" >}}
 
 ## Guión

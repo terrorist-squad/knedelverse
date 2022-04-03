@@ -28,13 +28,13 @@ Dit bestand wordt gewoon opgeslagen op de Synology NAS.
 {{< gallery match="images/2/*.png" >}}
 
 ## Stap 3: GitLab Runner instellen
-Ik klik op de foto van mijn loper:
+Ik klik op mijn Runner foto:
 {{< gallery match="images/3/*.png" >}}
 Ik activeer de instelling "Automatisch herstarten inschakelen":
 {{< gallery match="images/4/*.png" >}}
 Dan klik ik op "Geavanceerde instellingen" en selecteer het tabblad "Volume":
 {{< gallery match="images/5/*.png" >}}
-Ik klik op Bestand toevoegen en voeg mijn hosts bestand toe via het pad "/etc/hosts". Deze stap is alleen nodig als de hostnamen niet kunnen worden opgelost.
+Ik klik op Add File en voeg mijn hosts file toe via het pad "/etc/hosts". Deze stap is alleen nodig als de hostnamen niet kunnen worden opgelost.
 {{< gallery match="images/6/*.png" >}}
 Ik accepteer de instellingen en klik op volgende.
 {{< gallery match="images/7/*.png" >}}

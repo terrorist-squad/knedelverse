@@ -41,3 +41,4 @@ xdotool key "Return"                         ## Internetadresse aufrufen
 ```
 
 ## 你为什么需要xclip？
+用xdotools/"ctrl c "可以将内容复制到缓存中，并在bash脚本中用xclip读取或处理它们。

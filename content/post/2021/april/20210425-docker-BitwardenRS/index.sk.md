@@ -23,7 +23,7 @@ Kontajner je teraz možné spustiť. Volám server bitwardenrs s IP adresou Syno
 {{< gallery match="images/6/*.png" >}}
 
 ## Krok 3: Nastavenie protokolu HTTPS
-Kliknem na "Ovládací panel" > "Reverzný proxy server" a "Vytvoriť".
+Kliknem na "Ovládací panel" > "Reverzná proxy" a "Vytvoriť".
 {{< gallery match="images/7/*.png" >}}
 Potom môžem zavolať server bitwardenrs s IP adresou Synology a mojím proxy portom 8085, šifrovaným.
 {{< gallery match="images/8/*.png" >}}

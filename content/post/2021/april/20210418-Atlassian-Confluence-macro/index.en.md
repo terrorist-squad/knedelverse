@@ -5,7 +5,7 @@ difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "confluence", "wiki", "macro"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.en.md"
 +++
-Confluence is the gold standard in the knowledge base space. Creating your own Confluence user macros is also a breeze. Today I'll show how I created a terminal macro.
+Confluence is the gold standard in the knowledge base space. Creating your own Confluence user macros is also a snap. Today I'll show how I created a terminal macro.
 {{< gallery match="images/1/*.png" >}}
 
 ## Step 1: Create user macro
@@ -26,7 +26,7 @@ All other variables are defined in the macro code. More about the variable topic
 ## @param Title:title=Titlebar Title|type=string|required=truel|default=Bash
 
 ```
-Now a little HTML/CSS is missing and the marco is ready! For example:
+Now a little HTML/CSS is missing and the Marco is ready! For example:
 ```
 
 ## @param Title:title=Titlebar Title|type=string|required=truel|default=Bash

@@ -23,7 +23,7 @@ Tämän jälkeen on asennettava seuraavat paketit:
 sudo apt-get install -y nodm matchbox-window-manager uzbl xinit vim
 
 {{</ terminal >}}
-Kojelaudan näyttöä varten on myös luotava käyttäjä.
+Kojelautanäyttöä varten on myös luotava käyttäjä.
 {{< terminal >}}
 sudo adduser dashboard
 

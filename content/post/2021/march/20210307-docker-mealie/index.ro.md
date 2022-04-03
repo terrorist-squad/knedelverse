@@ -46,7 +46,7 @@ După aceste setări, Mealie Server poate fi pornit! Ulterior, puteți apela Mea
 ## Cum funcționează Mealie?
 Dacă trec cu mouse-ul peste butonul "Plus" din dreapta/jos și apoi fac clic pe simbolul "Lanț", pot introduce o adresă URL. Aplicația Mealie caută apoi în mod automat informațiile meta și schematice necesare.
 {{< gallery match="images/8/*.png" >}}
-Importul funcționează foarte bine (am folosit aceste funcții cu urls din Chef, Food
+Importul funcționează foarte bine (am folosit aceste funcții cu urls de la Chef, Food
 {{< gallery match="images/9/*.png" >}}
 În modul de editare, pot, de asemenea, să adaug o categorie. Este important să apăs tasta "Enter" o dată după fiecare categorie. În caz contrar, această setare nu se aplică.
 {{< gallery match="images/10/*.png" >}}
@@ -85,3 +85,4 @@ done < clear.txt
 ```
 Acum puteți accesa rețetele și offline:
 {{< gallery match="images/15/*.png" >}}
+Concluzie: Dacă investiți ceva timp în Mealie, puteți construi o bază de date de rețete grozave! Mealie este dezvoltat în mod constant ca un proiect open source și poate fi găsit la următoarea adresă: https://github.com/hay-kot/mealie/

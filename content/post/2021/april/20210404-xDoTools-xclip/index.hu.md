@@ -41,3 +41,4 @@ xdotool key "Return"                         ## Internetadresse aufrufen
 ```
 
 ## Miért van szüksége xclip????
+Az xdotools/"ctrl c" segítségével a tartalmakat a gyorsítótárba másolhatod, és a bash szkriptben lévő xclip segítségével olvashatod vagy feldolgozhatod őket.

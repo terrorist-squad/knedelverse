@@ -37,3 +37,4 @@ Nu kan du udføre playbooks eller kommandoer, f.eks. genstarte alle servere:
 ansible raspi -m shell -a 'sudo /sbin/reboot'
 
 {{</ terminal >}}
+

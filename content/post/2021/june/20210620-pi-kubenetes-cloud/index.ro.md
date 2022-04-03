@@ -40,7 +40,7 @@ dtparam=act_led_trigger=cpu0
 ```
 
 ## Server 1 - Montați discul
-Mai întâi, instalez un serviciu NFS pe "Server 1". Acest spațiu de stocare poate fi utilizat ulterior pentru clusterul meu de containere. Am conectat hard disk-ul USB la "Server 1" și l-am formatat EXT4 cu ajutorul acestor instrucțiuni: https://homecircuits.eu/blog/mount-sata-cubieboard-lubuntu/
+În primul rând, instalez un serviciu NFS pe "Server 1". Acest spațiu de stocare poate fi utilizat ulterior pentru clusterul meu de containere. Am conectat hard disk-ul USB la "Server 1" și l-am formatat EXT4 cu ajutorul acestor instrucțiuni: https://homecircuits.eu/blog/mount-sata-cubieboard-lubuntu/
 {{< gallery match="images/3/*.jpg" >}}
 Apoi am creat un punct de montare pentru discul USB:
 {{< terminal >}}
@@ -59,7 +59,7 @@ Acest pachet este necesar pentru NFS:
 sudo apt-get install nfs-kernel-server -y
 
 {{</ terminal >}}
->În plus, a fost creat un nou folder pe discul USB
+>În plus, a fost creat un nou dosar pe discul USB
 {{< terminal >}}
 sudo mkdir /media/usb-platte/nfsshare
 sudo chown -R pi:pi /media/usb-platte/nfsshare/
@@ -125,7 +125,7 @@ Acum masterul Kubenetes poate fi inițializat.
 sudo kubeadm init --token-ttl=0 --pod-network-cidr=10.244.0.0/16
 
 {{</ terminal >}}
-După ce inițializarea a fost realizată cu succes, accept setările. Îmi amintesc comanda afișată "kubeadm join" pentru conectarea nodurilor de lucru.
+După ce inițializarea a fost efectuată cu succes, accept setările. Îmi amintesc comanda afișată "kubeadm join" pentru conectarea nodurilor de lucru.
 {{< terminal >}}
 mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
@@ -200,7 +200,7 @@ kubectl scale deployment my-nginx --replicas=0; kubectl scale deployment my-ngin
 {{< gallery match="images/9/*.png" >}}
 
 ## Curățați departamentul de testare
-Pentru a face ordine, am șters din nou depozitul și serviciul.
+Pentru a face ordine, șterg din nou depozitul și serviciul.
 {{< terminal >}}
 kubectl delete service example-service
 kubectl delete deplyments my-nginx
@@ -208,3 +208,4 @@ kubectl delete deplyments my-nginx
 {{</ terminal >}}
 >Vezi:
 {{< gallery match="images/10/*.png" >}}
+

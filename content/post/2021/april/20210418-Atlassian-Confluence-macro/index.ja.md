@@ -1,35 +1,35 @@
 +++
 date = "2021-04-18"
-title = "アトラシアンの優れた点：Confluenceでのマクロの作成"
+title = "アトラシアンのクールな使い方: Confluence で独自のマクロを作成する"
 difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "confluence", "wiki", "macro"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.ja.md"
 +++
-Confluenceはナレッジベースの分野ではゴールドスタンダードです。Confluence ユーザーマクロの作成も簡単です。今日は、ターミナルマクロを作成した様子を紹介します。
+Confluenceは、ナレッジベースの分野ではゴールドスタンダードです。Confluence のユーザーマクロを自作するのも簡単です。今日は、ターミナルマクロを作成した方法を紹介します。
 {{< gallery match="images/1/*.png" >}}
 
 ## ステップ1：ユーザーマクロの作成
-管理」エリアで「ユーザーマクロ」→「ユーザーマクロの作成」をクリックしています。
+管理」エリアの「ユーザーマクロ」→「ユーザーマクロの作成」をクリックしています。
 {{< gallery match="images/2/*.png" >}}
-そして、ユーザーマクロ名を入力し、「ユーザーマクロの定義」のオプション「レンダリング」を選択します。
+そして、ユーザーマクロ名を入力し、「ユーザーマクロの定義」オプションの「レンダリング」を選択しました。
 {{< gallery match="images/3/*.png" >}}
 
 ## ステップ2：ユーザーマクロの開発
-レンダリングされた "ユーザーマクロは、デフォルトでボディ変数を持っています。
+すべての "レンダー "ユーザーマクロは、デフォルトでボディ変数を持ちます。
 ```
 Inhalt $body
 
 ```
-その他の変数はすべてマクロコードで定義されています。変数の話題について
+その他の変数は、マクロコードで定義します。変数についてもっと詳しく
 ```
 
-## @param Title:title=タイトルバー Title|type=string|required=truel|default=Bash
+## param Title:title=タイトルバー タイトル|type=string|required=truel|default=Bash
 
 ```
-あとはHTML/CSSが少しあれば、Marcoは完成です。例えば、以下のように。
+あとはHTML/CSSを少し入れれば、マルコの出来上がりです!例えば、こんな感じです。
 ```
 
-## @param Title:title=タイトルバー Title|type=string|required=truel|default=Bash
+## param Title:title=タイトルバー タイトル|type=string|required=truel|default=Bash
 
 <style>
 .window a {
@@ -158,6 +158,6 @@ Inhalt $body
 
 ```
 
-## ステップ3：ユーザーマクロの使用
-ユーザーのmarkoさんに変数やHTML、CSSが提供されていれば、これを使うことができます。
+## ステップ3：ユーザーマクロを使用する
+ユーザーマルコに変数、HTML、CSSが提供されている場合、これを利用することができます。
 {{< gallery match="images/4/*.png" >}}

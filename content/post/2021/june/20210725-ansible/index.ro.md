@@ -37,3 +37,4 @@ Acum puteți executa playbook-uri sau comenzi, de exemplu, reporniți toate serv
 ansible raspi -m shell -a 'sudo /sbin/reboot'
 
 {{</ terminal >}}
+

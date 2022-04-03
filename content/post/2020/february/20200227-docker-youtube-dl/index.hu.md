@@ -9,7 +9,7 @@ Sok barátom tudja, hogy a Homelab - hálózatomon egy privát tanulási videopo
 {{< gallery match="images/1/*.png" >}}
 Idővel 8845 videótanfolyamot gyűjtöttem össze 282616 egyedi videóval. A teljes futási idő körülbelül 2 év. Teljesen őrült! Ebben a bemutatóban megmutatom, hogyan lehet a jó Youtube oktatóanyagokról biztonsági másolatot készíteni egy Docker letöltési szolgáltatással offline célokra.
 ## Lehetőség szakemberek számára
-Tapasztalt Synology felhasználóként természetesen bejelentkezhet SSH-val, és telepítheti a teljes telepítést Docker Compose fájlon keresztül.
+Tapasztalt Synology felhasználóként természetesen bejelentkezhet SSH-n keresztül, és telepítheti a teljes telepítést Docker Compose fájlon keresztül.
 ```
 version: "2"
 services:
@@ -28,7 +28,7 @@ services:
 ```
 
 ## 1. lépés
-Először létrehozok egy mappát a letöltéseknek. Megyek a "Rendszervezérlés" -> "Megosztott mappa" menüpontba, és létrehozok egy új mappát "Letöltések" néven.
+Először létrehozok egy mappát a letöltéseknek. Elmegyek a "Rendszervezérlés" -> "Megosztott mappa" menüpontba, és létrehozok egy új mappát "Letöltések" néven.
 {{< gallery match="images/2/*.png" >}}
 
 ## 2. lépés: Docker-kép keresése
@@ -38,7 +38,7 @@ A kép letöltése után a kép képként elérhető. A Docker 2 állapotot kül
 ## 3. lépés: Helyezze üzembe a képet:
 Duplán kattintok a youtube-dl-nas képemre.
 {{< gallery match="images/4/*.png" >}}
-Ezután a "Speciális beállítások" menüpontra kattintok, és aktiválom az "Automatikus újraindítás" opciót. Kiválasztom a "Kötet" lapot, és a "Mappa hozzáadása" gombra kattintok. Ott létrehozok egy új adatbázis mappát ezzel a "/downfolder" csatlakozási útvonallal.
+Ezután a "Speciális beállítások" gombra kattintok, és aktiválom az "Automatikus újraindítás" opciót. Kiválasztom a "Kötet" lapot, és a "Mappa hozzáadása" gombra kattintok. Ott létrehozok egy új adatbázis mappát ezzel a "/downfolder" csatlakozási útvonallal.
 {{< gallery match="images/5/*.png" >}}
 A "Youtube Downloader" konténerhez fix portokat rendelek. Fix portok nélkül előfordulhat, hogy a "Youtube Downloader" egy másik porton fut az újraindítás után.
 {{< gallery match="images/6/*.png" >}}

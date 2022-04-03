@@ -1,6 +1,6 @@
 +++
 date = "2020-02-07"
-title = "Orquestrar robôs uiPath Windows com Gitlab"
+title = "Orquestrando robôs uiPath Windows com Gitlab"
 difficulty = "level-5"
 tags = ["git", "gitlab", "robot", "roboter", "Robotic-Process-Automation", "rpa", "uipath", "windows"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200207-gitlab-uipath/index.pt.md"
@@ -60,3 +60,4 @@ build1:
 ```
 Meu robô de software Windows é executado diretamente após o committing para a filial mestre:
 {{< gallery match="images/14/*.png" >}}
+O arranque automático do robô pode ser gerido através da opção "Schedules". Uma grande vantagem desta combinação é que os projetos "robóticos" e os resultados dos projetos (artefatos) podem ser controlados centralmente, versionados e gerenciados pela Gitlab com outros projetos "não-robóticos".

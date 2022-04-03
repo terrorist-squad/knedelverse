@@ -97,3 +97,4 @@ Behållaren kan nu startas. Det kan ta lite tid att skapa databasen. Beteendet k
 {{< gallery match="images/14/*.png" >}}
 Jag ringer till wallabag-servern med Synologys IP-adress och min containerport.
 {{< gallery match="images/15/*.png" >}}
+Jag måste dock säga att jag personligen föredrar shiori som internetarkiv.

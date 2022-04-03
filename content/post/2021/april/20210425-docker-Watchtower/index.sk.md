@@ -20,3 +20,4 @@ docker run --name watchtower --restart always -v /var/run/docker.sock:/var/run/d
 {{</ terminal >}}
 Potom Strážna veža vždy beží na pozadí.
 {{< gallery match="images/3/*.png" >}}
+

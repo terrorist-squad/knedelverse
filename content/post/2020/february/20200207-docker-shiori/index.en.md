@@ -25,5 +25,5 @@ username: shiori
 password: gopher
 
 ```
-Great! You can use your internet archive:
+Great! You can use your Internet archive:
 {{< gallery match="images/1/*.png" >}}

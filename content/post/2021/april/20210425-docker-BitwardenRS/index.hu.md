@@ -15,7 +15,7 @@ A Synology Docker ablakban a "Regisztráció" fülre kattintok, és rákeresek a
 {{< gallery match="images/2/*.png" >}}
 Duplán kattintok a bitwardenrs képemre. Ezután a "Speciális beállítások" menüpontra kattintok, és itt is aktiválom az "Automatikus újraindítás" opciót.
 {{< gallery match="images/3/*.png" >}}
-Kiválasztom a "Kötet" lapot, és a "Mappa hozzáadása" gombra kattintok. Ott létrehozok egy új mappát ezzel a "/data" csatlakozási útvonallal.
+Kiválasztom a "Kötet" lapot, és a "Mappa hozzáadása" gombra kattintok. Ott létrehozok egy új mappát ezzel a "/data" mount útvonallal.
 {{< gallery match="images/4/*.png" >}}
 A "bitwardenrs" konténerhez fix portokat rendelek. Fix portok nélkül előfordulhat, hogy a "bitwardenrs szerver" egy másik porton fut az újraindítás után. Az első konténerport törölhető. A másik kikötőt nem szabad elfelejteni.
 {{< gallery match="images/5/*.png" >}}

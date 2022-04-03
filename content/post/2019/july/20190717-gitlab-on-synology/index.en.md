@@ -9,5 +9,6 @@ Here I show how I installed Gitlab and a Gitlab runner on my Synology nas. First
 {{< gallery match="images/1/*.*" >}}
 The service listens on port "30000" for me. If everything worked, I call my gitlab with http://SynologyHostName:30000 and see this picture:
 {{< gallery match="images/2/*.*" >}}
-When I log in for the first time, I am asked for the future "admin" password. That was it already! Now I can organize projects. Now a Gitlab-Runner can be installed.  
+At the first login I am asked for the future "admin" password. That was it! Now I can organize projects. Now a Gitlab-Runner can be installed.  
 {{< gallery match="images/3/*.*" >}}
+

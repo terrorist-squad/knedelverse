@@ -1,5 +1,5 @@
 +++
-date = "2021-04-04"
+date = "2021-04-0q"
 title = "Király dolgok az Atlassian segítségével: Pimp my Bamboo Monitor"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
@@ -227,3 +227,4 @@ sudo reboot
 {{</ terminal >}}
 
 ## Kész
+Minden dasboardot naponta egyszer újra kell indítani. Létrehoztam egy cron programot erre a célra.

@@ -96,7 +96,8 @@ server {
 
 
 ```
-Ak teraz spustíte nastavenie príkazom "docker-compose -f ...etc... up", v denníku prístupov uvidíte aj prístupy prihlásených používateľov:
+Ak teraz spustíte nastavenie príkazom "docker-compose -f ...etc... up", v prístupovom protokole uvidíte aj prístupy prihlásených používateľov:
 {{< gallery match="images/3/*.png" >}}
 Keďže používatelia LDAP sú len hosťujúci používatelia, práva hosťujúcich používateľov musia byť nastavené v Calibrewebe:
 {{< gallery match="images/4/*.png" >}}
+Toto nastavenie používam pre nasledujúce služby:* Videotéka (Peertube)* Knižnica (Calibreweb)* Gitlab (CE nepodporuje skupiny, takže sa musíte prihlásiť 2x)

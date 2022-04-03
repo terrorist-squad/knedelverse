@@ -17,7 +17,7 @@ De nieuwe publieke sleutel toegevoegd aan het "/home/pi/.ssh/authorised_keys" be
 sudo apt-get install -y ansible
 
 {{</ terminal >}}
-Daarna moeten de Raspberrys ingevoerd worden in het "/etc/ansible/hosts" bestand:
+Daarna moeten de Raspberrys ingevoerd worden in het bestand "/etc/ansible/hosts":
 ```
 [raspi-kube.clust]
 ip-server-1:ssh-port ansible_ssh_user=username 
@@ -37,3 +37,4 @@ Nu kunt u playbooks of commando's uitvoeren, bijvoorbeeld alle servers rebooten:
 ansible raspi -m shell -a 'sudo /sbin/reboot'
 
 {{</ terminal >}}
+

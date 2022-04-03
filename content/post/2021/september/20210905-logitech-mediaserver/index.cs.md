@@ -32,3 +32,4 @@ Nakonec zadám proměnnou prostředí. Proměnná "TZ" je časové pásmo "Evrop
 {{< gallery match="images/7/*.png" >}}
 Po těchto nastaveních lze spustit Logitechmediaserver-Server! Poté můžete zavolat Logitechmediaserver prostřednictvím Ip adresy zařízení Synology a přiřazeného portu, například http://192.168.21.23:9000 .
 {{< gallery match="images/8/*.png" >}}
+

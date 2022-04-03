@@ -5,11 +5,11 @@ difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "kühlschrank", "erp", "mhd", "Speispläne", "cms", "Cafe", "Bistro"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-grocy/index.hu.md"
 +++
-A Grocy segítségével egy egész háztartást, éttermet, kávézót, bisztrót vagy élelmiszerpiacot kezelhet. Kezelheti a hűtőszekrényeket, menüket, feladatokat, bevásárlólistákat és az élelmiszerek minőségmegőrzési idejét.
+A Grocy segítségével egy egész háztartást, éttermet, kávézót, bisztrót vagy élelmiszerpiacot kezelhet. Kezelheti a hűtőszekrényeket, menüket, feladatokat, bevásárlólistákat és az élelmiszerek szavatossági idejét.
 {{< gallery match="images/1/*.png" >}}
 Ma megmutatom, hogyan kell telepíteni egy Grocy szolgáltatást a Synology lemezállomásra.
 ## Lehetőség szakemberek számára
-Tapasztalt Synology felhasználóként természetesen bejelentkezhet SSH-val, és telepítheti a teljes telepítést Docker Compose fájlon keresztül.
+Tapasztalt Synology felhasználóként természetesen bejelentkezhet SSH-n keresztül, és telepítheti a teljes telepítést Docker Compose fájlon keresztül.
 ```
 version: "2.1"
 services:
@@ -37,7 +37,7 @@ A Synology Docker ablakban a "Regisztráció" fülre kattintok, és rákeresek a
 {{< gallery match="images/3/*.png" >}}
 Duplán kattintok a Grocy-képemre.
 {{< gallery match="images/4/*.png" >}}
-Ezután a "Speciális beállítások" menüpontra kattintok, és itt is aktiválom az "Automatikus újraindítás" opciót. Kiválasztom a "Kötet" lapot, és a "Mappa hozzáadása" gombra kattintok. Ott létrehozok egy új mappát ezzel a "/config" csatlakozási útvonallal.
+Ezután a "Speciális beállítások" menüpontra kattintok, és itt is aktiválom az "Automatikus újraindítás" opciót. Kiválasztom a "Kötet" lapot, és a "Mappa hozzáadása" gombra kattintok. Ott létrehozok egy új mappát ezzel a "/config" mount útvonallal.
 {{< gallery match="images/5/*.png" >}}
 A "Grocy" konténerhez fix portokat rendelek. Fix portok nélkül előfordulhat, hogy a "Grocy szerver" egy másik porton fut az újraindítás után.
 {{< gallery match="images/6/*.png" >}}
@@ -52,3 +52,4 @@ Végül megadom ezeket a környezeti változókat:Lásd:
 {{< gallery match="images/7/*.png" >}}
 A konténer most már elindítható. Felhívom a Grocy szervert a Synology IP-címével és a konténerportommal, és bejelentkezem az "admin" felhasználónévvel és az "admin" jelszóval.
 {{< gallery match="images/8/*.png" >}}
+

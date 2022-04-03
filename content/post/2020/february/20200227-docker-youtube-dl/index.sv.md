@@ -34,7 +34,7 @@ Först skapar jag en mapp för nedladdningarna. Jag går till "System Control" -
 ## Steg 2: Sök efter Docker-avbildningen
 Jag klickar på fliken "Registration" i Synology Docker-fönstret och söker efter "youtube-dl-nas". Jag väljer Docker-avbildningen "modenaf360/youtube-dl-nas" och klickar sedan på taggen "latest".
 {{< gallery match="images/3/*.png" >}}
-När bilden har laddats ner finns den tillgänglig som en bild. Docker skiljer mellan två tillstånd: container (dynamiskt tillstånd) och image/image (fast tillstånd). Innan vi kan skapa en behållare från avbildningen måste några inställningar göras.
+När bilden har laddats ner finns den tillgänglig som en bild. Docker skiljer mellan två tillstånd, container (dynamiskt tillstånd) och image/image (fast tillstånd). Innan vi kan skapa en behållare från avbildningen måste några inställningar göras.
 ## Steg 3: Använd bilden:
 Jag dubbelklickar på min youtube-dl-nas-bild.
 {{< gallery match="images/4/*.png" >}}

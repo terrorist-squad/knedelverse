@@ -5,7 +5,7 @@ difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "confluence", "wiki", "macro"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.fi.md"
 +++
-Confluence on tietopohjien kultainen standardi. Omien Confluence-käyttäjämakrojen luominen on myös lastenleikkiä. Tänään näytän, miten loin terminaalimakron.
+Confluence on tietopohjien kultainen standardi. Omien Confluence-käyttäjämakrojen luominen on myös lastenleikkiä. Tänään näytän, miten loin päätelaitteen makron.
 {{< gallery match="images/1/*.png" >}}
 
 ## Vaihe 1: Luo käyttäjämakro

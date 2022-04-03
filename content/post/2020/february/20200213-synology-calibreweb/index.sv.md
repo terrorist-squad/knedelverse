@@ -17,7 +17,7 @@ Nu kopierar jag ett befintligt bibliotek eller "[detta tomma exempelbibliotek](h
 ## Steg 3: Sök efter Docker-avbildningen
 Jag klickar på fliken "Registration" i Synology Docker-fönstret och söker efter "Calibre". Jag väljer Docker-avbildningen "janeczku/calibre-web" och klickar sedan på taggen "latest".
 {{< gallery match="images/3/*.png" >}}
-När bilden har laddats ner finns den tillgänglig som en bild. Docker skiljer mellan två tillstånd: container (dynamiskt tillstånd) och image/image (fast tillstånd). Innan vi kan skapa en behållare från avbildningen måste några inställningar göras.
+När bilden har laddats ner finns den tillgänglig som en bild. Docker skiljer mellan två tillstånd, container (dynamiskt tillstånd) och image/image (fast tillstånd). Innan vi kan skapa en behållare från avbildningen måste några inställningar göras.
 ## Steg 4: Använd bilden:
 Jag dubbelklickar på min Calibre-bild.
 {{< gallery match="images/4/*.png" >}}

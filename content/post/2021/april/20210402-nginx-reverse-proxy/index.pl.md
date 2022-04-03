@@ -1,19 +1,19 @@
 +++
 date = "2021-04-02"
-title = "Wielkie rzeczy z kontenerami: zwiększanie bezpieczeństwa usług Dockera za pomocą LDAP i NGINX"
+title = "Wspaniałe rzeczy z kontenerami: zwiększanie bezpieczeństwa usług Dockera za pomocą LDAP i NGINX"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ldap", "logging", "nutzerverwaltung", "peertube", "ssl"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-nginx-reverse-proxy/index.pl.md"
 +++
-Jako użytkownik stacji Synology Diskstation uruchamiam wiele usług w mojej sieci domowej. Wdrażam oprogramowanie w Gitlabie, dokumentuję wiedzę w Confluence i czytam techniczne referencje za pomocą serwera Calibre.
+Jako użytkownik stacji Synology Diskstation uruchamiam wiele usług w mojej sieci domowej. Wdrażam oprogramowanie w Gitlabie, dokumentuję wiedzę w Confluence i czytam referencje techniczne za pomocą serwera internetowego Calibre.
 {{< gallery match="images/1/*.png" >}}
-Wszystkie usługi sieciowe komunikują się szyfrowanie i są zabezpieczone poprzez centralną administrację użytkownikami. Dzisiaj pokażę jak zabezpieczyłem moją usługę Calibre poprzez szyfrowanie SSL, logowanie dostępu i ograniczenie dostępu do LDAP. W tym tutorialu wymagana jest wcześniejsza wiedza z "[Fajne rzeczy z Atlassian: Używaj wszystkich narzędzi Atlassian z LDAP]({{< ref "post/2021/march/20210321-atlassian-ldap" >}} "Fajne rzeczy z Atlassian: Używaj wszystkich narzędzi Atlassian z LDAP")" i "[Wielkie rzeczy z kontenerami: Uruchamianie Calibre z Docker Compose]({{< ref "post/2020/february/20200221-docker-Calibre-pro" >}} "Wielkie rzeczy z kontenerami: Uruchamianie Calibre z Docker Compose")".
+Wszystkie usługi sieciowe komunikują się w sposób zaszyfrowany i są zabezpieczone za pomocą centralnej administracji użytkownikami. Dzisiaj pokażę, jak zabezpieczyłem usługę Calibre za pomocą szyfrowania SSL, rejestrowania dostępu i ograniczenia dostępu do LDAP. Do pracy w tym samouczku wymagana jest wcześniejsza wiedza z zakresu "[Fajne rzeczy z Atlassian: Używanie wszystkich narzędzi Atlassian za pomocą LDAP]({{< ref "post/2021/march/20210321-atlassian-ldap" >}} "Fajne rzeczy z Atlassian: Używanie wszystkich narzędzi Atlassian za pomocą LDAP")" i "[Wielkie rzeczy z kontenerami: Uruchamianie Calibre za pomocą Docker Compose]({{< ref "post/2020/february/20200221-docker-Calibre-pro" >}} "Wielkie rzeczy z kontenerami: Uruchamianie Calibre za pomocą Docker Compose")".
 ## Mój serwer LDAP
-Jak już pisałem, w kontenerze Docker uruchamiam centralny serwer openLDAP. Utworzyłem również kilka grup aplikacji.
+Jak już pisałem, w kontenerze Docker uruchamiam centralny serwer openLDAP. Utworzyłem także kilka grup aplikacji.
 {{< gallery match="images/2/*.png" >}}
 
-## Zabezpiecz niezabezpieczoną aplikację za pomocą reverse proxy
-Ponieważ obraz Dockera "linuxserver/calibre-web" nie obsługuje szyfrowania SSL i LDAP, tworzę wirtualną sieć o nazwie "calibreweb" i umieszczam odwrotne proxy NGINX przed serwerem Calibre. Tak wygląda mój plik Docker Compose. Wszystkie przyszłe logi dostępu są przechowywane w katalogu log, a moje samopodpisane certyfikaty są w katalogu certs.
+## Zabezpiecz niezabezpieczoną aplikację za pomocą odwrotnego serwera proxy
+Ponieważ obraz Dockera "linuxserver/calibre-web" nie obsługuje szyfrowania SSL i LDAP, tworzę sieć wirtualną o nazwie "calibreweb" i umieszczam przed serwerem Calibre odwrotne proxy NGINX. Tak wygląda mój plik Docker Compose. Wszystkie przyszłe dzienniki dostępu są przechowywane w katalogu log, a moje samopodpisane certyfikaty znajdują się w katalogu certs.
 ```
 version: '3.7'
 services:
@@ -52,9 +52,9 @@ networks:
   calibreweb:
 
 ```
-Więcej przydatnych obrazów Dockera do użytku domowego można znaleźć w dziale [Dockerverse]({{< ref "dockerverse" >}} "Dockerverse").
+Więcej przydatnych obrazów Dockera do użytku domowego można znaleźć w sekcji [Dockerverse]({{< ref "dockerverse" >}} "Dockerverse").
 ## Konfiguracja Nginx
-Plik "default.conf" zawiera wszystkie konfiguracje LDAP i szyfrowania. Oczywiście adres URL, binddn, certyfikaty, porty oraz hasło i grupa muszą być dostosowane.
+Plik "default.conf" zawiera wszystkie konfiguracje protokołu LDAP i szyfrowania. Oczywiście należy dostosować adres URL, binddn, certyfikaty, porty oraz hasło i grupę.
 ```
 # ldap auth configuration
 auth_ldap_cache_enabled on;
@@ -96,7 +96,8 @@ server {
 
 
 ```
-Jeśli teraz uruchomisz konfigurację za pomocą "docker-compose -f ...etc... up", możesz również zobaczyć dostęp zalogowanych użytkowników w dzienniku dostępu:
+Jeśli teraz uruchomisz konfigurację za pomocą polecenia "docker-compose -f ...etc... up", w dzienniku dostępu zobaczysz również dostęp zalogowanych użytkowników:
 {{< gallery match="images/3/*.png" >}}
-Ponieważ użytkownicy LDAP są tylko użytkownikami gościnnymi, prawa użytkowników gościnnych muszą być ustawione w Calibreweb:
+Ponieważ użytkownicy LDAP są tylko użytkownikami gościnnymi, w programie Calibreweb należy ustawić uprawnienia użytkowników gościnnych:
 {{< gallery match="images/4/*.png" >}}
+Używam tej konfiguracji dla następujących usług:* Biblioteka wideo (Peertube)* Biblioteka (Calibreweb)* Gitlab (CE nie obsługuje grup, więc trzeba się logować 2x)

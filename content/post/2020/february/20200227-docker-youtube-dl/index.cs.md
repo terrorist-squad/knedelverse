@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Mnozí z mých přátel vědí, že na svém portálu Homelab - Network provozuji soukromý výukový videoportál. Videokurzy z minulých členství na vzdělávacích portálech a dobré výukové programy z Youtube jsem si uložil pro offline použití na svém NAS.
 {{< gallery match="images/1/*.png" >}}
-Postupně jsem shromáždil 8845 videokurzů s 282616 jednotlivými videi. Celková doba provozu činí přibližně 2 roky. Naprosto bláznivé! V tomto návodu ukážu, jak zálohovat dobré výukové programy z Youtube pomocí služby Docker pro stahování v režimu offline.
+Postupně jsem shromáždil 8845 videokurzů s 282616 jednotlivými videi. Celková doba provozu činí přibližně 2 roky. V tomto návodu ukážu, jak zálohovat dobré výukové programy z Youtube pomocí služby Docker pro stahování offline.
 ## Možnost pro profesionály
 Jako zkušený uživatel Synology se samozřejmě můžete přihlásit pomocí SSH a nainstalovat celou instalaci pomocí souboru Docker Compose.
 ```
@@ -35,7 +35,7 @@ Nejprve vytvořím složku pro stahování. Přejdu do "Ovládání systému" ->
 V okně Synology Docker kliknu na kartu "Registrace" a vyhledám "youtube-dl-nas". Vyberu obraz Docker "modenaf360/youtube-dl-nas" a kliknu na značku "latest".
 {{< gallery match="images/3/*.png" >}}
 Po stažení obrázku je obrázek k dispozici jako obrázek. Docker rozlišuje 2 stavy, kontejner "dynamický stav" a obraz/image (pevný stav). Před vytvořením kontejneru z bitové kopie je třeba provést několik nastavení.
-## Krok 3: Zprovozněte obrázek:
+## Krok 3: Zprovoznění obrázku:
 Dvakrát kliknu na svůj obrázek na youtube-dl-nas.
 {{< gallery match="images/4/*.png" >}}
 Pak kliknu na "Rozšířené nastavení" a aktivuji "Automatický restart". Vyberu kartu "Svazek" a kliknu na "Přidat složku". Tam vytvořím novou složku databáze s touto přípojnou cestou "/downfolder".

@@ -69,7 +69,7 @@ services:
 {{< gallery match="images/8/*.png" >}}
 我为 "xwiki "容器分配了固定的端口。没有固定的端口，可能是 "xwiki服务器 "在重启后运行在不同的端口。
 {{< gallery match="images/9/*.png" >}}
-此外，必须创建一个与 "postgres "容器的 "链接"。我点击 "链接 "标签，选择数据库容器。在安装wiki时，应该记住别名的名称。
+此外，必须创建一个与 "postgres "容器的 "链接"。我点击 "链接 "标签，选择数据库容器。在安装wiki时应该记住这个别名。
 {{< gallery match="images/10/*.png" >}}
 {{<table "table table-striped table-bordered">}}
 |变量名称|价值|它是什么？|

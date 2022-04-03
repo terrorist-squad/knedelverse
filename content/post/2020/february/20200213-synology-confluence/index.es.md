@@ -5,7 +5,7 @@ difficulty = "level-4"
 tags = ["atlassian", "confluence", "Docker", "ds918", "Synology", "wiki", "nas"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200213-synology-confluence/index.es.md"
 +++
-Si desea instalar Atlassian Confluence en un NAS de Synology, ha llegado al lugar adecuado.
+Si quieres instalar Atlassian Confluence en un NAS de Synology, estás en el lugar adecuado.
 ## Paso 1
 En primer lugar, abro la aplicación Docker en la interfaz de Synology y, a continuación, voy al subapartado "Registro". Allí busco "Confluence" y hago clic en la primera imagen "Atlassian Confluence".
 {{< gallery match="images/1/*.png" >}}

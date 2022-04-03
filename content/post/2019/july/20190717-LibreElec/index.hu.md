@@ -19,3 +19,4 @@ Ezután a telepítés befejeződik és bootolható
 "{{< gallery match="images/4/*.jpg" >}}"
 Most már csatlakoztathatja ezt a MediaPc-t külső forrásokhoz, például NAS-hoz, vagy telepíthet alkalmazásokat, például a Youtube-ot. Jó szórakozást!   
 "{{< gallery match="images/5/*.jpg" >}}"
+Ahogy már írtuk, a CEC-vezérlőn keresztül is használhatja a TV távirányítóját.

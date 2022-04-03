@@ -86,3 +86,4 @@ Il contenitore può ora essere avviato. Potrebbe essere necessario un po' di tem
 {{< gallery match="images/12/*.png" >}}
 Chiamo il server Bookstack con l'indirizzo IP del Synology e la mia porta del container. Il nome di login è "admin@admin.com" e la password è "password".
 {{< gallery match="images/13/*.png" >}}
+

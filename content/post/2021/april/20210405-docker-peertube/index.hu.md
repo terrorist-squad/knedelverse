@@ -15,7 +15,7 @@ Terminal, winSCP vagy Putty segítségével jelentkezem be, és ezt a konzolt k�
 ## 2. lépés: Docker mappa előkészítése
 Létrehozok egy új könyvtárat "Peertube" néven a Docker könyvtárban.
 {{< gallery match="images/3/*.png" >}}
-Ezután bemegyek a Peertube könyvtárba, és létrehozok egy új fájlt "peertube.yml" néven a következő tartalommal. A porthoz a "9000:" elülső rész állítható be. A második kötet tartalmazza az összes videót, lejátszási listát, miniatűröket stb..., ezért adaptálni kell.
+Ezután bemegyek a Peertube könyvtárba, és létrehozok egy új fájlt "peertube.yml" néven a következő tartalommal. A porthoz a "9000:" elülső rész állítható be. A második kötet tartalmazza az összes videót, lejátszási listát, miniatűröket stb..., és ezért adaptálni kell.
 ```
 version: "3.7"
 
@@ -134,4 +134,5 @@ curl -s '$API_PATH/videos/upload'-H 'Authorization: Bearer $token' --max-time 11
 
 ```
 
-## Tippem: Olvassa el a "Nagyszerű dolgok konténerekkel: a Docker-szolgáltatások biztonságosabbá tétele LDAP és NGINX segítségével" című részt.
+## Tippem: Olvassa el a "Nagyszerű dolgok konténerekkel: a Docker-szolgáltatások biztonságosabbá tétele az LDAP és az NGINX segítségével" című részt.
+A Peertube-omat fordított proxyval futtatom. Ez azt jelenti, hogy csak LDAP-felhasználók férhetnek hozzá ehhez a szolgáltatáshoz. Ezt a beállítást az "[Nagyszerű dolgok konténerekkel: a Docker szolgáltatások biztonságosabbá tétele LDAP és NGINX segítségével]({{< ref "post/2021/april/20210402-nginx-reverse-proxy" >}} "Nagyszerű dolgok konténerekkel: a Docker szolgáltatások biztonságosabbá tétele LDAP és NGINX segítségével")" alatt dokumentáltam.

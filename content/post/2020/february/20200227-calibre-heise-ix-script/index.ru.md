@@ -44,3 +44,4 @@ done
 ```
 С помощью команды "calibredb set_metadata" я установил все остальное как теги. Результат выглядит следующим образом:
 {{< gallery match="images/3/*.png" >}}
+Сценарий также доступен на Github: https://github.com/ChristianKnedel/heise-ix-reader-for-calibre .

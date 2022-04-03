@@ -22,7 +22,7 @@ Megrendeltem hozzá ezeket az alkatrészeket:
 ## Gyerünk!
 
 {{< youtube ulzMoX-fpvc >}}
-A Raspian Lite telepítés alapján létrehoztam a saját telepítési képemet. A felhasználói/nyilvános kulcsom már eleve ebben a képben van tárolva, és a "/boot/config.txt" fájl az én LED-jeimhez lett igazítva.
+A Raspian Lite telepítése alapján létrehoztam a saját telepítési képemet. A felhasználói/nyilvános kulcsom már eleve ebben a képben van tárolva, és a "/boot/config.txt" fájl az én LED-jeimhez lett igazítva.
 ```
 # meine Server brauchen kein HDMI, WLAN und Bluetooth
 dtoverlay=disable-bt
@@ -208,3 +208,4 @@ kubectl delete deplyments my-nginx
 {{</ terminal >}}
 >See:
 {{< gallery match="images/10/*.png" >}}
+

@@ -5,15 +5,15 @@ difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "dns", "adblocker", "fritzbox"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/february/20210201-docker-pihole/index.pl.md"
 +++
-Dziś pokażę jak zainstalować usługę Pihole na stacji dysków Synology i podłączyć ją do Fritzboxa.
+Dzisiaj pokażę, jak zainstalować usługę Pihole na stacji dysków Synology i połączyć ją z Fritzboxem.
 ## Krok 1: Przygotuj Synology
-Najpierw należy aktywować logowanie SSH na serwerze DiskStation. W tym celu należy wejść w "Panel sterowania" > "Terminal
+Najpierw należy aktywować logowanie SSH na serwerze DiskStation. W tym celu należy przejść do "Panelu sterowania" > "Terminal
 {{< gallery match="images/1/*.png" >}}
-Następnie można zalogować się poprzez "SSH", podany port i hasło administratora (użytkownicy Windows używają Putty lub WinSCP).
+Następnie można zalogować się przez "SSH", podany port i hasło administratora (użytkownicy systemu Windows używają Putty lub WinSCP).
 {{< gallery match="images/2/*.png" >}}
-Loguję się przez Terminal, winSCP lub Putty i zostawiam tę konsolę otwartą na później.
+Loguję się za pomocą Terminala, winSCP lub Putty i zostawiam tę konsolę otwartą na później.
 ## Krok 2: Utwórz folder Pihole
-Tworzę nowy katalog o nazwie "pihole" w katalogu Dockera.
+W katalogu Docker tworzę nowy katalog o nazwie "pihole".
 {{< gallery match="images/3/*.png" >}}
 Następnie przechodzę do nowego katalogu i tworzę dwa foldery "etc-pihole" i "etc-dnsmasq.d":
 {{< terminal >}}
@@ -21,7 +21,7 @@ cd /volume1/docker/
 mkdir -p {etc-pihole,etc-dnsmasq.d}
 
 {{</ terminal >}}
-Teraz następujący plik Docker Compose o nazwie "pihole.yml" musi zostać umieszczony w katalogu Pihole:
+Teraz w katalogu Pihole należy umieścić następujący plik Docker Compose o nazwie "pihole.yml":
 ```
 version: "3"
 
@@ -45,12 +45,12 @@ services:
     restart: unless-stopped
 
 ```
-Kontener może być teraz uruchomiony:
+Teraz można uruchomić kontener:
 {{< terminal >}}
 sudo docker-compose up -d
 
 {{</ terminal >}}
-Wywołuję serwer Pihole, podając adres IP Synology i port mojego kontenera, a następnie loguję się, podając hasło WEBPASSWORD.
+Wywołuję serwer Pihole, podając adres IP Synology i port kontenera, a następnie loguję się, podając hasło WEBPASSWORD.
 {{< gallery match="images/4/*.png" >}}
-Teraz adres DNS może być zmieniony w Fritzboxie pod "Sieć domowa" > "Sieć" > "Ustawienia sieci".
+Teraz adres DNS można zmienić w urządzeniu Fritzbox w menu "Sieć domowa" > "Sieć" > "Ustawienia sieci".
 {{< gallery match="images/5/*.png" >}}

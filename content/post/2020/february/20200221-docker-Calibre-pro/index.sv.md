@@ -56,7 +56,7 @@ sudo docker-compose -f calibre.yml up -d
 {{< gallery match="images/7/*.png" >}}
 
 ## Steg 6: Inställning
-Sedan kan jag ringa min Calibre-server med diskstationens IP och den tilldelade porten från "Steg 4". Jag använder min monteringspunkt "/books" i installationen. Därefter är servern redan användbar.
+Sedan kan jag ringa min Calibre-server med diskstationens IP och den tilldelade porten från "Steg 4". I installationen använder jag min monteringspunkt "/books". Därefter är servern redan användbar.
 {{< gallery match="images/8/*.png" >}}
 
 ## Steg 7: Slutföra installationen

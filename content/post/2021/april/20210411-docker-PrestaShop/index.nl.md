@@ -54,7 +54,7 @@ networks:
   shop-network:
 
 ```
-Helaas werkte de huidige Lastest versie niet voor mij, dus installeerde ik de "1.7.7.2" versie. Dit bestand wordt gestart via Docker Compose:
+Helaas, de huidige Lastest versie werkte niet voor mij, dus installeerde ik de "1.7.7.2" versie. Dit bestand wordt gestart via Docker Compose:
 {{< terminal >}}
 docker-compose -f prestashop.yml up
 

@@ -25,5 +25,5 @@ username: shiori
 password: gopher
 
 ```
-Grozav! Puteți utiliza arhiva de internet:
+Grozav! Puteți utiliza arhiva dumneavoastră de internet:
 {{< gallery match="images/1/*.png" >}}

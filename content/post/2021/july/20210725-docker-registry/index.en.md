@@ -12,7 +12,7 @@ I create a new directory called "docker-registry" on my server:
 mkdir docker-registry
 
 {{</ terminal >}}
-After that I go to the docker-registry directory ("cd docker-registry") and create a new file named "registry.yml" with the following content:
+After that I go to the docker-registry directory ("cd docker-registry") and create new file named "registry.yml" with the following content:
 ```
 version: '3'
 
@@ -53,12 +53,13 @@ This file is started via Docker Compose. After that, the installation is accessi
 docker-compose -f registry.yml up -d
 
 {{</ terminal >}}
-After that, you can use your own registry with the target IP and port of the UI container.
+After that, the custom registry can be used with the target IP and port of the UI container.
 {{< gallery match="images/1/*.png" >}}
-Now I can build, push and pop images from my registry:
+Now I can build, push and populate images from my registry:
 {{< terminal >}}
 docker build -t 192.168.178.61:5000/mein-image:version .
 docker push 192.168.178.61:5000/mein-image:version
 docker pull 192.168.178.61:5000/mein-image:version
 
 {{</ terminal >}}
+

@@ -5,7 +5,7 @@ difficulty = "level-2"
 tags = ["code", "development", "devops", "docker-compose", "git", "gitlab", "Synology"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210321-atlassian-Bamboo-jmeter/index.sk.md"
 +++
-Dnes vytváram test jMeter v aplikácii Bamboo. Samozrejme, toto testovacie nastavenie môžete implementovať aj pomocou Gitlab runnerov alebo Jenkins slave.
+Dnes vytváram test jMeter v programe Bamboo. Samozrejme, toto testovacie nastavenie môžete implementovať aj pomocou Gitlab runnerov alebo Jenkins slave.
 ## Krok 1: Vytvorenie testu jMeter
 Najprv musíte samozrejme vytvoriť test jMeter. Stiahol som si jMeter z nasledujúcej url adresy https://jmeter.apache.org/ a spustil ho týmto príkazom:
 {{< terminal >}}

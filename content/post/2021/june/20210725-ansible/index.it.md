@@ -12,7 +12,7 @@ Per questo è necessaria una nuova chiave:
 ssh-keygen -b 4096
 
 {{</ terminal >}}
-Aggiunta la nuova chiave pubblica al file "/home/pi/.ssh/authorised_keys" di tutti i server (Server 1, Server 2 e Server 3).Inoltre, questo pacchetto deve essere installato per Ansible:
+Aggiunta la nuova chiave pubblica al file "/home/pi/.ssh/authorised_keys" di tutti i server (Server 1, Server 2 e Server 3). Inoltre, questo pacchetto deve essere installato per Ansible:
 {{< terminal >}}
 sudo apt-get install -y ansible
 
@@ -37,3 +37,4 @@ Ora puoi eseguire playbook o comandi, per esempio riavviare tutti i server:
 ansible raspi -m shell -a 'sudo /sbin/reboot'
 
 {{</ terminal >}}
+

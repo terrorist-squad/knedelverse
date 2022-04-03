@@ -9,7 +9,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 {{< gallery match="images/1/*.png" >}}
 След това трябва да въведете настройките в Jenkins. Кликвам върху "Manage Jenkins" > "Configure Global Security".
 {{< gallery match="images/2/*.png" >}}
-Важно: За собственоръчно подписани сертификати хранилището на доверие трябва да бъде предоставено от Java-Opts на сървъра Jenkins. Тъй като моят сървър Jenkins е създаден чрез файл Docker Compose, той изглежда по следния начин:
+Важно: За самоподписани сертификати хранилището на доверие трябва да бъде предоставено от Java-Opts на сървъра Jenkins. Тъй като моят сървър Jenkins е създаден чрез файл Docker Compose, той изглежда по следния начин:
 ```
 version: '2.0'
 services:

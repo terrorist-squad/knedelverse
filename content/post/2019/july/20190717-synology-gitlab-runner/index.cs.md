@@ -28,7 +28,7 @@ Tento soubor je jednoduše uložen v zařízení Synology NAS.
 {{< gallery match="images/2/*.png" >}}
 
 ## Krok 3: Nastavení programu GitLab Runner
-Kliknu na obrázek svého běžce:
+Kliknu na svůj obrázek běžce:
 {{< gallery match="images/3/*.png" >}}
 Aktivuji nastavení "Povolit automatický restart":
 {{< gallery match="images/4/*.png" >}}

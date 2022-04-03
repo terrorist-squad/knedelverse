@@ -9,7 +9,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 ## Krok 1: Aktivace služby "NFS"
 Nejprve je třeba na stanici Diskstation aktivovat službu "NFS". To provedu tak, že přejdu do nastavení "Ovládací panely" > "Souborové služby" a kliknu na možnost "Povolit NFS".
 {{< gallery match="images/1/*.png" >}}
-Pak kliknu na "Sdílená složka" a vyberu adresář.
+Poté kliknu na "Sdílená složka" a vyberu adresář.
 {{< gallery match="images/2/*.png" >}}
 
 ## Krok 2: Připojení adresářů v systému ESXi
@@ -19,5 +19,6 @@ V ESXi kliknu na "Úložiště" > "Nové datové úložiště" a zadám tam svá
 ## Připraveno
 Nyní lze paměť používat.
 {{< gallery match="images/4/*.png" >}}
-V rámci testování jsem přes tento přípojný bod nainstaloval instalaci systému DOS a starý účetní software.
+Pro testování jsem nainstaloval instalaci systému DOS a starý účetní software přes tento přípojný bod.
 {{< gallery match="images/5/*.png" >}}
+

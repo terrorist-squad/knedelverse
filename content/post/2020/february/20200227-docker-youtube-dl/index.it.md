@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Molti dei miei amici sanno che gestisco un portale privato di video apprendimento sul mio Homelab - Network. Ho salvato sul mio NAS i video corsi delle passate iscrizioni al portale di apprendimento e i buoni tutorial di Youtube per l'uso offline.
 {{< gallery match="images/1/*.png" >}}
-Nel corso del tempo ho raccolto 8845 video corsi con 282616 video individuali. Il tempo di esecuzione totale è pari a circa 2 anni. In questo tutorial mostro come fare il backup di buoni tutorial di Youtube con un servizio di download di Docker per scopi offline.
+Nel corso del tempo ho raccolto 8845 video corsi con 282616 video individuali. Il tempo totale di esecuzione è pari a circa 2 anni. In questo tutorial mostro come fare il backup di buoni tutorial di Youtube con un servizio di download di Docker per scopi offline.
 ## Opzione per i professionisti
 Come utente esperto di Synology, puoi ovviamente accedere con SSH e installare l'intera configurazione tramite il file Docker Compose.
 ```

@@ -1,5 +1,5 @@
 +++
-date = "2021-04-04"
+date = "2021-04-0q"
 title = "Coisas legais com o Atlassian: Pimp my Bamboo Monitor"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
@@ -32,7 +32,7 @@ sudo su dashboard
 {{</ terminal >}}
 
 ##  3.1. ) Botões/Função
-Quero que o meu Raspberry seja operável em modo quiosque. Para isso, guardo dois comandos-chave, Ctrl Alt X para o terminal e Alt C para fechar o terminal. No terminal você pode consultar o IP atual com ifconfig, desligar o Raspberry com sudo shutdown -h now etc.....
+Quero que o meu Raspberry seja operável em modo quiosque. Para isso, guardo dois comandos-chave, Ctrl Alt X para o terminal e Alt C para fechar o terminal. No terminal, você pode consultar o IP atual com ifconfig, desligar o Raspberry com sudo shutdown -h now etc.....
 {{< terminal >}}
 cd ~
 mkdir .matchbox
@@ -227,3 +227,4 @@ sudo reboot
 {{</ terminal >}}
 
 ## Pronto
+Cada das pranchas deve ser reiniciada uma vez por dia. Eu criei um cronista para isto.

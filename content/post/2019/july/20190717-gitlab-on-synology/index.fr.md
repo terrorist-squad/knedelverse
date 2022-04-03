@@ -11,3 +11,4 @@ Le service écoute chez moi le port "30000". Si tout s'est bien passé, j'appell
 {{< gallery match="images/2/*.*" >}}
 Lors de la première connexion, on me demande le futur mot de passe "admin". Et c'est tout ! Je peux maintenant organiser des projets. Il est maintenant possible d'installer un runner Gitlab.  
 {{< gallery match="images/3/*.*" >}}
+

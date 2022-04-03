@@ -1,21 +1,21 @@
 +++
 date = "2021-04-05"
-title = "Wielkie rzeczy z kontenerów: Własny portal wideo z PeerTube"
+title = "Wielkie rzeczy z kontenerów: własny portal wideo z PeerTube"
 difficulty = "level-1"
 tags = ["diskstation", "peertube", "Synology", "video", "videoportal"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210405-docker-peertube/index.pl.md"
 +++
-Dzięki Peertube możesz stworzyć swój własny portal wideo. Dzisiaj pokażę jak zainstalowałem Peertube na stacji dysków Synology.
+Dzięki Peertube możesz stworzyć swój własny portal wideo. Dziś pokażę, jak zainstalowałem Peertube na stacji dysków Synology.
 ## Krok 1: Przygotuj Synology
-Najpierw należy aktywować logowanie SSH na serwerze DiskStation. W tym celu należy wejść w "Panel sterowania" > "Terminal
+Najpierw należy aktywować logowanie SSH na serwerze DiskStation. W tym celu należy przejść do "Panelu sterowania" > "Terminal
 {{< gallery match="images/1/*.png" >}}
-Następnie można zalogować się poprzez "SSH", podany port i hasło administratora.
+Następnie można zalogować się przez "SSH", podając określony port i hasło administratora.
 {{< gallery match="images/2/*.png" >}}
-Loguję się przez Terminal, winSCP lub Putty i zostawiam tę konsolę otwartą na później.
+Loguję się za pomocą Terminala, winSCP lub Putty i zostawiam tę konsolę otwartą na później.
 ## Krok 2: Przygotuj folder Docker
-Tworzę nowy katalog o nazwie "Peertube" w katalogu Docker.
+W katalogu Docker tworzę nowy katalog o nazwie "Peertube".
 {{< gallery match="images/3/*.png" >}}
-Następnie wchodzę do katalogu Peertube i tworzę nowy plik o nazwie "peertube.yml" z następującą zawartością. Dla portu, przednia część "9000:" może być regulowana. Drugi tom zawiera wszystkie filmy, playlisty, miniaturki itd... i dlatego musi być dostosowany.
+Następnie wchodzę do katalogu Peertube i tworzę nowy plik o nazwie "peertube.yml" o następującej zawartości. W przypadku portu można wyregulować przednią część "9000:". Drugi tom zawiera wszystkie filmy, listy odtwarzania, miniatury itp. i dlatego musi zostać dostosowany.
 ```
 version: "3.7"
 
@@ -77,16 +77,16 @@ networks:
   peertube:
 
 ```
-Ten plik jest uruchamiany za pomocą Docker Compose:
+Ten plik jest uruchamiany za pomocą aplikacji Docker Compose:
 {{< terminal >}}
 sudo docker-compose -f compose-file-name.yml up -d
 
 {{</ terminal >}}
-Po tym, mogę zadzwonić do mojego serwera Peertube z IP stacji dysków i przypisany port z "Krok 2". Świetnie!
+Następnie mogę wywołać mój serwer Peertube, podając adres IP stacji dysków i przypisany port z "Kroku 2". Świetnie!
 {{< gallery match="images/4/*.png" >}}
 Nazwa użytkownika to "root", a hasło to "password" (lub krok 2 / PT_INITIAL_ROOT_PASSWORD).
 ## Dostosowanie motywu
-Wygląd Peertube można bardzo łatwo dostosować do własnych potrzeb. Aby to zrobić, klikam na "Administracja" > "Ustawienia" i "Ustawienia zaawansowane".
+Wygląd Peertube można bardzo łatwo dostosować do własnych potrzeb. W tym celu należy kliknąć kolejno opcje "Administracja" > "Ustawienia" i "Ustawienia zaawansowane".
 {{< gallery match="images/5/*.png" >}}
 W polu CSS wpisałem następujące dane:
 ```
@@ -105,7 +105,7 @@ body#custom-css {
 ```
 
 ## Rest API
-PeerTube ma rozbudowane i dobrze udokumentowane Rest API: https://docs.joinpeertube.org/api-rest-reference.html.
+PeerTube ma rozbudowany i dobrze udokumentowany interfejs API: https://docs.joinpeertube.org/api-rest-reference.html.
 {{< gallery match="images/6/*.png" >}}
 Za pomocą tego polecenia można wyszukiwać filmy:
 {{< terminal >}}
@@ -134,4 +134,5 @@ curl -s '$API_PATH/videos/upload'-H 'Authorization: Bearer $token' --max-time 11
 
 ```
 
-## Moja rada: Przeczytaj "Wielkie rzeczy z kontenerami: zwiększanie bezpieczeństwa usług Dockera za pomocą LDAP i NGINX".
+## Moja rada: Przeczytaj "Wspaniałe rzeczy z kontenerami: zwiększanie bezpieczeństwa usług Dockera za pomocą LDAP i NGINX".
+W moim Peertube korzystam z odwrotnego proxy. Oznacza to, że dostęp do tej usługi mają tylko użytkownicy LDAP. Udokumentowałem tę konfigurację w punkcie "[Wspaniałe rzeczy z kontenerami: zwiększanie bezpieczeństwa usług Dockera za pomocą LDAP i NGINX]({{< ref "post/2021/april/20210402-nginx-reverse-proxy" >}} "Wspaniałe rzeczy z kontenerami: zwiększanie bezpieczeństwa usług Dockera za pomocą LDAP i NGINX")".

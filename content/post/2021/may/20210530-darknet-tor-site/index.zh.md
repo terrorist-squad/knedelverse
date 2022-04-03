@@ -21,7 +21,7 @@ forward-socks5 / 127.0.0.1:9050 .
 ```
 见。
 {{< gallery match="images/1/*.png" >}}
-为了确保Tor和Privoxy在系统启动时也被执行，我们仍然要在自动启动中输入它们。
+为了确保Tor和Privoxy在系统启动时也被执行，我们仍然需要在自动启动中输入它们。
 {{< terminal >}}
 sudo update-rc.d tor defaults
 sudo update-rc.d privoxy defaults

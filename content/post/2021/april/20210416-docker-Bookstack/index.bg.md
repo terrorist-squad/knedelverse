@@ -37,7 +37,7 @@ services:
 
 ```
 Още полезни образи на Docker за домашна употреба можете да намерите в [Dockerverse]({{< ref "dockerverse" >}} "Dockerverse").
-## Стъпка 1: Подготвяне на папката за книгохранилище
+## Стъпка 1: Подгответе папката за книгохранилището
 Създавам нова директория, наречена "wiki", в директорията на Docker.
 {{< gallery match="images/1/*.png" >}}
 
@@ -86,3 +86,4 @@ services:
 {{< gallery match="images/12/*.png" >}}
 Извиквам сървъра на Bookstack с IP адреса на Synology и порта на контейнера. Името за вход е "admin@admin.com", а паролата - "password".
 {{< gallery match="images/13/*.png" >}}
+

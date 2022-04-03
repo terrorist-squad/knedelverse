@@ -1,17 +1,17 @@
 +++
-date = "2021-04-04"
-title = "Cool stuff with Atlassian: Pimp my Bamboo Monitor"
+date = "2021-04-0q"
+title = "Cool stuff with Atlassian: Pimp my Bamboo monitor"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-Bamboo-monitor/index.en.md"
 +++
 How to create a build monitor for Bamboo, Jenkins or Gitlab? I'll figure it out by tonight! I have already written a similar [Tutorial for Gitlab Issue Boards]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Tutorial for Gitlab Issue Boards").
 {{< gallery match="images/1/*.jpg" >}}
-The basis for this tutorial is the Raspberry Imager and the "Raspberry Pi OS Lite" operating system. After the OS installation, the SD card can be inserted into the Raspberry. In my case this is a Raspberry Pi Zero.
+The basis for this tutorial is the Raspberry imager and the "Raspberry Pi OS Lite" operating system. After the OS installation, the SD card can be inserted into the Raspberry. In my case this is a Raspberry Pi Zero.
 {{< gallery match="images/2/*.*" >}}
 
 ## Step 1: Install Matchbox/Window Manager
-To run a Raspberry in kiosk mode, a window manager and browser are required. These are installed with the following command:
+To run a Raspberry in kiosk mode, a window manager and a browser are needed. These are installed with the following command:
 {{< terminal >}}
 sudo apt-get install xorg nodm matchbox-window-manager uzbl xinit unclutter vim
 
@@ -32,14 +32,14 @@ sudo su dashboard
 {{</ terminal >}}
 
 ##  3.1. ) Keys/Function
-My Raspberry should also be operable in kiosk mode. For this I store two key commands, Ctrl Alt X for terminal and Alt C to close the terminal. In the terminal you can query the current IP with ifconfig, shut down the Raspberry with sudo shutdown -h now etc.....
+My Raspberry should also be operable in kiosk mode. For this I store two key commands, Ctrl Alt X for terminal and Alt C to close the terminal. In the terminal you can query the current IP with ifconfig, shutdown the Raspberry with sudo shutdown -h now etc.....
 {{< terminal >}}
 cd ~
 mkdir .matchbox
 vim .matchbox/kbdconfig
 
 {{</ terminal >}}
-The key layout in this case is as follows:
+The key layout in this case looks like this:
 ```
 
 ##  Window operation short cuts
@@ -68,7 +68,7 @@ sudo chmod 755 ~/.xsession
 
 {{</ terminal >}}
 
-##  3.3. ) Interface configuration
+##  3.3. ) Interface co-configuration
 The following lines configure the web interface. The browser is maximized and the status bar is hidden.
 {{< terminal >}}
 vim ~/uzbl.conf
@@ -87,7 +87,7 @@ set show_status=0
 ```
 
 ##  3.4.) Ready
-The "dashboard" session can be left:
+The "dashboard" session can be exited:
 {{< terminal >}}
 exit
 
@@ -196,8 +196,8 @@ timer.append(
 
 ```
 Of course, you can include any behavior you want, such as restarting failed tests.
-## 4. autologue into the X-session
-The next step is to set the automatic login. This file is adapted for this purpose:
+## 4. autologin into the X-session
+The next step is to set the automatic login. For this purpose this file is adapted:
 {{< terminal >}}
 sudo vim /etc/default/nodm
 
@@ -227,3 +227,4 @@ sudo reboot
 {{</ terminal >}}
 
 ## Ready
+Each dasboard should be restarted once a day. I have created a cron for this.

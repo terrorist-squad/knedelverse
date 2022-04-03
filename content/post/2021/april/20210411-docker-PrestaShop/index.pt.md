@@ -54,7 +54,7 @@ networks:
   shop-network:
 
 ```
-Infelizmente, a última versão actual não funcionou para mim, por isso instalei a versão "1.7.7.2". Este arquivo é iniciado através do Docker Compose:
+Infelizmente, a última versão actual não funcionou para mim, por isso instalei a versão "1.7.7.2". Este ficheiro é iniciado através do Docker Compose:
 {{< terminal >}}
 docker-compose -f prestashop.yml up
 
@@ -72,5 +72,5 @@ docker-compose -f prestashop.yml up -d
 {{</ terminal >}}
 
 ## Passo 2: Teste a loja
-Após o reinício, testei a instalação da minha loja Presta e também chamei a interface de administração em "shop-url/admin shortcuts".
+Após o reinício, testei a instalação da minha loja Presta e também chamo a interface de administração em "shop-url/admin shortcuts".
 {{< gallery match="images/4/*.png" >}}

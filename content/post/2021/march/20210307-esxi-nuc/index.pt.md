@@ -28,7 +28,7 @@ $ diskutil eraseDisk MS-DOS "ESXI" MBR disk2
 Depois disso, eu também vejo o identificador no Finder:
 {{< gallery match="images/4/*.png" >}}
 
-## Passo 3: Ejectar a pen USB
+## Passo 3: Ejetar pen drive
 Eu uso o comando "unmountDisk" para ejetar o volume:
 {{< terminal >}}
 $ diskutil unmountDisk /dev/disk2

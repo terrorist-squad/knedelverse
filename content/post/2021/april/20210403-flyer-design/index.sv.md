@@ -10,8 +10,8 @@ Corona-krisen drabbar restaurangägare och cateringföretag i Tyskland hårt. Di
 Välj en mall och klicka på " Använd mall". Du kan sedan behöva autentisera dig själv.
 {{< gallery match="images/1/*.png" >}}
 
-## Steg 2: Anpassa texter
-När du har loggat in öppnas mallen i redigeringsläge.  När du för muspekaren över en text markeras den.  
+## Steg 2: Anpassa texterna
+När du har loggat in öppnas mallen i redigeringsläge.  Om du för muspekaren över en text markeras den.  
 {{< gallery match="images/2/*.png" >}}
 Klicka nu en gång på ett "textelement" för att se "Justeringsalternativ". Klicka på "Ändra text" för att justera en text. Alla andra alternativ är låsta. Klicka på ett annat sidelement för att tillämpa ändringen.
 {{< gallery match="images/3/*.png" >}}
@@ -21,3 +21,4 @@ När du har gjort din justering klickar du på "Save (X)".
 {{< gallery match="images/4/*.png" >}}
 Din menymall har nu skapats i utskriftsupplösning som en nedladdningsbar utskrivbar PDF-fil.  Du kan ladda ner, skriva ut och skicka PDF-filen.   
 {{< gallery match="images/5/*.png" >}}
+

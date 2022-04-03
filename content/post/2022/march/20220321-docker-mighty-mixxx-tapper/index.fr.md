@@ -37,5 +37,5 @@ Ensuite, je clique sur "Paramètres avancés" et j'active le "Redémarrage autom
 {{< gallery match="images/4/*.png" >}}
 J'attribue des ports fixes pour le conteneur "mighty-mixxx-tapper". Sans ports fixes, il se peut que le "serveur mighty-mixxx-tapper" s'exécute sur un autre port après un redémarrage.
 {{< gallery match="images/5/*.png" >}}
-Après ces réglages, le serveur mighty-mixxx-tapper peut être lancé ! Ensuite, on peut appeler mighty-mixxx-tapper en utilisant l'adresse Ip de la disktion Synology et le port attribué, par exemple http://192.168.21.23:8097.
+Après ces réglages, le serveur mighty-mixxx-tapper peut être lancé ! Ensuite, on peut appeler mighty-mixxx-tapper en utilisant l'adresse Ip de la disctance Synology et le port attribué, par exemple http://192.168.21.23:8097.
 {{< gallery match="images/6/*.png" >}}

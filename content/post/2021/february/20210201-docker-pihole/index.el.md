@@ -15,7 +15,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 ## Βήμα 2: Δημιουργία φακέλου Pihole
 Δημιουργώ έναν νέο κατάλογο με όνομα "pihole" στον κατάλογο Docker.
 {{< gallery match="images/3/*.png" >}}
-Στη συνέχεια μεταβαίνω στο νέο κατάλογο και δημιουργώ δύο φακέλους "etc-pihole" και "etc-dnsmasq.d":
+Στη συνέχεια μεταβαίνω στον νέο κατάλογο και δημιουργώ δύο φακέλους "etc-pihole" και "etc-dnsmasq.d":
 {{< terminal >}}
 cd /volume1/docker/
 mkdir -p {etc-pihole,etc-dnsmasq.d}

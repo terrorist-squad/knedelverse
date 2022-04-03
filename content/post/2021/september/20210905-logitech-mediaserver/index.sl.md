@@ -32,3 +32,4 @@ Na koncu vnesem okoljsko spremenljivko. Spremenljivka "TZ" je časovni pas "Euro
 {{< gallery match="images/7/*.png" >}}
 Po teh nastavitvah lahko zaženete Logitechmediaserver-Server! Nato lahko pokličete Logitechmediaserver prek naslova Ip naprave Synology in dodeljenih vrat, na primer http://192.168.21.23:9000 .
 {{< gallery match="images/8/*.png" >}}
+

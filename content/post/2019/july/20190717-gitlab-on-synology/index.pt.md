@@ -11,3 +11,4 @@ O serviço ouve a porta "30000" para mim. Quando tudo tiver funcionado, ligo par
 {{< gallery match="images/2/*.*" >}}
 Quando inicio a sessão pela primeira vez, é-me pedida a futura palavra-passe "admin". Foi isso! Agora eu posso organizar projectos. Agora um runner Gitlab pode ser instalado.  
 {{< gallery match="images/3/*.*" >}}
+

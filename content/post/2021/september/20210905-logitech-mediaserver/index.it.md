@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["logitech", "synology", "diskstation", "nas", "sound-system", "multiroom"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/september/20210905-logitech-mediaserver/index.it.md"
 +++
-In questa esercitazione, imparerai come installare un Logitech Media Server sulla Synology DiskStation.
+In questa esercitazione, imparerai come installare un media server Logitech sulla Synology DiskStation.
 {{< gallery match="images/1/*.jpg" >}}
 
 ## Passo 1: preparare la cartella Logitech Media Server
@@ -32,3 +32,4 @@ Infine, inserisco una variabile d'ambiente. La variabile "TZ" è il fuso orario 
 {{< gallery match="images/7/*.png" >}}
 Dopo queste impostazioni, Logitechmediaserver-Server può essere avviato! In seguito, potete chiamare il Logitechmediaserver tramite l'indirizzo Ip della distazione Synology e la porta assegnata, per esempio http://192.168.21.23:9000 .
 {{< gallery match="images/8/*.png" >}}
+

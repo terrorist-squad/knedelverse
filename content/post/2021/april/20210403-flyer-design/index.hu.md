@@ -21,3 +21,4 @@ A beállítás után egyszerűen kattintson a "Mentés (X)" gombra.
 {{< gallery match="images/4/*.png" >}}
 A menüsablon mostantól nyomtatási felbontásban, letölthető, nyomtatható PDF formátumban készül el.  Letöltheti, kinyomtathatja és elküldheti a PDF-fájlt.   
 {{< gallery match="images/5/*.png" >}}
+

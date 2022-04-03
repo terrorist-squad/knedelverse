@@ -41,3 +41,4 @@ xdotool key "Return"                         ## Internetadresse aufrufen
 ```
 
 ## Зачем вам нужен xclip?????
+С помощью xdotools/"ctrl c" вы можете скопировать содержимое в кэш и прочитать или обработать его с помощью xclip в bash-скрипте.

@@ -48,5 +48,6 @@ Za vsebnik "dokuwiki" dodelim fiksna vrata. Brez fiksnih vrat se lahko zgodi, da
 {{</table>}}
 Na koncu vnesem te okoljske spremenljivke: Glej:
 {{< gallery match="images/5/*.png" >}}
-Posodo lahko zaženete. Strežnik dokuWIki pokličem z naslovom IP strežnika Synology in pristaniščem zabojnika.
+Posodo lahko zaženete. Strežnik dokuWIki pokličem z naslovom IP strežnika Synology in pristaniščem za zabojnik.
 {{< gallery match="images/6/*.png" >}}
+

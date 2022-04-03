@@ -14,11 +14,11 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 - 2x Raspberry 4 / 8GB Ram: https://www.reichelt.de/raspberry-pi-4-b-4x-1-5-ghz-8-gb-ram-wlan-bt-rasp-pi-4-b-8gb-p276923.html?
 - 3x захранващи блокове: https://www.reichelt.de/raspberry-pi-netzteil-5-1-v-3-0-a-usb-type-c-eu-stecker-s-rpi-ps-15w-bk-eu-p260010.html
 - 1x монтаж на стелаж: https://amzn.to/3H8vOg7
-- 1x комплект от 600 броя свещи Dupont: https://amzn.to/3kcfYqQ
+- 1x 600 броя комплект свещи Dupont: https://amzn.to/3kcfYqQ
 - 1x зелен светодиод с последователен резистор: https://amzn.to/3EQgXVp
 - 1x син светодиод с последователен резистор: https://amzn.to/31ChYSO
-- 10x Marquardt 203.007.013 Заглушително парче Черно: https://www.voelkner.de/products/215024/Marquardt-203.007.013-Blindstueck-Schwarz.html
-- 1x цокъл за лампа: https://amzn.to/3H0UZkG
+- 10x Marquardt 203.007.013 Заглушителна част Черно: https://www.voelkner.de/products/215024/Marquardt-203.007.013-Blindstueck-Schwarz.html
+- 1x фасунга за лампа: https://amzn.to/3H0UZkG
 ## Хайде!
 
 {{< youtube ulzMoX-fpvc >}}
@@ -199,7 +199,7 @@ kubectl scale deployment my-nginx --replicas=0; kubectl scale deployment my-ngin
 >Вижте:
 {{< gallery match="images/9/*.png" >}}
 
-## Почистване на тестовата база
+## Почистване на тестовия модул
 За да приключа, изтривам отново депото и услугата.
 {{< terminal >}}
 kubectl delete service example-service
@@ -208,3 +208,4 @@ kubectl delete deplyments my-nginx
 {{</ terminal >}}
 >Вижте:
 {{< gallery match="images/10/*.png" >}}
+

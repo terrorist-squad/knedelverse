@@ -85,5 +85,5 @@ networks:
 {{< gallery match="images/4/*.png" >}}
 
 ## 第4步：用户和组计划
-我采取了以下用户和组的设置。最重要的是 "分组对象过滤器 "的设置。当然，这对于Bamboo、Confluence和Jira是不同的。
+我采取了以下用户和组的设置。最重要的是 "组对象过滤器 "的设置。当然，这对于Bamboo、Confluence和Jira是不同的。
 {{< gallery match="images/5/*.png" >}}

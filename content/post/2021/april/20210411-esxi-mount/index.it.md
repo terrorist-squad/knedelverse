@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 
 ## Passo 1: Attivare il servizio "NFS
-Innanzitutto, il servizio "NFS" deve essere attivato sulla Diskstation. Per farlo, vado nell'impostazione "Pannello di controllo" > "File Services" e clicco su "Enable NFS".
+Per prima cosa, il servizio "NFS" deve essere attivato sulla Diskstation. Per farlo, vado nell'impostazione "Pannello di controllo" > "File Services" e clicco su "Enable NFS".
 {{< gallery match="images/1/*.png" >}}
 Poi clicco su "Cartella condivisa" e seleziono una directory.
 {{< gallery match="images/2/*.png" >}}
@@ -21,3 +21,4 @@ Ora la memoria può essere utilizzata.
 {{< gallery match="images/4/*.png" >}}
 Per testare, ho installato un'installazione DOS e un vecchio software di contabilità attraverso questo punto di montaggio.
 {{< gallery match="images/5/*.png" >}}
+

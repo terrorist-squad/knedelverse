@@ -65,7 +65,7 @@ Ezután felhívhatom a PrestaShop szerveremet, és folytathatom a telepítést a
 {{< gallery match="images/2/*.png" >}}
 A Docker-Compose-t a "Ctrl C" billentyűvel fejezem be, és meghívom a "prestadata" almappát ("cd prestadata"). Ott az "install" mappát az "rm -r install" paranccsal kell törölni.
 {{< gallery match="images/3/*.png" >}}
-Ezenkívül van ott egy "Admin" mappa, az én esetemben "admin697vqoryt". Ezt a rövidítést megjegyzem későbbre, és újra elindítom a szervert a Docker Compose-on keresztül:
+Ezen kívül van egy "Admin" mappa is, az én esetemben "admin697vqoryt". Ezt a rövidítést megjegyzem későbbre, és újra elindítom a szervert a Docker Compose-on keresztül:
 {{< terminal >}}
 docker-compose -f prestashop.yml up -d
 

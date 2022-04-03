@@ -21,9 +21,9 @@ A kép letöltése után a kép képként elérhető. A Docker 2 állapotot kül
 ## 4. lépés: Helyezze üzembe a képet:
 Duplán kattintok a Calibre-képemre.
 {{< gallery match="images/4/*.png" >}}
-Ezután a "Speciális beállítások" menüpontra kattintok, és aktiválom az "Automatikus újraindítás" opciót. Kiválasztom a "Kötet" lapot, és a "Mappa hozzáadása" gombra kattintok. Ott létrehozok egy új adatbázis mappát ezzel a "/calibre" csatolási útvonallal.
+Ezután a "Speciális beállítások" gombra kattintok, és aktiválom az "Automatikus újraindítás" opciót. Kiválasztom a "Kötet" lapot, és a "Mappa hozzáadása" gombra kattintok. Ott létrehozok egy új adatbázis mappát ezzel a "/calibre" csatolási útvonallal.
 {{< gallery match="images/5/*.png" >}}
-A Calibre konténerhez fix portokat rendelek. Fix portok nélkül előfordulhat, hogy a Calibre újraindítás után más porton fut.
+A Calibre konténerhez fix portokat rendelek. Fix portok nélkül előfordulhat, hogy a Calibre egy másik porton fut az újraindítás után.
 {{< gallery match="images/6/*.png" >}}
 Ezek után a beállítások után a Calibre elindítható!
 {{< gallery match="images/7/*.png" >}}

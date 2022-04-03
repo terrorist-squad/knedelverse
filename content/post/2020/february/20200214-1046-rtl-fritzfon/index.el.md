@@ -9,3 +9,4 @@ githublink = "https://github.com/terrorist-squad/knedelverse/tree/main/content/p
 {{< gallery match="images/1/*.png" >}}
 Μετακινηθείτε στο κάτω μέρος της σελίδας. Παρακαλούμε επιλέξτε "Άλλος ραδιοφωνικός σταθμός Διαδικτύου" στην ενότητα "Προσθήκη ραδιοφωνικού σταθμού Διαδικτύου". Εισάγετε ένα όνομα "104.6 RTL Berlins Hitradio" και τη διεύθυνση "http://stream.104.6rtl.com/rtl-live".
 {{< gallery match="images/2/*.png" >}}
+Κάντε κλικ στο "OK"! Η νέα μετάδοση είναι άμεσα χρησιμοποιήσιμη στο FritzFon σας.

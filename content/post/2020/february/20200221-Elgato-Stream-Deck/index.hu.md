@@ -30,3 +30,4 @@ chmod 755 say-hallo.sh
 {{< gallery match="images/3/*.png" >}}
 
 ## 4. lépés: Kész!
+Az új gomb már használható.

@@ -50,3 +50,4 @@ Nakoniec zadám tieto premenné prostredia:Pozri:
 {{< gallery match="images/5/*.png" >}}
 Kontajner je teraz možné spustiť. Zavolám server dokuWIki s IP adresou Synology a mojím kontajnerovým portom.
 {{< gallery match="images/6/*.png" >}}
+

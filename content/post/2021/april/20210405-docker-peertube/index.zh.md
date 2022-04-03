@@ -135,3 +135,4 @@ curl -s '$API_PATH/videos/upload'-H 'Authorization: Bearer $token' --max-time 11
 ```
 
 ## 我的建议：阅读《容器的伟大之处：用LDAP和NGINX使Docker服务更安全》。
+我用反向代理运行我的Peertube。这意味着，只有LDAP用户可以访问这个服务。我在 "[容器的伟大之处：用LDAP和NGINX使Docker服务更安全]({{< ref "post/2021/april/20210402-nginx-reverse-proxy" >}} "容器的伟大之处：用LDAP和NGINX使Docker服务更安全") "下记录了这个设置。

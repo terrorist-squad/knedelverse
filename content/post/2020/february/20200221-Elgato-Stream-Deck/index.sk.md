@@ -30,3 +30,4 @@ chmod 755 say-hallo.sh
 {{< gallery match="images/3/*.png" >}}
 
 ## Krok 4: Hotovo!
+Nové tlačidlo je teraz použiteľné.

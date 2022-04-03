@@ -28,3 +28,4 @@ Nyt kollaasi on vain koottava:
 montage /tmp/bilder/* -shadow -geometry '400x400+2+2>' -background '#f1f1f1' uebersich.jpg
 
 {{</ terminal >}}
+

@@ -158,3 +158,4 @@ Jeg har også gemt Postgres-aftrykkene.
 ## Aktion 3: Opret USB-installationsenhed
 Jeg har sikkerhedskopieret min dokumentation, alle installationsarkiver, Postgres-datakataloger og konfigurationer til et USB-stik. Som sagt er DB-backuppen faktisk det vigtigste, fordi den aktiverede licens også findes i databasen.
 {{< gallery match="images/1/*.png" >}}
+

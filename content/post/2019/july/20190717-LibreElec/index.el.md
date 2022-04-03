@@ -19,3 +19,4 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 "{{< gallery match="images/4/*.jpg" >}}"
 Τώρα μπορείτε να συνδέσετε αυτό το MediaPc σε εξωτερικές πηγές όπως NAS ή να εγκαταστήσετε εφαρμογές όπως το Youtube. Καλή διασκέδαση!   
 "{{< gallery match="images/5/*.jpg" >}}"
+Όπως έχει ήδη γραφτεί, μπορείτε επίσης να χρησιμοποιήσετε το τηλεχειριστήριο της τηλεόρασής σας μέσω του ελεγκτή CEC.

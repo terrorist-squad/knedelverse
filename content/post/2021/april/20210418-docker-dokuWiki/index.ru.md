@@ -50,3 +50,4 @@ services:
 {{< gallery match="images/5/*.png" >}}
 Теперь контейнер можно запустить. Я вызываю сервер dokuWIki с IP-адресом Synology и портом моего контейнера.
 {{< gallery match="images/6/*.png" >}}
+

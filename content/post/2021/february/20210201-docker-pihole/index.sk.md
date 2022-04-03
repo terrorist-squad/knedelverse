@@ -50,7 +50,7 @@ Kontajner je teraz možné spustiť:
 sudo docker-compose up -d
 
 {{</ terminal >}}
-Vyvolám server Pihole s IP adresou Synology a mojím kontajnerovým portom a prihlásim sa pomocou hesla WEBPASSWORD.
+Zavolám server Pihole s IP adresou Synology a mojím kontajnerovým portom a prihlásim sa pomocou hesla WEBPASSWORD.
 {{< gallery match="images/4/*.png" >}}
 Teraz môžete adresu DNS zmeniť v zariadení Fritzbox v časti "Domáca sieť" > "Sieť" > "Nastavenia siete".
 {{< gallery match="images/5/*.png" >}}

@@ -6,14 +6,14 @@ tags = ["git", "gitlab", "issueboard", "issues", "javascript", "wallboard"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210306-gitlab-dashboard/index.el.md"
 +++
 Η εγκατάσταση με το Raspberry Noobs είναι παιχνιδάκι! Το μόνο που χρειάζεστε είναι ένα RaspberryZeroW και μια κενή κάρτα SD.
-## Βήμα 1: Εγκαταστάτης Noobs
+## Βήμα 1: Εγκατάσταση Noobs
 Κατεβάστε τον εγκαταστάτη Noobs από το https://www.raspberrypi.org/downloads/noobs/.
 ## Βήμα 2: Κάρτα SD
 Αποσυσκευάστε αυτό το αρχείο zip στην άδεια κάρτα SD.
 {{< gallery match="images/1/*.png" >}}
 Έγινε! Τώρα μπορείτε να συνδέσετε το RaspberryPiZero στην τηλεόραση. Στη συνέχεια θα εμφανιστεί το μενού εγκατάστασης.
 {{< gallery match="images/2/*.jpg" >}}
-Εάν έχετε το NoobsLite στην κάρτα, πρέπει πρώτα να δημιουργήσετε μια σύνδεση WLAN. Στη συνέχεια, επιλέξτε το "Rasbian Lite" και κάντε κλικ στο "Install". Το Rasbian Lite είναι η έκδοση διακομιστή χωρίς επιφάνεια εργασίας. Μετά την εκκίνηση, η διαχείριση πακέτων πρέπει να ενημερωθεί.
+Εάν έχετε το NoobsLite στην κάρτα, πρέπει πρώτα να δημιουργήσετε μια σύνδεση WLAN. Στη συνέχεια επιλέξτε το "Rasbian Lite" και κάντε κλικ στο "Install". Το Rasbian Lite είναι η έκδοση διακομιστή χωρίς επιφάνεια εργασίας. Μετά την εκκίνηση, η διαχείριση πακέτων πρέπει να ενημερωθεί.
 {{< terminal >}}
 sudo apt-get update
 
@@ -54,7 +54,7 @@ done
 chmod 755 ~/.xsession
 
 {{</ terminal >}}
-Σε αυτό το σενάριο βλέπετε μια ρύθμιση παραμέτρων του προγράμματος περιήγησης (/home/dashboard/uzbl.conf). Αυτή η διαμόρφωση μοιάζει ως εξής:
+Σε αυτό το σενάριο βλέπετε μια ρύθμιση παραμέτρων του προγράμματος περιήγησης (/home/dashboard/uzbl.conf). Αυτή η διαμόρφωση έχει ως εξής:
 ```
 set config_home = /home/dashboard 
 set socket_dir=/tmp 
@@ -179,5 +179,5 @@ NODM_MIN_SESSION_TIME=60
 NODM_X_TIMEOUT=300
 
 ```
-Αν τώρα κάνετε επανεκκίνηση με την εντολή "sudo reboot", θα δείτε το ακόλουθο ταμπλό:
+Αν τώρα κάνετε επανεκκίνηση με την εντολή "sudo reboot", θα εμφανιστεί το ακόλουθο ταμπλό:
 {{< gallery match="images/3/*.jpg" >}}

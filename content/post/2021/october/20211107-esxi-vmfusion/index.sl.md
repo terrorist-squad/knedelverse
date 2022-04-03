@@ -9,3 +9,4 @@ V tem kratkem vodniku prikazujem, kako na daljavo nadzirati računalnike ESXi pr
 {{< gallery match="images/1/*.png" >}}
 Zdaj je moj VMware Fusion povezan s strežnikom ESXi kot odjemalec.
 {{< gallery match="images/2/*.png" >}}
+

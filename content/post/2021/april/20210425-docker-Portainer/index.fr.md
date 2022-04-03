@@ -46,7 +46,7 @@ Pour cette étape aussi, je peux utiliser la console. Je démarre le serveur por
 sudo docker-compose -f portainer.yml up -d
 
 {{</ terminal >}}
-Ensuite, je peux appeler mon serveur Portainer avec l'IP du Diskstation et le port attribué à l'"étape 2". Je saisis mon mot de passe administrateur et je choisis la variante locale.
+Ensuite, je peux appeler mon serveur Portainer avec l'IP du Diskstation et le port attribué à partir de "l'étape 2". Je saisis mon mot de passe administrateur et je choisis la variante locale.
 {{< gallery match="images/4/*.png" >}}
 Comme on peut le voir, tout fonctionne très bien !
 {{< gallery match="images/5/*.png" >}}

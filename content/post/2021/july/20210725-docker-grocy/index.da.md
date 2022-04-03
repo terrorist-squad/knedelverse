@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "kühlschrank", "erp", "mhd", "Speispläne", "cms", "Cafe", "Bistro"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-grocy/index.da.md"
 +++
-Med Grocy kan du administrere en hel husholdning, en restaurant, en café, en bistro eller et fødevaremarked. Du kan administrere køleskabe, menuer, opgaver, indkøbslister og madens sidste holdbarhedsdato.
+Med Grocy kan du administrere en hel husholdning, en restaurant, en café, en bistro eller et fødevaremarked. Du kan administrere køleskabe, menuer, opgaver, indkøbslister og fødevarers holdbarhed.
 {{< gallery match="images/1/*.png" >}}
 I dag viser jeg, hvordan man installerer en Grocy-tjeneste på Synology diskstationen.
 ## Mulighed for fagfolk
@@ -52,3 +52,4 @@ Endelig indtaster jeg disse miljøvariabler:Se:
 {{< gallery match="images/7/*.png" >}}
 Beholderen kan nu startes. Jeg kalder Grocy-serveren op med Synologys IP-adresse og min containerport og logger ind med brugernavnet "admin" og adgangskoden "admin".
 {{< gallery match="images/8/*.png" >}}
+

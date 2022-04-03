@@ -14,7 +14,7 @@ Vytvoril som kontajner, ktorý získava moju knižnicu Calibre ako zväzok (-v .
 apt-get update && apt-get install -y xpdf calibre
 
 {{</ terminal >}}
-Teraz môj skript vyhľadáva nové súbory PDF, ktoré zodpovedajú vzoru "IX*.pdf". Z každého súboru PDF sa prvých 5 strán exportuje ako text. Potom sa odstránia všetky slová, ktoré sa vyskytujú v tomto zozname slov: https://raw.githubusercontent.com/ChristianKnedel/heise-ix-reader-for-calibre/master/blacklist.txt
+Teraz môj skript vyhľadáva nové súbory PDF, ktoré zodpovedajú vzoru "IX*.pdf". Z každého súboru PDF sa prvých 5 strán exportuje ako text. Potom sa odstránia všetky slová, ktoré sa nachádzajú v tomto zozname slov: https://raw.githubusercontent.com/ChristianKnedel/heise-ix-reader-for-calibre/master/blacklist.txt
 ```
 #!/bin/bash
 export LANG=C.UTF-8
@@ -44,3 +44,4 @@ done
 ```
 Príkazom "calibredb set_metadata" nastavím všetko ostatné ako značky. Výsledok vyzerá takto:
 {{< gallery match="images/3/*.png" >}}
+Skript je k dispozícii aj na Githube: https://github.com/ChristianKnedel/heise-ix-reader-for-calibre .

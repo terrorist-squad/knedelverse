@@ -40,7 +40,7 @@ Zabojniku "Mealie" dodelim fiksna vrata. Brez fiksnih vrat se lahko zgodi, da st
 {{< gallery match="images/5/*.png" >}}
 Na koncu vnesem dve okoljski spremenljivki. Spremenljivka "db_type" je vrsta podatkovne zbirke, spremenljivka "TZ" pa je časovni pas "Europe/Berlin".
 {{< gallery match="images/6/*.png" >}}
-Po teh nastavitvah lahko zaženete strežnik Mealie! Nato lahko Mealie pokličete prek naslova Ip dislokacije Synology in dodeljenih vrat, na primer http://192.168.21.23:8096 .
+Po teh nastavitvah lahko zaženete strežnik Mealie! Nato lahko Mealie pokličete prek naslova Ip naprave Synology in dodeljenih vrat, na primer http://192.168.21.23:8096 .
 {{< gallery match="images/7/*.png" >}}
 
 ## Kako deluje Mealie?
@@ -56,7 +56,7 @@ Opazil sem, da se kategorije menija ne posodabljajo samodejno. Tu morate pomagat
 {{< gallery match="images/11/*.png" >}}
 
 ## Druge funkcije
-Seveda lahko iščete recepte in ustvarjate jedilnike. Poleg tega lahko aplikacijo Mealie zelo obsežno prilagodite.
+Seveda lahko iščete recepte in ustvarjate jedilnike. Poleg tega lahko program Mealie zelo obsežno prilagodite.
 {{< gallery match="images/12/*.png" >}}
 Mealie je odlično videti tudi na mobilnih napravah:
 {{< gallery match="images/13/*.*" >}}
@@ -85,3 +85,4 @@ done < clear.txt
 ```
 Zdaj lahko do receptov dostopate tudi brez povezave:
 {{< gallery match="images/15/*.png" >}}
+Zaključek: Če v Mealie vložite nekaj časa, lahko ustvarite odlično podatkovno zbirko receptov! Mealie se nenehno razvija kot odprtokodni projekt in je na voljo na naslednjem naslovu: https://github.com/hay-kot/mealie/

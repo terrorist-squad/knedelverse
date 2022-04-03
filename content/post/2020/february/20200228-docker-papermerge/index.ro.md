@@ -28,7 +28,7 @@ services:
 ```
 
 ## Pasul 1: Creați un dosar
-În primul rând, creez un dosar pentru îmbinarea hârtiilor. Mă duc la "System Control" -> "Shared Folder" și creez un nou folder numit "Document Archive".
+În primul rând, creez un dosar pentru îmbinarea hârtiilor. Mă duc la "System Control" -> "Shared Folder" și creez un nou dosar numit "Document Archive".
 {{< gallery match="images/1/*.png" >}}
 Pasul 2: Căutați imaginea DockerAccesați fila "Registration" din fereastra Synology Docker și căutați "Papermerge". Selectez imaginea Docker "linuxserver/papermerge" și apoi fac clic pe eticheta "latest".
 {{< gallery match="images/2/*.png" >}}
@@ -38,7 +38,7 @@ Fac dublu clic pe imaginea mea de îmbinare a hârtiei.
 {{< gallery match="images/3/*.png" >}}
 Apoi fac clic pe "Setări avansate" și activez "Repornire automată". Selectez fila "Volum" și fac clic pe "Adaugă folder". Acolo creez un nou folder pentru baza de date cu această cale de montare "/data".
 {{< gallery match="images/4/*.png" >}}
-De asemenea, aici stochez un al doilea folder pe care îl includ cu calea de montare "/config". Nu prea contează unde se află acest dosar. Cu toate acestea, este important ca acesta să aparțină utilizatorului administrator Synology.
+De asemenea, aici stochez un al doilea folder pe care îl includ în calea de montare "/config". Nu prea contează unde se află acest dosar. Cu toate acestea, este important ca acesta să aparțină utilizatorului administrator Synology.
 {{< gallery match="images/5/*.png" >}}
 Atribui porturi fixe pentru containerul "Papermerge". Fără porturi fixe, s-ar putea ca "serverul Papermerge" să ruleze pe un port diferit după o repornire.
 {{< gallery match="images/6/*.png" >}}
@@ -52,5 +52,5 @@ Papermerge analizează textul documentelor și al imaginilor. Papermerge utilize
 {{< gallery match="images/9/*.png" >}}
 Am creat un dosar numit "Totul cu Lorem" pentru a testa atribuirea automată a documentelor. Apoi am făcut clic împreună pe un nou model de recunoaștere în meniul "Automatizări".
 {{< gallery match="images/10/*.png" >}}
-Toate documentele noi care conțin cuvântul "Lorem" sunt plasate în dosarul "Totul cu Lorem" și etichetate "has-lorem". Este important să folosiți o virgulă în etichete, altfel eticheta nu va fi setată. Dacă încărcați un document corespunzător, acesta va fi etichetat și sortat.
+Toate documentele noi care conțin cuvântul "Lorem" sunt plasate în dosarul "Totul cu Lorem" și etichetate "has-lorem". Este important să folosiți o virgulă în etichete, altfel eticheta nu va fi setată. Dacă încărcați un document, acesta va fi etichetat și sortat.
 {{< gallery match="images/11/*.png" >}}

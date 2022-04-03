@@ -55,10 +55,11 @@ docker-compose -f registry.yml up -d
 {{</ terminal >}}
 Después, se puede utilizar el registro propio con la IP de destino y el puerto del contenedor de la UI.
 {{< gallery match="images/1/*.png" >}}
-Ahora puedo construir, empujar y poblar imágenes desde mi registro:
+Ahora puedo construir, empujar y rellenar imágenes desde mi registro:
 {{< terminal >}}
 docker build -t 192.168.178.61:5000/mein-image:version .
 docker push 192.168.178.61:5000/mein-image:version
 docker pull 192.168.178.61:5000/mein-image:version
 
 {{</ terminal >}}
+

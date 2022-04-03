@@ -11,3 +11,4 @@ A szolgáltatás a "30000" portot figyeli számomra. Amikor minden működött, 
 {{< gallery match="images/2/*.*" >}}
 Amikor először jelentkezem be, a jövőbeni "admin" jelszót kell megadnom. Ez volt az! Most már tudom szervezni a projekteket. Most már telepíthető egy Gitlab runner.  
 {{< gallery match="images/3/*.*" >}}
+

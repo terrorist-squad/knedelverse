@@ -86,3 +86,4 @@ services:
 {{< gallery match="images/12/*.png" >}}
 我用Synology的IP地址和我的容器端口调用Bookstack服务器。登录名是 "admin@admin.com"，密码是 "password"。
 {{< gallery match="images/13/*.png" >}}
+

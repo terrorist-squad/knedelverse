@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "kühlschrank", "erp", "mhd", "Speispläne", "cms", "Cafe", "Bistro"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-grocy/index.zh.md"
 +++
-通过Grocy，您可以管理整个家庭、餐厅、咖啡馆、小酒馆或食品市场。你可以管理冰箱、菜单、任务、购物清单和食物的最佳食用日期。
+通过Grocy，您可以管理整个家庭、餐厅、咖啡馆、小酒馆或食品市场。你可以管理冰箱、菜单、任务、购物清单和食品的保质期。
 {{< gallery match="images/1/*.png" >}}
 今天我展示了如何在Synology磁盘站上安装Grocy服务。
 ## 专业人士的选择
@@ -52,3 +52,4 @@ services:
 {{< gallery match="images/7/*.png" >}}
 现在可以启动该容器了。我用Synology的IP地址和我的容器端口调用Grocy服务器，用用户名 "admin "和密码 "admin "登录。
 {{< gallery match="images/8/*.png" >}}
+

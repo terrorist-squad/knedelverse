@@ -72,7 +72,7 @@ En el servidor LDAP he creado grupos para las diferentes herramientas.
 ## Paso 3: Conectar las herramientas de Atlassian
 La configuración es la misma para todas las herramientas de Atlassian. Introduzco la dirección IP y el puerto de mi servidor LDAP.
 {{< gallery match="images/2/*.png" >}}
-Para el "esquema LDAP", sólo he introducido el "DN básico". Para los certificados autofirmados, la opción "SSL seguro" debe estar desactivada.
+Para el "esquema LDAP" sólo he introducido el "DN básico". Para los certificados autofirmados, la opción "SSL seguro" debe estar desactivada.
 {{< gallery match="images/3/*.png" >}}
 
 ## Otras características especiales de los certificados autofirmados
@@ -85,5 +85,5 @@ Ver:
 {{< gallery match="images/4/*.png" >}}
 
 ## Paso 4: Esquema de usuarios y grupos
-He tomado las siguientes configuraciones de usuario y grupo. Lo más importante es la configuración del "filtro de objetos de grupo". Por supuesto, esto es diferente para Bamboo, Confluence y Jira.
+He tomado las siguientes configuraciones de usuario y grupo. La más importante es la configuración del "filtro de objetos de grupo". Por supuesto, esto es diferente para Bamboo, Confluence y Jira.
 {{< gallery match="images/5/*.png" >}}

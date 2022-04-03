@@ -72,7 +72,7 @@ In de LDAP server heb ik groepen aangemaakt voor de verschillende gereedschappen
 ## Stap 3: Atlassian tools verbinden
 De setup is hetzelfde voor alle Atlassian tools. Ik voer het IP adres en de poort van mijn LDAP server in.
 {{< gallery match="images/2/*.png" >}}
-Voor het "LDAP-schema" heb ik alleen de "Basis DN" ingevoerd. Voor zelfondertekende certificaten moet de optie "Secure SSL" gedeactiveerd worden.
+Voor het "LDAP schema" heb ik alleen de "Basis DN" ingevoerd. Voor zelfondertekende certificaten moet de optie "Secure SSL" gedeactiveerd worden.
 {{< gallery match="images/3/*.png" >}}
 
 ## Andere speciale kenmerken van zelfondertekende certificaten

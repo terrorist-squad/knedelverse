@@ -7,9 +7,9 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Ta vaja temelji na prejšnjem znanju o "[Velike stvari s kontejnerji: Zagon programa Jenkins na strežniku Synology DS]({{< ref "post/2021/march/20210321-docker-jenkins" >}} "Velike stvari s kontejnerji: Zagon programa Jenkins na strežniku Synology DS")". Če že imate LDAP na začetku, morate ustvariti le ustrezno skupino aplikacij:
 {{< gallery match="images/1/*.png" >}}
-Nato morate v Jenkins vnesti nastavitve. Kliknem na "Upravljanje Jenkins" > "Konfiguriranje globalne varnosti".
+Nato morate vnesti nastavitve v program Jenkins. Kliknem na "Upravljanje Jenkins" > "Konfiguriranje globalne varnosti".
 {{< gallery match="images/2/*.png" >}}
-Pomembno: Za samopodpisana potrdila mora skladišče zaupanja zagotoviti Java-Opts strežnika Jenkins. Ker je bil moj strežnik Jenkins ustvarjen z datoteko Docker Compose, je videti nekako takole:
+Pomembno: Za samopodpisana potrdila mora skladišče zaupanja zagotoviti Java-Opts strežnika Jenkins. Ker je bil moj strežnik Jenkins ustvarjen z datoteko Docker Compose, je videti približno takole:
 ```
 version: '2.0'
 services:

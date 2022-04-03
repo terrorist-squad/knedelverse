@@ -5,7 +5,7 @@ difficulty = "level-3"
 tags = ["dienste", "Docker", "docker-compose", "docker-for-desktop", "heimdall", "homepage", "startseite"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/february/20210228-docker-heimdall/index.es.md"
 +++
-Ejecuto muchos servicios en mi red de Homelab, por ejemplo LDAP, Gitlab, Atlassian Bamboo, Atlassian Confluence, Atlassian Jira, Jenkins, WordPress, Grafana, Graylog ,ESXI/VMware, Calibre y mucho más. Es fácil perder la cuenta de todo.
+Ejecuto muchos servicios en mi red de Homelab, por ejemplo LDAP, Gitlab, Atlassian Bamboo, Atlassian Confluence, Atlassian Jira, Jenkins, WordPress, Grafana, Graylog ,ESXI/VMware, Calibre y muchos más. Es fácil perder la cuenta de todo.
 {{< gallery match="images/1/*.jpg" >}}
 
 ## Paso 1: Crear la carpeta de trabajo
@@ -40,3 +40,4 @@ ocker-compose -f compose-file.yml up -d
 {{</ terminal >}}
 
 {{< gallery match="images/2/*.png" >}}
+

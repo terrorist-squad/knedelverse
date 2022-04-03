@@ -28,3 +28,4 @@ Zdaj je treba kolaž samo še sestaviti:
 montage /tmp/bilder/* -shadow -geometry '400x400+2+2>' -background '#f1f1f1' uebersich.jpg
 
 {{</ terminal >}}
+

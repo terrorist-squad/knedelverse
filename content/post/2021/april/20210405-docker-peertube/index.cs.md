@@ -135,3 +135,4 @@ curl -s '$API_PATH/videos/upload'-H 'Authorization: Bearer $token' --max-time 11
 ```
 
 ## Můj tip: Přečtěte si článek "Skvělé věci s kontejnery: větší zabezpečení služeb Docker pomocí LDAP a NGINX".
+Peertube používám s reverzním proxy serverem. To znamená, že k této službě mají přístup pouze uživatelé LDAP. Toto nastavení jsem zdokumentoval v části "[Skvělé věci s kontejnery: větší zabezpečení služeb Docker pomocí LDAP a NGINX]({{< ref "post/2021/april/20210402-nginx-reverse-proxy" >}} "Skvělé věci s kontejnery: větší zabezpečení služeb Docker pomocí LDAP a NGINX")".

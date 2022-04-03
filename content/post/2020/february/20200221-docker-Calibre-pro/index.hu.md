@@ -1,6 +1,6 @@
 +++
 date = "2020-02-21"
-title = "Nagyszerű dolgok konténerekkel: Calibre futtatása Docker Compose-szal (Synology pro beállítás)"
+title = "Nagyszerű dolgok konténerekkel: A Calibre futtatása Docker Compose-szal (Synology pro beállítás)"
 difficulty = "level-3"
 tags = ["calibre", "calibre-web", "Docker", "docker-compose", "Synology", "linux"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200221-docker-Calibre-pro/index.hu.md"
@@ -13,7 +13,7 @@ Ezután bejelentkezhet az "SSH"-n keresztül, a megadott porton és a rendszerga
 {{< gallery match="images/2/*.png" >}}
 Terminal, winSCP vagy Putty segítségével jelentkezem be, és ezt a konzolt későbbre nyitva hagyom.
 ## 2. lépés: Hozzon létre egy könyvmappát
-Létrehozok egy új mappát a Calibre könyvtárnak. Ehhez felhívom a "Rendszer vezérlés" -> "Megosztott mappa" menüpontot, és létrehozok egy új mappát "Könyvek" néven. Ha még nincs "Docker" mappa, akkor ezt is létre kell hozni.
+Létrehozok egy új mappát a Calibre könyvtárnak. Ehhez meghívom a "Rendszer vezérlés" -> "Megosztott mappa" menüpontot, és létrehozok egy új mappát "Könyvek" néven. Ha még nincs "Docker" mappa, akkor ezt is létre kell hozni.
 {{< gallery match="images/3/*.png" >}}
 
 ## 3. lépés: Készítse elő a könyvmappát

@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["logitech", "synology", "diskstation", "nas", "sound-system", "multiroom"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/september/20210905-logitech-mediaserver/index.zh.md"
 +++
-在本教程中，你将学习如何在Synology DiskStation上安装Logitech媒体服务器。
+在本教程中，你将学习如何在Synology DiskStation上安装罗技媒体服务器。
 {{< gallery match="images/1/*.jpg" >}}
 
 ## 第1步：准备好罗技媒体服务器文件夹
@@ -32,3 +32,4 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 {{< gallery match="images/7/*.png" >}}
 完成这些设置后，就可以启动Logitechmediaserver-Server!之后，你可以通过Synology设备的Ip地址和指定的端口来调用Logitechmediaserver，例如：http://192.168.21.23:9000 。
 {{< gallery match="images/8/*.png" >}}
+

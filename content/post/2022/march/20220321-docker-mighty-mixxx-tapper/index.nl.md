@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "docker-for-desktop", "radio", "mp3", "ripp", "streamripper", "radiorecorder"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2022/march/20220321-docker-mighty-mixxx-tapper/index.nl.md"
 +++
-Streamripper is een hulpprogramma voor de opdrachtregel waarmee MP3- of OGG/Vorbis-streams kunnen worden opgenomen en rechtstreeks op de harde schijf kunnen worden opgeslagen. De liedjes krijgen automatisch een naam volgens de artiest en worden afzonderlijk opgeslagen, het formaat is het formaat dat oorspronkelijk werd verzonden (dus in feite worden bestanden met de extensie .mp3 of .ogg aangemaakt). Ik vond een geweldige radiorecorder interface en bouwde er een Docker image van, zie: https://github.com/terrorist-squad/mightyMixxxTapper/
+Streamripper is een hulpprogramma voor de opdrachtregel waarmee MP3- of OGG/Vorbis-streams kunnen worden opgenomen en rechtstreeks op de harde schijf kunnen worden opgeslagen. De liedjes krijgen automatisch de naam van de artiest en worden afzonderlijk opgeslagen, het formaat is het formaat dat oorspronkelijk is verzonden (dus in feite worden bestanden met de extensie .mp3 of .ogg aangemaakt). Ik vond een geweldige radiorecorder interface en bouwde er een Docker image van, zie: https://github.com/terrorist-squad/mightyMixxxTapper/
 {{< gallery match="images/1/*.png" >}}
 
 ## Optie voor professionals
@@ -29,7 +29,7 @@ services:
 ## Stap 1: Zoek naar Docker image
 Ik klik op het tabblad "Registratie" in het Synology Docker-venster en zoek naar "mighty-mixxx-tapper". Ik selecteer de Docker image "chrisknedel/mighty-mixxx-tapper" en klik dan op de tag "latest".
 {{< gallery match="images/2/*.png" >}}
-Na het downloaden van de afbeelding, is de afbeelding beschikbaar als een afbeelding. Docker maakt onderscheid tussen 2 toestanden, container "dynamische toestand" en image/image (vaste toestand). Voordat we een container kunnen maken van de image, moeten een paar instellingen worden gemaakt.
+Na het downloaden van de afbeelding, is de afbeelding beschikbaar als een afbeelding. Docker maakt onderscheid tussen 2 toestanden, container "dynamische toestand" en image/image (vaste toestand). Voordat we een container van het image kunnen maken, moeten een paar instellingen worden gemaakt.
 ## Stap 2: Zet het beeld in werking:
 Ik dubbelklik op mijn "mighty-mixxx-tapper" plaatje.
 {{< gallery match="images/3/*.png" >}}

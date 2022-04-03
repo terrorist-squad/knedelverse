@@ -1,11 +1,11 @@
 +++
 date = "2020-02-14"
-title = "Nginx: Jak mogę zablokować użytkowników TOR?"
+title = "Nginx: Jak mogę zablokować użytkowników sieci TOR?"
 difficulty = "level-3"
 tags = ["blacklisting", "block", "hacker", "darknet", "nginx", "security", "tor"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200214-nginx-tor/index.pl.md"
 +++
-Dla mojego blokera darknetu potrzebuję tylko listy IO węzła wyjściowego Tor i następującej reguły:
+Do blokowania darknetu potrzebuję tylko listy IO węzła wyjściowego sieci Tor i następującej reguły:
 ```
 location / { 
   limit_req zone=one; #request limit 
@@ -14,7 +14,7 @@ location / {
 }
 
 ```
-Za pomocą poniższego skryptu mogę stworzyć czarną listę Ip:
+Za pomocą poniższego skryptu można utworzyć czarną listę adresów IP:
 ## Skrypt aktualizacji IP
 
 ```

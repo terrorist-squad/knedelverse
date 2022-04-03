@@ -11,17 +11,17 @@ Eerst maak ik een map voor de Calibre bibliotheek.  Ik roep de "System control" 
 {{< gallery match="images/1/*.png" >}}
 
 ##  Stap 2: Calibre-bibliotheek maken
-Nu kopieer ik een bestaande bibliotheek of "[deze lege voorbeeldbibliotheek](https://drive.google.com/file/d/1zfeU7Jh3FO_jFlWSuZcZQfQOGD0NvXBm/view)" naar de nieuwe map. Ik heb zelf de bestaande bibliotheek van de desktop applicatie gekopieerd.
+Nu kopieer ik een bestaande bibliotheek of "[deze lege voorbeeldbibliotheek](https://drive.google.com/file/d/1zfeU7Jh3FO_jFlWSuZcZQfQOGD0NvXBm/view)" naar de nieuwe directory. Ik heb zelf de bestaande bibliotheek van de desktop applicatie gekopieerd.
 {{< gallery match="images/2/*.png" >}}
 
 ## Stap 3: Zoek naar Docker image
 Ik klik op het tabblad "Registratie" in het Synology Docker venster en zoek naar "Calibre". Ik selecteer de Docker image "janeczku/calibre-web" en klik dan op de tag "latest".
 {{< gallery match="images/3/*.png" >}}
-Na het downloaden van de afbeelding, is de afbeelding beschikbaar als een afbeelding. Docker maakt onderscheid tussen 2 toestanden, container "dynamische toestand" en image/image (vaste toestand). Voordat we een container kunnen maken van de image, moeten een paar instellingen worden gemaakt.
+Na het downloaden van de afbeelding, is de afbeelding beschikbaar als een afbeelding. Docker maakt onderscheid tussen 2 toestanden, container "dynamische toestand" en image/image (vaste toestand). Voordat we een container van het image kunnen maken, moeten een paar instellingen worden gemaakt.
 ## Stap 4: Zet het beeld in werking:
 Ik dubbelklik op mijn Calibre beeld.
 {{< gallery match="images/4/*.png" >}}
-Dan klik ik op "Geavanceerde instellingen" en activeer de "Automatische herstart". Ik selecteer de tab "Volume" en klik op "Map toevoegen". Daar maak ik een nieuwe database map aan met dit mount pad "/calibre".
+Dan klik ik op "Geavanceerde instellingen" en activeer de "Automatische herstart". Ik selecteer het tabblad "Volume" en klik op "Map toevoegen". Daar maak ik een nieuwe database map aan met dit mount pad "/calibre".
 {{< gallery match="images/5/*.png" >}}
 Ik wijs vaste poorten toe voor de Calibre container. Zonder vaste poorten, kan het zijn dat Calibre op een andere poort draait na een herstart.
 {{< gallery match="images/6/*.png" >}}

@@ -68,3 +68,4 @@ Efter konfigurationen är tjänsten redo att användas och kan integreras på we
 ```
 Så här ser Remark42 ut:
 {{< gallery match="images/1/*.png" >}}
+

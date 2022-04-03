@@ -1,13 +1,13 @@
 +++
 date = "2021-04-18"
-title = "コンテナを利用した優れた点：SynologyのディスクステーションにWallaBagを搭載する"
+title = "コンテナですごいこと：SynologyディスクステーションにWallaBagを所有する"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "archiv", "wallabag"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-WallaBag/index.ja.md"
 +++
-Wallabagは、興味深いウェブサイトや記事をアーカイブするためのプログラムです。今日は、SynologyのディスクステーションにWallabagサービスをインストールする方法を紹介します。
-## プロフェッショナルのためのオプション
-経験豊富なSynologyユーザーであれば、もちろんSSHでログインし、Docker Composeファイルでセットアップ全体をインストールすることができます。
+Wallabagは、面白いWebサイトや記事をアーカイブするためのプログラムです。今日は、Synology disk stationにWallabagサービスをインストールする方法を紹介します。
+## プロフェッショナル向けオプション
+経験豊富な Synology ユーザーであれば、もちろん SSH でログインし、Docker Compose ファイルを介してセットアップ全体をインストールすることができます。
 ```
 version: '3'
 services:
@@ -39,61 +39,62 @@ services:
       - ./mariadb:/var/lib/mysql
 
 ```
-家庭での使用に便利なDockerイメージは、[Dockerverse]({{< ref "dockerverse" >}} "Dockerverse")にもあります。
-## ステップ1：wallabagフォルダの準備
-Dockerディレクトリに「wallabag」という新しいディレクトリを作ります。
+家庭で使える便利なDockerイメージは、[ドッカーバース]({{< ref "dockerverse" >}} "ドッカーバース").Dockerにあります。
+## ステップ1：壁掛けフォルダーを用意する
+Dockerディレクトリの中に「wallabag」というディレクトリを新規に作成します。
 {{< gallery match="images/1/*.png" >}}
 
 ## ステップ2：データベースのインストール
-その後、データベースを作成する必要があります。Synology Dockerのウィンドウで「登録」タブをクリックし、「mariadb」を検索します。Dockerイメージの「mariadb」を選択し、タグの「latest」をクリックしています。
+その後、データベースを作成する必要があります。Synology Dockerのウィンドウで「登録」タブをクリックし、「mariadb」を検索しています。Dockerイメージ「mariadb」を選択し、「latest」タグをクリックしています。
 {{< gallery match="images/2/*.png" >}}
-画像のダウンロード後、画像として利用できます。Dockerでは、コンテナ（動的状態）とイメージ（固定状態）の2つの状態を区別しています。イメージからコンテナを作成する前に、いくつかの設定を行う必要があります。 mariadbのイメージをダブルクリックします。
+画像ダウンロード後、画像として利用可能です。Dockerでは、コンテナ（動的状態）とイメージ（固定状態）の2つの状態を区別しています。イメージからコンテナを作成する前に、いくつかの設定を行う必要があります。 mariadb イメージをダブルクリックします。
 {{< gallery match="images/3/*.png" >}}
-そして、「詳細設定」をクリックし、「自動再起動」を有効にします。ボリューム "タブを選択し、"フォルダの追加 "をクリックします。そこで、「/var/lib/mysql」というマウントパスで新しいデータベースフォルダを作成します。
+そして、「詳細設定」をクリックして「自動再起動」を有効にしています。ボリューム」タブを選択し、「フォルダの追加」をクリックしています。そこで、マウントパスを「/var/lib/mysql」として、新しいデータベースフォルダを作成します。
 {{< gallery match="images/4/*.png" >}}
-ポート設定」では、すべてのポートが削除されます。つまり、「3306」のポートを選択し、「-」ボタンで削除するのだ。
+ポート設定」で、すべてのポートを削除します。つまり、「3306」ポートを選択し、「-」ボタンで削除するのです。
 {{< gallery match="images/5/*.png" >}}
 {{<table "table table-striped table-bordered">}}
-|変数名|価値|それは何ですか？|
+|変数名|価値|何ですか？|
 |--- | --- |---|
 |TZ| Europe/Berlin	|タイムゾーン|
 |MYSQL_ROOT_PASSWORD	 | wallaroot |データベースのマスターパスワード。|
 {{</table>}}
-最後に、これらの環境変数を入力します：See:
+最後に、これらの環境変数を入力します:See:
 {{< gallery match="images/6/*.png" >}}
-以上の設定で、Mariadb サーバーが起動します。私はどこでも「Apply」を押します。
+以上の設定で、Mariadbサーバーが起動できるようになります。どこでも "Apply "を押してしまう。
 {{< gallery match="images/7/*.png" >}}
 
 ## ステップ3：Wallabagのインストール
-Synology Dockerのウィンドウで「登録」タブをクリックし、「wallabag」を検索します。Dockerイメージ「wallabag/wallabag」を選択し、「latest」というタグをクリックしています。
+Synology Dockerウィンドウの「登録」タブをクリックし、「wallabag」を検索しています。Dockerイメージ「wallabag/wallabag」を選択し、「latest」というタグをクリックしています。
 {{< gallery match="images/8/*.png" >}}
-私は自分のwallabagの画像をダブルクリックします。そして、「詳細設定」をクリックして、ここでも「自動再起動」を有効にします。
+自分の壁掛け画像をダブルクリックする。そして「詳細設定」をクリックし、ここでも「自動再起動」を有効にしています。
 {{< gallery match="images/9/*.png" >}}
-ボリューム "タブを選択し、"フォルダの追加 "をクリックします。そこで、「/var/www/wallabag/web/assets/images」というマウントパスで新しいフォルダを作成します。
+ボリューム」タブを選択し、「フォルダの追加」をクリックしています。そこで、マウントパス「/var/www/wallabag/web/assets/images」で新しいフォルダを作成します。
 {{< gallery match="images/10/*.png" >}}
-私は「wallabag」コンテナに固定ポートを割り当てています。ポートが固定されていないと、再起動後に「wallabagサーバー」が別のポートで実行される可能性があります。第1コンテナポートは削除可能です。もう一つのポートは覚えておいてください。
+wallabag」コンテナには、固定ポートを割り当てています。固定ポートがなければ、再起動後に「wallabagサーバー」が別のポートで動作することもあり得ます。最初のコンテナポートを削除することができます。もう一つのポートは覚えておくとよいでしょう。
 {{< gallery match="images/11/*.png" >}}
-また、「mariadb」コンテナへの「リンク」を作成する必要があります。リンク "タブをクリックして、データベースコンテナを選択しました。このエイリアス名は、wallabagのインストール時に記憶されるべきものです。
+さらに、「mariadb」コンテナへの「リンク」もまだ作成する必要があります。リンク」タブをクリックし、データベースコンテナを選択しています。このエイリアス名は、wallabagのインストール時に記憶しておく必要があります。
 {{< gallery match="images/12/*.png" >}}
 {{<table "table table-striped table-bordered">}}
 |Umgebungsvariable	|価値|
 |--- |---|
-|MYSQL_ROOT_PASSWORD	|ワラルート|
+|MYSQL_ROOT_PASSWORD	|ワラジムシ|
 |SYMFONY__ENV__DATABASE_DRIVER	|pdo_mysql|
-|SYMFONY__ENV__DATABASE_HOST	|db|
+|SYMFONY__ENV__DATABASE_HOST	|デブ|
 |SYMFONY__ENV__DATABASE_PORT	|3306|
-|SYMFONY__ENV__DATABASE_NAME	|ワラビー|
-|SYMFONY__ENV__DATABASE_USER	|ワラビー|
+|SYMFONY__ENV__DATABASE_NAME	|手提げ袋|
+|SYMFONY__ENV__DATABASE_USER	|手提げ袋|
 |SYMFONY__ENV__DATABASE_PASSWORD	|ワラパス|
-|SYMFONY__ENV__DATABASE_CHARSET |utf8mb4|
-|SYMFONY__ENV__DOMAIN_NAME	|"http://synology-ip:container-port" <- 変更してください|
-|SYMFONY__ENV__SERVER_NAME	|"Wallabag - Server"|
-|SYMFONY__ENV__FOSUSER_CONFIRMATION	|偽|
-|SYMFONY__ENV__TWOFACTOR_AUTH	|偽|
+|SYMFONY__ENV__DATABASE_CHARSET |ユーティーエフエッチフォー|
+|SYMFONY__ENV__DOMAIN_NAME	|"http://synology-ip:container-port" <-変更願います|
+|SYMFONY__ENV__SERVER_NAME	|"Wallabag-サーバ"|
+|SYMFONY__ENV__FOSUSER_CONFIRMATION	|擬似|
+|SYMFONY__ENV__TWOFACTOR_AUTH	|擬似|
 {{</table>}}
-最後に、これらの環境変数を入力します：See:
+最後に、これらの環境変数を入力します:See:
 {{< gallery match="images/13/*.png" >}}
-これで、コンテナが起動できるようになりました。データベースの作成には時間がかかる場合があります。この動作は、コンテナの詳細から確認できます。
+これで、コンテナの起動が可能になりました。データベースの作成に時間がかかる場合があります。この挙動は、コンテナの詳細を介して観察することができます。
 {{< gallery match="images/14/*.png" >}}
-SynologyのIPアドレスと自分のコンテナポートを使ってwallabagサーバーに電話します。
+Synology IPアドレスと私のコンテナポートでwallabagサーバーを呼び出します。
 {{< gallery match="images/15/*.png" >}}
+しかし、個人的にはインターネット上のアーカイブとしては、shioriの方が好きだと言わざるを得ません。

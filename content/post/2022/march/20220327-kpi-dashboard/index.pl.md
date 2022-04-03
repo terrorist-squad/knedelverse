@@ -5,7 +5,7 @@ difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "docker-for-desktop", "dashboard", "kpi", "kpi-dashboard", "kennzahlen", "wallboard"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2022/march/20220327-kpi-dashboard/index.pl.md"
 +++
-Szczególnie w erze Corona, gdzie praca jest zdecentralizowana, aktualne informacje są bardzo potrzebne we wszystkich miejscach. Ja sam stworzyłem już niezliczone systemy informacyjne i chciałbym przedstawić świetne oprogramowanie o nazwie Smashing.Mówca: https://smashing.github.io/Das Projekt Smashing został pierwotnie opracowany pod nazwą Dashing przez firmę Shopify do prezentacji danych biznesowych. Ale oczywiście nie można wyświetlać tylko danych biznesowych. Programiści z całego świata opracowali kafelki Smashing, tzw. widżety, dla Gitlab, Jenkins, Bamboo, Jira itp., patrz: https://github.com/Smashing/smashing/wiki/Additional-WidgetsDoch jak z nimi pracować?
+Szczególnie w erze Corona, gdzie praca jest zdecentralizowana, aktualne informacje są bardzo potrzebne we wszystkich miejscach. Ja sam stworzyłem już niezliczone systemy informacyjne i chciałbym przedstawić świetne oprogramowanie o nazwie Smashing.Mówca: https://smashing.github.io/Das Projekt Smashing został pierwotnie opracowany pod nazwą Dashing przez firmę Shopify do prezentacji danych biznesowych. Ale oczywiście nie można wyświetlać tylko danych biznesowych. Programiści z całego świata opracowali kafelki Smashing, tzw. widżety, dla serwisów Gitlab, Jenkins, Bamboo, Jira itp., patrz: https://github.com/Smashing/smashing/wiki/Additional-WidgetsDoch jak z nimi pracować?
 ## Krok 1: Utwórz obraz podstawowy
 Najpierw tworzę prosty obraz Dockera, który zawiera już Ruby i Dashing.
 {{< terminal >}}
@@ -90,5 +90,6 @@ Teraz mogę po raz pierwszy uruchomić mój nowy pulpit nawigacyjny i uzyskać d
 docker run -it -p 9292:9292 my-dashboard:latest
 
 {{</ terminal >}}
-A tak to wygląda:
+A oto jak to wygląda:
 {{< gallery match="images/3/*.png" >}}
+Jest to podstawa dobrego systemu informacyjnego. Można dostosować wszystkie kolory, skrypty i widżety.

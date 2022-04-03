@@ -28,13 +28,13 @@ Filen lagras helt enkelt på Synology NAS-enheten.
 {{< gallery match="images/2/*.png" >}}
 
 ## Steg 3: Konfigurera GitLab Runner
-Jag klickar på min löparbild:
+Jag klickar på min Runner-bild:
 {{< gallery match="images/3/*.png" >}}
 Jag aktiverar inställningen "Aktivera automatisk omstart":
 {{< gallery match="images/4/*.png" >}}
 Sedan klickar jag på "Avancerade inställningar" och väljer fliken "Volym":
 {{< gallery match="images/5/*.png" >}}
-Jag klickar på Lägg till fil och inkluderar min hosts-fil via sökvägen "/etc/hosts". Det här steget är bara nödvändigt om värdnamnen inte kan lösas upp.
+Jag klickar på Add File och inkluderar min hosts-fil via sökvägen "/etc/hosts". Det här steget är bara nödvändigt om värdnamnen inte kan lösas upp.
 {{< gallery match="images/6/*.png" >}}
 Jag godkänner inställningarna och klickar på nästa.
 {{< gallery match="images/7/*.png" >}}

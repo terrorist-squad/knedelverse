@@ -1,22 +1,22 @@
 +++
 date = "2020-02-14"
-title = "PDFページ生成の概要"
+title = "PDFページ概要の生成"
 difficulty = "level-3"
 tags = ["bash", "linux", "pdf", "postscript", "imagemagick"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200214-imagemagick-pdf-overview/index.ja.md"
 +++
-PDFファイルからページ全体のイメージを作成したい方には最適な場所です。
+PDFファイルからページ概要画像を作成するなら、この方法が最適です!
 {{< gallery match="images/1/*.jpg" >}}
 
-## ステップ1：作業フォルダの作成
-このコマンドを使用して、一時的な作業フォルダを作成します。
+## ステップ1：作業用フォルダの作成
+このコマンドは、一時的な作業フォルダを作成するために使用します。
 {{< terminal >}}
 mkdir /tmp/bilder
 
 {{</ terminal >}}
 
-## ステップ2：セパレートページ
-次のコマンドは、各PDFページのイメージを作成します。
+## ステップ2：別ページ
+次のコマンドは、PDFの各ページの画像を作成します。
 {{< terminal >}}
 convert 716023b632a9cbe6cad3ab368c202288.pdf /tmp/bilder/page.png
 
@@ -28,3 +28,4 @@ convert 716023b632a9cbe6cad3ab368c202288.pdf /tmp/bilder/page.png
 montage /tmp/bilder/* -shadow -geometry '400x400+2+2>' -background '#f1f1f1' uebersich.jpg
 
 {{</ terminal >}}
+

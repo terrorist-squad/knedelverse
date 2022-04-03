@@ -5,16 +5,16 @@ difficulty = "level-3"
 tags = ["dienste", "Docker", "docker-compose", "docker-for-desktop", "heimdall", "homepage", "startseite"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/february/20210228-docker-heimdall/index.pl.md"
 +++
-W mojej sieci Homelab uruchamiam wiele usług, na przykład LDAP, Gitlab, Atlassian Bamboo, Atlassian Confluence, Atlassian Jira, Jenkins, WordPress, Grafana, Graylog, ESXI/VMware, Calibre i wiele innych. Łatwo jest stracić rachubę wszystkiego.
+W mojej sieci Homelab korzystam z wielu usług, na przykład LDAP, Gitlab, Atlassian Bamboo, Atlassian Confluence, Atlassian Jira, Jenkins, WordPress, Grafana, Graylog, ESXI/VMware, Calibre i wielu innych. Łatwo się pogubić.
 {{< gallery match="images/1/*.jpg" >}}
 
 ## Krok 1: Utwórz folder roboczy
-Użyj tego polecenia, aby utworzyć tymczasowy folder roboczy:
+To polecenie służy do tworzenia tymczasowego folderu roboczego:
 {{< terminal >}}
 mkdir /tmp/bilder
 
 {{</ terminal >}}
-Heimdall to usługa, która pozwala na zarządzanie zakładkami poprzez Dashboard. Ponieważ używam Docker for Desktop, muszę tylko umieścić ten plik Docker Compose w lokalnym folderze:
+Heimdall to usługa umożliwiająca zarządzanie zakładkami za pomocą pulpitu nawigacyjnego. Ponieważ używam Docker for Desktop, wystarczy, że umieszczę ten plik Docker Compose w lokalnym folderze:
 ```
 version: "2.1"
 services:
@@ -33,10 +33,11 @@ services:
     restart: always
 
 ```
-Ten plik jest uruchamiany za pomocą Docker Compose:
+Ten plik jest uruchamiany za pomocą aplikacji Docker Compose:
 {{< terminal >}}
 ocker-compose -f compose-file.yml up -d
 
 {{</ terminal >}}
 
 {{< gallery match="images/2/*.png" >}}
+

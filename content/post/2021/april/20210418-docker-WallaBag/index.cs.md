@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "archiv", "wallabag"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-WallaBag/index.cs.md"
 +++
-Wallabag je program pro archivaci zajímavých webových stránek nebo článků. Dnes ukážu, jak nainstalovat službu Wallabag na diskovou stanici Synology.
+Wallabag je program pro archivaci zajímavých webových stránek nebo článků. Dnes vám ukážu, jak nainstalovat službu Wallabag na diskovou stanici Synology.
 ## Možnost pro profesionály
 Jako zkušený uživatel Synology se samozřejmě můžete přihlásit pomocí SSH a nainstalovat celou instalaci pomocí souboru Docker Compose.
 ```
@@ -45,7 +45,7 @@ V adresáři Docker vytvořím nový adresář s názvem "wallabag".
 {{< gallery match="images/1/*.png" >}}
 
 ## Krok 2: Instalace databáze
-Poté je třeba vytvořit databázi. V okně Synology Docker kliknu na kartu "Registrace" a vyhledám "mariadb". Vyberu obraz Docker "mariadb" a kliknu na značku "latest".
+Poté je třeba vytvořit databázi. V okně Synology Docker kliknu na kartu "Registrace" a vyhledám položku "mariadb". Vyberu obraz Docker "mariadb" a kliknu na značku "latest".
 {{< gallery match="images/2/*.png" >}}
 Po stažení obrázku je obrázek k dispozici jako obrázek. Docker rozlišuje 2 stavy, kontejner "dynamický stav" a image (pevný stav). Před vytvořením kontejneru z obrazu je třeba provést několik nastavení. Poklepu na svůj obraz mariadb.
 {{< gallery match="images/3/*.png" >}}
@@ -71,7 +71,7 @@ Dvakrát kliknu na obrázek svého wallabagu. Pak kliknu na "Rozšířené nasta
 {{< gallery match="images/9/*.png" >}}
 Vyberu kartu "Svazek" a kliknu na "Přidat složku". Tam vytvořím novou složku s touto přípojnou cestou "/var/www/wallabag/web/assets/images".
 {{< gallery match="images/10/*.png" >}}
-Pro kontejner "wallabag" přiřadím pevné porty. Bez pevných portů by se mohlo stát, že "server wallabag" po restartu poběží na jiném portu. První kontejnerový port lze odstranit. Je třeba pamatovat i na druhý přístav.
+Pro kontejner "wallabag" přiřazuji pevné porty. Bez pevných portů by se mohlo stát, že "server wallabag" po restartu poběží na jiném portu. První kontejnerový port lze odstranit. Je třeba pamatovat i na druhý přístav.
 {{< gallery match="images/11/*.png" >}}
 Kromě toho je třeba ještě vytvořit "odkaz" na kontejner "mariadb". Kliknu na kartu Odkazy a vyberu kontejner databáze. Název aliasu by měl být zapamatován pro instalaci wallabagu.
 {{< gallery match="images/12/*.png" >}}
@@ -97,3 +97,4 @@ Nyní lze kontejner spustit. Vytvoření databáze může nějakou dobu trvat. C
 {{< gallery match="images/14/*.png" >}}
 Zavolám server wallabag s IP adresou Synology a portem kontejneru.
 {{< gallery match="images/15/*.png" >}}
+Musím však říci, že osobně dávám přednost shiori jako internetovému archivu.

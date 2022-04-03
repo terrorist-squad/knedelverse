@@ -32,3 +32,4 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 {{< gallery match="images/7/*.png" >}}
 Μετά από αυτές τις ρυθμίσεις, ο Logitechmediaserver-Server μπορεί να ξεκινήσει! Στη συνέχεια, μπορείτε να καλέσετε τον Logitechmediaserver μέσω της διεύθυνσης Ip της συσκευής Synology και της θύρας που έχει εκχωρηθεί, για παράδειγμα http://192.168.21.23:9000 .
 {{< gallery match="images/8/*.png" >}}
+

@@ -13,9 +13,10 @@ Descompacte este arquivo zip no cartão SD vazio.
 "{{< gallery match="images/1/*.png" >}}"
 Feito! Agora você pode conectar o RaspberryPiZero à TV. Você verá então o menu de instalação.
 "{{< gallery match="images/2/*.jpg" >}}"
-Por favor selecione "LibreElec RPI" e clique em "Instalar".
+Selecione agora "LibreElec RPI" e clique em "Instalar".
 "{{< gallery match="images/3/*.jpg" >}}"
 Depois disso, a instalação está concluída e inicializável
 "{{< gallery match="images/4/*.jpg" >}}"
 Agora você pode conectar este MediaPc a fontes externas, como NAS ou instalar aplicativos como o Youtube. Divirta-se!   
 "{{< gallery match="images/5/*.jpg" >}}"
+Como já foi escrito, você também pode usar o controle remoto da sua TV através do controlador CEC.

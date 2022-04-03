@@ -14,7 +14,7 @@ He creado un contenedor que recibe mi biblioteca Calibre como un volumen (-v ...
 apt-get update && apt-get install -y xpdf calibre
 
 {{</ terminal >}}
-Ahora mi script busca nuevos PDFs que coincidan con el patrón "IX*.pdf". De cada PDF, las primeras 5 páginas se exportan como texto. A continuación, se eliminan todas las palabras que aparecen en esta lista de palabras: https://raw.githubusercontent.com/ChristianKnedel/heise-ix-reader-for-calibre/master/blacklist.txt
+Ahora mi script busca nuevos PDFs que coincidan con el patrón "IX*.pdf". De cada PDF, las primeras 5 páginas se exportan como texto. Entonces se eliminan todas las palabras que aparecen en esta lista de palabras: https://raw.githubusercontent.com/ChristianKnedel/heise-ix-reader-for-calibre/master/blacklist.txt
 ```
 #!/bin/bash
 export LANG=C.UTF-8
@@ -44,3 +44,4 @@ done
 ```
 Con el comando "calibredb set_metadata" establezco todo lo demás como etiquetas. El resultado es el siguiente:
 {{< gallery match="images/3/*.png" >}}
+El script también está disponible en Github: https://github.com/ChristianKnedel/heise-ix-reader-for-calibre .

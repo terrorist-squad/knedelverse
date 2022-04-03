@@ -9,7 +9,7 @@ Confluence是知识库领域的黄金标准。创建你自己的Confluence用户
 {{< gallery match="images/1/*.png" >}}
 
 ## 第1步：创建用户宏
-我点击 "管理 "区域的 "用户宏">"创建用户宏"。
+我点击 "管理 "区的 "用户宏">"创建用户宏"。
 {{< gallery match="images/2/*.png" >}}
 然后我输入用户宏名称，选择 "定义用户宏 "选项 "渲染"。
 {{< gallery match="images/3/*.png" >}}

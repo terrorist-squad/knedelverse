@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Synology Diskstation -käyttäjänä käytän monia palveluita Homelab-verkossani. Otan ohjelmistoja käyttöön Gitlabissa, dokumentoin tietoa Confluence-ohjelmassa ja luen teknisiä viitteitä Calibre-verkkopalvelimen kautta.
 {{< gallery match="images/1/*.png" >}}
-Kaikki verkkopalvelut kommunikoivat salatusti ja ne on suojattu keskitetyn käyttäjähallinnan avulla. Tänään näytän, miten suojasin Calibre-palveluni SSL-salauksella, käyttöoikeuksien kirjaamisella ja LDAP-käyttöoikeuksien rajoittamisella. Tässä opetusohjelmassa tarvitaan ennakkotietoja "[Siistejä asioita Atlassianin kanssa: Käytä kaikkia Atlassianin työkaluja LDAP:n kanssa.]({{< ref "post/2021/march/20210321-atlassian-ldap" >}} "Siistejä asioita Atlassianin kanssa: Käytä kaikkia Atlassianin työkaluja LDAP:n kanssa.")" ja "[Suuria asioita konttien avulla: Calibren käyttäminen Docker Composen kanssa]({{< ref "post/2020/february/20200221-docker-Calibre-pro" >}} "Suuria asioita konttien avulla: Calibren käyttäminen Docker Composen kanssa")".
+Kaikki verkkopalvelut kommunikoivat salatusti ja ne on suojattu keskitetyn käyttäjähallinnan avulla. Tänään näytän, miten suojasin Calibre-palveluni SSL-salauksella, käyttöoikeuksien kirjaamisella ja LDAP-käyttöoikeuksien rajoittamisella. Tässä opetuksessa tarvitaan ennakkotietoja "[Siistejä asioita Atlassianin kanssa: Käytä kaikkia Atlassianin työkaluja LDAP:n kanssa.]({{< ref "post/2021/march/20210321-atlassian-ldap" >}} "Siistejä asioita Atlassianin kanssa: Käytä kaikkia Atlassianin työkaluja LDAP:n kanssa.")" ja "[Suuria asioita konttien avulla: Calibren käyttäminen Docker Composen kanssa]({{< ref "post/2020/february/20200221-docker-Calibre-pro" >}} "Suuria asioita konttien avulla: Calibren käyttäminen Docker Composen kanssa")".
 ## Oma LDAP-palvelin
 Kuten olen jo kirjoittanut, käytän keskitettyä openLDAP-palvelinta Docker-säiliössä. Olen myös luonut muutamia sovellusryhmiä.
 {{< gallery match="images/2/*.png" >}}
@@ -100,3 +100,4 @@ Jos nyt käynnistät asennuksen komennolla "docker-compose -f ...etc... up", nä
 {{< gallery match="images/3/*.png" >}}
 Koska LDAP-käyttäjät ovat vain vieraskäyttäjiä, vieraskäyttäjän oikeudet on määritettävä Calibrewebissä:
 {{< gallery match="images/4/*.png" >}}
+Käytän tätä asetusta seuraaville palveluille:* Videokirjasto (Peertube)* Kirjasto (Calibreweb)* Gitlab (CE ei tue ryhmiä, joten sinun on kirjauduttava sisään 2x.)

@@ -1,13 +1,13 @@
 +++
 date = "2021-04-17"
-title = "コンテナの優れた点：Synology ディスクステーションで独自の xWiki を実行する"
+title = "コンテナですごいこと：Synologyディスクステーションで自分だけのxWikiを動かす"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "xwiki", "wiki",]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210417-docker-xWiki/index.ja.md"
 +++
-XWikiは、Javaで書かれたフリーのWikiソフトウェアプラットフォームで、拡張性を考慮して設計されています。今日は、Synology DiskStationにxWikiサービスをインストールする方法を紹介します。
-## プロフェッショナルのためのオプション
-経験豊富なSynologyユーザーであれば、もちろんSSHでログインし、Docker Composeファイルでセットアップ全体をインストールすることができます。
+XWikiは、Javaで書かれたフリーのWikiソフトウェアプラットフォームで、拡張性を念頭に置いて設計されています。今日は、Synology DiskStation に xWiki サービスをインストールする方法を紹介します。
+## プロフェッショナル向けオプション
+経験豊富な Synology ユーザーであれば、もちろん SSH でログインし、Docker Compose ファイルを介してセットアップ全体をインストールすることができます。
 ```
 version: '3'
 services:
@@ -37,50 +37,50 @@ services:
       - TZ='Europe/Berlin'
 
 ```
-家庭での使用に便利なDockerイメージは、[Dockerverse]({{< ref "dockerverse" >}} "Dockerverse")にもあります。
+家庭で使える便利なDockerイメージは、[ドッカーバース]({{< ref "dockerverse" >}} "ドッカーバース").Dockerにあります。
 ## ステップ1：wikiフォルダの準備
-Dockerのディレクトリに「wiki」という新しいディレクトリを作ります。
+Dockerディレクトリの中に「wiki」というディレクトリを新規に作成します。
 {{< gallery match="images/1/*.png" >}}
 
 ## ステップ2：データベースのインストール
-その後、データベースを作成する必要があります。Synology Dockerのウィンドウで「登録」タブをクリックし、「postgres」を検索します。私はDockerイメージの「postgres」を選択し、タグの「latest」をクリックします。
+その後、データベースを作成する必要があります。Synology Dockerウィンドウの「登録」タブをクリックし、「postgres」を検索しています。Dockerイメージの「postgres」を選択し、「latest」というタグをクリックしています。
 {{< gallery match="images/2/*.png" >}}
-画像のダウンロード後、画像として利用できます。Dockerでは、コンテナ（動的状態）とイメージ（固定状態）の2つの状態を区別しています。イメージからコンテナを作成する前に、いくつかの設定を行う必要があります。 私はpostgresイメージをダブルクリックしました。
+画像ダウンロード後、画像として利用可能です。Dockerでは、コンテナ（動的状態）とイメージ（固定状態）の2つの状態を区別しています。イメージからコンテナを作成する前に、いくつかの設定を行う必要があります。 私は、postgresイメージをダブルクリックします。
 {{< gallery match="images/3/*.png" >}}
-そして、「詳細設定」をクリックし、「自動再起動」を有効にします。ボリューム "タブを選択し、"フォルダの追加 "をクリックします。そこで、「/var/lib/postgresql/data」というマウントパスで新しいデータベースフォルダを作成します。
+そして、「詳細設定」をクリックして「自動再起動」を有効にしています。ボリューム」タブを選択し、「フォルダの追加」をクリックしています。そこで、マウントパスを「/var/lib/postgresql/data」として、新しいデータベースフォルダを作成します。
 {{< gallery match="images/4/*.png" >}}
-ポート設定」では、すべてのポートが削除されます。つまり、「5432」のポートを選択し、「-」ボタンで削除するのです。
+ポート設定」で、すべてのポートを削除します。つまり、「5432」ポートを選択し、「-」ボタンで削除するのです。
 {{< gallery match="images/5/*.png" >}}
 {{<table "table table-striped table-bordered">}}
-|変数名|価値|それは何ですか？|
+|変数名|価値|何ですか？|
 |--- | --- |---|
 |TZ	| Europe/Berlin	|タイムゾーン|
-|POSTGRES_DB	| xwiki |これはデータベース名です。|
+|POSTGRES_DB	| xwiki |これは、データベース名です。|
 |POSTGRES_USER	| xwiki |wikiデータベースのユーザー名。|
-|POSTGRES_PASSWORD	| xwiki |wikiデータベースユーザーのパスワード。|
+|POSTGRES_PASSWORD	| xwiki |wikiデータベースユーザのパスワード。|
 {{</table>}}
-最後に、以下の4つの環境変数を入力します：See:
+最後に、この4つの環境変数を入力します:See:
 {{< gallery match="images/6/*.png" >}}
-以上の設定で、Mariadbサーバーが起動できるようになります。私はどこでも「Apply」を押します。
-## ステップ3: xWikiのインストール
-Synology Dockerのウィンドウで「登録」タブをクリックし、「xwiki」を検索します。Dockerイメージ「xwiki」を選択して、タグ「10-postgres-tomcat」をクリックします。
+以上の設定で、Mariadbサーバーが起動できるようになります。どこでも "Apply "を押してしまう。
+## ステップ3：xWikiのインストール
+Synology Dockerウィンドウの「登録」タブをクリックし、「xwiki」を検索しています。Dockerイメージ「xwiki」を選択し、「10-postgres-tomcat」というタグをクリックしています。
 {{< gallery match="images/7/*.png" >}}
-私のxwiki画像をダブルクリックします。そして、「詳細設定」をクリックして、ここでも「自動再起動」を有効にします。
+私は自分のxwiki画像をダブルクリックします。そして「詳細設定」をクリックし、ここでも「自動再起動」を有効にしています。
 {{< gallery match="images/8/*.png" >}}
-xwiki "コンテナには固定のポートを割り当てています。ポートが固定されていないと、再起動後に「xwikiサーバー」が別のポートで動作してしまう可能性があります。
+xwiki」コンテナには、固定ポートを割り当てています。固定ポートがないと、再起動後に「xwikiサーバ」が別のポートで動作してしまう可能性があります。
 {{< gallery match="images/9/*.png" >}}
-また、「postgres」コンテナへの「リンク」を作成する必要があります。リンク "タブをクリックして、データベースコンテナを選択しました。エイリアス名は、wikiのインストールのために覚えておく必要があります。
+さらに、「postgres」コンテナへの「リンク」を作成する必要があります。リンク」タブをクリックし、データベースコンテナを選択しています。エイリアス名は、Wikiのインストール時に覚えておく必要があります。
 {{< gallery match="images/10/*.png" >}}
 {{<table "table table-striped table-bordered">}}
-|変数名|価値|それは何ですか？|
+|変数名|価値|何ですか？|
 |--- | --- |---|
 |TZ |	Europe/Berlin	|タイムゾーン|
-|DB_HOST	| db |別名・コンテナリンク|
-|DB_DATABASE	| xwiki	|ステップ2のデータ|
-|DB_USER	| xwiki	|ステップ2のデータ|
-|DB_PASSWORD	| xwiki |ステップ2のデータ|
+|DB_HOST	| db |エイリアス名／コンテナリンク|
+|DB_DATABASE	| xwiki	|ステップ2からのデータ|
+|DB_USER	| xwiki	|ステップ2からのデータ|
+|DB_PASSWORD	| xwiki |ステップ2からのデータ|
 {{</table>}}
-最後に、これらの環境変数を入力します：See:
+最後に、これらの環境変数を入力します:See:
 {{< gallery match="images/11/*.png" >}}
-これで、コンテナが起動できるようになりました。Synology の IP アドレスと私のコンテナ ポートを使って xWiki サーバーを呼び出します。
+これで、コンテナの起動が可能になりました。私はSynologyのIPアドレスと私のコンテナポートでxWikiサーバーを呼び出します。
 {{< gallery match="images/12/*.png" >}}

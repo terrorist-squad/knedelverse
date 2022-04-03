@@ -1,11 +1,11 @@
 +++
 date = "2022-03-21"
-title = "Lucruri grozave cu containere: Înregistrarea de MP3-uri de la radio"
+title = "Lucruri grozave cu containere: Înregistrarea MP3-urilor de la radio"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "docker-for-desktop", "radio", "mp3", "ripp", "streamripper", "radiorecorder"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2022/march/20220321-docker-mighty-mixxx-tapper/index.ro.md"
 +++
-Streamripper este un instrument pentru linia de comandă care poate fi folosit pentru a înregistra fluxuri MP3 sau OGG/Vorbis și a le salva direct pe hard disk. Melodiile sunt denumite automat în funcție de artist și salvate individual, formatul fiind cel trimis inițial (deci, de fapt, sunt create fișiere cu extensia .mp3 sau .ogg). Am găsit o interfață excelentă pentru radiorecorder și am construit o imagine Docker din ea, vezi: https://github.com/terrorist-squad/mightyMixxxTapper/
+Streamripper este un instrument pentru linia de comandă care poate fi folosit pentru a înregistra fluxuri MP3 sau OGG/Vorbis și a le salva direct pe hard disk. Melodiile sunt denumite automat după artist și salvate individual, formatul fiind cel trimis inițial (deci, de fapt, sunt create fișiere cu extensia .mp3 sau .ogg). Am găsit o interfață excelentă pentru radiorecorder și am construit o imagine Docker din ea, vezi: https://github.com/terrorist-squad/mightyMixxxTapper/
 {{< gallery match="images/1/*.png" >}}
 
 ## Opțiune pentru profesioniști
@@ -37,5 +37,5 @@ Apoi fac clic pe "Setări avansate" și activez "Repornire automată". Selectez 
 {{< gallery match="images/4/*.png" >}}
 Atribui porturi fixe pentru containerul "mighty-mixxx-tapper". Fără porturi fixe, s-ar putea ca "mighty-mixxx-tapper-server" să ruleze pe un port diferit după o repornire.
 {{< gallery match="images/5/*.png" >}}
-După aceste setări, mighty-mixxx-tapper-server poate fi pornit! Ulterior, puteți apela mighty-mixxx-tapper prin intermediul adresei Ip a stației Synology și a portului atribuit, de exemplu http://192.168.21.23:8097.
+După aceste setări, mighty-mixxx-tapper-server poate fi pornit! După aceea, puteți apela mighty-mixxx-tapper prin intermediul adresei Ip a stației Synology și a portului atribuit, de exemplu http://192.168.21.23:8097.
 {{< gallery match="images/6/*.png" >}}

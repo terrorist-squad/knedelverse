@@ -17,5 +17,6 @@ Välj nu "LibreElec RPI" och klicka på "Install".
 "{{< gallery match="images/3/*.jpg" >}}"
 Därefter är installationen klar och startbar.
 "{{< gallery match="images/4/*.jpg" >}}"
-Nu kan du ansluta den här MediaPc:n till externa källor som NAS eller installera appar som Youtube. Ha kul!   
+Nu kan du ansluta den här MediaPc:n till externa källor, t.ex. en NAS, eller installera appar, t.ex. Youtube. Ha kul!   
 "{{< gallery match="images/5/*.jpg" >}}"
+Som redan skrivits kan du också använda TV:ns fjärrkontroll via CEC-kontrollen.

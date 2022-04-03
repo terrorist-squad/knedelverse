@@ -5,7 +5,7 @@ difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "Document-Managment-System"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-Docspell/index.fi.md"
 +++
-Docspell on asiakirjahallintajärjestelmä Synology DiskStationille. Docspellin avulla asiakirjat voidaan indeksoida, hakea ja löytää paljon nopeammin. Tänään näytän, miten Docspell-palvelu asennetaan Synologyn levyasemalle.
+Docspell on asiakirjahallintajärjestelmä Synology DiskStationille. Docspellin avulla asiakirjat voidaan indeksoida, etsiä ja löytää paljon nopeammin. Tänään näytän, miten Docspell-palvelu asennetaan Synologyn levyasemalle.
 ## Vaihe 1: Synologyn valmistelu
 Ensin SSH-kirjautuminen on aktivoitava DiskStationissa. Tee tämä menemällä "Ohjauspaneeli" > "Pääte" > "Pääte".
 {{< gallery match="images/1/*.png" >}}
@@ -34,3 +34,4 @@ docker-compose up -d
 {{</ terminal >}}
 Muutaman minuutin kuluttua voin soittaa Docspell-palvelimelle levyaseman IP-osoitteella ja osoitetulla portilla/7878.
 {{< gallery match="images/5/*.png" >}}
+Asiakirjojen haku toimii hyvin. Minusta on sääli, että kuvien tekstejä ei indeksoida. Papermergellä voit myös etsiä tekstejä kuvista.

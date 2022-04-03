@@ -9,3 +9,4 @@ Neste pequeno tutorial eu mostro como controlar remotamente as máquinas ESXi at
 {{< gallery match="images/1/*.png" >}}
 Agora o meu VMware Fusion está conectado ao servidor ESXi como cliente.
 {{< gallery match="images/2/*.png" >}}
+

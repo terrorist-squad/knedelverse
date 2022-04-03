@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["diskstation", "peertube", "Synology", "video", "videoportal"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210405-docker-peertube/index.el.md"
 +++
-Με το Peertube μπορείτε να δημιουργήσετε τη δική σας διαδικτυακή πύλη βίντεο. Σήμερα δείχνω πώς εγκατέστησα το Peertube στο σταθμό δίσκων Synology.
+Με το Peertube μπορείτε να δημιουργήσετε τη δική σας πύλη βίντεο. Σήμερα δείχνω πώς εγκατέστησα το Peertube στο σταθμό δίσκων Synology.
 ## Βήμα 1: Προετοιμάστε τη Synology
 Πρώτον, η σύνδεση SSH πρέπει να ενεργοποιηθεί στον DiskStation. Για να το κάνετε αυτό, μεταβείτε στον "Πίνακα Ελέγχου" > "Τερματικό
 {{< gallery match="images/1/*.png" >}}
@@ -112,7 +112,7 @@ body#custom-css {
 curl -s "http://pree-tube/api/v1search/videos?search=docker&languageOneOf=de"
 
 {{</ terminal >}}
-Για παράδειγμα, για μια μεταφόρτωση απαιτείται έλεγχος ταυτότητας και ένα διακριτικό συνεδρίας:
+Για παράδειγμα, απαιτείται έλεγχος ταυτότητας και ένα διακριτικό συνεδρίας για μια μεταφόρτωση:
 ```
 #!/bin/bash
 USERNAME="user"
@@ -135,3 +135,4 @@ curl -s '$API_PATH/videos/upload'-H 'Authorization: Bearer $token' --max-time 11
 ```
 
 ## Η συμβουλή μου: Διαβάστε το "Great things with containers: making Docker services more secure with LDAP and NGINX".
+Τρέχω το Peertube μου με έναν αντίστροφο διακομιστή μεσολάβησης. Αυτό σημαίνει ότι μόνο οι χρήστες LDAP μπορούν να έχουν πρόσβαση σε αυτή την υπηρεσία. Έχω τεκμηριώσει αυτή τη ρύθμιση στο "[Υπέροχα πράγματα με containers: κάνοντας τις υπηρεσίες Docker πιο ασφαλείς με LDAP και NGINX]({{< ref "post/2021/april/20210402-nginx-reverse-proxy" >}} "Υπέροχα πράγματα με containers: κάνοντας τις υπηρεσίες Docker πιο ασφαλείς με LDAP και NGINX")".

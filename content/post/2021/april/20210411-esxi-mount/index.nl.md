@@ -9,7 +9,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 ## Stap 1: Activeer de "NFS" dienst
 Eerst moet de "NFS" dienst geactiveerd worden op het Diskstation. Om dit te doen, ga ik naar het "Configuratiescherm" > "Bestandsservices" instelling en klik op "NFS inschakelen".
 {{< gallery match="images/1/*.png" >}}
-Dan klik ik op "Gedeelde map" en selecteer een map.
+Ik klik dan op "Gedeelde map" en selecteer een map.
 {{< gallery match="images/2/*.png" >}}
 
 ## Stap 2: Mount mappen in ESXi
@@ -21,3 +21,4 @@ Nu kan het geheugen gebruikt worden.
 {{< gallery match="images/4/*.png" >}}
 Om te testen, installeerde ik een DOS installatie en een oud boekhoudprogramma via dit koppelpunt.
 {{< gallery match="images/5/*.png" >}}
+

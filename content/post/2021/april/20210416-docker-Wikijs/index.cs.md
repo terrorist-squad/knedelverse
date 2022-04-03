@@ -51,7 +51,7 @@ Poté je třeba vytvořit databázi. V okně Synology Docker kliknu na kartu "Re
 {{< gallery match="images/2/*.png" >}}
 Po stažení obrázku je obrázek k dispozici jako obrázek. Docker rozlišuje 2 stavy, kontejner "dynamický stav" a image (pevný stav). Než z obrazu vytvoříme kontejner, je třeba provést několik nastavení. Poklepu na svůj obraz mysql.
 {{< gallery match="images/3/*.png" >}}
-Pak kliknu na "Rozšířená nastavení" a aktivuji "Automatický restart". Vyberu kartu "Svazek" a kliknu na "Přidat složku". Tam vytvořím novou složku databáze s touto přípojnou cestou "/var/lib/mysql".
+Pak kliknu na "Rozšířené nastavení" a aktivuji "Automatický restart". Vyberu kartu "Svazek" a kliknu na "Přidat složku". Tam vytvořím novou složku databáze s touto přípojnou cestou "/var/lib/mysql".
 {{< gallery match="images/4/*.png" >}}
 V části "Nastavení portů" se odstraní všechny porty. To znamená, že vyberu port "3306" a odstraním jej pomocí tlačítka "-".
 {{< gallery match="images/5/*.png" >}}
@@ -89,5 +89,5 @@ Kromě toho je třeba ještě vytvořit "odkaz" na kontejner "mysql". Kliknu na 
 {{</table>}}
 Nakonec zadám tyto proměnné prostředí:Viz:
 {{< gallery match="images/11/*.png" >}}
-Nyní lze kontejner spustit. Volám server Wiki.js s IP adresou Synology a portem kontejneru/3000.
+Nyní lze kontejner spustit. Server Wiki.js volám pomocí IP adresy Synology a portu kontejneru/3000.
 {{< gallery match="images/12/*.png" >}}

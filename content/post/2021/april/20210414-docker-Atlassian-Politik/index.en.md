@@ -1,13 +1,13 @@
 +++
 date = "2021-04-14"
-title = "Uncool with Atlassian: how to deal with Atlassian politics"
+title = "Uncool with Atlassian: how to deal with Atlassian policy"
 difficulty = "level-3"
 tags = ["atlassian", "Atlassian-Politik", "bamboo", "Docker", "confluence", "docker-compose", "jira", "lizenz", "krise", "politik"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-Atlassian-Politik/index.en.md"
 +++
-Atlassian has stopped selling the small server licenses and I have been thinking for a long time how to deal with this. Since I still want to use my installation for a long time, I have implemented the following measures:
-## Action 1: I use Docker exclusively
-I run all Atlassian tools as Docker containers. Even older, native installations can be transferred to a Docker installation via database dumps. These can then be conveniently run on an intel Nuc or a Synology disk station in the Homelab.
+Atlassian has stopped selling the small server licenses and I have been thinking for a long time how to deal with this. Since I still want to use my installation for a long time, I implemented the following measures:
+## Measure 1: I use Docker exclusively
+I run all Atlassian tools as Docker containers. Even older, native installations can be converted to a Docker installation via database dumps. These can then be conveniently run on an intel Nuc or a Synology disk station in the Homelab.
 {{< tabs>}}
 
 
@@ -143,7 +143,7 @@ networks:
 {{< /tabs >}}
 
 
-## Action 2: Backups of databases and images
+## Measure 2: Backups of the databases and images
 Of course, daily remote database backups play a big role in my disaster recovery strategy. But I also backed up the installation images. A Docker image can be archived with the following command:
 {{< terminal >}}
 docker save -o bamboo-7.2.3-image.tar atlassian/bamboo-server
@@ -158,3 +158,4 @@ I also saved the postgres images.
 ## Action 3: Create USB installation stick
 I have backed up my docs, all installation archives, postgres data directories and configurations to a USB stick. As I said, the DB backup is actually the most important thing because the activated license is also in the database.
 {{< gallery match="images/1/*.png" >}}
+

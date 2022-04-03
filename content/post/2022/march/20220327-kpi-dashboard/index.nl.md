@@ -1,6 +1,6 @@
 +++
 date = "2022-03-21"
-title = "Geweldige dingen met containers: KPI Dashboard"
+title = "Grote dingen met containers: KPI Dashboard"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "docker-for-desktop", "dashboard", "kpi", "kpi-dashboard", "kennzahlen", "wallboard"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2022/march/20220327-kpi-dashboard/index.nl.md"
@@ -43,7 +43,7 @@ Nu kan ik een nieuw dashboard maken met het volgende commando:
 docker run -it -v /path/to/my/dashing-project:/code my-dashboard:latest smashing new dashboard
 
 {{</ terminal >}}
-Daarna zou de "dashboard" map in het Dashing project er zo uit moeten zien:
+Daarna zou de "dashboard" map in het Dashing project er als volgt uit moeten zien:
 {{< gallery match="images/2/*.png" >}}
 Heel goed. Nu moet ik het Dockerfile weer bijwerken. De nieuwe inhoud is dit:
 ```
@@ -92,3 +92,4 @@ docker run -it -p 9292:9292 my-dashboard:latest
 {{</ terminal >}}
 En dit is hoe het eruit ziet:
 {{< gallery match="images/3/*.png" >}}
+Dit is de basis voor een goed informatiesysteem. U kunt alle kleuren, scripts en widgets aanpassen.

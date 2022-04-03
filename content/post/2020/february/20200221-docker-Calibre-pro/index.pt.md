@@ -7,11 +7,11 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Já existe um tutorial mais fácil neste blog: [Synology-Nas: Instale o Calibre Web como uma biblioteca de livros eletrônicos]({{< ref "post/2020/february/20200213-synology-calibreweb" >}} "Synology-Nas: Instale o Calibre Web como uma biblioteca de livros eletrônicos"). Este tutorial é para todos os profissionais da Synology DS.
 ## Passo 1: Preparar a Sinologia
-Primeiro, o login SSH deve ser ativado no DiskStation. Para fazer isso, vá para o "Painel de Controle" > "Terminal
+Primeiro, o login do SSH deve ser ativado no DiskStation. Para fazer isso, vá para o "Painel de Controle" > "Terminal
 {{< gallery match="images/1/*.png" >}}
 Então você pode entrar via "SSH", a porta especificada e a senha do administrador (usuários do Windows usam Putty ou WinSCP).
 {{< gallery match="images/2/*.png" >}}
-Eu inicio sessão via Terminal, winSCP ou Putty e deixo este console aberto para mais tarde.
+Eu inicio sessão via Terminal, winSCP ou Putty e deixo esta consola aberta para mais tarde.
 ## Passo 2: Criar uma pasta de livros
 Eu crio uma nova pasta para a biblioteca Calibre. Para fazer isso, chamo "System Control" -> "Shared Folder" e crio uma nova pasta chamada "Books". Se ainda não existe uma pasta "Docker", então esta também deve ser criada.
 {{< gallery match="images/3/*.png" >}}
@@ -56,7 +56,7 @@ sudo docker-compose -f calibre.yml up -d
 {{< gallery match="images/7/*.png" >}}
 
 ## Passo 6: Configuração
-Então eu posso chamar o meu servidor Calibre com o IP da estação de disco e a porta atribuída a partir do "Passo 4". Eu uso o meu ponto de montagem "/books" na configuração. Depois disso, o servidor já está utilizável.
+Então eu posso chamar o meu servidor Calibre com o IP da estação de disco e a porta atribuída a partir do "Passo 4". Na configuração, eu uso o meu ponto de montagem "/books". Depois disso, o servidor já está utilizável.
 {{< gallery match="images/8/*.png" >}}
 
 ## Passo 7: Finalização da configuração

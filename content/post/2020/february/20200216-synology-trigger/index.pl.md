@@ -5,9 +5,9 @@ difficulty = "level-1"
 tags = ["git", "gitlab", "gitlab-runner", "Synology", "trigger"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200216-synology-trigger/index.en.md"
 +++
-W celu automatycznego uruchomienia potoku Gitlab należy utworzyć tzw. trigger. Możesz utworzyć dowolną ilość wyzwalaczy w ustawieniach projektu.
+Aby automatycznie uruchamiać potok Gitlab, należy utworzyć tzw. wyzwalacz. W ustawieniach projektu można utworzyć dowolną liczbę wyzwalaczy.
 {{< gallery match="images/1/*.png" >}}
-Wyzwalacze te wyglądają następująco. Oczywiście, (placeholders) muszą zostać zastąpione.
+Wyzwalacze te wyglądają następująco. Oczywiście należy zastąpić (placeholders).
 {{< terminal >}}
 curl -X POST -F token=(TOKEN) -F ref=(BRANCH) http://(ip):(port)/api/v4/projects/(project-id)/trigger/pipeline
 {{</terminal >}}

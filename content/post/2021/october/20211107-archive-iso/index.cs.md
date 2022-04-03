@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Wayback Machine je archiv starých webových stránek. Stačí zadat doménu a zobrazí se časová osa všech statických snímků.
 {{< gallery match="images/1/*.png" >}}
-Nedávno byla také přidána velká kulturní pokladnice starých obrazů ISO/CD. Pod následujícím odkazem najdete staré hry, časopisy, operační systémy a také staré zásilkové katalogy: https://archive.org/details/softwareSo, například CD s katalogem Otto z roku 2000: https://archive.org/details/ottofruehjahrsommer2000.
+Nedávno přibyla také velká kulturní pokladnice starých obrazů ISO/CD. Pod následujícím odkazem najdete staré hry, časopisy, operační systémy a také staré zásilkové katalogy: https://archive.org/details/softwareSo, například CD s katalogem Otto z roku 2000: https://archive.org/details/ottofruehjahrsommer2000.
 {{< gallery match="images/2/*.png" >}}
 Katalog Lego z roku 1992 je také opravdovým vrcholem: https://archive.org/details/netherlands-Katalog_Lego-1992/page/n43/mode/2up.
 {{< gallery match="images/3/*.png" >}}

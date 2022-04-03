@@ -30,3 +30,4 @@ chmod 755 say-hallo.sh
 {{< gallery match="images/3/*.png" >}}
 
 ## Passo 4: Fatto!
+Il nuovo pulsante è ora utilizzabile.

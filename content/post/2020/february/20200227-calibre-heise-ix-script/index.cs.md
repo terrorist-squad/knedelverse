@@ -44,3 +44,4 @@ done
 ```
 Příkazem "calibredb set_metadata" nastavím vše ostatní jako značky. Výsledek vypadá takto:
 {{< gallery match="images/3/*.png" >}}
+Skript je k dispozici také na Githubu: https://github.com/ChristianKnedel/heise-ix-reader-for-calibre .

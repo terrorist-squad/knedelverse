@@ -1,6 +1,6 @@
 +++
 date = "2021-04-25T09:28:11+01:00"
-title = "Lucruri grozave cu containere: Netbox pe Synology - Disk"
+title = "Lucruri grozave cu containere: Netbox pe Synology - Diskstation"
 difficulty = "level-3"
 tags = ["Computernetzwerken", "DCIM", "Docker", "docker-compose", "IPAM", "netbox", "Synology", "netwerk"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210425-docker-Netbox/index.ro.md"
@@ -30,15 +30,15 @@ Apoi, editez fișierul "docker/docker-compose.yml" și introduc adresele Synolog
 ```
 version: '3.4'
 services:
-  netbox: &netbox
-    image: netboxcommunity/netbox:${VERSION-latest}
+  netbox: 
+    image: netboxcommunity/netbox:${VERSION-v3.1-1.6.0}
     depends_on:
     - postgres
     - redis
     - redis-cache
     - netbox-worker
     env_file: env/netbox.env
-    user: '101'
+    user: 'unit:root'
     volumes:
     - ./startup_scripts:/opt/netbox/startup_scripts:z,ro
     - ./initializers:/opt/netbox/initializers:z,ro
@@ -48,20 +48,32 @@ services:
     - ./netbox-media-files:/opt/netbox/netbox/media:z
     ports:
     - "8097:8080"
+    
   netbox-worker:
-    <<: *netbox
+    image: netboxcommunity/netbox:${VERSION-v3.1-1.6.0}
+    env_file: env/netbox.env
+    user: 'unit:root'
     depends_on:
     - redis
-    entrypoint:
+    - postgres
+    command:
     - /opt/netbox/venv/bin/python
     - /opt/netbox/netbox/manage.py
-    command:
     - rqworker
-    ports: []
+
+  netbox-housekeeping:
+    image: netboxcommunity/netbox:${VERSION-v3.1-1.6.0}
+    env_file: env/netbox.env
+    user: 'unit:root'
+    depends_on:
+    - redis
+    - postgres
+    command:
+    - /opt/netbox/housekeeping.sh
 
   # postgres
   postgres:
-    image: postgres:12-alpine
+    image: postgres:14-alpine
     env_file: env/postgres.env
     volumes:
     - ./netbox-postgres-data:/var/lib/postgresql/data
@@ -76,6 +88,7 @@ services:
     env_file: env/redis.env
     volumes:
     - ./netbox-redis-data:/data
+
   redis-cache:
     image: redis:6-alpine
     command:
@@ -84,13 +97,14 @@ services:
     - redis-server --requirepass $$REDIS_PASSWORD ## $$ because of docker-compose
     env_file: env/redis-cache.env
 
+
 ```
-După aceea, pot să pornesc fișierul Compose:
+Este foarte important ca moștenirea "<<: *netbox" este înlocuit și se introduce un port pentru "netbox". După aceea, pot să pornesc fișierul Compose:
 {{< terminal >}}
 sudo docker-compose up
 
 {{</ terminal >}}
 Crearea bazei de date poate dura ceva timp. Comportamentul poate fi observat prin intermediul detaliilor containerului.
 {{< gallery match="images/4/*.png" >}}
-Sun la serverul netbox cu adresa IP Synology și portul containerului meu.
+Sun la serverul netbox cu adresa IP a Synology și portul containerului meu.
 {{< gallery match="images/5/*.png" >}}

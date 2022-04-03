@@ -40,14 +40,14 @@ services:
 
 ```
 Imagens mais úteis do Docker para uso doméstico podem ser encontradas no [Dockerverse]({{< ref "dockerverse" >}} "Dockerverse").
-## Passo 1: Preparar pasta do saco de parede
+## Passo 1: Prepare a pasta do saco de parede
 Eu crio um novo diretório chamado "wallabag" no diretório Docker.
 {{< gallery match="images/1/*.png" >}}
 
 ## Passo 2: Instalar base de dados
 Depois disso, um banco de dados deve ser criado. Clico na guia "Registration" na janela do Synology Docker e procuro por "mariadb". Selecciono a imagem do Docker "mariadb" e depois clico na etiqueta "latest".
 {{< gallery match="images/2/*.png" >}}
-Após o download da imagem, a imagem está disponível como imagem. Docker distingue entre 2 estados, "estado dinâmico" do contentor e imagem (estado fixo). Antes de criarmos um recipiente a partir da imagem, algumas configurações têm de ser feitas. Eu faço duplo clique na minha imagem mariadb.
+Após o download da imagem, a imagem está disponível como imagem. Docker distingue entre 2 estados, recipiente "estado dinâmico" e imagem (estado fixo). Antes de criarmos um recipiente a partir da imagem, algumas configurações têm de ser feitas. Eu faço duplo clique na minha imagem mariadb.
 {{< gallery match="images/3/*.png" >}}
 Depois clico em "Definições avançadas" e activo o "Reinício automático". Eu seleciono o separador "Volume" e clico em "Adicionar pasta". Lá eu crio uma nova pasta de banco de dados com este caminho de montagem "/var/lib/mysql".
 {{< gallery match="images/4/*.png" >}}
@@ -67,7 +67,7 @@ Após estas configurações, o servidor Mariadb pode ser iniciado! Eu carrego em
 ## Passo 3: Instalar o Wallabag
 Clico na guia "Registration" na janela do Synology Docker e procuro por "wallabag". Selecciono a imagem do Docker "wallabag/wallabag" e depois clico na etiqueta "latest".
 {{< gallery match="images/8/*.png" >}}
-Faço duplo clique na minha imagem no meu saco de parede. Depois clique em "Configurações avançadas" e ative o "Reinício automático" aqui também.
+Faço duplo clique na imagem do meu saco de parede. Depois clique em "Configurações avançadas" e ative o "Reinício automático" aqui também.
 {{< gallery match="images/9/*.png" >}}
 Selecciono o separador "Volume" e clico em "Adicionar Pasta". Lá eu crio uma nova pasta com este caminho de montagem "/var/wwww/wallabag/web/assets/images".
 {{< gallery match="images/10/*.png" >}}
@@ -97,3 +97,4 @@ O contentor pode agora ser iniciado. Pode demorar algum tempo a criar a base de 
 {{< gallery match="images/14/*.png" >}}
 Eu chamo o servidor wallabag com o endereço IP da Synology e minha porta de contêineres.
 {{< gallery match="images/15/*.png" >}}
+Devo dizer, no entanto, que pessoalmente prefiro shiori como um arquivo da internet.

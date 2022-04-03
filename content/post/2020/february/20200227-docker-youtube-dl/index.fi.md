@@ -34,7 +34,7 @@ Ensin luon kansion latauksia varten. Siirryn kohtaan "Järjestelmänhallinta" ->
 ## Vaihe 2: Etsi Docker-kuva
 Napsautan Synology Docker -ikkunan "Rekisteröinti"-välilehteä ja etsin "youtube-dl-nas". Valitsen Docker-kuvan "modenaf360/youtube-dl-nas" ja napsautan sitten tagia "latest".
 {{< gallery match="images/3/*.png" >}}
-Kuvan lataamisen jälkeen kuva on käytettävissä kuvana. Dockerissa erotetaan kaksi tilaa, kontti "dynaaminen tila" ja kuva/image (kiinteä tila). Ennen kuin voimme luoda säiliön kuvasta, on tehtävä muutamia asetuksia.
+Kuvan lataamisen jälkeen kuva on käytettävissä kuvana. Dockerissa erotetaan kaksi tilaa, kontti "dynaaminen tila" ja kuva/image (kiinteä tila). Ennen kuin voimme luoda kontin kuvasta, on tehtävä muutamia asetuksia.
 ## Vaihe 3: Ota kuva käyttöön:
 Kaksoisklikkaan youtube-dl-nas-kuvaani.
 {{< gallery match="images/4/*.png" >}}
@@ -44,7 +44,7 @@ Määritän kiinteät portit kontille "Youtube Downloader". Ilman kiinteitä por
 {{< gallery match="images/6/*.png" >}}
 Lopuksi annan kaksi ympäristömuuttujaa. Muuttuja "MY_ID" on käyttäjänimeni ja "MY_PW" on salasanani.
 {{< gallery match="images/7/*.png" >}}
-Näiden asetusten jälkeen Downloader voidaan käynnistää! Sen jälkeen voit soittaa latausohjelmaan Synology-aseman Ip-osoitteen ja määritetyn portin kautta, esimerkiksi http://192.168.21.23:8070 .
+Näiden asetusten jälkeen Downloader voidaan käynnistää! Sen jälkeen voit kutsua latausohjelmaa Synology-aseman Ip-osoitteen ja osoitetun portin kautta, esimerkiksi http://192.168.21.23:8070 .
 {{< gallery match="images/8/*.png" >}}
 Ota todennusta varten käyttäjänimi ja salasana MY_ID- ja MY_PW-kohdista.
 ## Vaihe 4: Mennään

@@ -21,7 +21,7 @@ forward-socks5 / 127.0.0.1:9050 .
 ```
 См:
 {{< gallery match="images/1/*.png" >}}
-Чтобы Tor и Privoxy также выполнялись при запуске системы, нам все же придется ввести их в автозагрузку:
+Для того чтобы Tor и Privoxy также выполнялись при запуске системы, нам все же придется ввести их в автозагрузку:
 {{< terminal >}}
 sudo update-rc.d tor defaults
 sudo update-rc.d privoxy defaults

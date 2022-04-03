@@ -13,7 +13,7 @@ V oknu Synology Docker kliknem na zavihek "Registracija" in poiščem Gitlab. Iz
 ## Korak 2: Sliko uporabite v praksi:
 
 ##  Težava gostiteljev
-Moja sinologija-gitlab-insterlation se vedno identificira samo z imenom gostitelja. Ker sem izvirni paket Synology Gitlab vzel iz središča za pakete, tega vedenja ni mogoče naknadno spremeniti.  Kot rešitev lahko vključim svojo datoteko hosts. Tukaj lahko vidite, da ime gostitelja "peter" pripada naslovu Nas IP 192.168.12.42.
+Moja sinologija-gitlab-insterlation se vedno identificira samo z imenom gostitelja. Ker sem izvirni paket Synology Gitlab vzel iz središča za pakete, tega vedenja ni mogoče naknadno spremeniti.  Kot rešitev lahko vključim svojo datoteko gostiteljev. Tukaj lahko vidite, da ime gostitelja "peter" pripada naslovu Nas IP 192.168.12.42.
 ```
 127.0.0.1       localhost                                                       
 ::1     localhost ip6-localhost ip6-loopback                                    
@@ -28,7 +28,7 @@ Ta datoteka je preprosto shranjena v strežniku Synology NAS.
 {{< gallery match="images/2/*.png" >}}
 
 ## Korak 3: Nastavitev programa GitLab Runner
-Kliknem na svojo sliko tekača:
+Kliknem na svojo sliko Runner:
 {{< gallery match="images/3/*.png" >}}
 Vključim nastavitev "Omogoči samodejni ponovni zagon":
 {{< gallery match="images/4/*.png" >}}
@@ -40,7 +40,7 @@ Sprejmem nastavitve in kliknem na naslednji.
 {{< gallery match="images/7/*.png" >}}
 Zdaj najdem inicializirano sliko v razdelku Zabojnik:
 {{< gallery match="images/8/*.png" >}}
-Izberem vsebnik (pri meni je to gitlab-gitlab-runner2) in kliknem na "Podrobnosti". Nato kliknem na zavihek "Terminal" in ustvarim novo sejo bash. Tu vnesem ukaz "gitlab-runner register". Za registracijo potrebujem informacije, ki jih lahko najdem v svoji namestitvi GitLaba pod naslovom http://gitlab-adresse:port/admin/runners.   
+Izberem vsebnik (pri meni je to gitlab-gitlab-runner2) in kliknem na "Podrobnosti". Nato kliknem na zavihek "Terminal" in ustvarim novo sejo bash. Tu vnesem ukaz "gitlab-runner register". Za registracijo potrebujem informacije, ki jih lahko najdem v svoji namestitvi programa GitLab pod naslovom http://gitlab-adresse:port/admin/runners.   
 {{< gallery match="images/9/*.png" >}}
 Če potrebujete več paketov, jih lahko namestite s "apt-get update" in nato "apt-get install python ...".
 {{< gallery match="images/10/*.png" >}}

@@ -104,7 +104,7 @@ body#custom-css {
 
 ```
 
-## Rest API
+## Rest-API
 PeerTube har ett omfattande och väldokumenterat Rest API: https://docs.joinpeertube.org/api-rest-reference.html.
 {{< gallery match="images/6/*.png" >}}
 Det här kommandot gör det möjligt att söka efter videor:
@@ -135,3 +135,4 @@ curl -s '$API_PATH/videos/upload'-H 'Authorization: Bearer $token' --max-time 11
 ```
 
 ## Mitt tips: Läs "Great things with containers: making Docker services more secure with LDAP and NGINX".
+Jag kör min Peertube med en omvänd proxy. Detta innebär att endast LDAP-användare kan få tillgång till tjänsten. Jag har dokumenterat denna inställning under "[Bra saker med containrar: säkrare Dockertjänster med LDAP och NGINX]({{< ref "post/2021/april/20210402-nginx-reverse-proxy" >}} "Bra saker med containrar: säkrare Dockertjänster med LDAP och NGINX")".

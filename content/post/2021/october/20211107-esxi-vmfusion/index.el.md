@@ -9,3 +9,4 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 {{< gallery match="images/1/*.png" >}}
 Τώρα το VMware Fusion είναι συνδεδεμένο στο διακομιστή ESXi ως πελάτης.
 {{< gallery match="images/2/*.png" >}}
+

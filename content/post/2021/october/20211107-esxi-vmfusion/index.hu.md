@@ -9,3 +9,4 @@ Ebben a rövid bemutatóban megmutatom, hogyan lehet távolról vezérelni az ES
 {{< gallery match="images/1/*.png" >}}
 Most a VMware Fusion kliensként csatlakozik az ESXi-kiszolgálóhoz.
 {{< gallery match="images/2/*.png" >}}
+

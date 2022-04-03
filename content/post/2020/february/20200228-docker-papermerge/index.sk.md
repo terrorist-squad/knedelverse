@@ -40,7 +40,7 @@ Potom kliknem na "Rozšírené nastavenia" a aktivujem "Automatický reštart". 
 {{< gallery match="images/4/*.png" >}}
 Ukladám sem aj druhý priečinok, ktorý obsahuje prípojnú cestu "/config". Nezáleží na tom, kde sa tento priečinok nachádza. Je však dôležité, aby patril používateľovi Synology admin.
 {{< gallery match="images/5/*.png" >}}
-Pre kontajner "Papermerge" priraďujem pevné porty. Bez pevných portov by sa mohlo stať, že "server Papermerge" po reštarte beží na inom porte.
+Pre kontajner "Papermerge" priraďujem pevné porty. Bez pevných portov by sa mohlo stať, že "Papermerge server" po reštarte beží na inom porte.
 {{< gallery match="images/6/*.png" >}}
 Nakoniec zadám tri premenné prostredia. Premenná "PUID" je ID používateľa a "PGID" je ID skupiny môjho používateľa administrátora. PGID/PUID môžete zistiť cez SSH pomocou príkazu "cat /etc/passwd | grep admin".
 {{< gallery match="images/7/*.png" >}}
@@ -52,5 +52,5 @@ Papermerge analyzuje text dokumentov a obrázkov. Papermerge používa knižnicu
 {{< gallery match="images/9/*.png" >}}
 Vytvoril som priečinok s názvom "Všetko s Lorem", aby som otestoval automatické priraďovanie dokumentov. Potom som klikol na nový rozpoznávací vzor v položke ponuky "Automaty".
 {{< gallery match="images/10/*.png" >}}
-Všetky nové dokumenty obsahujúce slovo "Lorem" sú umiestnené v priečinku "Všetko s Lorem" a označené "has-lorem". Je dôležité používať v tagoch čiarku, inak sa tag nenastaví. Ak nahráte príslušný dokument, bude označený a zoradený.
+Všetky nové dokumenty obsahujúce slovo "Lorem" sú umiestnené v priečinku "Všetko s Lorem" a označené "has-lorem". Je dôležité používať v tagoch čiarku, inak sa tag nenastaví. Ak nahráte dokument, bude označený a zoradený.
 {{< gallery match="images/11/*.png" >}}

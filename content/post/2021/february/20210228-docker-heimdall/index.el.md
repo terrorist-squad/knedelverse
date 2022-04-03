@@ -5,11 +5,11 @@ difficulty = "level-3"
 tags = ["dienste", "Docker", "docker-compose", "docker-for-desktop", "heimdall", "homepage", "startseite"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/february/20210228-docker-heimdall/index.el.md"
 +++
-Εκτελώ πολλές υπηρεσίες στο δίκτυο Homelab, για παράδειγμα LDAP, Gitlab, Atlassian Bamboo, Atlassian Confluence, Atlassian Jira, Jenkins, WordPress, Grafana, Graylog ,ESXI/VMware, Calibre και πολλά άλλα. Είναι εύκολο να χάσετε την αίσθηση των πάντων.
+Εκτελώ πολλές υπηρεσίες στο δίκτυο Homelab, για παράδειγμα LDAP, Gitlab, Atlassian Bamboo, Atlassian Confluence, Atlassian Jira, Jenkins, WordPress, Grafana, Graylog ,ESXI/VMware, Calibre και πολλές άλλες. Είναι εύκολο να χάσετε την αίσθηση των πάντων.
 {{< gallery match="images/1/*.jpg" >}}
 
 ## Βήμα 1: Δημιουργία φακέλου εργασίας
-Χρησιμοποιήστε αυτήν την εντολή για να δημιουργήσετε έναν προσωρινό φάκελο εργασίας:
+Χρησιμοποιήστε αυτή την εντολή για να δημιουργήσετε έναν προσωρινό φάκελο εργασίας:
 {{< terminal >}}
 mkdir /tmp/bilder
 
@@ -40,3 +40,4 @@ ocker-compose -f compose-file.yml up -d
 {{</ terminal >}}
 
 {{< gallery match="images/2/*.png" >}}
+

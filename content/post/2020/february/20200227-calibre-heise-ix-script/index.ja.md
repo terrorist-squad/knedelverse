@@ -1,20 +1,20 @@
 +++
 date = "2020-02-27"
-title = "コンテナを利用した優れた点：CalibreとDockerによるPDFへの自動タグ付け"
+title = "コンテナですごいこと：CalibreとDockerでPDFに自動タグ付け"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ebook", "epub", "linux", "pdf", "Synology"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-calibre-heise-ix-script/index.ja.md"
 +++
-PDFに適切なメタ情報を追加するのは、しばしば面倒なことです。私自身は、Heise IXの購読アカウントからダウンロードしたPDFを、自分のプライベートなCalibreライブラリに分類しています。
+PDFに適切なメタ情報を付加することは、しばしば面倒な作業となります。私自身は、Heise IXの購読アカウントからダウンロードしたPDFを、私的なCalibreライブラリに分類しています。
 {{< gallery match="images/1/*.png" >}}
-これが毎月繰り返されるので、次のような設定にしています。私は新しいPDFをライブラリにドラッグするだけです。
+この作業が毎月繰り返されるため、次のような設定を考えています。私は新しいPDFをライブラリにドラッグするだけです。
 {{< gallery match="images/2/*.png" >}}
-Calibreライブラリをボリュームとして取得するコンテナを作成しました(-v ...:/books)。このコンテナには、以下のパッケージをインストールしました。
+Calibre ライブラリをボリュームとして取得するコンテナを作成しました (-v ...:/books)。このコンテナには、以下のパッケージをインストールしました。
 {{< terminal >}}
 apt-get update && apt-get install -y xpdf calibre
 
 {{</ terminal >}}
-これで私のスクリプトは、「IX*.pdf」というパターンに一致する新しいPDFを検索します。それぞれのPDFから、最初の5ページがテキストとして書き出されます。そして、この単語リストに登場するすべての単語が削除されます。https://raw.githubusercontent.com/ChristianKnedel/heise-ix-reader-for-calibre/master/blacklist.txt
+これで、私のスクリプトは、"IX*.pdf "というパターンに一致する新しいPDFを検索するようになりました。各PDFから、最初の5ページをテキストとして書き出します。そして、この単語リストに登場する単語はすべて削除されます。https://raw.githubusercontent.com/ChristianKnedel/heise-ix-reader-for-calibre/master/blacklist.txt。
 ```
 #!/bin/bash
 export LANG=C.UTF-8
@@ -42,5 +42,6 @@ done
 
 
 ```
-calibredb set_metadata "というコマンドで、他のすべてをタグとして設定しました。結果は以下のようになります。
+calibredb set_metadata "コマンドで、それ以外をタグとして設定しました。結果はこのようになります。
 {{< gallery match="images/3/*.png" >}}
+このスクリプトはGithubでも公開されています: https://github.com/ChristianKnedel/heise-ix-reader-for-calibre .

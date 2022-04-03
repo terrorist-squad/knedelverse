@@ -35,7 +35,7 @@ Dvakrat kliknem na svojo sliko "mighty-mixxx-tapper".
 {{< gallery match="images/3/*.png" >}}
 Nato kliknem na "Napredne nastavitve" in aktiviram možnost "Samodejni ponovni zagon". Izberem zavihek "Zvezek" in kliknem na "Dodaj mapo". Tam ustvarim novo mapo s to potjo priklopa "/tmp/ripps/".
 {{< gallery match="images/4/*.png" >}}
-Za vsebnik "mighty-mixxx-tapper" dodelim fiksna vrata. Brez fiksnih vrat se lahko zgodi, da se "mighty-mixxx-tapper-server" po ponovnem zagonu zažene na drugih vratih.
+Za vsebnik "mighty-mixxx-tapper" dodelim fiksna vrata. Brez fiksnih vrat se lahko zgodi, da strežnik "mighty-mixxx-tapper-server" po ponovnem zagonu teče na drugih vratih.
 {{< gallery match="images/5/*.png" >}}
 Po teh nastavitvah lahko zaženete strežnik mighty-mixxx-tapper-server! Nato lahko pokličete mighty-mixxx-tapper prek naslova Ip naprave Synology in dodeljenih vrat, na primer http://192.168.21.23:8097.
 {{< gallery match="images/6/*.png" >}}

@@ -28,13 +28,13 @@ Tämä tiedosto tallennetaan yksinkertaisesti Synology NAS:iin.
 {{< gallery match="images/2/*.png" >}}
 
 ## Vaihe 3: GitLab Runnerin määrittäminen
-Napsautan juoksijan kuvaa:
+Napsautan Runner-kuvaani:
 {{< gallery match="images/3/*.png" >}}
 Aktivoin asetuksen "Ota automaattinen uudelleenkäynnistys käyttöön":
 {{< gallery match="images/4/*.png" >}}
 Sitten napsautan "Lisäasetukset" ja valitsen "Äänenvoimakkuus"-välilehden:
 {{< gallery match="images/5/*.png" >}}
-Napsautan Add file (Lisää tiedosto) -painiketta ja lisään hosts-tiedostoni polun "/etc/hosts" kautta. Tämä vaihe on tarpeen vain, jos isäntänimiä ei voida määrittää.
+Napsautan Add File (Lisää tiedosto) -painiketta ja lisään hosts-tiedostoni polun "/etc/hosts" kautta. Tämä vaihe on tarpeen vain, jos isäntänimiä ei voida määrittää.
 {{< gallery match="images/6/*.png" >}}
 Hyväksyn asetukset ja napsautan Seuraava.
 {{< gallery match="images/7/*.png" >}}

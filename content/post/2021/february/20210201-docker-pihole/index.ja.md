@@ -1,27 +1,27 @@
 +++
 date = "2021-02-01"
-title = "コンテナで素晴らしいことを：Synology DiskStationのPihole"
+title = "コンテナですごいこと: Pihole on Synology Diskstation"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "dns", "adblocker", "fritzbox"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/february/20210201-docker-pihole/index.ja.md"
 +++
-今日は、SynologyのディスクステーションにPiholeサービスをインストールして、Fritzboxに接続する方法を紹介します。
-## ステップ1：Synologyの準備
-まず、DiskStationでSSHログインを有効にする必要があります。そのためには、「コントロールパネル」→「ターミナル」で
+今日は、Synology disk stationにPiholeサービスをインストールし、Fritzboxに接続する方法を紹介します。
+## ステップ1：Synologyを準備する
+まず、DiskStationでSSHログインを有効にする必要があります。そのためには、「コントロールパネル」→「ターミナル」を開きます。
 {{< gallery match="images/1/*.png" >}}
-そして、「SSH」で指定されたポートと管理者パスワードでログインします（WindowsユーザーはPuttyまたはWinSCPを使用）。
+そして、「SSH」、指定されたポート、管理者パスワードでログインします（WindowsユーザーはPuttyまたはWinSCPを使用します）。
 {{< gallery match="images/2/*.png" >}}
-Terminal、winSCP、Puttyなどでログインして、このコンソールを後から開くようにしています。
+ターミナル、winSCP、Puttyでログインして、このコンソールを開いたままにしておくと、後で便利です。
 ## ステップ2：Piholeフォルダの作成
-Dockerのディレクトリに「pihole」という新しいディレクトリを作ります。
+Dockerディレクトリの中に「pihole」というディレクトリを新規に作成します。
 {{< gallery match="images/3/*.png" >}}
-そして、新しいディレクトリに移動し、「etc-pihole」と「etc-dnsmasq.d」という2つのフォルダを作成します。
+そして、新しいディレクトリに移動し、「etc-pihole」と「etc-dnsmasq.d」の2つのフォルダを作成します。
 {{< terminal >}}
 cd /volume1/docker/
 mkdir -p {etc-pihole,etc-dnsmasq.d}
 
 {{</ terminal >}}
-ここで、「pihole.yml」という名前の以下のDocker Composeファイルを、Piholeディレクトリに配置する必要があります。
+ここで、以下のDocker Composeファイル「pihole.yml」をPiholeディレクトリに配置する必要があります。
 ```
 version: "3"
 
@@ -45,12 +45,12 @@ services:
     restart: unless-stopped
 
 ```
-これで、コンテナが起動できるようになりました。
+これで、コンテナの起動が可能になりました。
 {{< terminal >}}
 sudo docker-compose up -d
 
 {{</ terminal >}}
-SynologyのIPアドレスと私のコンテナポートでPiholeサーバーを呼び出し、WEBPASSWORDのパスワードでログインします。
+SynologyのIPアドレスと自分のコンテナポートでPiholeサーバーを呼び出し、WEBPASSWORDのパスワードでログインしています。
 {{< gallery match="images/4/*.png" >}}
-これで、フリッツボックスの「ホームネットワーク」>「ネットワーク」>「ネットワーク設定」でDNSアドレスを変更できるようになりました。
+これで、Fritzboxの「ホームネットワーク」→「ネットワーク」→「ネットワーク設定」でDNSアドレスを変更できるようになりました。
 {{< gallery match="images/5/*.png" >}}

@@ -44,3 +44,4 @@ done
 ```
 Komennolla "calibredb set_metadata" asetan kaiken muun tunnisteiksi. Tulos näyttää tältä:
 {{< gallery match="images/3/*.png" >}}
+Skripti on saatavilla myös Githubissa: https://github.com/ChristianKnedel/heise-ix-reader-for-calibre .

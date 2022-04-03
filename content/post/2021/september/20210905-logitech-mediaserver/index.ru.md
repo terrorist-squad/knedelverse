@@ -30,5 +30,6 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 {{< gallery match="images/6/*.png" >}}
 Наконец, я ввожу переменную окружения. Переменная "TZ" - это часовой пояс "Европа/Берлин".
 {{< gallery match="images/7/*.png" >}}
-После этих настроек можно запускать Logitechmediaserver-Server! После этого вы можете вызвать Logitechmediaserver через Ip-адрес устройства Synology и назначенный порт, например http://192.168.21.23:9000 .
+После этих настроек можно запускать Logitechmediaserver-Server! После этого можно вызвать Logitechmediaserver через Ip-адрес устройства Synology и назначенный порт, например http://192.168.21.23:9000 .
 {{< gallery match="images/8/*.png" >}}
+

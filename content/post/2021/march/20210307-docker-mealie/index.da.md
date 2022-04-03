@@ -44,7 +44,7 @@ Efter disse indstillinger kan Mealie Server startes! Herefter kan du ringe til M
 {{< gallery match="images/7/*.png" >}}
 
 ## Hvordan virker Mealie?
-Hvis jeg bevæger musen over "Plus"-knappen til højre/nedre og derefter klikker på "Chain"-symbolet, kan jeg indtaste en url. Mealie-applikationen søger derefter automatisk efter de nødvendige meta- og skemaoplysninger.
+Hvis jeg bevæger musen over "plus"-knappen til højre/nedre og derefter klikker på "kæde"-symbolet, kan jeg indtaste en url. Mealie-applikationen søger derefter automatisk efter de nødvendige meta- og skemaoplysninger.
 {{< gallery match="images/8/*.png" >}}
 Importen fungerer fint (jeg har brugt disse funktioner med urls fra Chef, Food
 {{< gallery match="images/9/*.png" >}}
@@ -85,3 +85,4 @@ done < clear.txt
 ```
 Nu kan du også få adgang til opskrifterne offline:
 {{< gallery match="images/15/*.png" >}}
+Konklusion: Hvis du bruger lidt tid på Mealie, kan du opbygge en god opskriftsdatabase! Mealie udvikles løbende som et open source-projekt og kan findes på følgende adresse: https://github.com/hay-kot/mealie/

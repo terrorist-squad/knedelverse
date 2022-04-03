@@ -1,13 +1,13 @@
 +++
 date = "2021-04-14"
-title = "Niefajnie z Atlassianem: jak poradzić sobie z polityką Atlassiana"
+title = "Niefajnie z Atlassian: jak radzić sobie z polityką Atlassian"
 difficulty = "level-3"
 tags = ["atlassian", "Atlassian-Politik", "bamboo", "Docker", "confluence", "docker-compose", "jira", "lizenz", "krise", "politik"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210414-docker-Atlassian-Politik/index.pl.md"
 +++
-Atlassian przestał sprzedawać licencje na małe serwery i długo zastanawiałem się, jak sobie z tym poradzić. Ponieważ chcę jeszcze długo korzystać z mojej instalacji, zastosowałem następujące środki zaradcze:
+Atlassian zaprzestał sprzedaży licencji na małe serwery i długo zastanawiałem się, jak sobie z tym poradzić. Ponieważ chcę jeszcze przez długi czas korzystać z mojej instalacji, zastosowałem następujące środki zaradcze:
 ## Środek 1: Używam wyłącznie Dockera
-Wszystkie narzędzia firmy Atlassian uruchamiam jako kontenery Docker. Starsze, natywne instalacje mogą być również przeniesione do instalacji Docker poprzez zrzuty baz danych. Można je następnie wygodnie uruchamiać na intelowskim komputerze Nuc lub stacji dysków Synology w domowym laboratorium.
+Wszystkie narzędzia firmy Atlassian uruchamiam jako kontenery Docker. Starsze, natywne instalacje można również przenieść do instalacji Docker za pomocą zrzutów baz danych. Można je następnie wygodnie uruchamiać na stacji dysków intel Nuc lub Synology w domowym laboratorium.
 {{< tabs>}}
 
 
@@ -144,17 +144,18 @@ networks:
 
 
 ## Środek 2: Kopie zapasowe baz danych i obrazów
-Oczywiście, codzienne, zdecentralizowane kopie zapasowe baz danych odgrywają dużą rolę w mojej strategii odzyskiwania danych po awarii. Ale wykonałem również kopię zapasową obrazów instalacyjnych. Obraz Dockera może zostać zarchiwizowany za pomocą następującego polecenia:
+Oczywiście codzienne, zdecentralizowane kopie zapasowe baz danych odgrywają dużą rolę w mojej strategii odzyskiwania danych po awarii. Utworzyłem też kopię zapasową obrazów instalacyjnych. Obraz Dockera można zarchiwizować za pomocą następującego polecenia:
 {{< terminal >}}
 docker save -o bamboo-7.2.3-image.tar atlassian/bamboo-server
 
 {{</ terminal >}}
-Archiwum można załadować do Docker Registry w następujący sposób.
+Archiwum można załadować do rejestru Docker w następujący sposób.
 {{< terminal >}}
 ocker load -i bamboo-7.2.3-image.tar
 
 {{</ terminal >}}
-Zapisałem również obrazy Postgresa.
+Zapisałem także obrazy Postgres.
 ## Czynność 3: Utwórz pamięć instalacyjną USB
-Utworzyłem kopię zapasową dokumentacji, wszystkich archiwów instalacyjnych, katalogów danych Postgres i konfiguracji na nośniku USB. Jak już mówiłem, backup DB jest w rzeczywistości najważniejszą rzeczą, ponieważ aktywowana licencja jest również w bazie danych.
+Wykonałem kopię zapasową dokumentacji, wszystkich archiwów instalacyjnych, katalogów danych Postgres i konfiguracji na nośniku USB. Jak już wspomniałem, najważniejsza jest kopia zapasowa DB, ponieważ aktywowana licencja znajduje się również w bazie danych.
 {{< gallery match="images/1/*.png" >}}
+

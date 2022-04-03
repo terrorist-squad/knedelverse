@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["microservice", "docker", "vertical", "kommentare"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210619-docker-remark42/index.en.md"
 +++
-If you run your blog as a static site, you might want a microservice/vertical that puts a dynamic comment function. For example, this blog is implemented in HUGO, a "website generator" written in GO for Markdown content.In my case, I customized this Docker compose file for me and started it with "docker-compose -f compose.yml up -d". I have stored API keys for authentication with Google and Facebook. I also entered mail server settings for interacting with readers.
+If you run your blog as a static site, you might want a microservice/vertical that puts a dynamic comment function. For example, this blog is implemented in HUGO, a "website generator" written in GO for Markdown content.In my case, I customized this Docker compose file for me and started it with "docker-compose -f compose.yml up -d". I have stored API keys for authentication with Google and Facebook. I also entered mail server settings for interaction with readers.
 ```
 version: '2'
 
@@ -68,3 +68,4 @@ After configuration, the service is ready for use and can be integrated into the
 ```
 And this is what Remark42 looks like:
 {{< gallery match="images/1/*.png" >}}
+

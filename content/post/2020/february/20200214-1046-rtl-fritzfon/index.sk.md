@@ -9,3 +9,4 @@ Inštalácia 104.6 RTL do telefónu Fritzphone je neuveriteľne jednoduchá. Pot
 {{< gallery match="images/1/*.png" >}}
 Prejdite na koniec stránky. V časti "Pridať internetovú rozhlasovú stanicu" vyberte položku "Iná internetová rozhlasová stanica". Zadajte názov "104.6 RTL Berlins Hitradio" a adresu "http://stream.104.6rtl.com/rtl-live".
 {{< gallery match="images/2/*.png" >}}
+Kliknite na "OK"! Nový prenos je okamžite použiteľný vo vašom FritzFone.

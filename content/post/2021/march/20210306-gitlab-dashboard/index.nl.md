@@ -179,5 +179,5 @@ NODM_MIN_SESSION_TIME=60
 NODM_X_TIMEOUT=300
 
 ```
-Als je nu reboot met "sudo reboot", zal je het volgende dashboard zien:
+Als je nu herstart met "sudo reboot", zal je het volgende dashboard zien:
 {{< gallery match="images/3/*.jpg" >}}

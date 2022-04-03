@@ -11,7 +11,7 @@ Izberite predlogo in kliknite " Uporabi predlogo". Nato se boste morda morali av
 {{< gallery match="images/1/*.png" >}}
 
 ## Korak 2: Prilagodite besedila
-Po uspešni prijavi se predloga odpre v načinu urejanja.  Ko premaknete kazalec miške nad besedilo, se besedilo označi.  
+Po uspešni prijavi se predloga odpre v načinu urejanja.  Če premaknete kazalec miške nad besedilo, se besedilo označi.  
 {{< gallery match="images/2/*.png" >}}
 Zdaj enkrat kliknite na element "Besedilo", da se prikažejo "Možnosti prilagoditve". Če želite prilagoditi besedilo, kliknite "Spremeni besedilo". Vse druge možnosti so zaklenjene. Kliknite drug element strani, da uporabite spremembe.
 {{< gallery match="images/3/*.png" >}}
@@ -19,5 +19,6 @@ Zdaj enkrat kliknite na element "Besedilo", da se prikažejo "Možnosti prilagod
 ## Korak 3: Končano
 Po prilagoditvi preprosto kliknite "Shrani (X)".
 {{< gallery match="images/4/*.png" >}}
-Vaša predloga menija je zdaj ustvarjena v ločljivosti za tiskanje kot dokument PDF, ki ga je mogoče prenesti in natisniti.  Datoteko PDF lahko prenesete, natisnete in pošljete.   
+Vaša predloga jedilnika je zdaj ustvarjena v ločljivosti za tiskanje kot dokument PDF, ki ga je mogoče prenesti in natisniti.  Datoteko PDF lahko prenesete, natisnete in pošljete.   
 {{< gallery match="images/5/*.png" >}}
+

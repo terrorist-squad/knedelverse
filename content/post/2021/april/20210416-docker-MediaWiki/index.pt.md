@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "mediawiki", "wiki"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210416-docker-MediaWiki/index.pt.md"
 +++
-MediaWiki é um sistema wiki baseado em PHP que está disponível gratuitamente como um produto de código aberto. Hoje eu mostro como instalar um serviço MediaWiki na estação de disco Synology.
+O MediaWiki é um sistema wiki baseado em PHP que está disponível gratuitamente como um produto de código aberto. Hoje eu mostro como instalar um serviço MediaWiki na estação de disco Synology.
 ## Opção para profissionais
 Como um usuário experiente de Synology, é claro que você pode fazer login com SSH e instalar toda a configuração via arquivo Docker Compose.
 ```
@@ -46,9 +46,9 @@ Eu crio um novo diretório chamado "wiki" no diretório Docker.
 ## Passo 2: Instalar base de dados
 Depois disso, um banco de dados deve ser criado. Clico na guia "Registration" na janela do Synology Docker e procuro por "mariadb". Selecciono a imagem do Docker "mariadb" e depois clico na etiqueta "latest".
 {{< gallery match="images/2/*.png" >}}
-Após o download da imagem, a imagem está disponível como imagem. Docker distingue entre 2 estados, "estado dinâmico" do contentor e imagem (estado fixo). Antes de criarmos um recipiente a partir da imagem, algumas configurações têm de ser feitas. Eu faço duplo clique na minha imagem mariadb.
+Após o download da imagem, a imagem está disponível como imagem. Docker distingue entre 2 estados, recipiente "estado dinâmico" e imagem (estado fixo). Antes de criarmos um recipiente a partir da imagem, algumas configurações têm de ser feitas. Eu faço duplo clique na minha imagem mariadb.
 {{< gallery match="images/3/*.png" >}}
-Depois clico em "Definições avançadas" e activo o "Reinício automático". Eu seleciono o separador "Volume" e clico em "Adicionar pasta". Lá eu crio uma nova pasta de banco de dados com este caminho de montagem "/var/lib/mysql".
+Depois clico em "Definições avançadas" e activo o "Reinício automático". Selecciono o separador "Volume" e clico em "Adicionar pasta". Lá eu crio uma nova pasta de banco de dados com este caminho de montagem "/var/lib/mysql".
 {{< gallery match="images/4/*.png" >}}
 Em "Port settings", todas as portas são apagadas. Isto significa que seleciono a porta "3306" e a apago com o botão "-".
 {{< gallery match="images/5/*.png" >}}
@@ -69,7 +69,7 @@ Clico na guia "Registration" na janela do Synology Docker e procuro por "mediawi
 {{< gallery match="images/7/*.png" >}}
 Eu faço duplo clique na minha imagem Mediawiki.
 {{< gallery match="images/8/*.png" >}}
-Depois clique em "Configurações avançadas" e ative o "Reinício automático" aqui também. Eu seleciono o separador "Volume" e clico em "Adicionar pasta". Lá eu crio uma nova pasta com este caminho de montagem "/var/wwww/html/images".
+Depois clique em "Configurações avançadas" e ative o "Reinício automático" aqui também. Selecciono o separador "Volume" e clico em "Adicionar pasta". Lá eu crio uma nova pasta com este caminho de montagem "/var/wwww/html/images".
 {{< gallery match="images/9/*.png" >}}
 Eu atribuo portos fixos para o contentor "MediaWiki". Sem portas fixas, pode ser que o "servidor MediaWiki" seja executado em uma porta diferente após um reinício.
 {{< gallery match="images/10/*.png" >}}

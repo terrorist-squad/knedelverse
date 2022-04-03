@@ -41,3 +41,4 @@ xdotool key "Return"                         ## Internetadresse aufrufen
 ```
 
 ## Proč potřebujete xclip???
+Pomocí nástroje xdotools/"ctrl c" můžete obsah zkopírovat do mezipaměti a přečíst nebo zpracovat pomocí skriptu xclip v bashi.

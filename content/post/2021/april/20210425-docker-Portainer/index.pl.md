@@ -7,22 +7,22 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 
 ## Krok 1: Przygotuj Synology
-Najpierw należy aktywować logowanie SSH na serwerze DiskStation. W tym celu należy wejść w "Panel sterowania" > "Terminal
+Najpierw należy aktywować logowanie SSH na serwerze DiskStation. W tym celu należy przejść do "Panelu sterowania" > "Terminal
 {{< gallery match="images/1/*.png" >}}
-Następnie można zalogować się poprzez "SSH", podany port i hasło administratora (użytkownicy Windows używają Putty lub WinSCP).
+Następnie można zalogować się przez "SSH", podany port i hasło administratora (użytkownicy systemu Windows używają Putty lub WinSCP).
 {{< gallery match="images/2/*.png" >}}
-Loguję się przez Terminal, winSCP lub Putty i zostawiam tę konsolę otwartą na później.
+Loguję się za pomocą Terminala, winSCP lub Putty i zostawiam tę konsolę otwartą na później.
 ## Krok 2: Utwórz folder portainer
-Tworzę nowy katalog o nazwie "portainer" w katalogu Docker.
+W katalogu Docker tworzę nowy katalog o nazwie "portainer".
 {{< gallery match="images/3/*.png" >}}
-Następnie przechodzę do katalogu portainer za pomocą konsoli i tworzę tam folder i nowy plik o nazwie "portainer.yml".
+Następnie za pomocą konsoli przechodzę do katalogu portainer i tworzę w nim folder oraz nowy plik o nazwie "portainer.yml".
 {{< terminal >}}
 cd /volume1/docker/portainer
 mkdir portainer_data
 vim portainer.yml
 
 {{</ terminal >}}
-Oto zawartość pliku "portainer.yml":
+Poniżej znajduje się zawartość pliku "portainer.yml":
 ```
 version: '3'
 
@@ -39,14 +39,14 @@ services:
       - ./portainer_data:/data
 
 ```
-Więcej przydatnych obrazów Dockera do użytku domowego można znaleźć w dziale [Dockerverse]({{< ref "dockerverse" >}} "Dockerverse").
+Więcej przydatnych obrazów Dockera do użytku domowego można znaleźć w sekcji [Dockerverse]({{< ref "dockerverse" >}} "Dockerverse").
 ## Krok 3: Rozpoczęcie pracy z portmonetką
-W tym kroku mogę również dobrze wykorzystać konsolę. Uruchamiam serwer portainer poprzez Docker Compose.
+W tym kroku mogę również dobrze wykorzystać konsolę. Uruchamiam serwer portainer za pomocą aplikacji Docker Compose.
 {{< terminal >}}
 sudo docker-compose -f portainer.yml up -d
 
 {{</ terminal >}}
-Następnie mogę wywołać mój serwer Portainer z IP stacji dysków i przypisanym portem z "Kroku 2". Wprowadzam moje hasło administratora i wybieram wariant lokalny.
+Następnie mogę wywołać mój serwer Portainer, podając adres IP stacji dysków i przypisany port z "Kroku 2". Wprowadzam hasło administratora i wybieram wariant lokalny.
 {{< gallery match="images/4/*.png" >}}
 Jak widać, wszystko działa świetnie!
 {{< gallery match="images/5/*.png" >}}

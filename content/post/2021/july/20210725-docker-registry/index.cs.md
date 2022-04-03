@@ -12,7 +12,7 @@ Na serveru vytvořím nový adresář s názvem "docker-registry":
 mkdir docker-registry
 
 {{</ terminal >}}
-Pak přejdu do adresáře docker-registry ("cd docker-registry") a vytvořím nový soubor s názvem "registry.yml" s následujícím obsahem:
+Poté přejdu do adresáře docker-registry ("cd docker-registry") a vytvořím nový soubor s názvem "registry.yml" s následujícím obsahem:
 ```
 version: '3'
 
@@ -62,3 +62,4 @@ docker push 192.168.178.61:5000/mein-image:version
 docker pull 192.168.178.61:5000/mein-image:version
 
 {{</ terminal >}}
+

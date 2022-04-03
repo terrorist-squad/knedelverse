@@ -92,3 +92,4 @@ docker run -it -p 9292:9292 my-dashboard:latest
 {{</ terminal >}}
 そして、このような姿になりました。
 {{< gallery match="images/3/*.png" >}}
+これが優れた情報システムの基本です。色、スクリプト、ウィジェットのすべてをカスタマイズすることができます。

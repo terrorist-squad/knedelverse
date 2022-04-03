@@ -12,7 +12,7 @@ Tento príkaz obsahuje všetko, čo potrebujem pre svoj projekt:
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.2.0/aio/deploy/recommended.yaml
 
 {{</ terminal >}}
-Keďže pridružená služba nie je prístupná zvonku, uzol ".spec.type" sa musí zmeniť.
+Keďže pridružená služba nie je prístupná zvonku, uzol ".spec.type" sa musí ešte zmeniť.
 {{< terminal >}}
 kubectl -n kube-system edit service kubernetes-dashboard --namespace=kubernetes-dashboard
 

@@ -33,10 +33,11 @@ services:
     restart: always
 
 ```
-Este arquivo é iniciado através do Docker Compose:
+Este ficheiro é iniciado através do Docker Compose:
 {{< terminal >}}
 ocker-compose -f compose-file.yml up -d
 
 {{</ terminal >}}
 
 {{< gallery match="images/2/*.png" >}}
+

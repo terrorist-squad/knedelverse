@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["logitech", "synology", "diskstation", "nas", "sound-system", "multiroom"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/september/20210905-logitech-mediaserver/index.hu.md"
 +++
-Ebben a bemutatóban megtanulhatja, hogyan telepíthet egy Logitech Media Server-t a Synology DiskStationre.
+Ebben a bemutatóban megtanulhatja, hogyan telepíthet egy Logitech médiaszerver a Synology DiskStationre.
 {{< gallery match="images/1/*.jpg" >}}
 
 ## 1. lépés: A Logitech Media Server mappa előkészítése
@@ -32,3 +32,4 @@ Végül megadok egy környezeti változót. A "TZ" változó az "Európa/Berlin"
 {{< gallery match="images/7/*.png" >}}
 Ezek után a beállítások után a Logitechmediaserver-Server elindítható! Ezután a Logitechmediaserver-t a Synology disctation Ip címén és a hozzárendelt porton keresztül hívhatja, például http://192.168.21.23:9000 .
 {{< gallery match="images/8/*.png" >}}
+

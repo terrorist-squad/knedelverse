@@ -1,20 +1,20 @@
 +++
 date = "2020-02-27"
-title = "Wspaniałe rzeczy z kontenerami: Automatyczne tagowanie plików PDF za pomocą Calibre i Dockera"
+title = "Wspaniałe rzeczy z kontenerami: Automatyczne oznaczanie plików PDF za pomocą Calibre i Dockera"
 difficulty = "level-1"
 tags = ["calibre", "calibre-web", "ebook", "epub", "linux", "pdf", "Synology"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200227-calibre-heise-ix-script/index.pl.md"
 +++
-Dodawanie właściwych meta-info do plików PDF może być często żmudne. Ja sam sortuję pobrane pliki PDF z mojego konta subskrypcyjnego Heise IX do mojej prywatnej biblioteki Calibre.
+Dodawanie właściwych metainformacji do plików PDF może być często żmudne. Ja sam sortuję pobrane pliki PDF z mojego konta subskrypcji Heise IX do mojej prywatnej biblioteki Calibre.
 {{< gallery match="images/1/*.png" >}}
-Ponieważ proces ten powtarza się co miesiąc, wymyśliłem następującą konfigurację. Przeciągam tylko nowe pliki PDF do mojej biblioteki.
+Ponieważ proces ten powtarza się co miesiąc, wymyśliłem następującą konfigurację. Do biblioteki przeciągam tylko nowe pliki PDF.
 {{< gallery match="images/2/*.png" >}}
-Stworzyłem kontener, który pobiera moją bibliotekę Calibre jako wolumin (-v ...:/books). W tym kontenerze mam zainstalowane następujące pakiety:
+Utworzyłem kontener, który pobiera moją bibliotekę Calibre jako wolumin (-v ...:/books). W tym kontenerze zainstalowałem następujące pakiety:
 {{< terminal >}}
 apt-get update && apt-get install -y xpdf calibre
 
 {{</ terminal >}}
-Teraz mój skrypt wyszukuje nowe pliki PDF, które pasują do wzorca "IX*.pdf". Z każdego pliku PDF, pierwsze 5 stron jest eksportowane jako tekst. Następnie usuwane są wszystkie słowa, które pojawiają się na tej liście słów: https://raw.githubusercontent.com/ChristianKnedel/heise-ix-reader-for-calibre/master/blacklist.txt
+Teraz mój skrypt wyszukuje nowe pliki PDF, które pasują do wzorca "IX*.pdf". Z każdego pliku PDF pierwsze 5 stron jest eksportowanych jako tekst. Następnie usuwane są wszystkie słowa, które pojawiają się na tej liście: https://raw.githubusercontent.com/ChristianKnedel/heise-ix-reader-for-calibre/master/blacklist.txt
 ```
 #!/bin/bash
 export LANG=C.UTF-8
@@ -44,3 +44,4 @@ done
 ```
 Za pomocą polecenia "calibredb set_metadata" ustawiam wszystko inne jako tagi. Wynik wygląda następująco:
 {{< gallery match="images/3/*.png" >}}
+Skrypt jest również dostępny w serwisie Github: https://github.com/ChristianKnedel/heise-ix-reader-for-calibre .

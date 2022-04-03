@@ -44,3 +44,4 @@ done
 ```
 Cu comanda "calibredb set_metadata" am setat toate celelalte ca etichete. Rezultatul arată în felul următor:
 {{< gallery match="images/3/*.png" >}}
+Scriptul este de asemenea disponibil pe Github: https://github.com/ChristianKnedel/heise-ix-reader-for-calibre .

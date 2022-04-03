@@ -1,6 +1,6 @@
 +++
 date = "2021-02-01"
-title = "Grandes cosas con contenedores: Pihole en el Synology DiskStation"
+title = "Grandes cosas con contenedores: Pihole en el Synology Diskstation"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "dns", "adblocker", "fritzbox"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/february/20210201-docker-pihole/index.es.md"

@@ -42,7 +42,7 @@ Teraz zadáme príkaz "sudo fdisk -e /dev/disk2" a potom zadajte "f 1", "write" 
 {{< gallery match="images/6/*.png" >}}
 
 ## Krok 5: Kopírovanie údajov
-Teraz musím stiahnuť ESXi-ISO: https://www.vmware.com/de/try-vmware.html. Potom môžem pripojiť ESXi-ISO a skopírovať obsah na kľúč USB.
+Teraz musím stiahnuť ESXi-ISO: https://www.vmware.com/de/try-vmware.html. Potom môžem pripojiť ESXi-ISO a skopírovať obsah na USB kľúč.
 {{< gallery match="images/7/*.png" >}}
 Keď je všetko skopírované, vyhľadám súbor "ISOLINUX.CFG" a premenujem ho na "SYSLINUX.CFG". Do riadku "APPEND -c boot.cfg" pridám aj "-p 1".
 {{< gallery match="images/8/*.png" >}}

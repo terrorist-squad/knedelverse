@@ -11,3 +11,4 @@ Il servizio ascolta la porta "30000" per me. Quando tutto ha funzionato, richiam
 {{< gallery match="images/2/*.*" >}}
 Quando accedo per la prima volta, mi viene chiesta la futura password "admin". È stato così! Ora posso organizzare i progetti. Ora è possibile installare un runner di Gitlab.  
 {{< gallery match="images/3/*.*" >}}
+

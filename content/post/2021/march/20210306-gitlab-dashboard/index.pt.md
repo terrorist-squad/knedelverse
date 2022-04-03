@@ -5,7 +5,7 @@ difficulty = "level-3"
 tags = ["git", "gitlab", "issueboard", "issues", "javascript", "wallboard"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210306-gitlab-dashboard/index.pt.md"
 +++
-Instalação com Raspberry Noobs é uma brincadeira de crianças! Tudo que você precisa é um RaspberryZeroW e um cartão SD em branco.
+Instalação com Raspberry Noobs é uma brincadeira de criança! Tudo que você precisa é um RaspberryZeroW e um cartão SD em branco.
 ## Passo 1: Instalador Noobs
 Faça o download do instalador Noobs em https://www.raspberrypi.org/downloads/noobs/.
 ## Passo 2: Cartão SD

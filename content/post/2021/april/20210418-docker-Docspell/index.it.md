@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Docspell è un sistema di gestione dei documenti per la Synology DiskStation. Attraverso Docspell, i documenti possono essere indicizzati, cercati e trovati molto più velocemente. Oggi mostro come installare un servizio Docspell sulla Synology disk station.
 ## Passo 1: Preparare Synology
-Innanzitutto, il login SSH deve essere attivato sulla DiskStation. Per farlo, andate nel "Pannello di controllo" > "Terminale
+In primo luogo, il login SSH deve essere attivato sulla DiskStation. Per farlo, andate nel "Pannello di controllo" > "Terminale
 {{< gallery match="images/1/*.png" >}}
 Poi si può accedere tramite "SSH", la porta specificata e la password dell'amministratore (gli utenti Windows usano Putty o WinSCP).
 {{< gallery match="images/2/*.png" >}}
@@ -34,3 +34,4 @@ docker-compose up -d
 {{</ terminal >}}
 Dopo qualche minuto, posso chiamare il mio server Docspell con l'IP della stazione disco e la porta assegnata/7878.
 {{< gallery match="images/5/*.png" >}}
+La ricerca di documenti funziona bene. Trovo un peccato che i testi nelle immagini non siano indicizzati. Con Papermerge potete anche cercare testi nelle immagini.

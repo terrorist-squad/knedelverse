@@ -21,7 +21,7 @@ forward-socks5 / 127.0.0.1:9050 .
 ```
 Veja:
 {{< gallery match="images/1/*.png" >}}
-Para garantir que o Tor e o Privoxy também sejam executados na inicialização do sistema, ainda temos que inseri-los no autostart:
+Para garantir que o Tor e o Privoxy também sejam executados na inicialização do sistema, ainda precisamos inseri-los no autostart:
 {{< terminal >}}
 sudo update-rc.d tor defaults
 sudo update-rc.d privoxy defaults

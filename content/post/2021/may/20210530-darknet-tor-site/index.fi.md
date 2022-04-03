@@ -65,5 +65,5 @@ sudo service tor restart
 {{</ terminal >}}
 
 ## Valmis
-Kohdassa "/var/lib/tor/hidden_servic/hostname" on Darknet/Onion-osoitteeni. Nyt kaikki /var/www/html:n alla oleva sisältö on saatavilla Darkentissa.
+Kohdassa "/var/lib/tor/hidden_servic/hostname" on Darknet/Onion-osoitteeni. Nyt kaikki /var/www/html:n alla oleva sisältö on käytettävissä Darkentissa.
 {{< gallery match="images/5/*.png" >}}

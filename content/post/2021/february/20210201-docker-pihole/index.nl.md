@@ -1,6 +1,6 @@
 +++
 date = "2021-02-01"
-title = "Geweldige dingen met containers: Pihole op het Synology DiskStation"
+title = "Geweldige dingen met containers: Pihole op het Synology Diskstation"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "dns", "adblocker", "fritzbox"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/february/20210201-docker-pihole/index.nl.md"
@@ -50,7 +50,7 @@ De container kan nu worden gestart:
 sudo docker-compose up -d
 
 {{</ terminal >}}
-Ik roep de Pihole server op met het Synology IP adres en mijn container poort en log in met het WEBPASSWORD wachtwoord.
+Ik bel de Pihole server met het Synology IP adres en mijn container poort en log in met het WEBPASSWORD wachtwoord.
 {{< gallery match="images/4/*.png" >}}
 Nu kan het DNS adres worden gewijzigd in de Fritzbox onder "Thuisnetwerk" > "Netwerk" > "Netwerk Instellingen".
 {{< gallery match="images/5/*.png" >}}

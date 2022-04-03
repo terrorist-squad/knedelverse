@@ -34,3 +34,4 @@ docker-compose up -d
 {{</ terminal >}}
 După câteva minute, pot apela serverul meu Docspell cu IP-ul stației de disc și portul alocat/7878.
 {{< gallery match="images/5/*.png" >}}
+Căutarea de documente funcționează bine. Mi se pare păcat că textele din imagini nu sunt indexate. Cu Papermerge puteți, de asemenea, să căutați texte în imagini.

@@ -78,7 +78,7 @@ sudo exportfs -ra
 
 {{</ terminal >}}
 >
-##  Miten voin liittää NFS:n?
+##  Miten voin asentaa NFS:n?
 Voin asentaa aseman seuraavasti:
 {{< terminal >}}
 sudo mount -t nfs SERVER-1-IP:/media/usb-platte/nfsshare /mnt/nfs
@@ -125,7 +125,7 @@ Nyt Kubenetes master voidaan alustaa.
 sudo kubeadm init --token-ttl=0 --pod-network-cidr=10.244.0.0/16
 
 {{</ terminal >}}
-Kun alustaminen on onnistunut, hyväksyn asetukset. Muistan näytetyn "kubeadm join" -komennon työläissolmujen yhdistämiseksi.
+Hyväksyn asetukset onnistuneen alustuksen jälkeen. Muistan näytetyn "kubeadm join" -komennon työläissolmujen yhdistämiseksi.
 {{< terminal >}}
 mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
@@ -148,7 +148,7 @@ Nyt tarvitsemme "kubeadm join" -komennon Kubenetesin alustuksesta. Syötän täm
 kubeadm join master-ip:port --token r4fddsfjdsjsdfomsfdoi --discovery-token-ca-cert-hash sha256:1adea3bfxfdfddfdfxfdfsdffsfdsdf946da811c27d1807aa
 
 {{</ terminal >}}
-Jos nyt annan komennon "kubectl get nodes" palvelimelta 1 uudelleen, nämä solmut näkyvät todennäköisesti tilassa "Not Ready". Tässäkin tapauksessa on kyse verkko-ongelmasta, joka myös isännällä oli. Suoritan edellisen komennon uudelleen, mutta tällä kertaa lisään "f"-merkin force.
+Jos annan nyt komennon "kubectl get nodes" palvelimelta 1 uudelleen, nämä solmut näkyvät todennäköisesti tilassa "Not Ready". Tässäkin tapauksessa on kyse verkko-ongelmasta, joka myös isännällä oli. Suoritan edellisen komennon uudelleen, mutta tällä kertaa lisään "f"-merkin force.
 {{< terminal >}}
 kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/2140ac876ef134e0ed5af15c65e414cf26827915/Documentation/kube-flannel.yml
 
@@ -208,3 +208,4 @@ kubectl delete deplyments my-nginx
 {{</ terminal >}}
 >Katso:
 {{< gallery match="images/10/*.png" >}}
+

@@ -9,5 +9,6 @@ Här visar jag hur jag installerade Gitlab och en Gitlab runner på min Synology
 {{< gallery match="images/1/*.*" >}}
 Tjänsten lyssnar på port "30000" för mig. När allt har fungerat kallar jag mitt Gitlab med http://SynologyHostName:30000 och ser den här bilden:
 {{< gallery match="images/2/*.*" >}}
-När jag loggar in för första gången blir jag ombedd att ange det framtida lösenordet "admin". Det var det! Nu kan jag organisera projekt. Nu kan en Gitlab runner installeras.  
+När jag loggar in för första gången ombeds jag att ange det framtida lösenordet "admin". Det var det! Nu kan jag organisera projekt. Nu kan en Gitlab runner installeras.  
 {{< gallery match="images/3/*.*" >}}
+

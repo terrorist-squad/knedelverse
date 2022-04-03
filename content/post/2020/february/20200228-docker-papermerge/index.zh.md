@@ -52,5 +52,5 @@ Papermerge分析了文件和图像的文本。Papermerge使用了一个OCR/"光�
 {{< gallery match="images/9/*.png" >}}
 我创建了一个名为 "Everything with Lorem "的文件夹来测试自动分配文件。然后我在菜单项 "自动 "中点击了一个新的识别模式。
 {{< gallery match="images/10/*.png" >}}
-所有包含 "Lorem "一词的新文件都被放置在 "Everything with Lorem "文件夹中，并标记为 "has-lorem"。在标签中使用逗号很重要，否则标签将不会被设置。如果你上传相应的文件，它将被标记和分类。
+所有包含 "Lorem "一词的新文件都被放置在 "Everything with Lorem "文件夹中，并标记为 "has-lorem"。在标签中使用逗号很重要，否则标签将不会被设置。如果你上传一个文件，它将被标记和分类。
 {{< gallery match="images/11/*.png" >}}

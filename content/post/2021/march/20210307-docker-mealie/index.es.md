@@ -40,11 +40,11 @@ Asigno puertos fijos para el contenedor "Mealie". Sin puertos fijos, podría ser
 {{< gallery match="images/5/*.png" >}}
 Por último, introduzco dos variables de entorno. La variable "db_type" es el tipo de base de datos y "TZ" es la zona horaria "Europa/Berlín".
 {{< gallery match="images/6/*.png" >}}
-Después de estos ajustes, el Servidor Mealie puede iniciarse. Después, puede llamar a Mealie a través de la dirección Ip de la estación Synology y el puerto asignado, por ejemplo http://192.168.21.23:8096 .
+Después de estos ajustes, el Servidor Mealie puede iniciarse. Después puede llamar a Mealie a través de la dirección Ip de la estación Synology y el puerto asignado, por ejemplo http://192.168.21.23:8096 .
 {{< gallery match="images/7/*.png" >}}
 
 ## ¿Cómo funciona Mealie?
-Si muevo el ratón sobre el botón "Más" de la derecha/abajo y luego hago clic en el símbolo "Cadena", puedo introducir una url. A continuación, la aplicación Mealie busca automáticamente la información meta y de esquema necesaria.
+Si muevo el ratón sobre el botón "más" de la derecha/abajo y luego hago clic en el símbolo de la "cadena", puedo introducir una url. A continuación, la aplicación Mealie busca automáticamente la información meta y de esquema necesaria.
 {{< gallery match="images/8/*.png" >}}
 La importación funciona muy bien (he utilizado estas funciones con urls de Chef, Food
 {{< gallery match="images/9/*.png" >}}
@@ -52,7 +52,7 @@ En el modo de edición, también puedo añadir una categoría. Es importante que
 {{< gallery match="images/10/*.png" >}}
 
 ## Características especiales
-Me he dado cuenta de que las categorías del menú no se actualizan automáticamente. Tienes que ayudar aquí con una recarga del navegador.
+He observado que las categorías del menú no se actualizan automáticamente. Tienes que ayudar aquí con una recarga del navegador.
 {{< gallery match="images/11/*.png" >}}
 
 ## Otras características
@@ -85,3 +85,4 @@ done < clear.txt
 ```
 Ahora también puedes acceder a las recetas sin conexión:
 {{< gallery match="images/15/*.png" >}}
+Conclusión: Si le dedicas algo de tiempo a Mealie, puedes crear una gran base de datos de recetas. Mealie está en constante desarrollo como proyecto de código abierto y puede encontrarse en la siguiente dirección: https://github.com/hay-kot/mealie/

@@ -1,11 +1,11 @@
 +++
-date = "2021-04-04"
+date = "2021-04-0q"
 title = "Kul stvari z družbo Atlassian: Pimp my Bamboo Monitor"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-Bamboo-monitor/index.sl.md"
 +++
-Kako lahko ustvarim nadzornik gradnje za Bamboo, Jenkins ali Gitlab? Do večera bom to ugotovil! Napisal sem že podobno [Vadnica za Gitlab-Issue-Boards]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Vadnica za Gitlab-Issue-Boards").
+Kako lahko ustvarim nadzornik gradnje za Bamboo, Jenkins ali Gitlab? Do večera bom to ugotovil! Napisal sem že podobno [Učna navodila za table z vprašanji Gitlab]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Učna navodila za table z vprašanji Gitlab").
 {{< gallery match="images/1/*.jpg" >}}
 Osnova za to vadnico je Raspberry Imager in operacijski sistem "Raspberry Pi OS Lite". Po namestitvi operacijskega sistema lahko kartico SD vstavite v Raspberry. V mojem primeru je to Raspberry Pi Zero.
 {{< gallery match="images/2/*.*" >}}
@@ -220,10 +220,11 @@ NODM_X_OPTIONS='-nolisten tcp'
 ... usw
 
 ```
-Sistem lahko nato ponovno zaženete.
+Sistem lahko nato znova zaženete.
 {{< terminal >}}
 sudo reboot
 
 {{</ terminal >}}
 
 ## Pripravljen
+Vsako ploščo je treba ponovno zagnati enkrat na dan. Za to sem ustvaril cron.

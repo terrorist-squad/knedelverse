@@ -158,3 +158,4 @@ Jag har också sparat Postgres-bilderna.
 ## Åtgärd 3: Skapa ett USB-installationsverktyg
 Jag har säkerhetskopierat min dokumentation, alla installationsarkiv, Postgres-datakataloger och konfigurationer till ett USB-minne. Som jag sa är backupen av databasen faktiskt det viktigaste eftersom den aktiverade licensen också finns i databasen.
 {{< gallery match="images/1/*.png" >}}
+

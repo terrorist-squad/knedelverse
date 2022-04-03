@@ -1,30 +1,30 @@
 +++
 date = "2021-05-30"
-title = "Synology DiskStationのUdemyダウンローダー"
+title = "Synology DiskStation上のUdemyダウンローダー"
 difficulty = "level-2"
 tags = ["udemy", "download", "synology", "diskstation", "udemydl"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/may/20210530-udemydl/index.ja.md"
 +++
-このチュートリアルでは、「udemy」のコースをダウンロードしてオフラインで使用する方法を学びます。
+このチュートリアルでは、オフラインで使用するために「udemy」コースをダウンロードする方法について説明します。
 ## ステップ1：Udemyフォルダの準備
-Dockerのディレクトリに「udemy」という新しいディレクトリを作ります。
+Dockerディレクトリに「udemy」というディレクトリを新規に作成します。
 {{< gallery match="images/1/*.png" >}}
 
 ## ステップ2：Ubuntuイメージのインストール
-Synology Dockerのウィンドウで「登録」タブをクリックし、「ubunutu」を検索します。ubunutu」というDockerイメージを選択して、「latest」というタグをクリックします。
+Synology Dockerウィンドウの「登録」タブをクリックし、「ubunutu」を検索しています。Dockerイメージ「ubunutu」を選択し、「latest」タグをクリックしています。
 {{< gallery match="images/2/*.png" >}}
-私はUbuntuのイメージをダブルクリックする。そして、「詳細設定」をクリックして、ここでも「自動再起動」を有効にします。
+Ubuntuのイメージをダブルクリックする。そして「詳細設定」をクリックし、ここでも「自動再起動」を有効にしています。
 {{< gallery match="images/3/*.png" >}}
-ボリューム "タブを選択し、"フォルダの追加 "をクリックします。そこで、「/download」というマウントパスで新しいフォルダを作成します。
+ボリューム」タブを選択し、「フォルダの追加」をクリックしています。そこに、このマウントパス「/download」で新しいフォルダを作成します。
 {{< gallery match="images/4/*.png" >}}
-これで、コンテナを起動することができます。
+これで、コンテナを起動することができます
 {{< gallery match="images/5/*.png" >}}
 
 ## ステップ4：Udemy Downloaderのインストール
-Synology Dockerのウィンドウで "Container "をクリックし、私の "Udemy container "をダブルクリックします。そして、「ターミナル」タブをクリックし、以下のコマンドを入力します。
+Synology Dockerウィンドウで「コンテナ」をクリックし、「Udemyコンテナ」をダブルクリックします。そして、「ターミナル」タブをクリックし、以下のコマンドを入力します。
 {{< gallery match="images/6/*.png" >}}
 
-## コマンドです。
+## コマンドを使用します。
 
 {{< terminal >}}
 apt-get update
@@ -36,13 +36,13 @@ cd udemy-dl-master
 pip3 pip install -r requirements.txt
 
 {{</ terminal >}}
-スクリーンショットです。
+スクリーンショット
 {{< gallery match="images/7/*.png" >}}
 
-## ステップ4：Udemyのダウンローダーを運用する
-あとは、「アクセストークン」が必要です。FirefoxブラウザでUdemyにアクセスし、Firebugを開きます。Webストレージ」のタブをクリックして、「アクセストークン」をコピーします。
+## ステップ4：Udemyダウンローダーを稼働させる
+あとは「アクセストークン」が必要です。私はFirefoxブラウザでUdemyにアクセスし、Firebugを開きます。Webストレージ」タブをクリックし、「アクセストークン」をコピーしています。
 {{< gallery match="images/8/*.png" >}}
-私はコンテナに新しいファイルを作成します。
+コンテナ内に新しいファイルを作成します。
 {{< terminal >}}
 echo "access_token=859wjuhV7PMLsZu15GOWias9A0iFnRjkL9pJXOv2" > /download/cookie.txt
 
@@ -53,5 +53,6 @@ cd /download
 python3 udemy-dl-master/udemy-dl.py -k /download/cookie.txt https://www.udemy.com/course/ansible-grundlagen/learn/
 
 {{</ terminal >}}
-見てください。
+ご覧ください。
 {{< gallery match="images/9/*.png" >}}
+

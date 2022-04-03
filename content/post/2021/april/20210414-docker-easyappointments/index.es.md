@@ -77,7 +77,7 @@ El consumidor final también puede elegir el servicio y el proveedor de servicio
 {{< gallery match="images/4/*.png" >}}
 
 ## Horas de trabajo y descansos
-El horario de servicio general se puede configurar en "Ajustes" > "Lógica empresarial". Sin embargo, el horario de trabajo de los proveedores/usuarios de servicios también puede modificarse en el "Plan de trabajo" del usuario.
+El horario de servicio general se puede configurar en "Ajustes" > "Lógica empresarial". Sin embargo, el horario de trabajo de los proveedores de servicios/usuarios también puede modificarse en el "Plan de trabajo" del usuario.
 {{< gallery match="images/5/*.png" >}}
 
 ## Resumen de reservas y agenda
@@ -85,5 +85,5 @@ El calendario de citas hace visibles todas las reservas. Por supuesto, las reser
 {{< gallery match="images/6/*.png" >}}
 
 ## Ajustes de color o lógicos
-Si copias el directorio "/app/www" y lo incluyes como un "volumen", entonces puedes adaptar las hojas de estilo y la lógica como quieras.
+Si copias el directorio "/app/www" y lo incluyes como "volumen", puedes adaptar las hojas de estilo y la lógica como quieras.
 {{< gallery match="images/7/*.png" >}}

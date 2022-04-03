@@ -5,7 +5,7 @@ difficulty = "level-4"
 tags = ["kubernetes", "nfs", "filer", "cloud", "homelab", "pods", "nodes", "raspberry-pi", "raspberry"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210620-pi-kubenetes-cloud/index.sl.md"
 +++
-Danes nameščam novo gručo Kubenetes in čaka me veliko dela!
+Danes nameščam novo gručo Kubenetes in veliko je treba postoriti!
 {{< gallery match="images/1/*.jpg" >}}
 Naročil sem te komponente zanj:
 - 1x WDBU6Y0050BBK WD Elements prenosni 5TB: https://www.reichelt.de/wd-elements-portable-5tb-wdbu6y0050bbk-p270625.html?
@@ -52,7 +52,7 @@ V datoteko "/etc/fstab" sem vnesel nov datotečni sistem, kot sledi:
 /dev/sda1 /media/usb-platte ext4 defaults 0 2
 
 ```
-Nastavitev lahko preverite s "sudo mount -a". Zdaj mora biti disk USB nameščen pod "/media/usb-disk".
+Nastavitev lahko preverite s "sudo mount -a". Sedaj mora biti disk USB nameščen pod "/media/usb-disk".
 ##  Namestitev sistema NFS
 Ta paket je potreben za sistem NFS:
 {{< terminal >}}
@@ -156,7 +156,7 @@ kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/2140ac876ef134
 >Po tem so vsa vozlišča pripravljena za uporabo.
 {{< gallery match="images/6/*.png" >}}
 
-## Majhna testna namestitev (strežnik 1/Kubenetes-Master)
+## Majhen testni del (strežnik 1/Kubenetes-Master)
 Sam napišem majhno testno namestitev in preverim funkcije. Ustvarim datoteko "nginx.yml" z naslednjo vsebino:
 ```
 apiVersion: apps/v1
@@ -208,3 +208,4 @@ kubectl delete deplyments my-nginx
 {{</ terminal >}}
 >Glejte:
 {{< gallery match="images/10/*.png" >}}
+

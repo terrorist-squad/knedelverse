@@ -1,5 +1,5 @@
 +++
-date = "2021-04-04"
+date = "2021-04-0q"
 title = "Coola saker med Atlassian: Pimp my Bamboo Monitor"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Hur kan jag skapa en byggövervakare för Bamboo, Jenkins eller Gitlab? Jag kommer att komma på det i kväll! Jag har redan skrivit ett liknande [Handledning för Gitlab-Issue-Boards]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Handledning för Gitlab-Issue-Boards").
 {{< gallery match="images/1/*.jpg" >}}
-Grunden för den här handledningen är Raspberry Imager och operativsystemet "Raspberry Pi OS Lite". Efter installationen av operativsystemet kan SD-kortet sättas in i Raspberry. I mitt fall är det en Raspberry Pi Zero.
+Grunden för den här handledningen är Raspberry Imager och operativsystemet "Raspberry Pi OS Lite". Efter att ha installerat operativsystemet kan SD-kortet sättas in i Raspberry. I mitt fall är det en Raspberry Pi Zero.
 {{< gallery match="images/2/*.*" >}}
 
 ## Steg 1: Installera Matchbox/Window Manager
@@ -17,7 +17,7 @@ sudo apt-get install xorg nodm matchbox-window-manager uzbl xinit unclutter vim
 
 {{</ terminal >}}
 
-## Steg 2: Jag skapar en dashboardanvändare
+## Steg 2: Jag skapar en dashboard-användare
 Med följande kommando skapar jag en ny användare som heter "dashboard":
 {{< terminal >}}
 sudo adduser dashboard
@@ -32,7 +32,7 @@ sudo su dashboard
 {{</ terminal >}}
 
 ##  3.1. ) Knappar/Funktion
-Jag vill att min Raspberry ska kunna användas i kioskläge. För att göra detta lagrar jag två tangentkommandon: Ctrl Alt X för terminalen och Alt C för att stänga terminalen. I terminalen kan du fråga efter den aktuella IP-adressen med ifconfig, stänga av hallonet med sudo shutdown -h now etc.....
+Jag vill att min Raspberry ska kunna användas i kioskläge. För att göra detta lagrar jag två tangentkommandon: Ctrl Alt X för terminalen och Alt C för att stänga terminalen. I terminalen kan du fråga efter den aktuella IP:n med ifconfig, stänga av hallonet med sudo shutdown -h now etc.....
 {{< terminal >}}
 cd ~
 mkdir .matchbox
@@ -68,7 +68,7 @@ sudo chmod 755 ~/.xsession
 
 {{</ terminal >}}
 
-##  3.3. ) Samkonfiguration av gränssnitt
+##  3.3. ) Samkonfigurering av gränssnitt
 Följande rader konfigurerar webbgränssnittet. Webbläsaren är maximerad och statusfältet är dolt.
 {{< terminal >}}
 vim ~/uzbl.conf
@@ -227,3 +227,4 @@ sudo reboot
 {{</ terminal >}}
 
 ## Redo
+Varje dasboard ska startas om en gång om dagen. Jag har skapat en cron för detta.

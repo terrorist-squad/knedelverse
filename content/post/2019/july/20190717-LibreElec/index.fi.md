@@ -19,3 +19,4 @@ Tämän jälkeen asennus on valmis ja käynnistettävissä
 "{{< gallery match="images/4/*.jpg" >}}"
 Nyt voit liittää tämän MediaPc:n ulkoisiin lähteisiin, kuten NAS:iin, tai asentaa sovelluksia, kuten Youtube. Pidä hauskaa!   
 "{{< gallery match="images/5/*.jpg" >}}"
+Kuten jo kirjoitettu, voit käyttää myös television kaukosäädintä CEC-ohjaimen kautta.

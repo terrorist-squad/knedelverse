@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 A MediaWiki egy PHP-alapú wiki rendszer, amely nyílt forráskódú termékként ingyenesen elérhető. Ma megmutatom, hogyan lehet telepíteni egy MediaWiki szolgáltatást a Synology lemezállomáson.
 ## Lehetőség szakemberek számára
-Tapasztalt Synology felhasználóként természetesen bejelentkezhet SSH-val, és telepítheti a teljes telepítést Docker Compose fájlon keresztül.
+Tapasztalt Synology felhasználóként természetesen bejelentkezhet SSH-n keresztül, és telepítheti a teljes telepítést Docker Compose fájlon keresztül.
 ```
 version: '3'
 services:
@@ -48,9 +48,9 @@ Ezután létre kell hozni egy adatbázist. A Synology Docker ablakban a "Regiszt
 {{< gallery match="images/2/*.png" >}}
 A kép letöltése után a kép képként elérhető. A Docker 2 állapotot különböztet meg, a konténer "dinamikus állapotát" és a képet (rögzített állapot). Mielőtt létrehoznánk egy konténert a képből, néhány beállítást el kell végezni. Duplán kattintok a mariadb képemre.
 {{< gallery match="images/3/*.png" >}}
-Ezután a "Speciális beállítások" menüpontra kattintok, és aktiválom az "Automatikus újraindítás" opciót. Kiválasztom a "Kötet" lapot, és a "Mappa hozzáadása" gombra kattintok. Ott létrehozok egy új adatbázis mappát ezzel a mount útvonallal "/var/lib/mysql".
+Ezután a "Speciális beállítások" gombra kattintok, és aktiválom az "Automatikus újraindítás" opciót. Kiválasztom a "Kötet" lapot, és a "Mappa hozzáadása" gombra kattintok. Ott létrehozok egy új adatbázis mappát ezzel a mount útvonallal "/var/lib/mysql".
 {{< gallery match="images/4/*.png" >}}
-A "Portbeállítások" alatt az összes port törlésre kerül. Ez azt jelenti, hogy kiválasztom a "3306" portot, és a "-" gombbal törlöm.
+A "Portbeállítások" alatt az összes port törlődik. Ez azt jelenti, hogy kiválasztom a "3306" portot, és a "-" gombbal törlöm.
 {{< gallery match="images/5/*.png" >}}
 {{<table "table table-striped table-bordered">}}
 |Változó neve|Érték|Mi ez?|
@@ -77,5 +77,5 @@ Ezenkívül még létre kell hozni egy "linket" a "mariadb" konténerhez. A "Lin
 {{< gallery match="images/11/*.png" >}}
 Végül megadok egy "TZ" környezeti változót "Europe/Berlin" értékkel.
 {{< gallery match="images/12/*.png" >}}
-A konténer most már elindítható. A Mediawiki szervert a Synology IP-címével és a konténerportommal hívom. Az Adatbázis kiszolgáló alatt megadom az adatbázis-konténer alias nevét. A 2. lépésben megadott adatbázis nevét, felhasználónevét és jelszavát is megadom.
+A konténer most már elindítható. A Mediawiki szervert a Synology IP-címével és a konténer portjával hívom. Az Adatbázis kiszolgáló alatt megadom az adatbázis-konténer alias nevét. A 2. lépésben megadott adatbázis nevét, felhasználónevét és jelszavát is megadom.
 {{< gallery match="images/13/*.png" >}}

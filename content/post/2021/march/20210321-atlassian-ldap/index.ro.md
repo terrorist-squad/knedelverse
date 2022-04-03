@@ -70,9 +70,9 @@ networks:
 {{< gallery match="images/1/*.png" >}}
 
 ## Pasul 3: Conectați instrumentele Atlassian
-Configurația este aceeași pentru toate instrumentele Atlassian. Introduc adresa IP și portul serverului meu LDAP.
+Configurarea este aceeași pentru toate instrumentele Atlassian. Introduc adresa IP și portul serverului meu LDAP.
 {{< gallery match="images/2/*.png" >}}
-Pentru "Schema LDAP", am introdus doar "Basic DN". În cazul certificatelor autofirmate, opțiunea "Secure SSL" trebuie dezactivată.
+Pentru "LDAP scheme" am introdus doar "Basic DN". În cazul certificatelor autofirmate, opțiunea "Secure SSL" trebuie dezactivată.
 {{< gallery match="images/3/*.png" >}}
 
 ## Alte caracteristici speciale ale certificatelor auto-semnate
@@ -85,5 +85,5 @@ A se vedea:
 {{< gallery match="images/4/*.png" >}}
 
 ## Pasul 4: Schema de utilizatori și grupuri
-Am luat următoarele setări de utilizator și grup. Cea mai importantă este setarea "filtru obiect grup". Desigur, acest lucru este diferit pentru Bamboo, Confluence și Jira.
+Am luat următoarele setări de utilizator și grup. Cel mai important lucru este setarea "filtru obiect grup". Desigur, acest lucru este diferit pentru Bamboo, Confluence și Jira.
 {{< gallery match="images/5/*.png" >}}

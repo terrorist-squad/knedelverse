@@ -1,11 +1,11 @@
 +++
 date = "2021-04-18"
-title = "Grandes cosas con contenedores: WallaBag propio en la estación de discos Synology"
+title = "Grandes cosas con los contenedores: WallaBag propio en la estación de discos Synology"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "archiv", "wallabag"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-WallaBag/index.es.md"
 +++
-Wallabag es un programa para archivar sitios web o artículos interesantes. Hoy muestro cómo instalar un servicio Wallabag en la estación de disco Synology.
+Wallabag es un programa para archivar páginas web o artículos interesantes. Hoy muestro cómo instalar un servicio Wallabag en la estación de disco Synology.
 ## Opción para profesionales
 Como usuario experimentado de Synology, puede, por supuesto, iniciar sesión con SSH e instalar toda la configuración a través del archivo Docker Compose.
 ```
@@ -97,3 +97,4 @@ El contenedor ya puede iniciarse. La creación de la base de datos puede llevar 
 {{< gallery match="images/14/*.png" >}}
 Llamo al servidor wallabag con la dirección IP del Synology y el puerto de mi contenedor.
 {{< gallery match="images/15/*.png" >}}
+Sin embargo, debo decir que personalmente prefiero shiori como archivo de Internet.

@@ -37,3 +37,4 @@ Nyt voit suorittaa pelikirjoja tai komentoja, esimerkiksi käynnistää kaikki p
 ansible raspi -m shell -a 'sudo /sbin/reboot'
 
 {{</ terminal >}}
+

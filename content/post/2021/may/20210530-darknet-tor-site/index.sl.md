@@ -36,7 +36,7 @@ sudo service privoxy restart
 V brskalnik Firefox vnesem naslov posrednika, deaktiviram "Javascript" in obiščem "testno stran Tor". Če je vse delovalo, lahko zdaj obiščem spletna mesta TOR/.Onion.
 {{< gallery match="images/2/*.png" >}}
 
-## Korak 2: Kako lahko gostim spletno mesto Darknet?
+## 2. korak: Kako lahko gostim spletno mesto Darknet?
 Najprej namestim strežnik HTTP:
 {{< terminal >}}
 sudo apt-get install nginx

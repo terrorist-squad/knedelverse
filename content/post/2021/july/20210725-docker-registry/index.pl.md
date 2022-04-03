@@ -5,14 +5,14 @@ difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "registry", "images", "ui", "interface"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-registry/index.pl.md"
 +++
-Dowiedz się, jak sprawić, by obrazy Dockera były dostępne w całej sieci za pośrednictwem własnego rejestru.
+Dowiedz się, jak udostępnić obrazy Dockera w całej sieci za pośrednictwem własnego rejestru.
 ## Instalacja
-Tworzę nowy katalog o nazwie "docker-registry" na moim serwerze:
+Na moim serwerze tworzę nowy katalog o nazwie "docker-registry":
 {{< terminal >}}
 mkdir docker-registry
 
 {{</ terminal >}}
-Następnie wchodzę do katalogu docker-registry ("cd docker-registry") i tworzę nowy plik o nazwie "registry.yml" z następującą zawartością:
+Następnie wchodzę do katalogu docker-registry ("cd docker-registry") i tworzę nowy plik o nazwie "registry.yml" o następującej zawartości:
 ```
 version: '3'
 
@@ -46,19 +46,20 @@ networks:
   registry-ui-net:
 
 ```
-Więcej przydatnych obrazów Dockera do użytku domowego można znaleźć w dziale [Dockerverse]({{< ref "dockerverse" >}} "Dockerverse").
+Więcej przydatnych obrazów Dockera do użytku domowego można znaleźć w sekcji [Dockerverse]({{< ref "dockerverse" >}} "Dockerverse").
 ## Polecenie start
-Ten plik jest uruchamiany za pomocą Docker Compose. Następnie instalacja jest dostępna pod przewidzianą domeną/portem.
+Ten plik jest uruchamiany za pomocą aplikacji Docker Compose. Następnie instalacja jest dostępna pod przewidzianą domeną/portem.
 {{< terminal >}}
 docker-compose -f registry.yml up -d
 
 {{</ terminal >}}
-Następnie własny rejestr może być używany z docelowym IP i portem kontenera UI.
+Następnie można użyć własnego rejestru z docelowym adresem IP i portem kontenera UI.
 {{< gallery match="images/1/*.png" >}}
-Teraz mogę budować, wypychać i uzupełniać obrazy z mojego rejestru:
+Teraz mogę budować, przesyłać i uzupełniać obrazy z mojego rejestru:
 {{< terminal >}}
 docker build -t 192.168.178.61:5000/mein-image:version .
 docker push 192.168.178.61:5000/mein-image:version
 docker pull 192.168.178.61:5000/mein-image:version
 
 {{</ terminal >}}
+

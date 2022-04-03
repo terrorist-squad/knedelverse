@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 La Wayback Machine es un archivo de sitios web antiguos. Basta con introducir el dominio allí y obtener una línea de tiempo de todas las instantáneas estáticas.
 {{< gallery match="images/1/*.png" >}}
-Recientemente, también se ha añadido un gran tesoro cultural de imágenes ISO/CD antiguas. En el siguiente enlace puede encontrar juegos antiguos, revistas, sistemas operativos y también catálogos antiguos de venta por correo: https://archive.org/details/softwareSo por ejemplo el CD del catálogo Otto del año 2000: https://archive.org/details/ottofruehjahrsommer2000
+Recientemente, también se ha añadido un gran tesoro cultural de imágenes ISO/CD antiguas. En el siguiente enlace se pueden encontrar juegos antiguos, revistas, sistemas operativos y también catálogos antiguos de venta por correo: https://archive.org/details/softwareSo por ejemplo el CD del catálogo Otto del año 2000: https://archive.org/details/ottofruehjahrsommer2000
 {{< gallery match="images/2/*.png" >}}
 El catálogo de Lego de 1992 es también un auténtico acontecimiento: https://archive.org/details/netherlands-Katalog_Lego-1992/page/n43/mode/2up
 {{< gallery match="images/3/*.png" >}}

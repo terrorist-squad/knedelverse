@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 A Papermerge egy fiatal dokumentumkezelő rendszer (DMS), amely képes a dokumentumok automatikus hozzárendelésére és feldolgozására. Ebben a bemutatóban megmutatom, hogyan telepítettem a Papermerge-t a Synology lemezállomásomra, és hogyan működik a DMS.
 ## Lehetőség szakemberek számára
-Tapasztalt Synology felhasználóként természetesen bejelentkezhet SSH-val, és telepítheti a teljes telepítést Docker Compose fájlon keresztül.
+Tapasztalt Synology felhasználóként természetesen bejelentkezhet SSH-n keresztül, és telepítheti a teljes telepítést Docker Compose fájlon keresztül.
 ```
 version: "2.1"
 services:
@@ -36,7 +36,7 @@ A kép letöltése után a kép képként elérhető. A Docker 2 állapotot kül
 ## 3. lépés: Helyezze üzembe a képet:
 Duplán kattintok a papír egyesítési képemre.
 {{< gallery match="images/3/*.png" >}}
-Ezután a "Speciális beállítások" menüpontra kattintok, és aktiválom az "Automatikus újraindítás" opciót. Kiválasztom a "Kötet" lapot, és a "Mappa hozzáadása" gombra kattintok. Ott létrehozok egy új adatbázis mappát ezzel a "/data" csatlakozási útvonallal.
+Ezután a "Speciális beállítások" gombra kattintok, és aktiválom az "Automatikus újraindítás" opciót. Kiválasztom a "Kötet" lapot, és a "Mappa hozzáadása" gombra kattintok. Ott létrehozok egy új adatbázis mappát ezzel a "/data" csatlakozási útvonallal.
 {{< gallery match="images/4/*.png" >}}
 Egy második mappát is tárolok itt, amelyet a "/config" csatolási útvonalhoz csatolok. Nem igazán számít, hogy hol van ez a mappa. Fontos azonban, hogy a Synology admin felhasználójához tartozzon.
 {{< gallery match="images/5/*.png" >}}
@@ -52,5 +52,5 @@ A Papermerge elemzi a dokumentumok és képek szövegét. A Papermerge a Goolge 
 {{< gallery match="images/9/*.png" >}}
 Létrehoztam egy "Minden Loremmel" nevű mappát, hogy teszteljem az automatikus dokumentum hozzárendelést. Ezután az "Automatizálás" menüpontban egy új felismerési mintát kattintottam össze.
 {{< gallery match="images/10/*.png" >}}
-Minden új dokumentum, amely a "Lorem" szót tartalmazza, a "Minden Loremmel" mappába kerül, és a "has-lorem" címkével van ellátva. Fontos, hogy a címkék között vesszőt használjon, különben a címke nem kerül beállításra. Ha feltölt egy megfelelő dokumentumot, akkor az fel lesz címkézve és rendezve.
+Minden új dokumentum, amely a "Lorem" szót tartalmazza, a "Minden Loremmel" mappába kerül, és a "has-lorem" címkével van ellátva. Fontos, hogy a címkék között vesszőt használjon, különben a címke nem lesz beállítva. Ha feltölt egy dokumentumot, akkor az fel lesz címkézve és rendezve.
 {{< gallery match="images/11/*.png" >}}

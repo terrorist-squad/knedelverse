@@ -9,7 +9,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 {{< gallery match="images/1/*.jpg" >}}
 
 ## Βήμα 1: Δημιουργία φακέλου εργασίας
-Χρησιμοποιήστε αυτήν την εντολή για να δημιουργήσετε έναν προσωρινό φάκελο εργασίας:
+Χρησιμοποιήστε αυτή την εντολή για να δημιουργήσετε έναν προσωρινό φάκελο εργασίας:
 {{< terminal >}}
 mkdir /tmp/bilder
 
@@ -28,3 +28,4 @@ convert 716023b632a9cbe6cad3ab368c202288.pdf /tmp/bilder/page.png
 montage /tmp/bilder/* -shadow -geometry '400x400+2+2>' -background '#f1f1f1' uebersich.jpg
 
 {{</ terminal >}}
+

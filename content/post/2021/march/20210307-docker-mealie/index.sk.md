@@ -85,3 +85,4 @@ done < clear.txt
 ```
 Teraz môžete k receptom pristupovať aj offline:
 {{< gallery match="images/15/*.png" >}}
+Záver: Ak venujete Mealie trochu času, môžete si vytvoriť skvelú databázu receptov! Mealie je neustále vyvíjaný ako open source projekt a nájdete ho na tejto adrese: https://github.com/hay-kot/mealie/

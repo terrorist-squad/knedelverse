@@ -21,7 +21,7 @@ A continuación, añada el nuevo usuario.
 {{< gallery match="images/5/*.png" >}}
 
 ## Paso 3: Registrar Gitlab Runner
-El instalador de Windows para el Gitlab Runner se encuentra en la siguiente página: https://docs.gitlab.com/runner/install/windows.html . Creé una nueva carpeta en la unidad "C" y puse el instalador allí.
+El instalador de Windows para el Gitlab Runner se encuentra en la siguiente página: https://docs.gitlab.com/runner/install/windows.html . Creé una nueva carpeta en mi unidad "C" y puse el instalador allí.
 {{< gallery match="images/6/*.png" >}}
 3.1.) Utilizo el comando "CMD" como "Administrador" para abrir una nueva consola y cambiar a un directorio "cd C:\gitlab-runner".
 {{< gallery match="images/7/*.png" >}}
@@ -60,3 +60,4 @@ build1:
 ```
 Mi robot de software de Windows se ejecuta directamente después de comprometerse con la rama maestra:
 {{< gallery match="images/14/*.png" >}}
+La puesta en marcha automática del robot se puede gestionar a través de la opción "Horarios". Una gran ventaja de esta combinación es que los proyectos "robóticos" y los resultados del proyecto (artefactos) pueden ser controlados, versionados y gestionados de forma centralizada por Gitlab con otros proyectos "no robóticos".

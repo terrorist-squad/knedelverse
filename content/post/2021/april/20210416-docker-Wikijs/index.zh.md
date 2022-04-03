@@ -89,5 +89,5 @@ services:
 {{</table>}}
 最后，我输入这些环境变量：见。
 {{< gallery match="images/11/*.png" >}}
-现在可以启动该容器了。我用Synology的IP地址和我的容器端口/3000调用Wiki.js服务器。
+现在可以启动该容器了。我使用Synology的IP地址和我的容器端口/3000调用Wiki.js服务器。
 {{< gallery match="images/12/*.png" >}}

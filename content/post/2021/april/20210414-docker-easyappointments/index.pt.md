@@ -64,7 +64,7 @@ networks:
   easyappointments-network:
 
 ```
-Este arquivo é iniciado através do Docker Compose. Em seguida, a instalação é acessível sob o domínio/porto pretendido.
+Este ficheiro é iniciado através do Docker Compose. Em seguida, a instalação é acessível sob o domínio/porto pretendido.
 {{< terminal >}}
 docker-compose -f easyappointments.yml up
 
@@ -77,7 +77,7 @@ O consumidor final também pode escolher o serviço e o prestador de serviços p
 {{< gallery match="images/4/*.png" >}}
 
 ## Horário de trabalho e pausas
-O horário de serviço geral pode ser definido em "Configurações" > "Lógica de Negócios". No entanto, o horário de trabalho dos prestadores/utilizadores de serviços também pode ser alterado no "Plano de trabalho" do utilizador.
+O horário de serviço geral pode ser definido em "Configurações" > "Lógica de Negócios". No entanto, o horário de trabalho dos prestadores de serviços/utilizadores também pode ser alterado no "Plano de trabalho" do utilizador.
 {{< gallery match="images/5/*.png" >}}
 
 ## Resumo e diário de reservas

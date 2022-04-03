@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["logitech", "synology", "diskstation", "nas", "sound-system", "multiroom"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/september/20210905-logitech-mediaserver/index.nl.md"
 +++
-In deze handleiding leert u hoe u een Logitech Media Server op een Synology DiskStation installeert.
+In deze handleiding leert u hoe u een Logitech mediaserver op een Synology DiskStation installeert.
 {{< gallery match="images/1/*.jpg" >}}
 
 ## Stap 1: Logitech Media Server-map voorbereiden
@@ -30,5 +30,6 @@ Ik wijs vaste poorten toe voor de "Logitechmediaserver" container. Zonder vaste 
 {{< gallery match="images/6/*.png" >}}
 Tenslotte voer ik een omgevingsvariabele in. De variabele "TZ" is de tijdzone "Europa/Berlijn".
 {{< gallery match="images/7/*.png" >}}
-Na deze instellingen kan Logitechmediaserver-Server gestart worden! Daarna kunt u de Logitechmediaserver oproepen via het Ip adres van het Synology disctation en de toegewezen poort, bijvoorbeeld http://192.168.21.23:9000 .
+Na deze instellingen kan Logitechmediaserver-Server gestart worden! Daarna kunt u de Logitechmediaserver oproepen via het Ip-adres van het Synology disctation en de toegewezen poort, bijvoorbeeld http://192.168.21.23:9000 .
 {{< gallery match="images/8/*.png" >}}
+

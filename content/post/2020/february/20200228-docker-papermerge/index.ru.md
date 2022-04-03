@@ -1,6 +1,6 @@
 +++
 date = "2020-02-28"
-title = "Великие дела с контейнерами: Запуск Papermerge DMS на NAS Synology"
+title = "Великие дела с контейнерами: запуск Papermerge DMS на NAS Synology"
 difficulty = "level-3"
 tags = ["archiv", "automatisch", "dms", "Docker", "Document-Managment-System", "google", "ocr", "papermerge", "Synology", "tesseract", "texterkennung"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200228-docker-papermerge/index.ru.md"

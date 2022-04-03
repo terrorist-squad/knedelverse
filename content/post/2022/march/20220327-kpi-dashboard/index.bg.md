@@ -38,7 +38,7 @@ docker build -t my-dashboard:latest .
 {{< gallery match="images/1/*.png" >}}
 
 ## Стъпка 2: Създаване на табло за управление
-Сега мога да създам нов панел със следната команда:
+Сега вече мога да създам ново табло за управление със следната команда:
 {{< terminal >}}
 docker run -it -v /path/to/my/dashing-project:/code my-dashboard:latest smashing new dashboard
 
@@ -92,3 +92,4 @@ docker run -it -p 9292:9292 my-dashboard:latest
 {{</ terminal >}}
 И ето как изглежда:
 {{< gallery match="images/3/*.png" >}}
+Това е основата на една добра информационна система. Можете да персонализирате всички цветове, скриптове и уиджети.

@@ -11,7 +11,7 @@ Valitse malli ja napsauta "Käytä mallia". Tämän jälkeen sinun on ehkä tode
 {{< gallery match="images/1/*.png" >}}
 
 ## Vaihe 2: Mukauta tekstit
-Kun kirjautuminen on onnistunut, malli avautuu "muokkaustilaan".  Kun siirrät hiiren kursorin tekstin päälle, se korostuu.  
+Kun kirjautuminen on onnistunut, malli avautuu "muokkaustilaan".  Jos siirrät hiiren kursorin tekstin päälle, se korostuu.  
 {{< gallery match="images/2/*.png" >}}
 Klikkaa nyt kerran "Tekstielementtiä" nähdäksesi "Säätövaihtoehdot". Klikkaa "Muuta tekstiä" säätääksesi tekstiä. Kaikki muut vaihtoehdot on lukittu. Napsauta toista sivuelementtiä soveltaaksesi muutosta.
 {{< gallery match="images/3/*.png" >}}
@@ -21,3 +21,4 @@ Säädön jälkeen napsauta yksinkertaisesti "Tallenna (X)".
 {{< gallery match="images/4/*.png" >}}
 Valikkomalli on nyt luotu tulostustarkkuudella ladattavaksi tulostettavaksi PDF-tiedostoksi.  Voit ladata, tulostaa ja lähettää PDF-tiedoston.   
 {{< gallery match="images/5/*.png" >}}
+

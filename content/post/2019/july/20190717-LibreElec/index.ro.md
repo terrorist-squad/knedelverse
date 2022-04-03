@@ -19,3 +19,4 @@ După aceea, instalarea este finalizată și bootabilă.
 "{{< gallery match="images/4/*.jpg" >}}"
 Acum puteți conecta acest MediaPc la surse externe, cum ar fi NAS sau puteți instala aplicații precum Youtube. Distracție plăcută!   
 "{{< gallery match="images/5/*.jpg" >}}"
+După cum s-a scris deja, puteți utiliza și telecomanda televizorului prin intermediul controlerului CEC.

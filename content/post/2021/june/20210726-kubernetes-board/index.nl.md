@@ -21,7 +21,7 @@ Het knooppunt ".spec.type" moet "NodePort" zijn.
 {{< gallery match="images/2/*.png" >}}
 Daarna is het dashboard al toegankelijk:
 {{< gallery match="images/3/*.png" >}}
-Om het toegangstoken te krijgen, moet er gezocht worden naar een deployment controller key:
+Om het toegangstoken te krijgen, moet er gezocht worden naar een deployment controller sleutel:
 {{< terminal >}}
 kubectl -n kube-system get secret | grep deployment-controller-token
 

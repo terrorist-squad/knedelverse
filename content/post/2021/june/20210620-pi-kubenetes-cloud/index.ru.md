@@ -208,3 +208,4 @@ kubectl delete deplyments my-nginx
 {{</ terminal >}}
 >См:
 {{< gallery match="images/10/*.png" >}}
+

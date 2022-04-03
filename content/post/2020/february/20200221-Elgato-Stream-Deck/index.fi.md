@@ -30,3 +30,4 @@ chmod 755 say-hallo.sh
 {{< gallery match="images/3/*.png" >}}
 
 ## Vaihe 4: Valmis!
+Uusi painike on nyt käyttökelpoinen.

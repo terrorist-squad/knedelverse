@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Atlassian a încetat să mai vândă licențe pentru servere mici și mă gândesc de mult timp cum să rezolv această problemă. Deoarece doresc să îmi folosesc instalația pentru o perioadă lungă de timp, am implementat următoarele măsuri:
 ## Măsura 1: Folosesc exclusiv Docker
-Execut toate instrumentele Atlassian ca containere Docker. De asemenea, instalațiile native mai vechi pot fi transferate într-o instalație Docker prin intermediul descărcărilor de baze de date. Acestea pot fi apoi rulate în mod convenabil pe un Intel Nuc sau pe o stație de discuri Synology în Homelab.
+Execut toate instrumentele Atlassian ca și containere Docker. De asemenea, instalațiile native mai vechi pot fi transferate într-o instalație Docker prin intermediul descărcărilor de baze de date. Acestea pot fi apoi rulate în mod convenabil pe un Intel Nuc sau pe o stație de discuri Synology în Homelab.
 {{< tabs>}}
 
 
@@ -158,3 +158,4 @@ Am salvat și imaginile Postgres.
 ## Acțiunea 3: Creați un stick de instalare USB
 Am făcut o copie de rezervă a documentației, a tuturor arhivelor de instalare, a directoarelor de date Postgres și a configurațiilor pe un stick USB. După cum am spus, copia de rezervă a bazei de date este de fapt cel mai important lucru, deoarece licența activată se află, de asemenea, în baza de date.
 {{< gallery match="images/1/*.png" >}}
+

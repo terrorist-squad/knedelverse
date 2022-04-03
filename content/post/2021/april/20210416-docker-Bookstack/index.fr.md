@@ -86,3 +86,4 @@ Le conteneur peut maintenant être démarré. La création de la base de donnée
 {{< gallery match="images/12/*.png" >}}
 J'appelle le serveur Bookstack avec l'adresse IP de Synology et mon port de conteneur. Le nom de connexion est "admin@admin.com" et le mot de passe est "password".
 {{< gallery match="images/13/*.png" >}}
+

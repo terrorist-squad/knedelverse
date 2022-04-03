@@ -5,7 +5,7 @@ difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "mediawiki", "wiki"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210416-docker-MediaWiki/index.sv.md"
 +++
-MediaWiki är ett PHP-baserat wikisystem som finns tillgängligt gratis som en öppen källkodsprodukt. Idag visar jag hur man installerar en MediaWiki-tjänst på Synology diskstationen.
+MediaWiki är ett PHP-baserat wikisystem som finns tillgängligt gratis som en öppen källkodsprodukt. Idag visar jag hur man installerar en MediaWiki-tjänst på en Synology diskstation.
 ## Alternativ för yrkesverksamma
 Som erfaren Synology-användare kan du naturligtvis logga in med SSH och installera hela installationen via Docker Compose-filen.
 ```

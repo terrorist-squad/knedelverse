@@ -5,7 +5,7 @@ difficulty = "level-2"
 tags = ["cms", "git", "gitlab", "pipeline", "serverless", "wordpress"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200216-wordpress-pipeline/index.sl.md"
 +++
-Statična spletna mesta se nalagajo hitreje in nudijo manjšo površino za napade. Pokažem vam, kako pretvoriti stran CMS prek Pipline Gitlab. Najprej ustvarim fazo gradnje, ki ustvari statično kopijo prek programa wget.
+Statična spletna mesta se nalagajo hitreje in nudijo manjšo površino za napade. Pokazal vam bom, kako pretvoriti stran CMS prek Pipline Gitlab. Najprej ustvarim fazo gradnje, ki ustvari statično kopijo prek programa wget.
 ```
 uild:
   stage: build

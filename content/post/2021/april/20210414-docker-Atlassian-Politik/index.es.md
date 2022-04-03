@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Atlassian ha dejado de vender las licencias para servidores pequeños y he estado pensando durante mucho tiempo en cómo afrontar esta situación. Como quiero seguir utilizando mi instalación durante mucho tiempo, he aplicado las siguientes medidas:
 ## Medida 1: Utilizo exclusivamente Docker
-Ejecuto todas las herramientas de Atlassian como contenedores Docker. Las instalaciones nativas más antiguas también se pueden transferir a una instalación Docker mediante volcados de bases de datos. Estos pueden ser ejecutados convenientemente en un Nuc Intel o en una estación de disco Synology en el Homelab.
+Ejecuto todas las herramientas de Atlassian como contenedores Docker. Las instalaciones nativas más antiguas también se pueden transferir a una instalación Docker mediante volcados de bases de datos. Estos pueden ser ejecutados convenientemente en un Nuc de intel o en una estación de disco Synology en el Homelab.
 {{< tabs>}}
 
 
@@ -158,3 +158,4 @@ También he guardado las imágenes de Postgres.
 ## Acción 3: Crear una memoria USB de instalación
 He hecho una copia de seguridad de mi documentación, de todos los archivos de instalación, de los directorios de datos de Postgres y de las configuraciones en una memoria USB. Como he dicho, la copia de seguridad de la BD es en realidad lo más importante porque la licencia activada también está en la base de datos.
 {{< gallery match="images/1/*.png" >}}
+

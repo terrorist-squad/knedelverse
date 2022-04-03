@@ -56,7 +56,7 @@ sudo docker-compose -f calibre.yml up -d
 {{< gallery match="images/7/*.png" >}}
 
 ## Stap 6: Instelling
-Dan kan ik mijn Calibre server oproepen met het IP van het diskstation en de toegewezen poort van "Stap 4". Ik gebruik mijn "/books" koppelpunt in de setup. Daarna is de server al bruikbaar.
+Dan kan ik mijn Calibre server oproepen met het IP van het diskstation en de toegewezen poort van "Stap 4". In de setup, gebruik ik mijn "/books" koppelpunt. Daarna is de server al bruikbaar.
 {{< gallery match="images/8/*.png" >}}
 
 ## Stap 7: De installatie afronden

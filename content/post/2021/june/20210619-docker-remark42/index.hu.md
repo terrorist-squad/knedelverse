@@ -68,3 +68,4 @@ A konfigurálás után a szolgáltatás használatra kész, és integrálható a
 ```
 És így néz ki a Remark42:
 {{< gallery match="images/1/*.png" >}}
+

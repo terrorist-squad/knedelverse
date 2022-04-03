@@ -1,19 +1,19 @@
 +++
 date = "2021-04-11"
-title = "危機からの脱却：PrestaShopによるプロフェッショナルなウェブショップ"
+title = "危機を脱したクリエイティブ：PrestaShopによるプロフェッショナルなウェブショップ"
 difficulty = "level-4"
 tags = ["corona", "Docker", "docker-compose", "kreativ", "krise", "online-shop", "presta", "shop", "shopsystem"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210411-docker-PrestaShop/index.ja.md"
 +++
-PrestaShopは、ヨーロッパのオープンソースのEコマースプラットフォームで、同社の情報によると、現在30万以上のインストール数があります。今日はこのPHPソフトウェアを私のサーバーにインストールします。このチュートリアルには、Linux、DockerおよびDocker Composeに関する知識が必要です。
+PrestaShopはヨーロッパのオープンソースEコマースプラットフォームで、同社の情報によると、現在30万台以上のインストールがあります。今日、私はこのPHPソフトをサーバーにインストールしています。このチュートリアルでは、Linux、Docker、Docker Composeの知識が必要です。
 ## ステップ1：PrestaShopのインストール
-サーバーに「prestashop」という新しいディレクトリを作成します。
+サーバーに「prestashop」というディレクトリを新規に作成します。
 {{< terminal >}}
 mkdir prestashop
 cd prestashop
 
 {{</ terminal >}}
-そして、prestashopディレクトリに入り、「prestashop.yml」という新しいファイルを以下の内容で作成します。
+そして、prestashopのディレクトリに入り、以下の内容で「prestashop.yml」というファイルを新規に作成します。
 ```
 version: '2'
 
@@ -54,23 +54,23 @@ networks:
   shop-network:
 
 ```
-残念ながら、現在のLastestバージョンでは動作しなかったので、「1.7.7.2」バージョンをインストールしました。このファイルはDocker Composeで起動します。
+残念ながら、現在のLastestバージョンではうまくいかなかったので、「1.7.7.2」をインストールしました。このファイルはDocker Compose経由で起動します。
 {{< terminal >}}
 docker-compose -f prestashop.yml up
 
 {{</ terminal >}}
-このプロセスには時間がかかるので、新鮮なコーヒーを手に入れるのがベストです。以下のテキストが表示されている場合のみ、このインターフェースを使用することができます。
+処理に時間がかかるので、新鮮なコーヒーを手に入れるのが一番です。以下のテキストが表示されているときのみ、インターフェイスを使用することができます。
 {{< gallery match="images/1/*.png" >}}
-その後、私のPrestaShopサーバーを呼び出し、インターフェースを介してインストールを続けることができます。
+その後、PrestaShopサーバーを呼び出し、インターフェイスを介してインストールを続行することができます。
 {{< gallery match="images/2/*.png" >}}
-Docker-Composeを「Ctrl C」で終了させ、サブフォルダ「prestadata」を呼び出す（「cd prestadata」）。そこで、「rm -r install」で「install」フォルダを削除する必要があります。
+Docker-Composeを「Ctrl C」で終了し、サブフォルダ「prestadata」を呼び出す（「cd prestadata」）。そこで、「install」フォルダを「rm -r install」で削除する必要があります。
 {{< gallery match="images/3/*.png" >}}
-さらに、そこには「Admin」フォルダがあり、私の場合は「admin697vqoryt」となっています。この略語を後で覚えておいて、Docker Compose経由で再びサーバーを起動する。
+さらに、そこには「Admin」フォルダがあり、私の場合は「admin697vqoryt」です。この略称を後々のために覚えておいて、Docker Compose経由でサーバーを再度起動します。
 {{< terminal >}}
 docker-compose -f prestashop.yml up -d
 
 {{</ terminal >}}
 
 ## ステップ2：ショップのテスト
-再起動後、Prestaショップのインストールをテストし、「shop-url/admin shortcuts」で管理画面も呼び出してみました。
+再起動後、Prestaショップのインストールをテストし、「shop-url/admin shortcuts」で管理画面も呼び出しています。
 {{< gallery match="images/4/*.png" >}}

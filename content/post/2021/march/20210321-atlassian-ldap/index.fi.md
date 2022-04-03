@@ -70,7 +70,7 @@ Olen luonut LDAP-palvelimessa ryhmät eri työkaluille.
 {{< gallery match="images/1/*.png" >}}
 
 ## Vaihe 3: Yhdistä Atlassian-työkalut
-Asetukset ovat samat kaikille Atlassian-työkaluille. Syötän LDAP-palvelimen IP-osoitteen ja portin.
+Asetukset ovat samat kaikille Atlassianin työkaluille. Syötän LDAP-palvelimen IP-osoitteen ja portin.
 {{< gallery match="images/2/*.png" >}}
 LDAP-suunnitelmaa varten olen syöttänyt vain "Basic DN". Itse allekirjoitettujen varmenteiden osalta vaihtoehto "Secure SSL" on poistettava käytöstä.
 {{< gallery match="images/3/*.png" >}}
@@ -85,5 +85,5 @@ Katso:
 {{< gallery match="images/4/*.png" >}}
 
 ## Vaihe 4: Käyttäjä- ja ryhmäjärjestelmä
-Olen ottanut seuraavat käyttäjä- ja ryhmäasetukset. Tärkein asia on "ryhmäkohteiden suodatin" -asetus. Tämä on tietysti erilaista Bamboon, Confluenceen ja Jiraan.
+Olen ottanut seuraavat käyttäjä- ja ryhmäasetukset. Tärkein asia on "ryhmäkohteen suodatin" -asetus. Tämä on tietysti erilaista Bamboon, Confluenceen ja Jiraan.
 {{< gallery match="images/5/*.png" >}}

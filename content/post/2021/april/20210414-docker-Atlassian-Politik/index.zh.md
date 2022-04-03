@@ -158,3 +158,4 @@ ocker load -i bamboo-7.2.3-image.tar
 ## 行动3：创建USB安装棒
 我已经把我的文档、所有的安装档案、Postgres数据目录和配置都备份到一个U盘上了。正如我所说，数据库备份实际上是最重要的，因为激活的许可证也在数据库中。
 {{< gallery match="images/1/*.png" >}}
+

@@ -59,7 +59,7 @@ sudo mkdir /media/usb-platte
 sudo apt-get install nfs-kernel-server -y
 
 {{</ terminal >}}
->此外，在U盘上创建了一个新的文件夹。
+>此外，在U盘上创建了一个新的文件夹
 {{< terminal >}}
 sudo mkdir /media/usb-platte/nfsshare
 sudo chown -R pi:pi /media/usb-platte/nfsshare/
@@ -208,3 +208,4 @@ kubectl delete deplyments my-nginx
 {{</ terminal >}}
 >见。
 {{< gallery match="images/10/*.png" >}}
+

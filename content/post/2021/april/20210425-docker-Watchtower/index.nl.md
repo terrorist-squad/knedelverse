@@ -20,3 +20,4 @@ docker run --name watchtower --restart always -v /var/run/docker.sock:/var/run/d
 {{</ terminal >}}
 Daarna draait Watchtower altijd op de achtergrond.
 {{< gallery match="images/3/*.png" >}}
+

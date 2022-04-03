@@ -34,7 +34,7 @@ Ik maak een nieuwe map aan genaamd "wiki" in de Docker map.
 ## Stap 2: DokuWiki installeren
 Daarna moet een database worden gecreëerd. Ik klik op het tabblad "Registratie" in het Synology Docker-venster en zoek naar "dokuwiki". Ik selecteer de Docker image "bitnami/dokuwiki" en klik dan op de tag "latest".
 {{< gallery match="images/2/*.png" >}}
-Na het downloaden van de afbeelding, is de afbeelding beschikbaar als een afbeelding. Docker maakt onderscheid tussen 2 staten, container "dynamische staat" en image (vaste staat). Voordat we een container maken van de image, moeten een paar instellingen worden gemaakt. Ik dubbelklik op mijn dokuwiki image.
+Na het downloaden van de afbeelding, is de afbeelding beschikbaar als een afbeelding. Docker maakt onderscheid tussen 2 toestanden, container "dynamische toestand" en image (vaste toestand). Voordat we een container maken van de image, moeten een paar instellingen worden gemaakt. Ik dubbelklik op mijn dokuwiki image.
 {{< gallery match="images/3/*.png" >}}
 Ik wijs vaste poorten toe voor de "dokuwiki" container. Zonder vaste poorten zou het kunnen dat de "dokuwiki server" na een herstart op een andere poort draait.
 {{< gallery match="images/4/*.png" >}}
@@ -50,3 +50,4 @@ Tenslotte voer ik deze omgevingsvariabelen in:Zie:
 {{< gallery match="images/5/*.png" >}}
 De container kan nu worden gestart. Ik roep de dokuWIki server op met het Synology IP adres en mijn container poort.
 {{< gallery match="images/6/*.png" >}}
+

@@ -44,7 +44,7 @@ J'attribue des ports fixes pour le conteneur "Youtube-Downloader". Sans ports fi
 {{< gallery match="images/6/*.png" >}}
 Pour finir, je saisis encore deux variables d'environnement. La variable "MY_ID" est mon nom d'utilisateur et "MY_PW" mon mot de passe.
 {{< gallery match="images/7/*.png" >}}
-Après ces réglages, Downloader peut être lancé ! Ensuite, il est possible d'appeler le downloader via l'adresse IP de la station Synology et le port attribué, par exemple http://192.168.21.23:8070 .
+Après ces réglages, Downloader peut être démarré ! Ensuite, on peut appeler le downloader via l'adresse IP de la station Synology et le port attribué, par exemple http://192.168.21.23:8070 .
 {{< gallery match="images/8/*.png" >}}
 Pour l'authentification, on prend le nom d'utilisateur et le mot de passe de MY_ID et MY_PW.
 ## Étape 4 : C'est parti

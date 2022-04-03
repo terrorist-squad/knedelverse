@@ -19,3 +19,4 @@ Después de esto la instalación está terminada y arrancable
 "{{< gallery match="images/4/*.jpg" >}}"
 Ahora puedes conectar este MediaPc a fuentes externas como el NAS o instalar aplicaciones como Youtube. Diviértete.   
 "{{< gallery match="images/5/*.jpg" >}}"
+Como ya se ha escrito, también puedes utilizar el mando a distancia de tu televisor a través del controlador CEC.

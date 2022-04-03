@@ -20,7 +20,7 @@ Fiecare macro de utilizator "redat" are în mod implicit o variabilă body:
 Inhalt $body
 
 ```
-Toate celelalte variabile sunt definite în codul macro. Mai multe pe tema variabilelor
+Toate celelalte variabile sunt definite în codul macro. Mai multe despre subiectul variabilelor
 ```
 
 ## @param Title:title=Titlebar Title|type=string|required=truel|default=Bash

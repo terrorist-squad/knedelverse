@@ -14,7 +14,7 @@ Usa questo comando per creare una cartella di lavoro temporanea:
 mkdir /tmp/bilder
 
 {{</ terminal >}}
-Heimdall è un servizio che permette di gestire i segnalibri tramite Dashboard. Dato che uso Docker for Desktop, ho solo bisogno di mettere questo file Docker Compose in una cartella locale:
+Heimdall è un servizio che permette di gestire i segnalibri tramite Dashboard. Dato che uso Docker per Desktop, ho solo bisogno di mettere questo file Docker Compose in una cartella locale:
 ```
 version: "2.1"
 services:
@@ -40,3 +40,4 @@ ocker-compose -f compose-file.yml up -d
 {{</ terminal >}}
 
 {{< gallery match="images/2/*.png" >}}
+

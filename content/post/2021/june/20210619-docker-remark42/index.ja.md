@@ -1,11 +1,11 @@
 +++
 date = "2021-06-19"
-title = "コンテナを利用した優れた点：Remark42は私のコメントソリューションです。"
+title = "コンテナで大活躍：Remark42は私のコメントソリューション"
 difficulty = "level-1"
 tags = ["microservice", "docker", "vertical", "kommentare"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210619-docker-remark42/index.ja.md"
 +++
-静的なサイトとしてブログを運営しているのであれば、動的なコメント機能を提供するマイクロサービス/バーティカルがいいかもしれません。例えばこのブログは、Markdownコンテンツ用にGOで書かれた「ウェブサイト・ジェネレーター」であるHUGOで実現しています。私の場合は、このDocker Composeファイルを自分用にアレンジして、「docker-compose -f compose.yml up -d」で起動しました。GoogleやFacebookとの認証用にAPIキーを保存しています。また、読者との交流のために、メールサーバーの設定を入力しました。
+ブログを静的なサイトとして運営している場合、動的なコメント機能を提供するマイクロサービス/バーティカルがいいかもしれません。例えばこのブログは、Markdownコンテンツ用にGOで書かれた「ウェブサイトジェネレータ」であるHUGOで実現しています。私の場合、このDocker Composeファイルを自分用にアレンジして、「docker-compose -f compose.yml up -d」で起動しました。GoogleとFacebookで認証するためのAPIキーを保存しています。また、読者との交流のために、メールサーバーの設定も入力しました。
 ```
 version: '2'
 
@@ -36,7 +36,7 @@ services:
             - ./data:/srv/var
 
 ```
-設定後はすぐに使用でき、ウェブサイトに組み込むことができます。
+設定後、すぐに利用でき、Webサイトに組み込むことも可能です。
 ```
 <script>
   var remark_config = {
@@ -66,5 +66,6 @@ services:
 <div id="remark42"></div>
 
 ```
-そして、これがRemark42の姿である。
+そして、Remark42はこのような感じです。
 {{< gallery match="images/1/*.png" >}}
+

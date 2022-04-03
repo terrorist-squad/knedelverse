@@ -21,3 +21,4 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 {{< gallery match="images/4/*.png" >}}
 为了测试，我通过这个挂载点安装了一个DOS安装和一个旧的会计软件。
 {{< gallery match="images/5/*.png" >}}
+

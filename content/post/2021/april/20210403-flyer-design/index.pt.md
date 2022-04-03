@@ -11,7 +11,7 @@ Selecione um modelo e clique em " Usar modelo". Pode então precisar de se auten
 {{< gallery match="images/1/*.png" >}}
 
 ## Passo 2: Personalizar textos
-Após o login bem sucedido, o modelo é aberto em "modo de edição".  Quando você move o cursor do mouse sobre um texto, ele é destacado.  
+Após o login bem sucedido, o modelo é aberto em "modo de edição".  Se você mover o cursor do mouse sobre um texto, ele é destacado.  
 {{< gallery match="images/2/*.png" >}}
 Agora clique uma vez sobre um "Elemento de texto" para ver as "Opções de ajuste". Clique em "Alterar texto" para ajustar um texto. Todas as outras opções estão bloqueadas. Clique em outro elemento da página para aplicar a sua alteração.
 {{< gallery match="images/3/*.png" >}}
@@ -21,3 +21,4 @@ Após o ajuste, basta clicar em "Salvar (X)".
 {{< gallery match="images/4/*.png" >}}
 Seu modelo de menu é agora criado em resolução de impressão como um PDF imprimível para download.  Você pode baixar, imprimir e enviar o arquivo PDF.   
 {{< gallery match="images/5/*.png" >}}
+

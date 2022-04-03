@@ -48,7 +48,7 @@ sudo docker-compose -f jenkins.yml up -d
 După aceea, pot apela serverul Jenkins cu IP-ul stației de disc și portul atribuit de la "Pasul 2".
 {{< gallery match="images/4/*.png" >}}
 
-## Pasul 4: Configurarea
+## Pasul 4: Configurare
 
 {{< gallery match="images/5/*.png" >}}
 Din nou, folosesc consola pentru a citi parola inițială:

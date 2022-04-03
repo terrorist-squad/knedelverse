@@ -22,7 +22,7 @@ chmod 755 say-hallo.sh
 {{</ terminal >}}
 
 ## Стъпка 3: Включване на Bash скрипт в палубата
-3.1) Сега можете да отворите приложението Stream Deck:
+3.1) Сега приложението Stream Deck може да бъде отворено:
 {{< gallery match="images/1/*.png" >}}
 3.2) След това плъзгам действието "Open System" върху бутон.
 {{< gallery match="images/2/*.png" >}}
@@ -30,3 +30,4 @@ chmod 755 say-hallo.sh
 {{< gallery match="images/3/*.png" >}}
 
 ## Стъпка 4: Готово!
+Новият бутон вече може да се използва.

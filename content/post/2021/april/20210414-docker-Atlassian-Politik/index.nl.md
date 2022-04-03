@@ -158,3 +158,4 @@ Ik heb ook de Postgres images opgeslagen.
 ## Actie 3: USB installatiestick maken
 Ik heb een backup gemaakt van mijn documentatie, alle installatie archieven, de Postgres data directories en configuraties op een USB stick. Zoals ik al zei, de DB backup is eigenlijk het belangrijkste omdat de geactiveerde licentie ook in de database zit.
 {{< gallery match="images/1/*.png" >}}
+

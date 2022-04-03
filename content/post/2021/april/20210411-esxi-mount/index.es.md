@@ -21,3 +21,4 @@ Ahora se puede utilizar la memoria.
 {{< gallery match="images/4/*.png" >}}
 Para hacer pruebas, instalé una instalación de DOS y un antiguo software de contabilidad a través de este punto de montaje.
 {{< gallery match="images/5/*.png" >}}
+

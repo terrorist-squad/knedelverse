@@ -1,6 +1,6 @@
 +++
 date = "2021-04-16"
-title = "Великие дела с контейнерами: собственный Bookstack Wiki на Synology DiskStation"
+title = "Великие дела с контейнерами: собственная вики-версия Bookstack Wiki на Synology DiskStation"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "bookstack", "wiki"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210416-docker-Bookstack/index.ru.md"
@@ -63,7 +63,7 @@ services:
 {{< gallery match="images/6/*.png" >}}
 После этих настроек сервер Mariadb может быть запущен! Я везде нажимаю "Применить".
 ## Шаг 3: Установите Bookstack
-Я перехожу на вкладку "Регистрация" в окне Synology Docker и ищу "bookstack". Я выбираю образ Docker "solidnerd/bookstack", а затем нажимаю на метку "latest".
+Я перехожу на вкладку "Регистрация" в окне Synology Docker и ищу "bookstack". Я выбираю образ Docker "solidnerd/bookstack" и затем нажимаю на тег "latest".
 {{< gallery match="images/7/*.png" >}}
 Я дважды щелкаю на своем изображении Bookstack. Затем я нажимаю на "Дополнительные настройки" и активирую "Автоматический перезапуск" здесь же.
 {{< gallery match="images/8/*.png" >}}
@@ -86,3 +86,4 @@ services:
 {{< gallery match="images/12/*.png" >}}
 Я вызываю сервер Bookstack с IP-адресом Synology и портом моего контейнера. Имя для входа в систему - "admin@admin.com", а пароль - "password".
 {{< gallery match="images/13/*.png" >}}
+

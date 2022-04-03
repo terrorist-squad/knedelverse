@@ -1,5 +1,5 @@
 +++
-date = "2021-04-04"
+date = "2021-04-0q"
 title = "Крутые штуки с Atlassian: Pimp my Bamboo Monitor"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
@@ -227,3 +227,4 @@ sudo reboot
 {{</ terminal >}}
 
 ## Готовый
+Каждый дасборд следует перезапускать один раз в день. Для этого я создал cron.

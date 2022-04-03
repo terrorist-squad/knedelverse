@@ -49,7 +49,7 @@ Ik maak een nieuwe map aan genaamd "wiki" in de Docker map.
 ## Stap 2: Database installeren
 Daarna moet een database worden gecreëerd. Ik klik op het tabblad "Registratie" in het Synology Docker venster en zoek naar "mysql". Ik selecteer de Docker image "mysql" en klik dan op de tag "latest".
 {{< gallery match="images/2/*.png" >}}
-Na het downloaden van de afbeelding, is de afbeelding beschikbaar als een afbeelding. Docker maakt onderscheid tussen 2 staten, container "dynamische staat" en image (vaste staat). Voordat we een container maken van de image, moeten een paar instellingen worden gemaakt. Ik dubbelklik op mijn mysql image.
+Na het downloaden van de afbeelding, is de afbeelding beschikbaar als een afbeelding. Docker maakt onderscheid tussen 2 toestanden, container "dynamische toestand" en image (vaste toestand). Voordat we een container maken van de image, moeten een paar instellingen worden gemaakt. Ik dubbelklik op mijn mysql image.
 {{< gallery match="images/3/*.png" >}}
 Dan klik ik op "Geavanceerde instellingen" en activeer de "Automatische herstart". Ik selecteer de tab "Volume" en klik op "Map toevoegen". Daar maak ik een nieuwe database map aan met dit mount pad "/var/lib/mysql".
 {{< gallery match="images/4/*.png" >}}

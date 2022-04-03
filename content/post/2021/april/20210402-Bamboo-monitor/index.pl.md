@@ -1,23 +1,23 @@
 +++
-date = "2021-04-04"
+date = "2021-04-0q"
 title = "Fajne rzeczy z Atlassian: Pimp my Bamboo Monitor"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-Bamboo-monitor/index.pl.md"
 +++
-Jak mogę utworzyć monitor kompilacji dla Bamboo, Jenkinsa lub Gitlab? Rozgryzę to do wieczora! Napisałem już podobne [Tutorial dla Gitlab-Issue-Boards]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Tutorial dla Gitlab-Issue-Boards").
+Jak mogę utworzyć monitor kompilacji dla Bamboo, Jenkinsa lub Gitlab? Do wieczora to rozgryzę! Już wcześniej napisałem podobną instrukcję [Tutorial dla Gitlab Issue Boards]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Tutorial dla Gitlab Issue Boards").
 {{< gallery match="images/1/*.jpg" >}}
-Podstawą tego tutorialu jest Raspberry Imager oraz system operacyjny "Raspberry Pi OS Lite". Po zainstalowaniu systemu operacyjnego, kartę SD można włożyć do Raspberry. W moim przypadku jest to Raspberry Pi Zero.
+Podstawą tego poradnika jest Raspberry Imager oraz system operacyjny "Raspberry Pi OS Lite". Po zainstalowaniu systemu operacyjnego można włożyć kartę SD do Maliny. W moim przypadku jest to Raspberry Pi Zero.
 {{< gallery match="images/2/*.*" >}}
 
 ## Krok 1: Zainstaluj Matchbox/Window Manager
-Do obsługi Raspberry w trybie kiosku wymagany jest menedżer okien i przeglądarka. Instaluje się je za pomocą następującego polecenia:
+Do obsługi Raspberry w trybie kiosku potrzebne są menedżer okien i przeglądarka. Są one instalowane za pomocą następującego polecenia:
 {{< terminal >}}
 sudo apt-get install xorg nodm matchbox-window-manager uzbl xinit unclutter vim
 
 {{</ terminal >}}
 
-## Krok 2: Tworzę użytkownika dashboardu
+## Krok 2: Tworzę użytkownika tablicy rozdzielczej
 Za pomocą poniższego polecenia tworzę nowego użytkownika o nazwie "dashboard":
 {{< terminal >}}
 sudo adduser dashboard
@@ -25,21 +25,21 @@ sudo adduser dashboard
 {{</ terminal >}}
 
 ## Krok 3: Konfiguracja xServer i Window Manager
-Wszystkie poniższe czynności muszą zostać wykonane w sesji użytkownika "dashboard". Przechodzę na sesję za pomocą "su":
+Wszystkie poniższe czynności należy wykonać w sesji użytkownika "pulpitu nawigacyjnego". Przechodzę na sesję za pomocą polecenia "su":
 {{< terminal >}}
 sudo su dashboard
 
 {{</ terminal >}}
 
 ##  3.1.) Przyciski/funkcje
-Chcę, aby moja Malina działała w trybie kiosku. Aby to zrobić, przechowuję dwie komendy klawiszowe, Ctrl Alt X dla terminala i Alt C do zamknięcia terminala. W terminalu możesz zapytać o aktualne IP za pomocą ifconfig, wyłączyć Raspberry za pomocą sudo shutdown -h now etc.....
+Chcę, aby moja Malina mogła działać w trybie kiosku. W tym celu przechowuję dwa polecenia klawiszowe: Ctrl Alt X do otwierania terminala i Alt C do zamykania terminala. W terminalu możesz sprawdzić aktualne IP za pomocą ifconfig, wyłączyć Raspberry za pomocą sudo shutdown -h now etc.....
 {{< terminal >}}
 cd ~
 mkdir .matchbox
 vim .matchbox/kbdconfig
 
 {{</ terminal >}}
-Układ klucza w tym przypadku jest następujący:
+W tym przypadku układ klucza jest następujący:
 ```
 
 ##  Skróty w obsłudze okien
@@ -49,7 +49,7 @@ Układ klucza w tym przypadku jest następujący:
 ```
 
 ##  3.2. ) X - Sesja
-Poniższe linie muszą być również wpisane do pliku "$ vim ~/.xsession". Ten skrypt sprawdza, czy tablica rozdzielcza jest dostępna. Jeśli nie jest osiągalny, odczekuje 10 sekund. Oczywiście, adres/IP musi być dostosowany.
+Poniższe wiersze muszą być także wpisane do pliku "$ vim ~/.xsession". Ten skrypt sprawdza, czy tablica rozdzielcza jest dostępna. Jeśli nie jest osiągalny, odczekuje 10 sekund. Oczywiście należy dostosować adres/IP.
 ```
 xset -dpms
 xset s off
@@ -69,7 +69,7 @@ sudo chmod 755 ~/.xsession
 {{</ terminal >}}
 
 ##  3.3. ) Współkonfiguracja interfejsu
-Poniższe linie konfigurują interfejs sieciowy. Przeglądarka jest zmaksymalizowana, a pasek stanu jest ukryty.
+W poniższych wierszach konfiguruje się interfejs sieciowy. Przeglądarka jest zmaksymalizowana, a pasek stanu ukryty.
 {{< terminal >}}
 vim ~/uzbl.conf
 
@@ -87,14 +87,14 @@ set show_status=0
 ```
 
 ##  3.4.) Gotowe
-Sesję "dashboard" można opuścić:
+Sesję "pulpitu nawigacyjnego" można opuścić:
 {{< terminal >}}
 exit
 
 {{</ terminal >}}
 
-##  3.5.) behavior.js i przewijanie tekstu
-Ten Javascript steruje zachowaniem tablicy. Jeśli budowa lub test zakończy się niepowodzeniem, wyświetlany jest duży ticker. W ten sposób mogę dostrzec błędy nawet z daleka.
+##  3.5.) behavior.js i tekst przewijany
+Ten skrypt Java steruje zachowaniem tablicy. Jeśli kompilacja lub test zakończą się niepowodzeniem, wyświetlany jest duży ticker. W ten sposób mogę dostrzec błędy nawet z dużej odległości.
 {{< gallery match="images/3/*.png" >}}
 
 {{< terminal >}}
@@ -195,14 +195,14 @@ timer.append(
 
 
 ```
-Oczywiście, możesz wbudować dowolne zachowanie, takie jak ponowne uruchamianie nieudanych testów.
+Oczywiście można wbudować dowolne zachowania, takie jak ponowne uruchamianie nieudanych testów.
 ## 4. autologowanie do sesji X
-Kolejnym krokiem jest ustawienie automatycznego logowania. Ten plik jest przystosowany do tego celu:
+Następnym krokiem jest ustawienie automatycznego logowania. Ten plik jest przystosowany do tego celu:
 {{< terminal >}}
 sudo vim /etc/default/nodm
 
 {{</ terminal >}}
-Tutaj wpisuje się użytkownika logowania "dashboard" i dezaktywuje się menedżera wyświetlania:
+W tym miejscu wprowadza się użytkownika logowania "dashboard" i dezaktywuje się menedżera wyświetlania:
 ```
 # nodm configuration
 # Set NODM_ENABLED to something different than 'false' to enable nodm
@@ -227,3 +227,4 @@ sudo reboot
 {{</ terminal >}}
 
 ## Gotowe
+Każda tablica rozdzielcza powinna być uruchamiana ponownie raz dziennie. W tym celu utworzyłem program cron.

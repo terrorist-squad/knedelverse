@@ -73,7 +73,7 @@ Poi clicco su "Impostazioni avanzate" e attivo anche qui il "Riavvio automatico"
 {{< gallery match="images/9/*.png" >}}
 Assegno porte fisse per il contenitore "MediaWiki". Senza porte fisse, potrebbe essere che il "server MediaWiki" giri su una porta diversa dopo un riavvio.
 {{< gallery match="images/10/*.png" >}}
-Inoltre, un "link" al contenitore "mariadb" deve ancora essere creato. Clicco sulla scheda "Link" e seleziono il contenitore del database. Il nome dell'alias dovrebbe essere ricordato per l'installazione del wiki.
+Inoltre, un "link" al contenitore "mariadb" deve ancora essere creato. Faccio clic sulla scheda "Link" e seleziono il contenitore del database. Il nome dell'alias dovrebbe essere ricordato per l'installazione del wiki.
 {{< gallery match="images/11/*.png" >}}
 Infine, inserisco una variabile d'ambiente "TZ" con valore "Europe/Berlin".
 {{< gallery match="images/12/*.png" >}}

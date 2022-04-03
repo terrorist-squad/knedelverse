@@ -1,6 +1,6 @@
 +++
 date = "2021-06-26"
-title = "Suuria asioita konttien kanssa: Kubernetes Dashboard"
+title = "Suuria asioita konttien kanssa: Kubernetes Dashboard -kojelauta"
 difficulty = "level-4"
 tags = ["kubernetes", "cloud", "homelab", "pods", "nodes", "raspberry-pi", "raspberry"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/june/20210726-kubernetes-board/index.fi.md"

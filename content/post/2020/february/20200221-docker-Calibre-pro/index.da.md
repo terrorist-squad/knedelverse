@@ -5,7 +5,7 @@ difficulty = "level-3"
 tags = ["calibre", "calibre-web", "Docker", "docker-compose", "Synology", "linux"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200221-docker-Calibre-pro/index.da.md"
 +++
-Der findes allerede en lettere vejledning på denne blog: [Synology-Nas: Installer Calibre Web som et e-bogbibliotek]({{< ref "post/2020/february/20200213-synology-calibreweb" >}} "Synology-Nas: Installer Calibre Web som et e-bogbibliotek"). Denne vejledning er for alle Synology DS-fagfolk.
+Der findes allerede en lettere vejledning på denne blog: [Synology-Nas: Installer Calibre Web som et e-bogsbibliotek]({{< ref "post/2020/february/20200213-synology-calibreweb" >}} "Synology-Nas: Installer Calibre Web som et e-bogsbibliotek"). Denne vejledning er for alle Synology DS-fagfolk.
 ## Trin 1: Forbered Synology
 Først skal SSH-login være aktiveret på DiskStationen. Du kan gøre dette ved at gå til "Kontrolpanel" > "Terminal".
 {{< gallery match="images/1/*.png" >}}
@@ -17,7 +17,7 @@ Jeg opretter en ny mappe til Calibre-biblioteket. For at gøre dette kalder jeg 
 {{< gallery match="images/3/*.png" >}}
 
 ## Trin 3: Forbered bogmappe
-Nu skal følgende fil downloades og udpakkes: https://drive.google.com/file/d/1zfeU7Jh3FO_jFlWSuZcZQfQOGD0NvXBm/view. Indholdet ("metadata.db") skal placeres i den nye bogmappe, se:
+Nu skal følgende fil downloades og pakkes ud: https://drive.google.com/file/d/1zfeU7Jh3FO_jFlWSuZcZQfQOGD0NvXBm/view. Indholdet ("metadata.db") skal placeres i den nye bogmappe, se:
 {{< gallery match="images/4/*.png" >}}
 
 ## Trin 4: Forbered Docker-mappen
@@ -56,7 +56,7 @@ sudo docker-compose -f calibre.yml up -d
 {{< gallery match="images/7/*.png" >}}
 
 ## Trin 6: Opsætning
-Derefter kan jeg ringe til min Calibre-server med diskstationens IP og den tildelte port fra "Trin 4". Jeg bruger mit "/books"-monteringspunkt i opsætningen. Herefter kan serveren allerede bruges.
+Derefter kan jeg ringe til min Calibre-server med diskstationens IP og den tildelte port fra "Trin 4". I opsætningen bruger jeg mit "/books"-monteringspunkt. Herefter kan serveren allerede bruges.
 {{< gallery match="images/8/*.png" >}}
 
 ## Trin 7: Færdiggørelse af opsætningen

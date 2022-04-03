@@ -24,9 +24,10 @@ chmod 755 say-hallo.sh
 ## Trin 3: Medtag Bash-script i dækket
 3.1) Nu kan Stream Deck-appen åbnes:
 {{< gallery match="images/1/*.png" >}}
-3.2) Derefter trækker jeg "Åbn system"-handlingen over på en knap.
+3.2) Derefter trækker jeg "Open System"-handlingen over på en knap.
 {{< gallery match="images/2/*.png" >}}
 3.3) Nu kan jeg vælge mit bash-script:
 {{< gallery match="images/3/*.png" >}}
 
 ## Trin 4: Færdig!
+Den nye knap kan nu bruges.

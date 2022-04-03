@@ -5,7 +5,7 @@ difficulty = "level-3"
 tags = ["bash", "linux", "robot", "roboter", "linux", "Robotic-Process-Automation", "rpa", "xclip", "xdotool"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210404-xDoTools-xclip/index.en.md"
 +++
-In this tutorial I show how to control a Linux - desktop via Bash. The following packages are needed for the Bash robot:
+In this tutorial I show how to control a Linux - desktop via Bash. The following packages are needed for the bash robot:
 {{< terminal >}}
 apt-get install xdotool xclip
 
@@ -41,3 +41,4 @@ xdotool key "Return"                         ## Internetadresse aufrufen
 ```
 
 ## Why do you need xclip??
+With xdotools/"ctrl c" you can copy content into the cache and read or process it with xclip in the bash script.

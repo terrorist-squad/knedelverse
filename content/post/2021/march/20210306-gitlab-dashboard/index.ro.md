@@ -143,7 +143,7 @@ timer.append(
 
 
 ```
-Acum vă puteți deconecta. Vă rugăm să modificați setarea DisplayManager în "/etc/default/nodm". Aici trebuie să modificați "NODM_USER" la "dashboard" și "NODM_ENABLED" la "true".
+Acum vă puteți deconecta. Vă rugăm să modificați setarea DisplayManager din "/etc/default/nodm". Aici trebuie să modificați "NODM_USER" la "dashboard" și "NODM_ENABLED" la "true".
 ```
 # nodm configuration
 

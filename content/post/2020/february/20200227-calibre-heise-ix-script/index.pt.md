@@ -9,7 +9,7 @@ Muitas vezes pode ser enfadonho adicionar a meta-info correta aos PDFs. Eu mesmo
 {{< gallery match="images/1/*.png" >}}
 Como este processo se repete a cada mês, eu inventei a seguinte configuração. Eu só arrasto os meus novos PDFs para a minha biblioteca.
 {{< gallery match="images/2/*.png" >}}
-Eu criei um recipiente que recebe minha biblioteca Calibre como um volume (-v ...:/books). Neste contentor instalei os seguintes pacotes:
+Eu criei um recipiente que recebe minha biblioteca Calibre como volume (-v ...:/livros). Neste contentor instalei os seguintes pacotes:
 {{< terminal >}}
 apt-get update && apt-get install -y xpdf calibre
 
@@ -44,3 +44,4 @@ done
 ```
 Com o comando "calibredb set_metadata", defino tudo o resto como tags. O resultado é o seguinte:
 {{< gallery match="images/3/*.png" >}}
+O roteiro também está disponível no Github: https://github.com/ChristianKnedel/heise-ix-reader-for-calibre .

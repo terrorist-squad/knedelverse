@@ -5,25 +5,25 @@ difficulty = "level-3"
 tags = ["calibre", "calibre-web", "Docker", "docker-compose", "Synology", "linux"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200221-docker-Calibre-pro/index.pl.md"
 +++
-Na tym blogu jest już łatwiejszy tutorial: [Synology-Nas: Zainstaluj Calibre Web jako bibliotekę ebooków]({{< ref "post/2020/february/20200213-synology-calibreweb" >}} "Synology-Nas: Zainstaluj Calibre Web jako bibliotekę ebooków"). Ten samouczek jest przeznaczony dla wszystkich profesjonalistów zajmujących się obsługą Synology DS.
+Na tym blogu jest już dostępny łatwiejszy poradnik: [Synology-Nas: Zainstaluj Calibre Web jako bibliotekę ebooków]({{< ref "post/2020/february/20200213-synology-calibreweb" >}} "Synology-Nas: Zainstaluj Calibre Web jako bibliotekę ebooków"). Ten samouczek jest przeznaczony dla wszystkich profesjonalistów zajmujących się obsługą Synology DS.
 ## Krok 1: Przygotuj Synology
-Najpierw należy aktywować logowanie SSH na serwerze DiskStation. W tym celu należy wejść w "Panel sterowania" > "Terminal
+Najpierw należy aktywować logowanie SSH na serwerze DiskStation. W tym celu należy przejść do "Panelu sterowania" > "Terminal
 {{< gallery match="images/1/*.png" >}}
-Następnie można zalogować się poprzez "SSH", podany port i hasło administratora (użytkownicy Windows używają Putty lub WinSCP).
+Następnie można zalogować się przez "SSH", podany port i hasło administratora (użytkownicy systemu Windows używają Putty lub WinSCP).
 {{< gallery match="images/2/*.png" >}}
-Loguję się przez Terminal, winSCP lub Putty i zostawiam tę konsolę otwartą na później.
-## Krok 2: Utwórz folder książki
-Tworzę nowy folder dla biblioteki Calibre. Aby to zrobić, wywołuję "System Control" -> "Shared Folder" i tworzę nowy folder o nazwie "Books". Jeśli nie ma jeszcze folderu "Docker", to również musi on zostać utworzony.
+Loguję się za pomocą Terminala, winSCP lub Putty i zostawiam tę konsolę otwartą na później.
+## Krok 2: Utwórz folder książek
+Tworzę nowy folder dla biblioteki Calibre. W tym celu wywołuję polecenie "Kontrola systemu" -> "Folder udostępniony" i tworzę nowy folder o nazwie "Książki". Jeśli nie ma jeszcze folderu "Docker", należy go utworzyć.
 {{< gallery match="images/3/*.png" >}}
 
 ## Krok 3: Przygotowanie folderu z książkami
-Teraz należy pobrać i rozpakować następujący plik: https://drive.google.com/file/d/1zfeU7Jh3FO_jFlWSuZcZQfQOGD0NvXBm/view. Zawartość ("metadata.db") musi być umieszczona w nowym katalogu książki, patrz:
+Teraz należy pobrać i rozpakować następujący plik: https://drive.google.com/file/d/1zfeU7Jh3FO_jFlWSuZcZQfQOGD0NvXBm/view. Zawartość ("metadata.db") musi być umieszczona w nowym katalogu książki, zob:
 {{< gallery match="images/4/*.png" >}}
 
 ## Krok 4: Przygotuj folder Docker
-Tworzę nowy katalog o nazwie "calibre" w katalogu Docker:
+W katalogu Docker tworzę nowy katalog o nazwie "calibre":
 {{< gallery match="images/5/*.png" >}}
-Następnie przechodzę do nowego katalogu i tworzę nowy plik o nazwie "calibre.yml" z następującą zawartością:
+Następnie przechodzę do nowego katalogu i tworzę nowy plik o nazwie "calibre.yml" o następującej zawartości:
 ```
 version: '2'
 services:
@@ -42,11 +42,11 @@ services:
     restart: unless-stopped
 
 ```
-W tym nowym pliku należy dostosować kilka miejsc w następujący sposób:* PUID/PGID: W PUID/PGID należy wprowadzić identyfikator użytkownika i grupy użytkownika DS. Tutaj używam konsoli z "Kroku 1" i komendy "id -u" aby zobaczyć ID użytkownika. Za pomocą polecenia "id -g" otrzymam ID grupy.* ports: Dla portu, przednia część "8055:" musi zostać skorygowana.directoriesWszystkie katalogi w tym pliku muszą zostać skorygowane. Prawidłowe adresy są widoczne w oknie właściwości systemu DS. (Zrzut ekranu poniżej)
+W tym nowym pliku należy dostosować kilka miejsc w następujący sposób:* PUID/PGID: W polu PUID/PGID należy wprowadzić identyfikator użytkownika i grupy użytkownika DS. Tutaj używam konsoli z "Kroku 1" i polecenia "id -u", aby zobaczyć identyfikator użytkownika. Za pomocą polecenia "id -g" otrzymam identyfikator grupy.* ports: W przypadku portu należy skorygować przednią część "8055:".directoriesWszystkie katalogi w tym pliku muszą zostać skorygowane. Prawidłowe adresy można zobaczyć w oknie właściwości systemu DS. (Zrzut ekranu poniżej)
 {{< gallery match="images/6/*.png" >}}
 
 ## Krok 5: Uruchomienie testu
-W tym kroku mogę również dobrze wykorzystać konsolę. Przechodzę do katalogu Calibre i tam uruchamiam serwer Calibre poprzez Docker Compose.
+W tym kroku mogę również dobrze wykorzystać konsolę. Przechodzę do katalogu Calibre i uruchamiam tam serwer Calibre za pomocą aplikacji Docker Compose.
 {{< terminal >}}
 cd /volume1/docker/calibre
 sudo docker-compose -f calibre.yml up -d
@@ -56,23 +56,23 @@ sudo docker-compose -f calibre.yml up -d
 {{< gallery match="images/7/*.png" >}}
 
 ## Krok 6: Konfiguracja
-Następnie mogę zadzwonić do mojego serwera Calibre z IP stacji dysków i przypisanego portu z "Krok 4". Używam mojego punktu montowania "/books" w konfiguracji. Po tym, serwer jest już zdatny do użytku.
+Następnie mogę wywołać mój serwer Calibre, podając adres IP stacji dysków i przypisany port z "Kroku 4". W ustawieniach używam punktu montowania "/books". Po tej operacji serwer jest już zdatny do użytku.
 {{< gallery match="images/8/*.png" >}}
 
 ## Krok 7: Zakończenie konfiguracji
-Konsola jest również potrzebna w tym kroku. Używam polecenia "exec", aby zapisać bazę danych kontenera-wewnętrznej aplikacji.
+W tym kroku potrzebna jest również konsola. Do zapisania wewnętrznej bazy danych aplikacji w kontenerze używam polecenia "exec".
 {{< terminal >}}
 sudo docker exec -it calibre-web-server cp /app/calibre-web/app.db /briefkaste/app.db
 
 {{</ terminal >}}
-Po tym widzę nowy plik "app.db" w katalogu Calibre:
+Następnie w katalogu Calibre pojawia się nowy plik "app.db":
 {{< gallery match="images/9/*.png" >}}
 Następnie zatrzymuję serwer Calibre:
 {{< terminal >}}
 sudo docker-compose -f calibre.yml down
 
 {{</ terminal >}}
-Teraz zmieniam ścieżkę letterbox i nad nią persystuję bazę danych aplikacji.
+Teraz zmieniam ścieżkę do skrzynki pocztowej i zapisuję w niej bazę danych aplikacji.
 ```
 version: '2'
 services:
@@ -91,7 +91,7 @@ services:
     restart: unless-stopped
 
 ```
-Po tym można ponownie uruchomić serwer:
+Następnie można ponownie uruchomić serwer:
 {{< terminal >}}
 sudo docker-compose -f calibre.yml up -d
 

@@ -52,3 +52,4 @@ Slutligen anger jag dessa miljövariabler:Se:
 {{< gallery match="images/7/*.png" >}}
 Behållaren kan nu startas. Jag ringer upp Grocy-servern med Synologys IP-adress och min containerport och loggar in med användarnamnet "admin" och lösenordet "admin".
 {{< gallery match="images/8/*.png" >}}
+

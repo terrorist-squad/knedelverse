@@ -33,7 +33,7 @@ Po stažení obrázku je obrázek k dispozici jako obrázek. Docker rozlišuje 2
 ## Krok 2: Zprovozněte obrázek:
 Dvakrát kliknu na svůj obrázek "mighty-mixxx-tapper".
 {{< gallery match="images/3/*.png" >}}
-Pak kliknu na "Rozšířená nastavení" a aktivuji "Automatický restart". Vyberu kartu "Svazek" a kliknu na "Přidat složku". Tam vytvořím novou složku s touto přípojnou cestou "/tmp/ripps/".
+Pak kliknu na "Rozšířené nastavení" a aktivuji "Automatický restart". Vyberu kartu "Svazek" a kliknu na "Přidat složku". Tam vytvořím novou složku s touto přípojnou cestou "/tmp/ripps/".
 {{< gallery match="images/4/*.png" >}}
 Pro kontejner "mighty-mixxx-tapper" přiřadím pevné porty. Bez pevných portů by se mohlo stát, že "mighty-mixxx-tapper-server" po restartu poběží na jiném portu.
 {{< gallery match="images/5/*.png" >}}

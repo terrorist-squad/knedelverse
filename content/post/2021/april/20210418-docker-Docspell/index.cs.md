@@ -34,3 +34,4 @@ docker-compose up -d
 {{</ terminal >}}
 Po několika minutách mohu zavolat svůj server Docspell s IP adresy diskové stanice a přiřazeným portem/7878.
 {{< gallery match="images/5/*.png" >}}
+Vyhledávání dokumentů funguje dobře. Považuji za škodu, že texty v obrázcích nejsou indexovány. Pomocí aplikace Papermerge můžete také vyhledávat texty v obrázcích.

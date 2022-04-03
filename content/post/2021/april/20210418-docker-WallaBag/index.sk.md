@@ -1,11 +1,11 @@
 +++
 date = "2021-04-18"
-title = "Veľké veci s kontajnermi: Vlastný WallaBag na diskovej stanici Synology"
+title = "Skvelé veci s kontajnermi: Vlastný WallaBag na diskovej stanici Synology"
 difficulty = "level-1"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "archiv", "wallabag"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-docker-WallaBag/index.sk.md"
 +++
-Wallabag je program na archiváciu zaujímavých webových stránok alebo článkov. Dnes ukážem, ako nainštalovať službu Wallabag na diskovú stanicu Synology.
+Wallabag je program na archiváciu zaujímavých webových stránok alebo článkov. Dnes vám ukážem, ako nainštalovať službu Wallabag na diskovú stanicu Synology.
 ## Možnosť pre profesionálov
 Ako skúsený používateľ Synology sa môžete samozrejme prihlásiť pomocou SSH a nainštalovať celú inštaláciu prostredníctvom súboru Docker Compose.
 ```
@@ -97,3 +97,4 @@ Kontajner je teraz možné spustiť. Vytvorenie databázy môže chvíľu trvať
 {{< gallery match="images/14/*.png" >}}
 Zavolám server wallabag s IP adresou Synology a svojím kontajnerovým portom.
 {{< gallery match="images/15/*.png" >}}
+Musím však povedať, že ja osobne uprednostňujem shiori ako internetový archív.

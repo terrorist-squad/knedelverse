@@ -86,3 +86,4 @@ El contenedor ya puede iniciarse. La creación de la base de datos puede llevar 
 {{< gallery match="images/12/*.png" >}}
 Llamo al servidor Bookstack con la dirección IP del Synology y el puerto de mi contenedor. El nombre de usuario es "admin@admin.com" y la contraseña es "password".
 {{< gallery match="images/13/*.png" >}}
+

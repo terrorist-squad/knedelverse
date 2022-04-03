@@ -29,7 +29,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 {{< gallery match="images/7/*.png" >}}
 Теперь я вызываю IP-адрес Synology с назначенным портом Calibre и вижу следующее изображение. Я ввожу "/calibre" в качестве "Расположение базы данных Calibre". Остальные настройки - дело вкуса.
 {{< gallery match="images/8/*.png" >}}
-По умолчанию используется логин "admin" с паролем "admin123".
+Логин по умолчанию - "admin" с паролем "admin123".
 {{< gallery match="images/9/*.png" >}}
 Готово! Конечно, теперь я также могу подключить настольное приложение через мою "папку с книгами". Я переключаю библиотеку в своем приложении, а затем выбираю папку Nas.
 {{< gallery match="images/10/*.png" >}}

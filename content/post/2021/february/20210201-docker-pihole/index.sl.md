@@ -15,7 +15,7 @@ Prijavim se prek terminala, winSCP ali Puttyja in pustim to konzolo odprto za po
 ## Korak 2: Ustvarite mapo Pihole
 V imeniku programa Docker ustvarim nov imenik z imenom "pihole".
 {{< gallery match="images/3/*.png" >}}
-Nato preidem v novi imenik in ustvarim dve mapi "etc-pihole" in "etc-dnsmasq.d":
+Nato preidem v nov imenik in ustvarim dve mapi "etc-pihole" in "etc-dnsmasq.d":
 {{< terminal >}}
 cd /volume1/docker/
 mkdir -p {etc-pihole,etc-dnsmasq.d}

@@ -77,5 +77,5 @@ Poleg tega je treba ustvariti povezavo do vsebnika "mariadb". Kliknem na zavihek
 {{< gallery match="images/11/*.png" >}}
 Na koncu vnesem okoljsko spremenljivko "TZ" z vrednostjo "Europe/Berlin".
 {{< gallery match="images/12/*.png" >}}
-Posodo lahko zaženete. Strežnik Mediawiki pokličem z naslovom IP strežnika Synology in pristaniščem zabojnika. Pod strežnik podatkovne baze vnesem vzdevek imena vsebnika podatkovne baze. Vnesem tudi ime podatkovne zbirke, uporabniško ime in geslo iz koraka 2.
+Posodo lahko zaženete. Strežnik Mediawiki pokličem z naslovom IP strežnika Synology in pristaniščem za zabojnik. Pod strežnik podatkovne zbirke vnesem ime alias vsebnika podatkovne zbirke. Vnesem tudi ime podatkovne zbirke, uporabniško ime in geslo iz koraka 2.
 {{< gallery match="images/13/*.png" >}}

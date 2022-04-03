@@ -11,3 +11,4 @@ Služba počúva port "30000" pre mňa. Keď všetko funguje, zavolám svoj Gitl
 {{< gallery match="images/2/*.*" >}}
 Keď sa prvýkrát prihlásim, som požiadaný o budúce heslo "admin". To bolo všetko! Teraz môžem organizovať projekty. Teraz je možné nainštalovať spúšťač Gitlab.  
 {{< gallery match="images/3/*.*" >}}
+

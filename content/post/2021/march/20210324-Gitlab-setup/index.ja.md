@@ -1,11 +1,11 @@
 +++
 date = "2021-03-24"
-title = "ショートストーリー：私のGitlabセットアップ"
+title = "短編：私のGitlabセットアップ"
 difficulty = "level-3"
 tags = ["code", "development", "devops", "docker-compose", "git", "gitlab", "Synology"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/march/20210324-Gitlab-setup/index.ja.md"
 +++
-Gitlab on the Synology disk station」というテーマで最初のチュートリアルを行った後、今でもこのソリューションを使っているのかという質問を何度か受けました。Nope!その間に、私はAtlassianツールと以下のGitLabのインストールをintel NUCに移しました。このファイルは、もちろん Synology ディスクステーションでも実行できます。 OpenLDAP、コンテナレジストリ、メール、証明書、ログ用に特別な設定を使用していることがよくわかります。また、Atlassian-JiraやAtlassian-Confluenceを使用しているため、wikiや課題追跡機能は停止しています。このように、Gitlabは非常にカスタマイズしやすいのです。楽しんでください。
+Gitlab on the Synology disk station」というトピックで初めてチュートリアルを行った後、すでに何度かこのソリューションをまだ使っているのかと聞かれました。いや！とりあえず、Atlassianのツールと以下のGitLabのインストールをintel NUCに移しました。もちろん Synology ディスクステーションでも実行できます。 OpenLDAP、コンテナーレジストリ、メール、証明書、ロギングに特別な設定を使用していることがよくわかります。また、Atlassian-JiraとAtlassian-Confluenceを使用しているため、Wikiと課題追跡機能は停止しています。このように、Gitlabは非常にカスタマイズがしやすいのです。楽しんできてください。
 ```
 version: '2'
 services:
@@ -173,3 +173,4 @@ networks:
   gitlab:
 
 ```
+

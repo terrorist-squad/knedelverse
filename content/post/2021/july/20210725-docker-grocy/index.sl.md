@@ -39,7 +39,7 @@ Dvakrat kliknem na sliko Grocy.
 {{< gallery match="images/4/*.png" >}}
 Nato kliknem na "Napredne nastavitve" in aktiviram možnost "Samodejni ponovni zagon". Izberem zavihek "Zvezek" in kliknem na "Dodaj mapo". Tam ustvarim novo mapo s to potjo "/config".
 {{< gallery match="images/5/*.png" >}}
-Zabojniku Grocy dodelim fiksna vrata. Brez fiksnih vrat se lahko zgodi, da strežnik Grocy po ponovnem zagonu deluje na drugih vratih.
+Za zabojnik "Grocy" dodelim fiksna vrata. Brez fiksnih vrat se lahko zgodi, da strežnik Grocy po ponovnem zagonu deluje na drugih vratih.
 {{< gallery match="images/6/*.png" >}}
 {{<table "table table-striped table-bordered">}}
 |Ime spremenljivke|Vrednost|Kaj je to?|
@@ -52,3 +52,4 @@ Na koncu vnesem te okoljske spremenljivke: Glej:
 {{< gallery match="images/7/*.png" >}}
 Posodo lahko zaženete. Pokličem strežnik Grocy z naslovom IP strežnika Synology in pristaniščem za zabojnik ter se prijavim z uporabniškim imenom "admin" in geslom "admin".
 {{< gallery match="images/8/*.png" >}}
+

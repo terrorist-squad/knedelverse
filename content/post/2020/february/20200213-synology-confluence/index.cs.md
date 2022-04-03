@@ -15,7 +15,7 @@ Po stažení obrázku je obrázek k dispozici jako obrázek. Docker rozlišuje 2
 ## Automatický restart
 Dvakrát kliknu na svůj obraz Confluence.
 {{< gallery match="images/2/*.png" >}}
-Pak kliknu na "Rozšířené nastavení" a aktivuji "Automatický restart".
+Pak kliknu na "Rozšířená nastavení" a aktivuji "Automatický restart".
 {{< gallery match="images/3/*.png" >}}
 
 ## Porty

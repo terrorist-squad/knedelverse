@@ -9,3 +9,4 @@ Det är otroligt enkelt att installera 104.6 RTL på din Fritzphone. Då kan du 
 {{< gallery match="images/1/*.png" >}}
 Bläddra till botten av sidan. Välj "Annan internetradiostation" under "Lägg till internetradiostation". Ange namnet "104.6 RTL Berlins Hitradio" och adressen "http://stream.104.6rtl.com/rtl-live".
 {{< gallery match="images/2/*.png" >}}
+Klicka på "OK"! Den nya överföringen kan omedelbart användas på din FritzFon.

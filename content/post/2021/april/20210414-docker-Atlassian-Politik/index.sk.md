@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Spoločnosť Atlassian prestala predávať licencie na malé servery a ja som dlho premýšľal, ako to vyriešiť. Keďže chcem svoju inštaláciu ešte dlho používať, zaviedol som nasledujúce opatrenia:
 ## Opatrenie 1: Používam výlučne Docker
-Všetky nástroje Atlassian používam ako kontajnery Docker. Staršie, pôvodné inštalácie je možné preniesť do inštalácie Docker aj prostredníctvom databázových skládok. Tie potom môžete pohodlne spustiť na zariadení intel Nuc alebo diskovej stanici Synology v domácom laboratóriu.
+Všetky nástroje Atlassian spúšťam ako kontajnery Docker. Staršie, pôvodné inštalácie je možné preniesť do inštalácie Docker aj prostredníctvom databázových skládok. Tie potom môžete pohodlne spustiť na zariadení intel Nuc alebo diskovej stanici Synology v domácom laboratóriu.
 {{< tabs>}}
 
 
@@ -158,3 +158,4 @@ Uložil som aj obrazy systému Postgres.
 ## Akcia 3: Vytvorenie inštalačného kľúča USB
 Zálohoval som si dokumentáciu, všetky inštalačné archívy, dátové adresáre Postgresu a konfigurácie na USB kľúč. Ako som povedal, zálohovanie DB je v skutočnosti najdôležitejšie, pretože aktivovaná licencia je tiež v databáze.
 {{< gallery match="images/1/*.png" >}}
+

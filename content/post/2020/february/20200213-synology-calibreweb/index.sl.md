@@ -11,7 +11,7 @@ Najprej ustvarim mapo za knjižnico Calibre.  Prikličem "Nadzor sistema" -> "Sk
 {{< gallery match="images/1/*.png" >}}
 
 ##  Korak 2: Ustvarite knjižnico Calibre
-Zdaj kopiram obstoječo knjižnico ali "[ta prazna knjižnica vzorca](https://drive.google.com/file/d/1zfeU7Jh3FO_jFlWSuZcZQfQOGD0NvXBm/view)" v novi imenik. Sam sem kopiral obstoječo knjižnico namizne aplikacije.
+Zdaj kopiram obstoječo knjižnico ali "[to prazno knjižnico vzorca](https://drive.google.com/file/d/1zfeU7Jh3FO_jFlWSuZcZQfQOGD0NvXBm/view)" v novi imenik. Sam sem kopiral obstoječo knjižnico namizne aplikacije.
 {{< gallery match="images/2/*.png" >}}
 
 ## Korak 3: Iskanje slike Docker

@@ -30,3 +30,4 @@ chmod 755 say-hallo.sh
 {{< gallery match="images/3/*.png" >}}
 
 ## Pasul 4: Gata!
+Noul buton este acum utilizabil.

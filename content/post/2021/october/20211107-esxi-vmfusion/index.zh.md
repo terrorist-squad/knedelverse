@@ -9,3 +9,4 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 {{< gallery match="images/1/*.png" >}}
 现在我的VMware Fusion作为一个客户端连接到ESXi服务器。
 {{< gallery match="images/2/*.png" >}}
+

@@ -9,7 +9,7 @@ Jako uživatel zařízení Synology Diskstation provozuji v síti Homelab mnoho 
 {{< gallery match="images/1/*.png" >}}
 Všechny síťové služby komunikují šifrovaně a jsou zabezpečeny prostřednictvím centrální správy uživatelů. Dnes ukážu, jak jsem zabezpečil svou službu Calibre pomocí šifrování SSL, protokolování přístupu a omezení přístupu LDAP. Pro tento výukový program jsou nutné předchozí znalosti z "[Skvělé věci s Atlassianem: Použití všech nástrojů Atlassian s LDAP]({{< ref "post/2021/march/20210321-atlassian-ldap" >}} "Skvělé věci s Atlassianem: Použití všech nástrojů Atlassian s LDAP")" a "[Skvělé věci s kontejnery: Spouštění Calibre pomocí Docker Compose]({{< ref "post/2020/february/20200221-docker-Calibre-pro" >}} "Skvělé věci s kontejnery: Spouštění Calibre pomocí Docker Compose")".
 ## Můj server LDAP
-Jak jsem již psal, centrální server openLDAP provozuji v kontejneru Docker. Vytvořil jsem také několik skupin aplikací.
+Jak jsem již psal, v kontejneru Docker provozuji centrální server openLDAP. Vytvořil jsem také několik skupin aplikací.
 {{< gallery match="images/2/*.png" >}}
 
 ## Zabezpečení nezabezpečené aplikace pomocí reverzního proxy serveru
@@ -54,7 +54,7 @@ networks:
 ```
 Další užitečné obrazy Docker pro domácí použití najdete v [Dockerverse]({{< ref "dockerverse" >}} "Dockerverse").
 ## Konfigurace Nginx
-Soubor "default.conf" obsahuje všechny konfigurace LDAP a šifrování. Samozřejmě je třeba upravit adresu URL, binddn, certifikáty, porty, heslo a skupinu.
+Soubor "default.conf" obsahuje všechny konfigurace LDAP a šifrování. Samozřejmě je třeba upravit adresu URL, binddn, certifikáty, porty a heslo a skupinu.
 ```
 # ldap auth configuration
 auth_ldap_cache_enabled on;
@@ -100,3 +100,4 @@ Pokud nyní spustíte nastavení příkazem "docker-compose -f ...etc... up", uv
 {{< gallery match="images/3/*.png" >}}
 Vzhledem k tomu, že uživatelé LDAP jsou pouze hostujícími uživateli, musí být v Calibrewebu nastavena práva hostujících uživatelů:
 {{< gallery match="images/4/*.png" >}}
+Toto nastavení používám pro následující služby:* Videotéka (Peertube)* Knihovna (Calibreweb)* Gitlab (CE nepodporuje skupiny, takže se musíte přihlásit 2x).

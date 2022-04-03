@@ -5,17 +5,17 @@ difficulty = "level-2"
 tags = ["diskstation", "Docker", "docker-compose", "confluence", "wiki", "macro"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210418-Atlassian-Confluence-macro/index.pl.md"
 +++
-Confluence jest złotym standardem w dziedzinie baz wiedzy. Tworzenie własnych makr użytkownika Confluence jest również dziecinnie proste. Dziś pokażę jak stworzyłem makro terminalowe.
+Confluence to złoty standard w dziedzinie baz wiedzy. Tworzenie własnych makr użytkownika Confluence jest również dziecinnie proste. Dzisiaj pokażę, jak utworzyłem makro terminalowe.
 {{< gallery match="images/1/*.png" >}}
 
 ## Krok 1: Utwórz makro użytkownika
-W obszarze "Administracja" klikam na "Makra użytkownika" > "Utwórz Makro użytkownika".
+W obszarze "Administracja" klikam kolejno polecenia "Makra użytkownika" > "Utwórz makro użytkownika".
 {{< gallery match="images/2/*.png" >}}
-Następnie wpisuję nazwę makra użytkownika i wybieram w opcji "Definiowanie makr użytkownika" opcję "Renderowane".
+Następnie wprowadzam nazwę makra użytkownika i wybieram opcję "Zdefiniuj makra użytkownika" w opcji "Renderowane".
 {{< gallery match="images/3/*.png" >}}
 
 ## Krok 2: Opracowanie makra użytkownika
-Każde "wyrenderowane" makro użytkownika posiada domyślnie zmienną body:
+Każde "wyrenderowane" makro użytkownika ma domyślnie zmienną body:
 ```
 Inhalt $body
 

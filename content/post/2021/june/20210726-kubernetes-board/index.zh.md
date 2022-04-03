@@ -21,7 +21,7 @@ kubectl -n kube-system edit service kubernetes-dashboard --namespace=kubernetes-
 {{< gallery match="images/2/*.png" >}}
 之后，仪表盘已经可以访问。
 {{< gallery match="images/3/*.png" >}}
-为了获得访问令牌，人们必须寻找一个部署控制器的密钥。
+为了获得访问令牌，人们必须搜索部署控制器的密钥。
 {{< terminal >}}
 kubectl -n kube-system get secret | grep deployment-controller-token
 

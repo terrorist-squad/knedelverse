@@ -21,7 +21,7 @@ forward-socks5 / 127.0.0.1:9050 .
 ```
 Вижте:
 {{< gallery match="images/1/*.png" >}}
-За да гарантираме, че Tor и Privoxy се изпълняват и при стартиране на системата, все пак трябва да ги въведем в автоматичното стартиране:
+За да гарантираме, че Tor и Privoxy ще се изпълняват и при стартиране на системата, все пак трябва да ги въведем в автостартирането:
 {{< terminal >}}
 sudo update-rc.d tor defaults
 sudo update-rc.d privoxy defaults
@@ -51,7 +51,7 @@ server_name_in_redirect off;
 ```
 Вижте:
 {{< gallery match="images/3/*.png" >}}
-Сега сървърът NGINX трябва да бъде рестартиран отново:
+Сега сървърът NGINX трябва да се рестартира отново:
 {{< terminal >}}
 sudo service nginx restart
 

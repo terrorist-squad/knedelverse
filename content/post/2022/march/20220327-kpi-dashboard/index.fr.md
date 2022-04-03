@@ -92,3 +92,4 @@ docker run -it -p 9292:9292 my-dashboard:latest
 {{</ terminal >}}
 Et voici à quoi cela ressemble :
 {{< gallery match="images/3/*.png" >}}
+C'est la base d'un bon système d'information. On peut personnaliser toutes les couleurs, les scripts et les widgets.

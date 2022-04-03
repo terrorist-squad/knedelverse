@@ -1,13 +1,13 @@
 +++
-date = "2021-04-04"
+date = "2021-04-0q"
 title = "Готини неща с Atlassian: Pimp my Bamboo Monitor"
 difficulty = "level-5"
 tags = ["bamboo", "build", "build-monitor", "cd", "ci", "devops", "linux", "raspberry", "raspberry-pi", "test"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/april/20210402-Bamboo-monitor/index.bg.md"
 +++
-Как мога да създам монитор за изграждане за Bamboo, Jenkins или Gitlab? Ще го разбера до довечера! Вече написах подобен [Урок за Gitlab-Issue-Boards]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Урок за Gitlab-Issue-Boards").
+Как мога да създам монитор за изграждане за Bamboo, Jenkins или Gitlab? Ще го разбера до довечера! Вече съм написал подобен [Урок за табла за проблеми в Gitlab]({{< ref "post/2021/march/20210306-gitlab-dashboard" >}} "Урок за табла за проблеми в Gitlab").
 {{< gallery match="images/1/*.jpg" >}}
-Основата на този урок е Raspberry Imager и операционната система "Raspberry Pi OS Lite". След инсталирането на операционната система SD картата може да бъде поставена в Raspberry. В моя случай това е Raspberry Pi Zero.
+Основата на този урок е Raspberry Imager и операционната система "Raspberry Pi OS Lite". След като инсталирате операционната система, SD картата може да бъде поставена в Raspberry. В моя случай това е Raspberry Pi Zero.
 {{< gallery match="images/2/*.*" >}}
 
 ## Стъпка 1: Инсталиране на Matchbox/Window Manager
@@ -32,7 +32,7 @@ sudo su dashboard
 {{</ terminal >}}
 
 ##  3.1. ) Бутони/функции
-Искам моята Raspberry да може да работи в режим на киоск. За да направя това, запазвам две клавишни команди: Ctrl Alt X за терминала и Alt C за затваряне на терминала. В терминала можете да направите запитване за текущия IP адрес с ifconfig, да изключите малината със sudo shutdown -h now etc.....
+Искам моята Raspberry да може да работи в режим на киоск. За целта съхранявам две клавишни команди: Ctrl Alt X за терминала и Alt C за затваряне на терминала. В терминала можете да направите запитване за текущия IP адрес с ifconfig, да изключите малината със sudo shutdown -h now etc.....
 {{< terminal >}}
 cd ~
 mkdir .matchbox
@@ -227,3 +227,4 @@ sudo reboot
 {{</ terminal >}}
 
 ## Готов
+Всяка дъска трябва да се рестартира веднъж дневно. Създадох cron за тази цел.

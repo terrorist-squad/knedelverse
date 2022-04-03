@@ -1,18 +1,18 @@
 +++
 date = "2021-07-25"
-title = "コンテナの優れた点：UI付きDockerレジストリ"
+title = "コンテナですごいこと：UI付きDockerレジストリ"
 difficulty = "level-3"
 tags = ["diskstation", "Docker", "docker-compose", "Synology", "registry", "images", "ui", "interface"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2021/july/20210725-docker-registry/index.ja.md"
 +++
-独自のレジストリを使ってDockerイメージをネットワーク全体で利用できるようにする方法をご紹介します。
+Dockerイメージを独自のレジストリでネットワーク全体に公開する方法について説明します。
 ## インストール
-サーバーに「docker-registry」という新しいディレクトリを作ります。
+サーバーに「docker-registry」というディレクトリを新規に作成します。
 {{< terminal >}}
 mkdir docker-registry
 
 {{</ terminal >}}
-そして、docker-registryディレクトリに入り（「cd docker-registry」）、「registry.yml」という新しいファイルを以下の内容で作成します。
+そして、docker-registryディレクトリに入り（「cd docker-registry」）、以下の内容で「registry.yml」というファイルを新規に作成します。
 ```
 version: '3'
 
@@ -46,19 +46,20 @@ networks:
   registry-ui-net:
 
 ```
-家庭での使用に便利なDockerイメージは、[Dockerverse]({{< ref "dockerverse" >}} "Dockerverse")にもあります。
+家庭で使える便利なDockerイメージは、[ドッカーバース]({{< ref "dockerverse" >}} "ドッカーバース").Dockerにあります。
 ## スタートコマンド
-このファイルはDocker Composeで起動します。その後、インストールは意図したドメイン/ポートでアクセスできるようになります。
+このファイルはDocker Compose経由で起動します。その後、意図したドメイン/ポートでインストールにアクセスできるようになります。
 {{< terminal >}}
 docker-compose -f registry.yml up -d
 
 {{</ terminal >}}
-その後、UIコンテナのターゲットIPとポートを使って、独自のレジストリを使用することができます。
+その後、UIコンテナのターゲットIPとポートで自前のレジストリを使用することができます。
 {{< gallery match="images/1/*.png" >}}
-これで、レジストリからイメージを構築、プッシュ、投入できるようになりました。
+これで、レジストリからイメージをビルド、プッシュ、ポピュレートすることができるようになりました。
 {{< terminal >}}
 docker build -t 192.168.178.61:5000/mein-image:version .
 docker push 192.168.178.61:5000/mein-image:version
 docker pull 192.168.178.61:5000/mein-image:version
 
 {{</ terminal >}}
+

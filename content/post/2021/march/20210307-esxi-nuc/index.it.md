@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Con ESXi, l'"intel NUC" può essere diviso in qualsiasi numero di computer. In questo tutorial, mostro come ho installato VMware ESXi sul mio NUC.Piccola prefazione: consiglio un aggiornamento del BIOS prima dell'installazione di ESXi. Avrai anche bisogno di una chiavetta USB da 32GB. Ho comprato un intero pacchetto per meno di 5 euro ciascuno da Amazon.
 {{< gallery match="images/1/*.jpg" >}}
-Il mio NUC-8I7BEH ha 2x 16GB HyperX Impact Ram, 1x modulo Samsung 970 EVO M2 da 256GB e un disco rigido WD-RED da 1TB 2.5 pollici.
+Il mio NUC-8I7BEH ha 2x 16GB HyperX Impact Ram, 1x 256GB Samsung 970 EVO M2 module e un disco rigido WD-RED da 1TB 2.5 pollici.
 {{< gallery match="images/2/*.jpg" >}}
 
 ## Passo 1: trovare la chiavetta USB

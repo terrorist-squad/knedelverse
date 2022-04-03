@@ -97,3 +97,4 @@ services:
 {{< gallery match="images/14/*.png" >}}
 Я вызываю сервер wallabag с IP-адресом Synology и портом моего контейнера.
 {{< gallery match="images/15/*.png" >}}
+Однако я должен сказать, что лично я предпочитаю shiori в качестве интернет-архива.

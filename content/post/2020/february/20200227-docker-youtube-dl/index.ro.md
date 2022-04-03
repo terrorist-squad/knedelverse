@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 Mulți dintre prietenii mei știu că am un portal video privat de învățare pe rețeaua mea Homelab - Network. Am salvat cursuri video de la abonamentele anterioare la portaluri de învățare și tutoriale bune de pe Youtube pentru utilizare offline pe NAS-ul meu.
 {{< gallery match="images/1/*.png" >}}
-De-a lungul timpului, am adunat 8845 de cursuri video cu 282616 videoclipuri individuale. Durata totală de funcționare este de aproximativ 2 ani. Absolut nebunesc! În acest tutorial vă arăt cum să faceți o copie de rezervă a tutorialelor bune de pe Youtube cu un serviciu de descărcare Docker pentru scopuri offline.
+De-a lungul timpului, am adunat 8845 de cursuri video cu 282616 videoclipuri individuale. Durata totală de funcționare este de aproximativ 2 ani. Absolut nebunesc! În acest tutorial vă arăt cum să faceți o copie de rezervă a tutorialelor bune de pe Youtube cu un serviciu de descărcare Docker în scopuri offline.
 ## Opțiune pentru profesioniști
 În calitate de utilizator experimentat Synology, vă puteți, desigur, conecta cu SSH și instala întreaga configurație prin intermediul fișierului Docker Compose.
 ```
@@ -38,7 +38,7 @@ După descărcarea imaginii, aceasta este disponibilă ca imagine. Docker face d
 ## Pasul 3: Puneți imaginea în funcțiune:
 Dau dublu clic pe imaginea mea youtube-dl-nas.
 {{< gallery match="images/4/*.png" >}}
-Apoi fac clic pe "Setări avansate" și activez "Repornire automată". Selectez fila "Volum" și fac clic pe "Adaugă folder". Acolo creez un nou dosar pentru baza de date cu această cale de montare "/downfolder".
+Apoi fac clic pe "Setări avansate" și activez "Repornire automată". Selectez fila "Volum" și fac clic pe "Adaugă folder". Acolo creez un nou folder de baze de date cu această cale de montare "/downfolder".
 {{< gallery match="images/5/*.png" >}}
 Am atribuit porturi fixe pentru containerul "Youtube Downloader". Fără porturi fixe, s-ar putea ca "Youtube Downloader" să ruleze pe un port diferit după o repornire.
 {{< gallery match="images/6/*.png" >}}

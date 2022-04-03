@@ -42,11 +42,11 @@ services:
     restart: unless-stopped
 
 ```
-V tomto novém souboru je třeba upravit několik míst takto: * PUID/PGID: V poli PUID/PGID je třeba zadat ID uživatele a skupiny uživatele DS. Zde použiji konzolu z "kroku 1" a příkaz "id -u" pro zobrazení ID uživatele. Příkazem "id -g" získám ID skupiny.* porty: U portu je třeba upravit přední část "8055:".adresářeVšechny adresáře v tomto souboru je třeba opravit. Správné adresy lze zjistit v okně vlastností DS. (Následuje snímek obrazovky)
+V tomto novém souboru je třeba upravit několik míst takto: * PUID/PGID: V poli PUID/PGID je třeba zadat ID uživatele a skupiny uživatele DS. Zde použiji konzolu z "kroku 1" a příkaz "id -u", abych zjistil ID uživatele. Příkazem "id -g" získám ID skupiny.* porty: U portu je třeba upravit přední část "8055:".adresářeVšechny adresáře v tomto souboru je třeba opravit. Správné adresy lze zjistit v okně vlastností DS. (Následuje snímek obrazovky)
 {{< gallery match="images/6/*.png" >}}
 
 ## Krok 5: Testovací spuštění
-V tomto kroku mohu také dobře využít konzolu. Přepnu se do adresáře Calibre a spustím tam server Calibre pomocí nástroje Docker Compose.
+V tomto kroku mohu také dobře využít konzolu. Přepnu se do adresáře Calibre a spustím v něm server Calibre pomocí nástroje Docker Compose.
 {{< terminal >}}
 cd /volume1/docker/calibre
 sudo docker-compose -f calibre.yml up -d

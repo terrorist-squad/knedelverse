@@ -5,7 +5,7 @@ difficulty = "level-3"
 tags = ["diy", "diy-smart-tv", "libreelec", "linux", "mediacenter", "mediapc", "raspberry", "raspberry-pi", "smartv"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2019/july/20190717-LibreElec/index.sk.md"
 +++
-SmartTV môžu byť časované bomby. Operačné systémy televízorov často obsahujú závažné nedostatky alebo nie sú aktualizované. Dobrým riešením môže byť samostatný operačný systém MediaPC. LibreElec beží na najslabšej Malina a možno ho ovládať pomocou diaľkového ovládača televízora. LibreElec je viac prispôsobiteľný ako operačný systém SmartTv a ponúka rôzne aplikácie/moduly. Potrebujete len RaspberryZeroW a prázdnu kartu SD.
+SmartTV môžu byť časované bomby. Operačné systémy televízorov často obsahujú závažné nedostatky alebo nie sú aktualizované. Dobrým riešením môže byť samostatný operačný systém MediaPC. LibreElec beží na najslabšej Malina a môže byť ovládaný pomocou diaľkového ovládača televízora. LibreElec je viac prispôsobiteľný ako operačný systém SmartTv a ponúka rôzne aplikácie/moduly. Potrebujete len RaspberryZeroW a prázdnu kartu SD.
 ## Krok 1:
 Stiahnite si inštalačný program Noobs zo stránky https://www.raspberrypi.org/downloads/noobs/.
 ## Krok 2:
@@ -19,3 +19,4 @@ Potom je inštalácia dokončená a spustiteľná
 "{{< gallery match="images/4/*.jpg" >}}"
 Teraz môžete tento počítač MediaPc pripojiť k externým zdrojom, ako je napríklad NAS, alebo nainštalovať aplikácie, ako je napríklad Youtube. Bavte sa!   
 "{{< gallery match="images/5/*.jpg" >}}"
+Ako už bolo napísané, diaľkové ovládanie televízora môžete používať aj prostredníctvom ovládača CEC.

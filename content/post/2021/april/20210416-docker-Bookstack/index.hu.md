@@ -7,7 +7,7 @@ githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content
 +++
 A Bookstack a MediaWiki vagy a Confluence "nyílt forráskódú" alternatívája. Ma megmutatom, hogyan kell telepíteni a Bookstack szolgáltatást a Synology lemezállomáson.
 ## Lehetőség szakemberek számára
-Tapasztalt Synology felhasználóként természetesen bejelentkezhet SSH-val, és telepítheti a teljes telepítést Docker Compose fájlon keresztül.
+Tapasztalt Synology felhasználóként természetesen bejelentkezhet SSH-n keresztül, és telepítheti a teljes telepítést Docker Compose fájlon keresztül.
 ```
 version: '3'
 services:
@@ -46,9 +46,9 @@ Ezután létre kell hozni egy adatbázist. A Synology Docker ablakban a "Regiszt
 {{< gallery match="images/2/*.png" >}}
 A kép letöltése után a kép képként elérhető. A Docker 2 állapotot különböztet meg, a konténer "dinamikus állapotát" és a képet (rögzített állapot). Mielőtt létrehoznánk egy konténert a képből, néhány beállítást el kell végezni. Duplán kattintok a mariadb képemre.
 {{< gallery match="images/3/*.png" >}}
-Ezután a "Speciális beállítások" menüpontra kattintok, és aktiválom az "Automatikus újraindítás" opciót. Kiválasztom a "Kötet" lapot, és a "Mappa hozzáadása" gombra kattintok. Ott létrehozok egy új adatbázis mappát ezzel a mount útvonallal "/var/lib/mysql".
+Ezután a "Speciális beállítások" gombra kattintok, és aktiválom az "Automatikus újraindítás" opciót. Kiválasztom a "Kötet" lapot, és a "Mappa hozzáadása" gombra kattintok. Ott létrehozok egy új adatbázis mappát ezzel a mount útvonallal "/var/lib/mysql".
 {{< gallery match="images/4/*.png" >}}
-A "Portbeállítások" alatt az összes port törlésre kerül. Ez azt jelenti, hogy kiválasztom a "3306" portot, és a "-" gombbal törlöm.
+A "Portbeállítások" alatt az összes port törlődik. Ez azt jelenti, hogy kiválasztom a "3306" portot, és a "-" gombbal törlöm.
 {{< gallery match="images/5/*.png" >}}
 {{<table "table table-striped table-bordered">}}
 |Változó neve|Érték|Mi ez?|
@@ -86,3 +86,4 @@ A konténer most már elindítható. Az adatbázis létrehozása eltarthat egy i
 {{< gallery match="images/12/*.png" >}}
 A Synology IP-címével és a konténerportommal hívom a Bookstack szervert. A bejelentkezési név "admin@admin.com", a jelszó pedig "password".
 {{< gallery match="images/13/*.png" >}}
+

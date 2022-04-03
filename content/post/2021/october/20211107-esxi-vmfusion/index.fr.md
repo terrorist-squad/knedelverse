@@ -9,3 +9,4 @@ Dans ce petit tutoriel, je montre comment contrôler les machines ESXi à distan
 {{< gallery match="images/1/*.png" >}}
 Maintenant, mon VMware-Fusion est connecté en tant que client au serveur ESXi.
 {{< gallery match="images/2/*.png" >}}
+

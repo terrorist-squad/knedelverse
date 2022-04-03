@@ -1,13 +1,13 @@
 +++
 date = "2020-02-14"
-title = "Raspberry PI：PI CPUのヒートフリー化"
+title = "Raspberry PI：PI用CPUのヒートフリー化"
 difficulty = "level-3"
 tags = ["bash", "cpu", "cron", "linux", "maker", "raspberry", "raspberry-pi"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2020/february/20200214-rpi-cpu-temp/index.ja.md"
 +++
 
 {{< gallery match="images/1/*.jpg" >}}
-特定の温度でRaspberryのスイッチを切りたい、という方にはぴったりですね。Crontab経由でCPUの温度をチェックするスクリプトがあります。
+特定の温度でラズベリーのスイッチを切るならCrontab経由でCPUの温度をチェックするスクリプトがあるのですが。
 ```
 #!/bin/sh
 #  This script reads the Broadcom SoC temperature value and shuts down if it
@@ -40,12 +40,12 @@ else
 fi
 
 ```
-このスクリプトには以下の権限が必要です。
+このスクリプトには、以下の権限が必要です。
 {{< terminal >}}
 chmod 775 /usr/local/bin/checkTemp.sh
 
 {{</ terminal >}}
-crontabエントリーの可能性。
+crontabのエントリーの可能性があります。
 ```
 */5 * * * * /usr/bin/sudo -H /usr/local/bin/checkTemp.sh >> /dev/null 2>&1
 

@@ -25,7 +25,7 @@ ip-server-2:ssh-port ansible_ssh_user=username
 ip-server-3:ssh-port ansible_ssh_user=username 
 
 ```
-Сега конфигурацията може да се провери по следния начин:
+Сега конфигурацията може да бъде проверена по следния начин:
 {{< terminal >}}
 ansible all -m ping --ssh-common-args='-o StrictHostKeyChecking=no'
 
@@ -37,3 +37,4 @@ ansible all -m ping --ssh-common-args='-o StrictHostKeyChecking=no'
 ansible raspi -m shell -a 'sudo /sbin/reboot'
 
 {{</ terminal >}}
+
