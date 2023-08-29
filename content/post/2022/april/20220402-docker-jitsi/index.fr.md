@@ -1,6 +1,6 @@
 +++
 date = "2022-04-02"
-title = "De grandes choses avec les conteneurs : installer Jitsy"
+title = "De grandes choses avec les conteneurs : installer Jitsi"
 difficulty = "level-5"
 tags = ["Jitsi", "docker", "docker-compose", "meeting", "video", "server", "synology"]
 githublink = "https://github.com/terrorist-squad/knedelverse/blob/master/content/post/2022/april/20220402-docker-jitsi/index.fr.md"
